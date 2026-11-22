@@ -43,3 +43,9 @@ Vercel: import the repo, framework Next.js, then set
 - `BLOB_READ_WRITE_TOKEN` + `BLOB_STORE_URL` — optional, moves accounts off local disk
 
 GitHub: enable Actions, then run `cycle` once from the Actions tab.
+
+## 24/7 without Vercel
+
+`engine/daemon.ps1` + Windows Task Scheduler task `TipLabCycle` run the full cycle every
+30 minutes on this PC. If Vercel is unreachable, the data still refreshes locally and the
+GitHub Action mirrors it once the repo is pushed.
