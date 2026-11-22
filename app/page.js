@@ -67,7 +67,10 @@ export default function Home() {
                         <small className={"tier " + p.tier}>{p.tier.toLowerCase()}</small>
                       </td>
                       <td>{Number(p.price).toFixed(2)}</td>
-                      <td className="edge">{(p.edgePct * 100).toFixed(0)}%</td>
+                      <td className="edge">
+                        {(p.edgePct * 100).toFixed(0)}%
+                        {p.modelPriced && <small className="tier">model price</small>}
+                      </td>
                       <td className="pend">Pending</td>
                     </tr>
                   ))}

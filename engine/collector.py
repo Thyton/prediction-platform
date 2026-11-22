@@ -263,6 +263,32 @@ def slug_teams(slug, y, mo, d):
     return pretty(parts[0]), pretty(parts[1])
 
 
+def bo3_finished(pages=60):
+    """Recent finished esports matches -> (team1, team2, score1, score2)."""
+    out = []
+    for page in range(1, pages // 10 + 1):
+        try:
+            d = get(f"{BO3}/matches?page={page}&per_page=10&sort=-end_date&filter[status][eq]=finished")
+        except Exception:
+            break
+        rows = d.get("results") or []
+        if not rows:
+            break
+        for r in rows:
+            s1, s2 = r.get("team1_score"), r.get("team2_score")
+            if s1 is None or s2 is None:
+                continue
+            try:
+                st = datetime.datetime.fromisoformat(r["start_date"].replace("Z", "+00:00"))
+                h, a = slug_teams(r.get("slug", ""), st.year, st.month, st.day)
+            except Exception:
+                continue
+            if h and a:
+                out.append((h, a, int(s1), int(s2)))
+        time.sleep(0.25)
+    return out
+
+
 def collect_esports():
     """Live + imminent esports matches. bo3's reverse-sort puts empty
     far-future bracket slots first, so scan pages and keep real team matchups."""

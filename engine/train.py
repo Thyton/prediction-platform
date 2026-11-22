@@ -60,6 +60,16 @@ def main():
     a = ap.parse_args()
     s = M.load()
     total = 0
+    # esports results from bo3 (finished matches carry winner_team_id)
+    try:
+        rows = C.bo3_finished(420)
+        for hn, an, hs, as_ in rows:
+            M.update(s, "esports", hn, an, hs, as_, margin_mult=1.0)
+            total += 1
+        print(f"  Esports: {len(rows)} finals", file=sys.stderr)
+    except Exception as e:
+        print(f"  ! esports: {e}", file=sys.stderr)
+
     for path, sport, label, two_way in C.ESPN_LEAGUES:
         if sport in ("atp", "wta"):      # tennis results are nested differently
             continue

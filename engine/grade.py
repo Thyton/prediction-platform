@@ -56,11 +56,33 @@ def day_results(path, sport, day):
     return out
 
 
+def bo3_final(match_id):
+    try:
+        d = C.get(f"{C.BO3}/matches?page=1&per_page=10&sort=-end_date&filter[status][eq]=finished")
+    except Exception:
+        return None
+    # bo3 has no id lookup; match by id in recent finished rows via full pages
+    for page in range(1, 6):
+        try:
+            d = C.get(f"{C.BO3}/matches?page={page}&per_page=10&sort=-end_date&filter[status][eq]=finished")
+        except Exception:
+            return None
+        for r in d.get("results") or []:
+            if str(r.get("id")) == str(match_id):
+                s1, s2 = r.get("team1_score"), r.get("team2_score")
+                if s1 is None or s2 is None:
+                    return None
+                return int(s1), int(s2)
+    return None
+
+
 def final_score(game_id, starts_at=None):
     """"nba:401910023" -> (home_score, away_score) or None."""
     sport, _, eid = game_id.partition(":")
     if not eid:
         return None
+    if sport == "esports":
+        return bo3_final(eid)
     for path, s, label, _ in C.ESPN_LEAGUES:
         if s != sport:
             continue

@@ -119,10 +119,13 @@ def model_probs(g, s):
 
 def evaluate(g, s):
     """Find the best side, using the model ONLY to correct the market's
-    favourite/dog split (so a well-known team isn't flattened by a cold start)."""
+    favourite/dog split (so a well-known team isn't flattened by a cold start).
+
+    Esports carry no price yet, so they take the pure-rating path and publish at
+    a stronger threshold instead of an edge."""
     m = (g.get("markets") or {}).get("h2h")
     if not m:
-        return None
+        return evaluate_no_market(g, s)
     try:
         books = int(m.get("bookCount") or 0)
         odds = float(m.get("bestOdds"))
@@ -160,6 +163,29 @@ def evaluate(g, s):
         "marketProb": round(mkH if side == "home" else mkA, 4),
         "edgePct": round(edge, 4), "tier": tier,
         "bookCount": books, "startsAt": g["startsAt"],
+        "home": g["home"], "away": g["away"],
+    }
+
+
+def evaluate_no_market(g, s):
+    """No price available (esports). Publish only clear model edges, priced at
+    the model probability with a small margin — flagged as 'model price'."""
+    if g.get("sport") != "esports":
+        return None
+    if not g.get("boType"):          # needs a known series length to be meaningful
+        return None
+    pH, pA, _ = model_probs(g, s)
+    side, prob = ("home", pH) if pH >= pA else ("away", pA)
+    edge = abs(pH - pA)
+    if edge < 0.20 or prob < 0.62:   # only strong, lopsided reads ship
+        return None
+    price = round(1 / max(prob * 1.02, 0.05), 2)   # 2% model margin
+    tier = "PREMIUM" if edge >= 0.40 else "HIGH" if edge >= 0.28 else "STANDARD"
+    return {
+        "gameId": g["id"], "match": g["match"], "league": g["league"], "sport": g["sport"],
+        "side": side, "price": price, "modelProb": round(prob, 4),
+        "marketProb": None, "edgePct": round(edge, 4), "tier": tier,
+        "bookCount": 0, "startsAt": g["startsAt"], "modelPriced": True,
         "home": g["home"], "away": g["away"],
     }
 
