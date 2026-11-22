@@ -13,36 +13,45 @@ import collector as C
 import model as M
 
 
-def finals_for(path, sport, two_way, days):
-    """Yield (home, away, hs, as) for finished events over the window."""
+from concurrent.futures import ThreadPoolExecutor
+
+
+def day_finals(path, day):
+    try:
+        d = C.get(f"{C.ESPN}/{path}/scoreboard", params={"dates": day})
+    except Exception:
+        return []
     out = []
-    for back in range(days):
-        day = (datetime.date.today() - datetime.timedelta(days=back)).strftime("%Y%m%d")
-        try:
-            d = C.get(f"{C.ESPN}/{path}/scoreboard", params={"dates": day})
-        except Exception:
+    for ev in d.get("events") or []:
+        comps = (ev.get("competitions") or [{}])[0].get("competitors") or []
+        if len(comps) < 2:
             continue
-        for ev in d.get("events") or []:
-            comps = (ev.get("competitions") or [{}])[0].get("competitors") or []
-            if len(comps) < 2:
-                continue
-            if (ev.get("status") or {}).get("type", {}).get("state") != "post":
-                continue
-            home = next((c for c in comps if c.get("homeAway") == "home"), None)
-            away = next((c for c in comps if c.get("homeAway") == "away"), None)
-            if not home or not away:
-                continue
-            hn = (home.get("team") or {}).get("displayName")
-            an = (away.get("team") or {}).get("displayName")
-            hs, as_ = home.get("score"), away.get("score")
-            if not hn or not an or hs in (None, "") or as_ in (None, ""):
-                continue
-            try:
-                out.append((hn, an, int(hs), int(as_)))
-            except (TypeError, ValueError):
-                continue
-        time.sleep(0.35)
+        if (ev.get("status") or {}).get("type", {}).get("state") != "post":
+            continue
+        home = next((c for c in comps if c.get("homeAway") == "home"), None)
+        away = next((c for c in comps if c.get("homeAway") == "away"), None)
+        if not home or not away:
+            continue
+        hn = (home.get("team") or {}).get("displayName")
+        an = (away.get("team") or {}).get("displayName")
+        hs, as_ = home.get("score"), away.get("score")
+        if not hn or not an or hs in (None, "") or as_ in (None, ""):
+            continue
+        try:
+            out.append((hn, an, int(hs), int(as_)))
+        except (TypeError, ValueError):
+            pass
     return out
+
+
+def finals_for(path, sport, two_way, days):
+    """All finals over the window, fetched 4 days at a time."""
+    day_list = [(datetime.date.today() - datetime.timedelta(days=b)).strftime("%Y%m%d") for b in range(days)]
+    rows = []
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        for batch in pool.map(lambda d: day_finals(path, d), day_list):
+            rows.extend(batch)
+    return rows
 
 
 def main():
