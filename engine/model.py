@@ -25,7 +25,7 @@ K_BY_SPORT = {  # lower K = more stable ratings
     "epl": 16, "laliga": 16, "seriea": 16, "bundesliga": 16, "ligue1": 16,
     "ucl": 14, "uel": 14, "mls": 16, "atp": 20, "wta": 20, "ufc": 20, "esports": 24,
 }
-DIV = {"epl":220,"laliga":220,"seriea":220,"bundesliga":220,"ligue1":220,"ucl":220,"uel":220,"mls":220}
+DIV = {"esports":600,"epl":220,"laliga":220,"seriea":220,"bundesliga":220,"ligue1":220,"ucl":220,"uel":220,"mls":220}
 CROSS_LEAGUE_MEMBERS = {"epl","laliga","seriea","bundesliga","ligue1","ucl","uel","mls"}
 CUP = {"ucl","uel"}
 DRAW_BASE = {"epl": .26, "laliga": .25, "seriea": .27, "bundesliga": .24,
@@ -183,10 +183,10 @@ def evaluate_no_market(g, s):
     pH, pA, _ = model_probs(g, s)
     side, prob = ("home", pH) if pH >= pA else ("away", pA)
     edge = abs(pH - pA)
-    if edge < 0.20 or prob < 0.62:   # only strong, lopsided reads ship
+    if edge < 0.12 or prob < 0.56:   # thin data: require a clear lean, not a blowout
         return None
     price = round(1 / max(prob * 1.02, 0.05), 2)   # 2% model margin
-    tier = "PREMIUM" if edge >= 0.40 else "HIGH" if edge >= 0.28 else "STANDARD"
+    tier = "PREMIUM" if edge >= 0.26 else "HIGH" if edge >= 0.18 else "STANDARD"
     return {
         "gameId": g["id"], "match": g["match"], "league": g["league"], "sport": g["sport"],
         "side": side, "price": price, "modelProb": round(prob, 4),

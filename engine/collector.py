@@ -263,29 +263,43 @@ def slug_teams(slug, y, mo, d):
     return pretty(parts[0]), pretty(parts[1])
 
 
-def bo3_finished(pages=60):
-    """Recent finished esports matches -> (team1, team2, score1, score2)."""
+def _bo3_page(query):
+    try:
+        d = get(f"{BO3}/matches?{query}")
+    except Exception:
+        return []
+    return d.get("results") or []
+
+
+def bo3_pool():
+    """bo3 ignores paging and most filters, so distinct rows come from combining the
+    status and sort variants that do work. Deduped by match id."""
+    seen = {}
+    for st in ("finished", "live", "upcoming"):
+        for srt in ("-end_date", "-start_date", "id", "-id"):
+            for row in _bo3_page(f"per_page=10&filter[status][]={st}&sort={srt}"):
+                if row.get("id") and row.get("team1_id") and row.get("team2_id"):
+                    seen[row["id"]] = row
+            time.sleep(0.2)
+    return list(seen.values())
+
+
+def bo3_finished(pages=None):
+    """Finished esports matches with names and scores, deduped."""
     out = []
-    for page in range(1, pages // 10 + 1):
+    for r in bo3_pool():
+        if r.get("status") not in ("finished", "defwin"):
+            continue
+        s1, s2 = r.get("team1_score"), r.get("team2_score")
+        if s1 is None or s2 is None:
+            continue
         try:
-            d = get(f"{BO3}/matches?page={page}&per_page=10&sort=-end_date&filter[status][eq]=finished")
+            st = datetime.datetime.fromisoformat(r["start_date"].replace("Z", "+00:00"))
+            h, a = slug_teams(r.get("slug", ""), st.year, st.month, st.day)
         except Exception:
-            break
-        rows = d.get("results") or []
-        if not rows:
-            break
-        for r in rows:
-            s1, s2 = r.get("team1_score"), r.get("team2_score")
-            if s1 is None or s2 is None:
-                continue
-            try:
-                st = datetime.datetime.fromisoformat(r["start_date"].replace("Z", "+00:00"))
-                h, a = slug_teams(r.get("slug", ""), st.year, st.month, st.day)
-            except Exception:
-                continue
-            if h and a:
-                out.append((h, a, int(s1), int(s2)))
-        time.sleep(0.25)
+            continue
+        if h and a:
+            out.append((h, a, int(s1), int(s2)))
     return out
 
 
