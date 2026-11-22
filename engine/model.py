@@ -25,6 +25,8 @@ K_BY_SPORT = {  # lower K = more stable ratings
     "epl": 16, "laliga": 16, "seriea": 16, "bundesliga": 16, "ligue1": 16,
     "ucl": 14, "uel": 14, "mls": 16, "atp": 20, "wta": 20, "ufc": 20, "esports": 24,
 }
+CROSS_LEAGUE_MEMBERS = {"epl","laliga","seriea","bundesliga","ligue1","ucl","uel","mls"}
+CUP = {"ucl","uel"}
 DRAW_BASE = {"epl": .26, "laliga": .25, "seriea": .27, "bundesliga": .24,
              "ligue1": .25, "ucl": .24, "uel": .25, "mls": .24}
 MIN_EDGE = 0.045      # 4.5% model-vs-market edge required
@@ -70,6 +72,13 @@ def update(s, sport, home, away, home_score, away_score, margin_mult=1.0):
     s["ratings"][sport][home] = round(a + k * (sa - ea), 17)
     s["ratings"][sport][away] = round(b + k * (sb - (1 - ea)), 17)
     s["played"] = s.get("played", 0) + 1
+    if sport in CROSS_LEAGUE_MEMBERS:      # keep an all-soccer pool for cups
+        pool = s["ratings"].setdefault("soccer_all", {})
+        pa = pool.get(home, a)
+        pb = pool.get(away, b)
+        epa = expected(pa, pb)
+        pool[home] = round(pa + k * (sa - epa), 17)
+        pool[away] = round(pb + k * (sb - (1 - epa)), 17)
 
 
 def devig(fav_dec, other_dec):
@@ -92,8 +101,13 @@ def model_probs(g, s):
     """Elo -> home/away (and draw) probabilities, home-advantage adjusted."""
     sport = g["sport"]
     ha = 55.0 if sport != "tennis" and sport not in ("atp", "wta", "ufc") else 0.0
-    a = rating(s, sport, g["home"]) + ha
-    b = rating(s, sport, g["away"])
+    if sport in CUP:
+        pool = s["ratings"].get("soccer_all") or {}
+        a = pool.get(g["home"], rating(s, sport, g["home"])) + ha
+        b = pool.get(g["away"], rating(s, sport, g["away"]))
+    else:
+        a = rating(s, sport, g["home"]) + ha
+        b = rating(s, sport, g["away"])
     e = expected(a, b)
     if g.get("drawPossible"):
         base = DRAW_BASE.get(sport, .25)
