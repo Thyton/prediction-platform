@@ -1,56 +1,14 @@
 {
- "generatedAt": "2026-11-22T17:01:22.679961+00:00",
+ "generatedAt": "2026-11-22T21:39:12.069823+00:00",
  "games": [
   {
-   "id": "esports:133876",
+   "id": "esports:134477",
    "sport": "esports",
    "league": "Esports",
-   "match": "Phantom Esports vs Tpudcatb Tpu",
-   "home": "Tpudcatb Tpu",
-   "away": "Phantom Esports",
-   "startsAt": "2026-11-22T09:00:00.000+00:00",
-   "state": "finished",
-   "markets": {},
-   "tier": "b",
-   "boType": 3,
-   "drawPossible": false
-  },
-  {
-   "id": "esports:134579",
-   "sport": "esports",
-   "league": "Esports",
-   "match": "Infurity Gaming vs Banda Chuya",
-   "home": "Banda Chuya",
-   "away": "Infurity Gaming",
-   "startsAt": "2026-11-22T09:15:00.000+00:00",
-   "state": "defwin",
-   "markets": {},
-   "tier": "c",
-   "boType": 1,
-   "drawPossible": false
-  },
-  {
-   "id": "esports:134631",
-   "sport": "esports",
-   "league": "Esports",
-   "match": "Astron vs Revise",
-   "home": "Revise",
-   "away": "Astron",
-   "startsAt": "2026-11-22T09:20:00.000+00:00",
-   "state": "finished",
-   "markets": {},
-   "tier": "c",
-   "boType": 3,
-   "drawPossible": false
-  },
-  {
-   "id": "esports:133947",
-   "sport": "esports",
-   "league": "Esports",
-   "match": "Wbt vs Forze Reload",
-   "home": "Forze Reload",
-   "away": "Wbt",
-   "startsAt": "2026-11-22T09:25:00.000+00:00",
+   "match": "Famalicao vs Rebels Gaming Cs",
+   "home": "Rebels Gaming Cs",
+   "away": "Famalicao",
+   "startsAt": "2026-11-22T14:00:00.000+00:00",
    "state": "finished",
    "markets": {},
    "tier": "c",
@@ -58,13 +16,13 @@
    "drawPossible": false
   },
   {
-   "id": "esports:133415",
+   "id": "esports:134017",
    "sport": "esports",
    "league": "Esports",
-   "match": "Ex Rustec vs Butterfly",
-   "home": "Butterfly",
-   "away": "Ex Rustec",
-   "startsAt": "2026-11-22T11:00:00.000+00:00",
+   "match": "Sinners vs Envyus",
+   "home": "Envyus",
+   "away": "Sinners",
+   "startsAt": "2026-11-22T16:30:00.000+00:00",
    "state": "finished",
    "markets": {},
    "tier": "b",
@@ -72,13 +30,13 @@
    "drawPossible": false
   },
   {
-   "id": "esports:133457",
+   "id": "esports:134580",
    "sport": "esports",
    "league": "Esports",
-   "match": "Monkeys vs Unity",
-   "home": "Unity",
-   "away": "Monkeys",
-   "startsAt": "2026-11-22T12:00:00.000+00:00",
+   "match": "Mouz Nxt vs Lunacy Team",
+   "home": "Lunacy Team",
+   "away": "Mouz Nxt",
+   "startsAt": "2026-11-22T18:10:00.000+00:00",
    "state": "finished",
    "markets": {},
    "tier": "c",
@@ -86,27 +44,13 @@
    "drawPossible": false
   },
   {
-   "id": "esports:133874",
+   "id": "esports:134763",
    "sport": "esports",
    "league": "Esports",
-   "match": "Infinite Gaming vs Virtus Pro",
-   "home": "Virtus Pro",
-   "away": "Infinite Gaming",
-   "startsAt": "2026-11-22T12:20:00.000+00:00",
-   "state": "finished",
-   "markets": {},
-   "tier": "b",
-   "boType": 3,
-   "drawPossible": false
-  },
-  {
-   "id": "esports:134632",
-   "sport": "esports",
-   "league": "Esports",
-   "match": "Benched Gods vs Vexar",
-   "home": "Vexar",
-   "away": "Benched Gods",
-   "startsAt": "2026-11-22T13:00:00.000+00:00",
+   "match": "Underworld vs Mira Br",
+   "home": "Mira Br",
+   "away": "Underworld",
+   "startsAt": "2026-11-22T18:15:00.000+00:00",
    "state": "finished",
    "markets": {},
    "tier": "c",
@@ -114,13 +58,69 @@
    "drawPossible": false
   },
   {
-   "id": "esports:134717",
+   "id": "esports:134824",
    "sport": "esports",
    "league": "Esports",
-   "match": "Growth Lab Esports vs Glitchtech Esports",
-   "home": "Glitchtech Esports",
-   "away": "Growth Lab Esports",
-   "startsAt": "2026-11-22T14:15:00.000+00:00",
+   "match": "Fire Flux vs Al Ahli Esports",
+   "home": "Al Ahli Esports",
+   "away": "Fire Flux",
+   "startsAt": "2026-11-22T18:45:00.000+00:00",
+   "state": "finished",
+   "markets": {},
+   "tier": "c",
+   "boType": 1,
+   "drawPossible": false
+  },
+  {
+   "id": "esports:134115",
+   "sport": "esports",
+   "league": "Esports",
+   "match": "Younglings vs Banger Gang",
+   "home": "Banger Gang",
+   "away": "Younglings",
+   "startsAt": "2026-11-22T18:45:00.000+00:00",
+   "state": "finished",
+   "markets": {},
+   "tier": "c",
+   "boType": 1,
+   "drawPossible": false
+  },
+  {
+   "id": "esports:134779",
+   "sport": "esports",
+   "league": "Esports",
+   "match": "Notime vs Gothboiclique",
+   "home": "Gothboiclique",
+   "away": "Notime",
+   "startsAt": "2026-11-22T19:00:00.000+00:00",
+   "state": "finished",
+   "markets": {},
+   "tier": "c",
+   "boType": 3,
+   "drawPossible": false
+  },
+  {
+   "id": "esports:134778",
+   "sport": "esports",
+   "league": "Esports",
+   "match": "Sharadictator vs Axe Cs",
+   "home": "Axe Cs",
+   "away": "Sharadictator",
+   "startsAt": "2026-11-22T19:15:00.000+00:00",
+   "state": "finished",
+   "markets": {},
+   "tier": "c",
+   "boType": 3,
+   "drawPossible": false
+  },
+  {
+   "id": "esports:133337",
+   "sport": "esports",
+   "league": "Esports",
+   "match": "Fire Flux vs Banger Gang",
+   "home": "Banger Gang",
+   "away": "Fire Flux",
+   "startsAt": "2026-11-22T20:00:00.000+00:00",
    "state": "defwin",
    "markets": {},
    "tier": "c",
@@ -128,16 +128,16 @@
    "drawPossible": false
   },
   {
-   "id": "esports:134819",
+   "id": "esports:133875",
    "sport": "esports",
    "league": "Esports",
-   "match": "Lilmix vs Phantom Academy",
-   "home": "Phantom Academy",
-   "away": "Lilmix",
-   "startsAt": "2026-11-22T15:00:00.000+00:00",
+   "match": "Team Aces vs Iberian Soul",
+   "home": "Iberian Soul",
+   "away": "Team Aces",
+   "startsAt": "2026-11-22T20:00:00.000+00:00",
    "state": "defwin",
    "markets": {},
-   "tier": "c",
+   "tier": "b",
    "boType": 1,
    "drawPossible": false
   },
@@ -225,7 +225,15 @@
    "_path": "basketball/mens-college-basketball",
    "_eid": "401921708",
    "_cid": "401921708",
-   "markets": {},
+   "markets": {
+    "h2h": {
+     "outcome": "BYU Cougars",
+     "bestOdds": 1.182,
+     "otherOdds": 5.1,
+     "bookCount": "1",
+     "favSide": "home"
+    }
+   },
    "espnUrl": null,
    "drawPossible": false
   },
@@ -273,7 +281,15 @@
    "_path": "hockey/nhl",
    "_eid": "401892773",
    "_cid": "401892773",
-   "markets": {},
+   "markets": {
+    "h2h": {
+     "outcome": "New Jersey Devils",
+     "bestOdds": 1.488,
+     "otherOdds": 2.7,
+     "bookCount": "1",
+     "favSide": "home"
+    }
+   },
    "espnUrl": null,
    "drawPossible": false
   },
@@ -337,7 +353,15 @@
    "_path": "hockey/nhl",
    "_eid": "401892774",
    "_cid": "401892774",
-   "markets": {},
+   "markets": {
+    "h2h": {
+     "outcome": "Montreal Canadiens",
+     "bestOdds": 1.676,
+     "otherOdds": 2.24,
+     "bookCount": "1",
+     "favSide": "home"
+    }
+   },
    "espnUrl": null,
    "drawPossible": false
   },
@@ -353,7 +377,15 @@
    "_path": "hockey/nhl",
    "_eid": "401892775",
    "_cid": "401892775",
-   "markets": {},
+   "markets": {
+    "h2h": {
+     "outcome": "Ottawa Senators",
+     "bestOdds": 1.459,
+     "otherOdds": 2.8,
+     "bookCount": "1",
+     "favSide": "home"
+    }
+   },
    "espnUrl": null,
    "drawPossible": false
   },
@@ -369,7 +401,15 @@
    "_path": "hockey/nhl",
    "_eid": "401892776",
    "_cid": "401892776",
-   "markets": {},
+   "markets": {
+    "h2h": {
+     "outcome": "New York Islanders",
+     "bestOdds": 1.676,
+     "otherOdds": 2.24,
+     "bookCount": "1",
+     "favSide": "home"
+    }
+   },
    "espnUrl": null,
    "drawPossible": false
   },
@@ -385,7 +425,15 @@
    "_path": "hockey/nhl",
    "_eid": "401892777",
    "_cid": "401892777",
-   "markets": {},
+   "markets": {
+    "h2h": {
+     "outcome": "Utah Mammoth",
+     "bestOdds": 1.893,
+     "otherOdds": 1.926,
+     "bookCount": "1",
+     "favSide": "away"
+    }
+   },
    "espnUrl": null,
    "drawPossible": false
   },
@@ -529,7 +577,15 @@
    "_path": "hockey/nhl",
    "_eid": "401892778",
    "_cid": "401892778",
-   "markets": {},
+   "markets": {
+    "h2h": {
+     "outcome": "Seattle Kraken",
+     "bestOdds": 1.87,
+     "otherOdds": 1.952,
+     "bookCount": "1",
+     "favSide": "home"
+    }
+   },
    "espnUrl": null,
    "drawPossible": false
   },
@@ -577,7 +633,15 @@
    "_path": "hockey/nhl",
    "_eid": "401892779",
    "_cid": "401892779",
-   "markets": {},
+   "markets": {
+    "h2h": {
+     "outcome": "Minnesota Wild",
+     "bestOdds": 1.459,
+     "otherOdds": 2.8,
+     "bookCount": "1",
+     "favSide": "away"
+    }
+   },
    "espnUrl": null,
    "drawPossible": false
   },
@@ -593,7 +657,15 @@
    "_path": "basketball/mens-college-basketball",
    "_eid": "401909743",
    "_cid": "401909743",
-   "markets": {},
+   "markets": {
+    "h2h": {
+     "outcome": "Arizona Wildcats",
+     "bestOdds": 1.042,
+     "otherOdds": 13.0,
+     "bookCount": "1",
+     "favSide": "home"
+    }
+   },
    "espnUrl": null,
    "drawPossible": false
   },
@@ -636,7 +708,7 @@
    "markets": {
     "h2h": {
      "outcome": "Aston Villa",
-     "bestOdds": 2.4,
+     "bestOdds": 2.35,
      "otherOdds": 2.65,
      "bookCount": "1",
      "favSide": "away"
@@ -716,8 +788,8 @@
    "markets": {
     "h2h": {
      "outcome": "Como",
-     "bestOdds": 1.303,
-     "otherOdds": 9.0,
+     "bestOdds": 1.278,
+     "otherOdds": 9.5,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -764,7 +836,7 @@
    "markets": {
     "h2h": {
      "outcome": "Manchester City",
-     "bestOdds": 1.25,
+     "bestOdds": 1.263,
      "otherOdds": 10.0,
      "bookCount": "1",
      "favSide": "home"
@@ -1077,7 +1149,7 @@
     "h2h": {
      "outcome": "Barcelona",
      "bestOdds": 1.071,
-     "otherOdds": 20.0,
+     "otherOdds": 21.0,
      "bookCount": "1",
      "favSide": "away"
     }
@@ -1101,7 +1173,7 @@
     "h2h": {
      "outcome": "Villarreal",
      "bestOdds": 2.15,
-     "otherOdds": 3.0,
+     "otherOdds": 3.05,
      "bookCount": "1",
      "favSide": "away"
     }
@@ -1140,8 +1212,8 @@
    "markets": {
     "h2h": {
      "outcome": "Atlético Madrid",
-     "bestOdds": 1.1,
-     "otherOdds": 19.0,
+     "bestOdds": 1.111,
+     "otherOdds": 20.0,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -1188,8 +1260,8 @@
    "markets": {
     "h2h": {
      "outcome": "Internazionale",
-     "bestOdds": 1.417,
-     "otherOdds": 5.75,
+     "bestOdds": 1.426,
+     "otherOdds": 6.0,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -1213,7 +1285,7 @@
     "h2h": {
      "outcome": "Bayern Munich",
      "bestOdds": 1.606,
-     "otherOdds": 4.9,
+     "otherOdds": 5.0,
      "bookCount": "1",
      "favSide": "away"
     }
@@ -1236,7 +1308,7 @@
    "markets": {
     "h2h": {
      "outcome": "Paris Saint-Germain",
-     "bestOdds": 1.377,
+     "bestOdds": 1.385,
      "otherOdds": 7.0,
      "bookCount": "1",
      "favSide": "home"
@@ -1259,11 +1331,11 @@
    "_cid": "401915375",
    "markets": {
     "h2h": {
-     "outcome": "Shakhtar Donetsk",
+     "outcome": "Fenerbahce",
      "bestOdds": 2.6,
-     "otherOdds": 2.6,
+     "otherOdds": 2.65,
      "bookCount": "1",
-     "favSide": "home"
+     "favSide": "away"
     }
    },
    "espnUrl": null,
@@ -1285,7 +1357,7 @@
     "h2h": {
      "outcome": "Sporting CP",
      "bestOdds": 2.55,
-     "otherOdds": 2.55,
+     "otherOdds": 2.6,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -1596,8 +1668,8 @@
    "markets": {
     "h2h": {
      "outcome": "Los Angeles Rams",
-     "bestOdds": 1.592,
-     "otherOdds": 2.42,
+     "bestOdds": 1.588,
+     "otherOdds": 2.43,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -1843,11 +1915,11 @@
    "_cid": "401915521",
    "markets": {
     "h2h": {
-     "outcome": "Olympiacos",
-     "bestOdds": 2.45,
-     "otherOdds": 2.8,
+     "outcome": "AC Milan",
+     "bestOdds": 2.55,
+     "otherOdds": 2.7,
      "bookCount": "1",
-     "favSide": "home"
+     "favSide": "away"
     }
    },
    "espnUrl": null,
@@ -1940,8 +2012,8 @@
    "markets": {
     "h2h": {
      "outcome": "Chicago Bears",
-     "bestOdds": 1.676,
-     "otherOdds": 2.25,
+     "bestOdds": 1.709,
+     "otherOdds": 2.2,
      "bookCount": "1",
      "favSide": "away"
     }
@@ -2252,8 +2324,8 @@
    "markets": {
     "h2h": {
      "outcome": "Dallas Cowboys",
-     "bestOdds": 1.244,
-     "otherOdds": 4.22,
+     "bestOdds": 1.23,
+     "otherOdds": 4.39,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -2308,8 +2380,8 @@
    "markets": {
     "h2h": {
      "outcome": "Buffalo Bills",
-     "bestOdds": 1.617,
-     "otherOdds": 2.37,
+     "bestOdds": 1.629,
+     "otherOdds": 2.34,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -2357,7 +2429,7 @@
     "h2h": {
      "outcome": "Bologna",
      "bestOdds": 2.0,
-     "otherOdds": 3.4,
+     "otherOdds": 3.45,
      "bookCount": "1",
      "favSide": "away"
     }
@@ -2381,7 +2453,7 @@
     "h2h": {
      "outcome": "Paris FC",
      "bestOdds": 2.25,
-     "otherOdds": 3.1,
+     "otherOdds": 3.15,
      "bookCount": "1",
      "favSide": "away"
     }
@@ -2516,8 +2588,8 @@
    "markets": {
     "h2h": {
      "outcome": "Frosinone",
-     "bestOdds": 1.513,
-     "otherOdds": 4.8,
+     "bestOdds": 1.476,
+     "otherOdds": 5.0,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -2628,8 +2700,8 @@
    "markets": {
     "h2h": {
      "outcome": "Leeds United",
-     "bestOdds": 1.556,
-     "otherOdds": 5.5,
+     "bestOdds": 1.526,
+     "otherOdds": 5.75,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -2652,8 +2724,8 @@
    "markets": {
     "h2h": {
      "outcome": "Manchester United",
-     "bestOdds": 1.952,
-     "otherOdds": 3.5,
+     "bestOdds": 2.0,
+     "otherOdds": 3.4,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -2772,8 +2844,8 @@
    "markets": {
     "h2h": {
      "outcome": "Atlético Madrid",
-     "bestOdds": 1.625,
-     "otherOdds": 4.8,
+     "bestOdds": 1.588,
+     "otherOdds": 5.0,
      "bookCount": "1",
      "favSide": "away"
     }
@@ -2996,8 +3068,8 @@
    "markets": {
     "h2h": {
      "outcome": "Philadelphia Union",
-     "bestOdds": 1.488,
-     "otherOdds": 5.0,
+     "bestOdds": 1.513,
+     "otherOdds": 4.9,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -3049,7 +3121,15 @@
    "_path": "soccer/usa.1",
    "_eid": "401933721",
    "_cid": "401933721",
-   "markets": {},
+   "markets": {
+    "h2h": {
+     "outcome": "Portland Timbers",
+     "bestOdds": 2.05,
+     "otherOdds": 2.9,
+     "bookCount": "1",
+     "favSide": "home"
+    }
+   },
    "espnUrl": null,
    "drawPossible": true
   },
@@ -3492,8 +3572,8 @@
    "markets": {
     "h2h": {
      "outcome": "Lyon",
-     "bestOdds": 2.3,
-     "otherOdds": 2.95,
+     "bestOdds": 2.35,
+     "otherOdds": 2.9,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -3516,8 +3596,8 @@
    "markets": {
     "h2h": {
      "outcome": "Real Sociedad",
-     "bestOdds": 2.1,
-     "otherOdds": 3.25,
+     "bestOdds": 2.15,
+     "otherOdds": 3.15,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -3540,8 +3620,8 @@
    "markets": {
     "h2h": {
      "outcome": "Atalanta",
-     "bestOdds": 1.87,
-     "otherOdds": 3.4,
+     "bestOdds": 1.909,
+     "otherOdds": 3.45,
      "bookCount": "1",
      "favSide": "away"
     }
@@ -3564,8 +3644,8 @@
    "markets": {
     "h2h": {
      "outcome": "AC Milan",
-     "bestOdds": 1.645,
-     "otherOdds": 4.4,
+     "bestOdds": 1.667,
+     "otherOdds": 4.5,
      "bookCount": "1",
      "favSide": "away"
     }
@@ -3589,7 +3669,7 @@
     "h2h": {
      "outcome": "Espanyol",
      "bestOdds": 2.1,
-     "otherOdds": 3.7,
+     "otherOdds": 3.75,
      "bookCount": "1",
      "favSide": "home"
     }

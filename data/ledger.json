@@ -227,6 +227,44 @@
    "lockTs": "2026-11-22T17:03:01.559205+00:00",
    "result": null,
    "profitUnits": null
+  },
+  {
+   "gameId": "nhl:401892774",
+   "match": "Los Angeles Kings @ Montreal Canadiens",
+   "league": "NHL",
+   "sport": "nhl",
+   "side": "home",
+   "price": 1.68,
+   "modelProb": 0.6042,
+   "marketProb": 0.555,
+   "edgePct": 0.0491,
+   "tier": "STANDARD",
+   "bookCount": 1,
+   "startsAt": "2026-11-24T00:30Z",
+   "home": "Montreal Canadiens",
+   "away": "Los Angeles Kings",
+   "lockTs": "2026-11-22T21:39:12.140831+00:00",
+   "result": null,
+   "profitUnits": null
+  },
+  {
+   "gameId": "ncaab:401909743",
+   "match": "Colorado State Rams @ Arizona Wildcats",
+   "league": "NCAAB",
+   "sport": "ncaab",
+   "side": "away",
+   "price": 9.32,
+   "modelProb": 0.1583,
+   "marketProb": 0.1073,
+   "edgePct": 0.051,
+   "tier": "STANDARD",
+   "bookCount": 1,
+   "startsAt": "2026-11-24T04:30Z",
+   "home": "Arizona Wildcats",
+   "away": "Colorado State Rams",
+   "lockTs": "2026-11-22T21:39:12.140831+00:00",
+   "result": null,
+   "profitUnits": null
   }
  ]
 }

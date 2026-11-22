@@ -33,8 +33,8 @@ export default function Method() {
           <p className="eyebrow">3 · EDGE</p>
           <h3>Only real disagreement ships</h3>
           <p>
-            A pick releases only when the model&apos;s probability beats the market probability by at least 4.5%
-            (7.5% when only one book is quoting). Otherwise the game is watched, not tipped.
+            A pick releases only when the model&apos;s probability beats the de-vigged market probability by at
+            least 4.5%. Otherwise the game is watched, not tipped.
           </p>
         </article>
         <article>

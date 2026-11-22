@@ -1,6 +1,22 @@
 {
- "generatedAt": "2026-11-22T17:02:40.765273+00:00",
+ "generatedAt": "2026-11-22T21:39:12.131925+00:00",
  "picks": [
+  {
+   "gameId": "nhl:401892774",
+   "match": "Los Angeles Kings @ Montreal Canadiens",
+   "league": "NHL",
+   "sport": "nhl",
+   "side": "home",
+   "price": 1.68,
+   "modelProb": 0.6042,
+   "marketProb": 0.555,
+   "edgePct": 0.0491,
+   "tier": "STANDARD",
+   "bookCount": 1,
+   "startsAt": "2026-11-24T00:30Z",
+   "home": "Montreal Canadiens",
+   "away": "Los Angeles Kings"
+  },
   {
    "gameId": "nfl:401873078",
    "match": "Cincinnati Bengals @ Washington Commanders",
@@ -18,16 +34,32 @@
    "away": "Cincinnati Bengals"
   },
   {
+   "gameId": "ncaab:401909743",
+   "match": "Colorado State Rams @ Arizona Wildcats",
+   "league": "NCAAB",
+   "sport": "ncaab",
+   "side": "away",
+   "price": 9.32,
+   "modelProb": 0.1583,
+   "marketProb": 0.1073,
+   "edgePct": 0.051,
+   "tier": "STANDARD",
+   "bookCount": 1,
+   "startsAt": "2026-11-24T04:30Z",
+   "home": "Arizona Wildcats",
+   "away": "Colorado State Rams"
+  },
+  {
    "gameId": "ucl:401915297",
    "match": "Real Betis @ Slovan Bratislava",
    "league": "Champions League",
    "sport": "ucl",
    "side": "home",
    "price": 4.05,
-   "modelProb": 0.3169,
+   "modelProb": 0.2934,
    "marketProb": 0.2468,
-   "edgePct": 0.0701,
-   "tier": "HIGH",
+   "edgePct": 0.0466,
+   "tier": "STANDARD",
    "bookCount": 1,
    "startsAt": "2026-11-24T20:00Z",
    "home": "Slovan Bratislava",
@@ -40,9 +72,9 @@
    "sport": "ucl",
    "side": "home",
    "price": 7.61,
-   "modelProb": 0.2657,
+   "modelProb": 0.229,
    "marketProb": 0.1314,
-   "edgePct": 0.1343,
+   "edgePct": 0.0976,
    "tier": "PREMIUM",
    "bookCount": 1,
    "startsAt": "2026-11-25T17:45Z",
@@ -55,63 +87,15 @@
    "league": "Champions League",
    "sport": "ucl",
    "side": "away",
-   "price": 6.48,
-   "modelProb": 0.2378,
-   "marketProb": 0.1543,
-   "edgePct": 0.0834,
-   "tier": "HIGH",
+   "price": 6.15,
+   "modelProb": 0.2157,
+   "marketProb": 0.1627,
+   "edgePct": 0.053,
+   "tier": "STANDARD",
    "bookCount": 1,
    "startsAt": "2026-11-25T20:00Z",
    "home": "Atl\u00e9tico Madrid",
    "away": "Viking FK"
-  },
-  {
-   "gameId": "ucl:401915375",
-   "match": "Fenerbahce @ Shakhtar Donetsk",
-   "league": "Champions League",
-   "sport": "ucl",
-   "side": "home",
-   "price": 2.6,
-   "modelProb": 0.4059,
-   "marketProb": 0.3578,
-   "edgePct": 0.0481,
-   "tier": "STANDARD",
-   "bookCount": 1,
-   "startsAt": "2026-11-25T20:00Z",
-   "home": "Shakhtar Donetsk",
-   "away": "Fenerbahce"
-  },
-  {
-   "gameId": "ucl:401915373",
-   "match": "Manchester United @ Sporting CP",
-   "league": "Champions League",
-   "sport": "ucl",
-   "side": "home",
-   "price": 2.55,
-   "modelProb": 0.4253,
-   "marketProb": 0.3648,
-   "edgePct": 0.0605,
-   "tier": "HIGH",
-   "bookCount": 1,
-   "startsAt": "2026-11-25T20:00Z",
-   "home": "Sporting CP",
-   "away": "Manchester United"
-  },
-  {
-   "gameId": "uel:401915521",
-   "match": "AC Milan @ Olympiacos",
-   "league": "Europa League",
-   "sport": "uel",
-   "side": "home",
-   "price": 2.45,
-   "modelProb": 0.4307,
-   "marketProb": 0.3797,
-   "edgePct": 0.051,
-   "tier": "STANDARD",
-   "bookCount": 1,
-   "startsAt": "2026-11-26T17:45Z",
-   "home": "Olympiacos",
-   "away": "AC Milan"
   },
   {
    "gameId": "uel:401915520",
@@ -135,10 +119,10 @@
    "league": "NFL",
    "sport": "nfl",
    "side": "home",
-   "price": 2.25,
-   "modelProb": 0.5189,
-   "marketProb": 0.445,
-   "edgePct": 0.0739,
+   "price": 2.19,
+   "modelProb": 0.5248,
+   "marketProb": 0.4557,
+   "edgePct": 0.0691,
    "tier": "HIGH",
    "bookCount": 1,
    "startsAt": "2026-11-26T18:00Z",
@@ -146,31 +130,15 @@
    "away": "Chicago Bears"
   },
   {
-   "gameId": "uel:401915501",
-   "match": "Lillestrom @ Lyon",
-   "league": "Europa League",
-   "sport": "uel",
-   "side": "away",
-   "price": 4.58,
-   "modelProb": 0.2655,
-   "marketProb": 0.2183,
-   "edgePct": 0.0472,
-   "tier": "STANDARD",
-   "bookCount": 1,
-   "startsAt": "2026-11-26T20:00Z",
-   "home": "Lyon",
-   "away": "Lillestrom"
-  },
-  {
    "gameId": "nfl:401873080",
    "match": "Philadelphia Eagles @ Dallas Cowboys",
    "league": "NFL",
    "sport": "nfl",
    "side": "away",
-   "price": 3.96,
-   "modelProb": 0.3039,
-   "marketProb": 0.2522,
-   "edgePct": 0.0517,
+   "price": 4.1,
+   "modelProb": 0.2992,
+   "marketProb": 0.2437,
+   "edgePct": 0.0555,
    "tier": "STANDARD",
    "bookCount": 1,
    "startsAt": "2026-11-26T21:30Z",
@@ -226,6 +194,67 @@
    ]
   },
   {
+   "gameId": "ncaab:401921708",
+   "match": "Washington Huskies @ BYU Cougars",
+   "league": "NCAAB",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
+   "gameId": "nhl:401892773",
+   "match": "Columbus Blue Jackets @ New Jersey Devils",
+   "league": "NHL",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "nhl:401892774",
+   "match": "Los Angeles Kings @ Montreal Canadiens",
+   "league": "NHL",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "nhl:401892775",
+   "match": "Calgary Flames @ Ottawa Senators",
+   "league": "NHL",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "nhl:401892776",
+   "match": "Toronto Maple Leafs @ New York Islanders",
+   "league": "NHL",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "nhl:401892777",
+   "match": "Utah Mammoth @ Winnipeg Jets",
+   "league": "NHL",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
    "gameId": "mls:401933728",
    "match": "LAFC @ St. Louis CITY SC",
    "league": "MLS",
@@ -239,6 +268,37 @@
    "gameId": "nfl:401873078",
    "match": "Cincinnati Bengals @ Washington Commanders",
    "league": "NFL",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
+   "gameId": "nhl:401892778",
+   "match": "Anaheim Ducks @ Seattle Kraken",
+   "league": "NHL",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "nhl:401892779",
+   "match": "Minnesota Wild @ San Jose Sharks",
+   "league": "NHL",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "ncaab:401909743",
+   "match": "Colorado State Rams @ Arizona Wildcats",
+   "league": "NCAAB",
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
@@ -924,6 +984,16 @@
   {
    "gameId": "mls:401933723",
    "match": "New England Revolution @ Philadelphia Union",
+   "league": "MLS",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "mls:401933721",
+   "match": "FC Dallas @ Portland Timbers",
    "league": "MLS",
    "severity": 2,
    "signal": "high_risk_alert",
