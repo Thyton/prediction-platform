@@ -79,7 +79,9 @@ def enrich_odds(path, event_id, comp_id=None):
     fav = "home" if best["home"][0] <= best["away"][0] else "away"
     return {
         "h2h": {
+            "outcome": None,          # filled by caller from the actual side name
             "bestOdds": best[fav][0],
+            "otherOdds": best["away" if fav == "home" else "home"][0],
             "bookCount": str(best[fav][1]),
             "favSide": fav,
         }
@@ -188,11 +190,16 @@ def parse_espn_event(event, sport, league, two_way):
     }
 
 
+SPARSE = {"epl", "laliga", "seriea", "bundesliga", "ligue1", "ucl", "uel", "mls"}
+
+
 def collect_espn(limit_per_league=60):
-    """Pull today + next 3 days so early-morning boards aren't empty."""
+    """Pull today + next 3 days (10 for sparse leagues) so boards aren't empty."""
     games = []
-    days = [(datetime.date.today() + datetime.timedelta(days=d)).strftime("%Y%m%d") for d in range(0, 4)]
+    days4 = [(datetime.date.today() + datetime.timedelta(days=d)).strftime("%Y%m%d") for d in range(0, 4)]
+    days10 = [(datetime.date.today() + datetime.timedelta(days=d)).strftime("%Y%m%d") for d in range(0, 11)]
     for path, sport, label, two_way in ESPN_LEAGUES:
+        days = days10 if sport in SPARSE else days4
         for day in days:
             d = None
             for attempt in range(3):
@@ -225,7 +232,7 @@ def collect_espn(limit_per_league=60):
                 if g:
                     g["_path"] = path
                     games.append(g)
-            time.sleep(0.5)  # pace between requests
+            time.sleep(0.4)  # pace between requests
     return games
 
 
@@ -326,16 +333,19 @@ def main():
     a = ap.parse_args()
     games = collect_espn() + collect_esports()
     games = dedupe(games)
-    # enrich odds from core API where the scoreboard didn't carry them
+    # enrich odds from core API where the scoreboard didn't carry them; otherwise
+    # fill the missing dog price from the site-API odds (they often carry both sides)
     for g in games:
-        if not g.get("markets") and g.get("_path") and g.get("_eid"):
+        m = g.get("markets") or {}
+        h2h = m.get("h2h")
+        if not h2h and g.get("_path") and g.get("_eid"):
             try:
                 g["markets"] = enrich_odds(g["_path"], g["_eid"], g.get("_cid"))
+                h2h = g["markets"].get("h2h")
             except Exception:
-                pass
-        if g.get("markets", {}).get("h2h"):
-            m = g["markets"]["h2h"]
-            m["outcome"] = g["home"] if m["favSide"] == "home" else g["away"]
+                h2h = None
+        if h2h:
+            h2h["outcome"] = g["home"] if h2h["favSide"] == "home" else g["away"]
     games.sort(key=lambda g: g.get("startsAt") or "")
     payload = {"generatedAt": datetime.datetime.now(datetime.UTC).isoformat(), "games": games}
     js = json.dumps(payload, indent=1, ensure_ascii=False)

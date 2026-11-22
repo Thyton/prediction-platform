@@ -31,6 +31,7 @@ MIN_EDGE = 0.045      # 4.5% model-vs-market edge required
 THIN_EXTRA = 0.030    # extra edge demanded when only 1 book quotes
 MIN_BOOKS = 1
 OVERROUND = 1.075     # typical two-way book margin (7.5%)
+BLEND = 0.55          # weight on market prob; model contributes (1-BLEND) via ratings
 
 
 def load():
@@ -115,14 +116,17 @@ def evaluate(g, s):
         return None
     if books < MIN_BOOKS or odds <= 1.01:
         return None
-    need = MIN_EDGE + (THIN_EXTRA if books <= 1 else 0.0)
+    need = MIN_EDGE if books >= 1 else MIN_EDGE + THIN_EXTRA
 
-    pH, pA, pD = model_probs(g, s)
+    rawH, rawA, pD = model_probs(g, s)
     # strip the book margin from the quoted side; the other side is the complement
     imp_f = min(0.985, (1 / odds) / OVERROUND)
     mk_f = imp_f
     mk_d = 1 - imp_f
     mkH, mkA = (mk_f, mk_d) if m["favSide"] == "home" else (mk_d, mk_f)
+    # blend: model speaks only when it disagrees with the market, and softly
+    pH = BLEND * mkH + (1 - BLEND) * rawH
+    pA = BLEND * mkA + (1 - BLEND) * rawA
 
     edges = {"home": pH - mkH, "away": pA - mkA}
     side = max(edges, key=edges.get)
