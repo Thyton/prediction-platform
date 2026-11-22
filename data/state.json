@@ -1035,11 +1035,11 @@
   }
  ],
  "record": {
-  "graded": 0,
+  "graded": 1,
   "correct": 0,
-  "wrong": 0,
-  "accuracy": null,
-  "units": 0,
-  "rolling": null
+  "wrong": 1,
+  "accuracy": 0.0,
+  "units": -1.0,
+  "rolling": 0.0
  }
 }

@@ -16,8 +16,10 @@
    "home": "Bologna",
    "away": "Udinese",
    "lockTs": "2026-11-22T15:31:18.048892+00:00",
-   "result": null,
-   "profitUnits": null
+   "result": "wrong",
+   "profitUnits": -1.0,
+   "final": "1-1",
+   "settledAt": "2026-11-22T16:05:08.749556+00:00"
   },
   {
    "gameId": "laliga:401882800",
