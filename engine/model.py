@@ -199,6 +199,28 @@ def bootstrap(s, games):
             sport[dog] = 1500 - (r - 1500) * 0.35
 
 
+def ensure_seeded(s, games):
+    """If a described team has no rating yet, seed from the market so the board
+    is never blank. Learned ratings always win once they exist."""
+    for g in games:
+        m = (g.get("markets") or {}).get("h2h")
+        if not m:
+            continue
+        try:
+            odds = float(m.get("bestOdds"))
+        except (TypeError, ValueError):
+            continue
+        if odds <= 1.01:
+            continue
+        p = min(0.94, max(0.06, (1 / odds) / OVERROUND))
+        r = 1500 + 400 * math.log10(p / (1 - p))
+        sport = s["ratings"].setdefault(g["sport"], {})
+        fav = g["home"] if m["favSide"] == "home" else g["away"]
+        dog = g["away"] if m["favSide"] == "home" else g["home"]
+        sport.setdefault(fav, r)
+        sport.setdefault(dog, 1500 - (r - 1500) * 0.35)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--games", required=True)
@@ -206,7 +228,7 @@ def main():
     a = ap.parse_args()
     s = load()
     games = json.load(open(a.games))["games"]
-    bootstrap(s, games)
+    ensure_seeded(s, games)
     picks, alerts = [], []
     for g in games:
         p = evaluate(g, s)
