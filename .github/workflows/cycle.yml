@@ -1,0 +1,40 @@
+name: cycle
+
+on:
+  schedule:
+    - cron: "5,35 * * * *"   # every 30 minutes
+  workflow_dispatch:
+
+concurrency:
+  group: cycle
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  cycle:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Grade settled picks, then publish a fresh board
+        working-directory: engine
+        run: python cycle.py
+
+      - name: Commit data
+        run: |
+          git config user.name  "tiplab-bot"
+          git config user.email "bot@tiplab.io"
+          git add data engine/model_state.json
+          if git diff --staged --quiet; then
+            echo "no change"
+          else
+            git commit -m "cycle: $(date -u +%FT%TZ)"
+            git push
+          fi
