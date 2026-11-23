@@ -47,8 +47,8 @@ export default function Home() {
       </section>
 
       <div className="banner">
-        <strong>Free during beta.</strong> Every pick, alert and result is open while we tune the model.
-        Paid plans open at founding-member pricing.
+        <strong>Free during beta.</strong> Every pick, alert and result is open. Pro (/month)
+        opens soon — first 500 members keep founding pricing for life.
       </div>
 
       <section id="tips">
