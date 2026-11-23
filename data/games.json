@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-23T00:42:00.056682+00:00",
+ "generatedAt": "2026-11-23T00:55:54.933374+00:00",
  "games": [
   {
    "id": "esports:134580",
@@ -44,20 +44,6 @@
    "drawPossible": false
   },
   {
-   "id": "esports:133337",
-   "sport": "esports",
-   "league": "Esports",
-   "match": "Fire Flux vs Banger Gang",
-   "home": "Banger Gang",
-   "away": "Fire Flux",
-   "startsAt": "2026-11-22T20:00:00.000+00:00",
-   "state": "defwin",
-   "markets": {},
-   "tier": "c",
-   "boType": 1,
-   "drawPossible": false
-  },
-  {
    "id": "esports:133875",
    "sport": "esports",
    "league": "Esports",
@@ -68,6 +54,20 @@
    "state": "defwin",
    "markets": {},
    "tier": "b",
+   "boType": 1,
+   "drawPossible": false
+  },
+  {
+   "id": "esports:133337",
+   "sport": "esports",
+   "league": "Esports",
+   "match": "Fire Flux vs Banger Gang",
+   "home": "Banger Gang",
+   "away": "Fire Flux",
+   "startsAt": "2026-11-22T20:00:00.000+00:00",
+   "state": "defwin",
+   "markets": {},
+   "tier": "c",
    "boType": 1,
    "drawPossible": false
   },
@@ -780,8 +780,8 @@
    "markets": {
     "h2h": {
      "outcome": "Arizona Wildcats",
-     "bestOdds": 1.036,
-     "otherOdds": 14.0,
+     "bestOdds": 1.048,
+     "otherOdds": 12.0,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -2780,8 +2780,8 @@
    "markets": {
     "h2h": {
      "outcome": "Dallas Cowboys",
-     "bestOdds": 1.231,
-     "otherOdds": 4.39,
+     "bestOdds": 1.242,
+     "otherOdds": 4.25,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -2904,8 +2904,8 @@
    "markets": {
     "h2h": {
      "outcome": "Bologna",
-     "bestOdds": 2.05,
-     "otherOdds": 3.35,
+     "bestOdds": 2.1,
+     "otherOdds": 3.3,
      "bookCount": "1",
      "favSide": "away"
     }
