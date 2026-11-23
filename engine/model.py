@@ -180,8 +180,8 @@ def evaluate(g, s):
     side = fav
     price = odds
     prob = pH if side == "home" else pA
-    if prob > 0.82:
-        return None                      # heavy chalk, no value for the user
+    if prob < 0.62 or prob > 0.85:
+        return None   # ship 62-85% conviction zone; outside = noise or chalk
     tier = "PREMIUM" if prob >= 0.72 else "HIGH" if prob >= 0.62 else "STANDARD"
     return {
         "gameId": g["id"], "match": g["match"], "league": g["league"], "sport": g["sport"],

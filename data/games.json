@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-23T00:55:54.933374+00:00",
+ "generatedAt": "2026-11-23T01:39:05.673425+00:00",
  "games": [
   {
    "id": "esports:134580",
@@ -44,20 +44,6 @@
    "drawPossible": false
   },
   {
-   "id": "esports:133875",
-   "sport": "esports",
-   "league": "Esports",
-   "match": "Team Aces vs Iberian Soul",
-   "home": "Iberian Soul",
-   "away": "Team Aces",
-   "startsAt": "2026-11-22T20:00:00.000+00:00",
-   "state": "defwin",
-   "markets": {},
-   "tier": "b",
-   "boType": 1,
-   "drawPossible": false
-  },
-  {
    "id": "esports:133337",
    "sport": "esports",
    "league": "Esports",
@@ -68,6 +54,20 @@
    "state": "defwin",
    "markets": {},
    "tier": "c",
+   "boType": 1,
+   "drawPossible": false
+  },
+  {
+   "id": "esports:133875",
+   "sport": "esports",
+   "league": "Esports",
+   "match": "Team Aces vs Iberian Soul",
+   "home": "Iberian Soul",
+   "away": "Team Aces",
+   "startsAt": "2026-11-22T20:00:00.000+00:00",
+   "state": "defwin",
+   "markets": {},
+   "tier": "b",
    "boType": 1,
    "drawPossible": false
   },
@@ -244,8 +244,8 @@
    "markets": {
     "h2h": {
      "outcome": "BYU Cougars",
-     "bestOdds": 1.16,
-     "otherOdds": 5.55,
+     "bestOdds": 1.133,
+     "otherOdds": 6.25,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -269,7 +269,15 @@
    "_path": "basketball/nba",
    "_eid": "401910036",
    "_cid": "401910036",
-   "markets": {},
+   "markets": {
+    "h2h": {
+     "outcome": "Memphis Grizzlies",
+     "bestOdds": 1.578,
+     "otherOdds": 2.45,
+     "bookCount": "1",
+     "favSide": "away"
+    }
+   },
    "espnUrl": null,
    "drawPossible": false
   },
@@ -365,7 +373,15 @@
    "_path": "basketball/nba",
    "_eid": "401910039",
    "_cid": "401910039",
-   "markets": {},
+   "markets": {
+    "h2h": {
+     "outcome": "Toronto Raptors",
+     "bestOdds": 1.209,
+     "otherOdds": 4.68,
+     "bookCount": "1",
+     "favSide": "home"
+    }
+   },
    "espnUrl": null,
    "drawPossible": false
   },
@@ -385,7 +401,15 @@
    "_path": "basketball/nba",
    "_eid": "401910040",
    "_cid": "401910040",
-   "markets": {},
+   "markets": {
+    "h2h": {
+     "outcome": "Minnesota Timberwolves",
+     "bestOdds": 1.173,
+     "otherOdds": 5.31,
+     "bookCount": "1",
+     "favSide": "home"
+    }
+   },
    "espnUrl": null,
    "drawPossible": false
   },
@@ -2000,8 +2024,8 @@
    "markets": {
     "h2h": {
      "outcome": "Los Angeles Rams",
-     "bestOdds": 1.621,
-     "otherOdds": 2.36,
+     "bestOdds": 1.667,
+     "otherOdds": 2.26,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -2412,7 +2436,7 @@
    "markets": {
     "h2h": {
      "outcome": "Chicago Bears",
-     "bestOdds": 1.699,
+     "bestOdds": 1.694,
      "otherOdds": 2.21,
      "bookCount": "1",
      "favSide": "away"
@@ -2780,8 +2804,8 @@
    "markets": {
     "h2h": {
      "outcome": "Dallas Cowboys",
-     "bestOdds": 1.242,
-     "otherOdds": 4.25,
+     "bestOdds": 1.246,
+     "otherOdds": 4.21,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -2848,8 +2872,8 @@
    "markets": {
     "h2h": {
      "outcome": "Buffalo Bills",
-     "bestOdds": 1.641,
-     "otherOdds": 2.32,
+     "bestOdds": 1.667,
+     "otherOdds": 2.26,
      "bookCount": "1",
      "favSide": "home"
     }
