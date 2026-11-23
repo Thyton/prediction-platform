@@ -198,14 +198,14 @@ def evaluate(g, s):
 def evaluate_no_market(g, s):
     """No price available (esports). Publish only clear model edges, priced at
     the model probability with a small margin — flagged as 'model price'."""
-    if g.get("sport") != "esports":
+    if g.get("sport") not in ("esports", "atp", "wta"):
         return None
-    if not g.get("boType"):          # needs a known series length to be meaningful
+    if g.get("sport") == "esports" and not g.get("boType"):
         return None
     pH, pA, _ = model_probs(g, s)
     side, prob = ("home", pH) if pH >= pA else ("away", pA)
     edge = abs(pH - pA)
-    if edge < 0.12 or prob < 0.56:   # thin data: require a clear lean, not a blowout
+    if edge < 0.12 or prob < 0.56:   # no price: require a clear lean
         return None
     price = round(1 / max(prob * 1.02, 0.05), 2)   # 2% model margin
     tier = "PREMIUM" if edge >= 0.26 else "HIGH" if edge >= 0.18 else "STANDARD"

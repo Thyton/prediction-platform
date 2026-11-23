@@ -156,12 +156,12 @@ def parse_espn_event(event, sport, league, two_way):
     away = next((c for c in competitors if c.get("homeAway") == "away"), None)
     if not home or not away:
         return None
-    hn = (home.get("team") or {}).get("displayName")
-    an = (away.get("team") or {}).get("displayName")
+    hn = (home.get("team") or {}).get("displayName") or (home.get("athlete") or {}).get("displayName")
+    an = (away.get("team") or {}).get("displayName") or (away.get("athlete") or {}).get("displayName")
     if not hn or not an:
         return None
-    home_logo = (home.get("team") or {}).get("logo")
-    away_logo = (away.get("team") or {}).get("logo")
+    home_logo = (home.get("team") or {}).get("logo") or (home.get("athlete") or {}).get("headshot", {}).get("href")
+    away_logo = (away.get("team") or {}).get("logo") or (away.get("athlete") or {}).get("headshot", {}).get("href")
     home_abbr = (home.get("team") or {}).get("abbreviation")
     away_abbr = (away.get("team") or {}).get("abbreviation")
     odds = parse_espn_odds(comp)
@@ -229,10 +229,12 @@ def collect_espn(limit_per_league=60):
                             g = parse_espn_event(dict(c, id=c.get("id") or f"{ev.get('id')}-{c.get('id')}",
                                                      date=c.get("date"), status=c.get("status"),
                                                      links=[], competitions=[c]), sport, label, True)
-                            if g:
-                                g["match"] = e_match(c)
+                            if g and g.get("state") in ("pre", "in"):
+                                g["match"] = f"{g['away']} vs {g['home']}"
                                 g["tournament"] = ev.get("name")
+                                g["league"] = ev.get("name") or label
                                 g["_path"] = path
+                                g["noMarketOk"] = True
                                 games.append(g)
                 continue
             for ev in (d.get("events") or [])[:limit_per_league]:

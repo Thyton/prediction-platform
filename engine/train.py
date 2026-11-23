@@ -54,6 +54,38 @@ def finals_for(path, sport, two_way, days):
     return rows
 
 
+def tennis_finals(path, days):
+    """Finished tennis: nested groupings, athlete competitors, sets won as score."""
+    out = []
+    for back in range(days):
+        day = (datetime.date.today() - datetime.timedelta(days=back)).strftime("%Y%m%d")
+        try:
+            d = C.get(f"{C.ESPN}/{path}/scoreboard", params={"dates": day})
+        except Exception:
+            continue
+        for ev in d.get("events") or []:
+            for grp in ev.get("groupings") or []:
+                for c in grp.get("competitions") or []:
+                    if (c.get("status") or {}).get("type", {}).get("state") != "post":
+                        continue
+                    comps = c.get("competitors") or []
+                    home = next((x for x in comps if x.get("homeAway") == "home"), None)
+                    away = next((x for x in comps if x.get("homeAway") == "away"), None)
+                    hn = ((home or {}).get("athlete") or {}).get("displayName")
+                    an = ((away or {}).get("athlete") or {}).get("displayName")
+                    if not hn or not an or not home.get("winner") in (True, False):
+                        continue
+                    # sets won: count per-set scores, fall back to winner flag
+                    def sets(comp):
+                        return sum(1 for s in (comp.get("linescores") or []) if s.get("winner"))
+                    hs, as_ = sets(home), sets(away)
+                    if hs == as_:
+                        hs, as_ = (1, 0) if home.get("winner") else (0, 1)
+                    out.append((hn, an, hs, as_))
+        time.sleep(0.3)
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--days", type=int, default=21)
@@ -71,7 +103,12 @@ def main():
         print(f"  ! esports: {e}", file=sys.stderr)
 
     for path, sport, label, two_way in C.ESPN_LEAGUES:
-        if sport in ("atp", "wta"):      # tennis results are nested differently
+        if sport in ("atp", "wta"):
+            rows = tennis_finals(path, a.days)
+            for hn, an, hs, as_ in rows:
+                M.update(s, sport, hn, an, hs, as_, margin_mult=1.0)
+                total += 1
+            print(f"  {label}: {len(rows)} finals", file=sys.stderr)
             continue
         rows = finals_for(path, sport, two_way, a.days)
         for hn, an, hs, as_ in rows:
