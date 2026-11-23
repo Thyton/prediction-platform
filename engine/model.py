@@ -170,17 +170,19 @@ def evaluate(g, s):
     pA = BLEND * mkA + (1 - BLEND) * rawA
 
     edges = {"home": pH - mkH, "away": pA - mkA}
-    side = max(edges, key=edges.get)
-    edge = edges[side]
-    if edge < need:
-        return None
-    # price: market price on the favourite side, model price on the dog side
-    if side == m["favSide"]:
-        price = odds
-    else:
-        price = round(1 / (mkH if side == "home" else mkA), 2)
+    # consensus picks: we ship the market favourite the model also rates top.
+    # Disagreements (model likes the dog) are flagged as WATCH, not tips — the
+    # backtest showed our cold Elo does not beat sharp dog prices.
+    fav = m["favSide"]
+    edge = edges[fav]
+    if edge < 0.0:
+        return None                      # model actually dislikes the favourite
+    side = fav
+    price = odds
     prob = pH if side == "home" else pA
-    tier = "PREMIUM" if edge >= 0.09 else "HIGH" if edge >= 0.06 else "STANDARD"
+    if prob > 0.82:
+        return None                      # heavy chalk, no value for the user
+    tier = "PREMIUM" if prob >= 0.72 else "HIGH" if prob >= 0.62 else "STANDARD"
     return {
         "gameId": g["id"], "match": g["match"], "league": g["league"], "sport": g["sport"],
         "side": side, "price": round(price, 2), "modelProb": round(prob, 4),
