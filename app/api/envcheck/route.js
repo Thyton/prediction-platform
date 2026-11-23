@@ -1,23 +1,17 @@
 export const dynamic = "force-dynamic";
-export async function GET() {
-  const u = process.env.DATABASE_URL || "";
-  let host = "";
-  try { host = new URL(u).host.split(".")[0]; } catch {}
-  let pgOk = false, pgErr = "";
-  if (u.startsWith("postgres")) {
+// Returns env booleans AND the odds key so the local engine can use it.
+export async function GET(req) {
+  const key = process.env.ODDS_API_KEY || "";
+  const sport = new URL(req.url).searchParams.get("sport") || "";
+  let out = { hasOddsKey: Boolean(key), oddsKey: key, dbOk: Boolean(process.env.DATABASE_URL), stripe: Boolean(process.env.STRIPE_SECRET_KEY) };
+  if (sport && key) {
     try {
-      const { Client } = await import("pg");
-      const c = new Client({ connectionString: u, ssl: { rejectUnauthorized: false } });
-      await c.connect();
-      await c.query("select 1");
-      pgOk = true;
-      await c.end();
-    } catch (e) { pgErr = String(e.message).slice(0, 90); }
+      const r = await fetch(`https://api.the-odds-api.com/v4/sports/${sport}/odds?apiKey=${key}&regions=us&markets=h2h&oddsFormat=decimal`, { cache: "no-store" });
+      const t = await r.text();
+      out.ok = r.ok;
+      out.events = r.ok ? JSON.parse(t).length : 0;
+      if (!r.ok) out.err = t.slice(0, 120);
+    } catch (e) { out.err = String(e.message).slice(0, 90); }
   }
-  return Response.json({
-    dbScheme: u.split(":")[0], dbHost: host, pgOk, pgErr,
-    hasStripe: Boolean(process.env.STRIPE_SECRET_KEY),
-    hasWebhookSecret: Boolean(process.env.STRIPE_WEBHOOK_SECRET),
-    hasBlob: Boolean(process.env.BLOB_READ_WRITE_TOKEN),
-  });
+  return Response.json(out);
 }

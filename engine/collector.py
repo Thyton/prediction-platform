@@ -13,6 +13,23 @@ Usage:
 """
 import json, re, sys, time, urllib.parse, urllib.request, datetime, argparse
 
+import oddsapi
+
+
+def _load_env():
+    """Read engine/.env so scheduled runs get ODDS_API_KEY etc."""
+    import os as _os
+    p = _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), ".env")
+    if _os.path.exists(p):
+        for line in open(p, encoding="utf-8"):
+            line = line.strip()
+            if line and not line.startswith("#") and "=" in line:
+                k, v = line.split("=", 1)
+                _os.environ.setdefault(k, v)
+
+
+_load_env()
+
 UA = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
                   "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -198,6 +215,7 @@ def parse_espn_event(event, sport, league, two_way):
     }
 
 
+NEAR_WINDOW = {"nba", "nhl", "nfl", "ncaab", "mlb", "wnba"}
 SPARSE = {"epl", "laliga", "seriea", "bundesliga", "ligue1", "ucl", "uel", "mls"}
 
 
@@ -205,9 +223,11 @@ def collect_espn(limit_per_league=60):
     """Pull today + next 3 days (10 for sparse leagues) so boards aren't empty."""
     games = []
     days4 = [(datetime.date.today() + datetime.timedelta(days=d)).strftime("%Y%m%d") for d in range(0, 4)]
+    days_near = [d for d in days4]
+    days_near = [(datetime.date.today() - datetime.timedelta(days=1)).strftime("%Y%m%d")] + days_near[:2]
     days10 = [(datetime.date.today() + datetime.timedelta(days=d)).strftime("%Y%m%d") for d in range(0, 11)]
     for path, sport, label, two_way in ESPN_LEAGUES:
-        days = days10 if sport in SPARSE else days4
+        days = days10 if sport in SPARSE else (days_near if sport in NEAR_WINDOW else days4)
         for day in days:
             d = None
             for attempt in range(3):
@@ -396,6 +416,13 @@ def main():
                 h2h = None
         if h2h:
             h2h["outcome"] = g["home"] if h2h["favSide"] == "home" else g["away"]
+    # real multi-book prices from The Odds API (ESPN serves one book, and none for NBA/NHL/NCAAB)
+    try:
+        filled = oddsapi.enrich(games)
+        print(f"  oddsapi filled {filled} games", file=sys.stderr)
+    except Exception as e:
+        print(f"  oddsapi error: {e}", file=sys.stderr)
+
     games.sort(key=lambda g: g.get("startsAt") or "")
     payload = {"generatedAt": datetime.datetime.now(datetime.UTC).isoformat(), "games": games}
     js = json.dumps(payload, indent=1, ensure_ascii=False)
