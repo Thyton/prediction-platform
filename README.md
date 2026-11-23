@@ -21,7 +21,8 @@ Champions League, Europa League, MLS, ATP, WTA and esports (CS2/Dota/LoL/Valoran
 1. Market price is the baseline; the book margin is stripped to an implied probability.
 2. Team ratings are Elo-style and move with every settled result (margin weighted).
 3. A pick releases only when the model beats the de-vigged price by 4.5%
-   (7.5% when a single book is quoting).
+   and both teams carry at least 4 tracked games of rating history (cold-start
+   disagreements against a sharp market are noise, not edge).
 4. Thin markets and lopsided prices are surfaced as integrity alerts.
 5. Record is graded flat at 1 unit so accuracy stays readable.
 
