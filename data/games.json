@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-23T13:10:31.092414+00:00",
+ "generatedAt": "2026-11-23T14:09:45.097404+00:00",
  "games": [
   {
    "id": "esports:134372",
@@ -107,6 +107,20 @@
    "home": "Ex Copenhagen Wolves",
    "away": "Spray And Slay",
    "startsAt": "2026-11-23T09:15:00.000+00:00",
+   "state": "finished",
+   "markets": {},
+   "tier": "c",
+   "boType": 3,
+   "drawPossible": false
+  },
+  {
+   "id": "esports:134901",
+   "sport": "esports",
+   "league": "Esports",
+   "match": "Teletubisie vs The Chosen Few",
+   "home": "The Chosen Few",
+   "away": "Teletubisie",
+   "startsAt": "2026-11-23T12:30:00.000+00:00",
    "state": "finished",
    "markets": {},
    "tier": "c",
@@ -244,8 +258,8 @@
    "markets": {
     "h2h": {
      "outcome": "Memphis Grizzlies",
-     "bestOdds": 1.617,
-     "otherOdds": 2.36,
+     "bestOdds": 1.641,
+     "otherOdds": 2.31,
      "bookCount": "1",
      "favSide": "away"
     }
@@ -272,8 +286,8 @@
    "markets": {
     "h2h": {
      "outcome": "Philadelphia 76ers",
-     "bestOdds": 1.578,
-     "otherOdds": 2.45,
+     "bestOdds": 1.602,
+     "otherOdds": 2.39,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -1592,8 +1606,8 @@
    "markets": {
     "h2h": {
      "outcome": "Paris Saint-Germain",
-     "bestOdds": 1.4,
-     "otherOdds": 7.0,
+     "bestOdds": 1.417,
+     "otherOdds": 6.5,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -2036,8 +2050,8 @@
    "markets": {
     "h2h": {
      "outcome": "Los Angeles Rams",
-     "bestOdds": 1.694,
-     "otherOdds": 2.22,
+     "bestOdds": 1.676,
+     "otherOdds": 2.25,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -2816,8 +2830,8 @@
    "markets": {
     "h2h": {
      "outcome": "Dallas Cowboys",
-     "bestOdds": 1.224,
-     "otherOdds": 4.48,
+     "bestOdds": 1.222,
+     "otherOdds": 4.51,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -2884,8 +2898,8 @@
    "markets": {
     "h2h": {
      "outcome": "Buffalo Bills",
-     "bestOdds": 1.658,
-     "otherOdds": 2.28,
+     "bestOdds": 1.667,
+     "otherOdds": 2.27,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -4524,8 +4538,8 @@
    "markets": {
     "h2h": {
      "outcome": "Nottingham Forest",
-     "bestOdds": 1.952,
-     "otherOdds": 3.7,
+     "bestOdds": 1.909,
+     "otherOdds": 3.85,
      "bookCount": "1",
      "favSide": "away"
     }

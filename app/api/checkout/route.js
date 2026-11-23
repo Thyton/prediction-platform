@@ -23,7 +23,7 @@ export async function POST(req) {
     "line_items[0][quantity]": "1",
     customer_email: user.email,
     client_reference_id: user.id,
-    success_url: `${origin}/dashboard?upgraded=1`,
+    success_url: `${origin}/api/checkout/confirm?session_id={CHECKOUT_SESSION_ID}`,
     cancel_url: `${origin}/dashboard`,
   });
 
