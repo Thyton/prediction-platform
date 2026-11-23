@@ -27,3 +27,14 @@ that is being set up, from the local `TipLabCycle` scheduled task.
 2. It learns from every result — ratings update on all finals, retrained daily.
 3. Integrity signals — thin markets / lopsided prices flagged before you bet them.
 4. Locked before the price moves — timestamped release, graded in public, nothing deleted.
+
+## Domain switch final (2026-11-23 ~14:00)
+
+- The new build now deploys into the OLD `web` project (prj_mybaeapCVsT1BpmCyDoAp1l2wZbA),
+  which keeps its existing env vars: STRIPE_SECRET_KEY (live, cs_live checkout verified
+  working), ODDS_API_KEY, STRIPE_WEBHOOK_SECRET, DATABASE_URL.
+- The separate `tiplab` project (prj_JfpPj1cW7sgYftUZ9wjrbnx6D6ga) is abandoned.
+- engine/publish.py still targets the `tiplab` project — repoint PROJECT id if using it,
+  or use engine/deploy_old.py which targets `web`.
+- Cron limit on Hobby: vercel.json cron reduced to once daily (0 6 * * *); real freshness
+  comes from the local TipLabCycle task which redeploys on every data refresh.
