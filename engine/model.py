@@ -180,7 +180,7 @@ def evaluate(g, s):
     side = fav
     price = odds
     prob = pH if side == "home" else pA
-    if prob < 0.62 or prob > 0.85:
+    if prob < 0.55 or prob > 0.85:
         return None   # ship 62-85% conviction zone; outside = noise or chalk
     tier = "PREMIUM" if prob >= 0.72 else "HIGH" if prob >= 0.62 else "STANDARD"
     return {

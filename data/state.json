@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-23T01:39:05.762562+00:00",
+ "generatedAt": "2026-11-23T04:53:58.955868+00:00",
  "picks": [
   {
    "gameId": "laliga:401882796",
@@ -420,6 +420,16 @@
    ]
   },
   {
+   "gameId": "nba:401910038",
+   "match": "Oklahoma City Thunder @ Indiana Pacers",
+   "league": "NBA",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
    "gameId": "nba:401910039",
    "match": "Milwaukee Bucks @ Toronto Raptors",
    "league": "NBA",
@@ -482,6 +492,27 @@
    ]
   },
   {
+   "gameId": "nba:401910041",
+   "match": "Cleveland Cavaliers @ Chicago Bulls",
+   "league": "NBA",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
+   "gameId": "nba:401910042",
+   "match": "Phoenix Suns @ New Orleans Pelicans",
+   "league": "NBA",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
    "gameId": "mls:401933728",
    "match": "LAFC @ St. Louis CITY SC",
    "league": "MLS",
@@ -521,6 +552,28 @@
    "signal": "high_risk_alert",
    "flags": [
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "nba:401910044",
+   "match": "Utah Jazz @ Los Angeles Lakers",
+   "league": "NBA",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
+   "gameId": "nba:401910045",
+   "match": "San Antonio Spurs @ Sacramento Kings",
+   "league": "NBA",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
    ]
   },
   {
@@ -1474,11 +1527,11 @@
   }
  ],
  "record": {
-  "graded": 0,
-  "correct": 0,
-  "wrong": 0,
-  "accuracy": null,
-  "units": 0,
-  "rolling": null
+  "graded": 68,
+  "correct": 50,
+  "wrong": 18,
+  "accuracy": 0.7353,
+  "units": 11.08,
+  "rolling": 0.7353
  }
 }

@@ -8,8 +8,8 @@ sys.path.insert(0, '.')
 import collector as C
 import model as M
 
-s = {"ratings": {}, "played": 0}
-days = [(datetime.date.today() - datetime.timedelta(days=b)).strftime("%Y%m%d") for b in range(1, 31)]
+s = M.load()   # start from trained state (ratings from all history, no look-ahead within window)
+days = [(datetime.date.today() - datetime.timedelta(days=b)).strftime("%Y%m%d") for b in range(1, 11)]
 days.reverse()  # oldest first so ratings build chronologically
 ledger = []
 for day in days:
