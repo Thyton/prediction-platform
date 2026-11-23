@@ -17,7 +17,10 @@ export default async function Dashboard({ searchParams }) {
         <p className="eyebrow">MEMBER AREA</p>
         <h1 style={{ fontSize: "2rem" }}>Your dashboard</h1>
         <p className="lede">{user.email}</p>
-        {upgraded && <p className="ok">Upgrade complete — welcome to Pro.</p>}
+        {upgraded && !user.pro && (
+          <p className="ok">Payment received — Pro activates in a few seconds. Refresh if it has not.</p>
+        )}
+        {upgraded && user.pro && <p className="ok">You are Pro. Welcome.</p>}
       </section>
 
       <div className="stats">
