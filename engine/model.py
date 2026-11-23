@@ -34,6 +34,7 @@ MIN_EDGE = 0.045      # 4.5% model-vs-market edge required
 THIN_EXTRA = 0.030    # extra edge demanded when only 1 book quotes
 MIN_BOOKS = 1
 OVERROUND = 1.075     # typical two-way book margin (7.5%)
+MIN_GAMES = 4         # ratings need this many tracked games before we trust an edge
 BLEND = 0.55          # weight on market prob; model contributes (1-BLEND) via ratings
 
 
@@ -72,6 +73,9 @@ def update(s, sport, home, away, home_score, away_score, margin_mult=1.0):
     s["ratings"].setdefault(sport, {})
     s["ratings"][sport][home] = round(a + k * (sa - ea), 17)
     s["ratings"][sport][away] = round(b + k * (sb - (1 - ea)), 17)
+    s.setdefault("counts", {}).setdefault(sport, {})
+    s["counts"][sport][home] = s["counts"][sport].get(home, 0) + 1
+    s["counts"][sport][away] = s["counts"][sport].get(away, 0) + 1
     s["played"] = s.get("played", 0) + 1
     if sport in CROSS_LEAGUE_MEMBERS:      # keep an all-soccer pool for cups
         pool = s["ratings"].setdefault("soccer_all", {})
@@ -135,6 +139,12 @@ def evaluate(g, s):
     if books < MIN_BOOKS or odds <= 1.01:
         return None
     need = MIN_EDGE if books >= 1 else MIN_EDGE + THIN_EXTRA
+    # a model edge is only meaningful when both ratings carry real history;
+    # otherwise the "edge" is just cold-start noise against a sharp market
+    if g.get("sport") != "esports":
+        cnt = s.get("counts", {}).get(g["sport"], {})
+        if cnt.get(g["home"], 0) < MIN_GAMES or cnt.get(g["away"], 0) < MIN_GAMES:
+            return None
 
     rawH, rawA, pD = model_probs(g, s)
     # The quoted market is two-way; fold the model's draw mass back onto the two
