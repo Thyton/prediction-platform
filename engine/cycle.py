@@ -60,7 +60,12 @@ def main():
         led = json.load(open(LEDGER)) if os.path.exists(LEDGER) else {"items": []}
         led.setdefault("items", [])
         have = {i["gameId"] for i in led["items"]}
-        for p in raw["picks"]:
+        fresh = [p for p in raw["picks"] if p["gameId"] not in have]
+        # dopamine board: show the strongest reads, not everything
+        fresh.sort(key=lambda p: -p["edgePct"])
+        cap = int(os.environ.get("PICK_CAP", "15"))
+        fresh = fresh[:max(0, cap - sum(1 for i in led["items"] if not i.get("result")))]
+        for p in fresh:
             if p["gameId"] not in have:
                 p["lockTs"] = datetime.datetime.now(datetime.UTC).isoformat()
                 p["result"] = None
