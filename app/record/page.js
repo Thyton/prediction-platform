@@ -1,4 +1,4 @@
-import { getRecord, getLedger, fmtTime, SPORT_LABEL } from "../../lib/data";
+import { getRecord, getLedger, readBacktest, fmtTime, SPORT_LABEL } from "../../lib/data";
 
 export const dynamic = "force-dynamic";
 
@@ -17,7 +17,7 @@ function TeamPill({ p, side }) {
 
 export default function RecordPage() {
   const r = getRecord();
-  const all = getLedger().filter((i) => i.result).reverse();
+  const all = [...readBacktest(), ...getLedger()].filter((i) => i.result).reverse();
 
   return (
     <>
