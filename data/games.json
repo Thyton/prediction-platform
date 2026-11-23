@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-23T04:53:58.875181+00:00",
+ "generatedAt": "2026-11-23T05:39:30.993368+00:00",
  "games": [
   {
    "id": "esports:134778",
@@ -300,8 +300,8 @@
    "markets": {
     "h2h": {
      "outcome": "Philadelphia 76ers",
-     "bestOdds": 1.645,
-     "otherOdds": 2.3,
+     "bestOdds": 1.592,
+     "otherOdds": 2.42,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -648,7 +648,7 @@
    "markets": {
     "h2h": {
      "outcome": "St. Louis CITY SC",
-     "bestOdds": 2.3,
+     "bestOdds": 2.4,
      "otherOdds": 2.7,
      "bookCount": "1",
      "favSide": "home"
@@ -676,8 +676,8 @@
    "markets": {
     "h2h": {
      "outcome": "Cincinnati Bengals",
-     "bestOdds": 1.338,
-     "otherOdds": 3.41,
+     "bestOdds": 1.341,
+     "otherOdds": 3.39,
      "bookCount": "1",
      "favSide": "away"
     }
@@ -788,8 +788,8 @@
    "markets": {
     "h2h": {
      "outcome": "San Antonio Spurs",
-     "bestOdds": 1.214,
-     "otherOdds": 4.6,
+     "bestOdds": 1.207,
+     "otherOdds": 4.71,
      "bookCount": "1",
      "favSide": "away"
     }
@@ -816,8 +816,8 @@
    "markets": {
     "h2h": {
      "outcome": "Minnesota Wild",
-     "bestOdds": 1.459,
-     "otherOdds": 2.8,
+     "bestOdds": 1.488,
+     "otherOdds": 2.7,
      "bookCount": "1",
      "favSide": "away"
     }
@@ -2844,8 +2844,8 @@
    "markets": {
     "h2h": {
      "outcome": "Dallas Cowboys",
-     "bestOdds": 1.238,
-     "otherOdds": 4.3,
+     "bestOdds": 1.245,
+     "otherOdds": 4.22,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -2912,8 +2912,8 @@
    "markets": {
     "h2h": {
      "outcome": "Buffalo Bills",
-     "bestOdds": 1.654,
-     "otherOdds": 2.29,
+     "bestOdds": 1.649,
+     "otherOdds": 2.3,
      "bookCount": "1",
      "favSide": "home"
     }

@@ -1,8 +1,5 @@
 {
   "crons": [
-    { "path": "/api/cron/cycle", "schedule": "0 * * * *" }
-  ],
-  "functions": {
-    "app/api/cron/cycle/route.js": { "maxDuration": 300 }
-  }
+    { "path": "/api/cron/cycle", "schedule": "0 6 * * *" }
+  ]
 }

@@ -16,6 +16,19 @@ LEDGER = os.path.join(DATA, "ledger.json")
 PY = sys.executable
 
 
+def load_env():
+    p = os.path.join(HERE, ".env")
+    if os.path.exists(p):
+        for line in open(p):
+            line = line.strip()
+            if "=" in line and not line.startswith("#"):
+                k, v = line.split("=", 1)
+                os.environ.setdefault(k, v)
+
+
+load_env()
+
+
 def run(*args):
     return subprocess.run([PY, "-X", "utf8", *args], cwd=HERE, capture_output=True, text=True)
 
@@ -79,6 +92,10 @@ def main():
                   open(os.path.join(DATA, "state.json"), "w"), indent=1)
         print(f"state: {len(led['items'])} total, "
               f"{sum(1 for i in led['items'] if not i.get('result'))} open picks", file=sys.stderr)
+        # push the fresh data to the live site
+        if os.environ.get("VERCEL_TOKEN"):
+            r = run("publish.py")
+            print("deploy:", (r.stdout or r.stderr).strip()[-80:], file=sys.stderr)
     return 0
 
 
