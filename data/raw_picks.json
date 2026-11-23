@@ -1,40 +1,6 @@
 {
- "generatedAt": "2026-11-22T23:39:49.975705+00:00",
+ "generatedAt": "2026-11-23T00:42:00.129595+00:00",
  "picks": [
-  {
-   "gameId": "esports:134477",
-   "match": "Famalicao vs Rebels Gaming Cs",
-   "league": "Esports",
-   "sport": "esports",
-   "side": "away",
-   "price": 1.67,
-   "modelProb": 0.5881,
-   "marketProb": null,
-   "edgePct": 0.1763,
-   "tier": "STANDARD",
-   "bookCount": 0,
-   "startsAt": "2026-11-22T14:00:00.000+00:00",
-   "modelPriced": true,
-   "home": "Rebels Gaming Cs",
-   "away": "Famalicao"
-  },
-  {
-   "gameId": "esports:134017",
-   "match": "Sinners vs Envyus",
-   "league": "Esports",
-   "sport": "esports",
-   "side": "away",
-   "price": 1.67,
-   "modelProb": 0.5881,
-   "marketProb": null,
-   "edgePct": 0.1763,
-   "tier": "STANDARD",
-   "bookCount": 0,
-   "startsAt": "2026-11-22T16:30:00.000+00:00",
-   "modelPriced": true,
-   "home": "Envyus",
-   "away": "Sinners"
-  },
   {
    "gameId": "esports:134580",
    "match": "Mouz Nxt vs Lunacy Team",
@@ -50,41 +16,11 @@
    "startsAt": "2026-11-22T18:10:00.000+00:00",
    "modelPriced": true,
    "home": "Lunacy Team",
-   "away": "Mouz Nxt"
-  },
-  {
-   "gameId": "esports:134763",
-   "match": "Underworld vs Mira Br",
-   "league": "Esports",
-   "sport": "esports",
-   "side": "home",
-   "price": 1.54,
-   "modelProb": 0.6383,
-   "marketProb": null,
-   "edgePct": 0.2766,
-   "tier": "PREMIUM",
-   "bookCount": 0,
-   "startsAt": "2026-11-22T18:15:00.000+00:00",
-   "modelPriced": true,
-   "home": "Mira Br",
-   "away": "Underworld"
-  },
-  {
-   "gameId": "esports:134824",
-   "match": "Fire Flux vs Al Ahli Esports",
-   "league": "Esports",
-   "sport": "esports",
-   "side": "away",
-   "price": 1.56,
-   "modelProb": 0.628,
-   "marketProb": null,
-   "edgePct": 0.2559,
-   "tier": "HIGH",
-   "bookCount": 0,
-   "startsAt": "2026-11-22T18:45:00.000+00:00",
-   "modelPriced": true,
-   "home": "Al Ahli Esports",
-   "away": "Fire Flux"
+   "away": "Mouz Nxt",
+   "homeLogo": null,
+   "awayLogo": null,
+   "homeAbbr": null,
+   "awayAbbr": null
   },
   {
    "gameId": "esports:134779",
@@ -101,7 +37,11 @@
    "startsAt": "2026-11-22T19:00:00.000+00:00",
    "modelPriced": true,
    "home": "Gothboiclique",
-   "away": "Notime"
+   "away": "Notime",
+   "homeLogo": null,
+   "awayLogo": null,
+   "homeAbbr": null,
+   "awayAbbr": null
   },
   {
    "gameId": "esports:134778",
@@ -118,24 +58,11 @@
    "startsAt": "2026-11-22T19:15:00.000+00:00",
    "modelPriced": true,
    "home": "Axe Cs",
-   "away": "Sharadictator"
-  },
-  {
-   "gameId": "esports:133875",
-   "match": "Team Aces vs Iberian Soul",
-   "league": "Esports",
-   "sport": "esports",
-   "side": "home",
-   "price": 1.55,
-   "modelProb": 0.6337,
-   "marketProb": null,
-   "edgePct": 0.2674,
-   "tier": "PREMIUM",
-   "bookCount": 0,
-   "startsAt": "2026-11-22T20:00:00.000+00:00",
-   "modelPriced": true,
-   "home": "Iberian Soul",
-   "away": "Team Aces"
+   "away": "Sharadictator",
+   "homeLogo": null,
+   "awayLogo": null,
+   "homeAbbr": null,
+   "awayAbbr": null
   },
   {
    "gameId": "esports:133337",
@@ -152,7 +79,32 @@
    "startsAt": "2026-11-22T20:00:00.000+00:00",
    "modelPriced": true,
    "home": "Banger Gang",
-   "away": "Fire Flux"
+   "away": "Fire Flux",
+   "homeLogo": null,
+   "awayLogo": null,
+   "homeAbbr": null,
+   "awayAbbr": null
+  },
+  {
+   "gameId": "esports:133875",
+   "match": "Team Aces vs Iberian Soul",
+   "league": "Esports",
+   "sport": "esports",
+   "side": "home",
+   "price": 1.55,
+   "modelProb": 0.6337,
+   "marketProb": null,
+   "edgePct": 0.2674,
+   "tier": "PREMIUM",
+   "bookCount": 0,
+   "startsAt": "2026-11-22T20:00:00.000+00:00",
+   "modelPriced": true,
+   "home": "Iberian Soul",
+   "away": "Team Aces",
+   "homeLogo": null,
+   "awayLogo": null,
+   "homeAbbr": null,
+   "awayAbbr": null
   },
   {
    "gameId": "esports:134737",
@@ -169,7 +121,11 @@
    "startsAt": "2026-11-22T20:15:00.000+00:00",
    "modelPriced": true,
    "home": "Lag Gaming",
-   "away": "Swole Patrol"
+   "away": "Swole Patrol",
+   "homeLogo": null,
+   "awayLogo": null,
+   "homeAbbr": null,
+   "awayAbbr": null
   },
   {
    "gameId": "epl:401879237",
@@ -185,7 +141,11 @@
    "bookCount": 1,
    "startsAt": "2026-11-23T20:00Z",
    "home": "Brentford",
-   "away": "Everton"
+   "away": "Everton",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
+   "homeAbbr": "BRE",
+   "awayAbbr": "EVE"
   },
   {
    "gameId": "laliga:401882802",
@@ -201,7 +161,11 @@
    "bookCount": 1,
    "startsAt": "2026-11-23T20:00Z",
    "home": "Levante",
-   "away": "Elche"
+   "away": "Elche",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
+   "homeAbbr": "LEV",
+   "awayAbbr": "ELC"
   },
   {
    "gameId": "mls:401933728",
@@ -217,7 +181,11 @@
    "bookCount": 1,
    "startsAt": "2026-11-24T01:00Z",
    "home": "St. Louis CITY SC",
-   "away": "LAFC"
+   "away": "LAFC",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/21812.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/18966.png",
+   "homeAbbr": "STL",
+   "awayAbbr": "LAFC"
   },
   {
    "gameId": "ncaab:401909743",
@@ -233,7 +201,11 @@
    "bookCount": 1,
    "startsAt": "2026-11-24T04:30Z",
    "home": "Arizona Wildcats",
-   "away": "Colorado State Rams"
+   "away": "Colorado State Rams",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/36.png",
+   "homeAbbr": "ARIZ",
+   "awayAbbr": "CSU"
   },
   {
    "gameId": "ucl:401915300",
@@ -249,7 +221,11 @@
    "bookCount": 1,
    "startsAt": "2026-11-24T17:45Z",
    "home": "Galatasaray",
-   "away": "Aston Villa"
+   "away": "Aston Villa",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+   "homeAbbr": "GAL",
+   "awayAbbr": "AVL"
   },
   {
    "gameId": "ucl:401915379",
@@ -265,7 +241,11 @@
    "bookCount": 1,
    "startsAt": "2026-11-24T20:00Z",
    "home": "Manchester City",
-   "away": "Napoli"
+   "away": "Napoli",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
+   "homeAbbr": "MNC",
+   "awayAbbr": "NAP"
   },
   {
    "gameId": "ucl:401915293",
@@ -281,7 +261,11 @@
    "bookCount": 1,
    "startsAt": "2026-11-25T17:45Z",
    "home": "Slavia Prague",
-   "away": "Villarreal"
+   "away": "Villarreal",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/494.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+   "homeAbbr": "SLP",
+   "awayAbbr": "VIL"
   },
   {
    "gameId": "ucl:401915374",
@@ -297,7 +281,11 @@
    "bookCount": 1,
    "startsAt": "2026-11-25T20:00Z",
    "home": "Paris Saint-Germain",
-   "away": "AS Roma"
+   "away": "AS Roma",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
+   "homeAbbr": "PSG",
+   "awayAbbr": "ROMA"
   },
   {
    "gameId": "ucl:401915373",
@@ -313,7 +301,11 @@
    "bookCount": 1,
    "startsAt": "2026-11-25T20:00Z",
    "home": "Sporting CP",
-   "away": "Manchester United"
+   "away": "Manchester United",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+   "homeAbbr": "SCP",
+   "awayAbbr": "MAN"
   },
   {
    "gameId": "uel:401915506",
@@ -329,7 +321,11 @@
    "bookCount": 1,
    "startsAt": "2026-11-26T17:45Z",
    "home": "Besiktas",
-   "away": "Hapoel Be'er"
+   "away": "Hapoel Be'er",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/13083.png",
+   "homeAbbr": "BES",
+   "awayAbbr": "HBE"
   },
   {
    "gameId": "uel:401915521",
@@ -345,7 +341,11 @@
    "bookCount": 1,
    "startsAt": "2026-11-26T17:45Z",
    "home": "Olympiacos",
-   "away": "AC Milan"
+   "away": "AC Milan",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/435.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
+   "homeAbbr": "OLY",
+   "awayAbbr": "MIL"
   },
   {
    "gameId": "uel:401915520",
@@ -361,7 +361,11 @@
    "bookCount": 1,
    "startsAt": "2026-11-26T17:45Z",
    "home": "RB Salzburg",
-   "away": "Ararat-Armenia"
+   "away": "Ararat-Armenia",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2790.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/20024.png",
+   "homeAbbr": "SLZ",
+   "awayAbbr": "ARA"
   },
   {
    "gameId": "uel:401915505",
@@ -377,7 +381,11 @@
    "bookCount": 1,
    "startsAt": "2026-11-26T20:00Z",
    "home": "NEC Nijmegen",
-   "away": "Stade Rennais"
+   "away": "Stade Rennais",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/147.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
+   "homeAbbr": "NEC",
+   "awayAbbr": "REN"
   },
   {
    "gameId": "uel:401915513",
@@ -393,7 +401,11 @@
    "bookCount": 1,
    "startsAt": "2026-11-26T20:00Z",
    "home": "Sunderland",
-   "away": "Jagiellonia Bialystok"
+   "away": "Jagiellonia Bialystok",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/11505.png",
+   "homeAbbr": "SUN",
+   "awayAbbr": "JAG"
   },
   {
    "gameId": "uel:401915512",
@@ -409,7 +421,11 @@
    "bookCount": 1,
    "startsAt": "2026-11-26T20:00Z",
    "home": "Torreense",
-   "away": "Celtic"
+   "away": "Celtic",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/21615.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/256.png",
+   "homeAbbr": "TOR",
+   "awayAbbr": "CEL"
   },
   {
    "gameId": "nfl:401873080",
@@ -417,15 +433,19 @@
    "league": "NFL",
    "sport": "nfl",
    "side": "away",
-   "price": 4.01,
-   "modelProb": 0.3065,
-   "marketProb": 0.2492,
-   "edgePct": 0.0573,
+   "price": 4.09,
+   "modelProb": 0.3038,
+   "marketProb": 0.2443,
+   "edgePct": 0.0595,
    "tier": "STANDARD",
    "bookCount": 1,
    "startsAt": "2026-11-26T21:30Z",
    "home": "Dallas Cowboys",
-   "away": "Philadelphia Eagles"
+   "away": "Philadelphia Eagles",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png",
+   "homeAbbr": "DAL",
+   "awayAbbr": "PHI"
   },
   {
    "gameId": "bundesliga:401884720",
@@ -441,7 +461,11 @@
    "bookCount": 1,
    "startsAt": "2026-11-27T19:30Z",
    "home": "Werder Bremen",
-   "away": "Borussia M\u00f6nchengladbach"
+   "away": "Borussia M\u00f6nchengladbach",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/137.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/268.png",
+   "homeAbbr": "SVW",
+   "awayAbbr": "BMG"
   },
   {
    "gameId": "seriea:401875004",
@@ -457,7 +481,11 @@
    "bookCount": 1,
    "startsAt": "2026-11-27T19:45Z",
    "home": "Venezia",
-   "away": "Bologna"
+   "away": "Bologna",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
+   "homeAbbr": "VEN",
+   "awayAbbr": "BOL"
   },
   {
    "gameId": "epl:401879225",
@@ -473,7 +501,11 @@
    "bookCount": 1,
    "startsAt": "2026-11-27T20:00Z",
    "home": "Nottingham Forest",
-   "away": "Chelsea"
+   "away": "Chelsea",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+   "homeAbbr": "NFO",
+   "awayAbbr": "CHE"
   },
   {
    "gameId": "laliga:401882791",
@@ -489,7 +521,11 @@
    "bookCount": 1,
    "startsAt": "2026-11-27T20:00Z",
    "home": "Levante",
-   "away": "Racing Santander"
+   "away": "Racing Santander",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
+   "homeAbbr": "LEV",
+   "awayAbbr": "RAC"
   },
   {
    "gameId": "laliga:401882796",
@@ -505,7 +541,11 @@
    "bookCount": 1,
    "startsAt": "2026-11-28T13:00Z",
    "home": "Real Betis",
-   "away": "Rayo Vallecano"
+   "away": "Rayo Vallecano",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
+   "homeAbbr": "BET",
+   "awayAbbr": "RAY"
   },
   {
    "gameId": "seriea:401875081",
@@ -521,7 +561,11 @@
    "bookCount": 1,
    "startsAt": "2026-11-28T14:00Z",
    "home": "Frosinone",
-   "away": "Parma"
+   "away": "Parma",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4057.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
+   "homeAbbr": "FRO",
+   "awayAbbr": "PAR"
   },
   {
    "gameId": "bundesliga:401884719",
@@ -537,7 +581,11 @@
    "bookCount": 1,
    "startsAt": "2026-11-28T14:30Z",
    "home": "SC Paderborn 07",
-   "away": "Schalke 04"
+   "away": "Schalke 04",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3307.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/133.png",
+   "homeAbbr": "SCP",
+   "awayAbbr": "S04"
   },
   {
    "gameId": "seriea:401874826",
@@ -553,7 +601,11 @@
    "bookCount": 1,
    "startsAt": "2026-11-28T17:00Z",
    "home": "Torino",
-   "away": "Lazio"
+   "away": "Lazio",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
+   "homeAbbr": "TOR",
+   "awayAbbr": "LAZ"
   },
   {
    "gameId": "ligue1:401876391",
@@ -569,7 +621,11 @@
    "bookCount": 1,
    "startsAt": "2026-11-28T19:45Z",
    "home": "Le Havre AC",
-   "away": "Strasbourg"
+   "away": "Strasbourg",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3236.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/180.png",
+   "homeAbbr": "HAC",
+   "awayAbbr": "STR"
   },
   {
    "gameId": "ligue1:401876390",
@@ -585,7 +641,11 @@
    "bookCount": 1,
    "startsAt": "2026-11-28T19:45Z",
    "home": "Le Mans",
-   "away": "Lille"
+   "away": "Lille",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2697.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
+   "homeAbbr": "MNS",
+   "awayAbbr": "LILL"
   },
   {
    "gameId": "ligue1:401876388",
@@ -601,7 +661,11 @@
    "bookCount": 1,
    "startsAt": "2026-11-28T19:45Z",
    "home": "Nice",
-   "away": "Troyes"
+   "away": "Troyes",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2502.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png",
+   "homeAbbr": "NICE",
+   "awayAbbr": "TRY"
   },
   {
    "gameId": "mls:401933722",
@@ -617,7 +681,11 @@
    "bookCount": 1,
    "startsAt": "2026-11-28T23:30Z",
    "home": "FC Cincinnati",
-   "away": "Nashville SC"
+   "away": "Nashville SC",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/18267.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/18986.png",
+   "homeAbbr": "CIN",
+   "awayAbbr": "NSH"
   },
   {
    "gameId": "epl:401879231",
@@ -633,7 +701,11 @@
    "bookCount": 1,
    "startsAt": "2026-11-29T14:05Z",
    "home": "Brighton & Hove Albion",
-   "away": "Newcastle United"
+   "away": "Newcastle United",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
+   "homeAbbr": "BHA",
+   "awayAbbr": "NEW"
   },
   {
    "gameId": "epl:401879228",
@@ -649,7 +721,11 @@
    "bookCount": 1,
    "startsAt": "2026-11-29T14:05Z",
    "home": "Fulham",
-   "away": "AFC Bournemouth"
+   "away": "AFC Bournemouth",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
+   "homeAbbr": "FUL",
+   "awayAbbr": "BOU"
   },
   {
    "gameId": "epl:401878753",
@@ -665,7 +741,11 @@
    "bookCount": 1,
    "startsAt": "2026-11-29T16:30Z",
    "home": "Arsenal",
-   "away": "Manchester City"
+   "away": "Manchester City",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+   "homeAbbr": "ARS",
+   "awayAbbr": "MNC"
   },
   {
    "gameId": "bundesliga:401884727",
@@ -681,7 +761,11 @@
    "bookCount": 1,
    "startsAt": "2026-11-29T18:30Z",
    "home": "Borussia Dortmund",
-   "away": "Bayer Leverkusen"
+   "away": "Bayer Leverkusen",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
+   "homeAbbr": "DOR",
+   "awayAbbr": "B04"
   },
   {
    "gameId": "seriea:401874994",
@@ -697,7 +781,11 @@
    "bookCount": 1,
    "startsAt": "2026-11-29T19:45Z",
    "home": "Como",
-   "away": "Juventus"
+   "away": "Juventus",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
+   "homeAbbr": "COMO",
+   "awayAbbr": "JUV"
   },
   {
    "gameId": "ligue1:401876389",
@@ -713,7 +801,11 @@
    "bookCount": 1,
    "startsAt": "2026-11-29T19:45Z",
    "home": "Lyon",
-   "away": "AS Monaco"
+   "away": "AS Monaco",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
+   "homeAbbr": "LYON",
+   "awayAbbr": "MON"
   },
   {
    "gameId": "laliga:401882788",
@@ -729,7 +821,11 @@
    "bookCount": 1,
    "startsAt": "2026-11-29T20:00Z",
    "home": "Real Sociedad",
-   "away": "Sevilla"
+   "away": "Sevilla",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
+   "homeAbbr": "RSO",
+   "awayAbbr": "SEV"
   },
   {
    "gameId": "laliga:401882792",
@@ -745,7 +841,11 @@
    "bookCount": 1,
    "startsAt": "2026-11-30T20:00Z",
    "home": "Espanyol",
-   "away": "Getafe"
+   "away": "Getafe",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
+   "homeAbbr": "ESP",
+   "awayAbbr": "GET"
   }
  ],
  "alerts": [
@@ -788,6 +888,16 @@
    "flags": [
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
     "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
+   "gameId": "nba:401910037",
+   "match": "Portland Trail Blazers @ Philadelphia 76ers",
+   "league": "NBA",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
@@ -854,6 +964,17 @@
    "gameId": "nfl:401873078",
    "match": "Cincinnati Bengals @ Washington Commanders",
    "league": "NFL",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
+   "gameId": "nba:401910043",
+   "match": "LA Clippers @ Houston Rockets",
+   "league": "NBA",
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [

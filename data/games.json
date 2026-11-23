@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-23T00:34:53.289919+00:00",
+ "generatedAt": "2026-11-23T00:42:00.056682+00:00",
  "games": [
   {
    "id": "esports:134580",
@@ -161,7 +161,7 @@
     "h2h": {
      "outcome": "Fiorentina",
      "bestOdds": 1.909,
-     "otherOdds": 3.55,
+     "otherOdds": 3.5,
      "bookCount": "1",
      "favSide": "away"
     }
@@ -2000,8 +2000,8 @@
    "markets": {
     "h2h": {
      "outcome": "Los Angeles Rams",
-     "bestOdds": 1.625,
-     "otherOdds": 2.35,
+     "bestOdds": 1.621,
+     "otherOdds": 2.36,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -2780,7 +2780,7 @@
    "markets": {
     "h2h": {
      "outcome": "Dallas Cowboys",
-     "bestOdds": 1.23,
+     "bestOdds": 1.231,
      "otherOdds": 4.39,
      "bookCount": "1",
      "favSide": "home"
@@ -2848,8 +2848,8 @@
    "markets": {
     "h2h": {
      "outcome": "Buffalo Bills",
-     "bestOdds": 1.645,
-     "otherOdds": 2.31,
+     "bestOdds": 1.641,
+     "otherOdds": 2.32,
      "bookCount": "1",
      "favSide": "home"
     }
