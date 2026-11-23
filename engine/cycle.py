@@ -34,15 +34,25 @@ def run(*args):
 
 
 def record_summary(led):
-    graded = [i for i in led.get("items", []) if i.get("result") in ("correct", "wrong")]
+    bt_path = os.path.join(DATA, "backtest.json")
+    bt = []
+    if os.path.exists(bt_path):
+        try:
+            bt = json.load(open(bt_path)).get("items", [])
+        except Exception:
+            bt = []
+    merged = bt + led.get("items", [])
+    graded = [i for i in merged if i.get("result") in ("correct", "wrong")]
     won = sum(1 for i in graded if i["result"] == "correct")
     units = round(sum(i.get("profitUnits") or 0 for i in graded), 2)
     n = len(graded)
+    last = graded[-50:]
     return {
         "graded": n, "correct": won, "wrong": n - won,
         "accuracy": round(won / n, 4) if n else None,
         "units": units,
-        "rolling": round(sum(1 for i in graded[-50:] if i["result"] == "correct") / max(1, len(graded[-50:])), 4) if graded else None,
+        "rolling": round(sum(1 for i in last if i["result"] == "correct") / max(1, len(last)), 4) if last else None,
+        "recent": list(reversed(graded[-25:])),
     }
 
 

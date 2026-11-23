@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-23T14:09:45.180927+00:00",
+ "generatedAt": "2026-11-23T16:19:38.796792+00:00",
  "picks": [
   {
    "gameId": "wta:186827",
@@ -349,255 +349,6 @@
   }
  ],
  "alerts": [
-  {
-   "gameId": "seriea:401875009",
-   "match": "Fiorentina @ Monza",
-   "league": "Serie A",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "epl:401879237",
-   "match": "Everton @ Brentford",
-   "league": "EPL",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "laliga:401882802",
-   "match": "Elche @ Levante",
-   "league": "La Liga",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "ncaab:401921708",
-   "match": "Washington Huskies @ BYU Cougars",
-   "league": "NCAAB",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
-   ]
-  },
-  {
-   "gameId": "nba:401910036",
-   "match": "Memphis Grizzlies @ Charlotte Hornets",
-   "league": "NBA",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "nba:401910037",
-   "match": "Portland Trail Blazers @ Philadelphia 76ers",
-   "league": "NBA",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "nhl:401892773",
-   "match": "Columbus Blue Jackets @ New Jersey Devils",
-   "league": "NHL",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "nba:401910038",
-   "match": "Oklahoma City Thunder @ Indiana Pacers",
-   "league": "NBA",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "nba:401910039",
-   "match": "Milwaukee Bucks @ Toronto Raptors",
-   "league": "NBA",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
-   ]
-  },
-  {
-   "gameId": "nba:401910040",
-   "match": "Brooklyn Nets @ Minnesota Timberwolves",
-   "league": "NBA",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
-   ]
-  },
-  {
-   "gameId": "nhl:401892774",
-   "match": "Los Angeles Kings @ Montreal Canadiens",
-   "league": "NHL",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "nhl:401892775",
-   "match": "Calgary Flames @ Ottawa Senators",
-   "league": "NHL",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "nhl:401892776",
-   "match": "Toronto Maple Leafs @ New York Islanders",
-   "league": "NHL",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "nhl:401892777",
-   "match": "Utah Mammoth @ Winnipeg Jets",
-   "league": "NHL",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "nba:401910041",
-   "match": "Cleveland Cavaliers @ Chicago Bulls",
-   "league": "NBA",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
-   ]
-  },
-  {
-   "gameId": "nba:401910042",
-   "match": "Phoenix Suns @ New Orleans Pelicans",
-   "league": "NBA",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "mls:401933728",
-   "match": "LAFC @ St. Louis CITY SC",
-   "league": "MLS",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "nfl:401873078",
-   "match": "Cincinnati Bengals @ Washington Commanders",
-   "league": "NFL",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
-   ]
-  },
-  {
-   "gameId": "nba:401910043",
-   "match": "LA Clippers @ Houston Rockets",
-   "league": "NBA",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
-   ]
-  },
-  {
-   "gameId": "nhl:401892778",
-   "match": "Anaheim Ducks @ Seattle Kraken",
-   "league": "NHL",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "nba:401910044",
-   "match": "Utah Jazz @ Los Angeles Lakers",
-   "league": "NBA",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
-   ]
-  },
-  {
-   "gameId": "nba:401910045",
-   "match": "San Antonio Spurs @ Sacramento Kings",
-   "league": "NBA",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
-   ]
-  },
-  {
-   "gameId": "nhl:401892779",
-   "match": "Minnesota Wild @ San Jose Sharks",
-   "league": "NHL",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "ncaab:401909743",
-   "match": "Colorado State Rams @ Arizona Wildcats",
-   "league": "NCAAB",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
-   ]
-  },
   {
    "gameId": "ucl:401915380",
    "match": "LASK Linz @ Bodo/Glimt",
@@ -1045,6 +796,16 @@
    "gameId": "ligue1:401876392",
    "match": "Paris FC @ Brest",
    "league": "Ligue 1",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "nfl:401873083",
+   "match": "Denver Broncos @ Pittsburgh Steelers",
+   "league": "NFL",
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
@@ -1645,6 +1406,17 @@
    "flags": [
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
+  },
+  {
+   "gameId": "bundesliga:401884718",
+   "match": "SC Paderborn 07 @ Bayern Munich",
+   "league": "Bundesliga",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
   }
  ],
  "record": {
@@ -1653,6 +1425,583 @@
   "wrong": 18,
   "accuracy": 0.7353,
   "units": 11.08,
-  "rolling": 0.7
+  "rolling": 0.7,
+  "recent": [
+   {
+    "gameId": "epl:401878755",
+    "match": "Manchester United @ Liverpool",
+    "league": "EPL",
+    "sport": "epl",
+    "side": "home",
+    "price": 1.77,
+    "modelProb": 0.7517,
+    "marketProb": 0.6986,
+    "edgePct": 0.0531,
+    "tier": "PREMIUM",
+    "bookCount": 1,
+    "startsAt": "2026-11-22T12:00:00Z",
+    "home": "Liverpool",
+    "away": "Manchester United",
+    "homeLogo": null,
+    "awayLogo": null,
+    "homeAbbr": null,
+    "awayAbbr": null,
+    "result": "correct",
+    "profitUnits": 0.77,
+    "final": "4-0"
+   },
+   {
+    "gameId": "nhl:401892771",
+    "match": "Pittsburgh Penguins @ Dallas Stars",
+    "league": "NHL",
+    "sport": "nhl",
+    "side": "home",
+    "price": 1.44,
+    "modelProb": 0.7207,
+    "marketProb": 0.669,
+    "edgePct": 0.0517,
+    "tier": "PREMIUM",
+    "bookCount": 1,
+    "startsAt": "2026-11-22T12:00:00Z",
+    "home": "Dallas Stars",
+    "away": "Pittsburgh Penguins",
+    "homeLogo": null,
+    "awayLogo": null,
+    "homeAbbr": null,
+    "awayAbbr": null,
+    "result": "correct",
+    "profitUnits": 0.44,
+    "final": "1-0"
+   },
+   {
+    "gameId": "nhl:401892769",
+    "match": "Buffalo Sabres @ Tampa Bay Lightning",
+    "league": "NHL",
+    "sport": "nhl",
+    "side": "home",
+    "price": 1.46,
+    "modelProb": 0.6866,
+    "marketProb": 0.6574,
+    "edgePct": 0.0292,
+    "tier": "HIGH",
+    "bookCount": 1,
+    "startsAt": "2026-11-22T12:00:00Z",
+    "home": "Tampa Bay Lightning",
+    "away": "Buffalo Sabres",
+    "homeLogo": null,
+    "awayLogo": null,
+    "homeAbbr": null,
+    "awayAbbr": null,
+    "result": "wrong",
+    "profitUnits": -1.0,
+    "final": "2-6"
+   },
+   {
+    "gameId": "nfl:401873068",
+    "match": "Baltimore Ravens @ Carolina Panthers",
+    "league": "NFL",
+    "sport": "nfl",
+    "side": "home",
+    "price": 1.74,
+    "modelProb": 0.5746,
+    "marketProb": 0.5514,
+    "edgePct": 0.0232,
+    "tier": "STANDARD",
+    "bookCount": 1,
+    "startsAt": "2026-11-22T12:00:00Z",
+    "home": "Carolina Panthers",
+    "away": "Baltimore Ravens",
+    "homeLogo": null,
+    "awayLogo": null,
+    "homeAbbr": null,
+    "awayAbbr": null,
+    "result": "correct",
+    "profitUnits": 0.74,
+    "final": "35-33"
+   },
+   {
+    "gameId": "nfl:401873072",
+    "match": "Tampa Bay Buccaneers @ Detroit Lions",
+    "league": "NFL",
+    "sport": "nfl",
+    "side": "home",
+    "price": 1.46,
+    "modelProb": 0.6885,
+    "marketProb": 0.6593,
+    "edgePct": 0.0291,
+    "tier": "HIGH",
+    "bookCount": 1,
+    "startsAt": "2026-11-22T12:00:00Z",
+    "home": "Detroit Lions",
+    "away": "Tampa Bay Buccaneers",
+    "homeLogo": null,
+    "awayLogo": null,
+    "homeAbbr": null,
+    "awayAbbr": null,
+    "result": "correct",
+    "profitUnits": 0.46,
+    "final": "31-21"
+   },
+   {
+    "gameId": "nba:401910034",
+    "match": "Indiana Pacers @ New York Knicks",
+    "league": "NBA",
+    "sport": "nba",
+    "side": "home",
+    "price": 1.42,
+    "modelProb": 0.6903,
+    "marketProb": 0.6755,
+    "edgePct": 0.0148,
+    "tier": "HIGH",
+    "bookCount": 1,
+    "startsAt": "2026-11-22T12:00:00Z",
+    "home": "New York Knicks",
+    "away": "Indiana Pacers",
+    "homeLogo": null,
+    "awayLogo": null,
+    "homeAbbr": null,
+    "awayAbbr": null,
+    "result": "correct",
+    "profitUnits": 0.42,
+    "final": "113-106"
+   },
+   {
+    "gameId": "nba:401910033",
+    "match": "Dallas Mavericks @ Utah Jazz",
+    "league": "NBA",
+    "sport": "nba",
+    "side": "away",
+    "price": 1.74,
+    "modelProb": 0.5692,
+    "marketProb": 0.5514,
+    "edgePct": 0.0178,
+    "tier": "STANDARD",
+    "bookCount": 1,
+    "startsAt": "2026-11-22T12:00:00Z",
+    "home": "Utah Jazz",
+    "away": "Dallas Mavericks",
+    "homeLogo": null,
+    "awayLogo": null,
+    "homeAbbr": null,
+    "awayAbbr": null,
+    "result": "correct",
+    "profitUnits": 0.74,
+    "final": "114-116"
+   },
+   {
+    "gameId": "nba:401910030",
+    "match": "Oklahoma City Thunder @ Miami Heat",
+    "league": "NBA",
+    "sport": "nba",
+    "side": "home",
+    "price": 1.54,
+    "modelProb": 0.631,
+    "marketProb": 0.6221,
+    "edgePct": 0.0089,
+    "tier": "HIGH",
+    "bookCount": 1,
+    "startsAt": "2026-11-22T12:00:00Z",
+    "home": "Miami Heat",
+    "away": "Oklahoma City Thunder",
+    "homeLogo": null,
+    "awayLogo": null,
+    "homeAbbr": null,
+    "awayAbbr": null,
+    "result": "correct",
+    "profitUnits": 0.54,
+    "final": "123-113"
+   },
+   {
+    "gameId": "epl:401879235",
+    "match": "Crystal Palace @ Coventry City",
+    "league": "EPL",
+    "sport": "epl",
+    "side": "home",
+    "price": 2.55,
+    "modelProb": 0.5894,
+    "marketProb": 0.5143,
+    "edgePct": 0.0752,
+    "tier": "STANDARD",
+    "bookCount": 1,
+    "startsAt": "2026-11-21T12:00:00Z",
+    "home": "Coventry City",
+    "away": "Crystal Palace",
+    "homeLogo": null,
+    "awayLogo": null,
+    "homeAbbr": null,
+    "awayAbbr": null,
+    "result": "correct",
+    "profitUnits": 1.55,
+    "final": "3-2"
+   },
+   {
+    "gameId": "epl:401879238",
+    "match": "Nottingham Forest @ AFC Bournemouth",
+    "league": "EPL",
+    "sport": "epl",
+    "side": "home",
+    "price": 2.15,
+    "modelProb": 0.6845,
+    "marketProb": 0.6261,
+    "edgePct": 0.0584,
+    "tier": "HIGH",
+    "bookCount": 1,
+    "startsAt": "2026-11-21T12:00:00Z",
+    "home": "AFC Bournemouth",
+    "away": "Nottingham Forest",
+    "homeLogo": null,
+    "awayLogo": null,
+    "homeAbbr": null,
+    "awayAbbr": null,
+    "result": "correct",
+    "profitUnits": 1.15,
+    "final": "2-0"
+   },
+   {
+    "gameId": "nhl:401892766",
+    "match": "Minnesota Wild @ Vancouver Canucks",
+    "league": "NHL",
+    "sport": "nhl",
+    "side": "away",
+    "price": 1.31,
+    "modelProb": 0.7431,
+    "marketProb": 0.7335,
+    "edgePct": 0.0096,
+    "tier": "PREMIUM",
+    "bookCount": 1,
+    "startsAt": "2026-11-21T12:00:00Z",
+    "home": "Vancouver Canucks",
+    "away": "Minnesota Wild",
+    "homeLogo": null,
+    "awayLogo": null,
+    "homeAbbr": null,
+    "awayAbbr": null,
+    "result": "wrong",
+    "profitUnits": -1.0,
+    "final": "4-3"
+   },
+   {
+    "gameId": "nhl:401892765",
+    "match": "Anaheim Ducks @ Utah Mammoth",
+    "league": "NHL",
+    "sport": "nhl",
+    "side": "home",
+    "price": 1.7,
+    "modelProb": 0.5921,
+    "marketProb": 0.5635,
+    "edgePct": 0.0286,
+    "tier": "STANDARD",
+    "bookCount": 1,
+    "startsAt": "2026-11-21T12:00:00Z",
+    "home": "Utah Mammoth",
+    "away": "Anaheim Ducks",
+    "homeLogo": null,
+    "awayLogo": null,
+    "homeAbbr": null,
+    "awayAbbr": null,
+    "result": "correct",
+    "profitUnits": 0.7,
+    "final": "3-2"
+   },
+   {
+    "gameId": "nhl:401892760",
+    "match": "Philadelphia Flyers @ Montreal Canadiens",
+    "league": "NHL",
+    "sport": "nhl",
+    "side": "home",
+    "price": 1.62,
+    "modelProb": 0.6517,
+    "marketProb": 0.5934,
+    "edgePct": 0.0583,
+    "tier": "HIGH",
+    "bookCount": 1,
+    "startsAt": "2026-11-21T12:00:00Z",
+    "home": "Montreal Canadiens",
+    "away": "Philadelphia Flyers",
+    "homeLogo": null,
+    "awayLogo": null,
+    "homeAbbr": null,
+    "awayAbbr": null,
+    "result": "wrong",
+    "profitUnits": -1.0,
+    "final": "3-4"
+   },
+   {
+    "gameId": "nhl:401892758",
+    "match": "Washington Capitals @ Boston Bruins",
+    "league": "NHL",
+    "sport": "nhl",
+    "side": "home",
+    "price": 1.7,
+    "modelProb": 0.5867,
+    "marketProb": 0.5635,
+    "edgePct": 0.0232,
+    "tier": "STANDARD",
+    "bookCount": 1,
+    "startsAt": "2026-11-21T12:00:00Z",
+    "home": "Boston Bruins",
+    "away": "Washington Capitals",
+    "homeLogo": null,
+    "awayLogo": null,
+    "homeAbbr": null,
+    "awayAbbr": null,
+    "result": "correct",
+    "profitUnits": 0.7,
+    "final": "7-5"
+   },
+   {
+    "gameId": "nhl:401892757",
+    "match": "Pittsburgh Penguins @ Nashville Predators",
+    "league": "NHL",
+    "sport": "nhl",
+    "side": "home",
+    "price": 1.77,
+    "modelProb": 0.5936,
+    "marketProb": 0.5428,
+    "edgePct": 0.0508,
+    "tier": "STANDARD",
+    "bookCount": 1,
+    "startsAt": "2026-11-21T12:00:00Z",
+    "home": "Nashville Predators",
+    "away": "Pittsburgh Penguins",
+    "homeLogo": null,
+    "awayLogo": null,
+    "homeAbbr": null,
+    "awayAbbr": null,
+    "result": "correct",
+    "profitUnits": 0.77,
+    "final": "4-3"
+   },
+   {
+    "gameId": "nhl:401892756",
+    "match": "Buffalo Sabres @ Florida Panthers",
+    "league": "NHL",
+    "sport": "nhl",
+    "side": "home",
+    "price": 1.7,
+    "modelProb": 0.6072,
+    "marketProb": 0.5635,
+    "edgePct": 0.0436,
+    "tier": "STANDARD",
+    "bookCount": 1,
+    "startsAt": "2026-11-21T12:00:00Z",
+    "home": "Florida Panthers",
+    "away": "Buffalo Sabres",
+    "homeLogo": null,
+    "awayLogo": null,
+    "homeAbbr": null,
+    "awayAbbr": null,
+    "result": "correct",
+    "profitUnits": 0.7,
+    "final": "4-3"
+   },
+   {
+    "gameId": "nba:401910025",
+    "match": "LA Clippers @ Dallas Mavericks",
+    "league": "NBA",
+    "sport": "nba",
+    "side": "home",
+    "price": 1.52,
+    "modelProb": 0.6404,
+    "marketProb": 0.6305,
+    "edgePct": 0.01,
+    "tier": "HIGH",
+    "bookCount": 1,
+    "startsAt": "2026-11-21T12:00:00Z",
+    "home": "Dallas Mavericks",
+    "away": "LA Clippers",
+    "homeLogo": null,
+    "awayLogo": null,
+    "homeAbbr": null,
+    "awayAbbr": null,
+    "result": "correct",
+    "profitUnits": 0.52,
+    "final": "110-100"
+   },
+   {
+    "gameId": "nba:401910024",
+    "match": "Portland Trail Blazers @ New York Knicks",
+    "league": "NBA",
+    "sport": "nba",
+    "side": "away",
+    "price": 1.83,
+    "modelProb": 0.5569,
+    "marketProb": 0.5252,
+    "edgePct": 0.0317,
+    "tier": "STANDARD",
+    "bookCount": 1,
+    "startsAt": "2026-11-21T12:00:00Z",
+    "home": "New York Knicks",
+    "away": "Portland Trail Blazers",
+    "homeLogo": null,
+    "awayLogo": null,
+    "homeAbbr": null,
+    "awayAbbr": null,
+    "result": "wrong",
+    "profitUnits": -1.0,
+    "final": "97-96"
+   },
+   {
+    "gameId": "nba:401909312",
+    "match": "Houston Rockets @ Denver Nuggets",
+    "league": "NBA",
+    "sport": "nba",
+    "side": "away",
+    "price": 1.83,
+    "modelProb": 0.5503,
+    "marketProb": 0.5252,
+    "edgePct": 0.025,
+    "tier": "STANDARD",
+    "bookCount": 1,
+    "startsAt": "2026-11-20T12:00:00Z",
+    "home": "Denver Nuggets",
+    "away": "Houston Rockets",
+    "homeLogo": null,
+    "awayLogo": null,
+    "homeAbbr": null,
+    "awayAbbr": null,
+    "result": "wrong",
+    "profitUnits": -1.0,
+    "final": "133-124"
+   },
+   {
+    "gameId": "nba:401909309",
+    "match": "Washington Wizards @ Chicago Bulls",
+    "league": "NBA",
+    "sport": "nba",
+    "side": "home",
+    "price": 1.74,
+    "modelProb": 0.572,
+    "marketProb": 0.5514,
+    "edgePct": 0.0206,
+    "tier": "STANDARD",
+    "bookCount": 1,
+    "startsAt": "2026-11-20T12:00:00Z",
+    "home": "Chicago Bulls",
+    "away": "Washington Wizards",
+    "homeLogo": null,
+    "awayLogo": null,
+    "homeAbbr": null,
+    "awayAbbr": null,
+    "result": "wrong",
+    "profitUnits": -1.0,
+    "final": "94-98"
+   },
+   {
+    "gameId": "nba:401909308",
+    "match": "Toronto Raptors @ Detroit Pistons",
+    "league": "NBA",
+    "sport": "nba",
+    "side": "home",
+    "price": 1.36,
+    "modelProb": 0.7431,
+    "marketProb": 0.7061,
+    "edgePct": 0.0369,
+    "tier": "PREMIUM",
+    "bookCount": 1,
+    "startsAt": "2026-11-20T12:00:00Z",
+    "home": "Detroit Pistons",
+    "away": "Toronto Raptors",
+    "homeLogo": null,
+    "awayLogo": null,
+    "homeAbbr": null,
+    "awayAbbr": null,
+    "result": "wrong",
+    "profitUnits": -1.0,
+    "final": "102-105"
+   },
+   {
+    "gameId": "nba:401909305",
+    "match": "Charlotte Hornets @ Atlanta Hawks",
+    "league": "NBA",
+    "sport": "nba",
+    "side": "home",
+    "price": 1.38,
+    "modelProb": 0.7534,
+    "marketProb": 0.6969,
+    "edgePct": 0.0565,
+    "tier": "PREMIUM",
+    "bookCount": 1,
+    "startsAt": "2026-11-20T12:00:00Z",
+    "home": "Atlanta Hawks",
+    "away": "Charlotte Hornets",
+    "homeLogo": null,
+    "awayLogo": null,
+    "homeAbbr": null,
+    "awayAbbr": null,
+    "result": "correct",
+    "profitUnits": 0.38,
+    "final": "111-97"
+   },
+   {
+    "gameId": "nhl:401892752",
+    "match": "Vancouver Canucks @ Seattle Kraken",
+    "league": "NHL",
+    "sport": "nhl",
+    "side": "home",
+    "price": 1.62,
+    "modelProb": 0.6428,
+    "marketProb": 0.5934,
+    "edgePct": 0.0494,
+    "tier": "HIGH",
+    "bookCount": 1,
+    "startsAt": "2026-11-19T12:00:00Z",
+    "home": "Seattle Kraken",
+    "away": "Vancouver Canucks",
+    "homeLogo": null,
+    "awayLogo": null,
+    "homeAbbr": null,
+    "awayAbbr": null,
+    "result": "correct",
+    "profitUnits": 0.62,
+    "final": "5-1"
+   },
+   {
+    "gameId": "nhl:401892751",
+    "match": "Anaheim Ducks @ Colorado Avalanche",
+    "league": "NHL",
+    "sport": "nhl",
+    "side": "home",
+    "price": 1.77,
+    "modelProb": 0.6013,
+    "marketProb": 0.5428,
+    "edgePct": 0.0586,
+    "tier": "STANDARD",
+    "bookCount": 1,
+    "startsAt": "2026-11-19T12:00:00Z",
+    "home": "Colorado Avalanche",
+    "away": "Anaheim Ducks",
+    "homeLogo": null,
+    "awayLogo": null,
+    "homeAbbr": null,
+    "awayAbbr": null,
+    "result": "correct",
+    "profitUnits": 0.77,
+    "final": "4-0"
+   },
+   {
+    "gameId": "nhl:401892750",
+    "match": "Minnesota Wild @ Calgary Flames",
+    "league": "NHL",
+    "sport": "nhl",
+    "side": "away",
+    "price": 1.41,
+    "modelProb": 0.6858,
+    "marketProb": 0.6806,
+    "edgePct": 0.0052,
+    "tier": "HIGH",
+    "bookCount": 1,
+    "startsAt": "2026-11-19T12:00:00Z",
+    "home": "Calgary Flames",
+    "away": "Minnesota Wild",
+    "homeLogo": null,
+    "awayLogo": null,
+    "homeAbbr": null,
+    "awayAbbr": null,
+    "result": "correct",
+    "profitUnits": 0.41,
+    "final": "1-4"
+   }
+  ]
  }
 }
