@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-23T05:39:31.070568+00:00",
+ "generatedAt": "2026-11-23T13:10:31.198478+00:00",
  "picks": [
   {
    "gameId": "laliga:401882796",
@@ -1081,6 +1081,16 @@
    ]
   },
   {
+   "gameId": "mls:401933725",
+   "match": "Vancouver Whitecaps @ Real Salt Lake",
+   "league": "MLS",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
    "gameId": "laliga:401882796",
    "match": "Rayo Vallecano @ Real Betis",
    "league": "La Liga",
@@ -1204,6 +1214,16 @@
    "gameId": "bundesliga:401884726",
    "match": "Eintracht Frankfurt @ VfB Stuttgart",
    "league": "Bundesliga",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "mls:401933737",
+   "match": "Chicago Fire FC @ Charlotte FC",
+   "league": "MLS",
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
@@ -1519,6 +1539,106 @@
    "gameId": "laliga:401882792",
    "match": "Getafe @ Espanyol",
    "league": "La Liga",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "epl:401879221",
+   "match": "Ipswich Town @ Coventry City",
+   "league": "EPL",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "epl:401879222",
+   "match": "Crystal Palace @ Chelsea",
+   "league": "EPL",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "epl:401879220",
+   "match": "Nottingham Forest @ Hull City",
+   "league": "EPL",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "epl:401879219",
+   "match": "Sunderland @ Liverpool",
+   "league": "EPL",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "epl:401879218",
+   "match": "Leeds United @ Manchester City",
+   "league": "EPL",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "epl:401879223",
+   "match": "Brighton & Hove Albion @ AFC Bournemouth",
+   "league": "EPL",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "epl:401878751",
+   "match": "Everton @ Aston Villa",
+   "league": "EPL",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "epl:401878750",
+   "match": "Arsenal @ Brentford",
+   "league": "EPL",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "epl:401879217",
+   "match": "Manchester United @ Newcastle United",
+   "league": "EPL",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "epl:401878749",
+   "match": "Fulham @ Tottenham Hotspur",
+   "league": "EPL",
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [

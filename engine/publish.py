@@ -1,7 +1,7 @@
 import json, os, subprocess, sys, urllib.request
 
 TOKEN = os.environ.get("VERCEL_TOKEN", "")
-PROJECT = "prj_JfpPj1cW7sgYftUZ9wjrbnx6D6ga"
+PROJECT = "prj_mybaeapCVsT1BpmCyDoAp1l2wZbA"
 TEAM = "team_I1jfujieN7ofXAqLMLU4iRvh"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
