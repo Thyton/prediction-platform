@@ -23,7 +23,11 @@ export default function RootLayout({ children }) {
           {children}
           <footer>
             <span>Research only. No money wagered on your behalf.</span>
-            <span>© TipLab</span>
+            <span style={{ display: "inline-flex", gap: 18 }}>
+              <Link href="/privacy">Privacy</Link>
+              <Link href="/terms">Terms</Link>
+              <span>© TipLab</span>
+            </span>
           </footer>
         </main>
       </body>
