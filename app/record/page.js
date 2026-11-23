@@ -2,6 +2,19 @@ import { getRecord, getLedger, fmtTime, SPORT_LABEL } from "../../lib/data";
 
 export const dynamic = "force-dynamic";
 
+
+function TeamPill({ p, side }) {
+  const isHome = side === "home";
+  const name = isHome ? p.home : p.away;
+  const logo = isHome ? p.homeLogo : p.awayLogo;
+  return (
+    <span style={{ display: "inline-flex", alignItems: "center", gap: 8 }}>
+      {logo && <img src={logo} alt="" width={22} height={22} style={{ borderRadius: 4 }} />}
+      <span className="side">{name}</span>
+    </span>
+  );
+}
+
 export default function RecordPage() {
   const r = getRecord();
   const all = getLedger().filter((i) => i.result).reverse();
@@ -37,7 +50,7 @@ export default function RecordPage() {
                   {p.match}
                   <small>{fmtTime(p.startsAt)} · graded {fmtTime(p.settledAt)}</small>
                 </td>
-                <td><span className="side">{p.side.toUpperCase()}</span></td>
+                <td><TeamPill p={p} side={p.side} /></td>
                 <td>{Number(p.price).toFixed(2)}</td>
                 <td>{p.final || "—"}</td>
                 <td className={p.result === "correct" ? "win" : "loss"}>

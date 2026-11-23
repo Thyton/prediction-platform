@@ -5,6 +5,22 @@ import Tabs from "./tabs";
 
 export const dynamic = "force-dynamic";
 
+
+function TeamPill({ p, side }) {
+  const isHome = side === "home";
+  const name = isHome ? p.home : p.away;
+  const logo = isHome ? p.homeLogo : p.awayLogo;
+  return (
+    <span style={{ display: "inline-flex", alignItems: "center", gap: 8 }}>
+      {logo && (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img src={logo} alt="" width={22} height={22} style={{ borderRadius: 4, verticalAlign: "middle" }} />
+      )}
+      <span className="side">{name}</span>
+    </span>
+  );
+}
+
 export default function Home() {
   const live = getLive();
   const record = getRecord();
@@ -63,8 +79,8 @@ export default function Home() {
                         <small>{fmtTime(p.startsAt)} · locked {fmtTime(p.lockTs)}</small>
                       </td>
                       <td>
-                        <span className="side">{p.side.toUpperCase()}</span>
-                        <small className={"tier " + p.tier}>{p.tier.toLowerCase()}</small>
+                        <TeamPill p={p} side={p.side} />
+                        <small className={"tier " + p.tier}>{p.tier.toLowerCase()} · pick</small>
                       </td>
                       <td>{Number(p.price).toFixed(2)}</td>
                       <td className="edge">
@@ -96,7 +112,7 @@ export default function Home() {
                         {p.match}
                         <small>{fmtTime(p.startsAt)} · graded {fmtTime(p.settledAt)}</small>
                       </td>
-                      <td><span className="side">{p.side.toUpperCase()}</span></td>
+                      <td><TeamPill p={p} side={p.side} /></td>
                       <td>{Number(p.price).toFixed(2)}</td>
                       <td className={p.result === "correct" ? "win" : "loss"}>
                         {p.result === "correct" ? "Won" : "Lost"} <small>{p.final}</small>

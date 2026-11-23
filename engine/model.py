@@ -170,6 +170,8 @@ def evaluate(g, s):
         "edgePct": round(edge, 4), "tier": tier,
         "bookCount": books, "startsAt": g["startsAt"],
         "home": g["home"], "away": g["away"],
+        "homeLogo": g.get("homeLogo"), "awayLogo": g.get("awayLogo"),
+        "homeAbbr": g.get("homeAbbr"), "awayAbbr": g.get("awayAbbr"),
     }
 
 
@@ -193,6 +195,8 @@ def evaluate_no_market(g, s):
         "marketProb": None, "edgePct": round(edge, 4), "tier": tier,
         "bookCount": 0, "startsAt": g["startsAt"], "modelPriced": True,
         "home": g["home"], "away": g["away"],
+        "homeLogo": g.get("homeLogo"), "awayLogo": g.get("awayLogo"),
+        "homeAbbr": g.get("homeAbbr"), "awayAbbr": g.get("awayAbbr"),
     }
 
 

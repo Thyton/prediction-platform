@@ -160,6 +160,10 @@ def parse_espn_event(event, sport, league, two_way):
     an = (away.get("team") or {}).get("displayName")
     if not hn or not an:
         return None
+    home_logo = (home.get("team") or {}).get("logo")
+    away_logo = (away.get("team") or {}).get("logo")
+    home_abbr = (home.get("team") or {}).get("abbreviation")
+    away_abbr = (away.get("team") or {}).get("abbreviation")
     odds = parse_espn_odds(comp)
     markets = {}
     if len(odds) >= 2:
@@ -179,6 +183,10 @@ def parse_espn_event(event, sport, league, two_way):
         "match": f"{an} @ {hn}",
         "home": hn,
         "away": an,
+        "homeLogo": home_logo,
+        "awayLogo": away_logo,
+        "homeAbbr": home_abbr,
+        "awayAbbr": away_abbr,
         "startsAt": event_get(event, "date"),
         "state": st,
         "_path": None,
