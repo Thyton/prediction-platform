@@ -43,6 +43,19 @@ def day_results(path, sport, day):
     for ev in d.get("events") or []:
         if (ev.get("status") or {}).get("type", {}).get("state") != "post":
             continue
+        # tennis: nested groupings with athlete competitors
+        if path in ("tennis/atp", "tennis/wta"):
+            for grp in ev.get("groupings") or []:
+                for c in grp.get("competitions") or []:
+                    comps = c.get("competitors") or []
+                    home = next((x for x in comps if x.get("homeAway") == "home"), None)
+                    away = next((x for x in comps if x.get("homeAway") == "away"), None)
+                    if not home or not away:
+                        continue
+                    cid = str(c.get("id") or f"{ev['id']}-{len(out)}")
+                    out[cid] = (1 if home.get("winner") else 0, 1 if away.get("winner") else 0)
+            SCORE_CACHE[key] = out
+            continue
         comps = (ev.get("competitions") or [{}])[0].get("competitors") or []
         home = next((c for c in comps if c.get("homeAway") == "home"), None)
         away = next((c for c in comps if c.get("homeAway") == "away"), None)

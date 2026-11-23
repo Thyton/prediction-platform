@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-23T20:39:55.153794+00:00",
+ "generatedAt": "2026-11-23T22:04:49.072414+00:00",
  "picks": [
   {
    "gameId": "nba:401910045",
@@ -389,6 +389,17 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
+   "gameId": "ncaab:401913530",
+   "match": "Winthrop Eagles @ Illinois Fighting Illini",
+   "league": "NCAAB",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
     "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
    ]
   },
