@@ -142,10 +142,18 @@ def evaluate(g, s):
     if pD > 0:
         scale = 1 - pD
         rawH, rawA = rawH / scale, rawA / scale
-    # strip the book margin from the quoted side; the other side is the complement
+    # de-vig: favourite from its own price; dog from its real price when we have both
+    # sides (backtest/collector carry otherOdds), else assume the standard complement.
     imp_f = min(0.985, (1 / odds) / OVERROUND)
-    mk_f = imp_f
-    mk_d = 1 - imp_f
+    other = m.get("otherOdds")
+    if other:
+        imp_d = min(0.985, (1 / float(other)) / OVERROUND)
+    else:
+        imp_d = 1 - imp_f
+    mk_f, mk_d = imp_f, imp_d
+    # normalise so they sum to 1 after vig removal
+    tot = mk_f + mk_d
+    mk_f, mk_d = mk_f / tot, mk_d / tot
     mkH, mkA = (mk_f, mk_d) if m["favSide"] == "home" else (mk_d, mk_f)
     # blend: model speaks only when it disagrees with the market, and softly
     pH = BLEND * mkH + (1 - BLEND) * rawH
