@@ -21,6 +21,56 @@ function TeamPill({ p, side }) {
   );
 }
 
+function PickCard({ p }) {
+  const picked = p.side === "home" ? p.home : p.away;
+  const pickedLogo = p.side === "home" ? p.homeLogo : p.awayLogo;
+  const graded = p.result === "correct" || p.result === "wrong";
+  return (
+    <article className="pick">
+      <div className="pick-main">
+        <div className="pick-league">
+          <span className="league">{SPORT_LABEL[p.sport] || p.league}</span>
+          <span>{fmtTime(p.startsAt)}</span>
+        </div>
+        <div className="pick-teams">
+          {p.awayLogo && <img src={p.awayLogo} alt="" />}
+          <span>{p.away}</span>
+          <span className="vs">at</span>
+          {p.homeLogo && <img src={p.homeLogo} alt="" />}
+          <span>{p.home}</span>
+        </div>
+        <div className="pick-choice">
+          {pickedLogo && <img src={pickedLogo} alt="" />}
+          <span>Pick: {picked}</span>
+        </div>
+        {graded ? (
+          <div className="pick-meta">Final {p.final}</div>
+        ) : (
+          <div className="pick-meta">Locked {fmtTime(p.lockTs)} · price {Number(p.price).toFixed(2)}</div>
+        )}
+      </div>
+      <div className="pick-right">
+        {graded ? (
+          <>
+            <div className={"pick-result " + (p.result === "correct" ? "win" : "loss")}>
+              {p.result === "correct" ? "WON" : "LOST"}
+            </div>
+            <div className="pick-price">
+              {p.profitUnits >= 0 ? "+" : ""}{Number(p.profitUnits).toFixed(2)}u
+            </div>
+          </>
+        ) : (
+          <>
+            <div className="pick-edge">{(p.edgePct * 100).toFixed(0)}%</div>
+            <div className="pick-price">{Number(p.price).toFixed(2)}</div>
+            <div className={"pick-tier " + p.tier}>{p.tier.toLowerCase()}</div>
+          </>
+        )}
+      </div>
+    </article>
+  );
+}
+
 export default function Home() {
   const live = getLive();
   const record = getRecord();
@@ -66,32 +116,9 @@ export default function Home() {
         <Tabs
           tips={
             today.length ? (
-              <table>
-                <thead>
-                  <tr><th>Match</th><th>Play</th><th>Price</th><th>Edge</th><th>Status</th></tr>
-                </thead>
-                <tbody>
-                  {today.map((p) => (
-                    <tr key={p.gameId}>
-                      <td>
-                        <span className="league">{SPORT_LABEL[p.sport] || p.league}</span>
-                        {p.match}
-                        <small>{fmtTime(p.startsAt)} · locked {fmtTime(p.lockTs)}</small>
-                      </td>
-                      <td>
-                        <TeamPill p={p} side={p.side} />
-                        <small className={"tier " + p.tier}>{p.tier.toLowerCase()} · pick</small>
-                      </td>
-                      <td>{Number(p.price).toFixed(2)}</td>
-                      <td className="edge">
-                        {(p.edgePct * 100).toFixed(0)}%
-                        {p.modelPriced && <small className="tier">model price</small>}
-                      </td>
-                      <td className="pend">Pending</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
+              <div className="picklist">
+                {today.map((p) => <PickCard key={p.gameId} p={p} />)}
+              </div>
             ) : (
               <div className="empty">
                 No picks in the current window. The board refills on the next scan — we never pad it with filler.
