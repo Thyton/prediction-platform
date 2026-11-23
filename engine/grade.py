@@ -111,10 +111,17 @@ def main():
     a = ap.parse_args()
     led = load(a.ledger)
     s = M.load()
+    trained_at = s.get("trainedAt")
     settled = 0
     for it in led["items"]:
         if it.get("result"):
             continue
+        if trained_at and it.get("startsAt"):
+            try:
+                if datetime.datetime.fromisoformat(it["startsAt"].replace("Z", "+00:00")) < datetime.datetime.fromisoformat(trained_at):
+                    continue          # finished before the model learned it: skip, no look-ahead
+            except Exception:
+                pass
         fs = final_score(it["gameId"], it.get("startsAt"))
         if not fs:
             continue

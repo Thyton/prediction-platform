@@ -645,6 +645,44 @@
    "lockTs": "2026-11-22T21:54:33.507058+00:00",
    "result": null,
    "profitUnits": null
+  },
+  {
+   "gameId": "ligue1:401876390",
+   "match": "Lille @ Le Mans",
+   "league": "Ligue 1",
+   "sport": "ligue1",
+   "side": "away",
+   "price": 1.95,
+   "modelProb": 0.5221,
+   "marketProb": 0.4766,
+   "edgePct": 0.0455,
+   "tier": "STANDARD",
+   "bookCount": 1,
+   "startsAt": "2026-11-28T19:45Z",
+   "home": "Le Mans",
+   "away": "Lille",
+   "lockTs": "2026-11-22T22:38:57.468577+00:00",
+   "result": null,
+   "profitUnits": null
+  },
+  {
+   "gameId": "mls:401933722",
+   "match": "Nashville SC @ FC Cincinnati",
+   "league": "MLS",
+   "sport": "mls",
+   "side": "away",
+   "price": 2.25,
+   "modelProb": 0.5233,
+   "marketProb": 0.4134,
+   "edgePct": 0.1099,
+   "tier": "PREMIUM",
+   "bookCount": 1,
+   "startsAt": "2026-11-28T23:30Z",
+   "home": "FC Cincinnati",
+   "away": "Nashville SC",
+   "lockTs": "2026-11-22T23:39:49.984707+00:00",
+   "result": null,
+   "profitUnits": null
   }
  ]
 }

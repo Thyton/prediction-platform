@@ -79,7 +79,8 @@ def main():
             M.update(s, sport, hn, an, hs, as_, margin_mult=0.7 + 0.3 * margin)
             total += 1
         print(f"  {label}: {len(rows)} finals", file=sys.stderr)
-    s["updated"] = datetime.datetime.now(datetime.UTC).isoformat()
+    s["trainedAt"] = datetime.datetime.now(datetime.UTC).isoformat()
+    s["updated"] = s["trainedAt"]
     M.save(s)
     print(f"trained on {total} results; {sum(len(v) for v in s['ratings'].values())} rated teams", file=sys.stderr)
 
