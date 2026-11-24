@@ -140,10 +140,17 @@ def evaluate(g, s):
         return None
     need = MIN_EDGE if books >= 1 else MIN_EDGE + THIN_EXTRA
     # a model edge is only meaningful when both ratings carry real history;
-    # otherwise the "edge" is just cold-start noise against a sharp market
+    # otherwise the "edge" is just cold-start noise against a sharp market.
+    # esports has a thin roster so it keeps the looser gate below instead.
     if g.get("sport") != "esports":
         cnt = s.get("counts", {}).get(g["sport"], {})
         if cnt.get(g["home"], 0) < MIN_GAMES or cnt.get(g["away"], 0) < MIN_GAMES:
+            return None
+    elif int(m.get("bookCount") or 0) > 0:
+        cnt = s.get("counts", {}).get("esports", {})
+        # at least one side must have rated games; a 1500 flat either side is
+        # still market-echo, which the blend handles by itself
+        if max(cnt.get(g["home"], 0), cnt.get(g["away"], 0)) < 1:
             return None
 
     rawH, rawA, pD = model_probs(g, s)

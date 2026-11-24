@@ -1,53 +1,6 @@
 {
- "generatedAt": "2026-11-23T22:04:49.072414+00:00",
+ "generatedAt": "2026-11-24T23:34:18.175309+00:00",
  "picks": [
-  {
-   "gameId": "nba:401910045",
-   "match": "San Antonio Spurs @ Sacramento Kings",
-   "league": "NBA",
-   "sport": "nba",
-   "side": "away",
-   "price": 1.17,
-   "modelProb": 0.8387,
-   "marketProb": 0.8338,
-   "edgePct": 0.0049,
-   "tier": "PREMIUM",
-   "bookCount": 12,
-   "startsAt": "2026-11-24T03:00Z",
-   "home": "Sacramento Kings",
-   "away": "San Antonio Spurs",
-   "homeLogo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sac.png",
-   "awayLogo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
-   "homeAbbr": "SAC",
-   "awayAbbr": "SA",
-   "lockTs": "2026-11-23T20:59:06.229138+00:00",
-   "result": null,
-   "profitUnits": null
-  },
-  {
-   "gameId": "wta:186827",
-   "match": "Leyre Romero Gormaz vs Nadia Podoroska",
-   "league": "IEB+ Argentina Open",
-   "sport": "wta",
-   "side": "away",
-   "price": 1.18,
-   "modelProb": 0.833,
-   "marketProb": null,
-   "edgePct": 0.6661,
-   "tier": "PREMIUM",
-   "bookCount": 0,
-   "startsAt": "2026-11-24T19:30Z",
-   "modelPriced": true,
-   "home": "Nadia Podoroska",
-   "away": "Leyre Romero Gormaz",
-   "homeLogo": null,
-   "awayLogo": null,
-   "homeAbbr": null,
-   "awayAbbr": null,
-   "lockTs": "2026-11-23T20:59:06.229138+00:00",
-   "result": null,
-   "profitUnits": null
-  },
   {
    "gameId": "epl:401879219",
    "match": "Sunderland @ Liverpool",
@@ -279,123 +232,201 @@
    "profitUnits": null
   },
   {
-   "gameId": "wta:186814",
-   "match": "Luna Maria Cinalli vs Guiomar Maristany Zuleta De Reales",
+   "gameId": "wta:186836",
+   "match": "Nuria Brancaccio vs Guiomar Maristany Zuleta De Reales",
    "league": "IEB+ Argentina Open",
    "sport": "wta",
    "side": "home",
-   "price": 1.41,
-   "modelProb": 0.6936,
+   "price": 1.27,
+   "modelProb": 0.7714,
    "marketProb": null,
-   "edgePct": 0.3872,
+   "edgePct": 0.5427,
    "tier": "PREMIUM",
    "bookCount": 0,
-   "startsAt": "2026-11-24T15:30Z",
+   "startsAt": "2026-11-26T05:00Z",
    "modelPriced": true,
    "home": "Guiomar Maristany Zuleta De Reales",
-   "away": "Luna Maria Cinalli",
+   "away": "Nuria Brancaccio",
    "homeLogo": null,
    "awayLogo": null,
    "homeAbbr": null,
    "awayAbbr": null,
-   "lockTs": "2026-11-23T20:59:06.229138+00:00",
+   "lockTs": "2026-11-24T20:40:50.143068+00:00",
    "result": null,
    "profitUnits": null
   },
   {
-   "gameId": "wta:186825",
-   "match": "Sofia Costoulas vs Polona Hercog",
-   "league": "IEB+ Argentina Open",
-   "sport": "wta",
-   "side": "home",
-   "price": 1.42,
-   "modelProb": 0.6904,
-   "marketProb": null,
-   "edgePct": 0.3808,
-   "tier": "PREMIUM",
-   "bookCount": 0,
-   "startsAt": "2026-11-24T19:30Z",
-   "modelPriced": true,
-   "home": "Polona Hercog",
-   "away": "Sofia Costoulas",
-   "homeLogo": null,
-   "awayLogo": null,
-   "homeAbbr": null,
-   "awayAbbr": null,
-   "lockTs": "2026-11-23T20:59:06.229138+00:00",
-   "result": null,
-   "profitUnits": null
-  },
-  {
-   "gameId": "wta:186819",
-   "match": "Laura Samson vs Victoria Bosio",
+   "gameId": "wta:186837",
+   "match": "Julia Riera vs Ipek Oz",
    "league": "IEB+ Argentina Open",
    "sport": "wta",
    "side": "away",
-   "price": 1.44,
-   "modelProb": 0.6824,
+   "price": 1.49,
+   "modelProb": 0.6566,
    "marketProb": null,
-   "edgePct": 0.3648,
+   "edgePct": 0.3133,
    "tier": "PREMIUM",
    "bookCount": 0,
-   "startsAt": "2026-11-24T14:00Z",
+   "startsAt": "2026-11-25T19:30Z",
    "modelPriced": true,
-   "home": "Victoria Bosio",
-   "away": "Laura Samson",
+   "home": "Ipek Oz",
+   "away": "Julia Riera",
    "homeLogo": null,
    "awayLogo": null,
    "homeAbbr": null,
    "awayAbbr": null,
-   "lockTs": "2026-11-23T20:59:06.229138+00:00",
+   "lockTs": "2026-11-24T20:40:50.143068+00:00",
+   "result": null,
+   "profitUnits": null
+  },
+  {
+   "gameId": "wta:186838",
+   "match": "Ariana Geerlings vs Alicia Herrero Linana",
+   "league": "IEB+ Argentina Open",
+   "sport": "wta",
+   "side": "away",
+   "price": 1.49,
+   "modelProb": 0.6562,
+   "marketProb": null,
+   "edgePct": 0.3123,
+   "tier": "PREMIUM",
+   "bookCount": 0,
+   "startsAt": "2026-11-25T19:30Z",
+   "modelPriced": true,
+   "home": "Alicia Herrero Linana",
+   "away": "Ariana Geerlings",
+   "homeLogo": null,
+   "awayLogo": null,
+   "homeAbbr": null,
+   "awayAbbr": null,
+   "lockTs": "2026-11-24T20:40:50.143068+00:00",
+   "result": null,
+   "profitUnits": null
+  },
+  {
+   "gameId": "wta:186834",
+   "match": "Varvara Lepchenko vs Sofia Costoulas",
+   "league": "IEB+ Argentina Open",
+   "sport": "wta",
+   "side": "home",
+   "price": 1.51,
+   "modelProb": 0.65,
+   "marketProb": null,
+   "edgePct": 0.3,
+   "tier": "PREMIUM",
+   "bookCount": 0,
+   "startsAt": "2026-11-26T05:00Z",
+   "modelPriced": true,
+   "home": "Sofia Costoulas",
+   "away": "Varvara Lepchenko",
+   "homeLogo": null,
+   "awayLogo": null,
+   "homeAbbr": null,
+   "awayAbbr": null,
+   "lockTs": "2026-11-24T21:39:40.934993+00:00",
+   "result": null,
+   "profitUnits": null
+  },
+  {
+   "gameId": "wta:186828",
+   "match": "Maria Lourdes Carle vs Sol Ailin Larraya Guidi",
+   "league": "IEB+ Argentina Open",
+   "sport": "wta",
+   "side": "home",
+   "price": 1.54,
+   "modelProb": 0.6372,
+   "marketProb": null,
+   "edgePct": 0.2744,
+   "tier": "PREMIUM",
+   "bookCount": 0,
+   "startsAt": "2026-11-25T18:00Z",
+   "modelPriced": true,
+   "home": "Sol Ailin Larraya Guidi",
+   "away": "Maria Lourdes Carle",
+   "homeLogo": null,
+   "awayLogo": null,
+   "homeAbbr": null,
+   "awayAbbr": null,
+   "lockTs": "2026-11-24T22:13:55.275283+00:00",
+   "result": null,
+   "profitUnits": null
+  },
+  {
+   "gameId": "ucl:401915373",
+   "match": "Manchester United @ Sporting CP",
+   "league": "Champions League",
+   "sport": "ucl",
+   "side": "home",
+   "price": 2.55,
+   "modelProb": 0.5768,
+   "marketProb": 0.5049,
+   "edgePct": 0.0719,
+   "tier": "STANDARD",
+   "bookCount": 1,
+   "startsAt": "2026-11-25T20:00Z",
+   "home": "Sporting CP",
+   "away": "Manchester United",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+   "homeAbbr": "SCP",
+   "awayAbbr": "MAN",
+   "lockTs": "2026-11-24T22:21:03.929506+00:00",
+   "result": null,
+   "profitUnits": null
+  },
+  {
+   "gameId": "nba:401909317",
+   "match": "Miami Heat @ Philadelphia 76ers",
+   "league": "NBA",
+   "sport": "nba",
+   "side": "home",
+   "price": 1.96,
+   "modelProb": 0.5612,
+   "marketProb": 0.5051,
+   "edgePct": 0.0562,
+   "tier": "STANDARD",
+   "bookCount": 7,
+   "startsAt": "2026-11-25T22:00Z",
+   "home": "Philadelphia 76ers",
+   "away": "Miami Heat",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mia.png",
+   "homeAbbr": "PHI",
+   "awayAbbr": "MIA",
+   "lockTs": "2026-11-24T22:21:03.929506+00:00",
+   "result": null,
+   "profitUnits": null
+  },
+  {
+   "gameId": "wta:186840",
+   "match": "Carole Monnet vs Solana Sierra",
+   "league": "IEB+ Argentina Open",
+   "sport": "wta",
+   "side": "away",
+   "price": 1.59,
+   "modelProb": 0.6157,
+   "marketProb": null,
+   "edgePct": 0.2314,
+   "tier": "HIGH",
+   "bookCount": 0,
+   "startsAt": "2026-11-25T21:00Z",
+   "modelPriced": true,
+   "home": "Solana Sierra",
+   "away": "Carole Monnet",
+   "homeLogo": null,
+   "awayLogo": null,
+   "homeAbbr": null,
+   "awayAbbr": null,
+   "lockTs": "2026-11-24T22:21:03.929506+00:00",
    "result": null,
    "profitUnits": null
   }
  ],
  "alerts": [
   {
-   "gameId": "ncaab:401921708",
-   "match": "Washington Huskies @ BYU Cougars",
-   "league": "NCAAB",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
-   ]
-  },
-  {
-   "gameId": "nba:401910039",
-   "match": "Milwaukee Bucks @ Toronto Raptors",
-   "league": "NBA",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
-   ]
-  },
-  {
-   "gameId": "nba:401910040",
-   "match": "Brooklyn Nets @ Minnesota Timberwolves",
-   "league": "NBA",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
-   ]
-  },
-  {
-   "gameId": "nba:401910041",
-   "match": "Cleveland Cavaliers @ Chicago Bulls",
-   "league": "NBA",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
-   ]
-  },
-  {
-   "gameId": "ncaab:401913530",
-   "match": "Winthrop Eagles @ Illinois Fighting Illini",
-   "league": "NCAAB",
+   "gameId": "esports:132990",
+   "match": "Kuusamogg vs Havu",
+   "league": "Esports",
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
@@ -404,72 +435,9 @@
    ]
   },
   {
-   "gameId": "ncaab:401909788",
-   "match": "Denver Pioneers @ Kansas Jayhawks",
-   "league": "NCAAB",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 2 books quoting",
-    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
-   ]
-  },
-  {
-   "gameId": "nfl:401873078",
-   "match": "Cincinnati Bengals @ Washington Commanders",
-   "league": "NFL",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
-   ]
-  },
-  {
-   "gameId": "nba:401910043",
-   "match": "LA Clippers @ Houston Rockets",
-   "league": "NBA",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
-   ]
-  },
-  {
-   "gameId": "nba:401910044",
-   "match": "Utah Jazz @ Los Angeles Lakers",
-   "league": "NBA",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
-   ]
-  },
-  {
-   "gameId": "nba:401910045",
-   "match": "San Antonio Spurs @ Sacramento Kings",
-   "league": "NBA",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
-   ]
-  },
-  {
-   "gameId": "ncaab:401909743",
-   "match": "Colorado State Rams @ Arizona Wildcats",
-   "league": "NCAAB",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
-   ]
-  },
-  {
-   "gameId": "ucl:401915380",
-   "match": "LASK Linz @ Bodo/Glimt",
-   "league": "Champions League",
+   "gameId": "esports:134971",
+   "match": "Al Ahli Esports vs Notime",
+   "league": "Esports",
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
@@ -477,63 +445,125 @@
    ]
   },
   {
-   "gameId": "ucl:401915296",
-   "match": "AEK Athens @ Como",
-   "league": "Champions League",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
-   ]
-  },
-  {
-   "gameId": "ucl:401915294",
-   "match": "FC Porto @ Feyenoord Rotterdam",
-   "league": "Champions League",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "ucl:401915379",
-   "match": "Napoli @ Manchester City",
-   "league": "Champions League",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
-   ]
-  },
-  {
-   "gameId": "ucl:401915299",
-   "match": "Lens @ RB Leipzig",
-   "league": "Champions League",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "ucl:401915298",
-   "match": "PSV Eindhoven @ Real Madrid",
-   "league": "Champions League",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
-   ]
-  },
-  {
-   "gameId": "ucl:401915297",
-   "match": "Real Betis @ Slovan Bratislava",
-   "league": "Champions League",
+   "gameId": "esports:134974",
+   "match": "Jumbo Team vs Inner Circle Prospect",
+   "league": "Esports",
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
+   "gameId": "esports:134975",
+   "match": "Partizan Ru vs B8 Academy",
+   "league": "Esports",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "esports:134980",
+   "match": "Aimers Mk vs Ttg Esports",
+   "league": "Esports",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "ncaab:401921709",
+   "match": "Ole Miss Rebels @ BYU Cougars",
+   "league": "NCAAB",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "ncaab:401906853",
+   "match": "Tennessee Volunteers @ Maryland Terrapins",
+   "league": "NCAAB",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "ncaab:401915941",
+   "match": "Miami Hurricanes @ TCU Horned Frogs",
+   "league": "NCAAB",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "esports:134882",
+   "match": "Red Canids Academy vs Meia Noite",
+   "league": "Esports",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
+   "gameId": "ncaab:401921710",
+   "match": "Providence Friars @ Arizona Wildcats",
+   "league": "NCAAB",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
+   "gameId": "ncaab:401906774",
+   "match": "Milwaukee Panthers @ Florida Gators",
+   "league": "NCAAB",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
+   "gameId": "ncaab:401916291",
+   "match": "Jacksonville Dolphins @ Indiana Hoosiers",
+   "league": "NCAAB",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
+   "gameId": "nba:401909315",
+   "match": "Boston Celtics @ Washington Wizards",
+   "league": "NBA",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
+   "gameId": "nba:401909316",
+   "match": "Dallas Mavericks @ Denver Nuggets",
+   "league": "NBA",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
     "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
    ]
   },
@@ -545,6 +575,27 @@
    "signal": "high_risk_alert",
    "flags": [
     "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
+   "gameId": "ncaab:401909800",
+   "match": "Gonzaga Bulldogs @ Kansas State Wildcats",
+   "league": "NCAAB",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
+   "gameId": "ncaab:401920428",
+   "match": "Virginia Cavaliers @ Marquette Golden Eagles",
+   "league": "NCAAB",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 2 books quoting"
    ]
   },
   {
@@ -561,6 +612,16 @@
    "gameId": "ucl:401915293",
    "match": "Villarreal @ Slavia Prague",
    "league": "Champions League",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "ncaab:401921669",
+   "match": "Arizona State Sun Devils @ LSU Tigers",
+   "league": "NCAAB",
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
@@ -595,6 +656,36 @@
    "signal": "high_risk_alert",
    "flags": [
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "ncaab:401921670",
+   "match": "South Carolina Gamecocks @ USC Trojans",
+   "league": "NCAAB",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
+   "gameId": "ncaab:401909568",
+   "match": "UConn Huskies @ Duke Blue Devils",
+   "league": "NCAAB",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "nba:401909323",
+   "match": "Phoenix Suns @ Houston Rockets",
+   "league": "NBA",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
    ]
   },
   {
@@ -646,7 +737,8 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
    ]
   },
   {
@@ -702,9 +794,9 @@
    ]
   },
   {
-   "gameId": "uel:401915515",
-   "match": "SK Sturm Graz @ TSG Hoffenheim",
-   "league": "Europa League",
+   "gameId": "nfl:401873080",
+   "match": "Philadelphia Eagles @ Dallas Cowboys",
+   "league": "NFL",
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
@@ -813,6 +905,16 @@
    ]
   },
   {
+   "gameId": "mls:401933726",
+   "match": "St. Louis CITY SC @ LAFC",
+   "league": "MLS",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
    "gameId": "laliga:401882787",
    "match": "Osasuna @ Valencia",
    "league": "La Liga",
@@ -864,19 +966,20 @@
    ]
   },
   {
-   "gameId": "seriea:401875095",
-   "match": "Atalanta @ Lecce",
-   "league": "Serie A",
+   "gameId": "esports:134591",
+   "match": "Brute vs Fnatic",
+   "league": "Esports",
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
    ]
   },
   {
-   "gameId": "epl:401879221",
-   "match": "Ipswich Town @ Coventry City",
-   "league": "EPL",
+   "gameId": "seriea:401875095",
+   "match": "Atalanta @ Lecce",
+   "league": "Serie A",
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
@@ -983,16 +1086,196 @@
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
     "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
    ]
+  },
+  {
+   "gameId": "bundesliga:401884716",
+   "match": "Borussia M\u00f6nchengladbach @ Bayer Leverkusen",
+   "league": "Bundesliga",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
+   "gameId": "bundesliga:401884713",
+   "match": "FC Cologne @ FC Augsburg",
+   "league": "Bundesliga",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "bundesliga:401884717",
+   "match": "Mainz @ RB Leipzig",
+   "league": "Bundesliga",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "bundesliga:401884715",
+   "match": "TSG Hoffenheim @ SC Freiburg",
+   "league": "Bundesliga",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "bundesliga:401884714",
+   "match": "Werder Bremen @ Eintracht Frankfurt",
+   "league": "Bundesliga",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
   }
  ],
  "record": {
-  "graded": 68,
-  "correct": 50,
-  "wrong": 18,
-  "accuracy": 0.7353,
-  "units": 11.08,
-  "rolling": 0.7,
+  "graded": 73,
+  "correct": 53,
+  "wrong": 20,
+  "accuracy": 0.726,
+  "units": 10.1,
+  "rolling": 0.66,
   "recent": [
+   {
+    "gameId": "wta:186819",
+    "match": "Laura Samson vs Victoria Bosio",
+    "league": "IEB+ Argentina Open",
+    "sport": "wta",
+    "side": "away",
+    "price": 1.44,
+    "modelProb": 0.6824,
+    "marketProb": null,
+    "edgePct": 0.3648,
+    "tier": "PREMIUM",
+    "bookCount": 0,
+    "startsAt": "2026-11-24T14:00Z",
+    "modelPriced": true,
+    "home": "Victoria Bosio",
+    "away": "Laura Samson",
+    "homeLogo": null,
+    "awayLogo": null,
+    "homeAbbr": null,
+    "awayAbbr": null,
+    "lockTs": "2026-11-23T20:59:06.229138+00:00",
+    "result": "correct",
+    "profitUnits": 0.44,
+    "final": "0-1",
+    "settledAt": "2026-11-24T21:14:53.815275+00:00"
+   },
+   {
+    "gameId": "wta:186825",
+    "match": "Sofia Costoulas vs Polona Hercog",
+    "league": "IEB+ Argentina Open",
+    "sport": "wta",
+    "side": "home",
+    "price": 1.42,
+    "modelProb": 0.6904,
+    "marketProb": null,
+    "edgePct": 0.3808,
+    "tier": "PREMIUM",
+    "bookCount": 0,
+    "startsAt": "2026-11-24T19:30Z",
+    "modelPriced": true,
+    "home": "Polona Hercog",
+    "away": "Sofia Costoulas",
+    "homeLogo": null,
+    "awayLogo": null,
+    "homeAbbr": null,
+    "awayAbbr": null,
+    "lockTs": "2026-11-23T20:59:06.229138+00:00",
+    "result": "wrong",
+    "profitUnits": -1.0,
+    "final": "0-1",
+    "settledAt": "2026-11-24T21:14:53.514679+00:00"
+   },
+   {
+    "gameId": "wta:186814",
+    "match": "Luna Maria Cinalli vs Guiomar Maristany Zuleta De Reales",
+    "league": "IEB+ Argentina Open",
+    "sport": "wta",
+    "side": "home",
+    "price": 1.41,
+    "modelProb": 0.6936,
+    "marketProb": null,
+    "edgePct": 0.3872,
+    "tier": "PREMIUM",
+    "bookCount": 0,
+    "startsAt": "2026-11-24T15:30Z",
+    "modelPriced": true,
+    "home": "Guiomar Maristany Zuleta De Reales",
+    "away": "Luna Maria Cinalli",
+    "homeLogo": null,
+    "awayLogo": null,
+    "homeAbbr": null,
+    "awayAbbr": null,
+    "lockTs": "2026-11-23T20:59:06.229138+00:00",
+    "result": "correct",
+    "profitUnits": 0.41,
+    "final": "1-0",
+    "settledAt": "2026-11-24T21:14:53.213003+00:00"
+   },
+   {
+    "gameId": "wta:186827",
+    "match": "Leyre Romero Gormaz vs Nadia Podoroska",
+    "league": "IEB+ Argentina Open",
+    "sport": "wta",
+    "side": "away",
+    "price": 1.18,
+    "modelProb": 0.833,
+    "marketProb": null,
+    "edgePct": 0.6661,
+    "tier": "PREMIUM",
+    "bookCount": 0,
+    "startsAt": "2026-11-24T19:30Z",
+    "modelPriced": true,
+    "home": "Nadia Podoroska",
+    "away": "Leyre Romero Gormaz",
+    "homeLogo": null,
+    "awayLogo": null,
+    "homeAbbr": null,
+    "awayAbbr": null,
+    "lockTs": "2026-11-23T20:59:06.229138+00:00",
+    "result": "wrong",
+    "profitUnits": -1.0,
+    "final": "1-0",
+    "settledAt": "2026-11-24T22:13:00.127779+00:00"
+   },
+   {
+    "gameId": "nba:401910045",
+    "match": "San Antonio Spurs @ Sacramento Kings",
+    "league": "NBA",
+    "sport": "nba",
+    "side": "away",
+    "price": 1.17,
+    "modelProb": 0.8387,
+    "marketProb": 0.8338,
+    "edgePct": 0.0049,
+    "tier": "PREMIUM",
+    "bookCount": 12,
+    "startsAt": "2026-11-24T03:00Z",
+    "home": "Sacramento Kings",
+    "away": "San Antonio Spurs",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sac.png",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
+    "homeAbbr": "SAC",
+    "awayAbbr": "SA",
+    "lockTs": "2026-11-23T20:59:06.229138+00:00",
+    "result": "correct",
+    "profitUnits": 0.17,
+    "final": "107-123",
+    "settledAt": "2026-11-24T21:21:21.930930+00:00"
+   },
    {
     "gameId": "epl:401878755",
     "match": "Manchester United @ Liverpool",
@@ -1452,121 +1735,6 @@
     "result": "wrong",
     "profitUnits": -1.0,
     "final": "94-98"
-   },
-   {
-    "gameId": "nba:401909308",
-    "match": "Toronto Raptors @ Detroit Pistons",
-    "league": "NBA",
-    "sport": "nba",
-    "side": "home",
-    "price": 1.36,
-    "modelProb": 0.7431,
-    "marketProb": 0.7061,
-    "edgePct": 0.0369,
-    "tier": "PREMIUM",
-    "bookCount": 1,
-    "startsAt": "2026-11-20T12:00:00Z",
-    "home": "Detroit Pistons",
-    "away": "Toronto Raptors",
-    "homeLogo": null,
-    "awayLogo": null,
-    "homeAbbr": null,
-    "awayAbbr": null,
-    "result": "wrong",
-    "profitUnits": -1.0,
-    "final": "102-105"
-   },
-   {
-    "gameId": "nba:401909305",
-    "match": "Charlotte Hornets @ Atlanta Hawks",
-    "league": "NBA",
-    "sport": "nba",
-    "side": "home",
-    "price": 1.38,
-    "modelProb": 0.7534,
-    "marketProb": 0.6969,
-    "edgePct": 0.0565,
-    "tier": "PREMIUM",
-    "bookCount": 1,
-    "startsAt": "2026-11-20T12:00:00Z",
-    "home": "Atlanta Hawks",
-    "away": "Charlotte Hornets",
-    "homeLogo": null,
-    "awayLogo": null,
-    "homeAbbr": null,
-    "awayAbbr": null,
-    "result": "correct",
-    "profitUnits": 0.38,
-    "final": "111-97"
-   },
-   {
-    "gameId": "nhl:401892752",
-    "match": "Vancouver Canucks @ Seattle Kraken",
-    "league": "NHL",
-    "sport": "nhl",
-    "side": "home",
-    "price": 1.62,
-    "modelProb": 0.6428,
-    "marketProb": 0.5934,
-    "edgePct": 0.0494,
-    "tier": "HIGH",
-    "bookCount": 1,
-    "startsAt": "2026-11-19T12:00:00Z",
-    "home": "Seattle Kraken",
-    "away": "Vancouver Canucks",
-    "homeLogo": null,
-    "awayLogo": null,
-    "homeAbbr": null,
-    "awayAbbr": null,
-    "result": "correct",
-    "profitUnits": 0.62,
-    "final": "5-1"
-   },
-   {
-    "gameId": "nhl:401892751",
-    "match": "Anaheim Ducks @ Colorado Avalanche",
-    "league": "NHL",
-    "sport": "nhl",
-    "side": "home",
-    "price": 1.77,
-    "modelProb": 0.6013,
-    "marketProb": 0.5428,
-    "edgePct": 0.0586,
-    "tier": "STANDARD",
-    "bookCount": 1,
-    "startsAt": "2026-11-19T12:00:00Z",
-    "home": "Colorado Avalanche",
-    "away": "Anaheim Ducks",
-    "homeLogo": null,
-    "awayLogo": null,
-    "homeAbbr": null,
-    "awayAbbr": null,
-    "result": "correct",
-    "profitUnits": 0.77,
-    "final": "4-0"
-   },
-   {
-    "gameId": "nhl:401892750",
-    "match": "Minnesota Wild @ Calgary Flames",
-    "league": "NHL",
-    "sport": "nhl",
-    "side": "away",
-    "price": 1.41,
-    "modelProb": 0.6858,
-    "marketProb": 0.6806,
-    "edgePct": 0.0052,
-    "tier": "HIGH",
-    "bookCount": 1,
-    "startsAt": "2026-11-19T12:00:00Z",
-    "home": "Calgary Flames",
-    "away": "Minnesota Wild",
-    "homeLogo": null,
-    "awayLogo": null,
-    "homeAbbr": null,
-    "awayAbbr": null,
-    "result": "correct",
-    "profitUnits": 0.41,
-    "final": "1-4"
    }
   ]
  }

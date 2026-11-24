@@ -1,13 +1,13 @@
 "use client";
 import { useState } from "react";
 
-export default function Tabs({ tips, results, alerts, games }) {
+export default function Tabs({ tips, live, results, alerts, games }) {
   const [tab, setTab] = useState("tips");
-  const panels = { tips, results, alerts, games };
+  const panels = { tips, live, results, alerts, games };
   return (
     <>
       <div className="tabs">
-        {[["tips", "💡 Today's picks"], ["results", "📊 Past results"], ["alerts", "🛡 Integrity signals"], ["games", "🌍 All games"]].map(
+        {[["tips", "💡 Today's picks"], ["live", "⚡ Live signals"], ["results", "📊 Past results"], ["alerts", "🛡 Integrity signals"], ["games", "🌍 All games"]].map(
           ([k, label]) => (
             <button key={k} className={"tab" + (tab === k ? " on" : "")} onClick={() => setTab(k)}>
               {label}

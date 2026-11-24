@@ -122,12 +122,17 @@ def enrich(games, sport_keys=None):
     if sport_keys:
         wanted &= set(sport_keys)
     price_map = {}
-    for sport in sorted(wanted):
-        m = fetch_sport(sport)
-        if m:
-            price_map[sport] = m
-            print(f"  {sport}: {len(m)} priced events", flush=True)
-        time.sleep(0.4)
+    # fetch sports in parallel: serially this alone was ~90s per cycle
+    from concurrent.futures import ThreadPoolExecutor
+
+    def one(sport):
+        return sport, fetch_sport(sport)
+
+    with ThreadPoolExecutor(max_workers=6) as pool:
+        for sport, m in pool.map(one, sorted(wanted)):
+            if m:
+                price_map[sport] = m
+                print(f"  {sport}: {len(m)} priced events", flush=True)
 
     filled = 0
     for g in games:

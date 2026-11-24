@@ -41,20 +41,28 @@ def day_results(path, sport, day):
         SCORE_CACHE[key] = out
         return out
     for ev in d.get("events") or []:
-        if (ev.get("status") or {}).get("type", {}).get("state") != "post":
-            continue
-        # tennis: nested groupings with athlete competitors
+        # tennis: nested groupings with athlete competitors. The EVENT spans the
+        # whole tournament (its state goes "post" while later rounds are still
+        # "pre"), so judge each competition by its OWN status, never the event's.
         if path in ("tennis/atp", "tennis/wta"):
             for grp in ev.get("groupings") or []:
                 for c in grp.get("competitions") or []:
+                    if (c.get("status") or {}).get("type", {}).get("state") != "post":
+                        continue
                     comps = c.get("competitors") or []
                     home = next((x for x in comps if x.get("homeAway") == "home"), None)
                     away = next((x for x in comps if x.get("homeAway") == "away"), None)
-                    if not home or not away:
+                    hn = ((home or {}).get("athlete") or {}).get("displayName")
+                    an = ((away or {}).get("athlete") or {}).get("displayName")
+                    if not hn or not an or hn.upper() == "TBD" or an.upper() == "TBD":
+                        continue
+                    if home.get("winner") not in (True, False) or away.get("winner") not in (True, False):
                         continue
                     cid = str(c.get("id") or f"{ev['id']}-{len(out)}")
                     out[cid] = (1 if home.get("winner") else 0, 1 if away.get("winner") else 0)
             SCORE_CACHE[key] = out
+            continue
+        if (ev.get("status") or {}).get("type", {}).get("state") != "post":
             continue
         comps = (ev.get("competitions") or [{}])[0].get("competitors") or []
         home = next((c for c in comps if c.get("homeAway") == "home"), None)
@@ -89,6 +97,15 @@ def bo3_final(match_id):
     return None
 
 
+def is_settled_time(item):
+    """A pick may only be graded once its start time has actually passed."""
+    try:
+        st = datetime.datetime.fromisoformat(item["startsAt"].replace("Z", "+00:00"))
+        return datetime.datetime.now(datetime.UTC) >= st + datetime.timedelta(minutes=15)
+    except Exception:
+        return True  # no start time: let the result lookup decide
+
+
 def final_score(game_id, starts_at=None):
     """"nba:401910023" -> (home_score, away_score) or None."""
     sport, _, eid = game_id.partition(":")
@@ -106,7 +123,9 @@ def final_score(game_id, starts_at=None):
             except Exception:
                 d0 = None
             if d0:
-                days = [(d0 + datetime.timedelta(days=k)).strftime("%Y%m%d") for k in (0, 1)]
+                # a game's UTC date can land on the previous US board date, so
+                # check the day before and after as well as the day itself
+                days = [(d0 + datetime.timedelta(days=k)).strftime("%Y%m%d") for k in (-1, 0, 1)]
         if not days:
             days = [datetime.date.today().strftime("%Y%m%d")]
         for day in days:
@@ -135,6 +154,8 @@ def main():
                     continue          # finished before the model learned it: skip, no look-ahead
             except Exception:
                 pass
+        if not is_settled_time(it):
+            continue                  # game hasn't started yet — never grade early
         fs = final_score(it["gameId"], it.get("startsAt"))
         if not fs:
             continue

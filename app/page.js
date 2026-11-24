@@ -1,7 +1,11 @@
 import Link from "next/link";
-import { getLive, getRecord, getGames, getIntegrity, fmtTime, SPORT_LABEL } from "../lib/data";
+import { getLive, getRecord, getGames, getIntegrity, getSignals, fmtTime, SPORT_LABEL } from "../lib/data";
+import { currentUser } from "../lib/session";
+import { isFollowing } from "../lib/userstats";
 import Waitlist from "./waitlist";
 import Tabs from "./tabs";
+import FollowButton from "./follow-button";
+import LiveBoard from "./live-board";
 
 export const dynamic = "force-dynamic";
 
@@ -21,7 +25,7 @@ function TeamPill({ p, side }) {
   );
 }
 
-function PickCard({ p }) {
+function PickCard({ p, trackable, following }) {
   const picked = p.side === "home" ? p.home : p.away;
   const pickedLogo = p.side === "home" ? p.homeLogo : p.awayLogo;
   const graded = p.result === "correct" || p.result === "wrong";
@@ -42,6 +46,7 @@ function PickCard({ p }) {
         <div className="pick-choice">
           {pickedLogo && <img src={pickedLogo} alt="" />}
           <span>Pick: {picked}</span>
+          {trackable && <FollowButton gameId={p.gameId} following={following} />}
         </div>
         {graded ? (
           <div className="pick-meta">Final {p.final}</div>
@@ -71,11 +76,13 @@ function PickCard({ p }) {
   );
 }
 
-export default function Home() {
+export default async function Home() {
   const live = getLive();
   const record = getRecord();
   const games = getGames();
   const alerts = getIntegrity();
+  const signals = getSignals();
+  const user = await currentUser();
   const picks = live.picks || [];
 
   const today = picks.filter((p) => {
@@ -108,6 +115,7 @@ export default function Home() {
             <h2>Today&apos;s released picks</h2>
           </div>
           <span className="status">
+            {signals.length > 0 && <><span className="live-pulse" /><b>{signals.length}</b> live · </>}
             ● <b>{picks.length}</b> open · <b>{games.length}</b> games tracked ·{" "}
             <b>{alerts.length}</b> alerts
           </span>
@@ -117,13 +125,18 @@ export default function Home() {
           tips={
             today.length ? (
               <div className="picklist">
-                {today.map((p) => <PickCard key={p.gameId} p={p} />)}
+                {today.map((p) => (
+                  <PickCard key={p.gameId} p={p} trackable={Boolean(user)} following={isFollowing(user, p.gameId)} />
+                ))}
               </div>
             ) : (
               <div className="empty">
                 No picks in the current window. The board refills on the next scan — we never pad it with filler.
               </div>
             )
+          }
+          live={
+            <LiveBoard signals={signals} pro={Boolean(user?.pro)} signedIn={Boolean(user)} />
           }
           results={
             record.recent.length ? (

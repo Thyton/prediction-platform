@@ -68,7 +68,9 @@ def main():
         if os.path.exists(LEDGER):
             r = run("grade.py", "--ledger", LEDGER, "--state", LEDGER)
             print(r.stdout, r.stderr, sep="", file=sys.stderr)
-
+        # premium live board: in-play get-in / exit signals on open picks
+        r = run("live.py", "--ledger", LEDGER, "--out", os.path.join(DATA, "live.json"))
+        print(r.stdout, r.stderr, sep="", file=sys.stderr)
     if do_all or a.publish:
         gpath = os.path.join(DATA, "games.json")
         r = run("collector.py", "--out", gpath)
@@ -83,11 +85,42 @@ def main():
         led = json.load(open(LEDGER)) if os.path.exists(LEDGER) else {"items": []}
         led.setdefault("items", [])
         have = {i["gameId"] for i in led["items"]}
-        fresh = [p for p in raw["picks"] if p["gameId"] not in have]
-        # dopamine board: show the strongest reads, not everything
+        now = datetime.datetime.now(datetime.UTC)
+
+        def not_started(p):
+            """A pick is only honest if it locks before kickoff."""
+            try:
+                st = datetime.datetime.fromisoformat(p["startsAt"].replace("Z", "+00:00"))
+                return st > now
+            except Exception:
+                return True
+        fresh = [p for p in raw["picks"] if p["gameId"] not in have and not_started(p)]
         fresh.sort(key=lambda p: -p["edgePct"])
-        cap = int(os.environ.get("PICK_CAP", "15"))
-        fresh = fresh[:max(0, cap - sum(1 for i in led["items"] if not i.get("result")))]
+        # dopamine board: strongest reads, but no single sport may own the whole
+        # board — a per-sport ceiling keeps tennis and esports visible. Picks
+        # still open but past their start time grade late, so slot recovery waits
+        # for the grader; the sports ceiling below is what frees space early.
+        cap = int(os.environ.get("PICK_CAP", "18"))
+        per_sport = int(os.environ.get("PICK_PER_SPORT", "5"))
+        slots = max(0, cap - sum(1 for i in led["items"] if not i.get("result")))
+        # guarantee each tracked sport at least one slot when it has a candidate
+        sports_on = {i["sport"] for i in led["items"] if not i.get("result")}
+        want = [p for p in fresh if p["sport"] not in sports_on]
+        chosen, seen = [], {}
+        for p in want:
+            if len(chosen) >= min(2, slots):
+                break
+            chosen.append(p)
+            seen[p["sport"]] = 1
+        for p in fresh:
+            if len(chosen) >= slots:
+                break
+            n = seen.get(p["sport"], 0)
+            if n >= per_sport:
+                continue
+            seen[p["sport"]] = n + 1
+            chosen.append(p)
+        fresh = chosen
         for p in fresh:
             if p["gameId"] not in have:
                 p["lockTs"] = datetime.datetime.now(datetime.UTC).isoformat()

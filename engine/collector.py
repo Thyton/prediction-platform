@@ -220,28 +220,43 @@ SPARSE = {"epl", "laliga", "seriea", "bundesliga", "ligue1", "ucl", "uel", "mls"
 
 
 def collect_espn(limit_per_league=60):
-    """Pull today + next 3 days (10 for sparse leagues) so boards aren't empty."""
-    games = []
+    """Pull today + next 3 days (10 for sparse leagues) so boards aren't empty.
+
+    Leagues are fetched in parallel — serially this took ~3 minutes, which times
+    out the 30-minute cycle's publish step on slow ESPN days."""
+    from concurrent.futures import ThreadPoolExecutor
+
     days4 = [(datetime.date.today() + datetime.timedelta(days=d)).strftime("%Y%m%d") for d in range(0, 4)]
-    days_near = [d for d in days4]
-    days_near = [(datetime.date.today() - datetime.timedelta(days=1)).strftime("%Y%m%d")] + days_near[:2]
+    days_near = [(datetime.date.today() - datetime.timedelta(days=1)).strftime("%Y%m%d")] + days4[:2]
     days10 = [(datetime.date.today() + datetime.timedelta(days=d)).strftime("%Y%m%d") for d in range(0, 11)]
+
+    def fetch_board(args):
+        path, sport, day = args
+        for attempt in range(3):
+            try:
+                return sport, path, day, get(f"{ESPN}/{path}/scoreboard", params={"dates": day})
+            except Exception as e:
+                if attempt == 2:
+                    if day == day:
+                        print(f"  ! {path} {day}: {e}", file=sys.stderr)
+                else:
+                    time.sleep(1.2)
+        return sport, path, day, None
+
+    jobs = []
     for path, sport, label, two_way in ESPN_LEAGUES:
         days = days10 if sport in SPARSE else (days_near if sport in NEAR_WINDOW else days4)
         for day in days:
-            d = None
-            for attempt in range(3):
-                try:
-                    d = get(f"{ESPN}/{path}/scoreboard", params={"dates": day})
-                    break
-                except Exception as e:
-                    if attempt == 2:
-                        if day == days[0]:
-                            print(f"  ! {label}: {e}", file=sys.stderr)
-                    else:
-                        time.sleep(1.5)
-            if not d:
-                continue
+            jobs.append((path, sport, day))
+    boards = {}
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        for sport, path, day, d in pool.map(fetch_board, jobs):
+            if d:
+                boards.setdefault((path, sport), []).append(d)
+
+    games = []
+    for path, sport, label, two_way in ESPN_LEAGUES:
+        for d in boards.get((path, sport), []):
             if sport in ("atp", "wta"):
                 for ev in (d.get("events") or []):
                     for grp in ev.get("groupings") or []:
@@ -262,7 +277,6 @@ def collect_espn(limit_per_league=60):
                 if g:
                     g["_path"] = path
                     games.append(g)
-            time.sleep(0.4)  # pace between requests
     return games
 
 
@@ -334,41 +348,58 @@ def bo3_finished(pages=None):
 
 
 def collect_esports():
-    """Live + imminent esports matches. bo3's reverse-sort puts empty
-    far-future bracket slots first, so scan pages and keep real team matchups."""
+    """Live + imminent esports matches across statuses bo3 will actually return.
+
+    bo3 carries real bookmaker moneyline odds in `bet_updates` (Thunderpick), so
+    esports no longer has to be model-priced — we take the market when it exists
+    and fall back to the model only for unpriced rows."""
     games = []
     now = datetime.datetime.now(datetime.UTC)
     lo = now - datetime.timedelta(hours=14)
     hi = now + datetime.timedelta(hours=168)
-    rows = []
-    for page in range(1, 4):
-        try:
-            d = get(f"{BO3}/matches?page={page}&per_page=10&sort=-end_date&filter[status][eq]=live")
-        except Exception as e:
-            print(f"  ! esports: {e}", file=sys.stderr)
-            break
-        for r in d.get("results", []):
-            if not (r.get("team1_id") and r.get("team2_id")):
-                continue
+    seen = {}
+    for st in ("live", "upcoming"):
+        for srt in ("-end_date", "-start_date"):
             try:
-                st = datetime.datetime.fromisoformat(r["start_date"].replace("Z", "+00:00"))
-            except Exception:
+                d = get(f"{BO3}/matches?per_page=10&sort={srt}&filter[status][]={st}")
+            except Exception as e:
+                print(f"  ! esports ({st}/{srt}): {e}", file=sys.stderr)
                 continue
-            if lo <= st <= hi:
-                rows.append(r)
-        if len(rows) >= 20:
-            break
-        time.sleep(0.3)
-    if not rows:
-        return games
-    for r in rows:
+            for r in d.get("results", []):
+                if not (r.get("team1_id") and r.get("team2_id")):
+                    continue
+                try:
+                    sd = datetime.datetime.fromisoformat(r["start_date"].replace("Z", "+00:00"))
+                except Exception:
+                    continue
+                if lo <= sd <= hi:
+                    seen[r["id"]] = r
+            time.sleep(0.25)
+    for r in seen.values():
         try:
-            st = datetime.datetime.fromisoformat(r["start_date"].replace("Z", "+00:00"))
-            h, a = slug_teams(r.get("slug", ""), st.year, st.month, st.day)
+            st_ = datetime.datetime.fromisoformat(r["start_date"].replace("Z", "+00:00"))
+            h, a = slug_teams(r.get("slug", ""), st_.year, st_.month, st_.day)
         except Exception:
             continue
         if not h or not a:
             continue
+        markets = {}
+        bu = r.get("bet_updates") or {}
+        t1, t2 = bu.get("team_1") or {}, bu.get("team_2") or {}
+        try:
+            c1, c2 = float(t1.get("coeff") or 0), float(t2.get("coeff") or 0)
+        except (TypeError, ValueError):
+            c1 = c2 = 0.0
+        if c1 > 1 and c2 > 1:
+            fav = "home" if c1 <= c2 else "away"
+            markets["h2h"] = {
+                "outcome": h if fav == "home" else a,
+                "bestOdds": min(c1, c2),
+                "otherOdds": max(c1, c2),
+                "bookCount": "1",
+                "favSide": fav,
+                "source": "bo3",
+            }
         games.append({
             "id": f"esports:{r['id']}",
             "sport": "esports",
@@ -378,9 +409,10 @@ def collect_esports():
             "away": a,
             "startsAt": r.get("start_date"),
             "state": r.get("status"),
-            "markets": {},
+            "markets": markets,
             "tier": r.get("tier"),
             "boType": r.get("bo_type"),
+            "mapScore": [r.get("team1_score"), r.get("team2_score")],
             "drawPossible": False,
         })
     return games
@@ -405,15 +437,21 @@ def main():
     games = dedupe(games)
     # enrich odds from core API where the scoreboard didn't carry them; otherwise
     # fill the missing dog price from the site-API odds (they often carry both sides)
+    need = [g for g in games if not (g.get("markets") or {}).get("h2h") and g.get("_path") and g.get("_eid")]
+    from concurrent.futures import ThreadPoolExecutor
+
+    def enrich_one(g):
+        try:
+            return g, enrich_odds(g["_path"], g["_eid"], g.get("_cid"))
+        except Exception:
+            return g, {}
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        for g, m in pool.map(enrich_one, need):
+            if m:
+                g["markets"] = m
     for g in games:
         m = g.get("markets") or {}
         h2h = m.get("h2h")
-        if not h2h and g.get("_path") and g.get("_eid"):
-            try:
-                g["markets"] = enrich_odds(g["_path"], g["_eid"], g.get("_cid"))
-                h2h = g["markets"].get("h2h")
-            except Exception:
-                h2h = None
         if h2h:
             h2h["outcome"] = g["home"] if h2h["favSide"] == "home" else g["away"]
     # real multi-book prices from The Odds API (ESPN serves one book, and none for NBA/NHL/NCAAB)
