@@ -476,8 +476,10 @@
    "homeAbbr": null,
    "awayAbbr": null,
    "lockTs": "2026-11-24T22:13:55.275283+00:00",
-   "result": null,
-   "profitUnits": null
+   "result": "wrong",
+   "profitUnits": -1.0,
+   "final": "0-1",
+   "settledAt": "2026-11-25T20:03:18.399590+00:00"
   },
   {
    "gameId": "ucl:401915373",
@@ -690,6 +692,31 @@
    "homeAbbr": "SEA",
    "awayAbbr": "CHI",
    "lockTs": "2026-11-25T16:01:47.131964+00:00",
+   "result": null,
+   "profitUnits": null
+  },
+  {
+   "gameId": "wta:186835",
+   "match": "Nadia Podoroska vs Maria Lourdes Carle",
+   "league": "IEB+ Argentina Open",
+   "sport": "wta",
+   "side": "away",
+   "price": 1.48,
+   "modelProb": 0.6623,
+   "marketProb": null,
+   "edgePct": 0.3247,
+   "tier": "PREMIUM",
+   "bookCount": 0,
+   "startsAt": "2026-11-26T21:00Z",
+   "modelPriced": true,
+   "edgeKind": "model",
+   "home": "Maria Lourdes Carle",
+   "away": "Nadia Podoroska",
+   "homeLogo": null,
+   "awayLogo": null,
+   "homeAbbr": null,
+   "awayAbbr": null,
+   "lockTs": "2026-11-25T20:04:16.385903+00:00",
    "result": null,
    "profitUnits": null
   }

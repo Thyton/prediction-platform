@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-25T19:55:55.361277+00:00",
+ "generatedAt": "2026-11-25T20:04:16.389830+00:00",
  "picks": [
   {
    "gameId": "epl:401879219",
@@ -328,30 +328,6 @@
    "profitUnits": null
   },
   {
-   "gameId": "wta:186828",
-   "match": "Maria Lourdes Carle vs Sol Ailin Larraya Guidi",
-   "league": "IEB+ Argentina Open",
-   "sport": "wta",
-   "side": "home",
-   "price": 1.54,
-   "modelProb": 0.6372,
-   "marketProb": null,
-   "edgePct": 0.2744,
-   "tier": "PREMIUM",
-   "bookCount": 0,
-   "startsAt": "2026-11-25T18:00Z",
-   "modelPriced": true,
-   "home": "Sol Ailin Larraya Guidi",
-   "away": "Maria Lourdes Carle",
-   "homeLogo": null,
-   "awayLogo": null,
-   "homeAbbr": null,
-   "awayAbbr": null,
-   "lockTs": "2026-11-24T22:13:55.275283+00:00",
-   "result": null,
-   "profitUnits": null
-  },
-  {
    "gameId": "ucl:401915373",
    "match": "Manchester United @ Sporting CP",
    "league": "Champions League",
@@ -564,23 +540,37 @@
    "lockTs": "2026-11-25T16:01:47.131964+00:00",
    "result": null,
    "profitUnits": null
+  },
+  {
+   "gameId": "wta:186835",
+   "match": "Nadia Podoroska vs Maria Lourdes Carle",
+   "league": "IEB+ Argentina Open",
+   "sport": "wta",
+   "side": "away",
+   "price": 1.48,
+   "modelProb": 0.6623,
+   "marketProb": null,
+   "edgePct": 0.3247,
+   "tier": "PREMIUM",
+   "bookCount": 0,
+   "startsAt": "2026-11-26T21:00Z",
+   "modelPriced": true,
+   "edgeKind": "model",
+   "home": "Maria Lourdes Carle",
+   "away": "Nadia Podoroska",
+   "homeLogo": null,
+   "awayLogo": null,
+   "homeAbbr": null,
+   "awayAbbr": null,
+   "lockTs": "2026-11-25T20:04:16.385903+00:00",
+   "result": null,
+   "profitUnits": null
   }
  ],
  "alerts": [
   {
    "gameId": "esports:134389",
    "match": "Chinggis Warriors vs Bc Game",
-   "league": "Esports",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
-   "gameId": "esports:134388",
-   "match": "Liquid vs Nip",
    "league": "Esports",
    "severity": 2,
    "signal": "high_risk_alert",
@@ -611,23 +601,35 @@
    ]
   },
   {
-   "gameId": "ncaab:401920428",
-   "match": "Virginia Cavaliers @ Marquette Golden Eagles",
-   "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
+   "gameId": "esports:135035",
+   "match": "Donstu Esports vs Nordic Partners Gaming",
+   "league": "Esports",
+   "severity": 2,
+   "signal": "high_risk_alert",
    "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
+   "gameId": "esports:134981",
+   "match": "Y23 vs Falcons Force",
+   "league": "Esports",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
     "Heavy favourite: a short price leaves little margin"
    ]
   },
   {
    "gameId": "ncaab:401921669",
-   "match": "Arizona State Sun Devils @ LSU Tigers",
+   "match": "LSU Tigers @ Arizona State Sun Devils",
    "league": "NCAAB",
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+    "Thin market: only 2 books quoting"
    ]
   },
   {
@@ -738,10 +740,9 @@
    "gameId": "ncaab:401906869",
    "match": "Georgetown Hoyas @ Texas Longhorns",
    "league": "NCAAB",
-   "severity": 2,
-   "signal": "high_risk_alert",
+   "severity": 1,
+   "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 2 books quoting",
     "Heavy favourite: a short price leaves little margin"
    ]
   },
@@ -805,6 +806,16 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
+   "gameId": "ncaab:401925757",
+   "match": "Arkansas Razorbacks @ Michigan State Spartans",
+   "league": "NCAAB",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
@@ -1579,13 +1590,39 @@
   }
  ],
  "record": {
-  "graded": 10,
+  "graded": 11,
   "correct": 8,
-  "wrong": 2,
-  "accuracy": 0.8,
-  "units": 2.44,
-  "rolling": 0.8,
+  "wrong": 3,
+  "accuracy": 0.7273,
+  "units": 1.44,
+  "rolling": 0.7273,
   "recent": [
+   {
+    "gameId": "wta:186828",
+    "match": "Maria Lourdes Carle vs Sol Ailin Larraya Guidi",
+    "league": "IEB+ Argentina Open",
+    "sport": "wta",
+    "side": "home",
+    "price": 1.54,
+    "modelProb": 0.6372,
+    "marketProb": null,
+    "edgePct": 0.2744,
+    "tier": "PREMIUM",
+    "bookCount": 0,
+    "startsAt": "2026-11-25T18:00Z",
+    "modelPriced": true,
+    "home": "Sol Ailin Larraya Guidi",
+    "away": "Maria Lourdes Carle",
+    "homeLogo": null,
+    "awayLogo": null,
+    "homeAbbr": null,
+    "awayAbbr": null,
+    "lockTs": "2026-11-24T22:13:55.275283+00:00",
+    "result": "wrong",
+    "profitUnits": -1.0,
+    "final": "0-1",
+    "settledAt": "2026-11-25T20:03:18.399590+00:00"
+   },
    {
     "gameId": "wta:186819",
     "match": "Laura Samson vs Victoria Bosio",

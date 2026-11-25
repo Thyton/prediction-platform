@@ -1,4 +1,18 @@
 {
- "generatedAt": "2026-11-25T17:03:42.312946+00:00",
- "signals": []
+ "generatedAt": "2026-11-25T20:03:41.874867+00:00",
+ "signals": [
+  {
+   "gameId": "wta:186838",
+   "kind": "CASH_OUT",
+   "text": "Down late \u2014 the window to come back is closing. Exit.",
+   "sport": "wta",
+   "match": "Ariana Geerlings vs Alicia Herrero Linana",
+   "side": "away",
+   "score": "0-1",
+   "period": 1,
+   "clock": "7-5",
+   "progress": 0.59,
+   "at": "2026-11-25T20:03:40.266565+00:00"
+  }
+ ]
 }
