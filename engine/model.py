@@ -17,6 +17,8 @@ Usage:
 """
 import json, math, os, sys, datetime, argparse, random
 
+import lines
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 STATE = os.path.join(HERE, "model_state.json")
 ELO0 = 1500.0
@@ -318,6 +320,20 @@ def integrity(g, s):
             flags.append("Big underdog priced: market implies low confidence")
         # high risk only when two independent things are wrong at once
         sev = 2 if (thin and len(flags) >= 2) else 1
+        # line movement: the market itself voting. A favourite steaming is the
+        # market confirming; a drift *against* the favourite on a thin book is
+        # the classic "smart money knows something" tell.
+        mv = lines.movement(g)
+        if mv:
+            if mv["drift"] > 0:
+                flags.append(
+                    f"Steam: favourite shortened {mv['first']:.2f} → {mv['now']:.2f} "
+                    f"({mv['drift']:+.0%}) — market confirming")
+            else:
+                flags.append(
+                    f"Drift against the favourite: {mv['first']:.2f} → {mv['now']:.2f} "
+                    f"({mv['drift']:+.0%}) — money moving the other way")
+                sev = max(sev, 2)
     if not flags:
         return None
     return {"gameId": g["id"], "match": g["match"], "league": g["league"],
@@ -378,6 +394,7 @@ def main():
     a = ap.parse_args()
     s = load()
     games = json.load(open(a.games))["games"]
+    lines.snapshot(games)   # remember prices before evaluating, so drift is visible
     ensure_seeded(s, games)
     picks, alerts = [], []
     for g in games:
