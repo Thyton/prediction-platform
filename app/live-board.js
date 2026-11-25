@@ -63,6 +63,7 @@ export default function LiveBoard({ signals, pro, signedIn }) {
         {pro && <Notifier signals={signals} />}
         <div className="empty">
           No match is live on a released pick right now. Signals appear here the moment a pick’s game starts.
+          {" "}This page refreshes itself — leave it open and it fills in on its own.
         </div>
       </>
     );
