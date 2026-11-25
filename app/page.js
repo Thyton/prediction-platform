@@ -101,10 +101,16 @@ export default async function Home() {
   const user = await currentUser();
   const picks = live.picks || [];
 
-  // show the whole board, soonest kickoff first. Long-dated fixtures are legible
-  // because every card prints its start date; a filtered window would just hide
-  // picks that already occupy a slot.
-  const board = [...picks].sort((a, b) => new Date(a.startsAt) - new Date(b.startsAt));
+  // whole board, soonest first, grouped so today's action isn't buried under
+  // fixtures two days out. Every card still prints its own date.
+  const sorted = [...picks].sort((a, b) => new Date(a.startsAt) - new Date(b.startsAt));
+  const dayEnd = new Date(); dayEnd.setHours(23, 59, 59, 999);
+  const tomorrowEnd = new Date(dayEnd.getTime() + 86400000);
+  const groups = [
+    ["Today", sorted.filter((p) => new Date(p.startsAt) <= dayEnd)],
+    ["Tomorrow", sorted.filter((p) => new Date(p.startsAt) > dayEnd && new Date(p.startsAt) <= tomorrowEnd)],
+    ["Later", sorted.filter((p) => new Date(p.startsAt) > tomorrowEnd)],
+  ].filter(([, list]) => list.length);
 
   return (
     <>
@@ -145,12 +151,17 @@ export default async function Home() {
         <Tabs
           liveCount={signals.length}
           tips={
-            board.length ? (
-              <div className="picklist">
-                {board.map((p) => (
-                  <PickCard key={p.gameId} p={p} trackable={Boolean(user)} following={isFollowing(user, p.gameId)} />
-                ))}
-              </div>
+            sorted.length ? (
+              groups.map(([label, list]) => (
+                <div key={label}>
+                  <p className="daygroup">{label} <span>{list.length}</span></p>
+                  <div className="picklist">
+                    {list.map((p) => (
+                      <PickCard key={p.gameId} p={p} trackable={Boolean(user)} following={isFollowing(user, p.gameId)} />
+                    ))}
+                  </div>
+                </div>
+              ))
             ) : (
               <div className="empty">
                 No open picks right now. The board refills on the next scan — we never pad it with filler.
