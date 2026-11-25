@@ -1,6 +1,19 @@
 {
- "generatedAt": "2026-11-25T22:22:23.613595+00:00",
+ "generatedAt": "2026-11-25T22:27:34.609020+00:00",
  "signals": [
+  {
+   "gameId": "nba:401909317",
+   "kind": "RISING",
+   "text": "Down early \u2014 the get-in window is still open.",
+   "sport": "nba",
+   "match": "Miami Heat @ Philadelphia 76ers",
+   "side": "home",
+   "score": "23-26",
+   "period": 1,
+   "clock": "2:50",
+   "progress": 0.191,
+   "at": "2026-11-25T22:27:33.342211+00:00"
+  },
   {
    "gameId": "wta:186840",
    "kind": "RISING",
@@ -10,22 +23,9 @@
    "side": "away",
    "score": "0-0",
    "period": 1,
-   "clock": "3-1",
+   "clock": "3-2",
    "progress": 0.17,
-   "at": "2026-11-25T22:22:22.864925+00:00"
-  },
-  {
-   "gameId": "nba:401909317",
-   "kind": "RISING",
-   "text": "Down early \u2014 the get-in window is still open.",
-   "sport": "nba",
-   "match": "Miami Heat @ Philadelphia 76ers",
-   "side": "home",
-   "score": "10-13",
-   "period": 1,
-   "clock": "6:42",
-   "progress": 0.0,
-   "at": "2026-11-25T22:22:22.437463+00:00"
+   "at": "2026-11-25T22:27:33.989794+00:00"
   }
  ]
 }

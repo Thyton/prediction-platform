@@ -49,12 +49,18 @@ def progress(sport, period, secs_left):
         except (TypeError, ValueError):
             played = 0.0
         return min(1.0, max(0.0, played / total))
-    if sport in ("nba", "ncaab", "wnba"):
-        return min(1.0, max(0.0, ((period or 1) - 1) / 4.0))
-    if sport == "nhl":
-        return min(1.0, max(0.0, ((period or 1) - 1) / 3.0))
-    if sport == "nfl":
-        return min(1.0, max(0.0, ((period or 1) - 1) / 4.0))
+    # period alone made the whole first quarter read as 0%, so time-based
+    # thresholds never fired. Use the clock within the period.
+    clocked = {"nba": (4, 12.0), "ncaab": (2, 20.0), "wnba": (4, 10.0),
+               "nhl": (3, 20.0), "nfl": (4, 15.0)}
+    if sport in clocked:
+        periods, per = clocked[sport]
+        try:
+            secs = int(str(secs_left).split(":")[0]) * 60 + int(str(secs_left).split(":")[1])
+        except (TypeError, ValueError, IndexError):
+            secs = per * 60
+        played = ((period or 1) - 1) * per * 60 + max(0.0, per * 60 - secs)
+        return min(1.0, max(0.0, played / (periods * per * 60)))
     return 0.5
 
 
