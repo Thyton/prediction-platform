@@ -143,6 +143,8 @@ def evaluate(g, s):
         return None
     if books < MIN_BOOKS or odds <= 1.01:
         return None
+    if odds > 2.00:
+        return None                      # the method page promises 2.00 or shorter
     # a single book quoting is the thinnest possible market, so demand more edge
     need = MIN_EDGE if books >= 3 else MIN_EDGE + THIN_EXTRA
     # a model edge is only meaningful when both ratings carry real history;
