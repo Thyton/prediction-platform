@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-25T17:04:47.690292+00:00",
+ "generatedAt": "2026-11-25T19:55:55.349438+00:00",
  "picks": [
   {
    "gameId": "wta:186828",
@@ -73,10 +73,10 @@
    "league": "NHL",
    "sport": "nhl",
    "side": "home",
-   "price": 1.67,
-   "modelProb": 0.6398,
-   "marketProb": 0.5887,
-   "edgePct": 0.0511,
+   "price": 1.65,
+   "modelProb": 0.6425,
+   "marketProb": 0.5936,
+   "edgePct": 0.0489,
    "tier": "HIGH",
    "bookCount": 12,
    "startsAt": "2026-11-26T00:00Z",
@@ -95,9 +95,9 @@
    "sport": "nhl",
    "side": "home",
    "price": 1.69,
-   "modelProb": 0.6267,
-   "marketProb": 0.5806,
-   "edgePct": 0.046,
+   "modelProb": 0.6273,
+   "marketProb": 0.5817,
+   "edgePct": 0.0456,
    "tier": "HIGH",
    "bookCount": 12,
    "startsAt": "2026-11-26T02:40Z",
@@ -115,12 +115,12 @@
    "league": "NBA",
    "sport": "nba",
    "side": "home",
-   "price": 1.43,
-   "modelProb": 0.7731,
-   "marketProb": 0.6944,
-   "edgePct": 0.0786,
+   "price": 1.39,
+   "modelProb": 0.7764,
+   "marketProb": 0.7004,
+   "edgePct": 0.076,
    "tier": "PREMIUM",
-   "bookCount": 12,
+   "bookCount": 11,
    "startsAt": "2026-11-26T03:00Z",
    "edgeKind": "market",
    "home": "Golden State Warriors",
@@ -158,12 +158,12 @@
    "league": "NFL",
    "sport": "nfl",
    "side": "home",
-   "price": 1.67,
-   "modelProb": 0.6292,
-   "marketProb": 0.5825,
-   "edgePct": 0.0467,
+   "price": 1.68,
+   "modelProb": 0.629,
+   "marketProb": 0.5821,
+   "edgePct": 0.0469,
    "tier": "HIGH",
-   "bookCount": 12,
+   "bookCount": 11,
    "startsAt": "2026-11-27T01:20Z",
    "edgeKind": "market",
    "home": "Buffalo Bills",
@@ -184,7 +184,7 @@
    "marketProb": 0.7035,
    "edgePct": 0.0739,
    "tier": "PREMIUM",
-   "bookCount": 9,
+   "bookCount": 10,
    "startsAt": "2026-11-27T19:30Z",
    "edgeKind": "market",
    "home": "Werder Bremen",
@@ -257,6 +257,16 @@
    "signal": "high_risk_alert",
    "flags": [
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
+   "gameId": "ncaab:401920428",
+   "match": "Virginia Cavaliers @ Marquette Golden Eagles",
+   "league": "NCAAB",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
     "Heavy favourite: a short price leaves little margin"
    ]
   },
@@ -375,6 +385,17 @@
    ]
   },
   {
+   "gameId": "ncaab:401906869",
+   "match": "Georgetown Hoyas @ Texas Longhorns",
+   "league": "NCAAB",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 2 books quoting",
+    "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
    "gameId": "uel:401915516",
    "match": "NK Celje @ Ferencvaros",
    "league": "Europa League",
@@ -437,26 +458,6 @@
    ]
   },
   {
-   "gameId": "ncaab:401920529",
-   "match": "Tennessee Volunteers @ Iowa State Cyclones",
-   "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "ncaab:401920537",
-   "match": "Miami Hurricanes @ Michigan Wolverines",
-   "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 2 books quoting"
-   ]
-  },
-  {
    "gameId": "nfl:401873080",
    "match": "Philadelphia Eagles @ Dallas Cowboys",
    "league": "NFL",
@@ -501,10 +502,9 @@
    "gameId": "ncaab:401920531",
    "match": "Texas Tech Red Raiders @ Oregon Ducks",
    "league": "NCAAB",
-   "severity": 2,
-   "signal": "high_risk_alert",
+   "severity": 1,
+   "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 2 books quoting",
     "Heavy favourite: a short price leaves little margin"
    ]
   },
@@ -929,46 +929,6 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
-   "gameId": "epl:401879222",
-   "match": "Crystal Palace @ Chelsea",
-   "league": "EPL",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "epl:401879220",
-   "match": "Nottingham Forest @ Hull City",
-   "league": "EPL",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "epl:401879219",
-   "match": "Sunderland @ Liverpool",
-   "league": "EPL",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "epl:401879218",
-   "match": "Leeds United @ Manchester City",
-   "league": "EPL",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
