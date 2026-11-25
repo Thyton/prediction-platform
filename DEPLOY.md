@@ -34,7 +34,8 @@ that is being set up, from the local `TipLabCycle` scheduled task.
   which keeps its existing env vars: STRIPE_SECRET_KEY (live, cs_live checkout verified
   working), ODDS_API_KEY, STRIPE_WEBHOOK_SECRET, DATABASE_URL.
 - The separate `tiplab` project (prj_JfpPj1cW7sgYftUZ9wjrbnx6D6ga) is abandoned.
-- engine/publish.py still targets the `tiplab` project — repoint PROJECT id if using it,
-  or use engine/deploy_old.py which targets `web`.
-- Cron limit on Hobby: vercel.json cron reduced to once daily (0 6 * * *); real freshness
-  comes from the local TipLabCycle task which redeploys on every data refresh.
+- engine/publish.py targets the `web` project directly. No hardcoded tokens: VERCEL_TOKEN
+  and ODDS_API_KEY come from the environment (GitHub Actions secrets in CI).
+- Vercel cron removed entirely (Hobby has no Python). The cycle runs on GitHub Actions:
+  full pass every 30 min, live signals every 5 min. Deploys are content-hash and
+  budget (85/day) guarded — Hobby allows 100/day.
