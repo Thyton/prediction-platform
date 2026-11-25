@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-25T23:04:38.750502+00:00",
+ "generatedAt": "2026-11-25T23:13:23.799140+00:00",
  "games": [
   {
    "id": "esports:135035",
@@ -311,8 +311,8 @@
    "markets": {
     "h2h": {
      "outcome": "Philadelphia 76ers",
-     "bestOdds": 1.69,
-     "otherOdds": 2.45,
+     "bestOdds": 1.4,
+     "otherOdds": 3.8,
      "bookCount": "8",
      "favSide": "home",
      "source": "oddsapi"
@@ -419,11 +419,11 @@
    "_cid": "401921716",
    "markets": {
     "h2h": {
-     "outcome": "Providence Friars",
-     "bestOdds": 1.69,
-     "otherOdds": 2.5,
+     "outcome": "BYU Cougars",
+     "bestOdds": 1.83,
+     "otherOdds": 2.15,
      "bookCount": "7",
-     "favSide": "home",
+     "favSide": "away",
      "source": "oddsapi"
     }
    },
@@ -738,7 +738,7 @@
    "markets": {
     "h2h": {
      "outcome": "New Jersey Devils",
-     "bestOdds": 1.75,
+     "bestOdds": 1.74,
      "otherOdds": 2.28,
      "bookCount": "12",
      "favSide": "away",
@@ -768,7 +768,7 @@
     "h2h": {
      "outcome": "New York Knicks",
      "bestOdds": 1.62,
-     "otherOdds": 2.53,
+     "otherOdds": 2.55,
      "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
@@ -2033,8 +2033,8 @@
    "markets": {
     "h2h": {
      "outcome": "LSU Tigers",
-     "bestOdds": 1.48,
-     "otherOdds": 3.25,
+     "bestOdds": 1.49,
+     "otherOdds": 2.9,
      "bookCount": "5",
      "favSide": "home",
      "source": "oddsapi"
@@ -2149,8 +2149,8 @@
    "markets": {
     "h2h": {
      "outcome": "St. John's Red Storm",
-     "bestOdds": 1.645,
-     "otherOdds": 2.3,
+     "bestOdds": 1.676,
+     "otherOdds": 2.24,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -2539,7 +2539,7 @@
     "h2h": {
      "outcome": "Toledo Rockets",
      "bestOdds": 1.67,
-     "otherOdds": 2.36,
+     "otherOdds": 2.35,
      "bookCount": "11",
      "favSide": "away",
      "source": "oddsapi"
@@ -2783,7 +2783,7 @@
      "outcome": "Bologna",
      "bestOdds": 2.22,
      "otherOdds": 3.5,
-     "bookCount": "10",
+     "bookCount": "11",
      "favSide": "away",
      "source": "oddsapi"
     }
@@ -3886,7 +3886,7 @@
      "outcome": "Frosinone",
      "bestOdds": 1.5,
      "otherOdds": 6.0,
-     "bookCount": "10",
+     "bookCount": "11",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -4248,7 +4248,7 @@
      "outcome": "Lazio",
      "bestOdds": 2.13,
      "otherOdds": 3.59,
-     "bookCount": "10",
+     "bookCount": "11",
      "favSide": "away",
      "source": "oddsapi"
     }
@@ -4996,7 +4996,7 @@
      "outcome": "Fiorentina",
      "bestOdds": 2.32,
      "otherOdds": 3.2,
-     "bookCount": "10",
+     "bookCount": "11",
      "favSide": "away",
      "source": "oddsapi"
     }
@@ -5167,7 +5167,7 @@
      "outcome": "Napoli",
      "bestOdds": 1.69,
      "otherOdds": 5.0,
-     "bookCount": "10",
+     "bookCount": "11",
      "favSide": "away",
      "source": "oddsapi"
     }
@@ -5531,7 +5531,7 @@
      "outcome": "AS Roma",
      "bestOdds": 1.22,
      "otherOdds": 12.0,
-     "bookCount": "10",
+     "bookCount": "11",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -5733,7 +5733,7 @@
      "outcome": "Como",
      "bestOdds": 2.1,
      "otherOdds": 3.55,
-     "bookCount": "10",
+     "bookCount": "11",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -6191,7 +6191,7 @@
      "outcome": "AC Milan",
      "bestOdds": 1.72,
      "otherOdds": 5.08,
-     "bookCount": "10",
+     "bookCount": "11",
      "favSide": "away",
      "source": "oddsapi"
     }
