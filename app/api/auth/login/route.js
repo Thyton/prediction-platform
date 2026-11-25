@@ -3,6 +3,8 @@ import { cookies } from "next/headers";
 import crypto from "node:crypto";
 import { read, write, hash } from "../../../../lib/store";
 
+// Sign-in only. Accounts are created at /api/auth/signup so a wrong password
+// can be told apart from a new address.
 export async function POST(req) {
   const { email, password } = await req.json().catch(() => ({}));
   if (!email || !password) {
@@ -10,17 +12,15 @@ export async function POST(req) {
   }
   const clean = email.trim().toLowerCase();
   const db = await read();
-  let user = db.users.find((u) => u.email === clean);
-  // only new accounts must clear the minimum; existing short passwords still work
-  if (!user && password.length < 6) {
-    return NextResponse.json({ error: "Use at least 6 characters for your password." }, { status: 400 });
-  }
+  const user = db.users.find((u) => u.email === clean);
   if (!user) {
-    user = { id: crypto.randomUUID(), email: clean, pw: hash(password), pro: false, created: new Date().toISOString() };
-    db.users.push(user);
-    await write(db);
-  } else if (user.pw !== hash(password)) {
-    return NextResponse.json({ error: "Wrong password for that email." }, { status: 401 });
+    return NextResponse.json(
+      { error: "No account with that email.", code: "missing" },
+      { status: 404 }
+    );
+  }
+  if (user.pw !== hash(password)) {
+    return NextResponse.json({ error: "Wrong password for that email.", code: "badpw" }, { status: 401 });
   }
   const token = crypto.randomBytes(24).toString("hex");
   user.sessions = [...(user.sessions || []).slice(-4), token];
