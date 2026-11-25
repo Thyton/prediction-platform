@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-25T16:46:03.971569+00:00",
+ "generatedAt": "2026-11-25T16:56:16.697718+00:00",
  "picks": [
   {
    "gameId": "wta:186828",
@@ -158,12 +158,12 @@
    "league": "NFL",
    "sport": "nfl",
    "side": "home",
-   "price": 1.69,
-   "modelProb": 0.6259,
-   "marketProb": 0.5764,
-   "edgePct": 0.0494,
+   "price": 1.67,
+   "modelProb": 0.6292,
+   "marketProb": 0.5825,
+   "edgePct": 0.0467,
    "tier": "HIGH",
-   "bookCount": 11,
+   "bookCount": 12,
    "startsAt": "2026-11-27T01:20Z",
    "edgeKind": "market",
    "home": "Buffalo Bills",
