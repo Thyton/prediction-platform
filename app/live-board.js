@@ -83,7 +83,12 @@ export default function LiveBoard({ signals, pro, signedIn }) {
               {s.score} <small>· {SPORT_LABEL[s.sport] || s.sport}</small>
             </div>
             <div className="live-text">{s.text}</div>
-            <div className="live-foot">{fmtTime(s.at)} · on your pick</div>
+            <div className="live-foot">
+              {fmtTime(s.at)} · on your pick
+              {s.espnUrl && (
+                <> · <a className="watch" href={s.espnUrl} target="_blank" rel="noopener">▶ Watch</a></>
+              )}
+            </div>
           </article>
         ))}
         {hidden.slice(0, 2).map((s) => (

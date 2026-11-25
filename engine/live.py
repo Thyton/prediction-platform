@@ -285,7 +285,7 @@ def signal_for(item):
         return None
 
     return {
-        "gameId": gid, "kind": kind, "text": text,
+        "gameId": gid, "kind": kind, "text": text, "espnUrl": item.get("espnUrl"),
         "sport": item.get("sport"), "match": item.get("match"),
         "side": side, "score": f"{mine}-{theirs}",
         "period": period, "clock": clock, "progress": round(prog, 3),
