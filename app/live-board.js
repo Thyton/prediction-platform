@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import { fmtTime, SPORT_LABEL } from "../lib/labels";
+import Watch from "./watch";
 
 const LABEL = {
   HOLD: "HOLD", CASH_OUT: "GET OUT", RISING: "GET IN", CAUTION: "CAUTION",
@@ -85,9 +86,9 @@ export default function LiveBoard({ signals, pro, signedIn }) {
             <div className="live-text">{s.text}</div>
             <div className="live-foot">
               {fmtTime(s.at)} · on your pick
-              {s.espnUrl && (
-                <> · <a className="watch" href={s.espnUrl} target="_blank" rel="noopener">▶ Watch</a></>
-              )}
+            </div>
+            <div style={{ marginTop: 8 }}>
+              <Watch gameId={s.gameId} start={s.at} home={s.match} away="" />
             </div>
           </article>
         ))}
