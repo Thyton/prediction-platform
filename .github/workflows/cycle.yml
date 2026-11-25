@@ -39,11 +39,14 @@ jobs:
           # 5-min crons (minutes ending 2 or 7) are live-only and the 30-min
           # crons (:06, :36) do the full grade+collect+model+publish pass.
           MIN=$(date -u +%M); MIN=${MIN#0}
-          if [ "${{ inputs.live_only }}" = "false" ]; then
-            echo "live=" >> "$GITHUB_OUTPUT"
-          elif [ "${{ inputs.live_only }}" = "true" ] || [ $((MIN % 30)) -ne 6 ]; then
-            echo "live=--live" >> "$GITHUB_OUTPUT"
-          fi
+          # manual dispatch with live_only=false forces a full pass; 30-min slots
+          # are :06/:36, everything else is the 5-minute live-signal cron
+          FULL=0
+          if [ "${{ inputs.live_only }}" = "false" ]; then FULL=1
+          elif [ "${{ inputs.live_only }}" = "true" ]; then FULL=0
+          elif [ $((MIN % 30)) -eq 6 ]; then FULL=1; fi
+          if [ "$FULL" = "1" ]; then echo "live=" >> "$GITHUB_OUTPUT"
+          else echo "live=--live" >> "$GITHUB_OUTPUT"; fi
 
       - name: Run engine
         working-directory: engine
