@@ -14,7 +14,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "..", "data")
 LEDGER = os.path.join(DATA, "ledger.json")
 PY = sys.executable
-BOARD_WINDOW_H = int(os.environ.get("BOARD_WINDOW_H", "48"))  # match the homepage tab
+BOARD_WINDOW_H = int(os.environ.get("BOARD_WINDOW_H", "72"))  # how far ahead a pick may be published
 
 
 def load_env():
@@ -117,15 +117,15 @@ def main():
 
         fresh = [p for p in raw["picks"] if p["gameId"] not in have and not_started(p) and in_window(p)]
         fresh.sort(key=lambda p: -p["edgePct"])
-        # dopamine board: strongest reads, but no single sport may own the whole
-        # board — a per-sport ceiling keeps tennis and esports visible. Picks
-        # still open but past their start time grade late, so slot recovery waits
-        # for the grader; the sports ceiling below is what frees space early.
+        # board: strongest reads, but no single sport may own the whole board. Only
+        # picks still visible on the Today tab occupy a slot — a fixture five days
+        # out renders nowhere, so it must not lock a fresh pick off the board.
         cap = int(os.environ.get("PICK_CAP", "18"))
         per_sport = int(os.environ.get("PICK_PER_SPORT", "5"))
-        slots = max(0, cap - sum(1 for i in led["items"] if not i.get("result")))
+        visible = [i for i in led["items"] if not i.get("result") and in_window(i) and not_started(i)]
+        slots = max(0, cap - sum(1 for i in visible))
         # guarantee each tracked sport at least one slot when it has a candidate
-        sports_on = {i["sport"] for i in led["items"] if not i.get("result")}
+        sports_on = {i["sport"] for i in visible}
         want = [p for p in fresh if p["sport"] not in sports_on]
         chosen, seen = [], {}
         for p in want:

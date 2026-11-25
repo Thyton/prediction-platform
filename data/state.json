@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-25T15:04:54.548408+00:00",
+ "generatedAt": "2026-11-25T15:36:22.111645+00:00",
  "picks": [
   {
    "gameId": "epl:401879219",
@@ -589,39 +589,6 @@
    ]
   },
   {
-   "gameId": "esports:134386",
-   "match": "Dendele Cs vs 9z",
-   "league": "Esports",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
-   ]
-  },
-  {
-   "gameId": "esports:134387",
-   "match": "Flyquest vs Imperial",
-   "league": "Esports",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
-   ]
-  },
-  {
-   "gameId": "esports:135030",
-   "match": "Quintessence vs Spirit Academy",
-   "league": "Esports",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
-   ]
-  },
-  {
    "gameId": "esports:134389",
    "match": "Chinggis Warriors vs Bc Game",
    "league": "Esports",
@@ -646,6 +613,27 @@
   {
    "gameId": "esports:134891",
    "match": "Fortress vs Fire Flux",
+   "league": "Esports",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
+   "gameId": "esports:134515",
+   "match": "Lunacy Team vs Butterfly",
+   "league": "Esports",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "esports:134862",
+   "match": "Mixlvlt vs Ryvex",
    "league": "Esports",
    "severity": 2,
    "signal": "high_risk_alert",
@@ -901,6 +889,16 @@
    ]
   },
   {
+   "gameId": "ncaab:401920537",
+   "match": "Miami Hurricanes @ Michigan Wolverines",
+   "league": "NCAAB",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 2 books quoting"
+   ]
+  },
+  {
    "gameId": "nfl:401873080",
    "match": "Philadelphia Eagles @ Dallas Cowboys",
    "league": "NFL",
@@ -921,6 +919,16 @@
    ]
   },
   {
+   "gameId": "ncaab:401920530",
+   "match": "St. John's Red Storm @ Louisville Cardinals",
+   "league": "NCAAB",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 2 books quoting"
+   ]
+  },
+  {
    "gameId": "ncaab:401920539",
    "match": "Kansas State Wildcats @ Alabama Crimson Tide",
    "league": "NCAAB",
@@ -938,7 +946,7 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Thin market: only 2 books quoting",
     "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
    ]
   },

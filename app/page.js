@@ -91,11 +91,10 @@ export default async function Home() {
   const user = await currentUser();
   const picks = live.picks || [];
 
-  const today = picks.filter((p) => {
-    const d = new Date(p.startsAt);
-    const now = Date.now();
-    return d.getTime() > now - 12 * 3600e3 && d.getTime() < now + 48 * 3600e3;
-  });
+  // show the whole board, soonest kickoff first. Long-dated fixtures are legible
+  // because every card prints its start date; a filtered window would just hide
+  // picks that already occupy a slot.
+  const today = [...picks].sort((a, b) => new Date(a.startsAt) - new Date(b.startsAt));
 
   return (
     <>
@@ -119,7 +118,7 @@ export default async function Home() {
         <div className="section-head">
           <div>
             <p className="eyebrow">THE DESK</p>
-            <h2>Today&apos;s released picks</h2>
+            <h2>Open picks</h2>
           </div>
           <span className="status">
             {signals.length > 0 && <><span className="live-pulse" /><b>{signals.length}</b> live · </>}
@@ -138,7 +137,7 @@ export default async function Home() {
               </div>
             ) : (
               <div className="empty">
-                No picks in the current window. The board refills on the next scan — we never pad it with filler.
+                No open picks right now. The board refills on the next scan — we never pad it with filler.
               </div>
             )
           }
