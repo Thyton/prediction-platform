@@ -128,12 +128,12 @@ def model_probs(g, s):
     return e, 1 - e, 0.0
 
 
-def why_text(g, side, prob, edge, books):
+def why_text(g, side, prob, edge, books, counts=None):
     """One plain-English line explaining the pick, from the model's own numbers.
     Deterministic — no LLM, no randomness, so it can't contradict the record."""
     pick = g["home"] if side == "home" else g["away"]
     bits = [f"{pick} rated {prob:.0%} to win"]
-    cnt = LATEST_COUNTS.get(g["sport"], {})
+    cnt = (counts or {}).get(g["sport"], {})
     games = min(cnt.get(g["home"], 0), cnt.get(g["away"], 0))
     if games:
         bits.append(f"across {games} tracked games per side")
@@ -225,7 +225,7 @@ def evaluate(g, s):
         "marketProb": round(mkH if side == "home" else mkA, 4),
         "edgePct": round(edge, 4), "tier": tier,
         "bookCount": books, "startsAt": g["startsAt"], "edgeKind": "market",
-        "why": why_text(g, side, prob, edge, books),
+        "why": why_text(g, side, prob, edge, books, s.get("counts")),
         "home": g["home"], "away": g["away"],
         "homeLogo": g.get("homeLogo"), "awayLogo": g.get("awayLogo"),
         "homeAbbr": g.get("homeAbbr"), "awayAbbr": g.get("awayAbbr"),
@@ -258,7 +258,7 @@ def evaluate_no_market(g, s):
         "side": side, "price": price, "modelProb": round(prob, 4),
         "marketProb": None, "edgePct": round(edge, 4), "tier": tier,
         "bookCount": 0, "startsAt": g["startsAt"], "modelPriced": True,
-        "why": why_text(g, side, prob, edge, 0),
+        "why": why_text(g, side, prob, edge, 0, s.get("counts")),
         "edgeKind": "model",
         "home": g["home"], "away": g["away"],
         "homeLogo": g.get("homeLogo"), "awayLogo": g.get("awayLogo"),
@@ -351,9 +351,7 @@ def main():
     ap.add_argument("--games", required=True)
     ap.add_argument("--out", required=True)
     a = ap.parse_args()
-    global LATEST_COUNTS
     s = load()
-    LATEST_COUNTS = s.get("counts", {})
     games = json.load(open(a.games))["games"]
     ensure_seeded(s, games)
     picks, alerts = [], []

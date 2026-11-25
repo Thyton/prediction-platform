@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getLive, getRecord, getGames, getIntegrity, getSignals, fmtTime, SPORT_LABEL } from "../lib/data";
 import { getActivity } from "../lib/activity";
+import { cookies } from "next/headers";
 import { currentUser } from "../lib/session";
 import { isFollowing } from "../lib/userstats";
 import Waitlist from "./waitlist";
@@ -27,7 +28,7 @@ function TeamPill({ p, side }) {
   );
 }
 
-function PickCard({ p, trackable, following }) {
+function PickCard({ p, trackable, following, isNew }) {
   const picked = p.side === "home" ? p.home : p.away;
   const pickedLogo = p.side === "home" ? p.homeLogo : p.awayLogo;
   const graded = ["correct", "wrong", "push"].includes(p.result);
@@ -36,6 +37,7 @@ function PickCard({ p, trackable, following }) {
       <div className="pick-main">
         <div className="pick-league">
           <span className="league">{SPORT_LABEL[p.sport] || p.league}</span>
+          {isNew && <span className="newflag">NEW</span>}
           <span>{fmtTime(p.startsAt)}</span>
         </div>
         <div className="pick-teams">
@@ -104,6 +106,9 @@ export default async function Home() {
   })();
   const signals = getSignals();
   const user = await currentUser();
+  const jar = await cookies();
+  const since = jar.get("lastvisit")?.value;
+  jar.set("lastvisit", String(Date.now()), { path: "/", maxAge: 86400 * 30, sameSite: "lax" });
   // the strongest return hook is proof the desk is live right now
   const lastGraded = record.recent[0];
   const sinceLast = lastGraded?.settledAt
@@ -113,6 +118,9 @@ export default async function Home() {
 
   // whole board, soonest first, grouped so today's action isn't buried under
   // fixtures two days out. Every card still prints its own date.
+  const sinceTs = since ? Number(since) : 0;
+  const isNew = (p) => sinceTs && p.lockTs && new Date(p.lockTs).getTime() > sinceTs;
+  const freshCount = picks.filter(isNew).length;
   const sorted = [...picks].sort((a, b) => new Date(a.startsAt) - new Date(b.startsAt));
   const dayEnd = new Date(); dayEnd.setHours(23, 59, 59, 999);
   const tomorrowEnd = new Date(dayEnd.getTime() + 86400000);
@@ -174,7 +182,7 @@ export default async function Home() {
                   <p className="daygroup">{label} <span>{list.length}</span></p>
                   <div className="picklist">
                     {list.map((p) => (
-                      <PickCard key={p.gameId} p={p} trackable={Boolean(user)} following={isFollowing(user, p.gameId)} />
+                      <PickCard key={p.gameId} p={p} isNew={isNew(p)} trackable={Boolean(user)} following={isFollowing(user, p.gameId)} />
                     ))}
                   </div>
                 </div>
@@ -199,6 +207,7 @@ export default async function Home() {
                     <tr key={p.gameId}>
                       <td>
                         <span className="league">{SPORT_LABEL[p.sport] || p.league}</span>
+          {isNew && <span className="newflag">NEW</span>}
                         {p.match}
                         <small>{fmtTime(p.startsAt)} · graded {fmtTime(p.settledAt)}</small>
                       </td>
