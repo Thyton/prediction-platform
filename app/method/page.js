@@ -35,9 +35,9 @@ export default function Method() {
           <h3>Only real agreement ships</h3>
           <p>
             A pick releases only when the market favourite also carries a 70–85% model probability,
-            is priced at odds of 2.00 or shorter, and our blended probability beats the de-vigged
-            price by at least 4.5% (7.5% when fewer than three books quote it). Below that the market
-            is already right and we stay quiet.
+            is priced at odds of 2.00 or shorter, and still beats the de-vigged price (2%, plus 1%
+            when under three books quote it). Conviction does the heavy lifting — in a 14-day replay
+            the 70%+ band won 88% — and the edge test is the tie-breaker against the price.
           </p>
           <p>
             Tennis and esports have no book to argue with us, so they are held to the same 70% floor
