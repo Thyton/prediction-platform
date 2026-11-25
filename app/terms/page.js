@@ -13,7 +13,7 @@ export default function Terms() {
         <p><strong style={{color:"var(--ink)"}}>5. Accuracy.</strong> Our full record, wins and losses alike, is published at /record. We do not delete or re-date results. The record is split in two: a <em>forward</em> record of picks released and graded live, and a <em>backtest</em> of the same rules replayed over earlier days. Backtest picks are labelled and never counted as live performance.</p>
         <p><strong style={{color:"var(--ink)"}}>6. Live signals.</strong> In-play signals are informational observations generated while a game is in progress. They depend on third-party data feeds that can lag or fail, and no signal guarantees a favourable price or outcome.</p>
         <p><strong style={{color:"var(--ink)"}}>7. Changes.</strong> Material changes to these terms will be posted on this page.</p>
-        <p><strong style={{color:"var(--ink)"}}>8. Who you are dealing with.</strong> TipLab is operated by Pinzak Network. Contact: <a href="mailto:support@tiplab.io">support@tiplab.io</a>. Governing law: England &amp; Wales. No company number is given while TipLab trades as a beta.</p>
+        <p><strong style={{color:"var(--ink)"}}>8. Who you are dealing with.</strong> TipLab is operated by Pinzak Network. Contact: <a href="mailto:support@pinzak.com">support@pinzak.com</a>. Governing law: England &amp; Wales. No company number is given while TipLab trades as a beta.</p>
         <p><em>Last updated 26 November 2026.</em></p>
       </div>
     </section>

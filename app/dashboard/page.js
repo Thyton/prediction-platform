@@ -5,6 +5,7 @@ import { getRecord, fmtTime, SPORT_LABEL } from "../../lib/data";
 import { personalRecord } from "../../lib/userstats";
 import SignOut from "./signout";
 import DigestToggle from "./digest-toggle";
+import Upgrade from "./upgrade";
 
 export const dynamic = "force-dynamic";
 
@@ -73,9 +74,7 @@ export default async function Dashboard({ searchParams }) {
               hear about them without sitting on the tab. Every pick and the full graded record stay free;
               Pro is the in-game layer. Cancel anytime.
             </p>
-            <form action="/api/checkout" method="post" style={{ marginTop: 16 }}>
-              <button type="submit">Go Pro →</button>
-            </form>
+            <Upgrade />
           </article>
           <article>
             <p className="eyebrow">FREE TIER</p>

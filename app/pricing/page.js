@@ -50,10 +50,10 @@ export default function Pricing() {
             hear it without watching the screen. Founding members keep this price for life.
           </p>
           <p style={{ marginTop: 12 }}>
-            <Link className="btn" href="/login">Create an account →</Link>
+            <Link className="btn" href="/login?up=1">Create an account →</Link>
           </p>
           <p className="muted-note" style={{ marginTop: 8 }}>
-            Upgrade from your dashboard once you are in.
+            Then hit Go Pro on your dashboard — it opens Stripe's secure checkout.
           </p>
         </article>
         <article>
