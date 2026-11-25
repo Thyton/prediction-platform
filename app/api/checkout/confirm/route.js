@@ -18,6 +18,7 @@ export async function GET(req) {
 
   let paid = false;
   let sub = null;
+  let customer = null;
   try {
     const r = await fetch(`https://api.stripe.com/v1/checkout/sessions/${sessionId}`, {
       headers: { Authorization: `Bearer ${key}` },
@@ -27,6 +28,7 @@ export async function GET(req) {
       const s = await r.json();
       paid = s.payment_status === "paid" || s.status === "complete";
       sub = s.subscription;
+      customer = s.customer;
     }
   } catch {
     /* fall through to dashboard */
@@ -38,6 +40,8 @@ export async function GET(req) {
     if (u) {
       u.pro = true;
       u.stripeSub = sub || u.stripeSub;
+      // the portal needs this to find their subscription; the webhook may be unregistered
+      u.stripeCustomer = customer || u.stripeCustomer;
       await write(db);
     }
   }

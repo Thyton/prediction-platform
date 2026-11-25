@@ -167,7 +167,23 @@ export default async function Dashboard({ searchParams }) {
         </section>
       )}
 
-      <p style={{ marginTop: 28 }}><SignOut /></p>
+      <section style={{ marginTop: 34 }}>
+        <div className="section-head" style={{ marginTop: 0 }}>
+          <div><p className="eyebrow">ACCOUNT</p><h2>Settings</h2></div>
+        </div>
+        <p className="muted-note">
+          Signed in as {user.email}
+          {!user.verified && " (unverified — resets and alerts need a confirmed address)"}.
+        </p>
+        <p style={{ display: "flex", gap: 14, alignItems: "center", flexWrap: "wrap", marginTop: 10 }}>
+          <Link className="btn btn-ghost" href="/api/portal">Billing &amp; cancel</Link>
+          {!user.verified && <a className="btn btn-ghost" href="/api/auth/verify/start">Send a verify link</a>}
+        </p>
+        <p className="muted-note" style={{ marginTop: 8 }}>
+          Billing opens Stripe's own portal, where you can change the card, download invoices, or cancel.
+        </p>
+        <p style={{ marginTop: 22 }}><SignOut /></p>
+      </section>
     </>
   );
 }
