@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-25T22:23:28.365626+00:00",
+ "generatedAt": "2026-11-25T22:33:47.762448+00:00",
  "picks": [
   {
    "gameId": "epl:401879219",
@@ -630,17 +630,7 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Thin market: only 2 books quoting",
-    "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
-   "gameId": "ncaab:401921670",
-   "match": "South Carolina Gamecocks @ USC Trojans",
-   "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
     "Heavy favourite: a short price leaves little margin"
    ]
   },
