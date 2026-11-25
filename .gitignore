@@ -11,3 +11,4 @@ __pycache__/
 .deploy_state.json
 *.zip
 .alert_state.json
+.digest_date

@@ -174,6 +174,8 @@ def main():
                   open(os.path.join(DATA, "state.json"), "w"), indent=1)
         print(f"state: {len(led['items'])} total, "
               f"{sum(1 for i in led['items'] if not i.get('result'))} open picks", file=sys.stderr)
+        if os.environ.get("DIGEST_URL"):
+            send_digest()
         # push the fresh data to the live site
         if os.environ.get("VERCEL_TOKEN"):
             r = run("publish.py")
@@ -234,6 +236,28 @@ def notify_alerts():
         print(f"alerts: {emailed} emailed of {len(new)} new", file=sys.stderr)
     except Exception as e:
         print("alerts skipped:", str(e)[:120], file=sys.stderr)
+
+
+def send_digest():
+    """Once a day, around 07:00 UTC, mail members the board. Keyed by date so
+    repeat runs in the same day don't re-send."""
+    stamp = os.path.join(DATA, ".digest_date")
+    today = datetime.datetime.now(datetime.UTC).strftime("%Y-%m-%d")
+    if datetime.datetime.now(datetime.UTC).hour != 7:
+        return
+    if os.path.exists(stamp) and open(stamp).read().strip() == today:
+        return
+    try:
+        req = urllib.request.Request(
+            os.environ["DIGEST_URL"], data=b"{}", method="POST",
+            headers={"Content-Type": "application/json",
+                     "Authorization": f"Bearer {os.environ.get('ALERT_SECRET', '')}"},
+        )
+        out = urllib.request.urlopen(req, timeout=60).read()
+        open(stamp, "w").write(today)
+        print("digest:", out.decode()[:80], file=sys.stderr)
+    except Exception as e:
+        print("digest skipped:", str(e)[:120], file=sys.stderr)
 
 
 def commit_data():

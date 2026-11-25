@@ -4,6 +4,7 @@ import { currentUser } from "../../lib/session";
 import { getRecord, fmtTime, SPORT_LABEL } from "../../lib/data";
 import { personalRecord } from "../../lib/userstats";
 import SignOut from "./signout";
+import DigestToggle from "./digest-toggle";
 
 export const dynamic = "force-dynamic";
 
@@ -178,6 +179,7 @@ export default async function Dashboard({ searchParams }) {
         <p style={{ display: "flex", gap: 14, alignItems: "center", flexWrap: "wrap", marginTop: 10 }}>
           <Link className="btn btn-ghost" href="/api/portal">Billing &amp; cancel</Link>
           {!user.verified && <a className="btn btn-ghost" href="/api/auth/verify/start">Send a verify link</a>}
+          <DigestToggle initial={user.digest !== false} />
         </p>
         <p className="muted-note" style={{ marginTop: 8 }}>
           Billing opens Stripe's own portal, where you can change the card, download invoices, or cancel.
