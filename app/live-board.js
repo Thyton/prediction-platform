@@ -1,5 +1,5 @@
 "use client";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { fmtTime, SPORT_LABEL } from "../lib/labels";
 
 const LABEL = {
@@ -10,8 +10,10 @@ const LABEL = {
 // doesn't have to sit on the tab. Polls the signal file, which the engine
 // rewrites every few minutes during live windows.
 function Notifier({ signals }) {
+  const [granted, setGranted] = useState(false);
   useEffect(() => {
     if (typeof Notification === "undefined") return;
+    setGranted(Notification.permission === "granted");
     let seen = new Set(signals.map((s) => `${s.gameId}:${s.kind}`));
     const timer = setInterval(async () => {
       try {
@@ -37,11 +39,17 @@ function Notifier({ signals }) {
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   async function enable() {
+    if (typeof Notification === "undefined") return;
     if (Notification.permission === "default") await Notification.requestPermission();
+    setGranted(Notification.permission === "granted");
   }
 
+  if (typeof Notification !== "undefined" && Notification.permission === "denied") {
+    return <p className="muted-note">Alerts are blocked in your browser settings.</p>;
+  }
+  if (granted) return <p className="muted-note">Alerts on — you&apos;ll be notified when a signal fires.</p>;
   return (
-    <button className="btn btn-ghost" onClick={enable} style={{ fontSize: 13 }}>
+    <button className="btn btn-ghost" onClick={enable} style={{ fontSize: 13, marginBottom: 12 }}>
       Enable signal alerts
     </button>
   );
@@ -50,20 +58,19 @@ function Notifier({ signals }) {
 export default function LiveBoard({ signals, pro, signedIn }) {
   if (!signals.length) {
     return (
-      <div className="empty">
-        No match is live on a released pick right now. Signals appear here the moment a pick’s game starts.
-      </div>
+      <>
+        {pro && <Notifier signals={signals} />}
+        <div className="empty">
+          No match is live on a released pick right now. Signals appear here the moment a pick’s game starts.
+        </div>
+      </>
     );
   }
   const shown = pro ? signals : signals.slice(0, 1);
   const hidden = pro ? [] : signals.slice(1);
   return (
     <>
-      {pro && (
-        <div style={{ marginBottom: 12 }}>
-          <Notifier signals={signals} />
-        </div>
-      )}
+      {pro && <Notifier signals={signals} />}
       <div className="livegrid">
         {shown.map((s) => (
           <article key={s.gameId} className={"livecard " + s.kind.toLowerCase()}>
