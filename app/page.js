@@ -107,6 +107,11 @@ export default async function Home() {
   })();
   const signals = getSignals();
   const user = await currentUser();
+  // the strongest return hook is proof the desk is live right now
+  const lastGraded = record.recent[0];
+  const sinceLast = lastGraded?.settledAt
+    ? Math.round((Date.now() - new Date(lastGraded.settledAt).getTime()) / 60000)
+    : null;
   const picks = live.picks || [];
 
   // whole board, soonest first, grouped so today's action isn't buried under
@@ -129,6 +134,13 @@ export default async function Home() {
           We publish the match, the price, the model probability and the edge — then grade it in public.
           Market-aware across {Object.keys(SPORT_LABEL).length} competitions: NBA, NFL, NHL, college, Premier League,
           La Liga, Serie A, Bundesliga, Brazil, Mexico, Argentina, tennis and esports.
+        </p>
+        <p className="pulse-line">
+          {signals.length > 0
+            ? <><span className="live-pulse" />{" "}{signals.length} live now — signals are firing</>
+            : sinceLast != null && sinceLast < 180
+              ? <>Last pick graded <b>{sinceLast}m ago</b> · <Link href="/record">see it</Link></>
+              : <>{picks.length} open picks right now · <Link href="/record">the full record</Link></>}
         </p>
         <Waitlist />
       </section>
