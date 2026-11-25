@@ -12,3 +12,5 @@ __pycache__/
 *.zip
 .alert_state.json
 .digest_date
+v.html
+w.html
