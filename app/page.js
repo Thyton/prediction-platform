@@ -7,6 +7,7 @@ import Waitlist from "./waitlist";
 import Tabs from "./tabs";
 import FollowButton from "./follow-button";
 import LiveBoard from "./live-board";
+import Watch from "./watch";
 
 export const dynamic = "force-dynamic";
 
@@ -43,11 +44,7 @@ function PickCard({ p, trackable, following }) {
           <span className="vs">at</span>
           {p.homeLogo && <img src={p.homeLogo} alt="" />}
           <span>{p.home}</span>
-          {p.espnUrl && (
-            <a className="watch" href={p.espnUrl} target="_blank" rel="noopener">
-              ▶ Watch
-            </a>
-          )}
+          <Watch gameId={p.gameId} start={p.startsAt} home={p.home} away={p.away} />
         </div>
         <div className="pick-choice">
           {pickedLogo && <img src={pickedLogo} alt="" />}
