@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-25T16:56:16.697718+00:00",
+ "generatedAt": "2026-11-25T17:04:47.690292+00:00",
  "picks": [
   {
    "gameId": "wta:186828",
@@ -116,9 +116,9 @@
    "sport": "nba",
    "side": "home",
    "price": 1.43,
-   "modelProb": 0.7724,
-   "marketProb": 0.6931,
-   "edgePct": 0.0792,
+   "modelProb": 0.7731,
+   "marketProb": 0.6944,
+   "edgePct": 0.0786,
    "tier": "PREMIUM",
    "bookCount": 12,
    "startsAt": "2026-11-26T03:00Z",
@@ -184,7 +184,7 @@
    "marketProb": 0.7035,
    "edgePct": 0.0739,
    "tier": "PREMIUM",
-   "bookCount": 10,
+   "bookCount": 9,
    "startsAt": "2026-11-27T19:30Z",
    "edgeKind": "market",
    "home": "Werder Bremen",
@@ -231,17 +231,6 @@
   {
    "gameId": "esports:134388",
    "match": "Liquid vs Nip",
-   "league": "Esports",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
-   "gameId": "esports:134891",
-   "match": "Fortress vs Fire Flux",
    "league": "Esports",
    "severity": 2,
    "signal": "high_risk_alert",

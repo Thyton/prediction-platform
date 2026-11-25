@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-25T16:56:16.704860+00:00",
+ "generatedAt": "2026-11-25T17:04:47.700476+00:00",
  "picks": [
   {
    "gameId": "epl:401879219",
@@ -581,17 +581,6 @@
   {
    "gameId": "esports:134388",
    "match": "Liquid vs Nip",
-   "league": "Esports",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
-   "gameId": "esports:134891",
-   "match": "Fortress vs Fire Flux",
    "league": "Esports",
    "severity": 2,
    "signal": "high_risk_alert",
