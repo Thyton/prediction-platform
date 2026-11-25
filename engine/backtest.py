@@ -24,6 +24,7 @@ leagues = [l for l in C.ESPN_LEAGUES if l[1] in BACKTEST_SPORTS]
 ledger = []
 for day in days:
     finals = []
+    print(f"day {day} ...", flush=True)
     for path, sport, label, tw in leagues:
         try:
             d = C.get(f"{C.ESPN}/{path}/scoreboard", params={"dates": day})
@@ -61,6 +62,7 @@ for day in days:
             if not markets:
                 continue
             finals.append((sport, label, hn, an, hs, as_, markets, ev['id'], path))
+    print(f"  {len(finals)} games with odds", flush=True)
     for sport, label, hn, an, hs, as_, mk, eid, path in finals:
         g = {"id": f"{sport}:{eid}", "sport": sport, "home": hn, "away": an,
              "match": f"{an} @ {hn}", "league": label,
