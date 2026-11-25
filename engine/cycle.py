@@ -177,12 +177,12 @@ def commit_data():
     repo = os.path.dirname(HERE)
     try:
         changed = subprocess.run(
-            ["git", "status", "--porcelain", "data"], cwd=repo,
+            ["git", "status", "--porcelain", "data", "engine/model_state.json"], cwd=repo,
             capture_output=True, text=True, timeout=60,
         ).stdout.strip()
         if not changed:
             return
-        subprocess.run(["git", "add", "data"], cwd=repo, timeout=60)
+        subprocess.run(["git", "add", "data", "engine/model_state.json"], cwd=repo, timeout=60)
         subprocess.run(
             ["git", "commit", "-q", "-m",
              f"data: cycle {datetime.datetime.now(datetime.UTC).strftime('%Y-%m-%dT%H:%MZ')}"],
