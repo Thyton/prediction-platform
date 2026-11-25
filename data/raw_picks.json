@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-25T22:18:31.098037+00:00",
+ "generatedAt": "2026-11-25T22:23:28.353764+00:00",
  "picks": [
   {
    "gameId": "nba:401909324",
@@ -77,15 +77,15 @@
    "league": "Serie A",
    "sport": "seriea",
    "side": "home",
-   "price": 1.87,
-   "modelProb": 0.7491,
-   "marketProb": 0.6452,
-   "edgePct": 0.104,
+   "price": 1.83,
+   "modelProb": 0.7534,
+   "marketProb": 0.653,
+   "edgePct": 0.1004,
    "tier": "HIGH",
    "bookCount": 1,
    "startsAt": "2026-12-06T14:00Z",
    "edgeKind": "market",
-   "why": "Lazio rated 75% to win; across 12 tracked games per side; with 1 book quoting; a 10.4-point gap to the market price.",
+   "why": "Lazio rated 75% to win; across 12 tracked games per side; with 1 book quoting; a 10.0-point gap to the market price.",
    "home": "Lazio",
    "away": "Atalanta",
    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
@@ -137,6 +137,16 @@
    "flags": [
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
     "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
+   "gameId": "esports:134883",
+   "match": "Rush Gaming vs Gremio",
+   "league": "Esports",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {

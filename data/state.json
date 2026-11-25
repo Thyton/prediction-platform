@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-25T22:18:31.109250+00:00",
+ "generatedAt": "2026-11-25T22:23:28.365626+00:00",
  "picks": [
   {
    "gameId": "epl:401879219",
@@ -22,7 +22,9 @@
    "awayAbbr": "SUN",
    "lockTs": "2026-11-23T20:59:06.229138+00:00",
    "result": null,
-   "profitUnits": null
+   "profitUnits": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401879219/sunderland-liverpool",
+   "why": "Liverpool rated 81% to win; with 1 book quoting; a slim but real gap to the market price."
   },
   {
    "gameId": "seriea:401875081",
@@ -45,7 +47,9 @@
    "awayAbbr": "PAR",
    "lockTs": "2026-11-23T20:59:06.229138+00:00",
    "result": null,
-   "profitUnits": null
+   "profitUnits": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401875081/parma-frosinone",
+   "why": "Frosinone rated 80% to win; with 10 books quoting; a slim but real gap to the market price."
   },
   {
    "gameId": "laliga:401882796",
@@ -68,7 +72,9 @@
    "awayAbbr": "RAY",
    "lockTs": "2026-11-23T20:59:06.229138+00:00",
    "result": null,
-   "profitUnits": null
+   "profitUnits": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401882796/rayo-vallecano-real-betis",
+   "why": "Real Betis rated 79% to win; with 9 books quoting; a slim but real gap to the market price."
   },
   {
    "gameId": "epl:401879231",
@@ -91,7 +97,9 @@
    "awayAbbr": "NEW",
    "lockTs": "2026-11-23T20:59:06.229138+00:00",
    "result": null,
-   "profitUnits": null
+   "profitUnits": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401879231/newcastle-united-brighton-hove-albion",
+   "why": "Brighton & Hove Albion rated 78% to win; with 1 book quoting; a slim but real gap to the market price."
   },
   {
    "gameId": "bundesliga:401884720",
@@ -114,7 +122,9 @@
    "awayAbbr": "BMG",
    "lockTs": "2026-11-23T20:59:06.229138+00:00",
    "result": null,
-   "profitUnits": null
+   "profitUnits": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401884720/borussia-monchengladbach-werder-bremen",
+   "why": "Werder Bremen rated 77% to win; with 8 books quoting; a 7.6-point gap to the market price."
   },
   {
    "gameId": "epl:401879222",
@@ -137,7 +147,9 @@
    "awayAbbr": "CRY",
    "lockTs": "2026-11-23T20:59:06.229138+00:00",
    "result": null,
-   "profitUnits": null
+   "profitUnits": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401879222/crystal-palace-chelsea",
+   "why": "Chelsea rated 76% to win; with 1 book quoting; a slim but real gap to the market price."
   },
   {
    "gameId": "seriea:401875019",
@@ -160,7 +172,9 @@
    "awayAbbr": "MIL",
    "lockTs": "2026-11-23T20:59:06.229138+00:00",
    "result": null,
-   "profitUnits": null
+   "profitUnits": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401875019/ac-milan-cagliari",
+   "why": "AC Milan rated 74% to win; with 7 books quoting; a slim but real gap to the market price."
   },
   {
    "gameId": "laliga:401882790",
@@ -183,7 +197,9 @@
    "awayAbbr": "ATH",
    "lockTs": "2026-11-23T20:59:06.229138+00:00",
    "result": null,
-   "profitUnits": null
+   "profitUnits": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401882790/athletic-club-malaga",
+   "why": "Athletic Club rated 72% to win; with 1 book quoting; a slim but real gap to the market price."
   },
   {
    "gameId": "seriea:401874826",
@@ -206,7 +222,9 @@
    "awayAbbr": "LAZ",
    "lockTs": "2026-11-23T20:59:06.229138+00:00",
    "result": null,
-   "profitUnits": null
+   "profitUnits": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401874826/lazio-torino",
+   "why": "Lazio rated 72% to win; with 10 books quoting; a 8.7-point gap to the market price."
   },
   {
    "gameId": "mls:401933724",
@@ -229,7 +247,9 @@
    "awayAbbr": "SJ",
    "lockTs": "2026-11-23T20:59:06.229138+00:00",
    "result": null,
-   "profitUnits": null
+   "profitUnits": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401933724/san-jose-earthquakes-houston-dynamo-fc",
+   "why": "Houston Dynamo FC rated 70% to win; with 1 book quoting; a slim but real gap to the market price."
   },
   {
    "gameId": "wta:186836",
@@ -253,7 +273,9 @@
    "awayAbbr": null,
    "lockTs": "2026-11-24T20:40:50.143068+00:00",
    "result": null,
-   "profitUnits": null
+   "profitUnits": null,
+   "espnUrl": null,
+   "why": "Guiomar Maristany Zuleta De Reales rated 77% to win; a 54-point rating gap with no market price to lean on."
   },
   {
    "gameId": "wta:186834",
@@ -277,7 +299,9 @@
    "awayAbbr": null,
    "lockTs": "2026-11-24T21:39:40.934993+00:00",
    "result": null,
-   "profitUnits": null
+   "profitUnits": null,
+   "espnUrl": null,
+   "why": "Sofia Costoulas rated 65% to win; a 30-point rating gap with no market price to lean on."
   },
   {
    "gameId": "nba:401909317",
@@ -300,7 +324,9 @@
    "awayAbbr": "MIA",
    "lockTs": "2026-11-24T22:21:03.929506+00:00",
    "result": null,
-   "profitUnits": null
+   "profitUnits": null,
+   "espnUrl": null,
+   "why": "Philadelphia 76ers rated 56% to win; with 7 books quoting; a slim but real gap to the market price."
   },
   {
    "gameId": "wta:186840",
@@ -324,7 +350,9 @@
    "awayAbbr": null,
    "lockTs": "2026-11-24T22:21:03.929506+00:00",
    "result": null,
-   "profitUnits": null
+   "profitUnits": null,
+   "espnUrl": null,
+   "why": "Carole Monnet rated 62% to win; a 23-point rating gap with no market price to lean on."
   },
   {
    "gameId": "mls:401933725",
@@ -348,7 +376,9 @@
    "awayAbbr": "VAN",
    "lockTs": "2026-11-25T15:59:55.888497+00:00",
    "result": null,
-   "profitUnits": null
+   "profitUnits": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401933725/vancouver-whitecaps-real-salt-lake",
+   "why": "Vancouver Whitecaps rated 63% to win; with 11 books quoting; a 8.5-point gap to the market price."
   },
   {
    "gameId": "nhl:401892787",
@@ -372,7 +402,9 @@
    "awayAbbr": "PHI",
    "lockTs": "2026-11-25T15:59:55.888497+00:00",
    "result": null,
-   "profitUnits": null
+   "profitUnits": null,
+   "espnUrl": "https://www.espn.com/nhl/game/_/gameId/401892787/flyers-capitals",
+   "why": "Washington Capitals rated 64% to win; with 12 books quoting; a slim but real gap to the market price."
   },
   {
    "gameId": "nba:401909324",
@@ -396,7 +428,9 @@
    "awayAbbr": "SAC",
    "lockTs": "2026-11-25T15:59:55.888497+00:00",
    "result": null,
-   "profitUnits": null
+   "profitUnits": null,
+   "espnUrl": "https://www.espn.com/nba/game/_/gameId/401909324/kings-warriors",
+   "why": "Golden State Warriors rated 77% to win; with 12 books quoting; a 7.7-point gap to the market price."
   },
   {
    "gameId": "seriea:401875004",
@@ -420,7 +454,9 @@
    "awayAbbr": "BOL",
    "lockTs": "2026-11-25T15:59:55.888497+00:00",
    "result": null,
-   "profitUnits": null
+   "profitUnits": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401875004/bologna-venezia",
+   "why": "Bologna rated 68% to win; with 11 books quoting; a slim but real gap to the market price."
   },
   {
    "gameId": "nfl:401873082",
@@ -444,7 +480,9 @@
    "awayAbbr": "KC",
    "lockTs": "2026-11-25T16:01:47.131964+00:00",
    "result": null,
-   "profitUnits": null
+   "profitUnits": null,
+   "espnUrl": "https://www.espn.com/nfl/game/_/gameId/401873082/chiefs-bills",
+   "why": "Buffalo Bills rated 63% to win; with 12 books quoting; a slim but real gap to the market price."
   },
   {
    "gameId": "nhl:401892794",
@@ -468,7 +506,9 @@
    "awayAbbr": "CHI",
    "lockTs": "2026-11-25T16:01:47.131964+00:00",
    "result": null,
-   "profitUnits": null
+   "profitUnits": null,
+   "espnUrl": "https://www.espn.com/nhl/game/_/gameId/401892794/blackhawks-kraken",
+   "why": "Seattle Kraken rated 63% to win; with 12 books quoting; a slim but real gap to the market price."
   },
   {
    "gameId": "wta:186835",
@@ -493,7 +533,9 @@
    "awayAbbr": null,
    "lockTs": "2026-11-25T20:04:16.385903+00:00",
    "result": null,
-   "profitUnits": null
+   "profitUnits": null,
+   "espnUrl": null,
+   "why": "Nadia Podoroska rated 66% to win; a 32-point rating gap with no market price to lean on."
   }
  ],
  "alerts": [
@@ -538,6 +580,16 @@
    "flags": [
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
     "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
+   "gameId": "esports:134883",
+   "match": "Rush Gaming vs Gremio",
+   "league": "Esports",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {

@@ -72,7 +72,8 @@
    "awayAbbr": "SUN",
    "lockTs": "2026-11-23T20:59:06.229138+00:00",
    "result": null,
-   "profitUnits": null
+   "profitUnits": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401879219/sunderland-liverpool"
   },
   {
    "gameId": "seriea:401875081",
@@ -95,7 +96,8 @@
    "awayAbbr": "PAR",
    "lockTs": "2026-11-23T20:59:06.229138+00:00",
    "result": null,
-   "profitUnits": null
+   "profitUnits": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401875081/parma-frosinone"
   },
   {
    "gameId": "laliga:401882796",
@@ -118,7 +120,8 @@
    "awayAbbr": "RAY",
    "lockTs": "2026-11-23T20:59:06.229138+00:00",
    "result": null,
-   "profitUnits": null
+   "profitUnits": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401882796/rayo-vallecano-real-betis"
   },
   {
    "gameId": "epl:401879231",
@@ -141,7 +144,8 @@
    "awayAbbr": "NEW",
    "lockTs": "2026-11-23T20:59:06.229138+00:00",
    "result": null,
-   "profitUnits": null
+   "profitUnits": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401879231/newcastle-united-brighton-hove-albion"
   },
   {
    "gameId": "bundesliga:401884720",
@@ -164,7 +168,8 @@
    "awayAbbr": "BMG",
    "lockTs": "2026-11-23T20:59:06.229138+00:00",
    "result": null,
-   "profitUnits": null
+   "profitUnits": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401884720/borussia-monchengladbach-werder-bremen"
   },
   {
    "gameId": "epl:401879222",
@@ -187,7 +192,8 @@
    "awayAbbr": "CRY",
    "lockTs": "2026-11-23T20:59:06.229138+00:00",
    "result": null,
-   "profitUnits": null
+   "profitUnits": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401879222/crystal-palace-chelsea"
   },
   {
    "gameId": "seriea:401875019",
@@ -210,7 +216,8 @@
    "awayAbbr": "MIL",
    "lockTs": "2026-11-23T20:59:06.229138+00:00",
    "result": null,
-   "profitUnits": null
+   "profitUnits": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401875019/ac-milan-cagliari"
   },
   {
    "gameId": "laliga:401882790",
@@ -233,7 +240,8 @@
    "awayAbbr": "ATH",
    "lockTs": "2026-11-23T20:59:06.229138+00:00",
    "result": null,
-   "profitUnits": null
+   "profitUnits": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401882790/athletic-club-malaga"
   },
   {
    "gameId": "seriea:401874826",
@@ -256,7 +264,8 @@
    "awayAbbr": "LAZ",
    "lockTs": "2026-11-23T20:59:06.229138+00:00",
    "result": null,
-   "profitUnits": null
+   "profitUnits": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401874826/lazio-torino"
   },
   {
    "gameId": "mls:401933724",
@@ -279,7 +288,8 @@
    "awayAbbr": "SJ",
    "lockTs": "2026-11-23T20:59:06.229138+00:00",
    "result": null,
-   "profitUnits": null
+   "profitUnits": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401933724/san-jose-earthquakes-houston-dynamo-fc"
   },
   {
    "gameId": "wta:186814",
@@ -381,7 +391,8 @@
    "awayAbbr": null,
    "lockTs": "2026-11-24T20:40:50.143068+00:00",
    "result": null,
-   "profitUnits": null
+   "profitUnits": null,
+   "espnUrl": null
   },
   {
    "gameId": "wta:186837",
@@ -457,7 +468,8 @@
    "awayAbbr": null,
    "lockTs": "2026-11-24T21:39:40.934993+00:00",
    "result": null,
-   "profitUnits": null
+   "profitUnits": null,
+   "espnUrl": null
   },
   {
    "gameId": "wta:186828",
@@ -531,7 +543,8 @@
    "awayAbbr": "MIA",
    "lockTs": "2026-11-24T22:21:03.929506+00:00",
    "result": null,
-   "profitUnits": null
+   "profitUnits": null,
+   "espnUrl": null
   },
   {
    "gameId": "wta:186840",
@@ -555,7 +568,8 @@
    "awayAbbr": null,
    "lockTs": "2026-11-24T22:21:03.929506+00:00",
    "result": null,
-   "profitUnits": null
+   "profitUnits": null,
+   "espnUrl": null
   },
   {
    "gameId": "mls:401933725",
@@ -579,7 +593,8 @@
    "awayAbbr": "VAN",
    "lockTs": "2026-11-25T15:59:55.888497+00:00",
    "result": null,
-   "profitUnits": null
+   "profitUnits": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401933725/vancouver-whitecaps-real-salt-lake"
   },
   {
    "gameId": "nhl:401892787",
@@ -603,7 +618,8 @@
    "awayAbbr": "PHI",
    "lockTs": "2026-11-25T15:59:55.888497+00:00",
    "result": null,
-   "profitUnits": null
+   "profitUnits": null,
+   "espnUrl": "https://www.espn.com/nhl/game/_/gameId/401892787/flyers-capitals"
   },
   {
    "gameId": "nba:401909324",
@@ -627,7 +643,8 @@
    "awayAbbr": "SAC",
    "lockTs": "2026-11-25T15:59:55.888497+00:00",
    "result": null,
-   "profitUnits": null
+   "profitUnits": null,
+   "espnUrl": "https://www.espn.com/nba/game/_/gameId/401909324/kings-warriors"
   },
   {
    "gameId": "seriea:401875004",
@@ -651,7 +668,8 @@
    "awayAbbr": "BOL",
    "lockTs": "2026-11-25T15:59:55.888497+00:00",
    "result": null,
-   "profitUnits": null
+   "profitUnits": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401875004/bologna-venezia"
   },
   {
    "gameId": "nfl:401873082",
@@ -675,7 +693,8 @@
    "awayAbbr": "KC",
    "lockTs": "2026-11-25T16:01:47.131964+00:00",
    "result": null,
-   "profitUnits": null
+   "profitUnits": null,
+   "espnUrl": "https://www.espn.com/nfl/game/_/gameId/401873082/chiefs-bills"
   },
   {
    "gameId": "nhl:401892794",
@@ -699,7 +718,8 @@
    "awayAbbr": "CHI",
    "lockTs": "2026-11-25T16:01:47.131964+00:00",
    "result": null,
-   "profitUnits": null
+   "profitUnits": null,
+   "espnUrl": "https://www.espn.com/nhl/game/_/gameId/401892794/blackhawks-kraken"
   },
   {
    "gameId": "wta:186835",
@@ -724,7 +744,8 @@
    "awayAbbr": null,
    "lockTs": "2026-11-25T20:04:16.385903+00:00",
    "result": null,
-   "profitUnits": null
+   "profitUnits": null,
+   "espnUrl": null
   }
  ]
 }
