@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-25T20:10:51.911248+00:00",
+ "generatedAt": "2026-11-25T20:34:55.561371+00:00",
  "picks": [
   {
    "gameId": "nhl:401892787",
@@ -174,17 +174,6 @@
  ],
  "alerts": [
   {
-   "gameId": "esports:134389",
-   "match": "Chinggis Warriors vs Bc Game",
-   "league": "Esports",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
    "gameId": "esports:134515",
    "match": "Lunacy Team vs Butterfly",
    "league": "Esports",
@@ -224,6 +213,16 @@
    "signal": "high_risk_alert",
    "flags": [
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
+   "gameId": "ncaab:401920428",
+   "match": "Virginia Cavaliers @ Marquette Golden Eagles",
+   "league": "NCAAB",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
     "Heavy favourite: a short price leaves little margin"
    ]
   },
@@ -424,6 +423,16 @@
    ]
   },
   {
+   "gameId": "ncaab:401921673",
+   "match": "Utah State Aggies @ USC Trojans",
+   "league": "NCAAB",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 2 books quoting"
+   ]
+  },
+  {
    "gameId": "nfl:401873080",
    "match": "Philadelphia Eagles @ Dallas Cowboys",
    "league": "NFL",
@@ -434,13 +443,24 @@
    ]
   },
   {
+   "gameId": "ncaab:401917547",
+   "match": "Saint Mary's Gaels @ UCLA Bruins",
+   "league": "NCAAB",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 2 books quoting",
+    "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
    "gameId": "ncaab:401918972",
    "match": "SMU Mustangs @ LSU Tigers",
    "league": "NCAAB",
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Thin market: only 2 books quoting",
     "Heavy favourite: a short price leaves little margin"
    ]
   },
@@ -911,36 +931,6 @@
   {
    "gameId": "epl:401879223",
    "match": "Brighton & Hove Albion @ AFC Bournemouth",
-   "league": "EPL",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "epl:401878751",
-   "match": "Everton @ Aston Villa",
-   "league": "EPL",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "epl:401878750",
-   "match": "Arsenal @ Brentford",
-   "league": "EPL",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "epl:401879217",
-   "match": "Manchester United @ Newcastle United",
    "league": "EPL",
    "severity": 1,
    "signal": "integrity_watch",
