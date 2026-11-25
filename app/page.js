@@ -94,7 +94,7 @@ export default async function Home() {
   // show the whole board, soonest kickoff first. Long-dated fixtures are legible
   // because every card prints its start date; a filtered window would just hide
   // picks that already occupy a slot.
-  const today = [...picks].sort((a, b) => new Date(a.startsAt) - new Date(b.startsAt));
+  const board = [...picks].sort((a, b) => new Date(a.startsAt) - new Date(b.startsAt));
 
   return (
     <>
@@ -130,9 +130,9 @@ export default async function Home() {
         <Tabs
           liveCount={signals.length}
           tips={
-            today.length ? (
+            board.length ? (
               <div className="picklist">
-                {today.map((p) => (
+                {board.map((p) => (
                   <PickCard key={p.gameId} p={p} trackable={Boolean(user)} following={isFollowing(user, p.gameId)} />
                 ))}
               </div>
