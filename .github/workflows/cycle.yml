@@ -35,13 +35,14 @@ jobs:
       - name: Decide mode
         id: mode
         run: |
-          # 5-min crons fire on minutes ending 2 or 7 -> live signals only;
-          # the 30-min crons (:05, :35) do the full pass.
+          # manual dispatch with live_only=false forces a full pass; otherwise
+          # 5-min crons (minutes ending 2 or 7) are live-only and the 30-min
+          # crons (:05, :35) do the full grade+collect+model+publish pass.
           MIN=$(date -u +%M); MIN=${MIN#0}
-          if [ "${{ inputs.live_only }}" = "true" ] || [ $((MIN % 30)) -ne 5 ]; then
-            echo "live=--live" >> "$GITHUB_OUTPUT"
-          else
+          if [ "${{ inputs.live_only }}" = "false" ]; then
             echo "live=" >> "$GITHUB_OUTPUT"
+          elif [ "${{ inputs.live_only }}" = "true" ] || [ $((MIN % 30)) -ne 5 ]; then
+            echo "live=--live" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Run engine

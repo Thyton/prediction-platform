@@ -1,4 +1,4 @@
-import { getRecord, getLedger, readBacktest, fmtTime, SPORT_LABEL } from "../../lib/data";
+import { getRecord, getLedger, readBacktest, backtestMeta, fmtTime, SPORT_LABEL } from "../../lib/data";
 
 export const dynamic = "force-dynamic";
 
@@ -17,6 +17,7 @@ function TeamPill({ p, side }) {
 
 export default function RecordPage() {
   const r = getRecord();
+  const meta = backtestMeta();
   // each table holds only its own source, so no pick is listed twice
   const all = readBacktest().filter((i) => i.result).reverse();
   const forward = getLedger().filter((i) => i.result).reverse();
@@ -92,8 +93,10 @@ export default function RecordPage() {
           <div><strong>{r.backtest.correct}–{r.backtest.wrong}</strong><span>W–L</span></div>
         </div>
         <p className="muted-note">
-          Not released live. Ratings are rebuilt day by day so no future result leaks backwards, but it is
-          still a replay — closest-game odds from a single source, not the books open at the time.
+          Not released live. A replay across {meta.sports} competitions: ratings are rebuilt day by
+          day so no future result leaks backwards, but odds come from a single historical source rather
+          than the books open at the time. Tennis and esports are excluded — ESPN keeps no historical
+          prices for them.
         </p>
         {all.length ? table(all, false) : <div className="empty">No replayed picks yet.</div>}
       </section>

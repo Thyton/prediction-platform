@@ -11,10 +11,18 @@ import model as M
 s = M.load()   # start from trained state (ratings from all history, no look-ahead within window)
 days = [(datetime.date.today() - datetime.timedelta(days=b)).strftime("%Y%m%d") for b in range(1, 11)]
 days.reverse()  # oldest first so ratings build chronologically
+# Replay the leagues that actually supply the board (soccer + US majors). ESPN
+# drops event odds after ~2 weeks, so a 10-day window is the honest maximum.
+BACKTEST_SPORTS = {
+    "nba", "nfl", "nhl", "mlb", "ncaab", "ncaaf", "wnba", "ufc",
+    "epl", "laliga", "seriea", "bundesliga", "ligue1", "ucl", "uel", "mls",
+    "brasileirao", "ligaprof", "superlig", "ligapt", "eredivisie", "ligamx",
+}
+leagues = [l for l in C.ESPN_LEAGUES if l[1] in BACKTEST_SPORTS]
 ledger = []
 for day in days:
     finals = []
-    for path, sport, label, tw in C.ESPN_LEAGUES[:8]:
+    for path, sport, label, tw in leagues:
         try:
             d = C.get(f"{C.ESPN}/{path}/scoreboard", params={"dates": day})
         except Exception:
@@ -61,10 +69,12 @@ for day in days:
             p["result"] = "correct" if won else "wrong"
             p["profitUnits"] = round(float(p["price"])-1,3) if won else -1.0
             p["final"] = f"{hs}-{as_}"
+            p["source"] = "backtest"
             ledger.append(p)
         margin = min(3.0, abs(hs-as_))
         M.update(s, sport, hn, an, hs, as_, margin_mult=0.7+0.3*margin)
-json.dump({"items": ledger}, open("../data/backtest.json","w"), indent=1)
+json.dump({"generatedAt": datetime.datetime.now(datetime.UTC).isoformat(),
+           "windowDays": len(days), "items": ledger}, open("../data/backtest.json", "w"), indent=1)
 won = sum(1 for p in ledger if p["result"]=="correct")
 units = sum(p["profitUnits"] for p in ledger)
 print(f"BACKTEST: {won}/{len(ledger)} = {100*won/max(1,len(ledger)):.1f}% | units {units:+.2f}")

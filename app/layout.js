@@ -1,9 +1,21 @@
 import Link from "next/link";
+import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 
 export const metadata = {
+  metadataBase: new URL("https://tiplab.io"),
   title: "TipLab — timestamped sports picks",
-  description: "Transparent, timestamped sports picks across sport, with a public record and integrity alerts.",
+  description:
+    "Market-aware sports picks locked before the price moves, with a public forward record graded in the open.",
+  openGraph: {
+    title: "TipLab — every pick locked, before the price moves",
+    description:
+      "Timestamped picks across 20+ competitions, a public forward record, and live in-play get-in/get-out signals.",
+    url: "https://tiplab.io",
+    siteName: "TipLab",
+    type: "website",
+  },
+  twitter: { card: "summary_large_image", title: "TipLab", description: "Picks locked before the price moves." },
 };
 
 export default function RootLayout({ children }) {
@@ -11,6 +23,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <main className="shell">
+          <Analytics />
           <header className="nav">
             <Link className="brand" href="/">TIP<span>LAB</span></Link>
             <nav>
