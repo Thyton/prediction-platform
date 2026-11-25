@@ -106,9 +106,9 @@ export default async function Home() {
   })();
   const signals = getSignals();
   const user = await currentUser();
+  // middleware stamps lastvisit; pages may only read cookies, not set them
   const jar = await cookies();
-  const since = jar.get("lastvisit")?.value;
-  jar.set("lastvisit", String(Date.now()), { path: "/", maxAge: 86400 * 30, sameSite: "lax" });
+  const since = jar.get("seen")?.value;
   // the strongest return hook is proof the desk is live right now
   const lastGraded = record.recent[0];
   const sinceLast = lastGraded?.settledAt
