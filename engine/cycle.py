@@ -43,7 +43,7 @@ def record_summary(led):
         except Exception:
             bt = []
     merged = bt + led.get("items", [])
-    graded = [i for i in merged if i.get("result") in ("correct", "wrong")]
+    graded = [i for i in merged if i.get("result") in ("correct", "wrong", "push")]
     won = sum(1 for i in graded if i["result"] == "correct")
     units = round(sum(i.get("profitUnits") or 0 for i in graded), 2)
     n = len(graded)

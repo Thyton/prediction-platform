@@ -28,7 +28,7 @@ function TeamPill({ p, side }) {
 function PickCard({ p, trackable, following }) {
   const picked = p.side === "home" ? p.home : p.away;
   const pickedLogo = p.side === "home" ? p.homeLogo : p.awayLogo;
-  const graded = p.result === "correct" || p.result === "wrong";
+  const graded = ["correct", "wrong", "push"].includes(p.result);
   return (
     <article className="pick">
       <div className="pick-main">
@@ -60,8 +60,8 @@ function PickCard({ p, trackable, following }) {
       <div className="pick-right">
         {graded ? (
           <>
-            <div className={"pick-result " + (p.result === "correct" ? "win" : "loss")}>
-              {p.result === "correct" ? "WON" : "LOST"}
+            <div className={"pick-result " + (p.result === "correct" ? "win" : p.result === "push" ? "" : "loss")}>
+              {p.result === "correct" ? "WON" : p.result === "push" ? "PUSH" : "LOST"}
             </div>
             <div className="pick-price">
               {p.profitUnits >= 0 ? "+" : ""}{Number(p.profitUnits).toFixed(2)}u
@@ -160,8 +160,8 @@ export default async function Home() {
                       </td>
                       <td><TeamPill p={p} side={p.side} /></td>
                       <td>{Number(p.price).toFixed(2)}</td>
-                      <td className={p.result === "correct" ? "win" : "loss"}>
-                        {p.result === "correct" ? "Won" : "Lost"} <small>{p.final}</small>
+                      <td className={p.result === "correct" ? "win" : p.result === "push" ? "" : "loss"}>
+                        {p.result === "correct" ? "Won" : p.result === "push" ? "Push" : "Lost"} <small>{p.final}</small>
                       </td>
                       <td className={p.profitUnits >= 0 ? "win" : "loss"}>
                         {p.profitUnits >= 0 ? "+" : ""}{Number(p.profitUnits).toFixed(2)}

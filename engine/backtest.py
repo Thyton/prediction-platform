@@ -42,16 +42,18 @@ for day in days:
             markets = None
             try:
                 o = C.get(f"{C.CORE}/{C.core_path(path)}/events/{ev['id']}/competitions/{ev['id']}/odds")
-                best_h, best_a = None, None
+                best_h, best_a, books = None, None, 0
                 for it in o.get("items") or []:
                     hd = C.american_to_decimal((it.get("homeTeamOdds") or {}).get("moneyLine"))
                     ad = C.american_to_decimal((it.get("awayTeamOdds") or {}).get("moneyLine"))
+                    if hd and ad:
+                        books += 1          # a provider count, so the thin-book gate is fair
                     if hd and (best_h is None or hd > best_h): best_h = hd
                     if ad and (best_a is None or ad > best_a): best_a = ad
                 if best_h and best_a:
                     fav = "home" if best_h <= best_a else "away"
                     markets = {"h2h": {"bestOdds": min(best_h, best_a), "otherOdds": max(best_h, best_a),
-                                        "bookCount": "1", "favSide": fav}}
+                                        "bookCount": str(books), "favSide": fav}}
             except Exception:
                 pass
             if not markets:
@@ -65,10 +67,14 @@ for day in days:
              "markets": mk}
         p = M.evaluate(g, s)
         if p:
-            won = (p["side"]=="home" and hs>as_) or (p["side"]=="away" and as_>hs)
-            p["result"] = "correct" if won else "wrong"
-            p["profitUnits"] = round(float(p["price"])-1,3) if won else -1.0
             p["final"] = f"{hs}-{as_}"
+            if hs == as_ and g["drawPossible"]:
+                p["result"] = "push"          # soccer draw: stake returned
+                p["profitUnits"] = 0.0
+            else:
+                won = (p["side"]=="home" and hs>as_) or (p["side"]=="away" and as_>hs)
+                p["result"] = "correct" if won else "wrong"
+                p["profitUnits"] = round(float(p["price"])-1,3) if won else -1.0
             p["source"] = "backtest"
             ledger.append(p)
         margin = min(3.0, abs(hs-as_))

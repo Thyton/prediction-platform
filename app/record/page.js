@@ -42,8 +42,8 @@ export default function RecordPage() {
             <td><TeamPill p={p} side={p.side} /></td>
             <td>{Number(p.price).toFixed(2)}{p.modelPriced ? <small> model price</small> : null}</td>
             <td>{p.final || "—"}</td>
-            <td className={p.result === "correct" ? "win" : "loss"}>
-              {p.result === "correct" ? "Won" : "Lost"}
+            <td className={p.result === "correct" ? "win" : p.result === "push" ? "" : "loss"}>
+              {p.result === "correct" ? "Won" : p.result === "push" ? "Push" : "Lost"}
             </td>
             <td className={p.profitUnits >= 0 ? "win" : "loss"}>
               {p.profitUnits >= 0 ? "+" : ""}{Number(p.profitUnits).toFixed(2)}

@@ -160,10 +160,15 @@ def main():
         if not fs:
             continue
         hs, as_ = fs
-        won = (it["side"] == "home" and hs > as_) or (it["side"] == "away" and as_ > hs)
-        it["result"] = "correct" if won else "wrong"
         it["final"] = f"{hs}-{as_}"
-        it["profitUnits"] = round(float(it["price"]) - 1, 3) if won else -1.0
+        # a soccer draw is a push, not a loss: the stake comes back
+        if hs == as_ and it.get("drawPossible"):
+            it["result"] = "push"
+            it["profitUnits"] = 0.0
+        else:
+            won = (it["side"] == "home" and hs > as_) or (it["side"] == "away" and as_ > hs)
+            it["result"] = "correct" if won else "wrong"
+            it["profitUnits"] = round(float(it["price"]) - 1, 3) if won else -1.0
         it["settledAt"] = datetime.datetime.now(datetime.UTC).isoformat()
         # learn from the outcome
         margin = min(3.0, abs(hs - as_))
