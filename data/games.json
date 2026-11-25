@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-25T16:36:22.753109+00:00",
+ "generatedAt": "2026-11-25T16:46:03.890241+00:00",
  "games": [
   {
    "id": "esports:134861",
@@ -227,8 +227,8 @@
    "markets": {
     "h2h": {
      "outcome": "Virginia Cavaliers",
-     "bestOdds": 1.43,
-     "otherOdds": 3.26,
+     "bestOdds": 1.41,
+     "otherOdds": 3.3,
      "bookCount": "11",
      "favSide": "away",
      "source": "oddsapi"
@@ -625,8 +625,8 @@
    "markets": {
     "h2h": {
      "outcome": "Boston Bruins",
-     "bestOdds": 1.65,
-     "otherOdds": 2.45,
+     "bestOdds": 1.64,
+     "otherOdds": 2.47,
      "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
@@ -683,8 +683,8 @@
    "markets": {
     "h2h": {
      "outcome": "Carolina Hurricanes",
-     "bestOdds": 1.83,
-     "otherOdds": 2.11,
+     "bestOdds": 1.86,
+     "otherOdds": 2.06,
      "bookCount": "12",
      "favSide": "away",
      "source": "oddsapi"
@@ -770,7 +770,7 @@
    "markets": {
     "h2h": {
      "outcome": "Pittsburgh Penguins",
-     "bestOdds": 1.62,
+     "bestOdds": 1.63,
      "otherOdds": 2.47,
      "bookCount": "12",
      "favSide": "home",
@@ -857,7 +857,7 @@
    "markets": {
     "h2h": {
      "outcome": "New York Knicks",
-     "bestOdds": 1.68,
+     "bestOdds": 1.67,
      "otherOdds": 2.4,
      "bookCount": "12",
      "favSide": "home",
@@ -886,8 +886,8 @@
    "markets": {
     "h2h": {
      "outcome": "Oklahoma City Thunder",
-     "bestOdds": 1.82,
-     "otherOdds": 2.12,
+     "bestOdds": 1.81,
+     "otherOdds": 2.14,
      "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
@@ -973,7 +973,7 @@
     "h2h": {
      "outcome": "Milwaukee Bucks",
      "bestOdds": 1.87,
-     "otherOdds": 2.02,
+     "otherOdds": 2.05,
      "bookCount": "11",
      "favSide": "home",
      "source": "oddsapi"
@@ -1003,7 +1003,7 @@
      "outcome": "Los Angeles Rams",
      "bestOdds": 1.74,
      "otherOdds": 2.25,
-     "bookCount": "11",
+     "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -1089,7 +1089,7 @@
     "h2h": {
      "outcome": "Houston Rockets",
      "bestOdds": 1.27,
-     "otherOdds": 4.5,
+     "otherOdds": 4.4,
      "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
@@ -1176,7 +1176,7 @@
     "h2h": {
      "outcome": "Golden State Warriors",
      "bestOdds": 1.43,
-     "otherOdds": 3.25,
+     "otherOdds": 3.23,
      "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
@@ -1204,7 +1204,7 @@
    "markets": {
     "h2h": {
      "outcome": "San Antonio Spurs",
-     "bestOdds": 1.71,
+     "bestOdds": 1.69,
      "otherOdds": 2.3,
      "bookCount": "12",
      "favSide": "away",
@@ -1579,7 +1579,7 @@
      "outcome": "Chicago Bears",
      "bestOdds": 1.85,
      "otherOdds": 2.07,
-     "bookCount": "11",
+     "bookCount": "12",
      "favSide": "away",
      "source": "oddsapi"
     }
@@ -2012,7 +2012,7 @@
      "outcome": "Dallas Cowboys",
      "bestOdds": 1.23,
      "otherOdds": 4.75,
-     "bookCount": "11",
+     "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -2108,8 +2108,8 @@
    "markets": {
     "h2h": {
      "outcome": "Texas Tech Red Raiders",
-     "bestOdds": 1.16,
-     "otherOdds": 6.25,
+     "bestOdds": 1.15,
+     "otherOdds": 6.31,
      "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
@@ -2180,13 +2180,13 @@
    "id": "ncaab:401920530",
    "sport": "ncaab",
    "league": "NCAAB",
-   "match": "St. John's Red Storm @ Louisville Cardinals",
-   "home": "Louisville Cardinals",
-   "away": "St. John's Red Storm",
-   "homeLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
-   "awayLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2599.png",
-   "homeAbbr": "LOU",
-   "awayAbbr": "SJU",
+   "match": "Louisville Cardinals @ St. John's Red Storm",
+   "home": "St. John's Red Storm",
+   "away": "Louisville Cardinals",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2599.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
+   "homeAbbr": "SJU",
+   "awayAbbr": "LOU",
    "startsAt": "2026-11-27T02:00Z",
    "state": "pre",
    "_path": "basketball/mens-college-basketball",
@@ -2195,11 +2195,10 @@
    "markets": {
     "h2h": {
      "outcome": "St. John's Red Storm",
-     "bestOdds": 1.53,
+     "bestOdds": 1.488,
      "otherOdds": 2.7,
-     "bookCount": "3",
-     "favSide": "away",
-     "source": "oddsapi"
+     "bookCount": "1",
+     "favSide": "home"
     }
    },
    "espnUrl": null,
@@ -2209,13 +2208,13 @@
    "id": "ncaab:401920539",
    "sport": "ncaab",
    "league": "NCAAB",
-   "match": "Kansas State Wildcats @ Alabama Crimson Tide",
-   "home": "Alabama Crimson Tide",
-   "away": "Kansas State Wildcats",
-   "homeLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/333.png",
-   "awayLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2306.png",
-   "homeAbbr": "ALA",
-   "awayAbbr": "KSU",
+   "match": "Alabama Crimson Tide @ Kansas State Wildcats",
+   "home": "Kansas State Wildcats",
+   "away": "Alabama Crimson Tide",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2306.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/333.png",
+   "homeAbbr": "KSU",
+   "awayAbbr": "ALA",
    "startsAt": "2026-11-27T02:00Z",
    "state": "pre",
    "_path": "basketball/mens-college-basketball",
@@ -2227,7 +2226,7 @@
      "bestOdds": 1.133,
      "otherOdds": 6.25,
      "bookCount": "1",
-     "favSide": "home"
+     "favSide": "away"
     }
    },
    "espnUrl": null,
@@ -2295,13 +2294,13 @@
    "id": "ncaab:401920540",
    "sport": "ncaab",
    "league": "NCAAB",
-   "match": "Gonzaga Bulldogs @ Baylor Bears",
-   "home": "Baylor Bears",
-   "away": "Gonzaga Bulldogs",
-   "homeLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/239.png",
-   "awayLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2250.png",
-   "homeAbbr": "BAY",
-   "awayAbbr": "GONZ",
+   "match": "Baylor Bears @ Gonzaga Bulldogs",
+   "home": "Gonzaga Bulldogs",
+   "away": "Baylor Bears",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2250.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/239.png",
+   "homeAbbr": "GONZ",
+   "awayAbbr": "BAY",
    "startsAt": "2026-11-27T04:30Z",
    "state": "pre",
    "_path": "basketball/mens-college-basketball",
@@ -2310,10 +2309,11 @@
    "markets": {
     "h2h": {
      "outcome": "Gonzaga Bulldogs",
-     "bestOdds": 1.444,
+     "bestOdds": 1.5,
      "otherOdds": 2.85,
-     "bookCount": "1",
-     "favSide": "away"
+     "bookCount": "3",
+     "favSide": "home",
+     "source": "oddsapi"
     }
    },
    "espnUrl": null,
@@ -2548,7 +2548,7 @@
    "markets": {
     "h2h": {
      "outcome": "UTSA Roadrunners",
-     "bestOdds": 1.93,
+     "bestOdds": 1.91,
      "otherOdds": 1.95,
      "bookCount": "10",
      "favSide": "home",
@@ -2822,7 +2822,7 @@
      "outcome": "Werder Bremen",
      "bestOdds": 1.77,
      "otherOdds": 4.2,
-     "bookCount": "9",
+     "bookCount": "10",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -2909,7 +2909,7 @@
      "outcome": "Denver Broncos",
      "bestOdds": 1.54,
      "otherOdds": 2.7,
-     "bookCount": "11",
+     "bookCount": "12",
      "favSide": "away",
      "source": "oddsapi"
     }
@@ -4403,7 +4403,7 @@
      "outcome": "VfB Stuttgart",
      "bestOdds": 1.76,
      "otherOdds": 3.94,
-     "bookCount": "9",
+     "bookCount": "10",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -5407,7 +5407,7 @@
      "outcome": "RB Leipzig",
      "bestOdds": 2.4,
      "otherOdds": 2.77,
-     "bookCount": "9",
+     "bookCount": "10",
      "favSide": "away",
      "source": "oddsapi"
     }
@@ -5686,7 +5686,7 @@
      "outcome": "Borussia Dortmund",
      "bestOdds": 2.15,
      "otherOdds": 3.14,
-     "bookCount": "9",
+     "bookCount": "10",
      "favSide": "home",
      "source": "oddsapi"
     }

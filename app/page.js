@@ -89,6 +89,14 @@ export default async function Home() {
   const record = getRecord();
   const games = getGames();
   const alerts = getIntegrity();
+  // surface how old the board is: a silent pipeline is how a stale site goes unnoticed
+  const age = (() => {
+    const gen = live.generatedAt ? new Date(live.generatedAt).getTime() : NaN;
+    if (Number.isNaN(gen)) return null;
+    const min = Math.round((Date.now() - gen) / 60000);
+    const label = min < 2 ? "just updated" : min < 60 ? `${min}m old` : `${Math.round(min / 60)}h old`;
+    return { min, label };
+  })();
   const signals = getSignals();
   const user = await currentUser();
   const picks = live.picks || [];
@@ -126,6 +134,11 @@ export default async function Home() {
             {signals.length > 0 && <><span className="live-pulse" /><b>{signals.length}</b> live · </>}
             ● <b>{picks.length}</b> open · <b>{games.length}</b> games tracked ·{" "}
             <b>{alerts.total}</b> alerts
+            {age && (
+              <span className={"fresh " + (age.min > 120 ? "bad" : age.min > 45 ? "warn" : "")}>
+                {" "}· board {age.label}
+              </span>
+            )}
           </span>
         </div>
 

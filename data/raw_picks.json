@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-25T16:36:22.853375+00:00",
+ "generatedAt": "2026-11-25T16:46:03.971569+00:00",
  "picks": [
   {
    "gameId": "wta:186828",
@@ -116,9 +116,9 @@
    "sport": "nba",
    "side": "home",
    "price": 1.43,
-   "modelProb": 0.7731,
-   "marketProb": 0.6944,
-   "edgePct": 0.0786,
+   "modelProb": 0.7724,
+   "marketProb": 0.6931,
+   "edgePct": 0.0792,
    "tier": "PREMIUM",
    "bookCount": 12,
    "startsAt": "2026-11-26T03:00Z",
@@ -184,7 +184,7 @@
    "marketProb": 0.7035,
    "edgePct": 0.0739,
    "tier": "PREMIUM",
-   "bookCount": 9,
+   "bookCount": 10,
    "startsAt": "2026-11-27T19:30Z",
    "edgeKind": "market",
    "home": "Werder Bremen",
@@ -488,8 +488,18 @@
    ]
   },
   {
+   "gameId": "ncaab:401920530",
+   "match": "Louisville Cardinals @ St. John's Red Storm",
+   "league": "NCAAB",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
    "gameId": "ncaab:401920539",
-   "match": "Kansas State Wildcats @ Alabama Crimson Tide",
+   "match": "Alabama Crimson Tide @ Kansas State Wildcats",
    "league": "NCAAB",
    "severity": 2,
    "signal": "high_risk_alert",
@@ -507,16 +517,6 @@
    "flags": [
     "Thin market: only 2 books quoting",
     "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
-   "gameId": "ncaab:401920540",
-   "match": "Gonzaga Bulldogs @ Baylor Bears",
-   "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {

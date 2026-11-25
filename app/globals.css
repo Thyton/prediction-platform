@@ -189,3 +189,6 @@ footer { margin-top: 70px; padding: 26px 0 44px; border-top: 1px solid var(--lin
   .pick { padding: 14px; }
   .pick-edge { font-size: 19px; }
 }
+.fresh { color: var(--dim); }
+.fresh.warn { color: var(--warn); }
+.fresh.bad { color: var(--bad); font-weight: 700; }
