@@ -41,9 +41,12 @@ def deploy(only=None):
     return d.get("url")
 
 def fingerprint():
-    """Content hash of what a deploy would ship. Unchanged -> skip."""
+    """Content hash of what a deploy would ship. Unchanged -> skip. The state
+    file itself is excluded or it changes the hash it is compared against."""
     h = __import__("hashlib").sha256()
     for f in files():
+        if f["file"].endswith(".deploy_state.json"):
+            continue
         h.update(f["file"].encode())
         h.update(f["data"].encode())
     return h.hexdigest()
@@ -67,8 +70,8 @@ def main(argv):
         pass
     key = "live_hash" if live else "full_hash"
     fp = live_fingerprint() if live else fingerprint()
-    # live deploys are noisy; skip when the signal file is byte-identical
-    if live and fp and prev.get(key) == fp:
+    # skip when the payload is byte-identical, live or full
+    if fp and prev.get(key) == fp:
         print("unchanged, skip")
         return 0
     used = deploys_today()
