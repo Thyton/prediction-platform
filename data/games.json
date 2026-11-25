@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-25T20:07:09.471279+00:00",
+ "generatedAt": "2026-11-25T20:10:51.834103+00:00",
  "games": [
   {
    "id": "esports:134389",
@@ -227,7 +227,7 @@
    "markets": {
     "h2h": {
      "outcome": "Virginia Cavaliers",
-     "bestOdds": 1.45,
+     "bestOdds": 1.36,
      "otherOdds": 3.25,
      "bookCount": "7",
      "favSide": "away",
@@ -306,8 +306,8 @@
    "markets": {
     "h2h": {
      "outcome": "Ole Miss Rebels",
-     "bestOdds": 1.95,
-     "otherOdds": 2.3,
+     "bestOdds": 1.8,
+     "otherOdds": 2.65,
      "bookCount": "7",
      "favSide": "away",
      "source": "oddsapi"
@@ -959,7 +959,7 @@
      "outcome": "Los Angeles Rams",
      "bestOdds": 1.73,
      "otherOdds": 2.21,
-     "bookCount": "11",
+     "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -1133,7 +1133,7 @@
      "outcome": "Golden State Warriors",
      "bestOdds": 1.39,
      "otherOdds": 3.25,
-     "bookCount": "11",
+     "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -1447,7 +1447,7 @@
      "outcome": "Chicago Bears",
      "bestOdds": 1.85,
      "otherOdds": 2.07,
-     "bookCount": "9",
+     "bookCount": "10",
      "favSide": "away",
      "source": "oddsapi"
     }
@@ -1985,7 +1985,7 @@
      "outcome": "Dallas Cowboys",
      "bestOdds": 1.23,
      "otherOdds": 4.75,
-     "bookCount": "11",
+     "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -2058,7 +2058,16 @@
    "_path": "basketball/mens-college-basketball",
    "_eid": "401918972",
    "_cid": "401918972",
-   "markets": {},
+   "markets": {
+    "h2h": {
+     "outcome": "LSU Tigers",
+     "bestOdds": 1.33,
+     "otherOdds": 3.4,
+     "bookCount": "1",
+     "favSide": "home",
+     "source": "oddsapi"
+    }
+   },
    "espnUrl": null,
    "drawPossible": false
   },
@@ -2141,7 +2150,7 @@
      "outcome": "Buffalo Bills",
      "bestOdds": 1.68,
      "otherOdds": 2.34,
-     "bookCount": "11",
+     "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -2168,8 +2177,8 @@
    "markets": {
     "h2h": {
      "outcome": "St. John's Red Storm",
-     "bestOdds": 1.588,
-     "otherOdds": 2.42,
+     "bestOdds": 1.617,
+     "otherOdds": 2.36,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -2283,7 +2292,7 @@
     "h2h": {
      "outcome": "Gonzaga Bulldogs",
      "bestOdds": 1.57,
-     "otherOdds": 2.64,
+     "otherOdds": 2.85,
      "bookCount": "4",
      "favSide": "home",
      "source": "oddsapi"
@@ -2882,7 +2891,7 @@
      "outcome": "Denver Broncos",
      "bestOdds": 1.54,
      "otherOdds": 2.74,
-     "bookCount": "11",
+     "bookCount": "12",
      "favSide": "away",
      "source": "oddsapi"
     }
