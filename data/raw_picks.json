@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-25T20:34:55.561371+00:00",
+ "generatedAt": "2026-11-25T21:04:50.303862+00:00",
  "picks": [
   {
    "gameId": "nhl:401892787",
@@ -12,7 +12,7 @@
    "marketProb": 0.5936,
    "edgePct": 0.0489,
    "tier": "HIGH",
-   "bookCount": 12,
+   "bookCount": 11,
    "startsAt": "2026-11-26T00:00Z",
    "edgeKind": "market",
    "home": "Washington Capitals",
@@ -33,7 +33,7 @@
    "marketProb": 0.5817,
    "edgePct": 0.0456,
    "tier": "HIGH",
-   "bookCount": 12,
+   "bookCount": 11,
    "startsAt": "2026-11-26T02:40Z",
    "edgeKind": "market",
    "home": "Seattle Kraken",
@@ -49,12 +49,12 @@
    "league": "NBA",
    "sport": "nba",
    "side": "home",
-   "price": 1.39,
-   "modelProb": 0.7764,
-   "marketProb": 0.7004,
-   "edgePct": 0.076,
+   "price": 1.34,
+   "modelProb": 0.7889,
+   "marketProb": 0.7231,
+   "edgePct": 0.0657,
    "tier": "PREMIUM",
-   "bookCount": 12,
+   "bookCount": 11,
    "startsAt": "2026-11-26T03:00Z",
    "edgeKind": "market",
    "home": "Golden State Warriors",
@@ -223,6 +223,17 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "esports:135036",
+   "match": "Sokerorg vs Drama Esports",
+   "league": "Esports",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
     "Heavy favourite: a short price leaves little margin"
    ]
   },
@@ -280,6 +291,16 @@
   {
    "gameId": "nba:401909323",
    "match": "Phoenix Suns @ Houston Rockets",
+   "league": "NBA",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
+   "gameId": "nba:401909324",
+   "match": "Sacramento Kings @ Golden State Warriors",
    "league": "NBA",
    "severity": 1,
    "signal": "integrity_watch",
@@ -423,16 +444,6 @@
    ]
   },
   {
-   "gameId": "ncaab:401921673",
-   "match": "Utah State Aggies @ USC Trojans",
-   "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 2 books quoting"
-   ]
-  },
-  {
    "gameId": "nfl:401873080",
    "match": "Philadelphia Eagles @ Dallas Cowboys",
    "league": "NFL",
@@ -446,10 +457,9 @@
    "gameId": "ncaab:401917547",
    "match": "Saint Mary's Gaels @ UCLA Bruins",
    "league": "NCAAB",
-   "severity": 2,
-   "signal": "high_risk_alert",
+   "severity": 1,
+   "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 2 books quoting",
     "Heavy favourite: a short price leaves little margin"
    ]
   },
@@ -457,10 +467,9 @@
    "gameId": "ncaab:401918972",
    "match": "SMU Mustangs @ LSU Tigers",
    "league": "NCAAB",
-   "severity": 2,
-   "signal": "high_risk_alert",
+   "severity": 1,
+   "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 2 books quoting",
     "Heavy favourite: a short price leaves little margin"
    ]
   },

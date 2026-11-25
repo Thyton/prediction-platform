@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-25T20:34:55.569496+00:00",
+ "generatedAt": "2026-11-25T21:04:50.313890+00:00",
  "picks": [
   {
    "gameId": "epl:401879219",
@@ -271,30 +271,6 @@
    "modelPriced": true,
    "home": "Ipek Oz",
    "away": "Julia Riera",
-   "homeLogo": null,
-   "awayLogo": null,
-   "homeAbbr": null,
-   "awayAbbr": null,
-   "lockTs": "2026-11-24T20:40:50.143068+00:00",
-   "result": null,
-   "profitUnits": null
-  },
-  {
-   "gameId": "wta:186838",
-   "match": "Ariana Geerlings vs Alicia Herrero Linana",
-   "league": "IEB+ Argentina Open",
-   "sport": "wta",
-   "side": "away",
-   "price": 1.49,
-   "modelProb": 0.6562,
-   "marketProb": null,
-   "edgePct": 0.3123,
-   "tier": "PREMIUM",
-   "bookCount": 0,
-   "startsAt": "2026-11-25T19:30Z",
-   "modelPriced": true,
-   "home": "Alicia Herrero Linana",
-   "away": "Ariana Geerlings",
    "homeLogo": null,
    "awayLogo": null,
    "homeAbbr": null,
@@ -618,6 +594,17 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "esports:135036",
+   "match": "Sokerorg vs Drama Esports",
+   "league": "Esports",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
     "Heavy favourite: a short price leaves little margin"
    ]
   },
@@ -675,6 +662,16 @@
   {
    "gameId": "nba:401909323",
    "match": "Phoenix Suns @ Houston Rockets",
+   "league": "NBA",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
+   "gameId": "nba:401909324",
+   "match": "Sacramento Kings @ Golden State Warriors",
    "league": "NBA",
    "severity": 1,
    "signal": "integrity_watch",
@@ -818,16 +815,6 @@
    ]
   },
   {
-   "gameId": "ncaab:401921673",
-   "match": "Utah State Aggies @ USC Trojans",
-   "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 2 books quoting"
-   ]
-  },
-  {
    "gameId": "nfl:401873080",
    "match": "Philadelphia Eagles @ Dallas Cowboys",
    "league": "NFL",
@@ -841,10 +828,9 @@
    "gameId": "ncaab:401917547",
    "match": "Saint Mary's Gaels @ UCLA Bruins",
    "league": "NCAAB",
-   "severity": 2,
-   "signal": "high_risk_alert",
+   "severity": 1,
+   "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 2 books quoting",
     "Heavy favourite: a short price leaves little margin"
    ]
   },
@@ -852,10 +838,9 @@
    "gameId": "ncaab:401918972",
    "match": "SMU Mustangs @ LSU Tigers",
    "league": "NCAAB",
-   "severity": 2,
-   "signal": "high_risk_alert",
+   "severity": 1,
+   "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 2 books quoting",
     "Heavy favourite: a short price leaves little margin"
    ]
   },
@@ -1591,12 +1576,12 @@
   }
  ],
  "record": {
-  "graded": 11,
+  "graded": 12,
   "correct": 8,
-  "wrong": 3,
-  "accuracy": 0.7273,
-  "units": 1.44,
-  "rolling": 0.7273,
+  "wrong": 4,
+  "accuracy": 0.6667,
+  "units": 0.44,
+  "rolling": 0.6667,
   "recent": [
    {
     "gameId": "wta:186828",
@@ -1623,6 +1608,32 @@
     "profitUnits": -1.0,
     "final": "0-1",
     "settledAt": "2026-11-25T20:03:18.399590+00:00"
+   },
+   {
+    "gameId": "wta:186838",
+    "match": "Ariana Geerlings vs Alicia Herrero Linana",
+    "league": "IEB+ Argentina Open",
+    "sport": "wta",
+    "side": "away",
+    "price": 1.49,
+    "modelProb": 0.6562,
+    "marketProb": null,
+    "edgePct": 0.3123,
+    "tier": "PREMIUM",
+    "bookCount": 0,
+    "startsAt": "2026-11-25T19:30Z",
+    "modelPriced": true,
+    "home": "Alicia Herrero Linana",
+    "away": "Ariana Geerlings",
+    "homeLogo": null,
+    "awayLogo": null,
+    "homeAbbr": null,
+    "awayAbbr": null,
+    "lockTs": "2026-11-24T20:40:50.143068+00:00",
+    "result": "wrong",
+    "profitUnits": -1.0,
+    "final": "1-0",
+    "settledAt": "2026-11-25T21:03:41.982667+00:00"
    },
    {
     "gameId": "wta:186819",
