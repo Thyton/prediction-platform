@@ -67,7 +67,11 @@ export default async function Dashboard({ searchParams }) {
           <article>
             <p className="eyebrow">UPGRADE</p>
             <h3>Pro — $9 / month</h3>
-            <p>Every released pick, live in-play get-in/get-out signals, all integrity alerts, and your full tracked record. Cancel anytime.</p>
+            <p>
+              Live in-play signals on every open pick — hold, get in, get out — with browser alerts so you
+              hear about them without sitting on the tab. Every pick and the full graded record stay free;
+              Pro is the in-game layer. Cancel anytime.
+            </p>
             <form action="/api/checkout" method="post" style={{ marginTop: 16 }}>
               <button type="submit">Go Pro →</button>
             </form>
@@ -75,7 +79,7 @@ export default async function Dashboard({ searchParams }) {
           <article>
             <p className="eyebrow">FREE TIER</p>
             <h3>What you have now</h3>
-            <p>Browse and track every pick. Free members see the board; Pro unlocks live signals while games are in play.</p>
+            <p>Every released pick, the integrity alerts and the full record, free during beta. Free members see the newest live signal; Pro sees all of them and gets notified.</p>
           </article>
         </section>
       )}
