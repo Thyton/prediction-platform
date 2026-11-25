@@ -1,10 +1,54 @@
-import { fmtTime, SPORT_LABEL } from "../lib/data";
+"use client";
+import { useEffect } from "react";
+import { fmtTime, SPORT_LABEL } from "../lib/labels";
 
 const LABEL = {
   HOLD: "HOLD", CASH_OUT: "GET OUT", RISING: "GET IN", CAUTION: "CAUTION",
 };
 
-export default function LiveBoard({ signals, pro, signedIn }) {  if (!signals.length) {
+// Pro only: announce newly-fired signals as browser notifications so a member
+// doesn't have to sit on the tab. Polls the signal file, which the engine
+// rewrites every few minutes during live windows.
+function Notifier({ signals }) {
+  useEffect(() => {
+    if (typeof Notification === "undefined") return;
+    let seen = new Set(signals.map((s) => `${s.gameId}:${s.kind}`));
+    const timer = setInterval(async () => {
+      try {
+        const r = await fetch("/api/signals", { cache: "no-store" });
+        if (!r.ok) return;
+        const d = await r.json();
+        for (const s of d.signals || []) {
+          const key = `${s.gameId}:${s.kind}`;
+          if (seen.has(key)) continue;
+          seen.add(key);
+          if (Notification.permission === "granted") {
+            new Notification(`${LABEL[s.kind]} — ${s.match}`, {
+              body: `${s.score} · ${s.text}`,
+              tag: key,
+            });
+          }
+        }
+      } catch {
+        /* offline, try again next tick */
+      }
+    }, 60000);
+    return () => clearInterval(timer);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+
+  async function enable() {
+    if (Notification.permission === "default") await Notification.requestPermission();
+  }
+
+  return (
+    <button className="btn btn-ghost" onClick={enable} style={{ fontSize: 13 }}>
+      Enable signal alerts
+    </button>
+  );
+}
+
+export default function LiveBoard({ signals, pro, signedIn }) {
+  if (!signals.length) {
     return (
       <div className="empty">
         No match is live on a released pick right now. Signals appear here the moment a pick’s game starts.
@@ -15,6 +59,11 @@ export default function LiveBoard({ signals, pro, signedIn }) {  if (!signals.le
   const hidden = pro ? [] : signals.slice(1);
   return (
     <>
+      {pro && (
+        <div style={{ marginBottom: 12 }}>
+          <Notifier signals={signals} />
+        </div>
+      )}
       <div className="livegrid">
         {shown.map((s) => (
           <article key={s.gameId} className={"livecard " + s.kind.toLowerCase()}>
