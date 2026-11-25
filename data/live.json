@@ -1,31 +1,4 @@
 {
- "generatedAt": "2026-11-25T22:33:41.531390+00:00",
- "signals": [
-  {
-   "gameId": "wta:186840",
-   "kind": "RISING",
-   "text": "Down early \u2014 better live price available. Get in.",
-   "sport": "wta",
-   "match": "Carole Monnet vs Solana Sierra",
-   "side": "away",
-   "score": "0-0",
-   "period": 1,
-   "clock": "4-2",
-   "progress": 0.2,
-   "at": "2026-11-25T22:33:40.878670+00:00"
-  },
-  {
-   "gameId": "nba:401909317",
-   "kind": "RISING",
-   "text": "Down early \u2014 the get-in window is still open.",
-   "sport": "nba",
-   "match": "Miami Heat @ Philadelphia 76ers",
-   "side": "home",
-   "score": "27-29",
-   "period": 1,
-   "clock": "59.0",
-   "progress": 0.0,
-   "at": "2026-11-25T22:33:40.567504+00:00"
-  }
- ]
+ "generatedAt": "2026-11-25T22:34:23.429825+00:00",
+ "signals": []
 }

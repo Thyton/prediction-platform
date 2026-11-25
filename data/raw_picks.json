@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-25T22:33:47.750252+00:00",
+ "generatedAt": "2026-11-25T22:35:16.141192+00:00",
  "picks": [
   {
    "gameId": "nba:401909324",
@@ -12,10 +12,10 @@
    "marketProb": 0.7443,
    "edgePct": 0.0562,
    "tier": "PREMIUM",
-   "bookCount": 11,
+   "bookCount": 12,
    "startsAt": "2026-11-26T03:00Z",
    "edgeKind": "market",
-   "why": "Golden State Warriors rated 80% to win; across 22 tracked games per side; with 11 books quoting; a slim but real gap to the market price.",
+   "why": "Golden State Warriors rated 80% to win; across 22 tracked games per side; with 12 books quoting; a slim but real gap to the market price.",
    "home": "Golden State Warriors",
    "away": "Sacramento Kings",
    "homeLogo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png",
