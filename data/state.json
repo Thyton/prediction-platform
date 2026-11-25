@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-25T03:44:53.310829+00:00",
+ "generatedAt": "2026-11-25T15:04:54.548408+00:00",
  "picks": [
   {
    "gameId": "epl:401879219",
@@ -424,27 +424,6 @@
  ],
  "alerts": [
   {
-   "gameId": "esports:132990",
-   "match": "Kuusamogg vs Havu",
-   "league": "Esports",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
-   ]
-  },
-  {
-   "gameId": "esports:134971",
-   "match": "Al Ahli Esports vs Notime",
-   "league": "Esports",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
    "gameId": "ncaab:401921709",
    "match": "Ole Miss Rebels @ BYU Cougars",
    "league": "NCAAB",
@@ -468,27 +447,6 @@
    "gameId": "ncaab:401915941",
    "match": "Miami Hurricanes @ TCU Horned Frogs",
    "league": "NCAAB",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "esports:134882",
-   "match": "Red Canids Academy vs Meia Noite",
-   "league": "Esports",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
-   ]
-  },
-  {
-   "gameId": "esports:134786",
-   "match": "Zotix vs Ttg Esports",
-   "league": "Esports",
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
@@ -538,14 +496,23 @@
    ]
   },
   {
-   "gameId": "esports:134743",
-   "match": "Milk Us vs Flyquest Red",
-   "league": "Esports",
+   "gameId": "ncaaf:401866470",
+   "match": "Kent State Golden Flashes @ Eastern Michigan Eagles",
+   "league": "NCAAF",
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "ncaaf:401866471",
+   "match": "Miami (OH) RedHawks @ Western Michigan Broncos",
+   "league": "NCAAF",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
@@ -566,7 +533,7 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
@@ -576,7 +543,17 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "nba:401909316",
+   "match": "Dallas Mavericks @ Denver Nuggets",
+   "league": "NBA",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
@@ -586,7 +563,7 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
@@ -596,6 +573,7 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
     "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
    ]
   },
@@ -603,6 +581,72 @@
    "gameId": "ncaab:401909800",
    "match": "Gonzaga Bulldogs @ Kansas State Wildcats",
    "league": "NCAAB",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
+   "gameId": "esports:134386",
+   "match": "Dendele Cs vs 9z",
+   "league": "Esports",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
+   "gameId": "esports:134387",
+   "match": "Flyquest vs Imperial",
+   "league": "Esports",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
+   "gameId": "esports:135030",
+   "match": "Quintessence vs Spirit Academy",
+   "league": "Esports",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
+   "gameId": "esports:134389",
+   "match": "Chinggis Warriors vs Bc Game",
+   "league": "Esports",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
+   "gameId": "esports:134388",
+   "match": "Liquid vs Nip",
+   "league": "Esports",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
+   "gameId": "esports:134891",
+   "match": "Fortress vs Fire Flux",
+   "league": "Esports",
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
@@ -689,6 +733,16 @@
    "flags": [
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
     "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
+   "gameId": "brasileirao:401841319",
+   "match": "Corinthians @ Atl\u00e9tico-MG",
+   "league": "Brazil Serie A",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
@@ -827,18 +881,18 @@
    ]
   },
   {
-   "gameId": "ncaab:401920529",
-   "match": "Tennessee Volunteers @ Iowa State Cyclones",
-   "league": "NCAAB",
+   "gameId": "uel:401915515",
+   "match": "SK Sturm Graz @ TSG Hoffenheim",
+   "league": "Europa League",
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
    ]
   },
   {
-   "gameId": "ncaab:401920537",
-   "match": "Miami Hurricanes @ Michigan Wolverines",
+   "gameId": "ncaab:401920529",
+   "match": "Tennessee Volunteers @ Iowa State Cyclones",
    "league": "NCAAB",
    "severity": 2,
    "signal": "high_risk_alert",
@@ -857,9 +911,81 @@
    ]
   },
   {
+   "gameId": "ncaaf:401856879",
+   "match": "TCU Horned Frogs @ Texas Tech Red Raiders",
+   "league": "NCAAF",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
+   "gameId": "ncaab:401920539",
+   "match": "Kansas State Wildcats @ Alabama Crimson Tide",
+   "league": "NCAAB",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
+   "gameId": "ncaab:401920531",
+   "match": "Texas Tech Red Raiders @ Oregon Ducks",
+   "league": "NCAAB",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
+   "gameId": "ncaab:401920540",
+   "match": "Gonzaga Bulldogs @ Baylor Bears",
+   "league": "NCAAB",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "superlig:401888241",
+   "match": "Konyaspor @ Alanyaspor",
+   "league": "Turkish Super Lig",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "superlig:401888240",
+   "match": "Kasimpasa @ Caykur Rizespor",
+   "league": "Turkish Super Lig",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
    "gameId": "laliga:401882791",
    "match": "Racing Santander @ Levante",
    "league": "La Liga",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "ligapt:401885389",
+   "match": "C.D. Nacional @ Maritimo",
+   "league": "Portugal Primeira Liga",
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
@@ -907,6 +1033,16 @@
    ]
   },
   {
+   "gameId": "superlig:401888368",
+   "match": "Amed SFK @ Gaziantep FK",
+   "league": "Turkish Super Lig",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
    "gameId": "ligue1:401876394",
    "match": "Lens @ Angers",
    "league": "Ligue 1",
@@ -917,13 +1053,13 @@
    ]
   },
   {
-   "gameId": "mls:401933724",
-   "match": "San Jose Earthquakes @ Houston Dynamo FC",
-   "league": "MLS",
+   "gameId": "eredivisie:401875531",
+   "match": "Go Ahead Eagles @ PSV Eindhoven",
+   "league": "Dutch Eredivisie",
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
    ]
   },
   {
@@ -958,6 +1094,16 @@
    ]
   },
   {
+   "gameId": "ligapt:401885385",
+   "match": "Estrela @ Vit\u00f3ria de Guimaraes",
+   "league": "Portugal Primeira Liga",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
    "gameId": "mls:401933726",
    "match": "St. Louis CITY SC @ LAFC",
    "league": "MLS",
@@ -971,6 +1117,26 @@
    "gameId": "laliga:401882787",
    "match": "Osasuna @ Valencia",
    "league": "La Liga",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "superlig:401888242",
+   "match": "Istanbul Basaksehir @ Eyupspor",
+   "league": "Turkish Super Lig",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "eredivisie:401875535",
+   "match": "Ajax Amsterdam @ Feyenoord Rotterdam",
+   "league": "Dutch Eredivisie",
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
@@ -1009,6 +1175,26 @@
    ]
   },
   {
+   "gameId": "eredivisie:401875532",
+   "match": "AZ Alkmaar @ PEC Zwolle",
+   "league": "Dutch Eredivisie",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "superlig:401888238",
+   "match": "Erzurum BB @ Fenerbahce",
+   "league": "Turkish Super Lig",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
    "gameId": "seriea:401874769",
    "match": "Monza @ AS Roma",
    "league": "Serie A",
@@ -1016,6 +1202,66 @@
    "signal": "high_risk_alert",
    "flags": [
     "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
+   "gameId": "eredivisie:401875533",
+   "match": "FC Twente @ NEC Nijmegen",
+   "league": "Dutch Eredivisie",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "ligaprof:401936353",
+   "match": "Independiente @ V\u00e9lez Sarsfield",
+   "league": "Argentina Liga Profesional",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "ligapt:401885387",
+   "match": "Sporting CP @ FC Porto",
+   "league": "Portugal Primeira Liga",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "brasileirao:401841331",
+   "match": "Red Bull Bragantino @ Internacional",
+   "league": "Brazil Serie A",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "brasileirao:401841330",
+   "match": "Athletico-PR @ Mirassol",
+   "league": "Brazil Serie A",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "ligamx:401932000",
+   "match": "Le\u00f3n @ Cruz Azul",
+   "league": "Liga MX",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 2 books quoting"
    ]
   },
   {
@@ -1037,6 +1283,26 @@
    "signal": "high_risk_alert",
    "flags": [
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "superlig:401888237",
+   "match": "Galatasaray @ Besiktas",
+   "league": "Turkish Super Lig",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "ligapt:401885386",
+   "match": "FC Famalicao @ Benfica",
+   "league": "Portugal Primeira Liga",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
    ]
   },
   {
@@ -1141,6 +1407,36 @@
    ]
   },
   {
+   "gameId": "seriea:401874984",
+   "match": "AS Roma @ Bologna",
+   "league": "Serie A",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "ligue1:401876378",
+   "match": "Paris Saint-Germain @ Toulouse",
+   "league": "Ligue 1",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "seriea:401874975",
+   "match": "Como @ Monza",
+   "league": "Serie A",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
    "gameId": "bundesliga:401884716",
    "match": "Borussia M\u00f6nchengladbach @ Bayer Leverkusen",
    "league": "Bundesliga",
@@ -1182,9 +1478,81 @@
    ]
   },
   {
+   "gameId": "ligue1:401876384",
+   "match": "AJ Auxerre @ Lille",
+   "league": "Ligue 1",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "seriea:401875023",
+   "match": "Internazionale @ Frosinone",
+   "league": "Serie A",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
    "gameId": "bundesliga:401884714",
    "match": "Werder Bremen @ Eintracht Frankfurt",
    "league": "Bundesliga",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "seriea:401874788",
+   "match": "Lecce @ Napoli",
+   "league": "Serie A",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
+   "gameId": "ligue1:401876382",
+   "match": "Angers @ AS Monaco",
+   "league": "Ligue 1",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
+   "gameId": "ligue1:401876385",
+   "match": "Le Havre AC @ Lens",
+   "league": "Ligue 1",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "ligue1:401876381",
+   "match": "Le Mans @ Paris FC",
+   "league": "Ligue 1",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "ligue1:401876379",
+   "match": "Lorient @ Strasbourg",
+   "league": "Ligue 1",
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [

@@ -1,56 +1,16 @@
 {
- "generatedAt": "2026-11-25T03:44:53.293935+00:00",
+ "generatedAt": "2026-11-25T15:04:54.537747+00:00",
  "picks": [
-  {
-   "gameId": "esports:134971",
-   "match": "Al Ahli Esports vs Notime",
-   "league": "Esports",
-   "sport": "esports",
-   "side": "home",
-   "price": 1.74,
-   "modelProb": 0.5799,
-   "marketProb": 0.5323,
-   "edgePct": 0.0477,
-   "tier": "STANDARD",
-   "bookCount": 1,
-   "startsAt": "2026-11-24T19:20:00.000+00:00",
-   "home": "Notime",
-   "away": "Al Ahli Esports",
-   "homeLogo": null,
-   "awayLogo": null,
-   "homeAbbr": null,
-   "awayAbbr": null
-  },
-  {
-   "gameId": "nba:401909316",
-   "match": "Dallas Mavericks @ Denver Nuggets",
-   "league": "NBA",
-   "sport": "nba",
-   "side": "home",
-   "price": 1.93,
-   "modelProb": 0.5623,
-   "marketProb": 0.5327,
-   "edgePct": 0.0296,
-   "tier": "STANDARD",
-   "bookCount": 8,
-   "startsAt": "2026-11-25T03:00Z",
-   "home": "Denver Nuggets",
-   "away": "Dallas Mavericks",
-   "homeLogo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
-   "awayLogo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/dal.png",
-   "homeAbbr": "DEN",
-   "awayAbbr": "DAL"
-  },
   {
    "gameId": "ucl:401915293",
    "match": "Villarreal @ Slavia Prague",
    "league": "Champions League",
    "sport": "ucl",
    "side": "away",
-   "price": 2.15,
-   "modelProb": 0.5908,
-   "marketProb": 0.5825,
-   "edgePct": 0.0083,
+   "price": 2.25,
+   "modelProb": 0.5869,
+   "marketProb": 0.5755,
+   "edgePct": 0.0114,
    "tier": "STANDARD",
    "bookCount": 1,
    "startsAt": "2026-11-25T17:45Z",
@@ -146,26 +106,6 @@
    "awayAbbr": null
   },
   {
-   "gameId": "ucl:401915373",
-   "match": "Manchester United @ Sporting CP",
-   "league": "Champions League",
-   "sport": "ucl",
-   "side": "home",
-   "price": 2.55,
-   "modelProb": 0.5768,
-   "marketProb": 0.5049,
-   "edgePct": 0.0719,
-   "tier": "STANDARD",
-   "bookCount": 1,
-   "startsAt": "2026-11-25T20:00Z",
-   "home": "Sporting CP",
-   "away": "Manchester United",
-   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
-   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
-   "homeAbbr": "SCP",
-   "awayAbbr": "MAN"
-  },
-  {
    "gameId": "wta:186840",
    "match": "Carole Monnet vs Solana Sierra",
    "league": "IEB+ Argentina Open",
@@ -192,12 +132,12 @@
    "league": "NBA",
    "sport": "nba",
    "side": "home",
-   "price": 1.96,
-   "modelProb": 0.5598,
-   "marketProb": 0.5025,
-   "edgePct": 0.0573,
+   "price": 1.87,
+   "modelProb": 0.5737,
+   "marketProb": 0.5278,
+   "edgePct": 0.046,
    "tier": "STANDARD",
-   "bookCount": 11,
+   "bookCount": 12,
    "startsAt": "2026-11-25T22:00Z",
    "home": "Philadelphia 76ers",
    "away": "Miami Heat",
@@ -213,9 +153,9 @@
    "sport": "nhl",
    "side": "home",
    "price": 1.67,
-   "modelProb": 0.6264,
-   "marketProb": 0.5917,
-   "edgePct": 0.0347,
+   "modelProb": 0.6253,
+   "marketProb": 0.5897,
+   "edgePct": 0.0356,
    "tier": "HIGH",
    "bookCount": 12,
    "startsAt": "2026-11-26T00:00Z",
@@ -232,10 +172,10 @@
    "league": "NHL",
    "sport": "nhl",
    "side": "home",
-   "price": 1.8,
-   "modelProb": 0.5553,
-   "marketProb": 0.5443,
-   "edgePct": 0.011,
+   "price": 1.83,
+   "modelProb": 0.553,
+   "marketProb": 0.5402,
+   "edgePct": 0.0128,
    "tier": "STANDARD",
    "bookCount": 12,
    "startsAt": "2026-11-26T00:00Z",
@@ -252,10 +192,10 @@
    "league": "NHL",
    "sport": "nhl",
    "side": "home",
-   "price": 1.68,
-   "modelProb": 0.6373,
-   "marketProb": 0.5842,
-   "edgePct": 0.0532,
+   "price": 1.67,
+   "modelProb": 0.6381,
+   "marketProb": 0.5856,
+   "edgePct": 0.0525,
    "tier": "HIGH",
    "bookCount": 12,
    "startsAt": "2026-11-26T00:00Z",
@@ -272,12 +212,12 @@
    "league": "NHL",
    "sport": "nhl",
    "side": "away",
-   "price": 1.66,
-   "modelProb": 0.6007,
-   "marketProb": 0.5911,
-   "edgePct": 0.0096,
+   "price": 1.65,
+   "modelProb": 0.6015,
+   "marketProb": 0.5926,
+   "edgePct": 0.0089,
    "tier": "STANDARD",
-   "bookCount": 12,
+   "bookCount": 11,
    "startsAt": "2026-11-26T00:00Z",
    "home": "Columbus Blue Jackets",
    "away": "New Jersey Devils",
@@ -292,10 +232,10 @@
    "league": "NBA",
    "sport": "nba",
    "side": "home",
-   "price": 1.38,
-   "modelProb": 0.734,
-   "marketProb": 0.6969,
-   "edgePct": 0.0371,
+   "price": 1.37,
+   "modelProb": 0.7356,
+   "marketProb": 0.6999,
+   "edgePct": 0.0357,
    "tier": "PREMIUM",
    "bookCount": 1,
    "startsAt": "2026-11-26T01:00Z",
@@ -312,12 +252,12 @@
    "league": "NFL",
    "sport": "nfl",
    "side": "home",
-   "price": 1.75,
-   "modelProb": 0.5641,
-   "marketProb": 0.557,
-   "edgePct": 0.0071,
+   "price": 1.74,
+   "modelProb": 0.5649,
+   "marketProb": 0.5584,
+   "edgePct": 0.0065,
    "tier": "STANDARD",
-   "bookCount": 11,
+   "bookCount": 12,
    "startsAt": "2026-11-26T01:00Z",
    "home": "Los Angeles Rams",
    "away": "Green Bay Packers",
@@ -333,9 +273,9 @@
    "sport": "nhl",
    "side": "home",
    "price": 1.61,
-   "modelProb": 0.6237,
-   "marketProb": 0.6064,
-   "edgePct": 0.0173,
+   "modelProb": 0.6242,
+   "marketProb": 0.6073,
+   "edgePct": 0.0169,
    "tier": "HIGH",
    "bookCount": 12,
    "startsAt": "2026-11-26T01:00Z",
@@ -352,10 +292,10 @@
    "league": "NHL",
    "sport": "nhl",
    "side": "home",
-   "price": 1.7,
-   "modelProb": 0.5983,
-   "marketProb": 0.5771,
-   "edgePct": 0.0212,
+   "price": 1.71,
+   "modelProb": 0.5964,
+   "marketProb": 0.5736,
+   "edgePct": 0.0228,
    "tier": "STANDARD",
    "bookCount": 12,
    "startsAt": "2026-11-26T01:00Z",
@@ -367,37 +307,17 @@
    "awayAbbr": "UTA"
   },
   {
-   "gameId": "nba:401909323",
-   "match": "Phoenix Suns @ Houston Rockets",
-   "league": "NBA",
-   "sport": "nba",
-   "side": "home",
-   "price": 1.28,
-   "modelProb": 0.77,
-   "marketProb": 0.7685,
-   "edgePct": 0.0015,
-   "tier": "PREMIUM",
-   "bookCount": 12,
-   "startsAt": "2026-11-26T01:30Z",
-   "home": "Houston Rockets",
-   "away": "Phoenix Suns",
-   "homeLogo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png",
-   "awayLogo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phx.png",
-   "homeAbbr": "HOU",
-   "awayAbbr": "PHX"
-  },
-  {
    "gameId": "nhl:401892794",
    "match": "Chicago Blackhawks @ Seattle Kraken",
    "league": "NHL",
    "sport": "nhl",
    "side": "home",
-   "price": 1.65,
-   "modelProb": 0.6338,
-   "marketProb": 0.5936,
-   "edgePct": 0.0402,
+   "price": 1.69,
+   "modelProb": 0.6267,
+   "marketProb": 0.5806,
+   "edgePct": 0.046,
    "tier": "HIGH",
-   "bookCount": 11,
+   "bookCount": 12,
    "startsAt": "2026-11-26T02:40Z",
    "home": "Seattle Kraken",
    "away": "Chicago Blackhawks",
@@ -413,11 +333,11 @@
    "sport": "nba",
    "side": "home",
    "price": 1.43,
-   "modelProb": 0.7675,
-   "marketProb": 0.6843,
-   "edgePct": 0.0832,
+   "modelProb": 0.7749,
+   "marketProb": 0.6977,
+   "edgePct": 0.0772,
    "tier": "PREMIUM",
-   "bookCount": 11,
+   "bookCount": 12,
    "startsAt": "2026-11-26T03:00Z",
    "home": "Golden State Warriors",
    "away": "Sacramento Kings",
@@ -495,10 +415,10 @@
    "league": "Europa League",
    "sport": "uel",
    "side": "away",
-   "price": 2.05,
-   "modelProb": 0.6731,
-   "marketProb": 0.6466,
-   "edgePct": 0.0266,
+   "price": 2.1,
+   "modelProb": 0.6701,
+   "marketProb": 0.641,
+   "edgePct": 0.0291,
    "tier": "HIGH",
    "bookCount": 10,
    "startsAt": "2026-11-26T17:45Z",
@@ -516,9 +436,9 @@
    "sport": "uel",
    "side": "away",
    "price": 2.45,
-   "modelProb": 0.5826,
-   "marketProb": 0.5421,
-   "edgePct": 0.0406,
+   "modelProb": 0.5802,
+   "marketProb": 0.5377,
+   "edgePct": 0.0425,
    "tier": "STANDARD",
    "bookCount": 1,
    "startsAt": "2026-11-26T17:45Z",
@@ -540,7 +460,7 @@
    "marketProb": 0.5764,
    "edgePct": 0.0494,
    "tier": "HIGH",
-   "bookCount": 11,
+   "bookCount": 12,
    "startsAt": "2026-11-27T01:20Z",
    "home": "Buffalo Bills",
    "away": "Kansas City Chiefs",
@@ -635,10 +555,10 @@
    "league": "Serie A",
    "sport": "seriea",
    "side": "home",
-   "price": 1.55,
-   "modelProb": 0.798,
-   "marketProb": 0.7832,
-   "edgePct": 0.0148,
+   "price": 1.5,
+   "modelProb": 0.8072,
+   "marketProb": 0.8,
+   "edgePct": 0.0072,
    "tier": "PREMIUM",
    "bookCount": 11,
    "startsAt": "2026-11-28T14:00Z",
@@ -655,10 +575,10 @@
    "league": "Bundesliga",
    "sport": "bundesliga",
    "side": "home",
-   "price": 2.35,
-   "modelProb": 0.5749,
-   "marketProb": 0.5392,
-   "edgePct": 0.0356,
+   "price": 2.4,
+   "modelProb": 0.572,
+   "marketProb": 0.534,
+   "edgePct": 0.038,
    "tier": "STANDARD",
    "bookCount": 1,
    "startsAt": "2026-11-28T14:30Z",
@@ -715,12 +635,12 @@
    "league": "MLS",
    "sport": "mls",
    "side": "home",
-   "price": 1.83,
-   "modelProb": 0.7019,
-   "marketProb": 0.6778,
-   "edgePct": 0.0241,
+   "price": 1.91,
+   "modelProb": 0.7013,
+   "marketProb": 0.6768,
+   "edgePct": 0.0245,
    "tier": "HIGH",
-   "bookCount": 1,
+   "bookCount": 10,
    "startsAt": "2026-11-28T19:30Z",
    "home": "Houston Dynamo FC",
    "away": "San Jose Earthquakes",
@@ -755,10 +675,10 @@
    "league": "Ligue 1",
    "sport": "ligue1",
    "side": "away",
-   "price": 2.05,
-   "modelProb": 0.6671,
-   "marketProb": 0.6583,
-   "edgePct": 0.0088,
+   "price": 2.08,
+   "modelProb": 0.6621,
+   "marketProb": 0.6492,
+   "edgePct": 0.0129,
    "tier": "HIGH",
    "bookCount": 10,
    "startsAt": "2026-11-28T19:45Z",
@@ -780,7 +700,7 @@
    "marketProb": 0.6036,
    "edgePct": 0.0626,
    "tier": "HIGH",
-   "bookCount": 9,
+   "bookCount": 11,
    "startsAt": "2026-11-28T23:30Z",
    "home": "FC Cincinnati",
    "away": "Nashville SC",
@@ -830,15 +750,35 @@
    "awayAbbr": "NEW"
   },
   {
+   "gameId": "epl:401879228",
+   "match": "AFC Bournemouth @ Fulham",
+   "league": "EPL",
+   "sport": "epl",
+   "side": "away",
+   "price": 2.6,
+   "modelProb": 0.5526,
+   "marketProb": 0.514,
+   "edgePct": 0.0386,
+   "tier": "STANDARD",
+   "bookCount": 11,
+   "startsAt": "2026-11-29T14:05Z",
+   "home": "Fulham",
+   "away": "AFC Bournemouth",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
+   "homeAbbr": "FUL",
+   "awayAbbr": "BOU"
+  },
+  {
    "gameId": "epl:401878753",
    "match": "Manchester City @ Arsenal",
    "league": "EPL",
    "sport": "epl",
    "side": "home",
-   "price": 2.0,
-   "modelProb": 0.6549,
-   "marketProb": 0.646,
-   "edgePct": 0.0089,
+   "price": 1.99,
+   "modelProb": 0.6555,
+   "marketProb": 0.6472,
+   "edgePct": 0.0083,
    "tier": "HIGH",
    "bookCount": 11,
    "startsAt": "2026-11-29T16:30Z",
@@ -955,10 +895,10 @@
    "league": "EPL",
    "sport": "epl",
    "side": "home",
-   "price": 2.3,
-   "modelProb": 0.5779,
-   "marketProb": 0.5701,
-   "edgePct": 0.0078,
+   "price": 2.28,
+   "modelProb": 0.5791,
+   "marketProb": 0.5722,
+   "edgePct": 0.0069,
    "tier": "STANDARD",
    "bookCount": 6,
    "startsAt": "2026-12-01T20:00Z",
@@ -995,10 +935,10 @@
    "league": "EPL",
    "sport": "epl",
    "side": "home",
-   "price": 1.48,
-   "modelProb": 0.8132,
-   "marketProb": 0.8026,
-   "edgePct": 0.0106,
+   "price": 1.44,
+   "modelProb": 0.8218,
+   "marketProb": 0.8182,
+   "edgePct": 0.0035,
    "tier": "PREMIUM",
    "bookCount": 1,
    "startsAt": "2026-12-02T19:30Z",
@@ -1008,6 +948,46 @@
    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png",
    "homeAbbr": "LIV",
    "awayAbbr": "SUN"
+  },
+  {
+   "gameId": "seriea:401874984",
+   "match": "AS Roma @ Bologna",
+   "league": "Serie A",
+   "sport": "seriea",
+   "side": "away",
+   "price": 1.83,
+   "modelProb": 0.7059,
+   "marketProb": 0.6626,
+   "edgePct": 0.0433,
+   "tier": "HIGH",
+   "bookCount": 1,
+   "startsAt": "2026-12-04T19:45Z",
+   "home": "Bologna",
+   "away": "AS Roma",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
+   "homeAbbr": "BOL",
+   "awayAbbr": "ROMA"
+  },
+  {
+   "gameId": "seriea:401874975",
+   "match": "Como @ Monza",
+   "league": "Serie A",
+   "sport": "seriea",
+   "side": "away",
+   "price": 1.46,
+   "modelProb": 0.8084,
+   "marketProb": 0.7981,
+   "edgePct": 0.0104,
+   "tier": "PREMIUM",
+   "bookCount": 1,
+   "startsAt": "2026-12-05T14:00Z",
+   "home": "Monza",
+   "away": "Como",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
+   "homeAbbr": "MON",
+   "awayAbbr": "COMO"
   },
   {
    "gameId": "bundesliga:401884713",
@@ -1068,30 +1048,49 @@
    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png",
    "homeAbbr": "SCF",
    "awayAbbr": "TSG"
+  },
+  {
+   "gameId": "ligue1:401876384",
+   "match": "AJ Auxerre @ Lille",
+   "league": "Ligue 1",
+   "sport": "ligue1",
+   "side": "home",
+   "price": 1.5,
+   "modelProb": 0.8145,
+   "marketProb": 0.8,
+   "edgePct": 0.0145,
+   "tier": "PREMIUM",
+   "bookCount": 1,
+   "startsAt": "2026-12-05T16:15Z",
+   "home": "Lille",
+   "away": "AJ Auxerre",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/172.png",
+   "homeAbbr": "LILL",
+   "awayAbbr": "AUX"
+  },
+  {
+   "gameId": "ligue1:401876385",
+   "match": "Le Havre AC @ Lens",
+   "league": "Ligue 1",
+   "sport": "ligue1",
+   "side": "home",
+   "price": 1.44,
+   "modelProb": 0.8163,
+   "marketProb": 0.806,
+   "edgePct": 0.0103,
+   "tier": "PREMIUM",
+   "bookCount": 1,
+   "startsAt": "2026-12-05T19:45Z",
+   "home": "Lens",
+   "away": "Le Havre AC",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3236.png",
+   "homeAbbr": "RCL",
+   "awayAbbr": "HAC"
   }
  ],
  "alerts": [
-  {
-   "gameId": "esports:132990",
-   "match": "Kuusamogg vs Havu",
-   "league": "Esports",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
-   ]
-  },
-  {
-   "gameId": "esports:134971",
-   "match": "Al Ahli Esports vs Notime",
-   "league": "Esports",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
   {
    "gameId": "ncaab:401921709",
    "match": "Ole Miss Rebels @ BYU Cougars",
@@ -1116,27 +1115,6 @@
    "gameId": "ncaab:401915941",
    "match": "Miami Hurricanes @ TCU Horned Frogs",
    "league": "NCAAB",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "esports:134882",
-   "match": "Red Canids Academy vs Meia Noite",
-   "league": "Esports",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
-   ]
-  },
-  {
-   "gameId": "esports:134786",
-   "match": "Zotix vs Ttg Esports",
-   "league": "Esports",
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
@@ -1186,14 +1164,23 @@
    ]
   },
   {
-   "gameId": "esports:134743",
-   "match": "Milk Us vs Flyquest Red",
-   "league": "Esports",
+   "gameId": "ncaaf:401866470",
+   "match": "Kent State Golden Flashes @ Eastern Michigan Eagles",
+   "league": "NCAAF",
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "ncaaf:401866471",
+   "match": "Miami (OH) RedHawks @ Western Michigan Broncos",
+   "league": "NCAAF",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
@@ -1214,7 +1201,7 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
@@ -1224,7 +1211,17 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "nba:401909316",
+   "match": "Dallas Mavericks @ Denver Nuggets",
+   "league": "NBA",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
@@ -1234,7 +1231,7 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
@@ -1244,6 +1241,7 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
     "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
    ]
   },
@@ -1251,6 +1249,72 @@
    "gameId": "ncaab:401909800",
    "match": "Gonzaga Bulldogs @ Kansas State Wildcats",
    "league": "NCAAB",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
+   "gameId": "esports:134386",
+   "match": "Dendele Cs vs 9z",
+   "league": "Esports",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
+   "gameId": "esports:134387",
+   "match": "Flyquest vs Imperial",
+   "league": "Esports",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
+   "gameId": "esports:135030",
+   "match": "Quintessence vs Spirit Academy",
+   "league": "Esports",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
+   "gameId": "esports:134389",
+   "match": "Chinggis Warriors vs Bc Game",
+   "league": "Esports",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
+   "gameId": "esports:134388",
+   "match": "Liquid vs Nip",
+   "league": "Esports",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
+   "gameId": "esports:134891",
+   "match": "Fortress vs Fire Flux",
+   "league": "Esports",
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
@@ -1337,6 +1401,16 @@
    "flags": [
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
     "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
+   "gameId": "brasileirao:401841319",
+   "match": "Corinthians @ Atl\u00e9tico-MG",
+   "league": "Brazil Serie A",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
@@ -1475,18 +1549,18 @@
    ]
   },
   {
-   "gameId": "ncaab:401920529",
-   "match": "Tennessee Volunteers @ Iowa State Cyclones",
-   "league": "NCAAB",
+   "gameId": "uel:401915515",
+   "match": "SK Sturm Graz @ TSG Hoffenheim",
+   "league": "Europa League",
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
    ]
   },
   {
-   "gameId": "ncaab:401920537",
-   "match": "Miami Hurricanes @ Michigan Wolverines",
+   "gameId": "ncaab:401920529",
+   "match": "Tennessee Volunteers @ Iowa State Cyclones",
    "league": "NCAAB",
    "severity": 2,
    "signal": "high_risk_alert",
@@ -1505,9 +1579,81 @@
    ]
   },
   {
+   "gameId": "ncaaf:401856879",
+   "match": "TCU Horned Frogs @ Texas Tech Red Raiders",
+   "league": "NCAAF",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
+   "gameId": "ncaab:401920539",
+   "match": "Kansas State Wildcats @ Alabama Crimson Tide",
+   "league": "NCAAB",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
+   "gameId": "ncaab:401920531",
+   "match": "Texas Tech Red Raiders @ Oregon Ducks",
+   "league": "NCAAB",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
+   "gameId": "ncaab:401920540",
+   "match": "Gonzaga Bulldogs @ Baylor Bears",
+   "league": "NCAAB",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "superlig:401888241",
+   "match": "Konyaspor @ Alanyaspor",
+   "league": "Turkish Super Lig",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "superlig:401888240",
+   "match": "Kasimpasa @ Caykur Rizespor",
+   "league": "Turkish Super Lig",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
    "gameId": "laliga:401882791",
    "match": "Racing Santander @ Levante",
    "league": "La Liga",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "ligapt:401885389",
+   "match": "C.D. Nacional @ Maritimo",
+   "league": "Portugal Primeira Liga",
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
@@ -1555,6 +1701,16 @@
    ]
   },
   {
+   "gameId": "superlig:401888368",
+   "match": "Amed SFK @ Gaziantep FK",
+   "league": "Turkish Super Lig",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
    "gameId": "ligue1:401876394",
    "match": "Lens @ Angers",
    "league": "Ligue 1",
@@ -1565,13 +1721,13 @@
    ]
   },
   {
-   "gameId": "mls:401933724",
-   "match": "San Jose Earthquakes @ Houston Dynamo FC",
-   "league": "MLS",
+   "gameId": "eredivisie:401875531",
+   "match": "Go Ahead Eagles @ PSV Eindhoven",
+   "league": "Dutch Eredivisie",
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
    ]
   },
   {
@@ -1606,6 +1762,16 @@
    ]
   },
   {
+   "gameId": "ligapt:401885385",
+   "match": "Estrela @ Vit\u00f3ria de Guimaraes",
+   "league": "Portugal Primeira Liga",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
    "gameId": "mls:401933726",
    "match": "St. Louis CITY SC @ LAFC",
    "league": "MLS",
@@ -1619,6 +1785,26 @@
    "gameId": "laliga:401882787",
    "match": "Osasuna @ Valencia",
    "league": "La Liga",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "superlig:401888242",
+   "match": "Istanbul Basaksehir @ Eyupspor",
+   "league": "Turkish Super Lig",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "eredivisie:401875535",
+   "match": "Ajax Amsterdam @ Feyenoord Rotterdam",
+   "league": "Dutch Eredivisie",
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
@@ -1657,6 +1843,26 @@
    ]
   },
   {
+   "gameId": "eredivisie:401875532",
+   "match": "AZ Alkmaar @ PEC Zwolle",
+   "league": "Dutch Eredivisie",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "superlig:401888238",
+   "match": "Erzurum BB @ Fenerbahce",
+   "league": "Turkish Super Lig",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
    "gameId": "seriea:401874769",
    "match": "Monza @ AS Roma",
    "league": "Serie A",
@@ -1664,6 +1870,66 @@
    "signal": "high_risk_alert",
    "flags": [
     "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
+   "gameId": "eredivisie:401875533",
+   "match": "FC Twente @ NEC Nijmegen",
+   "league": "Dutch Eredivisie",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "ligaprof:401936353",
+   "match": "Independiente @ V\u00e9lez Sarsfield",
+   "league": "Argentina Liga Profesional",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "ligapt:401885387",
+   "match": "Sporting CP @ FC Porto",
+   "league": "Portugal Primeira Liga",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "brasileirao:401841331",
+   "match": "Red Bull Bragantino @ Internacional",
+   "league": "Brazil Serie A",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "brasileirao:401841330",
+   "match": "Athletico-PR @ Mirassol",
+   "league": "Brazil Serie A",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "ligamx:401932000",
+   "match": "Le\u00f3n @ Cruz Azul",
+   "league": "Liga MX",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 2 books quoting"
    ]
   },
   {
@@ -1685,6 +1951,26 @@
    "signal": "high_risk_alert",
    "flags": [
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "superlig:401888237",
+   "match": "Galatasaray @ Besiktas",
+   "league": "Turkish Super Lig",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "ligapt:401885386",
+   "match": "FC Famalicao @ Benfica",
+   "league": "Portugal Primeira Liga",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
    ]
   },
   {
@@ -1789,6 +2075,36 @@
    ]
   },
   {
+   "gameId": "seriea:401874984",
+   "match": "AS Roma @ Bologna",
+   "league": "Serie A",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "ligue1:401876378",
+   "match": "Paris Saint-Germain @ Toulouse",
+   "league": "Ligue 1",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "seriea:401874975",
+   "match": "Como @ Monza",
+   "league": "Serie A",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
    "gameId": "bundesliga:401884716",
    "match": "Borussia M\u00f6nchengladbach @ Bayer Leverkusen",
    "league": "Bundesliga",
@@ -1830,9 +2146,81 @@
    ]
   },
   {
+   "gameId": "ligue1:401876384",
+   "match": "AJ Auxerre @ Lille",
+   "league": "Ligue 1",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "seriea:401875023",
+   "match": "Internazionale @ Frosinone",
+   "league": "Serie A",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
    "gameId": "bundesliga:401884714",
    "match": "Werder Bremen @ Eintracht Frankfurt",
    "league": "Bundesliga",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "seriea:401874788",
+   "match": "Lecce @ Napoli",
+   "league": "Serie A",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
+   "gameId": "ligue1:401876382",
+   "match": "Angers @ AS Monaco",
+   "league": "Ligue 1",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
+   "gameId": "ligue1:401876385",
+   "match": "Le Havre AC @ Lens",
+   "league": "Ligue 1",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "ligue1:401876381",
+   "match": "Le Mans @ Paris FC",
+   "league": "Ligue 1",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "ligue1:401876379",
+   "match": "Lorient @ Strasbourg",
+   "league": "Ligue 1",
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [

@@ -46,6 +46,7 @@ ESPN_LEAGUES = [
     ("basketball/wnba",                     "wnba",       "WNBA",         True),
     ("basketball/mens-college-basketball",  "ncaab",      "NCAAB",        True),
     ("football/nfl",                        "nfl",        "NFL",          True),
+    ("football/college-football",           "ncaaf",      "NCAAF",        True),
     ("baseball/mlb",                        "mlb",        "MLB",          True),
     ("hockey/nhl",                          "nhl",        "NHL",          True),
     ("mma/ufc",                             "ufc",        "UFC",          True),
@@ -54,6 +55,12 @@ ESPN_LEAGUES = [
     ("soccer/ita.1",                        "seriea",     "Serie A",      False),
     ("soccer/ger.1",                        "bundesliga", "Bundesliga",   False),
     ("soccer/fra.1",                        "ligue1",     "Ligue 1",      False),
+    ("soccer/bra.1",                        "brasileirao","Brazil Serie A", False),
+    ("soccer/arg.1",                        "ligaprof",   "Argentina Liga Profesional", False),
+    ("soccer/tur.1",                        "superlig",   "Turkish Super Lig", False),
+    ("soccer/por.1",                        "ligapt",     "Portugal Primeira Liga", False),
+    ("soccer/ned.1",                        "eredivisie", "Dutch Eredivisie", False),
+    ("soccer/mex.1",                        "ligamx",     "Liga MX",      False),
     ("soccer/uefa.champions",               "ucl",        "Champions League", False),
     ("soccer/uefa.europa",                  "uel",        "Europa League", False),
     ("soccer/usa.1",                        "mls",        "MLS",          False),
@@ -215,8 +222,9 @@ def parse_espn_event(event, sport, league, two_way):
     }
 
 
-NEAR_WINDOW = {"nba", "nhl", "nfl", "ncaab", "mlb", "wnba"}
-SPARSE = {"epl", "laliga", "seriea", "bundesliga", "ligue1", "ucl", "uel", "mls"}
+NEAR_WINDOW = {"nba", "nhl", "nfl", "ncaab", "ncaaf", "mlb", "wnba"}
+SPARSE = {"epl", "laliga", "seriea", "bundesliga", "ligue1", "ucl", "uel", "mls",
+          "brasileirao", "ligaprof", "superlig", "ligapt", "eredivisie", "ligamx"}
 
 
 def collect_espn(limit_per_league=60):

@@ -27,6 +27,13 @@ SPORTS = {
     "uel": "soccer_uefa_europa_league",
     "mls": "soccer_usa_mls",
     "ufc": "mma_mixed_martial_arts",
+    "ncaaf": "americanfootball_ncaaf",
+    "brasileirao": "soccer_brazil_campeonato",
+    "ligaprof": "soccer_argentina_primera_division",
+    "superlig": "soccer_turkey_super_league",
+    "ligapt": "soccer_portugal_primeira_liga",
+    "eredivisie": "soccer_netherlands_eredivisie",
+    "ligamx": "soccer_mexico_ligamx",
 }
 
 UA = {"User-Agent": "TipLab/1.0 (+https://tiplab.io)", "Accept": "application/json"}

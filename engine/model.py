@@ -21,15 +21,20 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 STATE = os.path.join(HERE, "model_state.json")
 ELO0 = 1500.0
 K_BY_SPORT = {  # lower K = more stable ratings
-    "nba": 18, "nfl": 14, "mlb": 10, "nhl": 12, "ncaab": 16, "wnba": 16,
+    "nba": 18, "nfl": 14, "mlb": 10, "nhl": 12, "ncaab": 16, "wnba": 16, "ncaaf": 14,
     "epl": 16, "laliga": 16, "seriea": 16, "bundesliga": 16, "ligue1": 16,
+    "brasileirao": 16, "ligaprof": 16, "superlig": 16, "ligapt": 16, "eredivisie": 16, "ligamx": 16,
     "ucl": 14, "uel": 14, "mls": 16, "atp": 20, "wta": 20, "ufc": 20, "esports": 24,
 }
-DIV = {"esports":600,"epl":220,"laliga":220,"seriea":220,"bundesliga":220,"ligue1":220,"ucl":220,"uel":220,"mls":220}
-CROSS_LEAGUE_MEMBERS = {"epl","laliga","seriea","bundesliga","ligue1","ucl","uel","mls"}
+DIV = {"esports":600,"epl":220,"laliga":220,"seriea":220,"bundesliga":220,"ligue1":220,"ucl":220,"uel":220,"mls":220,
+       "brasileirao":220,"ligaprof":220,"superlig":220,"ligapt":220,"eredivisie":220,"ligamx":220}
+CROSS_LEAGUE_MEMBERS = {"epl","laliga","seriea","bundesliga","ligue1","ucl","uel","mls",
+                        "brasileirao","ligaprof","superlig","ligapt","eredivisie","ligamx"}
 CUP = {"ucl","uel"}
 DRAW_BASE = {"epl": .26, "laliga": .25, "seriea": .27, "bundesliga": .24,
-             "ligue1": .25, "ucl": .24, "uel": .25, "mls": .24}
+             "ligue1": .25, "ucl": .24, "uel": .25, "mls": .24,
+             "brasileirao": .26, "ligaprof": .25, "superlig": .25, "ligapt": .24,
+             "eredivisie": .22, "ligamx": .26}
 MIN_EDGE = 0.045      # 4.5% model-vs-market edge required
 THIN_EXTRA = 0.030    # extra edge demanded when only 1 book quotes
 MIN_BOOKS = 1

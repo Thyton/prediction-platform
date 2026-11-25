@@ -98,7 +98,8 @@ export default async function Home() {
         <h1>Every pick locked,<br /><em>before the price moves.</em></h1>
         <p className="lede">
           We publish the match, the price, the model probability and the edge — then grade it in public.
-          Market-aware across NBA, NFL, NHL, MLB, football, tennis and esports.
+          Market-aware across {Object.keys(SPORT_LABEL).length} competitions: NBA, NFL, NHL, college, Premier League,
+          La Liga, Serie A, Bundesliga, Brazil, Mexico, Argentina, tennis and esports.
         </p>
         <Waitlist />
       </section>

@@ -1,96 +1,6 @@
 {
- "generatedAt": "2026-11-25T03:44:53.159743+00:00",
+ "generatedAt": "2026-11-25T15:04:54.467007+00:00",
  "games": [
-  {
-   "id": "esports:132990",
-   "sport": "esports",
-   "league": "Esports",
-   "match": "Kuusamogg vs Havu",
-   "home": "Havu",
-   "away": "Kuusamogg",
-   "startsAt": "2026-11-24T18:30:00.000+00:00",
-   "state": "finished",
-   "markets": {
-    "h2h": {
-     "outcome": "Havu",
-     "bestOdds": 1.01,
-     "otherOdds": 14.0,
-     "bookCount": "1",
-     "favSide": "home",
-     "source": "bo3"
-    }
-   },
-   "tier": "c",
-   "boType": 3,
-   "mapScore": [
-    1,
-    2
-   ],
-   "drawPossible": false
-  },
-  {
-   "id": "esports:134784",
-   "sport": "esports",
-   "league": "Esports",
-   "match": "Axe Cs vs Gothboiclique",
-   "home": "Gothboiclique",
-   "away": "Axe Cs",
-   "startsAt": "2026-11-24T19:00:00.000+00:00",
-   "state": "finished",
-   "markets": {},
-   "tier": "c",
-   "boType": 3,
-   "mapScore": [
-    1,
-    2
-   ],
-   "drawPossible": false
-  },
-  {
-   "id": "esports:134973",
-   "sport": "esports",
-   "league": "Esports",
-   "match": "Esuba Cs Go vs Diamant Esports Cs",
-   "home": "Diamant Esports Cs",
-   "away": "Esuba Cs Go",
-   "startsAt": "2026-11-24T19:15:00.000+00:00",
-   "state": "finished",
-   "markets": {},
-   "tier": "c",
-   "boType": 3,
-   "mapScore": [
-    1,
-    2
-   ],
-   "drawPossible": false
-  },
-  {
-   "id": "esports:134971",
-   "sport": "esports",
-   "league": "Esports",
-   "match": "Al Ahli Esports vs Notime",
-   "home": "Notime",
-   "away": "Al Ahli Esports",
-   "startsAt": "2026-11-24T19:20:00.000+00:00",
-   "state": "finished",
-   "markets": {
-    "h2h": {
-     "outcome": "Notime",
-     "bestOdds": 1.74,
-     "otherOdds": 1.98,
-     "bookCount": "1",
-     "favSide": "home",
-     "source": "bo3"
-    }
-   },
-   "tier": "c",
-   "boType": 3,
-   "mapScore": [
-    1,
-    2
-   ],
-   "drawPossible": false
-  },
   {
    "id": "ncaab:401921709",
    "sport": "ncaab",
@@ -173,78 +83,6 @@
     }
    },
    "espnUrl": null,
-   "drawPossible": false
-  },
-  {
-   "id": "esports:134882",
-   "sport": "esports",
-   "league": "Esports",
-   "match": "Red Canids Academy vs Meia Noite",
-   "home": "Meia Noite",
-   "away": "Red Canids Academy",
-   "startsAt": "2026-11-24T21:00:00.000+00:00",
-   "state": "finished",
-   "markets": {
-    "h2h": {
-     "outcome": "Red Canids Academy",
-     "bestOdds": 1.01,
-     "otherOdds": 14.0,
-     "bookCount": "1",
-     "favSide": "away",
-     "source": "bo3"
-    }
-   },
-   "tier": "c",
-   "boType": 3,
-   "mapScore": [
-    0,
-    2
-   ],
-   "drawPossible": false
-  },
-  {
-   "id": "esports:134787",
-   "sport": "esports",
-   "league": "Esports",
-   "match": "Ex Copenhagen Wolves vs Encelade",
-   "home": "Encelade",
-   "away": "Ex Copenhagen Wolves",
-   "startsAt": "2026-11-24T21:45:00.000+00:00",
-   "state": "finished",
-   "markets": {},
-   "tier": "c",
-   "boType": 3,
-   "mapScore": [
-    0,
-    2
-   ],
-   "drawPossible": false
-  },
-  {
-   "id": "esports:134786",
-   "sport": "esports",
-   "league": "Esports",
-   "match": "Zotix vs Ttg Esports",
-   "home": "Ttg Esports",
-   "away": "Zotix",
-   "startsAt": "2026-11-24T21:55:00.000+00:00",
-   "state": "finished",
-   "markets": {
-    "h2h": {
-     "outcome": "Zotix",
-     "bestOdds": 1.39,
-     "otherOdds": 2.85,
-     "bookCount": "1",
-     "favSide": "away",
-     "source": "bo3"
-    }
-   },
-   "tier": "c",
-   "boType": 3,
-   "mapScore": [
-    1,
-    2
-   ],
    "drawPossible": false
   },
   {
@@ -380,30 +218,59 @@
    "drawPossible": false
   },
   {
-   "id": "esports:134743",
-   "sport": "esports",
-   "league": "Esports",
-   "match": "Milk Us vs Flyquest Red",
-   "home": "Flyquest Red",
-   "away": "Milk Us",
-   "startsAt": "2026-11-25T00:10:00.000+00:00",
-   "state": "finished",
+   "id": "ncaaf:401866470",
+   "sport": "ncaaf",
+   "league": "NCAAF",
+   "match": "Kent State Golden Flashes @ Eastern Michigan Eagles",
+   "home": "Eastern Michigan Eagles",
+   "away": "Kent State Golden Flashes",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2199.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2309.png",
+   "homeAbbr": "EMU",
+   "awayAbbr": "KENT",
+   "startsAt": "2026-11-25T00:00Z",
+   "state": "post",
+   "_path": "football/college-football",
+   "_eid": "401866470",
+   "_cid": "401866470",
    "markets": {
     "h2h": {
-     "outcome": "Milk Us",
-     "bestOdds": 1.01,
-     "otherOdds": 14.0,
+     "outcome": "Eastern Michigan Eagles",
+     "bestOdds": 1.388,
+     "otherOdds": 3.1,
      "bookCount": "1",
-     "favSide": "away",
-     "source": "bo3"
+     "favSide": "home"
     }
    },
-   "tier": "c",
-   "boType": 3,
-   "mapScore": [
-    0,
-    2
-   ],
+   "espnUrl": null,
+   "drawPossible": false
+  },
+  {
+   "id": "ncaaf:401866471",
+   "sport": "ncaaf",
+   "league": "NCAAF",
+   "match": "Miami (OH) RedHawks @ Western Michigan Broncos",
+   "home": "Western Michigan Broncos",
+   "away": "Miami (OH) RedHawks",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2711.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/193.png",
+   "homeAbbr": "WMU",
+   "awayAbbr": "M-OH",
+   "startsAt": "2026-11-25T00:00Z",
+   "state": "post",
+   "_path": "football/college-football",
+   "_eid": "401866471",
+   "_cid": "401866471",
+   "markets": {
+    "h2h": {
+     "outcome": "Western Michigan Broncos",
+     "bestOdds": 1.505,
+     "otherOdds": 2.64,
+     "bookCount": "1",
+     "favSide": "home"
+    }
+   },
+   "espnUrl": null,
    "drawPossible": false
   },
   {
@@ -453,32 +320,13 @@
    "markets": {
     "h2h": {
      "outcome": "Vegas Golden Knights",
-     "bestOdds": 1.08,
-     "otherOdds": 34.0,
-     "bookCount": "3",
-     "favSide": "away",
-     "source": "oddsapi"
+     "bestOdds": 1.833,
+     "otherOdds": 2.0,
+     "bookCount": "1",
+     "favSide": "away"
     }
    },
    "espnUrl": null,
-   "drawPossible": false
-  },
-  {
-   "id": "esports:134740",
-   "sport": "esports",
-   "league": "Esports",
-   "match": "Kodex Esports vs Empire",
-   "home": "Empire",
-   "away": "Kodex Esports",
-   "startsAt": "2026-11-25T01:10:00.000+00:00",
-   "state": "finished",
-   "markets": {},
-   "tier": "c",
-   "boType": 3,
-   "mapScore": [
-    2,
-    1
-   ],
    "drawPossible": false
   },
   {
@@ -493,18 +341,17 @@
    "homeAbbr": "LOU",
    "awayAbbr": "TTU",
    "startsAt": "2026-11-25T01:37Z",
-   "state": "in",
+   "state": "post",
    "_path": "basketball/mens-college-basketball",
    "_eid": "401915942",
    "_cid": "401915942",
    "markets": {
     "h2h": {
-     "outcome": "Louisville Cardinals",
-     "bestOdds": 1.11,
-     "otherOdds": 23.0,
-     "bookCount": "6",
-     "favSide": "home",
-     "source": "oddsapi"
+     "outcome": "Texas Tech Red Raiders",
+     "bestOdds": 1.617,
+     "otherOdds": 2.36,
+     "bookCount": "1",
+     "favSide": "away"
     }
    },
    "espnUrl": null,
@@ -522,18 +369,17 @@
    "homeAbbr": "DEN",
    "awayAbbr": "DAL",
    "startsAt": "2026-11-25T03:00Z",
-   "state": "in",
+   "state": "post",
    "_path": "basketball/nba",
    "_eid": "401909316",
    "_cid": "401909316",
    "markets": {
     "h2h": {
      "outcome": "Denver Nuggets",
-     "bestOdds": 1.93,
-     "otherOdds": 2.2,
-     "bookCount": "8",
-     "favSide": "home",
-     "source": "oddsapi"
+     "bestOdds": 1.361,
+     "otherOdds": 3.27,
+     "bookCount": "1",
+     "favSide": "home"
     }
    },
    "espnUrl": null,
@@ -551,18 +397,17 @@
    "homeAbbr": "ALA",
    "awayAbbr": "BAY",
    "startsAt": "2026-11-25T03:05Z",
-   "state": "in",
+   "state": "post",
    "_path": "basketball/mens-college-basketball",
    "_eid": "401906762",
    "_cid": "401906762",
    "markets": {
     "h2h": {
-     "outcome": "Baylor Bears",
-     "bestOdds": 1.33,
-     "otherOdds": 5.0,
-     "bookCount": "7",
-     "favSide": "away",
-     "source": "oddsapi"
+     "outcome": "Alabama Crimson Tide",
+     "bestOdds": 1.8,
+     "otherOdds": 2.05,
+     "bookCount": "1",
+     "favSide": "home"
     }
    },
    "espnUrl": null,
@@ -579,19 +424,18 @@
    "awayLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
    "homeAbbr": "SJU",
    "awayAbbr": "ORE",
-   "startsAt": "2026-11-25T03:30Z",
-   "state": "pre",
+   "startsAt": "2026-11-25T04:18Z",
+   "state": "post",
    "_path": "basketball/mens-college-basketball",
    "_eid": "401915943",
    "_cid": "401915943",
    "markets": {
     "h2h": {
      "outcome": "St. John's Red Storm",
-     "bestOdds": 1.17,
-     "otherOdds": 6.0,
-     "bookCount": "11",
-     "favSide": "home",
-     "source": "oddsapi"
+     "bestOdds": 1.174,
+     "otherOdds": 5.25,
+     "bookCount": "1",
+     "favSide": "home"
     }
    },
    "espnUrl": null,
@@ -608,21 +452,237 @@
    "awayLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2250.png",
    "homeAbbr": "KSU",
    "awayAbbr": "GONZ",
-   "startsAt": "2026-11-25T05:30Z",
-   "state": "pre",
+   "startsAt": "2026-11-25T05:49Z",
+   "state": "post",
    "_path": "basketball/mens-college-basketball",
    "_eid": "401909800",
    "_cid": "401909800",
    "markets": {
     "h2h": {
      "outcome": "Gonzaga Bulldogs",
-     "bestOdds": 1.061,
-     "otherOdds": 10.5,
+     "bestOdds": 1.069,
+     "otherOdds": 9.5,
      "bookCount": "1",
      "favSide": "away"
     }
    },
    "espnUrl": null,
+   "drawPossible": false
+  },
+  {
+   "id": "esports:134386",
+   "sport": "esports",
+   "league": "Esports",
+   "match": "Dendele Cs vs 9z",
+   "home": "9z",
+   "away": "Dendele Cs",
+   "startsAt": "2026-11-25T08:10:00.000+00:00",
+   "state": "finished",
+   "markets": {
+    "h2h": {
+     "outcome": "9z",
+     "bestOdds": 1.001,
+     "otherOdds": 12.0,
+     "bookCount": "1",
+     "favSide": "home",
+     "source": "bo3"
+    }
+   },
+   "tier": "s",
+   "boType": 3,
+   "mapScore": [
+    2,
+    0
+   ],
+   "drawPossible": false
+  },
+  {
+   "id": "esports:134387",
+   "sport": "esports",
+   "league": "Esports",
+   "match": "Flyquest vs Imperial",
+   "home": "Imperial",
+   "away": "Flyquest",
+   "startsAt": "2026-11-25T08:30:00.000+00:00",
+   "state": "finished",
+   "markets": {
+    "h2h": {
+     "outcome": "Flyquest",
+     "bestOdds": 1.04,
+     "otherOdds": 8.0,
+     "bookCount": "1",
+     "favSide": "away",
+     "source": "bo3"
+    }
+   },
+   "tier": "s",
+   "boType": 3,
+   "mapScore": [
+    0,
+    2
+   ],
+   "drawPossible": false
+  },
+  {
+   "id": "esports:135030",
+   "sport": "esports",
+   "league": "Esports",
+   "match": "Quintessence vs Spirit Academy",
+   "home": "Spirit Academy",
+   "away": "Quintessence",
+   "startsAt": "2026-11-25T09:00:00.000+00:00",
+   "state": "finished",
+   "markets": {
+    "h2h": {
+     "outcome": "Spirit Academy",
+     "bestOdds": 1.25,
+     "otherOdds": 3.5,
+     "bookCount": "1",
+     "favSide": "home",
+     "source": "bo3"
+    }
+   },
+   "tier": "c",
+   "boType": 3,
+   "mapScore": [
+    2,
+    0
+   ],
+   "drawPossible": false
+  },
+  {
+   "id": "esports:134861",
+   "sport": "esports",
+   "league": "Esports",
+   "match": "Glitch vs Maybe Ukr",
+   "home": "Maybe Ukr",
+   "away": "Glitch",
+   "startsAt": "2026-11-25T09:10:00.000+00:00",
+   "state": "finished",
+   "markets": {},
+   "tier": "c",
+   "boType": 3,
+   "mapScore": [
+    1,
+    2
+   ],
+   "drawPossible": false
+  },
+  {
+   "id": "esports:134890",
+   "sport": "esports",
+   "league": "Esports",
+   "match": "Esport Academy Copenhagen vs Prodigies",
+   "home": "Prodigies",
+   "away": "Esport Academy Copenhagen",
+   "startsAt": "2026-11-25T09:30:00.000+00:00",
+   "state": "finished",
+   "markets": {},
+   "tier": "c",
+   "boType": 3,
+   "mapScore": [
+    2,
+    1
+   ],
+   "drawPossible": false
+  },
+  {
+   "id": "esports:134389",
+   "sport": "esports",
+   "league": "Esports",
+   "match": "Chinggis Warriors vs Bc Game",
+   "home": "Bc Game",
+   "away": "Chinggis Warriors",
+   "startsAt": "2026-11-25T10:10:00.000+00:00",
+   "state": "finished",
+   "markets": {
+    "h2h": {
+     "outcome": "Chinggis Warriors",
+     "bestOdds": 1.05,
+     "otherOdds": 7.5,
+     "bookCount": "1",
+     "favSide": "away",
+     "source": "bo3"
+    }
+   },
+   "tier": "s",
+   "boType": 3,
+   "mapScore": [
+    1,
+    2
+   ],
+   "drawPossible": false
+  },
+  {
+   "id": "esports:134388",
+   "sport": "esports",
+   "league": "Esports",
+   "match": "Liquid vs Nip",
+   "home": "Nip",
+   "away": "Liquid",
+   "startsAt": "2026-11-25T11:00:00.000+00:00",
+   "state": "finished",
+   "markets": {
+    "h2h": {
+     "outcome": "Nip",
+     "bestOdds": 1.003,
+     "otherOdds": 12.0,
+     "bookCount": "1",
+     "favSide": "home",
+     "source": "bo3"
+    }
+   },
+   "tier": "s",
+   "boType": 3,
+   "mapScore": [
+    2,
+    0
+   ],
+   "drawPossible": false
+  },
+  {
+   "id": "esports:134891",
+   "sport": "esports",
+   "league": "Esports",
+   "match": "Fortress vs Fire Flux",
+   "home": "Fire Flux",
+   "away": "Fortress",
+   "startsAt": "2026-11-25T12:00:00.000+00:00",
+   "state": "defwin",
+   "markets": {
+    "h2h": {
+     "outcome": "Fire Flux",
+     "bestOdds": 1.08,
+     "otherOdds": 6.3,
+     "bookCount": "1",
+     "favSide": "home",
+     "source": "bo3"
+    }
+   },
+   "tier": "c",
+   "boType": 1,
+   "mapScore": [
+    1,
+    0
+   ],
+   "drawPossible": false
+  },
+  {
+   "id": "esports:134641",
+   "sport": "esports",
+   "league": "Esports",
+   "match": "Evermore vs Vexar",
+   "home": "Vexar",
+   "away": "Evermore",
+   "startsAt": "2026-11-25T12:10:00.000+00:00",
+   "state": "finished",
+   "markets": {},
+   "tier": "c",
+   "boType": 3,
+   "mapScore": [
+    1,
+    2
+   ],
    "drawPossible": false
   },
   {
@@ -644,9 +704,9 @@
    "markets": {
     "h2h": {
      "outcome": "Virginia Cavaliers",
-     "bestOdds": 1.45,
-     "otherOdds": 3.02,
-     "bookCount": "8",
+     "bestOdds": 1.43,
+     "otherOdds": 3.3,
+     "bookCount": "11",
      "favSide": "away",
      "source": "oddsapi"
     }
@@ -673,8 +733,8 @@
    "markets": {
     "h2h": {
      "outcome": "Barcelona",
-     "bestOdds": 1.1,
-     "otherOdds": 29.0,
+     "bestOdds": 1.09,
+     "otherOdds": 31.0,
      "bookCount": "11",
      "favSide": "away",
      "source": "oddsapi"
@@ -702,8 +762,8 @@
    "markets": {
     "h2h": {
      "outcome": "Villarreal",
-     "bestOdds": 2.15,
-     "otherOdds": 3.0,
+     "bestOdds": 2.25,
+     "otherOdds": 3.05,
      "bookCount": "1",
      "favSide": "away"
     }
@@ -802,9 +862,9 @@
    "markets": {
     "h2h": {
      "outcome": "Arizona Wildcats",
-     "bestOdds": 1.46,
-     "otherOdds": 2.9,
-     "bookCount": "4",
+     "bestOdds": 1.47,
+     "otherOdds": 2.95,
+     "bookCount": "11",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -934,7 +994,7 @@
     "h2h": {
      "outcome": "Internazionale",
      "bestOdds": 1.417,
-     "otherOdds": 6.0,
+     "otherOdds": 6.5,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -961,8 +1021,8 @@
    "markets": {
     "h2h": {
      "outcome": "Bayern Munich",
-     "bestOdds": 1.68,
-     "otherOdds": 5.4,
+     "bestOdds": 1.62,
+     "otherOdds": 5.8,
      "bookCount": "11",
      "favSide": "away",
      "source": "oddsapi"
@@ -990,8 +1050,8 @@
    "markets": {
     "h2h": {
      "outcome": "Paris Saint-Germain",
-     "bestOdds": 1.46,
-     "otherOdds": 7.0,
+     "bestOdds": 1.53,
+     "otherOdds": 6.0,
      "bookCount": "11",
      "favSide": "home",
      "source": "oddsapi"
@@ -1019,8 +1079,8 @@
    "markets": {
     "h2h": {
      "outcome": "Fenerbahce",
-     "bestOdds": 2.4,
-     "otherOdds": 3.04,
+     "bestOdds": 2.65,
+     "otherOdds": 2.7,
      "bookCount": "10",
      "favSide": "away",
      "source": "oddsapi"
@@ -1047,11 +1107,11 @@
    "_cid": "401915373",
    "markets": {
     "h2h": {
-     "outcome": "Sporting CP",
-     "bestOdds": 2.55,
-     "otherOdds": 2.6,
+     "outcome": "Manchester United",
+     "bestOdds": 2.5,
+     "otherOdds": 2.65,
      "bookCount": "1",
-     "favSide": "home"
+     "favSide": "away"
     }
    },
    "espnUrl": null,
@@ -1099,8 +1159,8 @@
     "h2h": {
      "outcome": "USC Trojans",
      "bestOdds": 1.18,
-     "otherOdds": 6.0,
-     "bookCount": "8",
+     "otherOdds": 5.76,
+     "bookCount": "11",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -1127,9 +1187,9 @@
    "markets": {
     "h2h": {
      "outcome": "Philadelphia 76ers",
-     "bestOdds": 1.96,
-     "otherOdds": 1.98,
-     "bookCount": "11",
+     "bestOdds": 1.87,
+     "otherOdds": 2.09,
+     "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -1157,7 +1217,7 @@
     "h2h": {
      "outcome": "Nebraska Cornhuskers",
      "bestOdds": 1.0,
-     "otherOdds": 91.0,
+     "otherOdds": 81.0,
      "bookCount": "1",
      "favSide": "home",
      "source": "oddsapi"
@@ -1185,9 +1245,9 @@
    "markets": {
     "h2h": {
      "outcome": "Memphis Tigers",
-     "bestOdds": 1.57,
-     "otherOdds": 2.85,
-     "bookCount": "5",
+     "bestOdds": 1.61,
+     "otherOdds": 2.57,
+     "bookCount": "11",
      "favSide": "away",
      "source": "oddsapi"
     }
@@ -1214,15 +1274,43 @@
    "markets": {
     "h2h": {
      "outcome": "BYU Cougars",
-     "bestOdds": 1.53,
-     "otherOdds": 2.8,
-     "bookCount": "3",
+     "bestOdds": 1.74,
+     "otherOdds": 2.3,
+     "bookCount": "11",
      "favSide": "away",
      "source": "oddsapi"
     }
    },
    "espnUrl": null,
    "drawPossible": false
+  },
+  {
+   "id": "brasileirao:401841319",
+   "sport": "brasileirao",
+   "league": "Brazil Serie A",
+   "match": "Corinthians @ Atlético-MG",
+   "home": "Atlético-MG",
+   "away": "Corinthians",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
+   "homeAbbr": "CAM",
+   "awayAbbr": "COR",
+   "startsAt": "2026-11-25T23:00Z",
+   "state": "pre",
+   "_path": "soccer/bra.1",
+   "_eid": "401841319",
+   "_cid": "401841319",
+   "markets": {
+    "h2h": {
+     "outcome": "Atlético-MG",
+     "bestOdds": 2.6,
+     "otherOdds": 2.7,
+     "bookCount": "1",
+     "favSide": "home"
+    }
+   },
+   "espnUrl": null,
+   "drawPossible": true
   },
   {
    "id": "nba:401909318",
@@ -1244,7 +1332,7 @@
     "h2h": {
      "outcome": "Charlotte Hornets",
      "bestOdds": 1.67,
-     "otherOdds": 2.4,
+     "otherOdds": 2.35,
      "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
@@ -1301,7 +1389,7 @@
     "h2h": {
      "outcome": "Boston Bruins",
      "bestOdds": 1.67,
-     "otherOdds": 2.42,
+     "otherOdds": 2.4,
      "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
@@ -1329,7 +1417,7 @@
    "markets": {
     "h2h": {
      "outcome": "Buffalo Sabres",
-     "bestOdds": 1.75,
+     "bestOdds": 1.77,
      "otherOdds": 2.19,
      "bookCount": "12",
      "favSide": "home",
@@ -1358,8 +1446,8 @@
    "markets": {
     "h2h": {
      "outcome": "Carolina Hurricanes",
-     "bestOdds": 1.82,
-     "otherOdds": 2.12,
+     "bestOdds": 1.83,
+     "otherOdds": 2.11,
      "bookCount": "12",
      "favSide": "away",
      "source": "oddsapi"
@@ -1387,7 +1475,7 @@
    "markets": {
     "h2h": {
      "outcome": "Florida Panthers",
-     "bestOdds": 1.8,
+     "bestOdds": 1.83,
      "otherOdds": 2.15,
      "bookCount": "12",
      "favSide": "home",
@@ -1416,8 +1504,8 @@
    "markets": {
     "h2h": {
      "outcome": "New York Islanders",
-     "bestOdds": 1.88,
-     "otherOdds": 2.1,
+     "bestOdds": 1.87,
+     "otherOdds": 2.07,
      "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
@@ -1445,7 +1533,7 @@
    "markets": {
     "h2h": {
      "outcome": "Pittsburgh Penguins",
-     "bestOdds": 1.67,
+     "bestOdds": 1.62,
      "otherOdds": 2.45,
      "bookCount": "12",
      "favSide": "home",
@@ -1474,7 +1562,7 @@
    "markets": {
     "h2h": {
      "outcome": "Washington Capitals",
-     "bestOdds": 1.68,
+     "bestOdds": 1.67,
      "otherOdds": 2.36,
      "bookCount": "12",
      "favSide": "home",
@@ -1503,15 +1591,44 @@
    "markets": {
     "h2h": {
      "outcome": "New Jersey Devils",
-     "bestOdds": 1.66,
+     "bestOdds": 1.65,
      "otherOdds": 2.4,
-     "bookCount": "12",
+     "bookCount": "11",
      "favSide": "away",
      "source": "oddsapi"
     }
    },
    "espnUrl": null,
    "drawPossible": false
+  },
+  {
+   "id": "ligaprof:401933757",
+   "sport": "ligaprof",
+   "league": "Argentina Liga Profesional",
+   "match": "Independiente Rivadavia @ Boca Juniors",
+   "home": "Boca Juniors",
+   "away": "Independiente Rivadavia",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9744.png",
+   "homeAbbr": "CABJ",
+   "awayAbbr": "RIV",
+   "startsAt": "2026-11-26T00:00Z",
+   "state": "pre",
+   "_path": "soccer/arg.1",
+   "_eid": "401933757",
+   "_cid": "401933757",
+   "markets": {
+    "h2h": {
+     "outcome": "Boca Juniors",
+     "bestOdds": 1.56,
+     "otherOdds": 7.0,
+     "bookCount": "8",
+     "favSide": "home",
+     "source": "oddsapi"
+    }
+   },
+   "espnUrl": null,
+   "drawPossible": true
   },
   {
    "id": "nba:401909319",
@@ -1532,7 +1649,7 @@
    "markets": {
     "h2h": {
      "outcome": "New York Knicks",
-     "bestOdds": 1.65,
+     "bestOdds": 1.68,
      "otherOdds": 2.4,
      "bookCount": "12",
      "favSide": "home",
@@ -1561,8 +1678,8 @@
    "markets": {
     "h2h": {
      "outcome": "Oklahoma City Thunder",
-     "bestOdds": 1.85,
-     "otherOdds": 2.08,
+     "bestOdds": 1.81,
+     "otherOdds": 2.14,
      "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
@@ -1590,7 +1707,7 @@
    "markets": {
     "h2h": {
      "outcome": "Detroit Red Wings",
-     "bestOdds": 1.47,
+     "bestOdds": 1.45,
      "otherOdds": 3.03,
      "bookCount": "12",
      "favSide": "home",
@@ -1619,8 +1736,8 @@
    "markets": {
     "h2h": {
      "outcome": "Memphis Grizzlies",
-     "bestOdds": 1.379,
-     "otherOdds": 3.17,
+     "bestOdds": 1.372,
+     "otherOdds": 3.2,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -1647,7 +1764,7 @@
    "markets": {
     "h2h": {
      "outcome": "Milwaukee Bucks",
-     "bestOdds": 1.93,
+     "bestOdds": 1.88,
      "otherOdds": 2.02,
      "bookCount": "11",
      "favSide": "home",
@@ -1676,9 +1793,9 @@
    "markets": {
     "h2h": {
      "outcome": "Los Angeles Rams",
-     "bestOdds": 1.75,
+     "bestOdds": 1.74,
      "otherOdds": 2.2,
-     "bookCount": "11",
+     "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -1706,7 +1823,7 @@
     "h2h": {
      "outcome": "Dallas Stars",
      "bestOdds": 1.61,
-     "otherOdds": 2.48,
+     "otherOdds": 2.49,
      "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
@@ -1734,8 +1851,8 @@
    "markets": {
     "h2h": {
      "outcome": "Minnesota Wild",
-     "bestOdds": 1.7,
-     "otherOdds": 2.32,
+     "bestOdds": 1.71,
+     "otherOdds": 2.3,
      "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
@@ -1743,6 +1860,35 @@
    },
    "espnUrl": null,
    "drawPossible": false
+  },
+  {
+   "id": "ligamx:401931986",
+   "sport": "ligamx",
+   "league": "Liga MX",
+   "match": "Atlas @ Toluca",
+   "home": "Toluca",
+   "away": "Atlas",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/223.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/216.png",
+   "homeAbbr": "TOL",
+   "awayAbbr": "ATS",
+   "startsAt": "2026-11-26T01:00Z",
+   "state": "pre",
+   "_path": "soccer/mex.1",
+   "_eid": "401931986",
+   "_cid": "401931986",
+   "markets": {
+    "h2h": {
+     "outcome": "Toluca",
+     "bestOdds": 1.45,
+     "otherOdds": 6.62,
+     "bookCount": "8",
+     "favSide": "home",
+     "source": "oddsapi"
+    }
+   },
+   "espnUrl": null,
+   "drawPossible": true
   },
   {
    "id": "nba:401909323",
@@ -1764,7 +1910,7 @@
     "h2h": {
      "outcome": "Houston Rockets",
      "bestOdds": 1.28,
-     "otherOdds": 4.25,
+     "otherOdds": 4.4,
      "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
@@ -1792,8 +1938,8 @@
    "markets": {
     "h2h": {
      "outcome": "Colorado Avalanche",
-     "bestOdds": 1.84,
-     "otherOdds": 2.1,
+     "bestOdds": 1.87,
+     "otherOdds": 2.07,
      "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
@@ -1821,9 +1967,9 @@
    "markets": {
     "h2h": {
      "outcome": "Seattle Kraken",
-     "bestOdds": 1.65,
-     "otherOdds": 2.41,
-     "bookCount": "11",
+     "bestOdds": 1.69,
+     "otherOdds": 2.34,
+     "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -1851,8 +1997,8 @@
     "h2h": {
      "outcome": "Golden State Warriors",
      "bestOdds": 1.43,
-     "otherOdds": 3.1,
-     "bookCount": "11",
+     "otherOdds": 3.3,
+     "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -1879,9 +2025,9 @@
    "markets": {
     "h2h": {
      "outcome": "San Antonio Spurs",
-     "bestOdds": 1.67,
-     "otherOdds": 2.41,
-     "bookCount": "11",
+     "bestOdds": 1.68,
+     "otherOdds": 2.3,
+     "bookCount": "12",
      "favSide": "away",
      "source": "oddsapi"
     }
@@ -1909,7 +2055,7 @@
     "h2h": {
      "outcome": "Anaheim Ducks",
      "bestOdds": 1.74,
-     "otherOdds": 2.27,
+     "otherOdds": 2.3,
      "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
@@ -1917,6 +2063,35 @@
    },
    "espnUrl": null,
    "drawPossible": false
+  },
+  {
+   "id": "ligamx:401931998",
+   "sport": "ligamx",
+   "league": "Liga MX",
+   "match": "América @ Monterrey",
+   "home": "Monterrey",
+   "away": "América",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/220.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/227.png",
+   "homeAbbr": "MTY",
+   "awayAbbr": "AME",
+   "startsAt": "2026-11-26T03:10Z",
+   "state": "pre",
+   "_path": "soccer/mex.1",
+   "_eid": "401931998",
+   "_cid": "401931998",
+   "markets": {
+    "h2h": {
+     "outcome": "Monterrey",
+     "bestOdds": 2.3,
+     "otherOdds": 3.25,
+     "bookCount": "8",
+     "favSide": "home",
+     "source": "oddsapi"
+    }
+   },
+   "espnUrl": null,
+   "drawPossible": true
   },
   {
    "id": "wta:186835",
@@ -2053,7 +2228,7 @@
    "markets": {
     "h2h": {
      "outcome": "AFC Bournemouth",
-     "bestOdds": 2.05,
+     "bestOdds": 2.1,
      "otherOdds": 3.75,
      "bookCount": "10",
      "favSide": "away",
@@ -2082,8 +2257,8 @@
    "markets": {
     "h2h": {
      "outcome": "Bayer Leverkusen",
-     "bestOdds": 1.71,
-     "otherOdds": 4.47,
+     "bestOdds": 1.69,
+     "otherOdds": 4.5,
      "bookCount": "10",
      "favSide": "away",
      "source": "oddsapi"
@@ -2111,8 +2286,8 @@
    "markets": {
     "h2h": {
      "outcome": "Marseille",
-     "bestOdds": 1.377,
-     "otherOdds": 7.5,
+     "bestOdds": 1.364,
+     "otherOdds": 8.0,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -2140,7 +2315,7 @@
     "h2h": {
      "outcome": "AC Milan",
      "bestOdds": 2.45,
-     "otherOdds": 2.9,
+     "otherOdds": 2.85,
      "bookCount": "1",
      "favSide": "away"
     }
@@ -2167,8 +2342,8 @@
    "markets": {
     "h2h": {
      "outcome": "RB Salzburg",
-     "bestOdds": 1.182,
-     "otherOdds": 13.0,
+     "bestOdds": 1.167,
+     "otherOdds": 14.0,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -2223,8 +2398,8 @@
    "markets": {
     "h2h": {
      "outcome": "Benfica",
-     "bestOdds": 1.49,
-     "otherOdds": 5.8,
+     "bestOdds": 1.5,
+     "otherOdds": 6.0,
      "bookCount": "10",
      "favSide": "away",
      "source": "oddsapi"
@@ -2252,9 +2427,9 @@
    "markets": {
     "h2h": {
      "outcome": "Chicago Bears",
-     "bestOdds": 1.83,
-     "otherOdds": 2.12,
-     "bookCount": "11",
+     "bestOdds": 1.85,
+     "otherOdds": 2.1,
+     "bookCount": "12",
      "favSide": "away",
      "source": "oddsapi"
     }
@@ -2558,8 +2733,8 @@
    "markets": {
     "h2h": {
      "outcome": "TSG Hoffenheim",
-     "bestOdds": 1.36,
-     "otherOdds": 8.0,
+     "bestOdds": 1.35,
+     "otherOdds": 8.5,
      "bookCount": "10",
      "favSide": "home",
      "source": "oddsapi"
@@ -2587,8 +2762,8 @@
    "markets": {
     "h2h": {
      "outcome": "Iowa State Cyclones",
-     "bestOdds": 1.83,
-     "otherOdds": 2.0,
+     "bestOdds": 1.85,
+     "otherOdds": 1.98,
      "bookCount": "1",
      "favSide": "home",
      "source": "oddsapi"
@@ -2616,9 +2791,9 @@
    "markets": {
     "h2h": {
      "outcome": "Miami Hurricanes",
-     "bestOdds": 1.62,
+     "bestOdds": 1.64,
      "otherOdds": 2.36,
-     "bookCount": "1",
+     "bookCount": "3",
      "favSide": "away",
      "source": "oddsapi"
     }
@@ -2686,8 +2861,8 @@
     "h2h": {
      "outcome": "Dallas Cowboys",
      "bestOdds": 1.23,
-     "otherOdds": 4.8,
-     "bookCount": "11",
+     "otherOdds": 4.75,
+     "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -2716,6 +2891,35 @@
    "drawPossible": false
   },
   {
+   "id": "brasileirao:401841329",
+   "sport": "brasileirao",
+   "league": "Brazil Serie A",
+   "match": "Remo @ São Paulo",
+   "home": "São Paulo",
+   "away": "Remo",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
+   "homeAbbr": "SAO",
+   "awayAbbr": "REMO",
+   "startsAt": "2026-11-26T23:00Z",
+   "state": "pre",
+   "_path": "soccer/bra.1",
+   "_eid": "401841329",
+   "_cid": "401841329",
+   "markets": {
+    "h2h": {
+     "outcome": "São Paulo",
+     "bestOdds": 1.4,
+     "otherOdds": 8.4,
+     "bookCount": "9",
+     "favSide": "home",
+     "source": "oddsapi"
+    }
+   },
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
    "id": "ncaab:401918972",
    "sport": "ncaab",
    "league": "NCAAB",
@@ -2734,6 +2938,64 @@
    "markets": {},
    "espnUrl": null,
    "drawPossible": false
+  },
+  {
+   "id": "ncaaf:401856879",
+   "sport": "ncaaf",
+   "league": "NCAAF",
+   "match": "TCU Horned Frogs @ Texas Tech Red Raiders",
+   "home": "Texas Tech Red Raiders",
+   "away": "TCU Horned Frogs",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2628.png",
+   "homeAbbr": "TTU",
+   "awayAbbr": "TCU",
+   "startsAt": "2026-11-27T01:00Z",
+   "state": "pre",
+   "_path": "football/college-football",
+   "_eid": "401856879",
+   "_cid": "401856879",
+   "markets": {
+    "h2h": {
+     "outcome": "Texas Tech Red Raiders",
+     "bestOdds": 1.16,
+     "otherOdds": 6.25,
+     "bookCount": "12",
+     "favSide": "home",
+     "source": "oddsapi"
+    }
+   },
+   "espnUrl": null,
+   "drawPossible": false
+  },
+  {
+   "id": "ligamx:401931982",
+   "sport": "ligamx",
+   "league": "Liga MX",
+   "match": "Guadalajara @ Pachuca",
+   "home": "Pachuca",
+   "away": "Guadalajara",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/234.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/219.png",
+   "homeAbbr": "PAC",
+   "awayAbbr": "GDL",
+   "startsAt": "2026-11-27T01:00Z",
+   "state": "pre",
+   "_path": "soccer/mex.1",
+   "_eid": "401931982",
+   "_cid": "401931982",
+   "markets": {
+    "h2h": {
+     "outcome": "Guadalajara",
+     "bestOdds": 2.65,
+     "otherOdds": 2.74,
+     "bookCount": "8",
+     "favSide": "away",
+     "source": "oddsapi"
+    }
+   },
+   "espnUrl": null,
+   "drawPossible": true
   },
   {
    "id": "nfl:401873082",
@@ -2756,9 +3018,152 @@
      "outcome": "Buffalo Bills",
      "bestOdds": 1.69,
      "otherOdds": 2.3,
-     "bookCount": "11",
+     "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
+    }
+   },
+   "espnUrl": null,
+   "drawPossible": false
+  },
+  {
+   "id": "ncaab:401920530",
+   "sport": "ncaab",
+   "league": "NCAAB",
+   "match": "St. John's Red Storm @ Louisville Cardinals",
+   "home": "Louisville Cardinals",
+   "away": "St. John's Red Storm",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2599.png",
+   "homeAbbr": "LOU",
+   "awayAbbr": "SJU",
+   "startsAt": "2026-11-27T02:00Z",
+   "state": "pre",
+   "_path": "basketball/mens-college-basketball",
+   "_eid": "401920530",
+   "_cid": "401920530",
+   "markets": {
+    "h2h": {
+     "outcome": "St. John's Red Storm",
+     "bestOdds": 1.49,
+     "otherOdds": 2.7,
+     "bookCount": "3",
+     "favSide": "away",
+     "source": "oddsapi"
+    }
+   },
+   "espnUrl": null,
+   "drawPossible": false
+  },
+  {
+   "id": "ncaab:401920539",
+   "sport": "ncaab",
+   "league": "NCAAB",
+   "match": "Kansas State Wildcats @ Alabama Crimson Tide",
+   "home": "Alabama Crimson Tide",
+   "away": "Kansas State Wildcats",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/333.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2306.png",
+   "homeAbbr": "ALA",
+   "awayAbbr": "KSU",
+   "startsAt": "2026-11-27T02:00Z",
+   "state": "pre",
+   "_path": "basketball/mens-college-basketball",
+   "_eid": "401920539",
+   "_cid": "401920539",
+   "markets": {
+    "h2h": {
+     "outcome": "Alabama Crimson Tide",
+     "bestOdds": 1.133,
+     "otherOdds": 6.25,
+     "bookCount": "1",
+     "favSide": "home"
+    }
+   },
+   "espnUrl": null,
+   "drawPossible": false
+  },
+  {
+   "id": "ligamx:401931995",
+   "sport": "ligamx",
+   "league": "Liga MX",
+   "match": "Cruz Azul @ León",
+   "home": "León",
+   "away": "Cruz Azul",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/228.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/218.png",
+   "homeAbbr": "LEO",
+   "awayAbbr": "CAZ",
+   "startsAt": "2026-11-27T03:10Z",
+   "state": "pre",
+   "_path": "soccer/mex.1",
+   "_eid": "401931995",
+   "_cid": "401931995",
+   "markets": {
+    "h2h": {
+     "outcome": "Cruz Azul",
+     "bestOdds": 2.21,
+     "otherOdds": 3.15,
+     "bookCount": "8",
+     "favSide": "away",
+     "source": "oddsapi"
+    }
+   },
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "ncaab:401920531",
+   "sport": "ncaab",
+   "league": "NCAAB",
+   "match": "Texas Tech Red Raiders @ Oregon Ducks",
+   "home": "Oregon Ducks",
+   "away": "Texas Tech Red Raiders",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
+   "homeAbbr": "ORE",
+   "awayAbbr": "TTU",
+   "startsAt": "2026-11-27T04:30Z",
+   "state": "pre",
+   "_path": "basketball/mens-college-basketball",
+   "_eid": "401920531",
+   "_cid": "401920531",
+   "markets": {
+    "h2h": {
+     "outcome": "Texas Tech Red Raiders",
+     "bestOdds": 1.23,
+     "otherOdds": 4.4,
+     "bookCount": "1",
+     "favSide": "away",
+     "source": "oddsapi"
+    }
+   },
+   "espnUrl": null,
+   "drawPossible": false
+  },
+  {
+   "id": "ncaab:401920540",
+   "sport": "ncaab",
+   "league": "NCAAB",
+   "match": "Gonzaga Bulldogs @ Baylor Bears",
+   "home": "Baylor Bears",
+   "away": "Gonzaga Bulldogs",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/239.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2250.png",
+   "homeAbbr": "BAY",
+   "awayAbbr": "GONZ",
+   "startsAt": "2026-11-27T04:30Z",
+   "state": "pre",
+   "_path": "basketball/mens-college-basketball",
+   "_eid": "401920540",
+   "_cid": "401920540",
+   "markets": {
+    "h2h": {
+     "outcome": "Gonzaga Bulldogs",
+     "bestOdds": 1.444,
+     "otherOdds": 2.85,
+     "bookCount": "1",
+     "favSide": "away"
     }
    },
    "espnUrl": null,
@@ -2897,6 +3302,91 @@
    "noMarketOk": true
   },
   {
+   "id": "superlig:401888241",
+   "sport": "superlig",
+   "league": "Turkish Super Lig",
+   "match": "Konyaspor @ Alanyaspor",
+   "home": "Alanyaspor",
+   "away": "Konyaspor",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
+   "homeAbbr": "ALA",
+   "awayAbbr": "KNY",
+   "startsAt": "2026-11-27T17:00Z",
+   "state": "pre",
+   "_path": "soccer/tur.1",
+   "_eid": "401888241",
+   "_cid": "401888241",
+   "markets": {
+    "h2h": {
+     "outcome": "Alanyaspor",
+     "bestOdds": 2.55,
+     "otherOdds": 2.75,
+     "bookCount": "1",
+     "favSide": "home"
+    }
+   },
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "superlig:401888240",
+   "sport": "superlig",
+   "league": "Turkish Super Lig",
+   "match": "Kasimpasa @ Caykur Rizespor",
+   "home": "Caykur Rizespor",
+   "away": "Kasimpasa",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
+   "homeAbbr": "CAY",
+   "awayAbbr": "KAS",
+   "startsAt": "2026-11-27T17:00Z",
+   "state": "pre",
+   "_path": "soccer/tur.1",
+   "_eid": "401888240",
+   "_cid": "401888240",
+   "markets": {
+    "h2h": {
+     "outcome": "Caykur Rizespor",
+     "bestOdds": 1.87,
+     "otherOdds": 3.7,
+     "bookCount": "1",
+     "favSide": "home"
+    }
+   },
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "eredivisie:401875536",
+   "sport": "eredivisie",
+   "league": "Dutch Eredivisie",
+   "match": "Willem II @ FC Groningen",
+   "home": "FC Groningen",
+   "away": "Willem II",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/145.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/156.png",
+   "homeAbbr": "GRO",
+   "awayAbbr": "WIL",
+   "startsAt": "2026-11-27T19:00Z",
+   "state": "pre",
+   "_path": "soccer/ned.1",
+   "_eid": "401875536",
+   "_cid": "401875536",
+   "markets": {
+    "h2h": {
+     "outcome": "FC Groningen",
+     "bestOdds": 1.43,
+     "otherOdds": 7.0,
+     "bookCount": "9",
+     "favSide": "home",
+     "source": "oddsapi"
+    }
+   },
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
    "id": "bundesliga:401884720",
    "sport": "bundesliga",
    "league": "Bundesliga",
@@ -3002,7 +3492,7 @@
    "markets": {
     "h2h": {
      "outcome": "Nottingham Forest",
-     "bestOdds": 2.63,
+     "bestOdds": 2.6,
      "otherOdds": 2.83,
      "bookCount": "11",
      "favSide": "home",
@@ -3041,6 +3531,63 @@
    "drawPossible": true
   },
   {
+   "id": "ligapt:401885389",
+   "sport": "ligapt",
+   "league": "Portugal Primeira Liga",
+   "match": "C.D. Nacional @ Maritimo",
+   "home": "Maritimo",
+   "away": "C.D. Nacional",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/552.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3472.png",
+   "homeAbbr": "MAR",
+   "awayAbbr": "CDN",
+   "startsAt": "2026-11-27T20:15Z",
+   "state": "pre",
+   "_path": "soccer/por.1",
+   "_eid": "401885389",
+   "_cid": "401885389",
+   "markets": {
+    "h2h": {
+     "outcome": "Maritimo",
+     "bestOdds": 2.05,
+     "otherOdds": 3.55,
+     "bookCount": "1",
+     "favSide": "home"
+    }
+   },
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "brasileirao:401841337",
+   "sport": "brasileirao",
+   "league": "Brazil Serie A",
+   "match": "Cruzeiro @ Fluminense",
+   "home": "Fluminense",
+   "away": "Cruzeiro",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
+   "homeAbbr": "FLU",
+   "awayAbbr": "CRU",
+   "startsAt": "2026-11-27T23:00Z",
+   "state": "pre",
+   "_path": "soccer/bra.1",
+   "_eid": "401841337",
+   "_cid": "401841337",
+   "markets": {
+    "h2h": {
+     "outcome": "Fluminense",
+     "bestOdds": 2.1,
+     "otherOdds": 3.42,
+     "bookCount": "10",
+     "favSide": "home",
+     "source": "oddsapi"
+    }
+   },
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
    "id": "mls:401933727",
    "sport": "mls",
    "league": "MLS",
@@ -3060,7 +3607,7 @@
     "h2h": {
      "outcome": "Inter Miami CF",
      "bestOdds": 2.45,
-     "otherOdds": 2.61,
+     "otherOdds": 2.63,
      "bookCount": "11",
      "favSide": "away",
      "source": "oddsapi"
@@ -3172,6 +3719,26 @@
    "drawPossible": true
   },
   {
+   "id": "superlig:401888236",
+   "sport": "superlig",
+   "league": "Turkish Super Lig",
+   "match": "Genclerbirligi @ Samsunspor",
+   "home": "Samsunspor",
+   "away": "Genclerbirligi",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
+   "homeAbbr": "SAM",
+   "awayAbbr": "GEN",
+   "startsAt": "2026-11-28T13:00Z",
+   "state": "pre",
+   "_path": "soccer/tur.1",
+   "_eid": "401888236",
+   "_cid": "401888236",
+   "markets": {},
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
    "id": "seriea:401875081",
    "sport": "seriea",
    "league": "Serie A",
@@ -3190,8 +3757,8 @@
    "markets": {
     "h2h": {
      "outcome": "Frosinone",
-     "bestOdds": 1.55,
-     "otherOdds": 5.6,
+     "bestOdds": 1.5,
+     "otherOdds": 6.0,
      "bookCount": "11",
      "favSide": "home",
      "source": "oddsapi"
@@ -3219,8 +3786,8 @@
    "markets": {
     "h2h": {
      "outcome": "FC Cologne",
-     "bestOdds": 1.952,
-     "otherOdds": 3.25,
+     "bestOdds": 2.0,
+     "otherOdds": 3.3,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -3267,7 +3834,7 @@
    "markets": {
     "h2h": {
      "outcome": "Mainz",
-     "bestOdds": 1.465,
+     "bestOdds": 1.476,
      "otherOdds": 5.5,
      "bookCount": "1",
      "favSide": "home"
@@ -3295,7 +3862,7 @@
    "markets": {
     "h2h": {
      "outcome": "SC Paderborn 07",
-     "bestOdds": 2.35,
+     "bestOdds": 2.4,
      "otherOdds": 2.75,
      "bookCount": "1",
      "favSide": "home"
@@ -3391,6 +3958,121 @@
    "drawPossible": true
   },
   {
+   "id": "ligapt:401885392",
+   "sport": "ligapt",
+   "league": "Portugal Primeira Liga",
+   "match": "Rio Ave @ Arouca",
+   "home": "Arouca",
+   "away": "Rio Ave",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/15784.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3822.png",
+   "homeAbbr": "FCA",
+   "awayAbbr": "RAFC",
+   "startsAt": "2026-11-28T15:30Z",
+   "state": "pre",
+   "_path": "soccer/por.1",
+   "_eid": "401885392",
+   "_cid": "401885392",
+   "markets": {
+    "h2h": {
+     "outcome": "Arouca",
+     "bestOdds": 1.69,
+     "otherOdds": 5.25,
+     "bookCount": "8",
+     "favSide": "home",
+     "source": "oddsapi"
+    }
+   },
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "ligapt:401885388",
+   "sport": "ligapt",
+   "league": "Portugal Primeira Liga",
+   "match": "Santa Clara @ Moreirense",
+   "home": "Moreirense",
+   "away": "Santa Clara",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3696.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/12215.png",
+   "homeAbbr": "MFC",
+   "awayAbbr": "CDSC",
+   "startsAt": "2026-11-28T15:30Z",
+   "state": "pre",
+   "_path": "soccer/por.1",
+   "_eid": "401885388",
+   "_cid": "401885388",
+   "markets": {
+    "h2h": {
+     "outcome": "Santa Clara",
+     "bestOdds": 2.41,
+     "otherOdds": 3.2,
+     "bookCount": "8",
+     "favSide": "away",
+     "source": "oddsapi"
+    }
+   },
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "eredivisie:401875537",
+   "sport": "eredivisie",
+   "league": "Dutch Eredivisie",
+   "match": "Telstar @ Excelsior",
+   "home": "Excelsior",
+   "away": "Telstar",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2566.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3735.png",
+   "homeAbbr": "EXC",
+   "awayAbbr": "TEL",
+   "startsAt": "2026-11-28T15:30Z",
+   "state": "pre",
+   "_path": "soccer/ned.1",
+   "_eid": "401875537",
+   "_cid": "401875537",
+   "markets": {
+    "h2h": {
+     "outcome": "Excelsior",
+     "bestOdds": 2.03,
+     "otherOdds": 3.8,
+     "bookCount": "9",
+     "favSide": "home",
+     "source": "oddsapi"
+    }
+   },
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "superlig:401888368",
+   "sport": "superlig",
+   "league": "Turkish Super Lig",
+   "match": "Amed SFK @ Gaziantep FK",
+   "home": "Gaziantep FK",
+   "away": "Amed SFK",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/132335.png",
+   "homeAbbr": "GAZ",
+   "awayAbbr": "AMED",
+   "startsAt": "2026-11-28T16:00Z",
+   "state": "pre",
+   "_path": "soccer/tur.1",
+   "_eid": "401888368",
+   "_cid": "401888368",
+   "markets": {
+    "h2h": {
+     "outcome": "Amed SFK",
+     "bestOdds": 2.0,
+     "otherOdds": 3.3,
+     "bookCount": "1",
+     "favSide": "away"
+    }
+   },
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
    "id": "ligue1:401876394",
    "sport": "ligue1",
    "league": "Ligue 1",
@@ -3409,8 +4091,8 @@
    "markets": {
     "h2h": {
      "outcome": "Lens",
-     "bestOdds": 1.69,
-     "otherOdds": 4.5,
+     "bestOdds": 1.645,
+     "otherOdds": 4.7,
      "bookCount": "1",
      "favSide": "away"
     }
@@ -3466,8 +4148,8 @@
    "markets": {
     "h2h": {
      "outcome": "Aston Villa",
-     "bestOdds": 1.95,
-     "otherOdds": 3.82,
+     "bestOdds": 1.97,
+     "otherOdds": 3.64,
      "bookCount": "11",
      "favSide": "away",
      "source": "oddsapi"
@@ -3555,8 +4237,66 @@
      "outcome": "Chicago Fire FC",
      "bestOdds": 2.38,
      "otherOdds": 2.84,
-     "bookCount": "10",
+     "bookCount": "11",
      "favSide": "away",
+     "source": "oddsapi"
+    }
+   },
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "eredivisie:401875531",
+   "sport": "eredivisie",
+   "league": "Dutch Eredivisie",
+   "match": "Go Ahead Eagles @ PSV Eindhoven",
+   "home": "PSV Eindhoven",
+   "away": "Go Ahead Eagles",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/148.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3706.png",
+   "homeAbbr": "PSV",
+   "awayAbbr": "GAE",
+   "startsAt": "2026-11-28T17:45Z",
+   "state": "pre",
+   "_path": "soccer/ned.1",
+   "_eid": "401875531",
+   "_cid": "401875531",
+   "markets": {
+    "h2h": {
+     "outcome": "PSV Eindhoven",
+     "bestOdds": 1.27,
+     "otherOdds": 9.5,
+     "bookCount": "9",
+     "favSide": "home",
+     "source": "oddsapi"
+    }
+   },
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "ligapt:401885393",
+   "sport": "ligapt",
+   "league": "Portugal Primeira Liga",
+   "match": "Alverca @ Académico de Viseu",
+   "home": "Académico de Viseu",
+   "away": "Alverca",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/21607.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/21613.png",
+   "homeAbbr": "ACV",
+   "awayAbbr": "ALV",
+   "startsAt": "2026-11-28T18:00Z",
+   "state": "pre",
+   "_path": "soccer/por.1",
+   "_eid": "401885393",
+   "_cid": "401885393",
+   "markets": {
+    "h2h": {
+     "outcome": "Académico de Viseu",
+     "bestOdds": 2.65,
+     "otherOdds": 2.86,
+     "bookCount": "8",
+     "favSide": "home",
      "source": "oddsapi"
     }
    },
@@ -3582,9 +4322,9 @@
    "markets": {
     "h2h": {
      "outcome": "Houston Dynamo FC",
-     "bestOdds": 1.83,
-     "otherOdds": 3.85,
-     "bookCount": "1",
+     "bestOdds": 1.91,
+     "otherOdds": 4.0,
+     "bookCount": "10",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -3668,8 +4408,8 @@
    "markets": {
     "h2h": {
      "outcome": "Lille",
-     "bestOdds": 2.05,
-     "otherOdds": 3.95,
+     "bestOdds": 2.08,
+     "otherOdds": 3.85,
      "bookCount": "10",
      "favSide": "away",
      "source": "oddsapi"
@@ -3755,11 +4495,68 @@
    "markets": {
     "h2h": {
      "outcome": "Real Madrid",
-     "bestOdds": 1.16,
-     "otherOdds": 16.0,
+     "bestOdds": 1.15,
+     "otherOdds": 17.0,
      "bookCount": "9",
      "favSide": "home",
      "source": "oddsapi"
+    }
+   },
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "eredivisie:401875530",
+   "sport": "eredivisie",
+   "league": "Dutch Eredivisie",
+   "match": "Sparta Rotterdam @ SC Cambuur",
+   "home": "SC Cambuur",
+   "away": "Sparta Rotterdam",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3736.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/151.png",
+   "homeAbbr": "CAM",
+   "awayAbbr": "SPA",
+   "startsAt": "2026-11-28T20:00Z",
+   "state": "pre",
+   "_path": "soccer/ned.1",
+   "_eid": "401875530",
+   "_cid": "401875530",
+   "markets": {
+    "h2h": {
+     "outcome": "SC Cambuur",
+     "bestOdds": 2.2,
+     "otherOdds": 3.0,
+     "bookCount": "9",
+     "favSide": "home",
+     "source": "oddsapi"
+    }
+   },
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "ligapt:401885385",
+   "sport": "ligapt",
+   "league": "Portugal Primeira Liga",
+   "match": "Estrela @ Vitória de Guimaraes",
+   "home": "Vitória de Guimaraes",
+   "away": "Estrela",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5309.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/21610.png",
+   "homeAbbr": "VSC",
+   "awayAbbr": "EST",
+   "startsAt": "2026-11-28T20:30Z",
+   "state": "pre",
+   "_path": "soccer/por.1",
+   "_eid": "401885385",
+   "_cid": "401885385",
+   "markets": {
+    "h2h": {
+     "outcome": "Vitória de Guimaraes",
+     "bestOdds": 1.69,
+     "otherOdds": 4.5,
+     "bookCount": "1",
+     "favSide": "home"
     }
    },
    "espnUrl": null,
@@ -3786,7 +4583,7 @@
      "outcome": "Philadelphia Union",
      "bestOdds": 1.56,
      "otherOdds": 5.6,
-     "bookCount": "10",
+     "bookCount": "11",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -3815,11 +4612,60 @@
      "outcome": "Nashville SC",
      "bestOdds": 2.18,
      "otherOdds": 3.32,
-     "bookCount": "9",
+     "bookCount": "11",
      "favSide": "away",
      "source": "oddsapi"
     }
    },
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "brasileirao:401841336",
+   "sport": "brasileirao",
+   "league": "Brazil Serie A",
+   "match": "Bahia @ Botafogo",
+   "home": "Botafogo",
+   "away": "Bahia",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
+   "homeAbbr": "BOT",
+   "awayAbbr": "BAH",
+   "startsAt": "2026-11-29T00:00Z",
+   "state": "pre",
+   "_path": "soccer/bra.1",
+   "_eid": "401841336",
+   "_cid": "401841336",
+   "markets": {
+    "h2h": {
+     "outcome": "Botafogo",
+     "bestOdds": 2.07,
+     "otherOdds": 3.37,
+     "bookCount": "9",
+     "favSide": "home",
+     "source": "oddsapi"
+    }
+   },
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "ligamx:401931997",
+   "sport": "ligamx",
+   "league": "Liga MX",
+   "match": "Toluca @ Atlas",
+   "home": "Atlas",
+   "away": "Toluca",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/216.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/223.png",
+   "homeAbbr": "ATS",
+   "awayAbbr": "TOL",
+   "startsAt": "2026-11-29T01:00Z",
+   "state": "pre",
+   "_path": "soccer/mex.1",
+   "_eid": "401931997",
+   "_cid": "401931997",
+   "markets": {},
    "espnUrl": null,
    "drawPossible": true
   },
@@ -3842,12 +4688,32 @@
    "markets": {
     "h2h": {
      "outcome": "LAFC",
-     "bestOdds": 1.645,
-     "otherOdds": 4.2,
+     "bestOdds": 1.625,
+     "otherOdds": 4.3,
      "bookCount": "1",
      "favSide": "home"
     }
    },
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "ligamx:401931996",
+   "sport": "ligamx",
+   "league": "Liga MX",
+   "match": "Monterrey @ América",
+   "home": "América",
+   "away": "Monterrey",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/227.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/220.png",
+   "homeAbbr": "AME",
+   "awayAbbr": "MTY",
+   "startsAt": "2026-11-29T03:10Z",
+   "state": "pre",
+   "_path": "soccer/mex.1",
+   "_eid": "401931996",
+   "_cid": "401931996",
+   "markets": {},
    "espnUrl": null,
    "drawPossible": true
   },
@@ -3872,7 +4738,7 @@
      "outcome": "Portland Timbers",
      "bestOdds": 2.13,
      "otherOdds": 3.15,
-     "bookCount": "10",
+     "bookCount": "11",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -3925,6 +4791,64 @@
    "noMarketOk": true
   },
   {
+   "id": "superlig:401888367",
+   "sport": "superlig",
+   "league": "Turkish Super Lig",
+   "match": "Kocaelispor @ Çorum FK",
+   "home": "Çorum FK",
+   "away": "Kocaelispor",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
+   "homeAbbr": "COR",
+   "awayAbbr": "KOC",
+   "startsAt": "2026-11-29T10:30Z",
+   "state": "pre",
+   "_path": "soccer/tur.1",
+   "_eid": "401888367",
+   "_cid": "401888367",
+   "markets": {
+    "h2h": {
+     "outcome": "Çorum FK",
+     "bestOdds": 1.91,
+     "otherOdds": 4.22,
+     "bookCount": "7",
+     "favSide": "home",
+     "source": "oddsapi"
+    }
+   },
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "eredivisie:401875538",
+   "sport": "eredivisie",
+   "league": "Dutch Eredivisie",
+   "match": "FC Utrecht @ ADO Den Haag",
+   "home": "ADO Den Haag",
+   "away": "FC Utrecht",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2726.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/153.png",
+   "homeAbbr": "ADO",
+   "awayAbbr": "UTR",
+   "startsAt": "2026-11-29T11:15Z",
+   "state": "pre",
+   "_path": "soccer/ned.1",
+   "_eid": "401875538",
+   "_cid": "401875538",
+   "markets": {
+    "h2h": {
+     "outcome": "FC Utrecht",
+     "bestOdds": 2.47,
+     "otherOdds": 2.75,
+     "bookCount": "8",
+     "favSide": "away",
+     "source": "oddsapi"
+    }
+   },
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
    "id": "seriea:401875031",
    "sport": "seriea",
    "league": "Serie A",
@@ -3944,7 +4868,7 @@
     "h2h": {
      "outcome": "Fiorentina",
      "bestOdds": 2.32,
-     "otherOdds": 3.1,
+     "otherOdds": 3.2,
      "bookCount": "11",
      "favSide": "away",
      "source": "oddsapi"
@@ -3973,7 +4897,7 @@
     "h2h": {
      "outcome": "Liverpool",
      "bestOdds": 1.88,
-     "otherOdds": 4.3,
+     "otherOdds": 4.23,
      "bookCount": "11",
      "favSide": "away",
      "source": "oddsapi"
@@ -4001,10 +4925,95 @@
    "markets": {
     "h2h": {
      "outcome": "Valencia",
-     "bestOdds": 2.1,
-     "otherOdds": 3.6,
+     "bestOdds": 2.2,
+     "otherOdds": 3.45,
      "bookCount": "1",
      "favSide": "home"
+    }
+   },
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "superlig:401888242",
+   "sport": "superlig",
+   "league": "Turkish Super Lig",
+   "match": "Istanbul Basaksehir @ Eyupspor",
+   "home": "Eyupspor",
+   "away": "Istanbul Basaksehir",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
+   "homeAbbr": "EYU",
+   "awayAbbr": "IBFK",
+   "startsAt": "2026-11-29T13:00Z",
+   "state": "pre",
+   "_path": "soccer/tur.1",
+   "_eid": "401888242",
+   "_cid": "401888242",
+   "markets": {
+    "h2h": {
+     "outcome": "Istanbul Basaksehir",
+     "bestOdds": 1.5,
+     "otherOdds": 5.5,
+     "bookCount": "1",
+     "favSide": "away"
+    }
+   },
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "eredivisie:401875535",
+   "sport": "eredivisie",
+   "league": "Dutch Eredivisie",
+   "match": "Ajax Amsterdam @ Feyenoord Rotterdam",
+   "home": "Feyenoord Rotterdam",
+   "away": "Ajax Amsterdam",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/142.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/139.png",
+   "homeAbbr": "FEY",
+   "awayAbbr": "AJA",
+   "startsAt": "2026-11-29T13:30Z",
+   "state": "pre",
+   "_path": "soccer/ned.1",
+   "_eid": "401875535",
+   "_cid": "401875535",
+   "markets": {
+    "h2h": {
+     "outcome": "Feyenoord Rotterdam",
+     "bestOdds": 2.15,
+     "otherOdds": 2.85,
+     "bookCount": "1",
+     "favSide": "home"
+    }
+   },
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "eredivisie:401875534",
+   "sport": "eredivisie",
+   "league": "Dutch Eredivisie",
+   "match": "Heerenveen @ Fortuna Sittard",
+   "home": "Fortuna Sittard",
+   "away": "Heerenveen",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/143.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/146.png",
+   "homeAbbr": "FOR",
+   "awayAbbr": "HEE",
+   "startsAt": "2026-11-29T13:30Z",
+   "state": "pre",
+   "_path": "soccer/ned.1",
+   "_eid": "401875534",
+   "_cid": "401875534",
+   "markets": {
+    "h2h": {
+     "outcome": "Heerenveen",
+     "bestOdds": 1.95,
+     "otherOdds": 3.6,
+     "bookCount": "8",
+     "favSide": "away",
+     "source": "oddsapi"
     }
    },
    "espnUrl": null,
@@ -4030,7 +5039,7 @@
     "h2h": {
      "outcome": "Napoli",
      "bestOdds": 1.69,
-     "otherOdds": 4.75,
+     "otherOdds": 5.0,
      "bookCount": "11",
      "favSide": "away",
      "source": "oddsapi"
@@ -4143,8 +5152,8 @@
    "markets": {
     "h2h": {
      "outcome": "AFC Bournemouth",
-     "bestOdds": 2.68,
-     "otherOdds": 2.7,
+     "bestOdds": 2.6,
+     "otherOdds": 2.75,
      "bookCount": "11",
      "favSide": "away",
      "source": "oddsapi"
@@ -4240,6 +5249,63 @@
    "drawPossible": true
   },
   {
+   "id": "eredivisie:401875532",
+   "sport": "eredivisie",
+   "league": "Dutch Eredivisie",
+   "match": "AZ Alkmaar @ PEC Zwolle",
+   "home": "PEC Zwolle",
+   "away": "AZ Alkmaar",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2565.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/140.png",
+   "homeAbbr": "PEC",
+   "awayAbbr": "AZ",
+   "startsAt": "2026-11-29T15:45Z",
+   "state": "pre",
+   "_path": "soccer/ned.1",
+   "_eid": "401875532",
+   "_cid": "401875532",
+   "markets": {
+    "h2h": {
+     "outcome": "AZ Alkmaar",
+     "bestOdds": 1.526,
+     "otherOdds": 5.0,
+     "bookCount": "1",
+     "favSide": "away"
+    }
+   },
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "superlig:401888238",
+   "sport": "superlig",
+   "league": "Turkish Super Lig",
+   "match": "Erzurum BB @ Fenerbahce",
+   "home": "Fenerbahce",
+   "away": "Erzurum BB",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/19267.png",
+   "homeAbbr": "FEN",
+   "awayAbbr": "ERZ",
+   "startsAt": "2026-11-29T16:00Z",
+   "state": "pre",
+   "_path": "soccer/tur.1",
+   "_eid": "401888238",
+   "_cid": "401888238",
+   "markets": {
+    "h2h": {
+     "outcome": "Fenerbahce",
+     "bestOdds": 1.27,
+     "otherOdds": 11.0,
+     "bookCount": "7",
+     "favSide": "home",
+     "source": "oddsapi"
+    }
+   },
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
    "id": "ligue1:401876386",
    "sport": "ligue1",
    "league": "Ligue 1",
@@ -4278,7 +5344,7 @@
    "markets": {
     "h2h": {
      "outcome": "Arsenal",
-     "bestOdds": 2.0,
+     "bestOdds": 1.99,
      "otherOdds": 3.65,
      "bookCount": "11",
      "favSide": "home",
@@ -4307,8 +5373,8 @@
    "markets": {
     "h2h": {
      "outcome": "TSG Hoffenheim",
-     "bestOdds": 1.73,
-     "otherOdds": 4.1,
+     "bestOdds": 1.74,
+     "otherOdds": 4.0,
      "bookCount": "9",
      "favSide": "home",
      "source": "oddsapi"
@@ -4337,7 +5403,7 @@
     "h2h": {
      "outcome": "AS Roma",
      "bestOdds": 1.22,
-     "otherOdds": 13.0,
+     "otherOdds": 15.0,
      "bookCount": "11",
      "favSide": "home",
      "source": "oddsapi"
@@ -4376,6 +5442,35 @@
    "drawPossible": true
   },
   {
+   "id": "ligapt:401885390",
+   "sport": "ligapt",
+   "league": "Portugal Primeira Liga",
+   "match": "Estoril @ Gil Vicente",
+   "home": "Gil Vicente",
+   "away": "Estoril",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3699.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/12216.png",
+   "homeAbbr": "GVFC",
+   "awayAbbr": "EPF",
+   "startsAt": "2026-11-29T18:00Z",
+   "state": "pre",
+   "_path": "soccer/por.1",
+   "_eid": "401885390",
+   "_cid": "401885390",
+   "markets": {
+    "h2h": {
+     "outcome": "Gil Vicente",
+     "bestOdds": 1.85,
+     "otherOdds": 4.3,
+     "bookCount": "8",
+     "favSide": "home",
+     "source": "oddsapi"
+    }
+   },
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
    "id": "bundesliga:401884727",
    "sport": "bundesliga",
    "league": "Bundesliga",
@@ -4399,6 +5494,92 @@
      "bookCount": "10",
      "favSide": "home",
      "source": "oddsapi"
+    }
+   },
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "brasileirao:401841333",
+   "sport": "brasileirao",
+   "league": "Brazil Serie A",
+   "match": "Flamengo @ Coritiba",
+   "home": "Coritiba",
+   "away": "Flamengo",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
+   "homeAbbr": "CFC",
+   "awayAbbr": "FLA",
+   "startsAt": "2026-11-29T19:00Z",
+   "state": "pre",
+   "_path": "soccer/bra.1",
+   "_eid": "401841333",
+   "_cid": "401841333",
+   "markets": {
+    "h2h": {
+     "outcome": "Flamengo",
+     "bestOdds": 1.74,
+     "otherOdds": 4.6,
+     "bookCount": "9",
+     "favSide": "away",
+     "source": "oddsapi"
+    }
+   },
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "brasileirao:401841332",
+   "sport": "brasileirao",
+   "league": "Brazil Serie A",
+   "match": "Santos @ Vitória",
+   "home": "Vitória",
+   "away": "Santos",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
+   "homeAbbr": "VIT",
+   "awayAbbr": "SAN",
+   "startsAt": "2026-11-29T19:00Z",
+   "state": "pre",
+   "_path": "soccer/bra.1",
+   "_eid": "401841332",
+   "_cid": "401841332",
+   "markets": {
+    "h2h": {
+     "outcome": "Santos",
+     "bestOdds": 2.38,
+     "otherOdds": 3.06,
+     "bookCount": "9",
+     "favSide": "away",
+     "source": "oddsapi"
+    }
+   },
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "eredivisie:401875533",
+   "sport": "eredivisie",
+   "league": "Dutch Eredivisie",
+   "match": "FC Twente @ NEC Nijmegen",
+   "home": "NEC Nijmegen",
+   "away": "FC Twente",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/147.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/152.png",
+   "homeAbbr": "NEC",
+   "awayAbbr": "TWE",
+   "startsAt": "2026-11-29T19:00Z",
+   "state": "pre",
+   "_path": "soccer/ned.1",
+   "_eid": "401875533",
+   "_cid": "401875533",
+   "markets": {
+    "h2h": {
+     "outcome": "FC Twente",
+     "bestOdds": 1.8,
+     "otherOdds": 3.55,
+     "bookCount": "1",
+     "favSide": "away"
     }
    },
    "espnUrl": null,
@@ -4492,6 +5673,265 @@
    "drawPossible": true
   },
   {
+   "id": "ligaprof:401936413",
+   "sport": "ligaprof",
+   "league": "Argentina Liga Profesional",
+   "match": "River Plate @ Instituto (Córdoba)",
+   "home": "Instituto (Córdoba)",
+   "away": "River Plate",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2975.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/16.png",
+   "homeAbbr": "IACC",
+   "awayAbbr": "RIV",
+   "startsAt": "2026-11-29T20:00Z",
+   "state": "pre",
+   "_path": "soccer/arg.1",
+   "_eid": "401936413",
+   "_cid": "401936413",
+   "markets": {},
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "ligaprof:401936373",
+   "sport": "ligaprof",
+   "league": "Argentina Liga Profesional",
+   "match": "Barracas Central @ Rosario Central",
+   "home": "Rosario Central",
+   "away": "Barracas Central",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/17.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/10060.png",
+   "homeAbbr": "ROS",
+   "awayAbbr": "BAR",
+   "startsAt": "2026-11-29T20:00Z",
+   "state": "pre",
+   "_path": "soccer/arg.1",
+   "_eid": "401936373",
+   "_cid": "401936373",
+   "markets": {
+    "h2h": {
+     "outcome": "Rosario Central",
+     "bestOdds": 1.53,
+     "otherOdds": 6.75,
+     "bookCount": "5",
+     "favSide": "home",
+     "source": "oddsapi"
+    }
+   },
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "ligaprof:401936353",
+   "sport": "ligaprof",
+   "league": "Argentina Liga Profesional",
+   "match": "Independiente @ Vélez Sarsfield",
+   "home": "Vélez Sarsfield",
+   "away": "Independiente",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/21.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/11.png",
+   "homeAbbr": "VEL",
+   "awayAbbr": "IND",
+   "startsAt": "2026-11-29T20:00Z",
+   "state": "pre",
+   "_path": "soccer/arg.1",
+   "_eid": "401936353",
+   "_cid": "401936353",
+   "markets": {
+    "h2h": {
+     "outcome": "Vélez Sarsfield",
+     "bestOdds": 1.952,
+     "otherOdds": 4.1,
+     "bookCount": "1",
+     "favSide": "home"
+    }
+   },
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "ligapt:401885387",
+   "sport": "ligapt",
+   "league": "Portugal Primeira Liga",
+   "match": "Sporting CP @ FC Porto",
+   "home": "FC Porto",
+   "away": "Sporting CP",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/437.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
+   "homeAbbr": "FCP",
+   "awayAbbr": "SCP",
+   "startsAt": "2026-11-29T20:30Z",
+   "state": "pre",
+   "_path": "soccer/por.1",
+   "_eid": "401885387",
+   "_cid": "401885387",
+   "markets": {
+    "h2h": {
+     "outcome": "FC Porto",
+     "bestOdds": 1.909,
+     "otherOdds": 4.0,
+     "bookCount": "1",
+     "favSide": "home"
+    }
+   },
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "brasileirao:401841334",
+   "sport": "brasileirao",
+   "league": "Brazil Serie A",
+   "match": "Grêmio @ Corinthians",
+   "home": "Corinthians",
+   "away": "Grêmio",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
+   "homeAbbr": "COR",
+   "awayAbbr": "GRE",
+   "startsAt": "2026-11-29T21:30Z",
+   "state": "pre",
+   "_path": "soccer/bra.1",
+   "_eid": "401841334",
+   "_cid": "401841334",
+   "markets": {
+    "h2h": {
+     "outcome": "Corinthians",
+     "bestOdds": 1.74,
+     "otherOdds": 5.5,
+     "bookCount": "3",
+     "favSide": "home",
+     "source": "oddsapi"
+    }
+   },
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "brasileirao:401841331",
+   "sport": "brasileirao",
+   "league": "Brazil Serie A",
+   "match": "Red Bull Bragantino @ Internacional",
+   "home": "Internacional",
+   "away": "Red Bull Bragantino",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
+   "homeAbbr": "INT",
+   "awayAbbr": "BRA",
+   "startsAt": "2026-11-29T21:30Z",
+   "state": "pre",
+   "_path": "soccer/bra.1",
+   "_eid": "401841331",
+   "_cid": "401841331",
+   "markets": {
+    "h2h": {
+     "outcome": "Internacional",
+     "bestOdds": 1.952,
+     "otherOdds": 3.55,
+     "bookCount": "1",
+     "favSide": "home"
+    }
+   },
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "brasileirao:401841330",
+   "sport": "brasileirao",
+   "league": "Brazil Serie A",
+   "match": "Athletico-PR @ Mirassol",
+   "home": "Mirassol",
+   "away": "Athletico-PR",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png",
+   "homeAbbr": "MIR",
+   "awayAbbr": "CAP",
+   "startsAt": "2026-11-29T21:30Z",
+   "state": "pre",
+   "_path": "soccer/bra.1",
+   "_eid": "401841330",
+   "_cid": "401841330",
+   "markets": {
+    "h2h": {
+     "outcome": "Mirassol",
+     "bestOdds": 2.05,
+     "otherOdds": 3.25,
+     "bookCount": "1",
+     "favSide": "home"
+    }
+   },
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "brasileirao:401841328",
+   "sport": "brasileirao",
+   "league": "Brazil Serie A",
+   "match": "Vasco da Gama @ Atlético-MG",
+   "home": "Atlético-MG",
+   "away": "Vasco da Gama",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
+   "homeAbbr": "CAM",
+   "awayAbbr": "VAS",
+   "startsAt": "2026-11-29T22:30Z",
+   "state": "pre",
+   "_path": "soccer/bra.1",
+   "_eid": "401841328",
+   "_cid": "401841328",
+   "markets": {},
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "ligamx:401931983",
+   "sport": "ligamx",
+   "league": "Liga MX",
+   "match": "Pachuca @ Guadalajara",
+   "home": "Guadalajara",
+   "away": "Pachuca",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/219.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/234.png",
+   "homeAbbr": "GDL",
+   "awayAbbr": "PAC",
+   "startsAt": "2026-11-30T01:07Z",
+   "state": "pre",
+   "_path": "soccer/mex.1",
+   "_eid": "401931983",
+   "_cid": "401931983",
+   "markets": {},
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "ligamx:401932000",
+   "sport": "ligamx",
+   "league": "Liga MX",
+   "match": "León @ Cruz Azul",
+   "home": "Cruz Azul",
+   "away": "León",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/218.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/228.png",
+   "homeAbbr": "CAZ",
+   "awayAbbr": "LEO",
+   "startsAt": "2026-11-30T03:00Z",
+   "state": "pre",
+   "_path": "soccer/mex.1",
+   "_eid": "401932000",
+   "_cid": "401932000",
+   "markets": {
+    "h2h": {
+     "outcome": "Cruz Azul",
+     "bestOdds": 1.91,
+     "otherOdds": 3.1,
+     "bookCount": "2",
+     "favSide": "home",
+     "source": "oddsapi"
+    }
+   },
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
    "id": "esports:134591",
    "sport": "esports",
    "league": "Esports",
@@ -4519,6 +5959,35 @@
    "drawPossible": false
   },
   {
+   "id": "superlig:401888239",
+   "sport": "superlig",
+   "league": "Turkish Super Lig",
+   "match": "Trabzonspor @ Goztepe",
+   "home": "Goztepe",
+   "away": "Trabzonspor",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
+   "homeAbbr": "GOZ",
+   "awayAbbr": "TRAB",
+   "startsAt": "2026-11-30T16:00Z",
+   "state": "pre",
+   "_path": "soccer/tur.1",
+   "_eid": "401888239",
+   "_cid": "401888239",
+   "markets": {
+    "h2h": {
+     "outcome": "Trabzonspor",
+     "bestOdds": 2.12,
+     "otherOdds": 3.25,
+     "bookCount": "7",
+     "favSide": "away",
+     "source": "oddsapi"
+    }
+   },
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
    "id": "seriea:401875095",
    "sport": "seriea",
    "league": "Serie A",
@@ -4541,6 +6010,34 @@
      "otherOdds": 3.45,
      "bookCount": "1",
      "favSide": "away"
+    }
+   },
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "superlig:401888237",
+   "sport": "superlig",
+   "league": "Turkish Super Lig",
+   "match": "Galatasaray @ Besiktas",
+   "home": "Besiktas",
+   "away": "Galatasaray",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+   "homeAbbr": "BES",
+   "awayAbbr": "GAL",
+   "startsAt": "2026-11-30T18:00Z",
+   "state": "pre",
+   "_path": "soccer/tur.1",
+   "_eid": "401888237",
+   "_cid": "401888237",
+   "markets": {
+    "h2h": {
+     "outcome": "Besiktas",
+     "bestOdds": 1.952,
+     "otherOdds": 3.35,
+     "bookCount": "1",
+     "favSide": "home"
     }
    },
    "espnUrl": null,
@@ -4605,6 +6102,64 @@
    "drawPossible": true
   },
   {
+   "id": "ligapt:401885386",
+   "sport": "ligapt",
+   "league": "Portugal Primeira Liga",
+   "match": "FC Famalicao @ Benfica",
+   "home": "Benfica",
+   "away": "FC Famalicao",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/1929.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/12698.png",
+   "homeAbbr": "SLB",
+   "awayAbbr": "FCF",
+   "startsAt": "2026-11-30T20:15Z",
+   "state": "pre",
+   "_path": "soccer/por.1",
+   "_eid": "401885386",
+   "_cid": "401885386",
+   "markets": {
+    "h2h": {
+     "outcome": "Benfica",
+     "bestOdds": 1.19,
+     "otherOdds": 15.0,
+     "bookCount": "8",
+     "favSide": "home",
+     "source": "oddsapi"
+    }
+   },
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "ligapt:401885391",
+   "sport": "ligapt",
+   "league": "Portugal Primeira Liga",
+   "match": "Braga @ Casa Pia",
+   "home": "Casa Pia",
+   "away": "Braga",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/21581.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2994.png",
+   "homeAbbr": "CPAC",
+   "awayAbbr": "SCB",
+   "startsAt": "2026-11-30T20:15Z",
+   "state": "pre",
+   "_path": "soccer/por.1",
+   "_eid": "401885391",
+   "_cid": "401885391",
+   "markets": {
+    "h2h": {
+     "outcome": "Braga",
+     "bestOdds": 1.45,
+     "otherOdds": 7.25,
+     "bookCount": "6",
+     "favSide": "away",
+     "source": "oddsapi"
+    }
+   },
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
    "id": "epl:401879221",
    "sport": "epl",
    "league": "EPL",
@@ -4623,7 +6178,7 @@
    "markets": {
     "h2h": {
      "outcome": "Coventry City",
-     "bestOdds": 2.3,
+     "bestOdds": 2.28,
      "otherOdds": 3.05,
      "bookCount": "6",
      "favSide": "home",
@@ -4700,8 +6255,8 @@
    "markets": {
     "h2h": {
      "outcome": "Nottingham Forest",
-     "bestOdds": 1.909,
-     "otherOdds": 3.9,
+     "bestOdds": 1.87,
+     "otherOdds": 4.0,
      "bookCount": "1",
      "favSide": "away"
     }
@@ -4728,8 +6283,8 @@
    "markets": {
     "h2h": {
      "outcome": "Liverpool",
-     "bestOdds": 1.476,
-     "otherOdds": 6.0,
+     "bestOdds": 1.444,
+     "otherOdds": 6.5,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -4813,7 +6368,7 @@
     "h2h": {
      "outcome": "Aston Villa",
      "bestOdds": 2.0,
-     "otherOdds": 3.6,
+     "otherOdds": 3.55,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -4840,7 +6395,7 @@
    "markets": {
     "h2h": {
      "outcome": "Arsenal",
-     "bestOdds": 1.8,
+     "bestOdds": 1.833,
      "otherOdds": 4.2,
      "bookCount": "1",
      "favSide": "away"
@@ -4913,6 +6468,206 @@
    "_path": "soccer/usa.1",
    "_eid": "401933719",
    "_cid": "401933719",
+   "markets": {},
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "brasileirao:401841338",
+   "sport": "brasileirao",
+   "league": "Brazil Serie A",
+   "match": "São Paulo @ Athletico-PR",
+   "home": "Athletico-PR",
+   "away": "São Paulo",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png",
+   "homeAbbr": "CAP",
+   "awayAbbr": "SAO",
+   "startsAt": "2026-12-03T00:30Z",
+   "state": "pre",
+   "_path": "soccer/bra.1",
+   "_eid": "401841338",
+   "_cid": "401841338",
+   "markets": {},
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "brasileirao:401841339",
+   "sport": "brasileirao",
+   "league": "Brazil Serie A",
+   "match": "Atlético-MG @ Bahia",
+   "home": "Bahia",
+   "away": "Atlético-MG",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
+   "homeAbbr": "BAH",
+   "awayAbbr": "CAM",
+   "startsAt": "2026-12-03T00:30Z",
+   "state": "pre",
+   "_path": "soccer/bra.1",
+   "_eid": "401841339",
+   "_cid": "401841339",
+   "markets": {},
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "brasileirao:401841340",
+   "sport": "brasileirao",
+   "league": "Brazil Serie A",
+   "match": "Internacional @ Cruzeiro",
+   "home": "Cruzeiro",
+   "away": "Internacional",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
+   "homeAbbr": "CRU",
+   "awayAbbr": "INT",
+   "startsAt": "2026-12-03T00:30Z",
+   "state": "pre",
+   "_path": "soccer/bra.1",
+   "_eid": "401841340",
+   "_cid": "401841340",
+   "markets": {},
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "brasileirao:401841341",
+   "sport": "brasileirao",
+   "league": "Brazil Serie A",
+   "match": "Chapecoense @ Flamengo",
+   "home": "Flamengo",
+   "away": "Chapecoense",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
+   "homeAbbr": "FLA",
+   "awayAbbr": "CHA",
+   "startsAt": "2026-12-03T00:30Z",
+   "state": "pre",
+   "_path": "soccer/bra.1",
+   "_eid": "401841341",
+   "_cid": "401841341",
+   "markets": {},
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "brasileirao:401841347",
+   "sport": "brasileirao",
+   "league": "Brazil Serie A",
+   "match": "Mirassol @ Grêmio",
+   "home": "Grêmio",
+   "away": "Mirassol",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
+   "homeAbbr": "GRE",
+   "awayAbbr": "MIR",
+   "startsAt": "2026-12-03T00:30Z",
+   "state": "pre",
+   "_path": "soccer/bra.1",
+   "_eid": "401841347",
+   "_cid": "401841347",
+   "markets": {},
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "brasileirao:401841343",
+   "sport": "brasileirao",
+   "league": "Brazil Serie A",
+   "match": "Coritiba @ Palmeiras",
+   "home": "Palmeiras",
+   "away": "Coritiba",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png",
+   "homeAbbr": "PAL",
+   "awayAbbr": "CFC",
+   "startsAt": "2026-12-03T00:30Z",
+   "state": "pre",
+   "_path": "soccer/bra.1",
+   "_eid": "401841343",
+   "_cid": "401841343",
+   "markets": {},
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "brasileirao:401841344",
+   "sport": "brasileirao",
+   "league": "Brazil Serie A",
+   "match": "Fluminense @ Red Bull Bragantino",
+   "home": "Red Bull Bragantino",
+   "away": "Fluminense",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
+   "homeAbbr": "BRA",
+   "awayAbbr": "FLU",
+   "startsAt": "2026-12-03T00:30Z",
+   "state": "pre",
+   "_path": "soccer/bra.1",
+   "_eid": "401841344",
+   "_cid": "401841344",
+   "markets": {},
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "brasileirao:401841345",
+   "sport": "brasileirao",
+   "league": "Brazil Serie A",
+   "match": "Corinthians @ Remo",
+   "home": "Remo",
+   "away": "Corinthians",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
+   "homeAbbr": "REMO",
+   "awayAbbr": "COR",
+   "startsAt": "2026-12-03T00:30Z",
+   "state": "pre",
+   "_path": "soccer/bra.1",
+   "_eid": "401841345",
+   "_cid": "401841345",
+   "markets": {},
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "brasileirao:401841346",
+   "sport": "brasileirao",
+   "league": "Brazil Serie A",
+   "match": "Botafogo @ Santos",
+   "home": "Santos",
+   "away": "Botafogo",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
+   "homeAbbr": "SAN",
+   "awayAbbr": "BOT",
+   "startsAt": "2026-12-03T00:30Z",
+   "state": "pre",
+   "_path": "soccer/bra.1",
+   "_eid": "401841346",
+   "_cid": "401841346",
+   "markets": {},
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "brasileirao:401841342",
+   "sport": "brasileirao",
+   "league": "Brazil Serie A",
+   "match": "Vitória @ Vasco da Gama",
+   "home": "Vasco da Gama",
+   "away": "Vitória",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
+   "homeAbbr": "VAS",
+   "awayAbbr": "VIT",
+   "startsAt": "2026-12-03T00:30Z",
+   "state": "pre",
+   "_path": "soccer/bra.1",
+   "_eid": "401841342",
+   "_cid": "401841342",
    "markets": {},
    "espnUrl": null,
    "drawPossible": true
@@ -5077,11 +6832,51 @@
     "h2h": {
      "outcome": "Tottenham Hotspur",
      "bestOdds": 1.833,
-     "otherOdds": 3.9,
+     "otherOdds": 3.95,
      "bookCount": "1",
      "favSide": "home"
     }
    },
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "superlig:401888231",
+   "sport": "superlig",
+   "league": "Turkish Super Lig",
+   "match": "Caykur Rizespor @ Galatasaray",
+   "home": "Galatasaray",
+   "away": "Caykur Rizespor",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
+   "homeAbbr": "GAL",
+   "awayAbbr": "CAY",
+   "startsAt": "2026-12-04T17:00Z",
+   "state": "pre",
+   "_path": "soccer/tur.1",
+   "_eid": "401888231",
+   "_cid": "401888231",
+   "markets": {},
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "eredivisie:401875522",
+   "sport": "eredivisie",
+   "league": "Dutch Eredivisie",
+   "match": "FC Groningen @ Telstar",
+   "home": "Telstar",
+   "away": "FC Groningen",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3735.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/145.png",
+   "homeAbbr": "TEL",
+   "awayAbbr": "GRO",
+   "startsAt": "2026-12-04T19:00Z",
+   "state": "pre",
+   "_path": "soccer/ned.1",
+   "_eid": "401875522",
+   "_cid": "401875522",
+   "markets": {},
    "espnUrl": null,
    "drawPossible": true
   },
@@ -5104,8 +6899,8 @@
    "markets": {
     "h2h": {
      "outcome": "Bayern Munich",
-     "bestOdds": 1.033,
-     "otherOdds": 17.0,
+     "bestOdds": 1.04,
+     "otherOdds": 16.0,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -5129,7 +6924,15 @@
    "_path": "soccer/ita.1",
    "_eid": "401874984",
    "_cid": "401874984",
-   "markets": {},
+   "markets": {
+    "h2h": {
+     "outcome": "AS Roma",
+     "bestOdds": 1.833,
+     "otherOdds": 3.6,
+     "bookCount": "1",
+     "favSide": "away"
+    }
+   },
    "espnUrl": null,
    "drawPossible": true
   },
@@ -5149,7 +6952,15 @@
    "_path": "soccer/fra.1",
    "_eid": "401876378",
    "_cid": "401876378",
-   "markets": {},
+   "markets": {
+    "h2h": {
+     "outcome": "Paris Saint-Germain",
+     "bestOdds": 1.476,
+     "otherOdds": 5.5,
+     "bookCount": "1",
+     "favSide": "away"
+    }
+   },
    "espnUrl": null,
    "drawPossible": true
   },
@@ -5169,6 +6980,46 @@
    "_path": "soccer/esp.1",
    "_eid": "401882786",
    "_cid": "401882786",
+   "markets": {},
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "ligapt:401885376",
+   "sport": "ligapt",
+   "league": "Portugal Primeira Liga",
+   "match": "Maritimo @ Sporting CP",
+   "home": "Sporting CP",
+   "away": "Maritimo",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/552.png",
+   "homeAbbr": "SCP",
+   "awayAbbr": "MAR",
+   "startsAt": "2026-12-04T20:15Z",
+   "state": "pre",
+   "_path": "soccer/por.1",
+   "_eid": "401885376",
+   "_cid": "401885376",
+   "markets": {},
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "superlig:401888232",
+   "sport": "superlig",
+   "league": "Turkish Super Lig",
+   "match": "Gaziantep FK @ Konyaspor",
+   "home": "Konyaspor",
+   "away": "Gaziantep FK",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
+   "homeAbbr": "KNY",
+   "awayAbbr": "GAZ",
+   "startsAt": "2026-12-05T10:30Z",
+   "state": "pre",
+   "_path": "soccer/tur.1",
+   "_eid": "401888232",
+   "_cid": "401888232",
    "markets": {},
    "espnUrl": null,
    "drawPossible": true
@@ -5214,6 +7065,26 @@
    "drawPossible": true
   },
   {
+   "id": "superlig:401888365",
+   "sport": "superlig",
+   "league": "Turkish Super Lig",
+   "match": "Alanyaspor @ Amed SFK",
+   "home": "Amed SFK",
+   "away": "Alanyaspor",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/132335.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
+   "homeAbbr": "AMED",
+   "awayAbbr": "ALA",
+   "startsAt": "2026-12-05T13:00Z",
+   "state": "pre",
+   "_path": "soccer/tur.1",
+   "_eid": "401888365",
+   "_cid": "401888365",
+   "markets": {},
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
    "id": "seriea:401874975",
    "sport": "seriea",
    "league": "Serie A",
@@ -5229,7 +7100,15 @@
    "_path": "soccer/ita.1",
    "_eid": "401874975",
    "_cid": "401874975",
-   "markets": {},
+   "markets": {
+    "h2h": {
+     "outcome": "Como",
+     "bestOdds": 1.455,
+     "otherOdds": 5.75,
+     "bookCount": "1",
+     "favSide": "away"
+    }
+   },
    "espnUrl": null,
    "drawPossible": true
   },
@@ -5272,8 +7151,8 @@
    "markets": {
     "h2h": {
      "outcome": "Bayer Leverkusen",
-     "bestOdds": 1.256,
-     "otherOdds": 7.5,
+     "bestOdds": 1.27,
+     "otherOdds": 7.0,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -5466,6 +7345,66 @@
    "drawPossible": true
   },
   {
+   "id": "ligapt:401885379",
+   "sport": "ligapt",
+   "league": "Portugal Primeira Liga",
+   "match": "Benfica @ C.D. Nacional",
+   "home": "C.D. Nacional",
+   "away": "Benfica",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3472.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/1929.png",
+   "homeAbbr": "CDN",
+   "awayAbbr": "SLB",
+   "startsAt": "2026-12-05T15:30Z",
+   "state": "pre",
+   "_path": "soccer/por.1",
+   "_eid": "401885379",
+   "_cid": "401885379",
+   "markets": {},
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "eredivisie:401875521",
+   "sport": "eredivisie",
+   "league": "Dutch Eredivisie",
+   "match": "Feyenoord Rotterdam @ Willem II",
+   "home": "Willem II",
+   "away": "Feyenoord Rotterdam",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/156.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/142.png",
+   "homeAbbr": "WIL",
+   "awayAbbr": "FEY",
+   "startsAt": "2026-12-05T15:30Z",
+   "state": "pre",
+   "_path": "soccer/ned.1",
+   "_eid": "401875521",
+   "_cid": "401875521",
+   "markets": {},
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "superlig:401888234",
+   "sport": "superlig",
+   "league": "Turkish Super Lig",
+   "match": "Fenerbahce @ Istanbul Basaksehir",
+   "home": "Istanbul Basaksehir",
+   "away": "Fenerbahce",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
+   "homeAbbr": "IBFK",
+   "awayAbbr": "FEN",
+   "startsAt": "2026-12-05T16:00Z",
+   "state": "pre",
+   "_path": "soccer/tur.1",
+   "_eid": "401888234",
+   "_cid": "401888234",
+   "markets": {},
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
    "id": "ligue1:401876384",
    "sport": "ligue1",
    "league": "Ligue 1",
@@ -5481,7 +7420,15 @@
    "_path": "soccer/fra.1",
    "_eid": "401876384",
    "_cid": "401876384",
-   "markets": {},
+   "markets": {
+    "h2h": {
+     "outcome": "Lille",
+     "bestOdds": 1.5,
+     "otherOdds": 6.0,
+     "bookCount": "1",
+     "favSide": "home"
+    }
+   },
    "espnUrl": null,
    "drawPossible": true
   },
@@ -5501,7 +7448,15 @@
    "_path": "soccer/ita.1",
    "_eid": "401875023",
    "_cid": "401875023",
-   "markets": {},
+   "markets": {
+    "h2h": {
+     "outcome": "Internazionale",
+     "bestOdds": 1.4,
+     "otherOdds": 5.25,
+     "bookCount": "1",
+     "favSide": "away"
+    }
+   },
    "espnUrl": null,
    "drawPossible": true
   },
@@ -5574,6 +7529,66 @@
    "drawPossible": true
   },
   {
+   "id": "eredivisie:401875523",
+   "sport": "eredivisie",
+   "league": "Dutch Eredivisie",
+   "match": "NEC Nijmegen @ Sparta Rotterdam",
+   "home": "Sparta Rotterdam",
+   "away": "NEC Nijmegen",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/151.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/147.png",
+   "homeAbbr": "SPA",
+   "awayAbbr": "NEC",
+   "startsAt": "2026-12-05T17:45Z",
+   "state": "pre",
+   "_path": "soccer/ned.1",
+   "_eid": "401875523",
+   "_cid": "401875523",
+   "markets": {},
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "ligapt:401885377",
+   "sport": "ligapt",
+   "league": "Portugal Primeira Liga",
+   "match": "FC Porto @ Santa Clara",
+   "home": "Santa Clara",
+   "away": "FC Porto",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/12215.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/437.png",
+   "homeAbbr": "CDSC",
+   "awayAbbr": "FCP",
+   "startsAt": "2026-12-05T18:00Z",
+   "state": "pre",
+   "_path": "soccer/por.1",
+   "_eid": "401885377",
+   "_cid": "401885377",
+   "markets": {},
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "eredivisie:401875527",
+   "sport": "eredivisie",
+   "league": "Dutch Eredivisie",
+   "match": "PSV Eindhoven @ AZ Alkmaar",
+   "home": "AZ Alkmaar",
+   "away": "PSV Eindhoven",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/140.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/148.png",
+   "homeAbbr": "AZ",
+   "awayAbbr": "PSV",
+   "startsAt": "2026-12-05T19:00Z",
+   "state": "pre",
+   "_path": "soccer/ned.1",
+   "_eid": "401875527",
+   "_cid": "401875527",
+   "markets": {},
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
    "id": "seriea:401874788",
    "sport": "seriea",
    "league": "Serie A",
@@ -5589,7 +7604,15 @@
    "_path": "soccer/ita.1",
    "_eid": "401874788",
    "_cid": "401874788",
-   "markets": {},
+   "markets": {
+    "h2h": {
+     "outcome": "Napoli",
+     "bestOdds": 1.323,
+     "otherOdds": 7.0,
+     "bookCount": "1",
+     "favSide": "home"
+    }
+   },
    "espnUrl": null,
    "drawPossible": true
   },
@@ -5609,7 +7632,15 @@
    "_path": "soccer/fra.1",
    "_eid": "401876382",
    "_cid": "401876382",
-   "markets": {},
+   "markets": {
+    "h2h": {
+     "outcome": "AS Monaco",
+     "bestOdds": 1.294,
+     "otherOdds": 8.5,
+     "bookCount": "1",
+     "favSide": "home"
+    }
+   },
    "espnUrl": null,
    "drawPossible": true
   },
@@ -5629,7 +7660,15 @@
    "_path": "soccer/fra.1",
    "_eid": "401876385",
    "_cid": "401876385",
-   "markets": {},
+   "markets": {
+    "h2h": {
+     "outcome": "Lens",
+     "bestOdds": 1.444,
+     "otherOdds": 6.0,
+     "bookCount": "1",
+     "favSide": "home"
+    }
+   },
    "espnUrl": null,
    "drawPossible": true
   },
@@ -5649,7 +7688,15 @@
    "_path": "soccer/fra.1",
    "_eid": "401876381",
    "_cid": "401876381",
-   "markets": {},
+   "markets": {
+    "h2h": {
+     "outcome": "Paris FC",
+     "bestOdds": 1.417,
+     "otherOdds": 6.5,
+     "bookCount": "1",
+     "favSide": "home"
+    }
+   },
    "espnUrl": null,
    "drawPossible": true
   },
@@ -5669,7 +7716,15 @@
    "_path": "soccer/fra.1",
    "_eid": "401876379",
    "_cid": "401876379",
-   "markets": {},
+   "markets": {
+    "h2h": {
+     "outcome": "Strasbourg",
+     "bestOdds": 2.05,
+     "otherOdds": 3.55,
+     "bookCount": "1",
+     "favSide": "home"
+    }
+   },
    "espnUrl": null,
    "drawPossible": true
   },
@@ -5709,6 +7764,46 @@
    "_path": "soccer/esp.1",
    "_eid": "401882783",
    "_cid": "401882783",
+   "markets": {},
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "eredivisie:401875526",
+   "sport": "eredivisie",
+   "league": "Dutch Eredivisie",
+   "match": "PEC Zwolle @ Fortuna Sittard",
+   "home": "Fortuna Sittard",
+   "away": "PEC Zwolle",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/143.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2565.png",
+   "homeAbbr": "FOR",
+   "awayAbbr": "PEC",
+   "startsAt": "2026-12-05T20:00Z",
+   "state": "pre",
+   "_path": "soccer/ned.1",
+   "_eid": "401875526",
+   "_cid": "401875526",
+   "markets": {},
+   "espnUrl": null,
+   "drawPossible": true
+  },
+  {
+   "id": "ligapt:401885382",
+   "sport": "ligapt",
+   "league": "Portugal Primeira Liga",
+   "match": "Arouca @ Braga",
+   "home": "Braga",
+   "away": "Arouca",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2994.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/15784.png",
+   "homeAbbr": "SCB",
+   "awayAbbr": "FCA",
+   "startsAt": "2026-12-05T20:30Z",
+   "state": "pre",
+   "_path": "soccer/por.1",
+   "_eid": "401885382",
+   "_cid": "401885382",
    "markets": {},
    "espnUrl": null,
    "drawPossible": true

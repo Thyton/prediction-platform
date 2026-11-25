@@ -234,6 +234,8 @@ def signal_for(item):
 
     # scale thresholds per sport: a 2-run lead means nothing in basketball, and a
     # single break in tennis (lead_units 1) is already a real edge
+    soccer_like = {"epl", "laliga", "seriea", "bundesliga", "ligue1", "ucl", "uel", "mls",
+                   "brasileirao", "ligaprof", "superlig", "ligapt", "eredivisie", "ligamx"}
     if tennis:
         hold_at, late, caution_at = 2.0, 0.55, 0.5
         hold_text = "Ahead by a set/break — hold; the price is thin now."
@@ -244,7 +246,7 @@ def signal_for(item):
         hold_text = "Comfortable lead — hold to the finish."
         out_text = "Down late — exit while some value remains."
         rise_text = "Down early — the get-in window is still open."
-    elif item.get("sport") == "nfl":
+    elif item.get("sport") in ("nfl", "ncaaf"):
         hold_at, late, caution_at = 7, 0.72, 0.65
         hold_text = "Two-score lead — hold to the finish."
         out_text = "Down late — exit while some value remains."
