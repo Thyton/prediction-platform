@@ -39,6 +39,11 @@ export default function Method() {
             price by at least 4.5% (7.5% when fewer than three books quote it). Below that the market
             is already right and we stay quiet.
           </p>
+          <p>
+            Tennis and esports have no book to argue with us, so they are held tighter: a 66% floor,
+            a 16-point model disagreement, and the price is written 7% below our own probability so the
+            number is not just our opinion marked up.
+          </p>
         </article>
         <article>
           <p className="eyebrow">4 · INTEGRITY</p>

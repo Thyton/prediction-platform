@@ -36,6 +36,7 @@ DRAW_BASE = {"epl": .26, "laliga": .25, "seriea": .27, "bundesliga": .24,
              "brasileirao": .26, "ligaprof": .25, "superlig": .25, "ligapt": .24,
              "eredivisie": .22, "ligamx": .26}
 MIN_EDGE = 0.045      # 4.5% model-vs-market edge required
+MODEL_MARGIN = 0.07   # cushion below true probability on model-priced (tennis/esports) picks
 THIN_EXTRA = 0.030    # extra edge demanded when only 1 book quotes
 MIN_BOOKS = 1
 OVERROUND = 1.075     # typical two-way book margin (7.5%)
@@ -220,12 +221,14 @@ def evaluate_no_market(g, s):
     pH, pA, _ = model_probs(g, s)
     side, prob = ("home", pH) if pH >= pA else ("away", pA)
     edge = abs(pH - pA)
-    if edge < 0.12 or prob < 0.62:   # no price: require a clear lean in the same conviction zone
+    if edge < 0.16 or prob < 0.66:   # no price: the model is unvalidated on tennis, so demand a clear lean
         return None
-    price = round(1 / max(prob * 1.02, 0.05), 2)   # 2% model margin
-    # a model price has no book to temper it, so a 1.18 shot risks 1u to win 0.18.
-    # Under 1.30 the risk/reward is poor: the forward record lost only on these.
-    if price < 1.30:
+    # A model price is our own opinion, and the forward record shows the opinion runs
+    # hot: 71% claimed against 40% realised. A 2% markup only breaks even when the
+    # model is perfectly calibrated, so price well clear of it. MODEL_MARGIN is the
+    # cushion below true probability; the floor keeps risk/reward sane.
+    price = round(1 / max(prob * (1 - MODEL_MARGIN), 0.05), 2)
+    if price < 1.35:
         return None
     tier = "PREMIUM" if edge >= 0.26 else "HIGH" if edge >= 0.18 else "STANDARD"
     return {
