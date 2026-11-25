@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-25T20:05:21.946604+00:00",
+ "generatedAt": "2026-11-25T20:07:09.471279+00:00",
  "games": [
   {
    "id": "esports:134389",
@@ -227,8 +227,8 @@
    "markets": {
     "h2h": {
      "outcome": "Virginia Cavaliers",
-     "bestOdds": 1.43,
-     "otherOdds": 3.3,
+     "bestOdds": 1.45,
+     "otherOdds": 3.25,
      "bookCount": "7",
      "favSide": "away",
      "source": "oddsapi"
@@ -408,9 +408,9 @@
    "markets": {
     "h2h": {
      "outcome": "Philadelphia 76ers",
-     "bestOdds": 1.98,
+     "bestOdds": 1.94,
      "otherOdds": 2.03,
-     "bookCount": "12",
+     "bookCount": "11",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -2881,7 +2881,7 @@
     "h2h": {
      "outcome": "Denver Broncos",
      "bestOdds": 1.54,
-     "otherOdds": 2.75,
+     "otherOdds": 2.74,
      "bookCount": "11",
      "favSide": "away",
      "source": "oddsapi"
