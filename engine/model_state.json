@@ -863,7 +863,7 @@
    "Alicia Herrero Linana": 1440.3400918103928,
    "Polona Hercog": 1602.058231746751,
    "Miriam Bulgaru": 1428.8387594819342,
-   "Maria Lourdes Carle": 1402.1652194471453,
+   "Maria Lourdes Carle": 1414.9089901576651,
    "Veronika Erjavec": 1457.2609144667178,
    "Despina Papamichail": 1443.8550573319105,
    "Laura Samson": 1636.7936408189546,
@@ -1026,10 +1026,11 @@
    "Elvina Kalieva": 1465.0486754279725,
    "Renata Zarazua": 1524.467074274416,
    "Luna Maria Cinalli": 1496.4482318953394,
-   "Victoria Bosio": 1496.0736496411516
+   "Victoria Bosio": 1496.0736496411516,
+   "Sol Ailin Larraya Guidi": 1487.2562292894802
   }
  },
- "played": 9053,
+ "played": 9054,
  "updated": "2026-11-23T01:08:49.499166+00:00",
  "trainedAt": "2026-11-23T01:08:49.499166+00:00",
  "counts": {
@@ -1720,7 +1721,7 @@
    "Alicia Herrero Linana": 8,
    "Polona Hercog": 56,
    "Miriam Bulgaru": 8,
-   "Maria Lourdes Carle": 27,
+   "Maria Lourdes Carle": 28,
    "Veronika Erjavec": 23,
    "Despina Papamichail": 18,
    "Laura Samson": 64,
@@ -1883,7 +1884,8 @@
    "Elvina Kalieva": 5,
    "Renata Zarazua": 15,
    "Luna Maria Cinalli": 2,
-   "Victoria Bosio": 2
+   "Victoria Bosio": 2,
+   "Sol Ailin Larraya Guidi": 1
   }
  }
 }
