@@ -117,25 +117,30 @@ def main():
 
         fresh = [p for p in raw["picks"] if p["gameId"] not in have and not_started(p) and in_window(p)]
         fresh.sort(key=lambda p: -p["edgePct"])
-        # board: strongest reads, but no single sport may own the whole board. Only
-        # picks still visible on the Today tab occupy a slot — a fixture five days
-        # out renders nowhere, so it must not lock a fresh pick off the board.
+        # board: strongest reads, but no single sport may own the whole board. The
+        # cap is on the live board, not on additions — the inside of a window can
+        # change between scans, so additions alone can't hold the total.
         cap = int(os.environ.get("PICK_CAP", "18"))
         per_sport = int(os.environ.get("PICK_PER_SPORT", "5"))
         visible = [i for i in led["items"] if not i.get("result") and in_window(i) and not_started(i)]
-        slots = max(0, cap - sum(1 for i in visible))
-        # guarantee each tracked sport at least one slot when it has a candidate
-        sports_on = {i["sport"] for i in visible}
-        want = [p for p in fresh if p["sport"] not in sports_on]
-        chosen, seen = [], {}
-        for p in want:
-            if len(chosen) >= min(2, slots):
+        slots = max(0, cap - len(visible))
+        seen = {}
+        for i in visible:
+            seen[i["sport"]] = seen.get(i["sport"], 0) + 1
+        chosen, picked = [], set()
+        # guarantee each sport with no pick on the board gets one when it has a candidate
+        for p in [p for p in fresh if p["sport"] not in seen][:2]:
+            if len(chosen) >= slots:
                 break
             chosen.append(p)
+            picked.add(p["gameId"])
             seen[p["sport"]] = 1
+        # then fill by edge; the same pick must not be chosen twice
         for p in fresh:
             if len(chosen) >= slots:
                 break
+            if p["gameId"] in picked:
+                continue
             n = seen.get(p["sport"], 0)
             if n >= per_sport:
                 continue
