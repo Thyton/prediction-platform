@@ -1,10 +1,14 @@
 import { NextResponse } from "next/server";
 
-// Advance "lastvisit" AFTER the page has rendered, so the page reads the
-// previous visit and can flag picks added since. Cookies are written here
-// because pages may only read them.
+// Remember when this browser last saw the board. The previous visit travels
+// down as a header (pages see the cookie already updated by this middleware),
+// and the new stamp is written on the way back.
 export function middleware(req) {
-  const res = NextResponse.next();
+  const prev = req.cookies.get("lastvisit")?.value || "";
+  const headers = new Headers(req.headers);
+  headers.set("x-last-visit", prev);
+
+  const res = NextResponse.next({ request: { headers } });
   res.cookies.set("lastvisit", String(Date.now()), { path: "/", maxAge: 86400 * 30, sameSite: "lax" });
   return res;
 }

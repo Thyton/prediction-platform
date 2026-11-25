@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { getLive, getRecord, getGames, getIntegrity, getSignals, fmtTime, SPORT_LABEL } from "../lib/data";
 import { getActivity } from "../lib/activity";
-import { cookies } from "next/headers";
+import { headers } from "next/headers";
 import { currentUser } from "../lib/session";
 import { isFollowing } from "../lib/userstats";
 import Waitlist from "./waitlist";
@@ -106,9 +106,9 @@ export default async function Home() {
   })();
   const signals = getSignals();
   const user = await currentUser();
-  // middleware stamps lastvisit; pages may only read cookies, not set them
-  const jar = await cookies();
-  const since = jar.get("lastvisit")?.value;
+  // the previous visit arrives as a header; the cookie has already been stamped
+  const hdrs = await headers();
+  const since = hdrs.get("x-last-visit") || "";
   // the strongest return hook is proof the desk is live right now
   const lastGraded = record.recent[0];
   const sinceLast = lastGraded?.settledAt
@@ -120,7 +120,6 @@ export default async function Home() {
   // fixtures two days out. Every card still prints its own date.
   const sinceTs = since ? Number(since) : 0;
   const isNew = (p) => sinceTs && p.lockTs && new Date(p.lockTs).getTime() > sinceTs;
-  const freshCount = picks.filter(isNew).length;
   const sorted = [...picks].sort((a, b) => new Date(a.startsAt) - new Date(b.startsAt));
   const dayEnd = new Date(); dayEnd.setHours(23, 59, 59, 999);
   const tomorrowEnd = new Date(dayEnd.getTime() + 86400000);
