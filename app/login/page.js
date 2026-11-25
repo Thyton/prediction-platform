@@ -30,7 +30,7 @@ export default function Login() {
       <p className="lede">New email? The account is created on first sign-in.</p>
       <form className="grid2" onSubmit={submit}>
         <input type="email" required placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} />
-        <input type="password" required placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} />
+        <input type="password" required minLength={6} placeholder="Password (6+ chars)" value={password} onChange={(e) => setPassword(e.target.value)} />
         {err && <p className="err">{err}</p>}
         <button type="submit" disabled={busy}>{busy ? "Signing in…" : "Continue"}</button>
       </form>

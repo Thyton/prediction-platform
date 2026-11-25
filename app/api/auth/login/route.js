@@ -11,6 +11,10 @@ export async function POST(req) {
   const clean = email.trim().toLowerCase();
   const db = await read();
   let user = db.users.find((u) => u.email === clean);
+  // only new accounts must clear the minimum; existing short passwords still work
+  if (!user && password.length < 6) {
+    return NextResponse.json({ error: "Use at least 6 characters for your password." }, { status: 400 });
+  }
   if (!user) {
     user = { id: crypto.randomUUID(), email: clean, pw: hash(password), pro: false, created: new Date().toISOString() };
     db.users.push(user);
