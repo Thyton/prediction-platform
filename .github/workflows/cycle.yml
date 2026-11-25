@@ -1,0 +1,68 @@
+name: cycle
+
+on:
+  schedule:
+    # full pass: grade, learn, collect, model, publish
+    - cron: "6,36 * * * *"
+    # live signals only, every 5 min, so in-play get-in/get-out is usable.
+    # A no-op when nothing on the board is live.
+    - cron: "2,7,12,17,22,27,32,37,42,47,52,57 * * * *"
+  workflow_dispatch:
+    inputs:
+      live_only:
+        description: "Signals only (skip collect/model)"
+        type: boolean
+        default: false
+
+concurrency:
+  group: cycle
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  cycle:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Decide mode
+        id: mode
+        run: |
+          # manual dispatch with live_only=false forces a full pass; otherwise
+          # 5-min crons (minutes ending 2 or 7) are live-only and the 30-min
+          # crons (:06, :36) do the full grade+collect+model+publish pass.
+          MIN=$(date -u +%M); MIN=${MIN#0}
+          if [ "${{ inputs.live_only }}" = "false" ]; then
+            echo "live=" >> "$GITHUB_OUTPUT"
+          elif [ "${{ inputs.live_only }}" = "true" ] || [ $((MIN % 30)) -ne 6 ]; then
+            echo "live=--live" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Run engine
+        working-directory: engine
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: python -X utf8 cycle.py ${{ steps.mode.outputs.live }}
+
+      - name: Commit data
+        if: always()
+        run: |
+          git config user.name  "tiplab-bot"
+          git config user.email "bot@tiplab.io"
+          git add data engine/model_state.json
+          if git diff --staged --quiet; then
+            echo "no change"
+          else
+            git commit -m "cycle: $(date -u +%FT%TZ)"
+            git push
+          fi
+
+# eof
