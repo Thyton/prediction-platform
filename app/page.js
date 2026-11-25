@@ -128,6 +128,7 @@ export default async function Home() {
         </div>
 
         <Tabs
+          liveCount={signals.length}
           tips={
             today.length ? (
               <div className="picklist">
