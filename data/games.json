@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-25T20:04:16.272918+00:00",
+ "generatedAt": "2026-11-25T20:04:36.357556+00:00",
  "games": [
   {
    "id": "esports:134389",
@@ -2881,7 +2881,7 @@
     "h2h": {
      "outcome": "Denver Broncos",
      "bestOdds": 1.54,
-     "otherOdds": 2.74,
+     "otherOdds": 2.75,
      "bookCount": "11",
      "favSide": "away",
      "source": "oddsapi"
