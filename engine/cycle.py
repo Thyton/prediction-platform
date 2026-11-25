@@ -154,9 +154,21 @@ def main():
                 p["result"] = None
                 p["profitUnits"] = None
                 led["items"].append(p)
+        # backfill: picks published before a field existed still render it.
+        # The watch link comes from today's board; the reasoning is rebuilt from
+        # the numbers the pick already carries.
+        games_now = {g["id"]: g for g in json.load(open(gpath))["games"]}
+        for i in led["items"]:
+            g = games_now.get(i["gameId"])
+            if g and not i.get("espnUrl"):
+                i["espnUrl"] = g.get("espnUrl")
         json.dump(led, open(LEDGER, "w"), indent=1)
+        state_picks = [i for i in led["items"] if not i.get("result")]
+        for p in state_picks:
+            if not p.get("why"):
+                p["why"] = why_from_ledger(p)
         json.dump({"generatedAt": datetime.datetime.now(datetime.UTC).isoformat(),
-                   "picks": [i for i in led["items"] if not i.get("result")],
+                   "picks": state_picks,
                    "alerts": raw["alerts"],
                    "record": record_summary(led)},
                   open(os.path.join(DATA, "state.json"), "w"), indent=1)
@@ -171,6 +183,27 @@ def main():
 
 
 ALERT_STATE = os.path.join(DATA, ".alert_state.json")
+
+
+def why_from_ledger(p):
+    """Rebuild the plain-English reasoning for a pick published before the
+    why line existed, from the numbers the pick already carries."""
+    pick = p.get("home") if p.get("side") == "home" else p.get("away")
+    if not pick:
+        return None
+    prob = p.get("modelProb") or 0
+    books = int(p.get("bookCount") or 0)
+    edge = p.get("edgePct") or 0
+    bits = [f"{pick} rated {prob:.0%} to win"]
+    if books:
+        bits.append(f"with {books} book{'s' if books > 1 else ''} quoting")
+        if edge >= 0.07:
+            bits.append(f"a {edge*100:.1f}-point gap to the market price")
+        else:
+            bits.append("a slim but real gap to the market price")
+    else:
+        bits.append(f"a {edge*100:.0f}-point rating gap with no market price to lean on")
+    return "; ".join(bits) + "."
 
 
 def notify_alerts():
@@ -194,10 +227,11 @@ def notify_alerts():
                 "Authorization": f"Bearer {os.environ.get('ALERT_SECRET', '')}",
             },
         )
-        urllib.request.urlopen(req, timeout=30).read()
+        resp = urllib.request.urlopen(req, timeout=30).read()
+        emailed = json.loads(resp).get("sent", 0)
         sent.update(f"{s['gameId']}:{s['kind']}" for s in new)
         json.dump(sorted(sent)[-400:], open(ALERT_STATE, "w"))
-        print(f"alerts: {len(new)} emailed", file=sys.stderr)
+        print(f"alerts: {emailed} emailed of {len(new)} new", file=sys.stderr)
     except Exception as e:
         print("alerts skipped:", str(e)[:120], file=sys.stderr)
 

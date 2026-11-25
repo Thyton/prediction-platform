@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { getLive, getRecord, getGames, getIntegrity, getSignals, fmtTime, SPORT_LABEL } from "../lib/data";
+import { getActivity } from "../lib/activity";
 import { currentUser } from "../lib/session";
 import { isFollowing } from "../lib/userstats";
 import Waitlist from "./waitlist";
@@ -42,12 +43,18 @@ function PickCard({ p, trackable, following }) {
           <span className="vs">at</span>
           {p.homeLogo && <img src={p.homeLogo} alt="" />}
           <span>{p.home}</span>
+          {p.espnUrl && (
+            <a className="watch" href={p.espnUrl} target="_blank" rel="noopener">
+              ▶ Watch
+            </a>
+          )}
         </div>
         <div className="pick-choice">
           {pickedLogo && <img src={pickedLogo} alt="" />}
           <span>Pick: {picked}</span>
           {trackable && <FollowButton gameId={p.gameId} following={following} />}
         </div>
+        {p.why && !graded && <div className="why">{p.why}</div>}
         {graded ? (
           <div className="pick-meta">Final {p.final}</div>
         ) : (
@@ -89,6 +96,7 @@ export default async function Home() {
   const record = getRecord();
   const games = getGames();
   const alerts = getIntegrity();
+  const activity = getActivity();
   // surface how old the board is: a silent pipeline is how a stale site goes unnoticed
   const age = (() => {
     const gen = live.generatedAt ? new Date(live.generatedAt).getTime() : NaN;

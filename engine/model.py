@@ -128,6 +128,26 @@ def model_probs(g, s):
     return e, 1 - e, 0.0
 
 
+def why_text(g, side, prob, edge, books):
+    """One plain-English line explaining the pick, from the model's own numbers.
+    Deterministic — no LLM, no randomness, so it can't contradict the record."""
+    pick = g["home"] if side == "home" else g["away"]
+    bits = [f"{pick} rated {prob:.0%} to win"]
+    cnt = LATEST_COUNTS.get(g["sport"], {})
+    games = min(cnt.get(g["home"], 0), cnt.get(g["away"], 0))
+    if games:
+        bits.append(f"across {games} tracked games per side")
+    if books:
+        bits.append(f"with {books} book{'s' if books > 1 else ''} quoting")
+        if edge >= 0.07:
+            bits.append(f"a {edge*100:.1f}-point gap to the market price")
+        else:
+            bits.append("a slim but real gap to the market price")
+    else:
+        bits.append(f"a {edge*100:.0f}-point rating gap with no market price to lean on")
+    return "; ".join(bits) + "."
+
+
 def evaluate(g, s):
     """Find the best side, using the model ONLY to correct the market's
     favourite/dog split (so a well-known team isn't flattened by a cold start).
@@ -196,18 +216,20 @@ def evaluate(g, s):
     side = fav
     price = odds
     prob = pH if side == "home" else pA
-    if prob < 0.62 or prob > 0.85:
-        return None   # ship the 62-85% conviction zone the method page documents
-    tier = "PREMIUM" if prob >= 0.72 else "HIGH" if prob >= 0.62 else "STANDARD"
+    if prob < 0.70 or prob > 0.85:
+        return None   # 70+ floor: the replay graded 87% above 0.72 and 72% in 0.62-0.72
+    tier = "PREMIUM" if prob >= 0.78 else "HIGH" if prob >= 0.70 else "STANDARD"
     return {
         "gameId": g["id"], "match": g["match"], "league": g["league"], "sport": g["sport"],
         "side": side, "price": round(price, 2), "modelProb": round(prob, 4),
         "marketProb": round(mkH if side == "home" else mkA, 4),
         "edgePct": round(edge, 4), "tier": tier,
         "bookCount": books, "startsAt": g["startsAt"], "edgeKind": "market",
+        "why": why_text(g, side, prob, edge, books),
         "home": g["home"], "away": g["away"],
         "homeLogo": g.get("homeLogo"), "awayLogo": g.get("awayLogo"),
         "homeAbbr": g.get("homeAbbr"), "awayAbbr": g.get("awayAbbr"),
+        "espnUrl": g.get("espnUrl"),
     }
 
 
@@ -221,7 +243,7 @@ def evaluate_no_market(g, s):
     pH, pA, _ = model_probs(g, s)
     side, prob = ("home", pH) if pH >= pA else ("away", pA)
     edge = abs(pH - pA)
-    if edge < 0.16 or prob < 0.66:   # no price: the model is unvalidated on tennis, so demand a clear lean
+    if edge < 0.16 or prob < 0.70:   # same 70% conviction as market picks
         return None
     # A model price is our own opinion, and the forward record shows the opinion runs
     # hot: 71% claimed against 40% realised. A 2% markup only breaks even when the
@@ -236,10 +258,12 @@ def evaluate_no_market(g, s):
         "side": side, "price": price, "modelProb": round(prob, 4),
         "marketProb": None, "edgePct": round(edge, 4), "tier": tier,
         "bookCount": 0, "startsAt": g["startsAt"], "modelPriced": True,
+        "why": why_text(g, side, prob, edge, 0),
         "edgeKind": "model",
         "home": g["home"], "away": g["away"],
         "homeLogo": g.get("homeLogo"), "awayLogo": g.get("awayLogo"),
         "homeAbbr": g.get("homeAbbr"), "awayAbbr": g.get("awayAbbr"),
+        "espnUrl": g.get("espnUrl"),
     }
 
 
@@ -327,7 +351,9 @@ def main():
     ap.add_argument("--games", required=True)
     ap.add_argument("--out", required=True)
     a = ap.parse_args()
+    global LATEST_COUNTS
     s = load()
+    LATEST_COUNTS = s.get("counts", {})
     games = json.load(open(a.games))["games"]
     ensure_seeded(s, games)
     picks, alerts = [], []

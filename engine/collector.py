@@ -217,7 +217,7 @@ def parse_espn_event(event, sport, league, two_way):
         "_eid": event_get(event, "id"),
         "_cid": comp.get("id"),
         "markets": markets,
-        "espnUrl": next((l.get("href") for l in (event_get(event, "links") or []) if l.get("rel") == ["summary"]), None),
+        "espnUrl": next((l.get("href") for l in (event_get(event, "links") or []) if "summary" in (l.get("rel") or [])), None),
         "drawPossible": not two_way,
     }
 

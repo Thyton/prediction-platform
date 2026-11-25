@@ -34,15 +34,15 @@ export default function Method() {
           <p className="eyebrow">3 · EDGE</p>
           <h3>Only real agreement ships</h3>
           <p>
-            A pick releases only when the market favourite also carries a 62–85% model probability,
+            A pick releases only when the market favourite also carries a 70–85% model probability,
             is priced at odds of 2.00 or shorter, and our blended probability beats the de-vigged
             price by at least 4.5% (7.5% when fewer than three books quote it). Below that the market
             is already right and we stay quiet.
           </p>
           <p>
-            Tennis and esports have no book to argue with us, so they are held tighter: a 66% floor,
-            a 16-point model disagreement, and the price is written 7% below our own probability so the
-            number is not just our opinion marked up.
+            Tennis and esports have no book to argue with us, so they are held to the same 70% floor
+            with a 16-point model disagreement, and the price is written 7% below our own probability
+            so the number is not just our opinion marked up.
           </p>
         </article>
         <article>
