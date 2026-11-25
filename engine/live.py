@@ -11,8 +11,9 @@ emits a signal when the in-play picture diverges from the pick we published:
             is still open (a live price is usually better than the locked one).
 
 Signals are anchored to the pick (gameId) so the site can show them on the
-premium board and the member's own tracked list. All heuristics, no book feed —
-we read only the free ESPN scoreboard state.
+premium board and the member's own tracked list. Heuristics on the free ESPN
+scoreboard, plus a real live price from the odds API when one exists — a signal
+that can say "the price collapsed" beats one that can only see the score.
 
 Usage:
   python live.py --ledger ../data/ledger.json --out ../data/live.json
@@ -20,6 +21,7 @@ Usage:
 import argparse, datetime, json, os, sys
 
 import collector as C
+import oddsapi
 
 LIVE_WINDOW_BEFORE = datetime.timedelta(hours=4)
 
@@ -199,6 +201,31 @@ def live_state(game_id, starts_at=None):
     return None
 
 
+_PRICE_CACHE = {}   # sport -> table, one fetch per sport per run
+
+
+def live_price(item):
+    """Current market price for the picked side, from the odds API. Returns
+    (price, book_count) or (None, None). The API covers in-play games within
+    its commence-time window, so this is the *live* number, not the locked one."""
+    sport = item.get("sport")
+    if sport not in _PRICE_CACHE:
+        try:
+            _PRICE_CACHE[sport] = oddsapi.fetch_sport(sport)
+        except Exception:
+            _PRICE_CACHE[sport] = {}
+    table = _PRICE_CACHE[sport]
+    if not table:
+        return None, None
+    key = f"{oddsapi.norm(item.get('home') or '')}|{oddsapi.norm(item.get('away') or '')}"
+    hit = table.get(key)
+    if not hit:
+        return None, None
+    # the pick's side price: bestOdds is always the favourite side
+    price = hit["bestOdds"] if hit["favSide"] == item.get("side") else hit["otherOdds"]
+    return price, int(hit.get("bookCount") or 0)
+
+
 def signal_for(item):
     gid = item.get("gameId")
     if not gid or item.get("result"):
@@ -284,11 +311,34 @@ def signal_for(item):
     else:
         return None
 
+    # Price-aware layer: a live price lets the signal say something the score
+    # alone cannot — whether the market still pays you to hold, or has already
+    # collapsed. A drift-against signal with a live price is the real "pull off".
+    price, books = live_price(item)
+    locked = item.get("price")
+    price_note = None
+    if price and locked:
+        moved = (price / locked) - 1
+        if moved <= -0.15:
+            price_note = (f"Live price {price:.2f} vs {locked:.2f} locked "
+                          f"({moved:+.0%}) — the market has turned on this pick.")
+            if kind in ("HOLD", "CAUTION"):
+                kind = "PULL_OFF"
+        elif moved >= 0.15:
+            price_note = (f"Live price {price:.2f} vs {locked:.2f} locked "
+                          f"({moved:+.0%}) — the market still pays above your lock.")
+    elif price:
+        price_note = f"Live price {price:.2f} ({books} book{'s' if books != 1 else ''})."
+
+    if price_note:
+        text = f"{text} {price_note}"
+
     return {
         "gameId": gid, "kind": kind, "text": text, "espnUrl": item.get("espnUrl"),
         "sport": item.get("sport"), "match": item.get("match"),
         "side": side, "score": f"{mine}-{theirs}",
         "period": period, "clock": clock, "progress": round(prog, 3),
+        "livePrice": price, "lockedPrice": locked,
         "at": now.isoformat(),
     }
 
