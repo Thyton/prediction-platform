@@ -14,6 +14,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "..", "data")
 LEDGER = os.path.join(DATA, "ledger.json")
 PY = sys.executable
+BOARD_WINDOW_H = int(os.environ.get("BOARD_WINDOW_H", "48"))  # match the homepage tab
 
 
 def load_env():
@@ -60,17 +61,27 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--grade", action="store_true")
     ap.add_argument("--publish", action="store_true")
+    ap.add_argument("--live", action="store_true")
     a = ap.parse_args()
-    do_all = not (a.grade or a.publish)
+    do_all = not (a.grade or a.publish or a.live)
     os.makedirs(DATA, exist_ok=True)
 
+    # grade first so live signals only ever describe still-open picks
     if do_all or a.grade:
         if os.path.exists(LEDGER):
             r = run("grade.py", "--ledger", LEDGER, "--state", LEDGER)
             print(r.stdout, r.stderr, sep="", file=sys.stderr)
-        # premium live board: in-play get-in / exit signals on open picks
+        if a.grade:
+            return 0
+    if do_all or a.live:
         r = run("live.py", "--ledger", LEDGER, "--out", os.path.join(DATA, "live.json"))
         print(r.stdout, r.stderr, sep="", file=sys.stderr)
+        if a.live:
+            # signals only, but they still have to reach the live site
+            if os.environ.get("VERCEL_TOKEN"):
+                r = run("publish.py", "--live")
+                print("deploy:", (r.stdout or r.stderr).strip()[-80:], file=sys.stderr)
+            return 0
     if do_all or a.publish:
         gpath = os.path.join(DATA, "games.json")
         r = run("collector.py", "--out", gpath)
@@ -94,7 +105,17 @@ def main():
                 return st > now
             except Exception:
                 return True
-        fresh = [p for p in raw["picks"] if p["gameId"] not in have and not_started(p)]
+
+        def in_window(p):
+            """Only board games the site actually renders. Anything further out
+            than the 48h tab window would squat on a slot invisibly."""
+            try:
+                st = datetime.datetime.fromisoformat(p["startsAt"].replace("Z", "+00:00"))
+                return (st - now).total_seconds() <= BOARD_WINDOW_H * 3600
+            except Exception:
+                return False
+
+        fresh = [p for p in raw["picks"] if p["gameId"] not in have and not_started(p) and in_window(p)]
         fresh.sort(key=lambda p: -p["edgePct"])
         # dopamine board: strongest reads, but no single sport may own the whole
         # board — a per-sport ceiling keeps tennis and esports visible. Picks

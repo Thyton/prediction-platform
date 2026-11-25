@@ -51,7 +51,10 @@ function PickCard({ p, trackable, following }) {
         {graded ? (
           <div className="pick-meta">Final {p.final}</div>
         ) : (
-          <div className="pick-meta">Locked {fmtTime(p.lockTs)} · price {Number(p.price).toFixed(2)}</div>
+          <div className="pick-meta">
+            Locked {fmtTime(p.lockTs)} ·{" "}
+            {p.modelPriced ? "model price" : `price ${Number(p.price).toFixed(2)}`}
+          </div>
         )}
       </div>
       <div className="pick-right">
@@ -66,7 +69,10 @@ function PickCard({ p, trackable, following }) {
           </>
         ) : (
           <>
-            <div className="pick-edge">{(p.edgePct * 100).toFixed(0)}%</div>
+            <div className="pick-edge">
+              {(p.edgePct * 100).toFixed(0)}%
+              <small className="edge-kind">{p.modelPriced ? "model" : "market"}</small>
+            </div>
             <div className="pick-price">{Number(p.price).toFixed(2)}</div>
             <div className={"pick-tier " + p.tier}>{p.tier.toLowerCase()}</div>
           </>
@@ -225,11 +231,26 @@ export default async function Home() {
           <Link className="btn btn-ghost" href="/record">Full record →</Link>
         </div>
         <div className="stats">
-          <div><strong>{record.graded}</strong><span>graded picks</span></div>
-          <div><strong>{record.rolling != null ? (record.rolling * 100).toFixed(0) + "%" : "—"}</strong><span>last-50 accuracy</span></div>
-          <div><strong className={record.units >= 0 ? "pos" : "neg"}>{record.units >= 0 ? "+" : ""}{record.units}</strong><span>profit units</span></div>
-          <div><strong>{record.accuracy != null ? (record.accuracy * 100).toFixed(1) + "%" : "—"}</strong><span>all-time accuracy</span></div>
+          <div><strong>{record.forward.graded}</strong><span>graded forward picks</span></div>
+          <div>
+            <strong className={record.forward.accuracy == null ? "" : record.forward.accuracy >= 0.5 ? "pos" : "neg"}>
+              {record.forward.accuracy != null ? (record.forward.accuracy * 100).toFixed(0) + "%" : "—"}
+            </strong>
+            <span>forward accuracy</span>
+          </div>
+          <div>
+            <strong className={record.forward.units >= 0 ? "pos" : "neg"}>
+              {record.forward.units >= 0 ? "+" : ""}{record.forward.units}
+            </strong>
+            <span>forward units (1u flat)</span>
+          </div>
+          <div><strong>{record.backtest.graded}</strong><span>backtest picks (replay)</span></div>
         </div>
+        <p className="muted-note">
+          Forward picks were released live and graded as games settled — that is the number to judge us on.
+          The backtest is a replay of the same rules over earlier days and is kept separate.
+          {record.forward.graded < 30 && " The forward sample is still small; judge it after ~50 picks."}
+        </p>
       </section>
 
       <section id="method" className="cards">

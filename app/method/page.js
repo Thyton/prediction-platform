@@ -34,9 +34,10 @@ export default function Method() {
           <p className="eyebrow">3 · EDGE</p>
           <h3>Only real agreement ships</h3>
           <p>
-            A pick releases only when the market favourite also carries a 55–85% model probability, and the
-            favourite is priced at odds of 2.00 or shorter. The model still gets a vote: if our ratings
-            actively disagree with the favourite, the game is watched, not tipped.
+            A pick releases only when the market favourite also carries a 62–85% model probability,
+            is priced at odds of 2.00 or shorter, and our blended probability beats the de-vigged
+            price by at least 4.5% (7.5% when fewer than three books quote it). Below that the market
+            is already right and we stay quiet.
           </p>
         </article>
         <article>
@@ -45,6 +46,16 @@ export default function Method() {
           <p>
             One book quoting, or a price so short it says the match is barely competitive, is surfaced as a
             warning. Those are the games where a stale or manipulated line does the most damage.
+          </p>
+        </article>
+        <article>
+          <p className="eyebrow">READING THE BOARD</p>
+          <h3>“market” vs “model” edge</h3>
+          <p>
+            A <strong>market</strong> edge is our probability minus the de-vigged price across real books —
+            directly comparable, usually single digits. A <strong>model</strong> edge (tennis, esports) is the
+            gap between two model probabilities with no book behind it, so it is always larger and its
+            price is ours, not a book&apos;s. Same card, different yardstick.
           </p>
         </article>
         <article>

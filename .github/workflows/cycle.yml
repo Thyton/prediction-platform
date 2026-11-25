@@ -2,8 +2,17 @@ name: cycle
 
 on:
   schedule:
-    - cron: "5,35 * * * *"   # every 30 minutes
+    # full pass: grade, learn, collect, model, publish
+    - cron: "5,35 * * * *"
+    # live signals only, every 5 min, so in-play get-in/get-out is usable.
+    # A no-op when nothing on the board is live.
+    - cron: "2,7,12,17,22,27,32,37,42,47,52,57 * * * *"
   workflow_dispatch:
+    inputs:
+      live_only:
+        description: "Signals only (skip collect/model)"
+        type: boolean
+        default: false
 
 concurrency:
   group: cycle
@@ -23,11 +32,27 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Grade settled picks, then publish a fresh board
+      - name: Decide mode
+        id: mode
+        run: |
+          # 5-min crons fire on minutes ending 2 or 7 -> live signals only;
+          # the 30-min crons (:05, :35) do the full pass.
+          MIN=$(date -u +%M); MIN=${MIN#0}
+          if [ "${{ inputs.live_only }}" = "true" ] || [ $((MIN % 30)) -ne 5 ]; then
+            echo "live=--live" >> "$GITHUB_OUTPUT"
+          else
+            echo "live=" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Run engine
         working-directory: engine
-        run: python cycle.py
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: python -X utf8 cycle.py ${{ steps.mode.outputs.live }}
 
       - name: Commit data
+        if: always()
         run: |
           git config user.name  "tiplab-bot"
           git config user.email "bot@tiplab.io"

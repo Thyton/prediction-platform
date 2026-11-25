@@ -1,4 +1,1 @@
-{
- "generatedAt": "2026-11-25T15:03:39.496821+00:00",
- "signals": []
-}
+{"generatedAt": "2026-11-25T15:31:41.651280+00:00", "signals": [{"gameId": "x", "kind": "HOLD", "match": "t", "sport": "nba", "score": "1-0", "progress": 0.5, "text": "t", "at": "now"}]}

@@ -57,7 +57,8 @@ export default async function Dashboard({ searchParams }) {
 
       <p className="muted-note">
         Track any pick from the desk and it lands here — graded with the same score data as the public record.
-        Site-wide: {site.graded} graded · {site.accuracy != null ? (site.accuracy * 100).toFixed(1) : "—"}% accuracy.{" "}
+        Site forward record: {site.forward.graded} graded ·{" "}
+        {site.forward.accuracy != null ? (site.forward.accuracy * 100).toFixed(1) : "—"}% accuracy.{" "}
         <Link href="/#tips">Go to the desk →</Link>
       </p>
 

@@ -143,7 +143,8 @@ def evaluate(g, s):
         return None
     if books < MIN_BOOKS or odds <= 1.01:
         return None
-    need = MIN_EDGE if books >= 1 else MIN_EDGE + THIN_EXTRA
+    # a single book quoting is the thinnest possible market, so demand more edge
+    need = MIN_EDGE if books >= 3 else MIN_EDGE + THIN_EXTRA
     # a model edge is only meaningful when both ratings carry real history;
     # otherwise the "edge" is just cold-start noise against a sharp market.
     # esports has a thin roster so it keeps the looser gate below instead.
@@ -187,20 +188,20 @@ def evaluate(g, s):
     # backtest showed our cold Elo does not beat sharp dog prices.
     fav = m["favSide"]
     edge = edges[fav]
-    if edge < 0.0:
-        return None                      # model actually dislikes the favourite
+    if edge < need:
+        return None                      # not enough edge, or model dislikes the favourite
     side = fav
     price = odds
     prob = pH if side == "home" else pA
-    if prob < 0.55 or prob > 0.85:
-        return None   # ship 62-85% conviction zone; outside = noise or chalk
+    if prob < 0.62 or prob > 0.85:
+        return None   # ship the 62-85% conviction zone the method page documents
     tier = "PREMIUM" if prob >= 0.72 else "HIGH" if prob >= 0.62 else "STANDARD"
     return {
         "gameId": g["id"], "match": g["match"], "league": g["league"], "sport": g["sport"],
         "side": side, "price": round(price, 2), "modelProb": round(prob, 4),
         "marketProb": round(mkH if side == "home" else mkA, 4),
         "edgePct": round(edge, 4), "tier": tier,
-        "bookCount": books, "startsAt": g["startsAt"],
+        "bookCount": books, "startsAt": g["startsAt"], "edgeKind": "market",
         "home": g["home"], "away": g["away"],
         "homeLogo": g.get("homeLogo"), "awayLogo": g.get("awayLogo"),
         "homeAbbr": g.get("homeAbbr"), "awayAbbr": g.get("awayAbbr"),
@@ -217,7 +218,7 @@ def evaluate_no_market(g, s):
     pH, pA, _ = model_probs(g, s)
     side, prob = ("home", pH) if pH >= pA else ("away", pA)
     edge = abs(pH - pA)
-    if edge < 0.12 or prob < 0.56:   # no price: require a clear lean
+    if edge < 0.12 or prob < 0.62:   # no price: require a clear lean in the same conviction zone
         return None
     price = round(1 / max(prob * 1.02, 0.05), 2)   # 2% model margin
     tier = "PREMIUM" if edge >= 0.26 else "HIGH" if edge >= 0.18 else "STANDARD"
@@ -226,6 +227,7 @@ def evaluate_no_market(g, s):
         "side": side, "price": price, "modelProb": round(prob, 4),
         "marketProb": None, "edgePct": round(edge, 4), "tier": tier,
         "bookCount": 0, "startsAt": g["startsAt"], "modelPriced": True,
+        "edgeKind": "model",
         "home": g["home"], "away": g["away"],
         "homeLogo": g.get("homeLogo"), "awayLogo": g.get("awayLogo"),
         "homeAbbr": g.get("homeAbbr"), "awayAbbr": g.get("awayAbbr"),
