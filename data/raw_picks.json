@@ -1,48 +1,6 @@
 {
- "generatedAt": "2026-11-25T22:04:38.770762+00:00",
+ "generatedAt": "2026-11-25T22:18:31.098037+00:00",
  "picks": [
-  {
-   "gameId": "nhl:401892787",
-   "match": "Philadelphia Flyers @ Washington Capitals",
-   "league": "NHL",
-   "sport": "nhl",
-   "side": "home",
-   "price": 1.65,
-   "modelProb": 0.642,
-   "marketProb": 0.5926,
-   "edgePct": 0.0494,
-   "tier": "HIGH",
-   "bookCount": 12,
-   "startsAt": "2026-11-26T00:00Z",
-   "edgeKind": "market",
-   "home": "Washington Capitals",
-   "away": "Philadelphia Flyers",
-   "homeLogo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/wsh.png",
-   "awayLogo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/phi.png",
-   "homeAbbr": "WSH",
-   "awayAbbr": "PHI"
-  },
-  {
-   "gameId": "nhl:401892794",
-   "match": "Chicago Blackhawks @ Seattle Kraken",
-   "league": "NHL",
-   "sport": "nhl",
-   "side": "home",
-   "price": 1.69,
-   "modelProb": 0.6273,
-   "marketProb": 0.5817,
-   "edgePct": 0.0456,
-   "tier": "HIGH",
-   "bookCount": 12,
-   "startsAt": "2026-11-26T02:40Z",
-   "edgeKind": "market",
-   "home": "Seattle Kraken",
-   "away": "Chicago Blackhawks",
-   "homeLogo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/sea.png",
-   "awayLogo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/chi.png",
-   "homeAbbr": "SEA",
-   "awayAbbr": "CHI"
-  },
   {
    "gameId": "nba:401909324",
    "match": "Sacramento Kings @ Golden State Warriors",
@@ -57,12 +15,14 @@
    "bookCount": 12,
    "startsAt": "2026-11-26T03:00Z",
    "edgeKind": "market",
+   "why": "Golden State Warriors rated 79% to win; across 22 tracked games per side; with 12 books quoting; a slim but real gap to the market price.",
    "home": "Golden State Warriors",
    "away": "Sacramento Kings",
    "homeLogo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png",
    "awayLogo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sac.png",
    "homeAbbr": "GS",
-   "awayAbbr": "SAC"
+   "awayAbbr": "SAC",
+   "espnUrl": "https://www.espn.com/nba/game/_/gameId/401909324/kings-warriors"
   },
   {
    "gameId": "wta:186836",
@@ -78,56 +38,15 @@
    "bookCount": 0,
    "startsAt": "2026-11-26T18:00Z",
    "modelPriced": true,
+   "why": "Guiomar Maristany Zuleta De Reales rated 78% to win; across 8 tracked games per side; a 56-point rating gap with no market price to lean on.",
    "edgeKind": "model",
    "home": "Guiomar Maristany Zuleta De Reales",
    "away": "Nuria Brancaccio",
    "homeLogo": null,
    "awayLogo": null,
    "homeAbbr": null,
-   "awayAbbr": null
-  },
-  {
-   "gameId": "wta:186835",
-   "match": "Nadia Podoroska vs Maria Lourdes Carle",
-   "league": "IEB+ Argentina Open",
-   "sport": "wta",
-   "side": "away",
-   "price": 1.62,
-   "modelProb": 0.6623,
-   "marketProb": null,
-   "edgePct": 0.3247,
-   "tier": "PREMIUM",
-   "bookCount": 0,
-   "startsAt": "2026-11-26T21:00Z",
-   "modelPriced": true,
-   "edgeKind": "model",
-   "home": "Maria Lourdes Carle",
-   "away": "Nadia Podoroska",
-   "homeLogo": null,
-   "awayLogo": null,
-   "homeAbbr": null,
-   "awayAbbr": null
-  },
-  {
-   "gameId": "nfl:401873082",
-   "match": "Kansas City Chiefs @ Buffalo Bills",
-   "league": "NFL",
-   "sport": "nfl",
-   "side": "home",
-   "price": 1.68,
-   "modelProb": 0.629,
-   "marketProb": 0.5821,
-   "edgePct": 0.0469,
-   "tier": "HIGH",
-   "bookCount": 12,
-   "startsAt": "2026-11-27T01:20Z",
-   "edgeKind": "market",
-   "home": "Buffalo Bills",
-   "away": "Kansas City Chiefs",
-   "homeLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png",
-   "awayLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png",
-   "homeAbbr": "BUF",
-   "awayAbbr": "KC"
+   "awayAbbr": null,
+   "espnUrl": null
   },
   {
    "gameId": "bundesliga:401884720",
@@ -135,20 +54,22 @@
    "league": "Bundesliga",
    "sport": "bundesliga",
    "side": "home",
-   "price": 1.77,
-   "modelProb": 0.7801,
-   "marketProb": 0.7084,
-   "edgePct": 0.0717,
+   "price": 1.76,
+   "modelProb": 0.7808,
+   "marketProb": 0.7096,
+   "edgePct": 0.0712,
    "tier": "PREMIUM",
    "bookCount": 10,
    "startsAt": "2026-11-27T19:30Z",
    "edgeKind": "market",
+   "why": "Werder Bremen rated 78% to win; across 10 tracked games per side; with 10 books quoting; a 7.1-point gap to the market price.",
    "home": "Werder Bremen",
    "away": "Borussia M\u00f6nchengladbach",
    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/137.png",
    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/268.png",
    "homeAbbr": "SVW",
-   "awayAbbr": "BMG"
+   "awayAbbr": "BMG",
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401884720/borussia-monchengladbach-werder-bremen"
   },
   {
    "gameId": "seriea:401875029",
@@ -160,30 +81,21 @@
    "modelProb": 0.7491,
    "marketProb": 0.6452,
    "edgePct": 0.104,
-   "tier": "PREMIUM",
+   "tier": "HIGH",
    "bookCount": 1,
    "startsAt": "2026-12-06T14:00Z",
    "edgeKind": "market",
+   "why": "Lazio rated 75% to win; across 12 tracked games per side; with 1 book quoting; a 10.4-point gap to the market price.",
    "home": "Lazio",
    "away": "Atalanta",
    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
    "homeAbbr": "LAZ",
-   "awayAbbr": "ATA"
+   "awayAbbr": "ATA",
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401875029/atalanta-lazio"
   }
  ],
  "alerts": [
-  {
-   "gameId": "esports:134862",
-   "match": "Mixlvlt vs Ryvex",
-   "league": "Esports",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: a short price leaves little margin"
-   ]
-  },
   {
    "gameId": "esports:135035",
    "match": "Donstu Esports vs Nordic Partners Gaming",
@@ -365,11 +277,10 @@
    "gameId": "uel:401915508",
    "match": "Lech Poznan @ Union St.-Gilloise",
    "league": "Europa League",
-   "severity": 2,
-   "signal": "high_risk_alert",
+   "severity": 1,
+   "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: a short price leaves little margin"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {

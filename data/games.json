@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-25T22:04:38.694548+00:00",
+ "generatedAt": "2026-11-25T22:18:31.021087+00:00",
  "games": [
   {
    "id": "esports:135031",
@@ -16,33 +16,6 @@
    "mapScore": [
     1,
     2
-   ],
-   "drawPossible": false
-  },
-  {
-   "id": "esports:134862",
-   "sport": "esports",
-   "league": "Esports",
-   "match": "Mixlvlt vs Ryvex",
-   "home": "Ryvex",
-   "away": "Mixlvlt",
-   "startsAt": "2026-11-25T12:40:00.000+00:00",
-   "state": "finished",
-   "markets": {
-    "h2h": {
-     "outcome": "Ryvex",
-     "bestOdds": 1.15,
-     "otherOdds": 4.8,
-     "bookCount": "1",
-     "favSide": "home",
-     "source": "bo3"
-    }
-   },
-   "tier": "c",
-   "boType": 3,
-   "mapScore": [
-    2,
-    1
    ],
    "drawPossible": false
   },
@@ -143,7 +116,7 @@
      "favSide": "away"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/mens-college-basketball/game/_/gameId/401920428/virginia-marquette",
    "drawPossible": false
   },
   {
@@ -234,7 +207,7 @@
      "favSide": "away"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/mens-college-basketball/game/_/gameId/401921669/lsu-arizona-st",
    "drawPossible": false
   },
   {
@@ -265,6 +238,24 @@
    "drawPossible": false
   },
   {
+   "id": "esports:135152",
+   "sport": "esports",
+   "league": "Esports",
+   "match": "Young27 vs Encelade",
+   "home": "Encelade",
+   "away": "Young27",
+   "startsAt": "2026-11-25T19:20:00.000+00:00",
+   "state": "finished",
+   "markets": {},
+   "tier": "c",
+   "boType": 3,
+   "mapScore": [
+    2,
+    1
+   ],
+   "drawPossible": false
+  },
+  {
    "id": "ncaab:401921715",
    "sport": "ncaab",
    "league": "NCAAB",
@@ -289,7 +280,7 @@
      "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/mens-college-basketball/game/_/gameId/401921715/ole-miss-arizona",
    "drawPossible": false
   },
   {
@@ -304,17 +295,17 @@
    "homeAbbr": "PHI",
    "awayAbbr": "MIA",
    "startsAt": "2026-11-25T22:00Z",
-   "state": "pre",
+   "state": "in",
    "_path": "basketball/nba",
    "_eid": "401909317",
    "_cid": "401909317",
    "markets": {
     "h2h": {
-     "outcome": "Philadelphia 76ers",
-     "bestOdds": 1.98,
-     "otherOdds": 2.0,
+     "outcome": "Miami Heat",
+     "bestOdds": 2.0,
+     "otherOdds": 2.28,
      "bookCount": "12",
-     "favSide": "home",
+     "favSide": "away",
      "source": "oddsapi"
     }
    },
@@ -341,7 +332,7 @@
     "h2h": {
      "outcome": "Nebraska Cornhuskers",
      "bestOdds": 1.01,
-     "otherOdds": 71.0,
+     "otherOdds": 91.0,
      "bookCount": "2",
      "favSide": "home",
      "source": "oddsapi"
@@ -362,7 +353,7 @@
    "homeAbbr": null,
    "awayAbbr": null,
    "startsAt": "2026-11-25T22:05Z",
-   "state": "pre",
+   "state": "in",
    "_path": "tennis/wta",
    "_eid": "186840",
    "_cid": "186840",
@@ -391,14 +382,14 @@
    "markets": {
     "h2h": {
      "outcome": "USC Trojans",
-     "bestOdds": 1.22,
+     "bestOdds": 1.26,
      "otherOdds": 5.25,
-     "bookCount": "9",
+     "bookCount": "10",
      "favSide": "home",
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/mens-college-basketball/game/_/gameId/401921670/south-carolina-usc",
    "drawPossible": false
   },
   {
@@ -427,7 +418,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/mens-college-basketball/game/_/gameId/401921716/byu-providence",
    "drawPossible": false
   },
   {
@@ -451,12 +442,12 @@
      "outcome": "Memphis Tigers",
      "bestOdds": 1.59,
      "otherOdds": 2.53,
-     "bookCount": "11",
+     "bookCount": "10",
      "favSide": "away",
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/mens-college-basketball/game/_/gameId/401917182/memphis-penn-state",
    "drawPossible": false
   },
   {
@@ -479,13 +470,13 @@
     "h2h": {
      "outcome": "Charlotte Hornets",
      "bestOdds": 1.62,
-     "otherOdds": 2.54,
+     "otherOdds": 2.52,
      "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nba/game/_/gameId/401909318/bulls-hornets",
    "drawPossible": false
   },
   {
@@ -513,7 +504,7 @@
      "favSide": "away"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/mens-college-basketball/game/_/gameId/401909568/uconn-duke",
    "drawPossible": false
   },
   {
@@ -542,7 +533,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nhl/game/_/gameId/401892781/jets-bruins",
    "drawPossible": false
   },
   {
@@ -571,7 +562,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nhl/game/_/gameId/401892782/rangers-sabres",
    "drawPossible": false
   },
   {
@@ -600,7 +591,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nhl/game/_/gameId/401892783/hurricanes-lightning",
    "drawPossible": false
   },
   {
@@ -629,7 +620,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nhl/game/_/gameId/401892784/senators-panthers",
    "drawPossible": false
   },
   {
@@ -658,7 +649,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nhl/game/_/gameId/401892785/blues-islanders",
    "drawPossible": false
   },
   {
@@ -687,7 +678,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nhl/game/_/gameId/401892786/flames-penguins",
    "drawPossible": false
   },
   {
@@ -716,7 +707,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nhl/game/_/gameId/401892787/flyers-capitals",
    "drawPossible": false
   },
   {
@@ -745,7 +736,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nhl/game/_/gameId/401892788/devils-blue-jackets",
    "drawPossible": false
   },
   {
@@ -774,7 +765,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nba/game/_/gameId/401909319/cavaliers-knicks",
    "drawPossible": false
   },
   {
@@ -796,14 +787,14 @@
    "markets": {
     "h2h": {
      "outcome": "Oklahoma City Thunder",
-     "bestOdds": 1.8,
+     "bestOdds": 1.77,
      "otherOdds": 2.2,
      "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nba/game/_/gameId/401909320/timberwolves-thunder",
    "drawPossible": false
   },
   {
@@ -832,7 +823,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nhl/game/_/gameId/401892789/canucks-red-wings",
    "drawPossible": false
   },
   {
@@ -860,7 +851,7 @@
      "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nba/game/_/gameId/401909321/clippers-grizzlies",
    "drawPossible": false
   },
   {
@@ -889,7 +880,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nba/game/_/gameId/401909322/nets-bucks",
    "drawPossible": false
   },
   {
@@ -918,7 +909,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nfl/game/_/gameId/401873079/packers-rams",
    "drawPossible": false
   },
   {
@@ -947,7 +938,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nhl/game/_/gameId/401892790/predators-stars",
    "drawPossible": false
   },
   {
@@ -976,7 +967,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nhl/game/_/gameId/401892791/mammoth-wild",
    "drawPossible": false
   },
   {
@@ -1005,7 +996,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nba/game/_/gameId/401909323/suns-rockets",
    "drawPossible": false
   },
   {
@@ -1034,7 +1025,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nhl/game/_/gameId/401892792/canadiens-avalanche",
    "drawPossible": false
   },
   {
@@ -1063,7 +1054,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nhl/game/_/gameId/401892794/blackhawks-kraken",
    "drawPossible": false
   },
   {
@@ -1092,7 +1083,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nba/game/_/gameId/401909324/kings-warriors",
    "drawPossible": false
   },
   {
@@ -1121,7 +1112,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nba/game/_/gameId/401909325/spurs-trail-blazers",
    "drawPossible": false
   },
   {
@@ -1150,7 +1141,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nhl/game/_/gameId/401892793/sharks-ducks",
    "drawPossible": false
   },
   {
@@ -1178,7 +1169,7 @@
      "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401915506/hapoel-beer-besiktas",
    "drawPossible": true
   },
   {
@@ -1207,7 +1198,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401915519/afc-bournemouth-celta-vigo",
    "drawPossible": true
   },
   {
@@ -1230,13 +1221,13 @@
     "h2h": {
      "outcome": "Bayer Leverkusen",
      "bestOdds": 1.69,
-     "otherOdds": 4.6,
+     "otherOdds": 4.5,
      "bookCount": "10",
      "favSide": "away",
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401915517/bayer-leverkusen-dinamo-zagreb",
    "drawPossible": true
   },
   {
@@ -1264,7 +1255,7 @@
      "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401915507/levski-sofia-marseille",
    "drawPossible": true
   },
   {
@@ -1292,7 +1283,7 @@
      "favSide": "away"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401915521/ac-milan-olympiacos",
    "drawPossible": true
   },
   {
@@ -1320,7 +1311,7 @@
      "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401915520/ararat-armenia-rb-salzburg",
    "drawPossible": true
   },
   {
@@ -1342,13 +1333,13 @@
    "markets": {
     "h2h": {
      "outcome": "Union St.-Gilloise",
-     "bestOdds": 1.345,
-     "otherOdds": 8.0,
+     "bestOdds": 1.357,
+     "otherOdds": 7.5,
      "bookCount": "1",
      "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401915508/lech-poznan-union-st-gilloise",
    "drawPossible": true
   },
   {
@@ -1377,7 +1368,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401915518/benfica-viktoria-plzen",
    "drawPossible": true
   },
   {
@@ -1406,7 +1397,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nfl/game/_/gameId/401873081/bears-lions",
    "drawPossible": false
   },
   {
@@ -1479,7 +1470,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/mens-college-basketball/game/_/gameId/401906869/georgetown-texas",
    "drawPossible": false
   },
   {
@@ -1530,7 +1521,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401915504/real-sociedad-crystal-palace",
    "drawPossible": true
   },
   {
@@ -1558,7 +1549,7 @@
      "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401915516/nk-celje-ferencvaros",
    "drawPossible": true
   },
   {
@@ -1586,7 +1577,7 @@
      "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401915502/omonia-nicosia-juventus",
    "drawPossible": true
   },
   {
@@ -1615,7 +1606,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401915501/lillestrom-lyon",
    "drawPossible": true
   },
   {
@@ -1643,7 +1634,7 @@
      "favSide": "away"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401915505/stade-rennais-nec-nijmegen",
    "drawPossible": true
   },
   {
@@ -1672,7 +1663,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401915503/anderlecht-ofi-crete",
    "drawPossible": true
   },
   {
@@ -1701,7 +1692,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401915514/az-alkmaar-sparta-prague",
    "drawPossible": true
   },
   {
@@ -1729,7 +1720,7 @@
      "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401915513/jagiellonia-bialystok-sunderland",
    "drawPossible": true
   },
   {
@@ -1758,7 +1749,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401915512/celtic-torreense",
    "drawPossible": true
   },
   {
@@ -1787,7 +1778,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401915515/sk-sturm-graz-tsg-hoffenheim",
    "drawPossible": true
   },
   {
@@ -1816,7 +1807,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/mens-college-basketball/game/_/gameId/401920529/tennessee-iowa-state",
    "drawPossible": false
   },
   {
@@ -1845,7 +1836,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/mens-college-basketball/game/_/gameId/401920537/miami-michigan",
    "drawPossible": false
   },
   {
@@ -1895,7 +1886,7 @@
      "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/mens-college-basketball/game/_/gameId/401925757/arkansas-michigan-st",
    "drawPossible": false
   },
   {
@@ -1924,7 +1915,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/mens-college-basketball/game/_/gameId/401921673/utah-state-usc",
    "drawPossible": false
   },
   {
@@ -1953,7 +1944,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nfl/game/_/gameId/401873080/eagles-cowboys",
    "drawPossible": false
   },
   {
@@ -1982,7 +1973,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/mens-college-basketball/game/_/gameId/401917547/saint-marys-ucla",
    "drawPossible": false
   },
   {
@@ -2011,7 +2002,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401841329/remo-sao-paulo",
    "drawPossible": true
   },
   {
@@ -2040,7 +2031,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/mens-college-basketball/game/_/gameId/401918972/smu-lsu",
    "drawPossible": false
   },
   {
@@ -2064,12 +2055,12 @@
      "outcome": "Texas Tech Red Raiders",
      "bestOdds": 1.15,
      "otherOdds": 6.5,
-     "bookCount": "11",
+     "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/college-football/game/_/gameId/401856879/tcu-texas-tech",
    "drawPossible": false
   },
   {
@@ -2098,7 +2089,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401931982/guadalajara-pachuca",
    "drawPossible": true
   },
   {
@@ -2127,7 +2118,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nfl/game/_/gameId/401873082/chiefs-bills",
    "drawPossible": false
   },
   {
@@ -2149,13 +2140,13 @@
    "markets": {
     "h2h": {
      "outcome": "St. John's Red Storm",
-     "bestOdds": 1.617,
-     "otherOdds": 2.36,
+     "bestOdds": 1.645,
+     "otherOdds": 2.3,
      "bookCount": "1",
      "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/mens-college-basketball/game/_/gameId/401920530/louisville-st-johns",
    "drawPossible": false
   },
   {
@@ -2183,7 +2174,7 @@
      "favSide": "away"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/mens-college-basketball/game/_/gameId/401920539/alabama-kansas-st",
    "drawPossible": false
   },
   {
@@ -2212,7 +2203,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401931995/cruz-azul-leon",
    "drawPossible": true
   },
   {
@@ -2236,12 +2227,12 @@
      "outcome": "Texas Tech Red Raiders",
      "bestOdds": 1.21,
      "otherOdds": 4.85,
-     "bookCount": "5",
+     "bookCount": "4",
      "favSide": "away",
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/mens-college-basketball/game/_/gameId/401920531/texas-tech-oregon",
    "drawPossible": false
   },
   {
@@ -2270,7 +2261,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/mens-college-basketball/game/_/gameId/401920540/baylor-gonzaga",
    "drawPossible": false
   },
   {
@@ -2422,7 +2413,7 @@
    "_eid": "401920429",
    "_cid": "401920429",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/mens-college-basketball/game/_/gameId/401920429/virginia-xavier",
    "drawPossible": false
   },
   {
@@ -2446,12 +2437,12 @@
      "outcome": "Iowa Hawkeyes",
      "bestOdds": 1.51,
      "otherOdds": 2.85,
-     "bookCount": "11",
+     "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/college-football/game/_/gameId/401858536/nebraska-iowa",
    "drawPossible": false
   },
   {
@@ -2474,13 +2465,13 @@
     "h2h": {
      "outcome": "Ole Miss Rebels",
      "bestOdds": 1.1,
-     "otherOdds": 8.2,
-     "bookCount": "10",
+     "otherOdds": 8.4,
+     "bookCount": "11",
      "favSide": "home",
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/college-football/game/_/gameId/401856762/mississippi-st-ole-miss",
    "drawPossible": false
   },
   {
@@ -2504,12 +2495,12 @@
      "outcome": "UTSA Roadrunners",
      "bestOdds": 1.91,
      "otherOdds": 1.95,
-     "bookCount": "9",
+     "bookCount": "10",
      "favSide": "home",
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/college-football/game/_/gameId/401862840/tulsa-utsa",
    "drawPossible": false
   },
   {
@@ -2533,12 +2524,12 @@
      "outcome": "Buffalo Bulls",
      "bestOdds": 1.36,
      "otherOdds": 3.5,
-     "bookCount": "11",
+     "bookCount": "12",
      "favSide": "away",
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/college-football/game/_/gameId/401866472/buffalo-akron",
    "drawPossible": false
   },
   {
@@ -2562,12 +2553,12 @@
      "outcome": "Toledo Rockets",
      "bestOdds": 1.67,
      "otherOdds": 2.35,
-     "bookCount": "10",
+     "bookCount": "11",
      "favSide": "away",
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/college-football/game/_/gameId/401866473/toledo-ohio",
    "drawPossible": false
   },
   {
@@ -2595,7 +2586,7 @@
      "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401888241/konyaspor-alanyaspor",
    "drawPossible": true
   },
   {
@@ -2623,7 +2614,7 @@
      "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401888240/kasimpasa-caykur-rizespor",
    "drawPossible": true
   },
   {
@@ -2643,7 +2634,7 @@
    "_eid": "401892795",
    "_cid": "401892795",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nhl/game/_/gameId/401892795/maple-leafs-bruins",
    "drawPossible": false
   },
   {
@@ -2663,7 +2654,7 @@
    "_eid": "401892796",
    "_cid": "401892796",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nhl/game/_/gameId/401892796/flames-devils",
    "drawPossible": false
   },
   {
@@ -2683,7 +2674,7 @@
    "_eid": "401892797",
    "_cid": "401892797",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nhl/game/_/gameId/401892797/mammoth-predators",
    "drawPossible": false
   },
   {
@@ -2703,7 +2694,7 @@
    "_eid": "401921827",
    "_cid": "401921827",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/mens-college-basketball/game/_/gameId/401921827/southern-vanderbilt",
    "drawPossible": false
   },
   {
@@ -2723,7 +2714,7 @@
    "_eid": "401892798",
    "_cid": "401892798",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nhl/game/_/gameId/401892798/stars-blues",
    "drawPossible": false
   },
   {
@@ -2752,7 +2743,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401875536/willem-ii-fc-groningen",
    "drawPossible": true
   },
   {
@@ -2774,14 +2765,14 @@
    "markets": {
     "h2h": {
      "outcome": "Werder Bremen",
-     "bestOdds": 1.77,
+     "bestOdds": 1.76,
      "otherOdds": 4.3,
      "bookCount": "10",
      "favSide": "home",
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401884720/borussia-monchengladbach-werder-bremen",
    "drawPossible": true
   },
   {
@@ -2810,7 +2801,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401875004/bologna-venezia",
    "drawPossible": true
   },
   {
@@ -2839,7 +2830,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401876392/paris-fc-brest",
    "drawPossible": true
   },
   {
@@ -2863,12 +2854,12 @@
      "outcome": "Denver Broncos",
      "bestOdds": 1.53,
      "otherOdds": 2.74,
-     "bookCount": "11",
+     "bookCount": "12",
      "favSide": "away",
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nfl/game/_/gameId/401873083/broncos-steelers",
    "drawPossible": false
   },
   {
@@ -2896,7 +2887,7 @@
      "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/college-football/game/_/gameId/401869930/app-state-south-alabama",
    "drawPossible": false
   },
   {
@@ -2916,7 +2907,7 @@
    "_eid": "401892799",
    "_cid": "401892799",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nhl/game/_/gameId/401892799/senators-lightning",
    "drawPossible": false
   },
   {
@@ -2936,7 +2927,7 @@
    "_eid": "401892800",
    "_cid": "401892800",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nhl/game/_/gameId/401892800/canucks-flyers",
    "drawPossible": false
   },
   {
@@ -2956,7 +2947,7 @@
    "_eid": "401892801",
    "_cid": "401892801",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nhl/game/_/gameId/401892801/panthers-capitals",
    "drawPossible": false
   },
   {
@@ -2976,7 +2967,7 @@
    "_eid": "401892802",
    "_cid": "401892802",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nhl/game/_/gameId/401892802/red-wings-blue-jackets",
    "drawPossible": false
   },
   {
@@ -3005,7 +2996,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401879225/chelsea-nottingham-forest",
    "drawPossible": true
   },
   {
@@ -3033,7 +3024,7 @@
      "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401882791/racing-santander-levante",
    "drawPossible": true
   },
   {
@@ -3061,7 +3052,7 @@
      "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401885389/cd-nacional-maritimo",
    "drawPossible": true
   },
   {
@@ -3085,12 +3076,12 @@
      "outcome": "Florida Gators",
      "bestOdds": 1.44,
      "otherOdds": 3.0,
-     "bookCount": "11",
+     "bookCount": "12",
      "favSide": "away",
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/college-football/game/_/gameId/401856759/florida-florida-st",
    "drawPossible": false
   },
   {
@@ -3114,12 +3105,12 @@
      "outcome": "Memphis Tigers",
      "bestOdds": 1.11,
      "otherOdds": 7.5,
-     "bookCount": "11",
+     "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/college-football/game/_/gameId/401862838/temple-memphis",
    "drawPossible": false
   },
   {
@@ -3143,12 +3134,12 @@
      "outcome": "North Dakota State Bison",
      "bestOdds": 1.3,
      "otherOdds": 3.85,
-     "bookCount": "11",
+     "bookCount": "12",
      "favSide": "away",
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/college-football/game/_/gameId/401864549/n-dakota-st-san-jose-st",
    "drawPossible": false
   },
   {
@@ -3168,7 +3159,7 @@
    "_eid": "401892803",
    "_cid": "401892803",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nhl/game/_/gameId/401892803/avalanche-wild",
    "drawPossible": false
   },
   {
@@ -3188,7 +3179,7 @@
    "_eid": "401892804",
    "_cid": "401892804",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nhl/game/_/gameId/401892804/kings-ducks",
    "drawPossible": false
   },
   {
@@ -3208,7 +3199,7 @@
    "_eid": "401892805",
    "_cid": "401892805",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nhl/game/_/gameId/401892805/golden-knights-sharks",
    "drawPossible": false
   },
   {
@@ -3232,12 +3223,12 @@
      "outcome": "New Mexico Lobos",
      "bestOdds": 1.4,
      "otherOdds": 3.24,
-     "bookCount": "10",
+     "bookCount": "11",
      "favSide": "home",
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/college-football/game/_/gameId/401864546/air-force-new-mexico",
    "drawPossible": false
   },
   {
@@ -3257,7 +3248,7 @@
    "_eid": "401909789",
    "_cid": "401909789",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/mens-college-basketball/game/_/gameId/401909789/villanova-kansas",
    "drawPossible": false
   },
   {
@@ -3277,7 +3268,7 @@
    "_eid": "401892806",
    "_cid": "401892806",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nhl/game/_/gameId/401892806/rangers-blackhawks",
    "drawPossible": false
   },
   {
@@ -3297,7 +3288,7 @@
    "_eid": "401913531",
    "_cid": "401913531",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/mens-college-basketball/game/_/gameId/401913531/western-ky-illinois",
    "drawPossible": false
   },
   {
@@ -3317,7 +3308,7 @@
    "_eid": "401911030",
    "_cid": "401911030",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/mens-college-basketball/game/_/gameId/401911030/bowling-green-indiana",
    "drawPossible": false
   },
   {
@@ -3346,7 +3337,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401841337/cruzeiro-fluminense",
    "drawPossible": true
   },
   {
@@ -3366,7 +3357,7 @@
    "_eid": "401909326",
    "_cid": "401909326",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nba/game/_/gameId/401909326/heat-knicks",
    "drawPossible": false
   },
   {
@@ -3386,7 +3377,7 @@
    "_eid": "401909327",
    "_cid": "401909327",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nba/game/_/gameId/401909327/bucks-pistons",
    "drawPossible": false
   },
   {
@@ -3406,7 +3397,7 @@
    "_eid": "401909328",
    "_cid": "401909328",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nba/game/_/gameId/401909328/76ers-pacers",
    "drawPossible": false
   },
   {
@@ -3426,7 +3417,7 @@
    "_eid": "401909329",
    "_cid": "401909329",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nba/game/_/gameId/401909329/nets-raptors",
    "drawPossible": false
   },
   {
@@ -3446,7 +3437,7 @@
    "_eid": "401925703",
    "_cid": "401925703",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/mens-college-basketball/game/_/gameId/401925703/oakland-houston",
    "drawPossible": false
   },
   {
@@ -3470,12 +3461,12 @@
      "outcome": "Texas Longhorns",
      "bestOdds": 1.23,
      "otherOdds": 4.75,
-     "bookCount": "10",
+     "bookCount": "11",
      "favSide": "away",
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/college-football/game/_/gameId/401856756/texas-texas-am",
    "drawPossible": false
   },
   {
@@ -3499,12 +3490,12 @@
      "outcome": "Wisconsin Badgers",
      "bestOdds": 1.33,
      "otherOdds": 3.6,
-     "bookCount": "11",
+     "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/college-football/game/_/gameId/401858544/minnesota-wisconsin",
    "drawPossible": false
   },
   {
@@ -3524,7 +3515,7 @@
    "_eid": "401892807",
    "_cid": "401892807",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nhl/game/_/gameId/401892807/jets-islanders",
    "drawPossible": false
   },
   {
@@ -3544,7 +3535,7 @@
    "_eid": "401909330",
    "_cid": "401909330",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nba/game/_/gameId/401909330/hawks-celtics",
    "drawPossible": false
   },
   {
@@ -3564,7 +3555,7 @@
    "_eid": "401892808",
    "_cid": "401892808",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nhl/game/_/gameId/401892808/penguins-sabres",
    "drawPossible": false
   },
   {
@@ -3584,7 +3575,7 @@
    "_eid": "401892809",
    "_cid": "401892809",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nhl/game/_/gameId/401892809/kraken-oilers",
    "drawPossible": false
   },
   {
@@ -3613,7 +3604,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401933727/inter-miami-cf-columbus-crew",
    "drawPossible": true
   },
   {
@@ -3633,7 +3624,7 @@
    "_eid": "401909331",
    "_cid": "401909331",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nba/game/_/gameId/401909331/grizzlies-timberwolves",
    "drawPossible": false
   },
   {
@@ -3653,7 +3644,7 @@
    "_eid": "401909332",
    "_cid": "401909332",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nba/game/_/gameId/401909332/mavericks-suns",
    "drawPossible": false
   },
   {
@@ -3677,12 +3668,12 @@
      "outcome": "Utah Utes",
      "bestOdds": 1.05,
      "otherOdds": 16.0,
-     "bookCount": "9",
+     "bookCount": "10",
      "favSide": "home",
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/college-football/game/_/gameId/401856880/west-virginia-utah",
    "drawPossible": false
   },
   {
@@ -3702,7 +3693,7 @@
    "_eid": "401909333",
    "_cid": "401909333",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nba/game/_/gameId/401909333/lakers-spurs",
    "drawPossible": false
   },
   {
@@ -3722,7 +3713,7 @@
    "_eid": "401909334",
    "_cid": "401909334",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nba/game/_/gameId/401909334/nuggets-jazz",
    "drawPossible": false
   },
   {
@@ -3742,7 +3733,7 @@
    "_eid": "401909335",
    "_cid": "401909335",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nba/game/_/gameId/401909335/pelicans-clippers",
    "drawPossible": false
   },
   {
@@ -3762,7 +3753,7 @@
    "_eid": "401909336",
    "_cid": "401909336",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nba/game/_/gameId/401909336/warriors-trail-blazers",
    "drawPossible": false
   },
   {
@@ -3791,7 +3782,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401933725/vancouver-whitecaps-real-salt-lake",
    "drawPossible": true
   },
   {
@@ -3864,7 +3855,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401882796/rayo-vallecano-real-betis",
    "drawPossible": true
   },
   {
@@ -3884,7 +3875,7 @@
    "_eid": "401888236",
    "_cid": "401888236",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401888236/genclerbirligi-samsunspor",
    "drawPossible": true
   },
   {
@@ -3913,7 +3904,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401875081/parma-frosinone",
    "drawPossible": true
   },
   {
@@ -3941,7 +3932,7 @@
      "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401884721/sv-elversberg-fc-cologne",
    "drawPossible": true
   },
   {
@@ -3961,7 +3952,7 @@
    "_eid": "401884722",
    "_cid": "401884722",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401884722/bayern-munich-hamburg-sv",
    "drawPossible": true
   },
   {
@@ -3989,7 +3980,7 @@
      "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401884723/1-fc-union-berlin-mainz",
    "drawPossible": true
   },
   {
@@ -4017,7 +4008,7 @@
      "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401884719/schalke-04-sc-paderborn-07",
    "drawPossible": true
   },
   {
@@ -4046,7 +4037,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401879227/coventry-city-leeds-united",
    "drawPossible": true
   },
   {
@@ -4075,7 +4066,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401879226/brentford-manchester-united",
    "drawPossible": true
   },
   {
@@ -4103,7 +4094,7 @@
      "favSide": "away"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401882790/athletic-club-malaga",
    "drawPossible": true
   },
   {
@@ -4132,7 +4123,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401885392/rio-ave-arouca",
    "drawPossible": true
   },
   {
@@ -4161,7 +4152,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401885388/santa-clara-moreirense",
    "drawPossible": true
   },
   {
@@ -4190,7 +4181,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401875537/telstar-excelsior",
    "drawPossible": true
   },
   {
@@ -4218,7 +4209,7 @@
      "favSide": "away"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401888368/amed-sfk-gaziantep-fk",
    "drawPossible": true
   },
   {
@@ -4246,7 +4237,7 @@
      "favSide": "away"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401876394/lens-angers",
    "drawPossible": true
   },
   {
@@ -4275,7 +4266,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401874826/lazio-torino",
    "drawPossible": true
   },
   {
@@ -4304,7 +4295,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401878752/aston-villa-ipswich-town",
    "drawPossible": true
   },
   {
@@ -4333,7 +4324,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401882793/atletico-madrid-elche",
    "drawPossible": true
   },
   {
@@ -4362,7 +4353,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401884726/eintracht-frankfurt-vfb-stuttgart",
    "drawPossible": true
   },
   {
@@ -4391,7 +4382,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401933737/chicago-fire-fc-charlotte-fc",
    "drawPossible": true
   },
   {
@@ -4420,7 +4411,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401875531/go-ahead-eagles-psv-eindhoven",
    "drawPossible": true
   },
   {
@@ -4449,7 +4440,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401885393/alverca-academico-de-viseu",
    "drawPossible": true
   },
   {
@@ -4478,7 +4469,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401933724/san-jose-earthquakes-houston-dynamo-fc",
    "drawPossible": true
   },
   {
@@ -4506,7 +4497,7 @@
      "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401874977/genoa-internazionale",
    "drawPossible": true
   },
   {
@@ -4535,7 +4526,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401876391/strasbourg-le-havre-ac",
    "drawPossible": true
   },
   {
@@ -4564,7 +4555,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401876390/lille-le-mans",
    "drawPossible": true
   },
   {
@@ -4593,7 +4584,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401876388/troyes-nice",
    "drawPossible": true
   },
   {
@@ -4622,7 +4613,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401876387/lorient-paris-saint-germain",
    "drawPossible": true
   },
   {
@@ -4651,7 +4642,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401882789/alaves-real-madrid",
    "drawPossible": true
   },
   {
@@ -4680,7 +4671,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401875530/sparta-rotterdam-sc-cambuur",
    "drawPossible": true
   },
   {
@@ -4708,7 +4699,7 @@
      "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401885385/estrela-vitoria-de-guimaraes",
    "drawPossible": true
   },
   {
@@ -4737,7 +4728,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401933723/new-england-revolution-philadelphia-union",
    "drawPossible": true
   },
   {
@@ -4766,7 +4757,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401933722/nashville-sc-fc-cincinnati",
    "drawPossible": true
   },
   {
@@ -4795,7 +4786,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401841336/bahia-botafogo",
    "drawPossible": true
   },
   {
@@ -4815,7 +4806,7 @@
    "_eid": "401931997",
    "_cid": "401931997",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401931997/toluca-atlas",
    "drawPossible": true
   },
   {
@@ -4843,7 +4834,7 @@
      "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401933726/st-louis-city-sc-lafc",
    "drawPossible": true
   },
   {
@@ -4863,7 +4854,7 @@
    "_eid": "401931996",
    "_cid": "401931996",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401931996/monterrey-america",
    "drawPossible": true
   },
   {
@@ -4892,7 +4883,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401933721/fc-dallas-portland-timbers",
    "drawPossible": true
   },
   {
@@ -4965,7 +4956,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401888367/kocaelispor-corum-fk",
    "drawPossible": true
   },
   {
@@ -4994,7 +4985,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401875538/fc-utrecht-ado-den-haag",
    "drawPossible": true
   },
   {
@@ -5023,7 +5014,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401875031/fiorentina-udinese",
    "drawPossible": true
   },
   {
@@ -5052,7 +5043,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401879229/liverpool-everton",
    "drawPossible": true
   },
   {
@@ -5080,7 +5071,7 @@
      "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401882787/osasuna-valencia",
    "drawPossible": true
   },
   {
@@ -5108,7 +5099,7 @@
      "favSide": "away"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401888242/istanbul-basaksehir-eyupspor",
    "drawPossible": true
   },
   {
@@ -5136,7 +5127,7 @@
      "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401875535/ajax-amsterdam-feyenoord-rotterdam",
    "drawPossible": true
   },
   {
@@ -5165,7 +5156,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401875534/heerenveen-fortuna-sittard",
    "drawPossible": true
   },
   {
@@ -5194,7 +5185,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401874992/napoli-sassuolo",
    "drawPossible": true
   },
   {
@@ -5222,7 +5213,7 @@
      "favSide": "away"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401876393/marseille-aj-auxerre",
    "drawPossible": true
   },
   {
@@ -5250,7 +5241,7 @@
      "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401879231/newcastle-united-brighton-hove-albion",
    "drawPossible": true
   },
   {
@@ -5279,7 +5270,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401879230/hull-city-crystal-palace",
    "drawPossible": true
   },
   {
@@ -5308,7 +5299,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401879228/afc-bournemouth-fulham",
    "drawPossible": true
   },
   {
@@ -5337,7 +5328,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401879224/tottenham-hotspur-sunderland",
    "drawPossible": true
   },
   {
@@ -5366,7 +5357,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401884724/rb-leipzig-sc-freiburg",
    "drawPossible": true
   },
   {
@@ -5394,7 +5385,7 @@
      "favSide": "away"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401882794/barcelona-deportivo",
    "drawPossible": true
   },
   {
@@ -5422,7 +5413,7 @@
      "favSide": "away"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401875532/az-alkmaar-pec-zwolle",
    "drawPossible": true
   },
   {
@@ -5451,7 +5442,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401888238/erzurum-bb-fenerbahce",
    "drawPossible": true
   },
   {
@@ -5471,7 +5462,7 @@
    "_eid": "401876386",
    "_cid": "401876386",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401876386/stade-rennais-toulouse",
    "drawPossible": true
   },
   {
@@ -5500,7 +5491,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401878753/manchester-city-arsenal",
    "drawPossible": true
   },
   {
@@ -5529,7 +5520,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401884725/fc-augsburg-tsg-hoffenheim",
    "drawPossible": true
   },
   {
@@ -5558,7 +5549,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401874769/monza-as-roma",
    "drawPossible": true
   },
   {
@@ -5587,7 +5578,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401882795/villarreal-celta-vigo",
    "drawPossible": true
   },
   {
@@ -5616,7 +5607,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401885390/estoril-gil-vicente",
    "drawPossible": true
   },
   {
@@ -5645,7 +5636,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401884727/bayer-leverkusen-borussia-dortmund",
    "drawPossible": true
   },
   {
@@ -5674,7 +5665,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401841333/flamengo-coritiba",
    "drawPossible": true
   },
   {
@@ -5703,7 +5694,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401841332/santos-vitoria",
    "drawPossible": true
   },
   {
@@ -5731,7 +5722,7 @@
      "favSide": "away"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401875533/fc-twente-nec-nijmegen",
    "drawPossible": true
   },
   {
@@ -5760,7 +5751,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401874994/juventus-como",
    "drawPossible": true
   },
   {
@@ -5789,7 +5780,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401876389/as-monaco-lyon",
    "drawPossible": true
   },
   {
@@ -5818,7 +5809,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401882788/sevilla-real-sociedad",
    "drawPossible": true
   },
   {
@@ -5838,7 +5829,7 @@
    "_eid": "401936413",
    "_cid": "401936413",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401936413/river-plate-instituto-cordoba",
    "drawPossible": true
   },
   {
@@ -5867,7 +5858,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401936373/barracas-central-rosario-central",
    "drawPossible": true
   },
   {
@@ -5895,7 +5886,7 @@
      "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401936353/independiente-velez-sarsfield",
    "drawPossible": true
   },
   {
@@ -5923,7 +5914,7 @@
      "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401885387/sporting-cp-fc-porto",
    "drawPossible": true
   },
   {
@@ -5952,7 +5943,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401841334/gremio-corinthians",
    "drawPossible": true
   },
   {
@@ -5980,7 +5971,7 @@
      "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401841331/red-bull-bragantino-internacional",
    "drawPossible": true
   },
   {
@@ -6008,7 +5999,7 @@
      "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401841330/athletico-paranaense-mirassol",
    "drawPossible": true
   },
   {
@@ -6028,7 +6019,7 @@
    "_eid": "401841328",
    "_cid": "401841328",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401841328/vasco-da-gama-atletico-mg",
    "drawPossible": true
   },
   {
@@ -6048,7 +6039,7 @@
    "_eid": "401931983",
    "_cid": "401931983",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401931983/pachuca-guadalajara",
    "drawPossible": true
   },
   {
@@ -6077,7 +6068,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401932000/leon-cruz-azul",
    "drawPossible": true
   },
   {
@@ -6133,7 +6124,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401888239/trabzonspor-goztepe",
    "drawPossible": true
   },
   {
@@ -6161,7 +6152,7 @@
      "favSide": "away"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401875095/atalanta-lecce",
    "drawPossible": true
   },
   {
@@ -6189,7 +6180,7 @@
      "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401888237/galatasaray-besiktas",
    "drawPossible": true
   },
   {
@@ -6218,7 +6209,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401875019/ac-milan-cagliari",
    "drawPossible": true
   },
   {
@@ -6247,7 +6238,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401882792/getafe-espanyol",
    "drawPossible": true
   },
   {
@@ -6276,7 +6267,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401885386/fc-famalicao-benfica",
    "drawPossible": true
   },
   {
@@ -6305,7 +6296,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401885391/braga-casa-pia",
    "drawPossible": true
   },
   {
@@ -6334,7 +6325,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401879221/ipswich-town-coventry-city",
    "drawPossible": true
   },
   {
@@ -6363,7 +6354,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401882698/real-madrid-real-sociedad",
    "drawPossible": true
   },
   {
@@ -6392,7 +6383,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401879222/crystal-palace-chelsea",
    "drawPossible": true
   },
   {
@@ -6421,7 +6412,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401879220/nottingham-forest-hull-city",
    "drawPossible": true
   },
   {
@@ -6450,7 +6441,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401879219/sunderland-liverpool",
    "drawPossible": true
   },
   {
@@ -6479,7 +6470,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401879218/leeds-united-manchester-city",
    "drawPossible": true
   },
   {
@@ -6507,7 +6498,7 @@
      "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401879223/brighton-hove-albion-afc-bournemouth",
    "drawPossible": true
   },
   {
@@ -6536,7 +6527,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401878751/everton-aston-villa",
    "drawPossible": true
   },
   {
@@ -6565,7 +6556,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401878750/arsenal-brentford",
    "drawPossible": true
   },
   {
@@ -6594,7 +6585,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401879217/manchester-united-newcastle-united",
    "drawPossible": true
   },
   {
@@ -6623,7 +6614,7 @@
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401882700/atletico-madrid-barcelona",
    "drawPossible": true
   },
   {
@@ -6643,7 +6634,7 @@
    "_eid": "401933719",
    "_cid": "401933719",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401933719/philadelphia-union-new-england-revolution",
    "drawPossible": true
   },
   {
@@ -6663,7 +6654,7 @@
    "_eid": "401841338",
    "_cid": "401841338",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401841338/sao-paulo-athletico-paranaense",
    "drawPossible": true
   },
   {
@@ -6683,7 +6674,7 @@
    "_eid": "401841339",
    "_cid": "401841339",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401841339/atletico-mg-bahia",
    "drawPossible": true
   },
   {
@@ -6703,7 +6694,7 @@
    "_eid": "401841340",
    "_cid": "401841340",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401841340/internacional-cruzeiro",
    "drawPossible": true
   },
   {
@@ -6723,7 +6714,7 @@
    "_eid": "401841341",
    "_cid": "401841341",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401841341/chapecoense-flamengo",
    "drawPossible": true
   },
   {
@@ -6743,7 +6734,7 @@
    "_eid": "401841347",
    "_cid": "401841347",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401841347/mirassol-gremio",
    "drawPossible": true
   },
   {
@@ -6763,7 +6754,7 @@
    "_eid": "401841343",
    "_cid": "401841343",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401841343/coritiba-palmeiras",
    "drawPossible": true
   },
   {
@@ -6783,7 +6774,7 @@
    "_eid": "401841344",
    "_cid": "401841344",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401841344/fluminense-red-bull-bragantino",
    "drawPossible": true
   },
   {
@@ -6803,7 +6794,7 @@
    "_eid": "401841345",
    "_cid": "401841345",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401841345/corinthians-remo",
    "drawPossible": true
   },
   {
@@ -6823,7 +6814,7 @@
    "_eid": "401841346",
    "_cid": "401841346",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401841346/botafogo-santos",
    "drawPossible": true
   },
   {
@@ -6843,7 +6834,7 @@
    "_eid": "401841342",
    "_cid": "401841342",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401841342/vitoria-vasco-da-gama",
    "drawPossible": true
   },
   {
@@ -6863,7 +6854,7 @@
    "_eid": "401933720",
    "_cid": "401933720",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401933720/columbus-crew-inter-miami-cf",
    "drawPossible": true
   },
   {
@@ -6883,7 +6874,7 @@
    "_eid": "401933718",
    "_cid": "401933718",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401933718/charlotte-fc-chicago-fire-fc",
    "drawPossible": true
   },
   {
@@ -6903,7 +6894,7 @@
    "_eid": "401933716",
    "_cid": "401933716",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401933716/portland-timbers-fc-dallas",
    "drawPossible": true
   },
   {
@@ -6923,7 +6914,7 @@
    "_eid": "401933736",
    "_cid": "401933736",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401933736/fc-cincinnati-nashville-sc",
    "drawPossible": true
   },
   {
@@ -6943,7 +6934,7 @@
    "_eid": "401933735",
    "_cid": "401933735",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401933735/lafc-st-louis-city-sc",
    "drawPossible": true
   },
   {
@@ -6963,7 +6954,7 @@
    "_eid": "401933717",
    "_cid": "401933717",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401933717/real-salt-lake-vancouver-whitecaps",
    "drawPossible": true
   },
   {
@@ -6983,7 +6974,7 @@
    "_eid": "401933715",
    "_cid": "401933715",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401933715/houston-dynamo-fc-san-jose-earthquakes",
    "drawPossible": true
   },
   {
@@ -7011,7 +7002,7 @@
      "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401878749/fulham-tottenham-hotspur",
    "drawPossible": true
   },
   {
@@ -7031,7 +7022,7 @@
    "_eid": "401888231",
    "_cid": "401888231",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401888231/caykur-rizespor-galatasaray",
    "drawPossible": true
   },
   {
@@ -7051,7 +7042,7 @@
    "_eid": "401875522",
    "_cid": "401875522",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401875522/fc-groningen-telstar",
    "drawPossible": true
   },
   {
@@ -7079,7 +7070,7 @@
      "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401884718/sc-paderborn-07-bayern-munich",
    "drawPossible": true
   },
   {
@@ -7107,7 +7098,7 @@
      "favSide": "away"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401874984/as-roma-bologna",
    "drawPossible": true
   },
   {
@@ -7135,7 +7126,7 @@
      "favSide": "away"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401876378/paris-saint-germain-toulouse",
    "drawPossible": true
   },
   {
@@ -7155,7 +7146,7 @@
    "_eid": "401882786",
    "_cid": "401882786",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401882786/espanyol-alaves",
    "drawPossible": true
   },
   {
@@ -7175,7 +7166,7 @@
    "_eid": "401885376",
    "_cid": "401885376",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401885376/maritimo-sporting-cp",
    "drawPossible": true
   },
   {
@@ -7195,7 +7186,7 @@
    "_eid": "401888232",
    "_cid": "401888232",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401888232/gaziantep-fk-konyaspor",
    "drawPossible": true
   },
   {
@@ -7215,7 +7206,7 @@
    "_eid": "401879213",
    "_cid": "401879213",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401879213/liverpool-chelsea",
    "drawPossible": true
   },
   {
@@ -7235,7 +7226,7 @@
    "_eid": "401882780",
    "_cid": "401882780",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401882780/deportivo-racing-santander",
    "drawPossible": true
   },
   {
@@ -7255,7 +7246,7 @@
    "_eid": "401888365",
    "_cid": "401888365",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401888365/alanyaspor-amed-sfk",
    "drawPossible": true
   },
   {
@@ -7283,7 +7274,7 @@
      "favSide": "away"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401874975/como-monza",
    "drawPossible": true
   },
   {
@@ -7303,7 +7294,7 @@
    "_eid": "401884712",
    "_cid": "401884712",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401884712/hamburg-sv-1-fc-union-berlin",
    "drawPossible": true
   },
   {
@@ -7331,7 +7322,7 @@
      "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401884716/borussia-monchengladbach-bayer-leverkusen",
    "drawPossible": true
   },
   {
@@ -7359,7 +7350,7 @@
      "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401884713/fc-cologne-fc-augsburg",
    "drawPossible": true
   },
   {
@@ -7387,7 +7378,7 @@
      "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401884717/mainz-rb-leipzig",
    "drawPossible": true
   },
   {
@@ -7415,7 +7406,7 @@
      "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401884715/tsg-hoffenheim-sc-freiburg",
    "drawPossible": true
   },
   {
@@ -7435,7 +7426,7 @@
    "_eid": "401879216",
    "_cid": "401879216",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401879216/hull-city-afc-bournemouth",
    "drawPossible": true
   },
   {
@@ -7455,7 +7446,7 @@
    "_eid": "401879215",
    "_cid": "401879215",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401879215/crystal-palace-aston-villa",
    "drawPossible": true
   },
   {
@@ -7475,7 +7466,7 @@
    "_eid": "401879211",
    "_cid": "401879211",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401879211/ipswich-town-leeds-united",
    "drawPossible": true
   },
   {
@@ -7495,7 +7486,7 @@
    "_eid": "401879210",
    "_cid": "401879210",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401879210/coventry-city-manchester-united",
    "drawPossible": true
   },
   {
@@ -7515,7 +7506,7 @@
    "_eid": "401882779",
    "_cid": "401882779",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401882779/levante-rayo-vallecano",
    "drawPossible": true
   },
   {
@@ -7535,7 +7526,7 @@
    "_eid": "401885379",
    "_cid": "401885379",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401885379/benfica-cd-nacional",
    "drawPossible": true
   },
   {
@@ -7555,7 +7546,7 @@
    "_eid": "401875521",
    "_cid": "401875521",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401875521/feyenoord-rotterdam-willem-ii",
    "drawPossible": true
   },
   {
@@ -7575,7 +7566,7 @@
    "_eid": "401888234",
    "_cid": "401888234",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401888234/fenerbahce-istanbul-basaksehir",
    "drawPossible": true
   },
   {
@@ -7603,7 +7594,7 @@
      "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401876384/aj-auxerre-lille",
    "drawPossible": true
   },
   {
@@ -7631,7 +7622,7 @@
      "favSide": "away"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401875023/internazionale-frosinone",
    "drawPossible": true
   },
   {
@@ -7651,7 +7642,7 @@
    "_eid": "401878747",
    "_cid": "401878747",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401878747/brighton-hove-albion-nottingham-forest",
    "drawPossible": true
   },
   {
@@ -7671,7 +7662,7 @@
    "_eid": "401882777",
    "_cid": "401882777",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401882777/real-sociedad-villarreal",
    "drawPossible": true
   },
   {
@@ -7699,7 +7690,7 @@
      "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401884714/werder-bremen-eintracht-frankfurt",
    "drawPossible": true
   },
   {
@@ -7719,7 +7710,7 @@
    "_eid": "401875523",
    "_cid": "401875523",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401875523/nec-nijmegen-sparta-rotterdam",
    "drawPossible": true
   },
   {
@@ -7739,7 +7730,7 @@
    "_eid": "401885377",
    "_cid": "401885377",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401885377/fc-porto-santa-clara",
    "drawPossible": true
   },
   {
@@ -7759,7 +7750,7 @@
    "_eid": "401875527",
    "_cid": "401875527",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401875527/psv-eindhoven-az-alkmaar",
    "drawPossible": true
   },
   {
@@ -7787,7 +7778,7 @@
      "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401874788/lecce-napoli",
    "drawPossible": true
   },
   {
@@ -7815,7 +7806,7 @@
      "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401876382/angers-as-monaco",
    "drawPossible": true
   },
   {
@@ -7843,7 +7834,7 @@
      "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401876385/le-havre-ac-lens",
    "drawPossible": true
   },
   {
@@ -7871,7 +7862,7 @@
      "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401876381/le-mans-paris-fc",
    "drawPossible": true
   },
   {
@@ -7899,7 +7890,7 @@
      "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401876379/lorient-strasbourg",
    "drawPossible": true
   },
   {
@@ -7919,7 +7910,7 @@
    "_eid": "401879214",
    "_cid": "401879214",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401879214/manchester-city-brentford",
    "drawPossible": true
   },
   {
@@ -7939,7 +7930,7 @@
    "_eid": "401882783",
    "_cid": "401882783",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401882783/celta-vigo-barcelona",
    "drawPossible": true
   },
   {
@@ -7959,7 +7950,7 @@
    "_eid": "401875526",
    "_cid": "401875526",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401875526/pec-zwolle-fortuna-sittard",
    "drawPossible": true
   },
   {
@@ -7979,7 +7970,7 @@
    "_eid": "401885382",
    "_cid": "401885382",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401885382/arouca-braga",
    "drawPossible": true
   },
   {
@@ -7999,7 +7990,7 @@
    "_eid": "401888229",
    "_cid": "401888229",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401888229/kocaelispor-erzurum-bb",
    "drawPossible": true
   },
   {
@@ -8019,7 +8010,7 @@
    "_eid": "401875524",
    "_cid": "401875524",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401875524/sc-cambuur-heerenveen",
    "drawPossible": true
   },
   {
@@ -8047,7 +8038,7 @@
      "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401875017/torino-genoa",
    "drawPossible": true
   },
   {
@@ -8067,7 +8058,7 @@
    "_eid": "401882781",
    "_cid": "401882781",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401882781/elche-osasuna",
    "drawPossible": true
   },
   {
@@ -8087,7 +8078,7 @@
    "_eid": "401888230",
    "_cid": "401888230",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401888230/samsunspor-besiktas",
    "drawPossible": true
   },
   {
@@ -8107,7 +8098,7 @@
    "_eid": "401888233",
    "_cid": "401888233",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401888233/eyupspor-genclerbirligi",
    "drawPossible": true
   },
   {
@@ -8127,7 +8118,7 @@
    "_eid": "401875528",
    "_cid": "401875528",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401875528/fc-utrecht-ajax-amsterdam",
    "drawPossible": true
   },
   {
@@ -8147,7 +8138,7 @@
    "_eid": "401875525",
    "_cid": "401875525",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401875525/fc-twente-go-ahead-eagles",
    "drawPossible": true
   },
   {
@@ -8167,7 +8158,7 @@
    "_eid": "401879212",
    "_cid": "401879212",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401879212/fulham-everton",
    "drawPossible": true
   },
   {
@@ -8187,7 +8178,7 @@
    "_eid": "401878748",
    "_cid": "401878748",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401878748/sunderland-newcastle-united",
    "drawPossible": true
   },
   {
@@ -8215,7 +8206,7 @@
      "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401875029/atalanta-lazio",
    "drawPossible": true
   },
   {
@@ -8243,7 +8234,7 @@
      "favSide": "away"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401876377/lyon-troyes",
    "drawPossible": true
   },
   {
@@ -8271,7 +8262,7 @@
      "favSide": "away"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401884711/borussia-dortmund-schalke-04",
    "drawPossible": true
   },
   {
@@ -8291,7 +8282,7 @@
    "_eid": "401882785",
    "_cid": "401882785",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401882785/real-madrid-athletic-club",
    "drawPossible": true
   },
   {
@@ -8311,7 +8302,7 @@
    "_eid": "401885383",
    "_cid": "401885383",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401885383/gil-vicente-estrela",
    "drawPossible": true
   },
   {
@@ -8331,7 +8322,7 @@
    "_eid": "401885378",
    "_cid": "401885378",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401885378/casa-pia-rio-ave",
    "drawPossible": true
   },
   {
@@ -8351,7 +8342,7 @@
    "_eid": "401875529",
    "_cid": "401875529",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401875529/excelsior-ado-den-haag",
    "drawPossible": true
   },
   {
@@ -8371,7 +8362,7 @@
    "_eid": "401888366",
    "_cid": "401888366",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401888366/corum-fk-trabzonspor",
    "drawPossible": true
   },
   {
@@ -8391,7 +8382,7 @@
    "_eid": "401876380",
    "_cid": "401876380",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401876380/brest-stade-rennais",
    "drawPossible": true
   },
   {
@@ -8411,7 +8402,7 @@
    "_eid": "401879209",
    "_cid": "401879209",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401879209/arsenal-tottenham-hotspur",
    "drawPossible": true
   },
   {
@@ -8439,7 +8430,7 @@
      "favSide": "away"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401884710/vfb-stuttgart-sv-elversberg",
    "drawPossible": true
   },
   {
@@ -8467,7 +8458,7 @@
      "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401875006/udinese-juventus",
    "drawPossible": true
   },
   {
@@ -8487,7 +8478,7 @@
    "_eid": "401882782",
    "_cid": "401882782",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401882782/valencia-getafe",
    "drawPossible": true
   },
   {
@@ -8507,7 +8498,7 @@
    "_eid": "401885381",
    "_cid": "401885381",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401885381/vitoria-de-guimaraes-estoril",
    "drawPossible": true
   },
   {
@@ -8535,7 +8526,7 @@
      "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401874995/parma-ac-milan",
    "drawPossible": true
   },
   {
@@ -8563,7 +8554,7 @@
      "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401876383/nice-marseille",
    "drawPossible": true
   },
   {
@@ -8583,7 +8574,7 @@
    "_eid": "401882784",
    "_cid": "401882784",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401882784/real-betis-atletico-madrid",
    "drawPossible": true
   },
   {
@@ -8603,7 +8594,7 @@
    "_eid": "401885380",
    "_cid": "401885380",
    "markets": {},
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401885380/academico-de-viseu-fc-famalicao",
    "drawPossible": true
   }
  ]
