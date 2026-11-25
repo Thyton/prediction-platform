@@ -9,9 +9,9 @@ import collector as C
 import model as M
 
 s = M.load()   # start from trained state (ratings from all history, no look-ahead within window)
-# Long enough that ratings bootstrap and the sample isn't all cold-start rejects.
-# ESPN keeps about two weeks of event odds, so the earliest days yield few picks.
-days = [(datetime.date.today() - datetime.timedelta(days=b)).strftime("%Y%m%d") for b in range(1, 22)]
+# ESPN keeps roughly two weeks of scoreboards and event odds, so this is the
+# honest ceiling; past it days come back empty instead of adding history.
+days = [(datetime.date.today() - datetime.timedelta(days=b)).strftime("%Y%m%d") for b in range(1, 15)]
 days.reverse()  # oldest first so ratings build chronologically
 # Replay the leagues that actually supply the board (soccer + US majors). ESPN
 # drops event odds after ~2 weeks, so a 10-day window is the honest maximum.

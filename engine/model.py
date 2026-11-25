@@ -221,6 +221,10 @@ def evaluate_no_market(g, s):
     if edge < 0.12 or prob < 0.62:   # no price: require a clear lean in the same conviction zone
         return None
     price = round(1 / max(prob * 1.02, 0.05), 2)   # 2% model margin
+    # a model price has no book to temper it, so a 1.18 shot risks 1u to win 0.18.
+    # Under 1.30 the risk/reward is poor: the forward record lost only on these.
+    if price < 1.30:
+        return None
     tier = "PREMIUM" if edge >= 0.26 else "HIGH" if edge >= 0.18 else "STANDARD"
     return {
         "gameId": g["id"], "match": g["match"], "league": g["league"], "sport": g["sport"],
