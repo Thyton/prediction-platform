@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-25T15:51:14.718545+00:00",
+ "generatedAt": "2026-11-25T16:06:05.639261+00:00",
  "windowDays": 10,
  "items": [
   {
@@ -22,9 +22,9 @@
    "awayLogo": null,
    "homeAbbr": null,
    "awayAbbr": null,
+   "final": "2-5",
    "result": "correct",
    "profitUnits": 0.74,
-   "final": "2-5",
    "source": "backtest"
   },
   {
@@ -47,9 +47,9 @@
    "awayLogo": null,
    "homeAbbr": null,
    "awayAbbr": null,
+   "final": "0-1",
    "result": "correct",
    "profitUnits": 0.74,
-   "final": "0-1",
    "source": "backtest"
   },
   {
@@ -72,9 +72,9 @@
    "awayLogo": null,
    "homeAbbr": null,
    "awayAbbr": null,
+   "final": "111-117",
    "result": "correct",
    "profitUnits": 0.68,
-   "final": "111-117",
    "source": "backtest"
   }
  ]

@@ -125,7 +125,7 @@ export default async function Home() {
           <span className="status">
             {signals.length > 0 && <><span className="live-pulse" /><b>{signals.length}</b> live · </>}
             ● <b>{picks.length}</b> open · <b>{games.length}</b> games tracked ·{" "}
-            <b>{alerts.length}</b> alerts
+            <b>{alerts.total}</b> alerts
           </span>
         </div>
 
@@ -178,13 +178,14 @@ export default async function Home() {
             )
           }
           alerts={
-            alerts.length ? (
-              <table>
+            alerts.high.length ? (
+              <>
+                <table>
                 <thead>
                   <tr><th>Match</th><th>Signal</th><th>Why</th></tr>
                 </thead>
                 <tbody>
-                  {alerts.map((a) => (
+                  {alerts.high.map((a) => (
                     <tr key={a.gameId}>
                       <td>
                         <span className="league">{a.league}</span>
@@ -202,7 +203,17 @@ export default async function Home() {
                     </tr>
                   ))}
                 </tbody>
-              </table>
+                </table>
+                {alerts.watch.length > 0 && (
+                  <p className="muted-note">
+                    Plus {alerts.watch.length} thin-market cautions (one or two books quoting) — lower risk, so not listed above.
+                  </p>
+                )}
+              </>
+            ) : alerts.watch.length ? (
+              <p className="muted-note">
+                No high-risk shapes right now. {alerts.watch.length} thin-market cautions in play.
+              </p>
             ) : (
               <div className="empty">No abnormal market shapes detected right now.</div>
             )

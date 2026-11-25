@@ -244,18 +244,22 @@ def integrity(g, s):
             odds = float(m.get("bestOdds"))
         except (TypeError, ValueError):
             return None
+        # thin alone is a caution, not a red flag: esports is structurally
+        # single-book, so calling that "high risk" drowned the tab. A second
+        # flag on top of a thin market is what earns high risk.
+        thin = 0
         if books <= 1:
             flags.append("Thin market: only 1 book quoting (low liquidity, less scrutiny)")
-            sev = max(sev, 2)
+            thin = 2
         elif books <= 2:
             flags.append(f"Thin market: only {books} books quoting")
-            sev = max(sev, 1)
+            thin = 1
         if odds and odds <= 1.35:
-            flags.append("Heavy favourite: extreme price imbalance may mean an uncompetitive matchup")
-            sev = max(sev, 2)
+            flags.append("Heavy favourite: a short price leaves little margin")
         if odds and odds >= 5.5:
             flags.append("Big underdog priced: market implies low confidence")
-            sev = max(sev, 1)
+        # high risk only when two independent things are wrong at once
+        sev = 2 if (thin and len(flags) >= 2) else 1
     if not flags:
         return None
     return {"gameId": g["id"], "match": g["match"], "league": g["league"],
