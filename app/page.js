@@ -64,7 +64,7 @@ function PickCard({ p, trackable, following }) {
               {p.result === "correct" ? "WON" : p.result === "push" ? "PUSH" : "LOST"}
             </div>
             <div className="pick-price">
-              {p.profitUnits >= 0 ? "+" : ""}{Number(p.profitUnits).toFixed(2)}u
+              {p.profitUnits > 0 ? "+" : ""}{Number(p.profitUnits).toFixed(2)}u
             </div>
           </>
         ) : (
@@ -166,8 +166,8 @@ export default async function Home() {
                       <td className={p.result === "correct" ? "win" : p.result === "push" ? "" : "loss"}>
                         {p.result === "correct" ? "Won" : p.result === "push" ? "Push" : "Lost"} <small>{p.final}</small>
                       </td>
-                      <td className={p.profitUnits >= 0 ? "win" : "loss"}>
-                        {p.profitUnits >= 0 ? "+" : ""}{Number(p.profitUnits).toFixed(2)}
+                      <td className={p.profitUnits > 0 ? "win" : p.profitUnits < 0 ? "loss" : ""}>
+                        {p.profitUnits > 0 ? "+" : ""}{Number(p.profitUnits).toFixed(2)}
                       </td>
                     </tr>
                   ))}

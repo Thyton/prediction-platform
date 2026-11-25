@@ -45,8 +45,8 @@ export default function RecordPage() {
             <td className={p.result === "correct" ? "win" : p.result === "push" ? "" : "loss"}>
               {p.result === "correct" ? "Won" : p.result === "push" ? "Push" : "Lost"}
             </td>
-            <td className={p.profitUnits >= 0 ? "win" : "loss"}>
-              {p.profitUnits >= 0 ? "+" : ""}{Number(p.profitUnits).toFixed(2)}
+            <td className={p.profitUnits > 0 ? "win" : p.profitUnits < 0 ? "loss" : ""}>
+              {p.profitUnits > 0 ? "+" : ""}{Number(p.profitUnits).toFixed(2)}
             </td>
           </tr>
         ))}
