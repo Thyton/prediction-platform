@@ -84,6 +84,9 @@ def main():
                 print("deploy:", (r.stdout or r.stderr).strip()[-80:], file=sys.stderr)
             return 0
     if do_all or a.publish:
+        # tune first, from what grading just settled — model.py reads tuned.json
+        r = run("learn.py")
+        print(r.stdout, r.stderr, sep="", file=sys.stderr)
         gpath = os.path.join(DATA, "games.json")
         r = run("collector.py", "--out", gpath)
         if r.returncode:
@@ -268,12 +271,12 @@ def commit_data():
     repo = os.path.dirname(HERE)
     try:
         changed = subprocess.run(
-            ["git", "status", "--porcelain", "data", "engine/model_state.json"], cwd=repo,
+            ["git", "status", "--porcelain", "data", "engine/model_state.json", "engine/tuned.json"], cwd=repo,
             capture_output=True, text=True, timeout=60,
         ).stdout.strip()
         if not changed:
             return
-        subprocess.run(["git", "add", "data", "engine/model_state.json"], cwd=repo, timeout=60)
+        subprocess.run(["git", "add", "data", "engine/model_state.json", "engine/tuned.json"], cwd=repo, timeout=60)
         subprocess.run(
             ["git", "commit", "-q", "-m",
              f"data: cycle {datetime.datetime.now(datetime.UTC).strftime('%Y-%m-%dT%H:%MZ')}"],

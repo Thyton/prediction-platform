@@ -56,6 +56,26 @@ def save(s):
         json.dump(s, f, indent=1)
 
 
+def tuned_for(sport):
+    """Self-tuning from the ledger (engine/learn.py writes tuned.json). Returns
+    (scale, floor) for this sport, falling back to global, then defaults.
+    Scale multiplies the claimed probability before pricing/conviction: a model
+    running hot on a sport is treated as if it had said less. Floor replaces
+    the hard-coded 0.70 conviction gate per sport."""
+    scale, floor = 1.0, 0.70
+    try:
+        t = json.load(open(os.path.join(HERE, "tuned.json")))
+    except Exception:
+        return scale, floor
+    g = t.get("global") or {}
+    sp = (t.get("sports") or {}).get(sport) or {}
+    if g.get("scale"):
+        scale, floor = g["scale"], g.get("floor") or floor
+    if sp.get("scale"):                      # per-sport overrides global
+        scale, floor = sp["scale"], sp.get("floor") or floor
+    return scale, floor
+
+
 def rating(s, sport, team):
     return (s["ratings"].get(sport) or {}).get(team, ELO0)
 
@@ -216,9 +236,12 @@ def evaluate(g, s):
     side = fav
     price = odds
     prob = pH if side == "home" else pA
-    if prob < 0.70 or prob > 0.85:
-        return None   # 70+ floor: the replay graded 87% above 0.72 and 72% in 0.62-0.72
-    tier = "PREMIUM" if prob >= 0.78 else "HIGH" if prob >= 0.70 else "STANDARD"
+    # self-tuning: learned calibration scale + conviction floor for this sport
+    scale, floor = tuned_for(g.get("sport"))
+    prob = min(0.97, prob * scale)
+    if prob < floor or prob > 0.85:
+        return None   # tuned floor (default 0.70): replay graded 87% above 0.72
+    tier = "PREMIUM" if prob >= 0.78 else "HIGH" if prob >= floor else "STANDARD"
     return {
         "gameId": g["id"], "match": g["match"], "league": g["league"], "sport": g["sport"],
         "side": side, "price": round(price, 2), "modelProb": round(prob, 4),
@@ -243,7 +266,9 @@ def evaluate_no_market(g, s):
     pH, pA, _ = model_probs(g, s)
     side, prob = ("home", pH) if pH >= pA else ("away", pA)
     edge = abs(pH - pA)
-    if edge < 0.16 or prob < 0.70:   # same 70% conviction as market picks
+    scale, floor = tuned_for(g.get("sport"))
+    prob = min(0.97, prob * scale)
+    if edge < 0.16 or prob < floor:   # tuned conviction floor (default 0.70)
         return None
     # A model price is our own opinion, and the forward record shows the opinion runs
     # hot: 71% claimed against 40% realised. A 2% markup only breaks even when the

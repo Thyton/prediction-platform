@@ -1,0 +1,24 @@
+{
+ "updatedAt": "2026-11-25T23:40:42.388164+00:00",
+ "sports": {
+  "nba": {
+   "scale": null,
+   "floor": null,
+   "n": 1,
+   "note": "inherits global"
+  },
+  "wta": {
+   "scale": null,
+   "floor": null,
+   "n": 7,
+   "note": "inherits global"
+  },
+  "ucl": {
+   "scale": null,
+   "floor": null,
+   "n": 1,
+   "note": "inherits global"
+  }
+ },
+ "global": {}
+}
