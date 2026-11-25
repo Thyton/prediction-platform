@@ -18,6 +18,8 @@ export const metadata = {
   twitter: { card: "summary_large_image", title: "TipLab", description: "Picks locked before the price moves." },
 };
 
+export const viewport = { themeColor: "#060e1a" };
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
