@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-24T23:34:18.163667+00:00",
+ "generatedAt": "2026-11-25T03:44:53.293935+00:00",
  "picks": [
   {
    "gameId": "esports:134971",
@@ -20,6 +20,26 @@
    "awayLogo": null,
    "homeAbbr": null,
    "awayAbbr": null
+  },
+  {
+   "gameId": "nba:401909316",
+   "match": "Dallas Mavericks @ Denver Nuggets",
+   "league": "NBA",
+   "sport": "nba",
+   "side": "home",
+   "price": 1.93,
+   "modelProb": 0.5623,
+   "marketProb": 0.5327,
+   "edgePct": 0.0296,
+   "tier": "STANDARD",
+   "bookCount": 8,
+   "startsAt": "2026-11-25T03:00Z",
+   "home": "Denver Nuggets",
+   "away": "Dallas Mavericks",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/dal.png",
+   "homeAbbr": "DEN",
+   "awayAbbr": "DAL"
   },
   {
    "gameId": "ucl:401915293",
@@ -173,11 +193,11 @@
    "sport": "nba",
    "side": "home",
    "price": 1.96,
-   "modelProb": 0.5612,
-   "marketProb": 0.5051,
-   "edgePct": 0.0562,
+   "modelProb": 0.5598,
+   "marketProb": 0.5025,
+   "edgePct": 0.0573,
    "tier": "STANDARD",
-   "bookCount": 7,
+   "bookCount": 11,
    "startsAt": "2026-11-25T22:00Z",
    "home": "Philadelphia 76ers",
    "away": "Miami Heat",
@@ -197,7 +217,7 @@
    "marketProb": 0.5917,
    "edgePct": 0.0347,
    "tier": "HIGH",
-   "bookCount": 11,
+   "bookCount": 12,
    "startsAt": "2026-11-26T00:00Z",
    "home": "Boston Bruins",
    "away": "Winnipeg Jets",
@@ -217,7 +237,7 @@
    "marketProb": 0.5443,
    "edgePct": 0.011,
    "tier": "STANDARD",
-   "bookCount": 11,
+   "bookCount": 12,
    "startsAt": "2026-11-26T00:00Z",
    "home": "Florida Panthers",
    "away": "Ottawa Senators",
@@ -237,7 +257,7 @@
    "marketProb": 0.5842,
    "edgePct": 0.0532,
    "tier": "HIGH",
-   "bookCount": 11,
+   "bookCount": 12,
    "startsAt": "2026-11-26T00:00Z",
    "home": "Washington Capitals",
    "away": "Philadelphia Flyers",
@@ -257,7 +277,7 @@
    "marketProb": 0.5911,
    "edgePct": 0.0096,
    "tier": "STANDARD",
-   "bookCount": 11,
+   "bookCount": 12,
    "startsAt": "2026-11-26T00:00Z",
    "home": "Columbus Blue Jackets",
    "away": "New Jersey Devils",
@@ -267,15 +287,35 @@
    "awayAbbr": "NJ"
   },
   {
+   "gameId": "nba:401909321",
+   "match": "LA Clippers @ Memphis Grizzlies",
+   "league": "NBA",
+   "sport": "nba",
+   "side": "home",
+   "price": 1.38,
+   "modelProb": 0.734,
+   "marketProb": 0.6969,
+   "edgePct": 0.0371,
+   "tier": "PREMIUM",
+   "bookCount": 1,
+   "startsAt": "2026-11-26T01:00Z",
+   "home": "Memphis Grizzlies",
+   "away": "LA Clippers",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mem.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lac.png",
+   "homeAbbr": "MEM",
+   "awayAbbr": "LAC"
+  },
+  {
    "gameId": "nfl:401873079",
    "match": "Green Bay Packers @ Los Angeles Rams",
    "league": "NFL",
    "sport": "nfl",
    "side": "home",
-   "price": 1.74,
-   "modelProb": 0.5649,
-   "marketProb": 0.5584,
-   "edgePct": 0.0065,
+   "price": 1.75,
+   "modelProb": 0.5641,
+   "marketProb": 0.557,
+   "edgePct": 0.0071,
    "tier": "STANDARD",
    "bookCount": 11,
    "startsAt": "2026-11-26T01:00Z",
@@ -297,7 +337,7 @@
    "marketProb": 0.6064,
    "edgePct": 0.0173,
    "tier": "HIGH",
-   "bookCount": 11,
+   "bookCount": 12,
    "startsAt": "2026-11-26T01:00Z",
    "home": "Dallas Stars",
    "away": "Nashville Predators",
@@ -317,7 +357,7 @@
    "marketProb": 0.5771,
    "edgePct": 0.0212,
    "tier": "STANDARD",
-   "bookCount": 11,
+   "bookCount": 12,
    "startsAt": "2026-11-26T01:00Z",
    "home": "Minnesota Wild",
    "away": "Utah Mammoth",
@@ -325,6 +365,26 @@
    "awayLogo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/uta.png",
    "homeAbbr": "MIN",
    "awayAbbr": "UTA"
+  },
+  {
+   "gameId": "nba:401909323",
+   "match": "Phoenix Suns @ Houston Rockets",
+   "league": "NBA",
+   "sport": "nba",
+   "side": "home",
+   "price": 1.28,
+   "modelProb": 0.77,
+   "marketProb": 0.7685,
+   "edgePct": 0.0015,
+   "tier": "PREMIUM",
+   "bookCount": 12,
+   "startsAt": "2026-11-26T01:30Z",
+   "home": "Houston Rockets",
+   "away": "Phoenix Suns",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phx.png",
+   "homeAbbr": "HOU",
+   "awayAbbr": "PHX"
   },
   {
    "gameId": "nhl:401892794",
@@ -337,7 +397,7 @@
    "marketProb": 0.5936,
    "edgePct": 0.0402,
    "tier": "HIGH",
-   "bookCount": 10,
+   "bookCount": 11,
    "startsAt": "2026-11-26T02:40Z",
    "home": "Seattle Kraken",
    "away": "Chicago Blackhawks",
@@ -345,6 +405,26 @@
    "awayLogo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/chi.png",
    "homeAbbr": "SEA",
    "awayAbbr": "CHI"
+  },
+  {
+   "gameId": "nba:401909324",
+   "match": "Sacramento Kings @ Golden State Warriors",
+   "league": "NBA",
+   "sport": "nba",
+   "side": "home",
+   "price": 1.43,
+   "modelProb": 0.7675,
+   "marketProb": 0.6843,
+   "edgePct": 0.0832,
+   "tier": "PREMIUM",
+   "bookCount": 11,
+   "startsAt": "2026-11-26T03:00Z",
+   "home": "Golden State Warriors",
+   "away": "Sacramento Kings",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sac.png",
+   "homeAbbr": "GS",
+   "awayAbbr": "SAC"
   },
   {
    "gameId": "wta:186833",
@@ -660,7 +740,7 @@
    "marketProb": 0.5823,
    "edgePct": 0.0215,
    "tier": "STANDARD",
-   "bookCount": 9,
+   "bookCount": 10,
    "startsAt": "2026-11-28T19:45Z",
    "home": "Le Havre AC",
    "away": "Strasbourg",
@@ -680,7 +760,7 @@
    "marketProb": 0.6583,
    "edgePct": 0.0088,
    "tier": "HIGH",
-   "bookCount": 9,
+   "bookCount": 10,
    "startsAt": "2026-11-28T19:45Z",
    "home": "Le Mans",
    "away": "Lille",
@@ -1013,37 +1093,6 @@
    ]
   },
   {
-   "gameId": "esports:134974",
-   "match": "Jumbo Team vs Inner Circle Prospect",
-   "league": "Esports",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
-   ]
-  },
-  {
-   "gameId": "esports:134975",
-   "match": "Partizan Ru vs B8 Academy",
-   "league": "Esports",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "esports:134980",
-   "match": "Aimers Mk vs Ttg Esports",
-   "league": "Esports",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
    "gameId": "ncaab:401921709",
    "match": "Ole Miss Rebels @ BYU Cougars",
    "league": "NCAAB",
@@ -1085,18 +1134,18 @@
    ]
   },
   {
-   "gameId": "ncaab:401921710",
-   "match": "Providence Friars @ Arizona Wildcats",
-   "league": "NCAAB",
+   "gameId": "esports:134786",
+   "match": "Zotix vs Ttg Esports",
+   "league": "Esports",
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
-   "gameId": "ncaab:401906774",
-   "match": "Milwaukee Panthers @ Florida Gators",
+   "gameId": "ncaab:401921710",
+   "match": "Providence Friars @ Arizona Wildcats",
    "league": "NCAAB",
    "severity": 2,
    "signal": "high_risk_alert",
@@ -1106,12 +1155,44 @@
    ]
   },
   {
+   "gameId": "nba:401909314",
+   "match": "Detroit Pistons @ Orlando Magic",
+   "league": "NBA",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "ncaab:401916319",
+   "match": "Vanderbilt Commodores @ Ohio State Buckeyes",
+   "league": "NCAAB",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
    "gameId": "ncaab:401916291",
    "match": "Jacksonville Dolphins @ Indiana Hoosiers",
    "league": "NCAAB",
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
+   "gameId": "esports:134743",
+   "match": "Milk Us vs Flyquest Red",
+   "league": "Esports",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
     "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
    ]
   },
@@ -1122,13 +1203,34 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
     "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
    ]
   },
   {
-   "gameId": "nba:401909316",
-   "match": "Dallas Mavericks @ Denver Nuggets",
-   "league": "NBA",
+   "gameId": "nhl:401892780",
+   "match": "Vegas Golden Knights @ Edmonton Oilers",
+   "league": "NHL",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
+   "gameId": "ncaab:401915942",
+   "match": "Texas Tech Red Raiders @ Louisville Cardinals",
+   "league": "NCAAB",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
+   "gameId": "ncaab:401906762",
+   "match": "Baylor Bears @ Alabama Crimson Tide",
+   "league": "NCAAB",
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
@@ -1154,16 +1256,6 @@
    "flags": [
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
     "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
-   ]
-  },
-  {
-   "gameId": "ncaab:401920428",
-   "match": "Virginia Cavaliers @ Marquette Golden Eagles",
-   "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 2 books quoting"
    ]
   },
   {
@@ -1237,9 +1329,30 @@
    ]
   },
   {
+   "gameId": "ncaab:401926065",
+   "match": "Southern Jaguars @ Nebraska Cornhuskers",
+   "league": "NCAAB",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
    "gameId": "ncaab:401909568",
    "match": "UConn Huskies @ Duke Blue Devils",
    "league": "NCAAB",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "nba:401909321",
+   "match": "LA Clippers @ Memphis Grizzlies",
+   "league": "NBA",
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
@@ -1359,6 +1472,26 @@
    "flags": [
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
     "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
+   "gameId": "ncaab:401920529",
+   "match": "Tennessee Volunteers @ Iowa State Cyclones",
+   "league": "NCAAB",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "ncaab:401920537",
+   "match": "Miami Hurricanes @ Michigan Wolverines",
+   "league": "NCAAB",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {

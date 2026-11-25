@@ -17,8 +17,9 @@ export default function Method() {
           <p className="eyebrow">1 · PRICE FIRST</p>
           <h3>The market is the baseline</h3>
           <p>
-            Every candidate starts from the live price at the books we can read. We strip the bookmaker margin
-            (the vig) to get an implied probability, and that is the number the model has to beat.
+            Every candidate starts from the live price across the books we can read (up to 12 books on the
+            major US sports). We strip the bookmaker margin (the vig) to get an implied probability, and that
+            is the number the model has to beat.
           </p>
         </article>
         <article>
@@ -31,11 +32,11 @@ export default function Method() {
         </article>
         <article>
           <p className="eyebrow">3 · EDGE</p>
-          <h3>Only real disagreement ships</h3>
+          <h3>Only real agreement ships</h3>
           <p>
-            A pick releases when the market favourite carries at least a 55% model probability
-            (and under 85%, where the price is too short to pay). The model still gets a vote:
-            if our ratings actively disagree with the favourite, the game is watched, not tipped.
+            A pick releases only when the market favourite also carries a 55–85% model probability, and the
+            favourite is priced at odds of 2.00 or shorter. The model still gets a vote: if our ratings
+            actively disagree with the favourite, the game is watched, not tipped.
           </p>
         </article>
         <article>
@@ -58,8 +59,17 @@ export default function Method() {
           <p className="eyebrow">6 · GRADING</p>
           <h3>Locked, then graded in public</h3>
           <p>
-            Each pick stores its lock time. When the match finishes it is graded against the final score and
-            stays visible forever, win or lose.
+            Each pick stores its lock time, and nothing is ever published after a game has started. When the
+            match finishes it is graded against the final score and stays visible forever, win or lose.
+          </p>
+        </article>
+        <article>
+          <p className="eyebrow">7 · LIVE</p>
+          <h3>In-play signals for members</h3>
+          <p>
+            While a released pick's game is being played, the desk watches the live score and calls the moment:
+            get in while the live price beats your locked one, hold when leading, or get out when the recovery
+            window is closing. Signals are members-only and every one is stamped against the pick it belongs to.
           </p>
         </article>
       </div>
@@ -78,8 +88,10 @@ export default function Method() {
           <p className="eyebrow">DATA</p>
           <h3>Where numbers come from</h3>
           <p>
-            Fixtures, scores and prices come from public sports feeds (ESPN scoreboards and the bo3 esports
-            API). Ratings are computed by TipLab and stored locally; nothing is copied from another tipster.
+            Fixtures, scores and prices come from public sports feeds (ESPN scoreboards, the bo3 esports API
+            and a multi-book odds aggregator). Ratings are computed by TipLab; nothing is copied from another
+            tipster. TipLab is a research and information service — we do not accept wagers, hold user funds,
+            or operate as a bookmaker, and we are not affiliated with any sportsbook.
           </p>
         </article>
       </section>

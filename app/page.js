@@ -104,8 +104,8 @@ export default async function Home() {
       </section>
 
       <div className="banner">
-        <strong>Free during beta.</strong> Every pick, alert and result is open. Pro (/month)
-        opens soon — first 500 members keep founding pricing for life.
+        <strong>Free during beta.</strong> Every pick, the alerts and the full graded record are open.
+        Pro ($9/month) unlocks the live in-play signals — founding members keep that price for life.
       </div>
 
       <section id="tips">

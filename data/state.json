@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-24T23:34:18.175309+00:00",
+ "generatedAt": "2026-11-25T03:44:53.310829+00:00",
  "picks": [
   {
    "gameId": "epl:401879219",
@@ -445,37 +445,6 @@
    ]
   },
   {
-   "gameId": "esports:134974",
-   "match": "Jumbo Team vs Inner Circle Prospect",
-   "league": "Esports",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
-   ]
-  },
-  {
-   "gameId": "esports:134975",
-   "match": "Partizan Ru vs B8 Academy",
-   "league": "Esports",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "esports:134980",
-   "match": "Aimers Mk vs Ttg Esports",
-   "league": "Esports",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
    "gameId": "ncaab:401921709",
    "match": "Ole Miss Rebels @ BYU Cougars",
    "league": "NCAAB",
@@ -517,18 +486,18 @@
    ]
   },
   {
-   "gameId": "ncaab:401921710",
-   "match": "Providence Friars @ Arizona Wildcats",
-   "league": "NCAAB",
+   "gameId": "esports:134786",
+   "match": "Zotix vs Ttg Esports",
+   "league": "Esports",
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
-   "gameId": "ncaab:401906774",
-   "match": "Milwaukee Panthers @ Florida Gators",
+   "gameId": "ncaab:401921710",
+   "match": "Providence Friars @ Arizona Wildcats",
    "league": "NCAAB",
    "severity": 2,
    "signal": "high_risk_alert",
@@ -538,12 +507,44 @@
    ]
   },
   {
+   "gameId": "nba:401909314",
+   "match": "Detroit Pistons @ Orlando Magic",
+   "league": "NBA",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "ncaab:401916319",
+   "match": "Vanderbilt Commodores @ Ohio State Buckeyes",
+   "league": "NCAAB",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
    "gameId": "ncaab:401916291",
    "match": "Jacksonville Dolphins @ Indiana Hoosiers",
    "league": "NCAAB",
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
+   "gameId": "esports:134743",
+   "match": "Milk Us vs Flyquest Red",
+   "league": "Esports",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
     "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
    ]
   },
@@ -554,13 +555,34 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
     "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
    ]
   },
   {
-   "gameId": "nba:401909316",
-   "match": "Dallas Mavericks @ Denver Nuggets",
-   "league": "NBA",
+   "gameId": "nhl:401892780",
+   "match": "Vegas Golden Knights @ Edmonton Oilers",
+   "league": "NHL",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
+   "gameId": "ncaab:401915942",
+   "match": "Texas Tech Red Raiders @ Louisville Cardinals",
+   "league": "NCAAB",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
+   "gameId": "ncaab:401906762",
+   "match": "Baylor Bears @ Alabama Crimson Tide",
+   "league": "NCAAB",
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
@@ -586,16 +608,6 @@
    "flags": [
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
     "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
-   ]
-  },
-  {
-   "gameId": "ncaab:401920428",
-   "match": "Virginia Cavaliers @ Marquette Golden Eagles",
-   "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 2 books quoting"
    ]
   },
   {
@@ -669,9 +681,30 @@
    ]
   },
   {
+   "gameId": "ncaab:401926065",
+   "match": "Southern Jaguars @ Nebraska Cornhuskers",
+   "league": "NCAAB",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
    "gameId": "ncaab:401909568",
    "match": "UConn Huskies @ Duke Blue Devils",
    "league": "NCAAB",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "nba:401909321",
+   "match": "LA Clippers @ Memphis Grizzlies",
+   "league": "NBA",
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
@@ -791,6 +824,26 @@
    "flags": [
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
     "Heavy favourite: extreme price imbalance may mean an uncompetitive matchup"
+   ]
+  },
+  {
+   "gameId": "ncaab:401920529",
+   "match": "Tennessee Volunteers @ Iowa State Cyclones",
+   "league": "NCAAB",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "ncaab:401920537",
+   "match": "Miami Hurricanes @ Michigan Wolverines",
+   "league": "NCAAB",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
