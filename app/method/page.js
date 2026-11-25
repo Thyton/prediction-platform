@@ -53,9 +53,9 @@ export default function Method() {
           <h3>“market” vs “model” edge</h3>
           <p>
             A <strong>market</strong> edge is our probability minus the de-vigged price across real books —
-            directly comparable, usually single digits. A <strong>model</strong> edge (tennis, esports) is the
-            gap between two model probabilities with no book behind it, so it is always larger and its
-            price is ours, not a book&apos;s. Same card, different yardstick.
+            directly comparable, usually single digits. Tennis and esports carry no book price, so their
+            card shows the <strong>model probability</strong> instead and the price is ours, not a book&apos;s.
+            Same card, different yardstick — read the label, not just the number.
           </p>
         </article>
         <article>

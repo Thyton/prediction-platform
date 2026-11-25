@@ -69,9 +69,11 @@ function PickCard({ p, trackable, following }) {
           </>
         ) : (
           <>
+            {/* a model "edge" is a probability gap, not a price edge — show the
+                probability itself so 54% and 5% aren't read as the same scale */}
             <div className="pick-edge">
-              {(p.edgePct * 100).toFixed(0)}%
-              <small className="edge-kind">{p.modelPriced ? "model" : "market"}</small>
+              {p.modelPriced ? `${(p.modelProb * 100).toFixed(0)}%` : `${(p.edgePct * 100).toFixed(0)}%`}
+              <small className="edge-kind">{p.modelPriced ? "model prob" : "edge"}</small>
             </div>
             <div className="pick-price">{Number(p.price).toFixed(2)}</div>
             <div className={"pick-tier " + p.tier}>{p.tier.toLowerCase()}</div>
