@@ -165,7 +165,31 @@ def main():
         if os.environ.get("VERCEL_TOKEN"):
             r = run("publish.py")
             print("deploy:", (r.stdout or r.stderr).strip()[-80:], file=sys.stderr)
+        commit_data()
     return 0
+
+
+def commit_data():
+    """Commit the regenerated data. Only when this machine is the runner — CI
+    already commits its own run, and a commit here would collide with it."""
+    if os.environ.get("GITHUB_ACTIONS"):
+        return
+    repo = os.path.dirname(HERE)
+    try:
+        changed = subprocess.run(
+            ["git", "status", "--porcelain", "data"], cwd=repo,
+            capture_output=True, text=True, timeout=60,
+        ).stdout.strip()
+        if not changed:
+            return
+        subprocess.run(["git", "add", "data"], cwd=repo, timeout=60)
+        subprocess.run(
+            ["git", "commit", "-q", "-m",
+             f"data: cycle {datetime.datetime.now(datetime.UTC).strftime('%Y-%m-%dT%H:%MZ')}"],
+            cwd=repo, timeout=60,
+        )
+    except Exception as e:
+        print("data commit skipped:", e, file=sys.stderr)
 
 
 if __name__ == "__main__":
