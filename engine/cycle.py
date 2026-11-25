@@ -8,7 +8,7 @@ and rewrite the public state the site renders.
 
 Writes into ./data/ : games.json, picks.json, record.json, state.json
 """
-import argparse, datetime, json, os, subprocess, sys
+import argparse, datetime, json, os, subprocess, sys, urllib.request
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "..", "data")
@@ -76,6 +76,7 @@ def main():
     if do_all or a.live:
         r = run("live.py", "--ledger", LEDGER, "--out", os.path.join(DATA, "live.json"))
         print(r.stdout, r.stderr, sep="", file=sys.stderr)
+        notify_alerts()
         if a.live:
             # signals only, but they still have to reach the live site
             if os.environ.get("VERCEL_TOKEN"):
@@ -167,6 +168,38 @@ def main():
             print("deploy:", (r.stdout or r.stderr).strip()[-80:], file=sys.stderr)
         commit_data()
     return 0
+
+
+ALERT_STATE = os.path.join(DATA, ".alert_state.json")
+
+
+def notify_alerts():
+    """Email Pro members any signal we haven't already emailed. Keyed by
+    gameId:kind so a 5-minute cadence doesn't repeat itself."""
+    if not os.environ.get("ALERT_URL"):
+        return
+    try:
+        sigs = json.load(open(os.path.join(DATA, "live.json"))).get("signals", [])
+        sent = set()
+        if os.path.exists(ALERT_STATE):
+            sent = set(json.load(open(ALERT_STATE)))
+        new = [s for s in sigs if f"{s['gameId']}:{s['kind']}" not in sent]
+        if not new:
+            return
+        body = json.dumps({"signals": new}).encode()
+        req = urllib.request.Request(
+            os.environ["ALERT_URL"], data=body, method="POST",
+            headers={
+                "Content-Type": "application/json",
+                "Authorization": f"Bearer {os.environ.get('ALERT_SECRET', '')}",
+            },
+        )
+        urllib.request.urlopen(req, timeout=30).read()
+        sent.update(f"{s['gameId']}:{s['kind']}" for s in new)
+        json.dump(sorted(sent)[-400:], open(ALERT_STATE, "w"))
+        print(f"alerts: {len(new)} emailed", file=sys.stderr)
+    except Exception as e:
+        print("alerts skipped:", str(e)[:120], file=sys.stderr)
 
 
 def commit_data():

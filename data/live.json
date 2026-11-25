@@ -1,18 +1,1 @@
-{
- "generatedAt": "2026-11-25T20:09:53.698101+00:00",
- "signals": [
-  {
-   "gameId": "wta:186838",
-   "kind": "RISING",
-   "text": "Down early \u2014 better live price available. Get in.",
-   "sport": "wta",
-   "match": "Ariana Geerlings vs Alicia Herrero Linana",
-   "side": "away",
-   "score": "0-1",
-   "period": 2,
-   "clock": "0-1",
-   "progress": 0.41,
-   "at": "2026-11-25T20:09:51.649838+00:00"
-  }
- ]
-}
+{"generatedAt": "now", "signals": [{"gameId": "nba:1", "kind": "HOLD", "match": "A @ B", "score": "9-2", "text": "x"}]}

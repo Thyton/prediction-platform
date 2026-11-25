@@ -9,3 +9,4 @@ __pycache__/
 .vercel
 .deploy_state.json
 *.zip
+.alert_state.json
