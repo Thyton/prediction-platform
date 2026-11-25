@@ -108,7 +108,7 @@ export default async function Home() {
   const user = await currentUser();
   // middleware stamps lastvisit; pages may only read cookies, not set them
   const jar = await cookies();
-  const since = jar.get("seen")?.value;
+  const since = jar.get("lastvisit")?.value;
   // the strongest return hook is proof the desk is live right now
   const lastGraded = record.recent[0];
   const sinceLast = lastGraded?.settledAt
@@ -207,7 +207,7 @@ export default async function Home() {
                     <tr key={p.gameId}>
                       <td>
                         <span className="league">{SPORT_LABEL[p.sport] || p.league}</span>
-          {isNew && <span className="newflag">NEW</span>}
+                        {isNew(p) && <span className="newflag">NEW</span>}
                         {p.match}
                         <small>{fmtTime(p.startsAt)} · graded {fmtTime(p.settledAt)}</small>
                       </td>
