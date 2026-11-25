@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-25T21:34:41.238103+00:00",
+ "generatedAt": "2026-11-25T22:04:38.694548+00:00",
  "games": [
   {
    "id": "esports:135031",
@@ -221,7 +221,7 @@
    "homeAbbr": "ASU",
    "awayAbbr": "LSU",
    "startsAt": "2026-11-25T19:00Z",
-   "state": "in",
+   "state": "post",
    "_path": "basketball/mens-college-basketball",
    "_eid": "401921669",
    "_cid": "401921669",
@@ -276,95 +276,21 @@
    "homeAbbr": "ARIZ",
    "awayAbbr": "MISS",
    "startsAt": "2026-11-25T19:30Z",
-   "state": "in",
+   "state": "post",
    "_path": "basketball/mens-college-basketball",
    "_eid": "401921715",
    "_cid": "401921715",
    "markets": {
     "h2h": {
      "outcome": "Arizona Wildcats",
-     "bestOdds": 1.13,
-     "otherOdds": 41.0,
-     "bookCount": "4",
-     "favSide": "home",
-     "source": "oddsapi"
+     "bestOdds": 1.435,
+     "otherOdds": 2.9,
+     "bookCount": "1",
+     "favSide": "home"
     }
    },
    "espnUrl": null,
    "drawPossible": false
-  },
-  {
-   "id": "wta:186837",
-   "sport": "wta",
-   "league": "IEB+ Argentina Open",
-   "match": "Julia Riera vs Ipek Oz",
-   "home": "Ipek Oz",
-   "away": "Julia Riera",
-   "homeLogo": null,
-   "awayLogo": null,
-   "homeAbbr": null,
-   "awayAbbr": null,
-   "startsAt": "2026-11-25T19:35Z",
-   "state": "in",
-   "_path": "tennis/wta",
-   "_eid": "186837",
-   "_cid": "186837",
-   "markets": {},
-   "espnUrl": null,
-   "drawPossible": false,
-   "tournament": "IEB+ Argentina Open",
-   "noMarketOk": true
-  },
-  {
-   "id": "ncaab:401921670",
-   "sport": "ncaab",
-   "league": "NCAAB",
-   "match": "South Carolina Gamecocks @ USC Trojans",
-   "home": "USC Trojans",
-   "away": "South Carolina Gamecocks",
-   "homeLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/30.png",
-   "awayLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2579.png",
-   "homeAbbr": "USC",
-   "awayAbbr": "SC",
-   "startsAt": "2026-11-25T21:45Z",
-   "state": "in",
-   "_path": "basketball/mens-college-basketball",
-   "_eid": "401921670",
-   "_cid": "401921670",
-   "markets": {
-    "h2h": {
-     "outcome": "USC Trojans",
-     "bestOdds": 1.2,
-     "otherOdds": 5.3,
-     "bookCount": "11",
-     "favSide": "home",
-     "source": "oddsapi"
-    }
-   },
-   "espnUrl": null,
-   "drawPossible": false
-  },
-  {
-   "id": "wta:186840",
-   "sport": "wta",
-   "league": "IEB+ Argentina Open",
-   "match": "Carole Monnet vs Solana Sierra",
-   "home": "Solana Sierra",
-   "away": "Carole Monnet",
-   "homeLogo": null,
-   "awayLogo": null,
-   "homeAbbr": null,
-   "awayAbbr": null,
-   "startsAt": "2026-11-25T21:45Z",
-   "state": "pre",
-   "_path": "tennis/wta",
-   "_eid": "186840",
-   "_cid": "186840",
-   "markets": {},
-   "espnUrl": null,
-   "drawPossible": false,
-   "tournament": "IEB+ Argentina Open",
-   "noMarketOk": true
   },
   {
    "id": "nba:401909317",
@@ -384,11 +310,11 @@
    "_cid": "401909317",
    "markets": {
     "h2h": {
-     "outcome": "Miami Heat",
-     "bestOdds": 1.95,
+     "outcome": "Philadelphia 76ers",
+     "bestOdds": 1.98,
      "otherOdds": 2.0,
-     "bookCount": "11",
-     "favSide": "away",
+     "bookCount": "12",
+     "favSide": "home",
      "source": "oddsapi"
     }
    },
@@ -407,16 +333,16 @@
    "homeAbbr": "NEB",
    "awayAbbr": "SOU",
    "startsAt": "2026-11-25T22:00Z",
-   "state": "pre",
+   "state": "in",
    "_path": "basketball/mens-college-basketball",
    "_eid": "401926065",
    "_cid": "401926065",
    "markets": {
     "h2h": {
      "outcome": "Nebraska Cornhuskers",
-     "bestOdds": 1.0,
+     "bestOdds": 1.01,
      "otherOdds": 71.0,
-     "bookCount": "1",
+     "bookCount": "2",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -425,28 +351,50 @@
    "drawPossible": false
   },
   {
-   "id": "ncaab:401917182",
+   "id": "wta:186840",
+   "sport": "wta",
+   "league": "IEB+ Argentina Open",
+   "match": "Carole Monnet vs Solana Sierra",
+   "home": "Solana Sierra",
+   "away": "Carole Monnet",
+   "homeLogo": null,
+   "awayLogo": null,
+   "homeAbbr": null,
+   "awayAbbr": null,
+   "startsAt": "2026-11-25T22:05Z",
+   "state": "pre",
+   "_path": "tennis/wta",
+   "_eid": "186840",
+   "_cid": "186840",
+   "markets": {},
+   "espnUrl": null,
+   "drawPossible": false,
+   "tournament": "IEB+ Argentina Open",
+   "noMarketOk": true
+  },
+  {
+   "id": "ncaab:401921670",
    "sport": "ncaab",
    "league": "NCAAB",
-   "match": "Memphis Tigers @ Penn State Nittany Lions",
-   "home": "Penn State Nittany Lions",
-   "away": "Memphis Tigers",
-   "homeLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/213.png",
-   "awayLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/235.png",
-   "homeAbbr": "PSU",
-   "awayAbbr": "MEM",
-   "startsAt": "2026-11-25T22:00Z",
+   "match": "South Carolina Gamecocks @ USC Trojans",
+   "home": "USC Trojans",
+   "away": "South Carolina Gamecocks",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/30.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2579.png",
+   "homeAbbr": "USC",
+   "awayAbbr": "SC",
+   "startsAt": "2026-11-25T22:17Z",
    "state": "pre",
    "_path": "basketball/mens-college-basketball",
-   "_eid": "401917182",
-   "_cid": "401917182",
+   "_eid": "401921670",
+   "_cid": "401921670",
    "markets": {
     "h2h": {
-     "outcome": "Memphis Tigers",
-     "bestOdds": 1.59,
-     "otherOdds": 2.53,
-     "bookCount": "11",
-     "favSide": "away",
+     "outcome": "USC Trojans",
+     "bestOdds": 1.22,
+     "otherOdds": 5.25,
+     "bookCount": "9",
+     "favSide": "home",
      "source": "oddsapi"
     }
    },
@@ -483,6 +431,35 @@
    "drawPossible": false
   },
   {
+   "id": "ncaab:401917182",
+   "sport": "ncaab",
+   "league": "NCAAB",
+   "match": "Memphis Tigers @ Penn State Nittany Lions",
+   "home": "Penn State Nittany Lions",
+   "away": "Memphis Tigers",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/213.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/235.png",
+   "homeAbbr": "PSU",
+   "awayAbbr": "MEM",
+   "startsAt": "2026-11-25T23:35Z",
+   "state": "pre",
+   "_path": "basketball/mens-college-basketball",
+   "_eid": "401917182",
+   "_cid": "401917182",
+   "markets": {
+    "h2h": {
+     "outcome": "Memphis Tigers",
+     "bestOdds": 1.59,
+     "otherOdds": 2.53,
+     "bookCount": "11",
+     "favSide": "away",
+     "source": "oddsapi"
+    }
+   },
+   "espnUrl": null,
+   "drawPossible": false
+  },
+  {
    "id": "nba:401909318",
    "sport": "nba",
    "league": "NBA",
@@ -502,7 +479,7 @@
     "h2h": {
      "outcome": "Charlotte Hornets",
      "bestOdds": 1.62,
-     "otherOdds": 2.46,
+     "otherOdds": 2.54,
      "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
@@ -588,7 +565,7 @@
     "h2h": {
      "outcome": "Buffalo Sabres",
      "bestOdds": 1.78,
-     "otherOdds": 2.19,
+     "otherOdds": 2.18,
      "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
@@ -733,7 +710,7 @@
     "h2h": {
      "outcome": "Washington Capitals",
      "bestOdds": 1.65,
-     "otherOdds": 2.41,
+     "otherOdds": 2.4,
      "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
@@ -790,8 +767,8 @@
    "markets": {
     "h2h": {
      "outcome": "New York Knicks",
-     "bestOdds": 1.81,
-     "otherOdds": 2.5,
+     "bestOdds": 1.62,
+     "otherOdds": 2.53,
      "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
@@ -819,8 +796,8 @@
    "markets": {
     "h2h": {
      "outcome": "Oklahoma City Thunder",
-     "bestOdds": 1.83,
-     "otherOdds": 2.12,
+     "bestOdds": 1.8,
+     "otherOdds": 2.2,
      "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
@@ -1195,8 +1172,8 @@
    "markets": {
     "h2h": {
      "outcome": "Besiktas",
-     "bestOdds": 1.222,
-     "otherOdds": 11.0,
+     "bestOdds": 1.235,
+     "otherOdds": 10.5,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -1253,7 +1230,7 @@
     "h2h": {
      "outcome": "Bayer Leverkusen",
      "bestOdds": 1.69,
-     "otherOdds": 4.7,
+     "otherOdds": 4.6,
      "bookCount": "10",
      "favSide": "away",
      "source": "oddsapi"
@@ -1281,8 +1258,8 @@
    "markets": {
     "h2h": {
      "outcome": "Marseille",
-     "bestOdds": 1.364,
-     "otherOdds": 8.0,
+     "bestOdds": 1.351,
+     "otherOdds": 8.5,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -1497,7 +1474,7 @@
      "outcome": "Texas Longhorns",
      "bestOdds": 1.27,
      "otherOdds": 4.6,
-     "bookCount": "4",
+     "bookCount": "5",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -1940,8 +1917,8 @@
    "markets": {
     "h2h": {
      "outcome": "USC Trojans",
-     "bestOdds": 1.66,
-     "otherOdds": 2.3,
+     "bestOdds": 1.67,
+     "otherOdds": 2.35,
      "bookCount": "4",
      "favSide": "home",
      "source": "oddsapi"
@@ -1998,9 +1975,9 @@
    "markets": {
     "h2h": {
      "outcome": "UCLA Bruins",
-     "bestOdds": 1.33,
-     "otherOdds": 3.55,
-     "bookCount": "4",
+     "bestOdds": 1.32,
+     "otherOdds": 3.75,
+     "bookCount": "5",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -2056,8 +2033,8 @@
    "markets": {
     "h2h": {
      "outcome": "LSU Tigers",
-     "bestOdds": 1.33,
-     "otherOdds": 3.45,
+     "bestOdds": 1.4,
+     "otherOdds": 3.3,
      "bookCount": "4",
      "favSide": "home",
      "source": "oddsapi"
@@ -2086,8 +2063,8 @@
     "h2h": {
      "outcome": "Texas Tech Red Raiders",
      "bestOdds": 1.15,
-     "otherOdds": 6.7,
-     "bookCount": "12",
+     "otherOdds": 6.5,
+     "bookCount": "11",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -2322,9 +2299,9 @@
    "id": "wta:186831",
    "sport": "wta",
    "league": "IEB+ Argentina Open",
-   "match": "TBD vs Alicia Herrero Linana",
+   "match": "Julia Riera vs Alicia Herrero Linana",
    "home": "Alicia Herrero Linana",
-   "away": "TBD",
+   "away": "Julia Riera",
    "homeLogo": null,
    "awayLogo": null,
    "homeAbbr": null,
@@ -2469,7 +2446,7 @@
      "outcome": "Iowa Hawkeyes",
      "bestOdds": 1.51,
      "otherOdds": 2.85,
-     "bookCount": "12",
+     "bookCount": "11",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -2498,7 +2475,7 @@
      "outcome": "Ole Miss Rebels",
      "bestOdds": 1.1,
      "otherOdds": 8.2,
-     "bookCount": "11",
+     "bookCount": "10",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -2527,7 +2504,7 @@
      "outcome": "UTSA Roadrunners",
      "bestOdds": 1.91,
      "otherOdds": 1.95,
-     "bookCount": "10",
+     "bookCount": "9",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -2556,7 +2533,7 @@
      "outcome": "Buffalo Bulls",
      "bestOdds": 1.36,
      "otherOdds": 3.5,
-     "bookCount": "12",
+     "bookCount": "11",
      "favSide": "away",
      "source": "oddsapi"
     }
@@ -2585,7 +2562,7 @@
      "outcome": "Toledo Rockets",
      "bestOdds": 1.67,
      "otherOdds": 2.35,
-     "bookCount": "11",
+     "bookCount": "10",
      "favSide": "away",
      "source": "oddsapi"
     }
@@ -2798,7 +2775,7 @@
     "h2h": {
      "outcome": "Werder Bremen",
      "bestOdds": 1.77,
-     "otherOdds": 4.2,
+     "otherOdds": 4.3,
      "bookCount": "10",
      "favSide": "home",
      "source": "oddsapi"
@@ -2886,7 +2863,7 @@
      "outcome": "Denver Broncos",
      "bestOdds": 1.53,
      "otherOdds": 2.74,
-     "bookCount": "12",
+     "bookCount": "11",
      "favSide": "away",
      "source": "oddsapi"
     }
@@ -3108,7 +3085,7 @@
      "outcome": "Florida Gators",
      "bestOdds": 1.44,
      "otherOdds": 3.0,
-     "bookCount": "12",
+     "bookCount": "11",
      "favSide": "away",
      "source": "oddsapi"
     }
@@ -3137,7 +3114,7 @@
      "outcome": "Memphis Tigers",
      "bestOdds": 1.11,
      "otherOdds": 7.5,
-     "bookCount": "12",
+     "bookCount": "11",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -3166,7 +3143,7 @@
      "outcome": "North Dakota State Bison",
      "bestOdds": 1.3,
      "otherOdds": 3.85,
-     "bookCount": "12",
+     "bookCount": "11",
      "favSide": "away",
      "source": "oddsapi"
     }
@@ -3255,7 +3232,7 @@
      "outcome": "New Mexico Lobos",
      "bestOdds": 1.4,
      "otherOdds": 3.24,
-     "bookCount": "11",
+     "bookCount": "10",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -3493,7 +3470,7 @@
      "outcome": "Texas Longhorns",
      "bestOdds": 1.23,
      "otherOdds": 4.75,
-     "bookCount": "11",
+     "bookCount": "10",
      "favSide": "away",
      "source": "oddsapi"
     }
@@ -3522,7 +3499,7 @@
      "outcome": "Wisconsin Badgers",
      "bestOdds": 1.33,
      "otherOdds": 3.6,
-     "bookCount": "12",
+     "bookCount": "11",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -3700,7 +3677,7 @@
      "outcome": "Utah Utes",
      "bestOdds": 1.05,
      "otherOdds": 16.0,
-     "bookCount": "10",
+     "bookCount": "9",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -5097,8 +5074,8 @@
    "markets": {
     "h2h": {
      "outcome": "Valencia",
-     "bestOdds": 2.25,
-     "otherOdds": 3.35,
+     "bestOdds": 2.2,
+     "otherOdds": 3.5,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -6639,7 +6616,7 @@
    "markets": {
     "h2h": {
      "outcome": "Barcelona",
-     "bestOdds": 1.43,
+     "bestOdds": 1.41,
      "otherOdds": 6.75,
      "bookCount": "4",
      "favSide": "home",
@@ -7804,8 +7781,8 @@
    "markets": {
     "h2h": {
      "outcome": "Napoli",
-     "bestOdds": 1.323,
-     "otherOdds": 7.0,
+     "bestOdds": 1.303,
+     "otherOdds": 7.5,
      "bookCount": "1",
      "favSide": "home"
     }

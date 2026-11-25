@@ -1,31 +1,4 @@
 {
- "generatedAt": "2026-11-25T21:33:42.303364+00:00",
- "signals": [
-  {
-   "gameId": "wta:186837",
-   "kind": "HOLD",
-   "text": "Ahead by a set/break \u2014 hold; the price is thin now.",
-   "sport": "wta",
-   "match": "Julia Riera vs Ipek Oz",
-   "side": "away",
-   "score": "1-1",
-   "period": 3,
-   "clock": "0-3",
-   "progress": 0.77,
-   "at": "2026-11-25T21:33:40.759269+00:00"
-  },
-  {
-   "gameId": "ucl:401915373",
-   "kind": "RISING",
-   "text": "Behind \u2014 the get-in window is still open at a better live price.",
-   "sport": "ucl",
-   "match": "Manchester United @ Sporting CP",
-   "side": "home",
-   "score": "1-2",
-   "period": 2,
-   "clock": "74'",
-   "progress": 0.0,
-   "at": "2026-11-25T21:33:40.911055+00:00"
-  }
- ]
+ "generatedAt": "2026-11-25T22:03:41.498069+00:00",
+ "signals": []
 }
