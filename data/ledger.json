@@ -579,6 +579,32 @@
    "lockTs": "2026-11-26T20:22:32.408031+00:00",
    "result": null,
    "profitUnits": null
+  },
+  {
+   "gameId": "nba:401909327",
+   "match": "Milwaukee Bucks @ Detroit Pistons",
+   "league": "NBA",
+   "sport": "nba",
+   "side": "home",
+   "price": 1.27,
+   "modelProb": 0.8342,
+   "marketProb": 0.789,
+   "edgePct": 0.0451,
+   "tier": "PREMIUM",
+   "bookCount": 7,
+   "startsAt": "2026-11-28T00:30Z",
+   "edgeKind": "market",
+   "why": "Detroit Pistons rated 83% to win; across 20 tracked games per side; with 7 books quoting; a slim but real gap to the market price.",
+   "home": "Detroit Pistons",
+   "away": "Milwaukee Bucks",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mil.png",
+   "homeAbbr": "DET",
+   "awayAbbr": "MIL",
+   "espnUrl": "https://www.espn.com/nba/game/_/gameId/401909327/bucks-pistons",
+   "lockTs": "2026-11-26T22:24:05.617895+00:00",
+   "result": null,
+   "profitUnits": null
   }
  ]
 }

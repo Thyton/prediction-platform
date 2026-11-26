@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T21:53:44.256686+00:00",
+ "generatedAt": "2026-11-26T22:24:05.620625+00:00",
  "picks": [
   {
    "gameId": "epl:401879219",
@@ -302,6 +302,32 @@
    "awayAbbr": null,
    "espnUrl": null,
    "lockTs": "2026-11-26T20:22:32.408031+00:00",
+   "result": null,
+   "profitUnits": null
+  },
+  {
+   "gameId": "nba:401909327",
+   "match": "Milwaukee Bucks @ Detroit Pistons",
+   "league": "NBA",
+   "sport": "nba",
+   "side": "home",
+   "price": 1.27,
+   "modelProb": 0.8342,
+   "marketProb": 0.789,
+   "edgePct": 0.0451,
+   "tier": "PREMIUM",
+   "bookCount": 7,
+   "startsAt": "2026-11-28T00:30Z",
+   "edgeKind": "market",
+   "why": "Detroit Pistons rated 83% to win; across 20 tracked games per side; with 7 books quoting; a slim but real gap to the market price.",
+   "home": "Detroit Pistons",
+   "away": "Milwaukee Bucks",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mil.png",
+   "homeAbbr": "DET",
+   "awayAbbr": "MIL",
+   "espnUrl": "https://www.espn.com/nba/game/_/gameId/401909327/bucks-pistons",
+   "lockTs": "2026-11-26T22:24:05.617895+00:00",
    "result": null,
    "profitUnits": null
   }
@@ -623,16 +649,6 @@
    ]
   },
   {
-   "gameId": "esports:135082",
-   "match": "Jumbo Team vs B8 Academy",
-   "league": "Esports",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
    "gameId": "uel:401915506",
    "match": "Hapoel Be'er @ Besiktas",
    "league": "Europa League",
@@ -716,17 +732,6 @@
    ]
   },
   {
-   "gameId": "esports:135095",
-   "match": "Vitality Academy vs Ttg Esports",
-   "league": "Esports",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
    "gameId": "nfl:401873081",
    "match": "Chicago Bears @ Detroit Lions",
    "league": "NFL",
@@ -735,6 +740,17 @@
    "flags": [
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
     "Steam: favourite shortened 2.05 \u2192 1.78 (+15%) \u2014 market confirming"
+   ]
+  },
+  {
+   "gameId": "esports:135038",
+   "match": "Sokerorg vs Donstu Esports",
+   "league": "Esports",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: a short price leaves little margin"
    ]
   },
   {
@@ -749,8 +765,8 @@
    ]
   },
   {
-   "gameId": "esports:135090",
-   "match": "Al Ahli Esports vs Fire Flux",
+   "gameId": "esports:135093",
+   "match": "Oldboys French Team vs Roundsgg",
    "league": "Esports",
    "severity": 2,
    "signal": "high_risk_alert",
@@ -760,8 +776,19 @@
    ]
   },
   {
-   "gameId": "esports:135089",
-   "match": "Sinqu vs Aimers Mk",
+   "gameId": "esports:135085",
+   "match": "Notime vs Fortress",
+   "league": "Esports",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
+   "gameId": "esports:135086",
+   "match": "Inner Circle Prospect vs Partizan Ru",
    "league": "Esports",
    "severity": 2,
    "signal": "high_risk_alert",
@@ -774,11 +801,11 @@
    "gameId": "ncaab:401906869",
    "match": "Georgetown Hoyas @ Texas Longhorns",
    "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
+   "severity": 2,
+   "signal": "high_risk_alert",
    "flags": [
-    "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.29 \u2192 1.02 (+26%) \u2014 market confirming"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: a short price leaves little margin"
    ]
   },
   {
@@ -788,8 +815,8 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 2.22 \u2192 1.08 (+106%) \u2014 market confirming"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Steam: favourite shortened 2.20 \u2192 1.91 (+15%) \u2014 market confirming"
    ]
   },
   {
@@ -809,7 +836,7 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Thin market: only 2 books quoting",
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
     "Heavy favourite: a short price leaves little margin"
    ]
   },
@@ -820,8 +847,8 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Big underdog priced: market implies low confidence",
-    "Drift against the favourite: 1.21 \u2192 351.00 (-100%) \u2014 money moving the other way"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: a short price leaves little margin"
    ]
   },
   {
@@ -841,8 +868,7 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.85 \u2192 1.11 (+67%) \u2014 market confirming"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
@@ -852,8 +878,7 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 2.45 \u2192 1.19 (+106%) \u2014 market confirming"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
@@ -874,19 +899,18 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.69 \u2192 1.05 (+61%) \u2014 market confirming"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
    "gameId": "uel:401915515",
    "match": "SK Sturm Graz @ TSG Hoffenheim",
    "league": "Europa League",
-   "severity": 1,
-   "signal": "integrity_watch",
+   "severity": 2,
+   "signal": "high_risk_alert",
    "flags": [
-    "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.33 \u2192 1.10 (+21%) \u2014 market confirming"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: a short price leaves little margin"
    ]
   },
   {
@@ -897,18 +921,19 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.52 \u2192 1.29 (+18%) \u2014 market confirming"
+    "Steam: favourite shortened 1.52 \u2192 1.31 (+16%) \u2014 market confirming"
    ]
   },
   {
    "gameId": "ncaab:401920537",
    "match": "Miami Hurricanes @ Michigan Wolverines",
    "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
+   "severity": 2,
+   "signal": "high_risk_alert",
    "flags": [
+    "Thin market: only 2 books quoting",
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.80 \u2192 1.17 (+54%) \u2014 market confirming"
+    "Steam: favourite shortened 1.95 \u2192 1.01 (+93%) \u2014 market confirming"
    ]
   },
   {
@@ -918,7 +943,7 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+    "Thin market: only 2 books quoting"
    ]
   },
   {
@@ -928,7 +953,7 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+    "Thin market: only 2 books quoting"
    ]
   },
   {
@@ -938,16 +963,18 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Heavy favourite: a short price leaves little margin"
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 1.23 \u2192 1.12 (+10%) \u2014 market confirming"
    ]
   },
   {
    "gameId": "ncaab:401917547",
-   "match": "Saint Mary's Gaels @ UCLA Bruins",
+   "match": "UCLA Bruins @ Saint Mary's Gaels",
    "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
+   "severity": 2,
+   "signal": "high_risk_alert",
    "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
     "Heavy favourite: a short price leaves little margin"
    ]
   },
