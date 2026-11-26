@@ -174,7 +174,7 @@ export default function Game() {
     // --- world ---
     let world = null;          // { segs, meshes, group }
     let player = null;
-    let state = { lives: 3, coins: 0, time: 0, running: false, won: false, crumbled: new Set() };
+    let state = { lives: 3, coins: 0, time: 0, running: false, won: false, crumbled: new Map() };
     const keys = new Set();
     let jumpQueued = false;
     let pointerLocked = false;
@@ -213,7 +213,7 @@ export default function Game() {
         return m;
       });
       world = { segs, group, meshes, useSeed };
-      state.crumbled = new Set();
+      state.crumbled = new Map();
 
       // start line banner
       const bannerMat = new THREE.MeshStandardMaterial({ color: 0x12263a, emissive: 0x0a6f4f, emissiveIntensity: 0.5 });
