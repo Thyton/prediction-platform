@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T18:20:30.839623+00:00",
+ "generatedAt": "2026-11-26T18:50:56.016041+00:00",
  "signals": [
   {
    "gameId": "wta:186836",
@@ -9,13 +9,13 @@
    "sport": "wta",
    "match": "Nuria Brancaccio vs Guiomar Maristany Zuleta De Reales",
    "side": "home",
-   "score": "0-0",
-   "period": 1,
-   "clock": "1-3",
-   "progress": 0.17,
+   "score": "0-1",
+   "period": 2,
+   "clock": "2-1",
+   "progress": 0.44,
    "livePrice": null,
    "lockedPrice": 1.27,
-   "at": "2026-11-26T18:20:30.797199+00:00"
+   "at": "2026-11-26T18:50:55.949229+00:00"
   }
  ]
 }
