@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T16:18:49.676972+00:00",
+ "generatedAt": "2026-11-26T16:49:21.792756+00:00",
  "picks": [
   {
    "gameId": "wta:186836",
@@ -424,17 +424,6 @@
    ]
   },
   {
-   "gameId": "esports:134392",
-   "match": "9z vs 100 Thieves",
-   "league": "Esports",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
    "gameId": "esports:134395",
    "match": "Liquid vs Imperial",
    "league": "Esports",
@@ -621,6 +610,16 @@
    "signal": "integrity_watch",
    "flags": [
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "ncaab:401921673",
+   "match": "Utah State Aggies @ USC Trojans",
+   "league": "NCAAB",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Drift against the favourite: 1.69 \u2192 1.84 (-8%) \u2014 money moving the other way"
    ]
   },
   {
@@ -963,7 +962,8 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Drift against the favourite: 1.81 \u2192 2.38 (-24%) \u2014 money moving the other way"
+    "Thin market: only 2 books quoting",
+    "Drift against the favourite: 1.81 \u2192 2.30 (-21%) \u2014 money moving the other way"
    ]
   },
   {
