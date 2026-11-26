@@ -30,6 +30,7 @@ export default function RootLayout({ children }) {
             <Link className="brand" href="/">TIP<span>LAB</span></Link>
             <nav>
               <Link href="/#tips">The board</Link>
+              <Link href="/games">All games</Link>
               <Link href="/record">Record</Link>
               <Link href="/method">Method</Link>
               <Link href="/pricing">Pricing</Link>

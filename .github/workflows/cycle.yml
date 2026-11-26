@@ -62,6 +62,10 @@ jobs:
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          # notify_alerts() posts to /api/alerts, which rejects a call without this
+          ALERT_SECRET: ${{ secrets.ALERT_SECRET }}
+          EMAIL_FROM: TipLab <updates@tiplab.io>
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python -X utf8 cycle.py ${{ steps.mode.outputs.live }}
 

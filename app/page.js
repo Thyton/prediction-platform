@@ -161,7 +161,9 @@ export default async function Home() {
   // whole board, soonest first, grouped so today's action isn't buried under
   // fixtures two days out. Every card still prints its own date.
   const sinceTs = since ? Number(since) : 0;
-  const isNew = (p) => sinceTs && p.lockTs && new Date(p.lockTs).getTime() > sinceTs;
+  // Boolean, not truthy: on a first visit sinceTs is 0 and the raw value would
+  // render as a bare "0" on every card.
+  const isNew = (p) => Boolean(sinceTs && p.lockTs && new Date(p.lockTs).getTime() > sinceTs);
   const sorted = [...picks].sort((a, b) => new Date(a.startsAt) - new Date(b.startsAt));
   const dayEnd = new Date(); dayEnd.setHours(23, 59, 59, 999);
   const tomorrowEnd = new Date(dayEnd.getTime() + 86400000);
