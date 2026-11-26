@@ -82,8 +82,15 @@ export default async function PickPage({ params }) {
         <Link href="/record">See the whole record →</Link>
       </p>
 
-      <p style={{ marginTop: 22 }}>
-        <Link className="btn" href="/login?up=1">Get picks like this →</Link>
+      <p className="muted-note" style={{ marginTop: 18 }}>
+        Tracking a pick puts it in your own record — your wins, your units, your
+        strike rate, counted honestly against the same grades. It takes a free
+        account and one click.
+      </p>
+
+      <p style={{ marginTop: 18, display: "flex", gap: 9, flexWrap: "wrap" }}>
+        <Link className="btn" href="/login?up=1">Track picks like this →</Link>
+        {p.sport && <Link className="btn btn-ghost" href={`/sport/${p.sport}`}>More {(SPORT_LABEL[p.sport] || p.sport)} →</Link>}
       </p>
     </section>
   );
