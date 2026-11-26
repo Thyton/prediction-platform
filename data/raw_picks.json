@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T16:49:21.792756+00:00",
+ "generatedAt": "2026-11-26T17:19:50.710515+00:00",
  "picks": [
   {
    "gameId": "wta:186836",
@@ -413,28 +413,6 @@
    ]
   },
   {
-   "gameId": "esports:134516",
-   "match": "Drama Esports vs Forze Reload",
-   "league": "Esports",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
-   "gameId": "esports:134395",
-   "match": "Liquid vs Imperial",
-   "league": "Esports",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
    "gameId": "esports:134867",
    "match": "Abt Esports vs Young Tigeres",
    "league": "Esports",
@@ -479,6 +457,17 @@
    ]
   },
   {
+   "gameId": "esports:134520",
+   "match": "Nordic Partners Gaming vs Baks Esports",
+   "league": "Esports",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
    "gameId": "uel:401915506",
    "match": "Hapoel Be'er @ Besiktas",
    "league": "Europa League",
@@ -486,7 +475,7 @@
    "signal": "high_risk_alert",
    "flags": [
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: a short price leaves little margin"
+    "Drift against the favourite: 1.24 \u2192 1.38 (-10%) \u2014 money moving the other way"
    ]
   },
   {
@@ -528,6 +517,16 @@
    "signal": "integrity_watch",
    "flags": [
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "uel:401915518",
+   "match": "Benfica @ Viktoria Plzen",
+   "league": "Europa League",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Drift against the favourite: 1.48 \u2192 1.61 (-8%) \u2014 money moving the other way"
    ]
   },
   {
@@ -603,6 +602,26 @@
    ]
   },
   {
+   "gameId": "ncaab:401920529",
+   "match": "Tennessee Volunteers @ Iowa State Cyclones",
+   "league": "NCAAB",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Steam: favourite shortened 1.67 \u2192 1.52 (+10%) \u2014 market confirming"
+   ]
+  },
+  {
+   "gameId": "ncaab:401920537",
+   "match": "Miami Hurricanes @ Michigan Wolverines",
+   "league": "NCAAB",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Drift against the favourite: 1.73 \u2192 1.95 (-11%) \u2014 money moving the other way"
+   ]
+  },
+  {
    "gameId": "ncaab:401925757",
    "match": "Arkansas Razorbacks @ Michigan State Spartans",
    "league": "NCAAB",
@@ -610,16 +629,6 @@
    "signal": "integrity_watch",
    "flags": [
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "ncaab:401921673",
-   "match": "Utah State Aggies @ USC Trojans",
-   "league": "NCAAB",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Drift against the favourite: 1.69 \u2192 1.84 (-8%) \u2014 money moving the other way"
    ]
   },
   {
