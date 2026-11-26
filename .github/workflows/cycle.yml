@@ -3,8 +3,9 @@ name: cycle
 on:
   schedule:
     # Backstop only: the scheduler here is unreliable (hours of silence seen), so
-    # every run queues the next itself (see "Chain the next run"). This cron just
-    # restarts the heartbeat within the hour if the chain ever breaks.
+    # every run queues the next itself (see "Chain the next run"). Publish.py also
+    # refuses to exceed the daily API quota, so a missed slot costs freshness,
+    # never budget.
     - cron: "17 * * * *"
   workflow_dispatch:
     inputs:
@@ -93,7 +94,11 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          if [ "${{ steps.mode.outputs.live }}" = "" ]; then SLEEP=1800; else SLEEP=300; fi
+          # Hobby allows 100 API deploys/day and every live pass deploys, so the
+          # cadence is set to fit: a live pass is cheap but only worth doing when
+          # something is on, and publish.py already skips a live deploy within
+          # 4 minutes of the last one. 20 min live / 30 min full is ~75-85/day.
+          if [ "${{ steps.mode.outputs.live }}" = "" ]; then SLEEP=1800; else SLEEP=1200; fi
           echo "next run in ${SLEEP}s" >> "$GITHUB_STEP_SUMMARY"
           sleep $SLEEP
           CODE=$(curl -sS -o /tmp/d.json -w "%{http_code}" -X POST \

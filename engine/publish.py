@@ -1,4 +1,4 @@
-import json, os, subprocess, sys, time, urllib.request
+import json, os, subprocess, sys, time, urllib.request, urllib.error
 
 TOKEN = os.environ.get("VERCEL_TOKEN", "")
 PROJECT = "prj_mybaeapCVsT1BpmCyDoAp1l2wZbA"
@@ -14,6 +14,9 @@ LIVE_BUDGET = int(os.environ.get("LIVE_DEPLOY_BUDGET", "55"))
 # keeps signals useful without one deploy per 5-minute cron.
 LIVE_MIN_GAP_S = int(os.environ.get("LIVE_DEPLOY_GAP_S", "240"))
 
+class OutOfBudget(Exception):
+    """Vercel refused the deploy because the daily API quota is spent."""
+
 def api(path, method="GET", body=None):
     req = urllib.request.Request(
         f"https://api.vercel.com{path}",
@@ -21,8 +24,15 @@ def api(path, method="GET", body=None):
         method=method,
         headers={"Authorization": f"Bearer {TOKEN}", "Content-Type": "application/json"},
     )
-    with urllib.request.urlopen(req, timeout=60) as r:
-        return json.loads(r.read() or b"{}")
+    try:
+        with urllib.request.urlopen(req, timeout=60) as r:
+            return json.loads(r.read() or b"{}")
+    except urllib.error.HTTPError as e:
+        # 402 = the real quota wall. Raise a distinct error so callers can skip
+        # instead of aborting the whole cycle.
+        if e.code == 402:
+            raise OutOfBudget(e.read().decode()[:200])
+        raise
 
 def files(only=None):
     """`only` keeps a deploy to a set of paths (plus everything a render needs).
@@ -106,7 +116,13 @@ def main(argv):
             return r.returncode
         print(f"deploy budget reached ({used}/{cap}), skip")
         return 0
-    url = deploy({"data/live.json"} if live else None)
+    try:
+        url = deploy({"data/live.json"} if live else None)
+    except OutOfBudget as e:
+        # Vercel's own counter said there was room but the API said no. Skipping
+        # is correct: the next pass carries the same data and retries.
+        print(f"vercel quota spent, deploy skipped: {str(e)[:120]}")
+        return 0
     if live:
         try:
             open(os.path.join(DATA, ".live_deploy_at"), "w").write(str(int(time.time())))
