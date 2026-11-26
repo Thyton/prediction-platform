@@ -108,32 +108,41 @@ Roughly in value order. All are buildable from data already in `data/`.
    `/p/[id]` with the result. `app/opengraph-image.js` is the template.
 
 
-### 4.1 Email (biggest blocker)
+### 4.1 Email — DONE (2026-11-26)
 
-Nothing can email. Password resets, alert emails and the daily digest all
-silently no-op, and signups land unverified.
+Working end to end. Delivering from `TipLab <updates@tiplab.io>`; welcome and
+password-reset mail both verified arriving in a real inbox, not spam.
 
-- **Use `pinzak.com`, not `tiplab.io`.** `pinzak.com` has Google Workspace MX
-  records; `tiplab.io` has **no mailbox at all**, so any `@tiplab.io` address
-  bounces. Legal pages were already switched to `support@pinzak.com` /
-  `privacy@pinzak.com` for this reason.
-- Create a Resend account, verify **pinzak.com** as a sending domain (DNS at the
-  registrar), make an API key.
-- Set on the Vercel project `prj_mybaeapCVsT1BpmCyDoAp1l2wZbA`:
-  `RESEND_API_KEY`, `EMAIL_FROM` (e.g. `TipLab <alerts@pinzak.com>`), and
-  `ALERT_SECRET` (any random string — the digest and alert routes are open
-  without it).
-- Copy those same two into `engine/.env` on the runner.
-- Verify: signup sends a welcome/verify mail and marks the account `verified`;
-  `/api/auth/forgot` returns `emailed: true` with no `link`; `POST /api/alerts`
-  reaches a Pro member. Keep the beta fallback that returns `link` when no
-  provider is configured.
+What exists now, do not redo:
+
+- Resend account under `ai@pinzak.com`; **tiplab.io verified** (DKIM, SPF MX, SPF
+  TXT and the `rsend` CNAME all added on Vercel DNS, all green).
+- Vercel project env: `RESEND_API_KEY`, `EMAIL_FROM`, `ALERT_SECRET`, `ADMIN_KEY`
+  (production + preview). The first two are also in `engine/.env`.
+- `send()` in `lib/email.js` returns a real provider result; `configured()` is
+  true, so the "return the link in the response" beta fallback no longer fires.
+
+Still open on email:
+
+- `EMAIL_FROM` should eventually be a mailbox someone reads (`updates@tiplab.io`
+  is send-only because tiplab.io has **no inbound mailbox** — pinzak.com has
+  Google MX, so a reply-to of `support@pinzak.com` is the right move).
+- Nothing sends the daily digest yet in practice: `send_digest()` still only
+  fires at hour 07 UTC and only on a full pass (see 4.4).
 
 ### 4.2 Stripe
 
-- **Customer portal**: Settings → Billing → Customer portal → enable. Currently
-  `/api/portal` returns `portal=noportal` (Stripe 400), so a paying member
-  cannot cancel. Legal pages promise cancellation, so this is a must.
+- **Customer portal — STILL BLOCKING.** Settings → Billing → Customer portal →
+  enable. `/api/portal` returns `portal=noportal` (Stripe 400) so a paying member
+  cannot cancel, and the legal pages promise cancellation.
+  There is also a route to do this from code once deploys are available again:
+  `GET /api/admin/portal-setup/<ADMIN_KEY>` creates a portal configuration with
+  cancellation, invoice history, card update and email change enabled. It is
+  idempotent (reports `already`). It currently returns a blank 500 on Vercel and
+  is being debugged — the local case works, so suspect the Stripe key lines.
+  Note the key travels in the **path**, not the query string: Vercel stripped
+  `?k=` from the function's URL, which is why the route was moved to a `[key]`
+  dynamic segment.
 - **Webhook**: confirm an endpoint exists at
   `https://tiplab.io/api/stripe/webhook` subscribed to `checkout.session.completed`,
   `customer.subscription.updated`, `customer.subscription.deleted`.
