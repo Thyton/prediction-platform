@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T07:42:06.537708+00:00",
+ "generatedAt": "2026-11-26T08:12:35.434514+00:00",
  "picks": [
   {
    "gameId": "wta:186836",
@@ -689,46 +689,6 @@
    "signal": "integrity_watch",
    "flags": [
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "nhl:401892799",
-   "match": "Ottawa Senators @ Tampa Bay Lightning",
-   "league": "NHL",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 2 books quoting"
-   ]
-  },
-  {
-   "gameId": "nhl:401892800",
-   "match": "Vancouver Canucks @ Philadelphia Flyers",
-   "league": "NHL",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 2 books quoting"
-   ]
-  },
-  {
-   "gameId": "nhl:401892801",
-   "match": "Florida Panthers @ Washington Capitals",
-   "league": "NHL",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 2 books quoting"
-   ]
-  },
-  {
-   "gameId": "nhl:401892802",
-   "match": "Detroit Red Wings @ Columbus Blue Jackets",
-   "league": "NHL",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 2 books quoting"
    ]
   },
   {
