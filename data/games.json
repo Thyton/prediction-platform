@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T04:49:51.031742+00:00",
+ "generatedAt": "2026-11-26T05:07:01.424182+00:00",
  "games": [
   {
    "id": "ncaab:401920428",
@@ -1052,11 +1052,11 @@
    "_cid": "401892794",
    "markets": {
     "h2h": {
-     "outcome": "Seattle Kraken",
-     "bestOdds": 1.77,
-     "otherOdds": 2.15,
+     "outcome": "Chicago Blackhawks",
+     "bestOdds": 1.04,
+     "otherOdds": 17.0,
      "bookCount": "7",
-     "favSide": "home",
+     "favSide": "away",
      "source": "oddsapi"
     }
    },
@@ -1084,9 +1084,9 @@
    "markets": {
     "h2h": {
      "outcome": "Golden State Warriors",
-     "bestOdds": 1.06,
-     "otherOdds": 14.0,
-     "bookCount": "8",
+     "bestOdds": 1.01,
+     "otherOdds": 41.0,
+     "bookCount": "4",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -1115,8 +1115,8 @@
    "markets": {
     "h2h": {
      "outcome": "Portland Trail Blazers",
-     "bestOdds": 2.15,
-     "otherOdds": 2.6,
+     "bestOdds": 1.74,
+     "otherOdds": 3.85,
      "bookCount": "8",
      "favSide": "home",
      "source": "oddsapi"
@@ -1207,7 +1207,7 @@
    "markets": {
     "h2h": {
      "outcome": "AFC Bournemouth",
-     "bestOdds": 2.1,
+     "bestOdds": 2.05,
      "otherOdds": 3.75,
      "bookCount": "10",
      "favSide": "away",
@@ -2783,6 +2783,28 @@
    "drawPossible": false
   },
   {
+   "id": "ncaab:401929288",
+   "sport": "ncaab",
+   "league": "NCAAB",
+   "match": "Wake Forest Demon Deacons @ Memphis Tigers",
+   "home": "Memphis Tigers",
+   "away": "Wake Forest Demon Deacons",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/235.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/154.png",
+   "homeAbbr": "MEM",
+   "awayAbbr": "WAKE",
+   "homeId": "235",
+   "awayId": "154",
+   "startsAt": "2026-11-27T18:30Z",
+   "state": "pre",
+   "_path": "basketball/mens-college-basketball",
+   "_eid": "401929288",
+   "_cid": "401929288",
+   "markets": {},
+   "espnUrl": "https://www.espn.com/mens-college-basketball/game/_/gameId/401929288/wake-forest-memphis",
+   "drawPossible": false
+  },
+  {
    "id": "ncaab:401921827",
    "sport": "ncaab",
    "league": "NCAAB",
@@ -2888,7 +2910,7 @@
     "h2h": {
      "outcome": "Werder Bremen",
      "bestOdds": 1.76,
-     "otherOdds": 4.5,
+     "otherOdds": 4.33,
      "bookCount": "10",
      "favSide": "home",
      "source": "oddsapi"
@@ -4683,7 +4705,7 @@
     "h2h": {
      "outcome": "Atlético Madrid",
      "bestOdds": 1.5,
-     "otherOdds": 6.38,
+     "otherOdds": 6.5,
      "bookCount": "9",
      "favSide": "away",
      "source": "oddsapi"
@@ -5259,8 +5281,8 @@
    "markets": {
     "h2h": {
      "outcome": "América",
-     "bestOdds": 2.38,
-     "otherOdds": 2.85,
+     "bestOdds": 2.65,
+     "otherOdds": 3.5,
      "bookCount": "3",
      "favSide": "home",
      "source": "oddsapi"
@@ -6221,7 +6243,7 @@
     "h2h": {
      "outcome": "Como",
      "bestOdds": 2.1,
-     "otherOdds": 3.55,
+     "otherOdds": 3.6,
      "bookCount": "11",
      "favSide": "home",
      "source": "oddsapi"
