@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T06:11:00.324565+00:00",
+ "generatedAt": "2026-11-26T06:41:17.995150+00:00",
  "picks": [
   {
    "gameId": "wta:186836",
@@ -895,10 +895,9 @@
    "gameId": "nba:401909334",
    "match": "Denver Nuggets @ Utah Jazz",
    "league": "NBA",
-   "severity": 2,
-   "signal": "high_risk_alert",
+   "severity": 1,
+   "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
     "Heavy favourite: a short price leaves little margin"
    ]
   },
