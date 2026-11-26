@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T17:19:50.594152+00:00",
+ "generatedAt": "2026-11-26T17:50:11.840998+00:00",
  "games": [
   {
    "id": "ncaab:401920428",
@@ -1174,20 +1174,20 @@
    "homeId": "1895",
    "awayId": "13083",
    "startsAt": "2026-11-26T17:45Z",
-   "state": "pre",
+   "state": "in",
    "_path": "soccer/uefa.europa",
    "_eid": "401915506",
    "_cid": "401915506",
    "markets": {
     "h2h": {
      "outcome": "Besiktas",
-     "bestOdds": 1.377,
+     "bestOdds": 1.4,
      "otherOdds": 7.0,
-     "bookCount": "1",
+     "bookCount": "2",
      "favSide": "home"
     }
    },
-   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401915506/hapoel-beer-besiktas",
+   "espnUrl": null,
    "drawPossible": true
   },
   {
@@ -1204,7 +1204,7 @@
    "homeId": "85",
    "awayId": "349",
    "startsAt": "2026-11-26T17:45Z",
-   "state": "pre",
+   "state": "in",
    "_path": "soccer/uefa.europa",
    "_eid": "401915519",
    "_cid": "401915519",
@@ -1213,12 +1213,12 @@
      "outcome": "AFC Bournemouth",
      "bestOdds": 2.05,
      "otherOdds": 4.0,
-     "bookCount": "10",
+     "bookCount": "9",
      "favSide": "away",
      "source": "oddsapi"
     }
    },
-   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401915519/afc-bournemouth-celta-vigo",
+   "espnUrl": null,
    "drawPossible": true
   },
   {
@@ -1235,7 +1235,7 @@
    "homeId": "597",
    "awayId": "131",
    "startsAt": "2026-11-26T17:45Z",
-   "state": "pre",
+   "state": "in",
    "_path": "soccer/uefa.europa",
    "_eid": "401915517",
    "_cid": "401915517",
@@ -1244,12 +1244,12 @@
      "outcome": "Bayer Leverkusen",
      "bestOdds": 1.65,
      "otherOdds": 5.0,
-     "bookCount": "10",
+     "bookCount": "9",
      "favSide": "away",
      "source": "oddsapi"
     }
    },
-   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401915517/bayer-leverkusen-dinamo-zagreb",
+   "espnUrl": null,
    "drawPossible": true
   },
   {
@@ -1266,7 +1266,7 @@
    "homeId": "176",
    "awayId": "490",
    "startsAt": "2026-11-26T17:45Z",
-   "state": "pre",
+   "state": "in",
    "_path": "soccer/uefa.europa",
    "_eid": "401915507",
    "_cid": "401915507",
@@ -1274,12 +1274,12 @@
     "h2h": {
      "outcome": "Marseille",
      "bestOdds": 1.392,
-     "otherOdds": 7.5,
-     "bookCount": "1",
+     "otherOdds": 8.0,
+     "bookCount": "2",
      "favSide": "home"
     }
    },
-   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401915507/levski-sofia-marseille",
+   "espnUrl": null,
    "drawPossible": true
   },
   {
@@ -1296,20 +1296,20 @@
    "homeId": "435",
    "awayId": "103",
    "startsAt": "2026-11-26T17:45Z",
-   "state": "pre",
+   "state": "in",
    "_path": "soccer/uefa.europa",
    "_eid": "401915521",
    "_cid": "401915521",
    "markets": {
     "h2h": {
      "outcome": "AC Milan",
-     "bestOdds": 2.5,
+     "bestOdds": 2.6,
      "otherOdds": 2.85,
-     "bookCount": "1",
+     "bookCount": "2",
      "favSide": "away"
     }
    },
-   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401915521/ac-milan-olympiacos",
+   "espnUrl": null,
    "drawPossible": true
   },
   {
@@ -1326,20 +1326,20 @@
    "homeId": "2790",
    "awayId": "20024",
    "startsAt": "2026-11-26T17:45Z",
-   "state": "pre",
+   "state": "in",
    "_path": "soccer/uefa.europa",
    "_eid": "401915520",
    "_cid": "401915520",
    "markets": {
     "h2h": {
      "outcome": "RB Salzburg",
-     "bestOdds": 1.174,
-     "otherOdds": 13.0,
-     "bookCount": "1",
+     "bestOdds": 1.182,
+     "otherOdds": 15.0,
+     "bookCount": "2",
      "favSide": "home"
     }
    },
-   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401915520/ararat-armenia-rb-salzburg",
+   "espnUrl": null,
    "drawPossible": true
   },
   {
@@ -1356,20 +1356,20 @@
    "homeId": "5807",
    "awayId": "2990",
    "startsAt": "2026-11-26T17:45Z",
-   "state": "pre",
+   "state": "in",
    "_path": "soccer/uefa.europa",
    "_eid": "401915508",
    "_cid": "401915508",
    "markets": {
     "h2h": {
      "outcome": "Union St.-Gilloise",
-     "bestOdds": 1.364,
-     "otherOdds": 7.5,
-     "bookCount": "1",
+     "bestOdds": 1.339,
+     "otherOdds": 8.5,
+     "bookCount": "2",
      "favSide": "home"
     }
    },
-   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401915508/lech-poznan-union-st-gilloise",
+   "espnUrl": null,
    "drawPossible": true
   },
   {
@@ -1386,21 +1386,21 @@
    "homeId": "11706",
    "awayId": "1929",
    "startsAt": "2026-11-26T17:45Z",
-   "state": "pre",
+   "state": "in",
    "_path": "soccer/uefa.europa",
    "_eid": "401915518",
    "_cid": "401915518",
    "markets": {
     "h2h": {
      "outcome": "Benfica",
-     "bestOdds": 1.61,
+     "bestOdds": 1.57,
      "otherOdds": 5.5,
-     "bookCount": "10",
+     "bookCount": "9",
      "favSide": "away",
      "source": "oddsapi"
     }
    },
-   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401915518/benfica-viktoria-plzen",
+   "espnUrl": null,
    "drawPossible": true
   },
   {
@@ -1503,7 +1503,7 @@
    "markets": {
     "h2h": {
      "outcome": "Texas Longhorns",
-     "bestOdds": 1.27,
+     "bestOdds": 1.26,
      "otherOdds": 4.25,
      "bookCount": "11",
      "favSide": "home",
@@ -1772,7 +1772,7 @@
    "markets": {
     "h2h": {
      "outcome": "Sunderland",
-     "bestOdds": 1.25,
+     "bestOdds": 1.235,
      "otherOdds": 12.0,
      "bookCount": "1",
      "favSide": "home"
@@ -1833,7 +1833,7 @@
    "markets": {
     "h2h": {
      "outcome": "TSG Hoffenheim",
-     "bestOdds": 1.33,
+     "bestOdds": 1.31,
      "otherOdds": 9.5,
      "bookCount": "10",
      "favSide": "home",
@@ -1865,7 +1865,7 @@
     "h2h": {
      "outcome": "Iowa State Cyclones",
      "bestOdds": 1.52,
-     "otherOdds": 2.85,
+     "otherOdds": 2.77,
      "bookCount": "11",
      "favSide": "home",
      "source": "oddsapi"
@@ -1895,9 +1895,9 @@
    "markets": {
     "h2h": {
      "outcome": "Miami Hurricanes",
-     "bestOdds": 1.95,
+     "bestOdds": 1.87,
      "otherOdds": 2.05,
-     "bookCount": "11",
+     "bookCount": "9",
      "favSide": "away",
      "source": "oddsapi"
     }
@@ -2042,7 +2042,7 @@
    "markets": {
     "h2h": {
      "outcome": "UCLA Bruins",
-     "bestOdds": 1.32,
+     "bestOdds": 1.34,
      "otherOdds": 3.85,
      "bookCount": "11",
      "favSide": "home",
@@ -2104,7 +2104,7 @@
    "markets": {
     "h2h": {
      "outcome": "LSU Tigers",
-     "bestOdds": 1.34,
+     "bestOdds": 1.33,
      "otherOdds": 3.65,
      "bookCount": "11",
      "favSide": "home",
@@ -2228,8 +2228,8 @@
    "markets": {
     "h2h": {
      "outcome": "St. John's Red Storm",
-     "bestOdds": 1.769,
-     "otherOdds": 2.1,
+     "bestOdds": 1.8,
+     "otherOdds": 2.05,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -2288,7 +2288,7 @@
    "markets": {
     "h2h": {
      "outcome": "Cruz Azul",
-     "bestOdds": 2.2,
+     "bestOdds": 2.18,
      "otherOdds": 3.3,
      "bookCount": "8",
      "favSide": "away",
@@ -2350,8 +2350,8 @@
    "markets": {
     "h2h": {
      "outcome": "Gonzaga Bulldogs",
-     "bestOdds": 1.59,
-     "otherOdds": 2.57,
+     "bestOdds": 1.62,
+     "otherOdds": 2.46,
      "bookCount": "11",
      "favSide": "home",
      "source": "oddsapi"
@@ -2561,7 +2561,7 @@
    "markets": {
     "h2h": {
      "outcome": "UTSA Roadrunners",
-     "bestOdds": 1.91,
+     "bestOdds": 1.93,
      "otherOdds": 1.95,
      "bookCount": "8",
      "favSide": "home",
@@ -2714,8 +2714,8 @@
    "markets": {
     "h2h": {
      "outcome": "Boston Bruins",
-     "bestOdds": 1.67,
-     "otherOdds": 2.43,
+     "bestOdds": 1.62,
+     "otherOdds": 2.45,
      "bookCount": "10",
      "favSide": "home",
      "source": "oddsapi"
@@ -2914,7 +2914,7 @@
     "h2h": {
      "outcome": "Werder Bremen",
      "bestOdds": 1.76,
-     "otherOdds": 4.33,
+     "otherOdds": 4.5,
      "bookCount": "10",
      "favSide": "home",
      "source": "oddsapi"
@@ -3130,7 +3130,7 @@
     "h2h": {
      "outcome": "Florida Panthers",
      "bestOdds": 1.93,
-     "otherOdds": 1.98,
+     "otherOdds": 1.96,
      "bookCount": "10",
      "favSide": "away",
      "source": "oddsapi"
@@ -3191,7 +3191,7 @@
    "markets": {
     "h2h": {
      "outcome": "Nottingham Forest",
-     "bestOdds": 2.6,
+     "bestOdds": 2.55,
      "otherOdds": 3.0,
      "bookCount": "11",
      "favSide": "home",
@@ -3627,7 +3627,7 @@
    "markets": {
     "h2h": {
      "outcome": "New York Knicks",
-     "bestOdds": 1.62,
+     "bestOdds": 1.61,
      "otherOdds": 2.45,
      "bookCount": "8",
      "favSide": "home",
@@ -3655,7 +3655,16 @@
    "_path": "basketball/nba",
    "_eid": "401909327",
    "_cid": "401909327",
-   "markets": {},
+   "markets": {
+    "h2h": {
+     "outcome": "Detroit Pistons",
+     "bestOdds": 1.21,
+     "otherOdds": 5.3,
+     "bookCount": "3",
+     "favSide": "home",
+     "source": "oddsapi"
+    }
+   },
    "espnUrl": "https://www.espn.com/nba/game/_/gameId/401909327/bucks-pistons",
    "drawPossible": false
   },
@@ -3680,8 +3689,8 @@
    "markets": {
     "h2h": {
      "outcome": "Philadelphia 76ers",
-     "bestOdds": 1.56,
-     "otherOdds": 2.6,
+     "bestOdds": 1.65,
+     "otherOdds": 2.55,
      "bookCount": "8",
      "favSide": "away",
      "source": "oddsapi"
@@ -3708,7 +3717,16 @@
    "_path": "basketball/nba",
    "_eid": "401909329",
    "_cid": "401909329",
-   "markets": {},
+   "markets": {
+    "h2h": {
+     "outcome": "Toronto Raptors",
+     "bestOdds": 1.31,
+     "otherOdds": 3.9,
+     "bookCount": "3",
+     "favSide": "home",
+     "source": "oddsapi"
+    }
+   },
    "espnUrl": "https://www.espn.com/nba/game/_/gameId/401909329/nets-raptors",
    "drawPossible": false
   },
@@ -3849,7 +3867,7 @@
     "h2h": {
      "outcome": "Boston Celtics",
      "bestOdds": 1.28,
-     "otherOdds": 4.15,
+     "otherOdds": 4.4,
      "bookCount": "8",
      "favSide": "home",
      "source": "oddsapi"
@@ -3969,7 +3987,16 @@
    "_path": "basketball/nba",
    "_eid": "401909331",
    "_cid": "401909331",
-   "markets": {},
+   "markets": {
+    "h2h": {
+     "outcome": "Minnesota Timberwolves",
+     "bestOdds": 1.64,
+     "otherOdds": 2.32,
+     "bookCount": "1",
+     "favSide": "home",
+     "source": "oddsapi"
+    }
+   },
    "espnUrl": "https://www.espn.com/nba/game/_/gameId/401909331/grizzlies-timberwolves",
    "drawPossible": false
   },
@@ -3991,7 +4018,16 @@
    "_path": "basketball/nba",
    "_eid": "401909332",
    "_cid": "401909332",
-   "markets": {},
+   "markets": {
+    "h2h": {
+     "outcome": "Phoenix Suns",
+     "bestOdds": 1.68,
+     "otherOdds": 2.26,
+     "bookCount": "2",
+     "favSide": "home",
+     "source": "oddsapi"
+    }
+   },
    "espnUrl": "https://www.espn.com/nba/game/_/gameId/401909332/mavericks-suns",
    "drawPossible": false
   },
@@ -4047,7 +4083,7 @@
    "markets": {
     "h2h": {
      "outcome": "San Antonio Spurs",
-     "bestOdds": 1.53,
+     "bestOdds": 1.51,
      "otherOdds": 2.75,
      "bookCount": "8",
      "favSide": "home",
@@ -4079,7 +4115,7 @@
     "h2h": {
      "outcome": "Denver Nuggets",
      "bestOdds": 1.29,
-     "otherOdds": 4.0,
+     "otherOdds": 4.7,
      "bookCount": "8",
      "favSide": "away",
      "source": "oddsapi"
@@ -4128,7 +4164,16 @@
    "_path": "basketball/nba",
    "_eid": "401909336",
    "_cid": "401909336",
-   "markets": {},
+   "markets": {
+    "h2h": {
+     "outcome": "Portland Trail Blazers",
+     "bestOdds": 1.28,
+     "otherOdds": 3.95,
+     "bookCount": "2",
+     "favSide": "home",
+     "source": "oddsapi"
+    }
+   },
    "espnUrl": "https://www.espn.com/nba/game/_/gameId/401909336/warriors-trail-blazers",
    "drawPossible": false
   },
@@ -4828,7 +4873,7 @@
    "markets": {
     "h2h": {
      "outcome": "PSV Eindhoven",
-     "bestOdds": 1.27,
+     "bestOdds": 1.25,
      "otherOdds": 11.0,
      "bookCount": "9",
      "favSide": "home",
@@ -5516,7 +5561,7 @@
      "outcome": "FC Utrecht",
      "bestOdds": 2.47,
      "otherOdds": 2.7,
-     "bookCount": "8",
+     "bookCount": "9",
      "favSide": "away",
      "source": "oddsapi"
     }
@@ -5699,7 +5744,7 @@
      "outcome": "Heerenveen",
      "bestOdds": 1.95,
      "otherOdds": 3.6,
-     "bookCount": "8",
+     "bookCount": "9",
      "favSide": "away",
      "source": "oddsapi"
     }
@@ -6281,8 +6326,8 @@
    "markets": {
     "h2h": {
      "outcome": "Santos",
-     "bestOdds": 2.25,
-     "otherOdds": 3.35,
+     "bestOdds": 2.28,
+     "otherOdds": 3.1,
      "bookCount": "10",
      "favSide": "away",
      "source": "oddsapi"
@@ -6850,7 +6895,7 @@
    "markets": {
     "h2h": {
      "outcome": "Espanyol",
-     "bestOdds": 2.1,
+     "bestOdds": 2.06,
      "otherOdds": 4.21,
      "bookCount": "9",
      "favSide": "home",
@@ -7007,7 +7052,7 @@
      "outcome": "Chelsea",
      "bestOdds": 1.67,
      "otherOdds": 4.8,
-     "bookCount": "6",
+     "bookCount": "8",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -7069,7 +7114,7 @@
      "outcome": "Liverpool",
      "bestOdds": 1.46,
      "otherOdds": 7.0,
-     "bookCount": "6",
+     "bookCount": "8",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -7100,7 +7145,7 @@
      "outcome": "Manchester City",
      "bestOdds": 1.58,
      "otherOdds": 5.6,
-     "bookCount": "6",
+     "bookCount": "8",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -7161,7 +7206,7 @@
      "outcome": "Aston Villa",
      "bestOdds": 2.01,
      "otherOdds": 3.65,
-     "bookCount": "6",
+     "bookCount": "8",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -7192,7 +7237,7 @@
      "outcome": "Arsenal",
      "bestOdds": 1.83,
      "otherOdds": 4.6,
-     "bookCount": "6",
+     "bookCount": "8",
      "favSide": "away",
      "source": "oddsapi"
     }
@@ -7222,8 +7267,8 @@
     "h2h": {
      "outcome": "Manchester United",
      "bestOdds": 2.5,
-     "otherOdds": 2.6,
-     "bookCount": "6",
+     "otherOdds": 2.61,
+     "bookCount": "8",
      "favSide": "away",
      "source": "oddsapi"
     }

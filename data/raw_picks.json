@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T17:19:50.710515+00:00",
+ "generatedAt": "2026-11-26T17:50:12.034870+00:00",
  "picks": [
   {
    "gameId": "wta:186836",
@@ -56,14 +56,14 @@
    "sport": "bundesliga",
    "side": "home",
    "price": 1.76,
-   "modelProb": 0.7815,
-   "marketProb": 0.711,
-   "edgePct": 0.0705,
+   "modelProb": 0.7859,
+   "marketProb": 0.7188,
+   "edgePct": 0.067,
    "tier": "PREMIUM",
    "bookCount": 10,
    "startsAt": "2026-11-27T19:30Z",
    "edgeKind": "market",
-   "why": "Werder Bremen rated 78% to win; across 10 tracked games per side; with 10 books quoting; a 7.1-point gap to the market price.",
+   "why": "Werder Bremen rated 79% to win; across 10 tracked games per side; with 10 books quoting; a slim but real gap to the market price.",
    "home": "Werder Bremen",
    "away": "Borussia M\u00f6nchengladbach",
    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/137.png",
@@ -474,8 +474,8 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Drift against the favourite: 1.24 \u2192 1.38 (-10%) \u2014 money moving the other way"
+    "Thin market: only 2 books quoting",
+    "Drift against the favourite: 1.24 \u2192 1.40 (-12%) \u2014 money moving the other way"
    ]
   },
   {
@@ -485,17 +485,18 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+    "Thin market: only 2 books quoting"
    ]
   },
   {
    "gameId": "uel:401915521",
    "match": "AC Milan @ Olympiacos",
    "league": "Europa League",
-   "severity": 1,
-   "signal": "integrity_watch",
+   "severity": 2,
+   "signal": "high_risk_alert",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+    "Thin market: only 2 books quoting",
+    "Drift against the favourite: 2.35 \u2192 2.60 (-10%) \u2014 money moving the other way"
    ]
   },
   {
@@ -505,7 +506,7 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Thin market: only 2 books quoting",
     "Heavy favourite: a short price leaves little margin"
    ]
   },
@@ -513,20 +514,11 @@
    "gameId": "uel:401915508",
    "match": "Lech Poznan @ Union St.-Gilloise",
    "league": "Europa League",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "uel:401915518",
-   "match": "Benfica @ Viktoria Plzen",
-   "league": "Europa League",
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Drift against the favourite: 1.48 \u2192 1.61 (-8%) \u2014 money moving the other way"
+    "Thin market: only 2 books quoting",
+    "Heavy favourite: a short price leaves little margin"
    ]
   },
   {
@@ -608,17 +600,7 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Steam: favourite shortened 1.67 \u2192 1.52 (+10%) \u2014 market confirming"
-   ]
-  },
-  {
-   "gameId": "ncaab:401920537",
-   "match": "Miami Hurricanes @ Michigan Wolverines",
-   "league": "NCAAB",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Drift against the favourite: 1.73 \u2192 1.95 (-11%) \u2014 money moving the other way"
+    "Steam: favourite shortened 1.66 \u2192 1.52 (+9%) \u2014 market confirming"
    ]
   },
   {
@@ -659,7 +641,7 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.48 \u2192 1.34 (+10%) \u2014 market confirming"
+    "Steam: favourite shortened 1.48 \u2192 1.33 (+11%) \u2014 market confirming"
    ]
   },
   {
@@ -794,6 +776,26 @@
    ]
   },
   {
+   "gameId": "nba:401909327",
+   "match": "Milwaukee Bucks @ Detroit Pistons",
+   "league": "NBA",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
+   "gameId": "nba:401909329",
+   "match": "Brooklyn Nets @ Toronto Raptors",
+   "league": "NBA",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
    "gameId": "ncaaf:401856756",
    "match": "Texas Longhorns @ Texas A&M Aggies",
    "league": "NCAAF",
@@ -824,6 +826,26 @@
    ]
   },
   {
+   "gameId": "nba:401909331",
+   "match": "Memphis Grizzlies @ Minnesota Timberwolves",
+   "league": "NBA",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "nba:401909332",
+   "match": "Dallas Mavericks @ Phoenix Suns",
+   "league": "NBA",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 2 books quoting"
+   ]
+  },
+  {
    "gameId": "ncaaf:401856880",
    "match": "West Virginia Mountaineers @ Utah Utes",
    "league": "NCAAF",
@@ -840,6 +862,17 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
+    "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
+   "gameId": "nba:401909336",
+   "match": "Golden State Warriors @ Portland Trail Blazers",
+   "league": "NBA",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 2 books quoting",
     "Heavy favourite: a short price leaves little margin"
    ]
   },
