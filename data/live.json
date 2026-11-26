@@ -1,21 +1,4 @@
 {
- "generatedAt": "2026-11-26T04:03:41.445354+00:00",
- "signals": [
-  {
-   "gameId": "nba:401909324",
-   "kind": "PULL_OFF",
-   "text": "Comfortable lead \u2014 hold to the finish. Live price 1.02 vs 1.43 locked (-29%) \u2014 the market has turned on this pick.",
-   "espnUrl": "https://www.espn.com/nba/game/_/gameId/401909324/kings-warriors",
-   "sport": "nba",
-   "match": "Sacramento Kings @ Golden State Warriors",
-   "side": "home",
-   "score": "64-43",
-   "period": 2,
-   "clock": "1:53",
-   "progress": 0.461,
-   "livePrice": 1.02,
-   "lockedPrice": 1.43,
-   "at": "2026-11-26T04:03:40.205370+00:00"
-  }
- ]
+ "generatedAt": "2026-11-26T04:20:00.456329+00:00",
+ "signals": []
 }

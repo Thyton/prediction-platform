@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T03:34:48.005462+00:00",
+ "generatedAt": "2026-11-26T04:20:15.772905+00:00",
  "picks": [
   {
    "gameId": "wta:186836",
@@ -370,8 +370,7 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.72 \u2192 1.21 (+42%) \u2014 market confirming"
+    "Heavy favourite: a short price leaves little margin"
    ]
   },
   {
@@ -381,8 +380,7 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.61 \u2192 1.30 (+24%) \u2014 market confirming"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
@@ -392,19 +390,18 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.71 \u2192 1.07 (+60%) \u2014 market confirming"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
    "gameId": "nba:401909323",
    "match": "Phoenix Suns @ Houston Rockets",
    "league": "NBA",
-   "severity": 1,
-   "signal": "integrity_watch",
+   "severity": 2,
+   "signal": "high_risk_alert",
    "flags": [
-    "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.27 \u2192 1.04 (+22%) \u2014 market confirming"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: a short price leaves little margin"
    ]
   },
   {
@@ -414,7 +411,8 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Steam: favourite shortened 1.87 \u2192 1.41 (+33%) \u2014 market confirming"
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 1.87 \u2192 1.01 (+85%) \u2014 market confirming"
    ]
   },
   {
@@ -425,7 +423,7 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.32 \u2192 1.14 (+16%) \u2014 market confirming"
+    "Steam: favourite shortened 1.32 \u2192 1.02 (+29%) \u2014 market confirming"
    ]
   },
   {
@@ -435,7 +433,18 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Drift against the favourite: 1.64 \u2192 1.80 (-9%) \u2014 money moving the other way"
+    "Drift against the favourite: 1.67 \u2192 1.90 (-12%) \u2014 money moving the other way"
+   ]
+  },
+  {
+   "gameId": "nhl:401892793",
+   "match": "San Jose Sharks @ Anaheim Ducks",
+   "league": "NHL",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 1.80 \u2192 1.04 (+73%) \u2014 market confirming"
    ]
   },
   {
@@ -834,6 +843,16 @@
    ]
   },
   {
+   "gameId": "nba:401909326",
+   "match": "Miami Heat @ New York Knicks",
+   "league": "NBA",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
    "gameId": "ncaaf:401856756",
    "match": "Texas Longhorns @ Texas A&M Aggies",
    "league": "NCAAF",
@@ -870,7 +889,7 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+    "Thin market: only 2 books quoting"
    ]
   },
   {
@@ -1009,16 +1028,6 @@
    "gameId": "mls:401933726",
    "match": "St. Louis CITY SC @ LAFC",
    "league": "MLS",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "ligamx:401931996",
-   "match": "Monterrey @ Am\u00e9rica",
-   "league": "Liga MX",
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
