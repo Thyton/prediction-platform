@@ -1,39 +1,16 @@
 {
- "generatedAt": "2026-11-26T02:34:42.182531+00:00",
+ "generatedAt": "2026-11-26T03:04:39.608743+00:00",
  "picks": [
-  {
-   "gameId": "nba:401909323",
-   "match": "Phoenix Suns @ Houston Rockets",
-   "league": "NBA",
-   "sport": "nba",
-   "side": "home",
-   "price": 1.48,
-   "modelProb": 0.7156,
-   "marketProb": 0.6696,
-   "edgePct": 0.046,
-   "tier": "HIGH",
-   "bookCount": 8,
-   "startsAt": "2026-11-26T01:30Z",
-   "edgeKind": "market",
-   "why": "Houston Rockets rated 72% to win; across 20 tracked games per side; with 8 books quoting; a slim but real gap to the market price.",
-   "home": "Houston Rockets",
-   "away": "Phoenix Suns",
-   "homeLogo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png",
-   "awayLogo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phx.png",
-   "homeAbbr": "HOU",
-   "awayAbbr": "PHX",
-   "espnUrl": null
-  },
   {
    "gameId": "nba:401909324",
    "match": "Sacramento Kings @ Golden State Warriors",
    "league": "NBA",
    "sport": "nba",
    "side": "home",
-   "price": 1.32,
-   "modelProb": 0.8034,
-   "marketProb": 0.7495,
-   "edgePct": 0.0539,
+   "price": 1.33,
+   "modelProb": 0.8026,
+   "marketProb": 0.7481,
+   "edgePct": 0.0545,
    "tier": "PREMIUM",
    "bookCount": 12,
    "startsAt": "2026-11-26T03:00Z",
@@ -256,7 +233,7 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Steam: favourite shortened 1.60 \u2192 1.45 (+10%) \u2014 market confirming"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
@@ -286,20 +263,17 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.64 \u2192 1.14 (+44%) \u2014 market confirming"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
    "gameId": "nhl:401892782",
    "match": "New York Rangers @ Buffalo Sabres",
    "league": "NHL",
-   "severity": 2,
-   "signal": "high_risk_alert",
+   "severity": 1,
+   "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 2 books quoting",
-    "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.78 \u2192 1.02 (+74%) \u2014 market confirming"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
@@ -309,8 +283,7 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.90 \u2192 1.10 (+73%) \u2014 market confirming"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
@@ -320,18 +293,7 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.87 \u2192 1.02 (+83%) \u2014 market confirming"
-   ]
-  },
-  {
-   "gameId": "nhl:401892785",
-   "match": "St. Louis Blues @ New York Islanders",
-   "league": "NHL",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Drift against the favourite: 1.78 \u2192 2.00 (-11%) \u2014 money moving the other way"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
@@ -341,8 +303,7 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.61 \u2192 1.04 (+55%) \u2014 market confirming"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
@@ -352,28 +313,27 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.67 \u2192 1.15 (+45%) \u2014 market confirming"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "nhl:401892788",
+   "match": "New Jersey Devils @ Columbus Blue Jackets",
+   "league": "NHL",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
    "gameId": "nba:401909319",
    "match": "Cleveland Cavaliers @ New York Knicks",
    "league": "NBA",
-   "severity": 2,
-   "signal": "high_risk_alert",
+   "severity": 1,
+   "signal": "integrity_watch",
    "flags": [
-    "Drift against the favourite: 1.62 \u2192 1.85 (-12%) \u2014 money moving the other way"
-   ]
-  },
-  {
-   "gameId": "nba:401909320",
-   "match": "Minnesota Timberwolves @ Oklahoma City Thunder",
-   "league": "NBA",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Drift against the favourite: 1.76 \u2192 2.05 (-14%) \u2014 money moving the other way"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
@@ -405,7 +365,8 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Steam: favourite shortened 1.91 \u2192 1.60 (+19%) \u2014 market confirming"
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 1.91 \u2192 1.12 (+70%) \u2014 market confirming"
    ]
   },
   {
@@ -415,7 +376,8 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Steam: favourite shortened 1.61 \u2192 1.43 (+13%) \u2014 market confirming"
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 1.61 \u2192 1.35 (+19%) \u2014 market confirming"
    ]
   },
   {
@@ -425,17 +387,29 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Steam: favourite shortened 1.71 \u2192 1.51 (+13%) \u2014 market confirming"
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 1.71 \u2192 1.13 (+51%) \u2014 market confirming"
    ]
   },
   {
    "gameId": "nba:401909323",
    "match": "Phoenix Suns @ Houston Rockets",
    "league": "NBA",
-   "severity": 2,
-   "signal": "high_risk_alert",
+   "severity": 1,
+   "signal": "integrity_watch",
    "flags": [
-    "Drift against the favourite: 1.27 \u2192 1.48 (-14%) \u2014 money moving the other way"
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 1.27 \u2192 1.11 (+14%) \u2014 market confirming"
+   ]
+  },
+  {
+   "gameId": "nhl:401892792",
+   "match": "Montreal Canadiens @ Colorado Avalanche",
+   "league": "NHL",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Steam: favourite shortened 1.87 \u2192 1.43 (+31%) \u2014 market confirming"
    ]
   },
   {
