@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-25T23:13:23.875193+00:00",
+ "generatedAt": "2026-11-26T00:11:00.715048+00:00",
  "picks": [
   {
    "gameId": "nba:401909324",
@@ -7,15 +7,15 @@
    "league": "NBA",
    "sport": "nba",
    "side": "home",
-   "price": 1.32,
-   "modelProb": 0.7994,
-   "marketProb": 0.7422,
-   "edgePct": 0.0572,
+   "price": 1.33,
+   "modelProb": 0.7943,
+   "marketProb": 0.7329,
+   "edgePct": 0.0613,
    "tier": "PREMIUM",
    "bookCount": 12,
    "startsAt": "2026-11-26T03:00Z",
    "edgeKind": "market",
-   "why": "Golden State Warriors rated 80% to win; across 22 tracked games per side; with 12 books quoting; a slim but real gap to the market price.",
+   "why": "Golden State Warriors rated 79% to win; across 22 tracked games per side; with 12 books quoting; a slim but real gap to the market price.",
    "home": "Golden State Warriors",
    "away": "Sacramento Kings",
    "homeLogo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png",
@@ -42,6 +42,30 @@
    "edgeKind": "model",
    "home": "Guiomar Maristany Zuleta De Reales",
    "away": "Nuria Brancaccio",
+   "homeLogo": null,
+   "awayLogo": null,
+   "homeAbbr": null,
+   "awayAbbr": null,
+   "espnUrl": null
+  },
+  {
+   "gameId": "wta:186832",
+   "match": "Veronika Erjavec vs Carole Monnet",
+   "league": "IEB+ Argentina Open",
+   "sport": "wta",
+   "side": "home",
+   "price": 1.53,
+   "modelProb": 0.7021,
+   "marketProb": null,
+   "edgePct": 0.4043,
+   "tier": "PREMIUM",
+   "bookCount": 0,
+   "startsAt": "2026-11-27T05:00Z",
+   "modelPriced": true,
+   "why": "Carole Monnet rated 70% to win; across 23 tracked games per side; a 40-point rating gap with no market price to lean on.",
+   "edgeKind": "model",
+   "home": "Carole Monnet",
+   "away": "Veronika Erjavec",
    "homeLogo": null,
    "awayLogo": null,
    "homeAbbr": null,
@@ -181,24 +205,34 @@
    ]
   },
   {
-   "gameId": "ncaab:401926065",
-   "match": "Southern Jaguars @ Nebraska Cornhuskers",
+   "gameId": "nba:401909317",
+   "match": "Miami Heat @ Philadelphia 76ers",
+   "league": "NBA",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 1.40 \u2192 1.06 (+32%) \u2014 market confirming"
+   ]
+  },
+  {
+   "gameId": "ncaab:401921670",
+   "match": "South Carolina Gamecocks @ USC Trojans",
    "league": "NCAAB",
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: a short price leaves little margin"
+    "Drift against the favourite: 1.45 \u2192 2.25 (-36%) \u2014 money moving the other way"
    ]
   },
   {
-   "gameId": "ncaab:401909568",
-   "match": "UConn Huskies @ Duke Blue Devils",
-   "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
+   "gameId": "nhl:401892781",
+   "match": "Winnipeg Jets @ Boston Bruins",
+   "league": "NHL",
+   "severity": 2,
+   "signal": "high_risk_alert",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+    "Drift against the favourite: 1.64 \u2192 2.20 (-26%) \u2014 money moving the other way"
    ]
   },
   {

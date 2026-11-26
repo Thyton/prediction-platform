@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-25T23:13:23.888697+00:00",
+ "generatedAt": "2026-11-26T00:11:00.729935+00:00",
  "picks": [
   {
    "gameId": "epl:401879219",
@@ -302,6 +302,33 @@
    "profitUnits": null,
    "espnUrl": "https://www.espn.com/nba/game/_/gameId/401909324/kings-warriors",
    "why": "Golden State Warriors rated 77% to win; with 12 books quoting; a 7.7-point gap to the market price."
+  },
+  {
+   "gameId": "wta:186832",
+   "match": "Veronika Erjavec vs Carole Monnet",
+   "league": "IEB+ Argentina Open",
+   "sport": "wta",
+   "side": "home",
+   "price": 1.53,
+   "modelProb": 0.7021,
+   "marketProb": null,
+   "edgePct": 0.4043,
+   "tier": "PREMIUM",
+   "bookCount": 0,
+   "startsAt": "2026-11-27T05:00Z",
+   "modelPriced": true,
+   "why": "Carole Monnet rated 70% to win; across 23 tracked games per side; a 40-point rating gap with no market price to lean on.",
+   "edgeKind": "model",
+   "home": "Carole Monnet",
+   "away": "Veronika Erjavec",
+   "homeLogo": null,
+   "awayLogo": null,
+   "homeAbbr": null,
+   "awayAbbr": null,
+   "espnUrl": null,
+   "lockTs": "2026-11-26T00:11:00.725935+00:00",
+   "result": null,
+   "profitUnits": null
   }
  ],
  "alerts": [
@@ -390,24 +417,34 @@
    ]
   },
   {
-   "gameId": "ncaab:401926065",
-   "match": "Southern Jaguars @ Nebraska Cornhuskers",
+   "gameId": "nba:401909317",
+   "match": "Miami Heat @ Philadelphia 76ers",
+   "league": "NBA",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 1.40 \u2192 1.06 (+32%) \u2014 market confirming"
+   ]
+  },
+  {
+   "gameId": "ncaab:401921670",
+   "match": "South Carolina Gamecocks @ USC Trojans",
    "league": "NCAAB",
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: a short price leaves little margin"
+    "Drift against the favourite: 1.45 \u2192 2.25 (-36%) \u2014 money moving the other way"
    ]
   },
   {
-   "gameId": "ncaab:401909568",
-   "match": "UConn Huskies @ Duke Blue Devils",
-   "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
+   "gameId": "nhl:401892781",
+   "match": "Winnipeg Jets @ Boston Bruins",
+   "league": "NHL",
+   "severity": 2,
+   "signal": "high_risk_alert",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+    "Drift against the favourite: 1.64 \u2192 2.20 (-26%) \u2014 money moving the other way"
    ]
   },
   {

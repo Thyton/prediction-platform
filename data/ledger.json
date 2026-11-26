@@ -521,6 +521,33 @@
    "result": null,
    "profitUnits": null,
    "espnUrl": "https://www.espn.com/nba/game/_/gameId/401909324/kings-warriors"
+  },
+  {
+   "gameId": "wta:186832",
+   "match": "Veronika Erjavec vs Carole Monnet",
+   "league": "IEB+ Argentina Open",
+   "sport": "wta",
+   "side": "home",
+   "price": 1.53,
+   "modelProb": 0.7021,
+   "marketProb": null,
+   "edgePct": 0.4043,
+   "tier": "PREMIUM",
+   "bookCount": 0,
+   "startsAt": "2026-11-27T05:00Z",
+   "modelPriced": true,
+   "why": "Carole Monnet rated 70% to win; across 23 tracked games per side; a 40-point rating gap with no market price to lean on.",
+   "edgeKind": "model",
+   "home": "Carole Monnet",
+   "away": "Veronika Erjavec",
+   "homeLogo": null,
+   "awayLogo": null,
+   "homeAbbr": null,
+   "awayAbbr": null,
+   "espnUrl": null,
+   "lockTs": "2026-11-26T00:11:00.725935+00:00",
+   "result": null,
+   "profitUnits": null
   }
  ]
 }
