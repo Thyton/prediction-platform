@@ -155,12 +155,14 @@ footer { margin-top: 70px; padding: 26px 0 44px; border-top: 1px solid var(--lin
 .livecard.cash_out { border-left-color: var(--bad); }
 .livecard.rising { border-left-color: var(--blue); }
 .livecard.caution { border-left-color: var(--warn); }
+.livecard.pull_off { border-left-color: var(--bad); }
 .live-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 9px; }
 .live-kind { font-size: 10.5px; font-weight: 850; letter-spacing: .1em; padding: 3px 8px; border-radius: 5px; }
 .live-kind.hold { background: #0f3529; color: var(--accent); }
 .live-kind.cash_out { background: #4a1d22; color: var(--bad); }
 .live-kind.rising { background: #14294a; color: var(--blue); }
 .live-kind.caution { background: #423420; color: var(--warn); }
+.live-kind.pull_off { background: #4a1d22; color: var(--bad); }
 .live-min { font-size: 11px; color: var(--dim); font-variant-numeric: tabular-nums; }
 .live-match { font-weight: 700; font-size: 14.5px; }
 .live-score { font-size: 26px; font-weight: 850; font-variant-numeric: tabular-nums; margin: 4px 0; }

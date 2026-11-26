@@ -5,6 +5,7 @@ import Watch from "./watch";
 
 const LABEL = {
   HOLD: "HOLD", CASH_OUT: "GET OUT", RISING: "GET IN", CAUTION: "CAUTION",
+  PULL_OFF: "PULL OFF",
 };
 
 // Pro only: announce newly-fired signals as browser notifications so a member
@@ -26,7 +27,7 @@ function Notifier({ signals }) {
           if (seen.has(key)) continue;
           seen.add(key);
           if (Notification.permission === "granted") {
-            new Notification(`${LABEL[s.kind]} — ${s.match}`, {
+            new Notification(`${LABEL[s.kind] || s.kind} — ${s.match}`, {
               body: `${s.score} · ${s.text}`,
               tag: key,
             });
@@ -77,7 +78,7 @@ export default function LiveBoard({ signals, pro, signedIn }) {
         {shown.map((s) => (
           <article key={s.gameId} className={"livecard " + s.kind.toLowerCase()}>
             <div className="live-top">
-              <span className={"live-kind " + s.kind.toLowerCase()}>{LABEL[s.kind]}</span>
+              <span className={"live-kind " + s.kind.toLowerCase()}>{LABEL[s.kind] || s.kind}</span>
               <span className="live-min">{Math.round(s.progress * 100)}% elapsed</span>
             </div>
             <div className="live-match">{s.match}</div>
