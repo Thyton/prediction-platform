@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T01:04:37.734528+00:00",
+ "generatedAt": "2026-11-26T01:34:52.012693+00:00",
  "picks": [
   {
    "gameId": "epl:401879219",
@@ -456,7 +456,18 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Drift against the favourite: 1.60 \u2192 1.85 (-14%) \u2014 money moving the other way"
+    "Drift against the favourite: 1.60 \u2192 2.00 (-20%) \u2014 money moving the other way"
+   ]
+  },
+  {
+   "gameId": "ncaab:401909568",
+   "match": "Duke Blue Devils @ UConn Huskies",
+   "league": "NCAAB",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 1.83 \u2192 1.29 (+42%) \u2014 market confirming"
    ]
   },
   {
@@ -467,7 +478,7 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.59 \u2192 1.12 (+42%) \u2014 market confirming"
+    "Steam: favourite shortened 1.59 \u2192 1.01 (+57%) \u2014 market confirming"
    ]
   },
   {
@@ -477,17 +488,29 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Steam: favourite shortened 1.78 \u2192 1.37 (+30%) \u2014 market confirming"
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 1.78 \u2192 1.02 (+74%) \u2014 market confirming"
    ]
   },
   {
-   "gameId": "nhl:401892784",
-   "match": "Ottawa Senators @ Florida Panthers",
+   "gameId": "nhl:401892783",
+   "match": "Carolina Hurricanes @ Tampa Bay Lightning",
    "league": "NHL",
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Steam: favourite shortened 1.87 \u2192 1.38 (+36%) \u2014 market confirming"
+    "Steam: favourite shortened 1.90 \u2192 1.40 (+36%) \u2014 market confirming"
+   ]
+  },
+  {
+   "gameId": "nhl:401892785",
+   "match": "St. Louis Blues @ New York Islanders",
+   "league": "NHL",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 1.78 \u2192 1.30 (+37%) \u2014 market confirming"
    ]
   },
   {
@@ -498,18 +521,7 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.61 \u2192 1.30 (+24%) \u2014 market confirming"
-   ]
-  },
-  {
-   "gameId": "nhl:401892788",
-   "match": "New Jersey Devils @ Columbus Blue Jackets",
-   "league": "NHL",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.74 \u2192 1.32 (+32%) \u2014 market confirming"
+    "Steam: favourite shortened 1.61 \u2192 1.20 (+34%) \u2014 market confirming"
    ]
   },
   {
@@ -519,7 +531,17 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Drift against the favourite: 1.62 \u2192 1.77 (-8%) \u2014 money moving the other way"
+    "Drift against the favourite: 1.62 \u2192 2.00 (-19%) \u2014 money moving the other way"
+   ]
+  },
+  {
+   "gameId": "nba:401909320",
+   "match": "Minnesota Timberwolves @ Oklahoma City Thunder",
+   "league": "NBA",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Drift against the favourite: 1.76 \u2192 2.05 (-14%) \u2014 money moving the other way"
    ]
   },
   {
@@ -530,7 +552,7 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.45 \u2192 1.12 (+30%) \u2014 market confirming"
+    "Steam: favourite shortened 1.45 \u2192 1.03 (+41%) \u2014 market confirming"
    ]
   },
   {
@@ -540,7 +562,27 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+    "Thin market: only 2 books quoting"
+   ]
+  },
+  {
+   "gameId": "nba:401909322",
+   "match": "Brooklyn Nets @ Milwaukee Bucks",
+   "league": "NBA",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Steam: favourite shortened 1.91 \u2192 1.69 (+13%) \u2014 market confirming"
+   ]
+  },
+  {
+   "gameId": "nfl:401873079",
+   "match": "Green Bay Packers @ Los Angeles Rams",
+   "league": "NFL",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Steam: favourite shortened 1.73 \u2192 1.53 (+13%) \u2014 market confirming"
    ]
   },
   {
@@ -845,7 +887,7 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+    "Thin market: only 2 books quoting"
    ]
   },
   {
@@ -925,7 +967,7 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+    "Thin market: only 2 books quoting"
    ]
   },
   {
@@ -935,7 +977,7 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+    "Thin market: only 2 books quoting"
    ]
   },
   {
@@ -945,7 +987,17 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+    "Thin market: only 2 books quoting"
+   ]
+  },
+  {
+   "gameId": "nhl:401892806",
+   "match": "New York Rangers @ Chicago Blackhawks",
+   "league": "NHL",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 2 books quoting"
    ]
   },
   {
@@ -966,6 +1018,36 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
+   "gameId": "nhl:401892807",
+   "match": "Winnipeg Jets @ New York Islanders",
+   "league": "NHL",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 2 books quoting"
+   ]
+  },
+  {
+   "gameId": "nhl:401892808",
+   "match": "Pittsburgh Penguins @ Buffalo Sabres",
+   "league": "NHL",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "nhl:401892809",
+   "match": "Seattle Kraken @ Edmonton Oilers",
+   "league": "NHL",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
