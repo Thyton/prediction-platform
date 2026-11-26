@@ -1,29 +1,6 @@
 {
- "generatedAt": "2026-11-26T03:04:39.608743+00:00",
+ "generatedAt": "2026-11-26T03:34:48.005462+00:00",
  "picks": [
-  {
-   "gameId": "nba:401909324",
-   "match": "Sacramento Kings @ Golden State Warriors",
-   "league": "NBA",
-   "sport": "nba",
-   "side": "home",
-   "price": 1.33,
-   "modelProb": 0.8026,
-   "marketProb": 0.7481,
-   "edgePct": 0.0545,
-   "tier": "PREMIUM",
-   "bookCount": 12,
-   "startsAt": "2026-11-26T03:00Z",
-   "edgeKind": "market",
-   "why": "Golden State Warriors rated 80% to win; across 22 tracked games per side; with 12 books quoting; a slim but real gap to the market price.",
-   "home": "Golden State Warriors",
-   "away": "Sacramento Kings",
-   "homeLogo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png",
-   "awayLogo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sac.png",
-   "homeAbbr": "GS",
-   "awayAbbr": "SAC",
-   "espnUrl": "https://www.espn.com/nba/game/_/gameId/401909324/kings-warriors"
-  },
   {
    "gameId": "wta:186836",
    "match": "Nuria Brancaccio vs Guiomar Maristany Zuleta De Reales",
@@ -79,14 +56,14 @@
    "sport": "bundesliga",
    "side": "home",
    "price": 1.76,
-   "modelProb": 0.7808,
-   "marketProb": 0.7096,
-   "edgePct": 0.0712,
+   "modelProb": 0.7859,
+   "marketProb": 0.7188,
+   "edgePct": 0.067,
    "tier": "PREMIUM",
    "bookCount": 10,
    "startsAt": "2026-11-27T19:30Z",
    "edgeKind": "market",
-   "why": "Werder Bremen rated 78% to win; across 10 tracked games per side; with 10 books quoting; a 7.1-point gap to the market price.",
+   "why": "Werder Bremen rated 79% to win; across 10 tracked games per side; with 10 books quoting; a slim but real gap to the market price.",
    "home": "Werder Bremen",
    "away": "Borussia M\u00f6nchengladbach",
    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/137.png",
@@ -297,6 +274,16 @@
    ]
   },
   {
+   "gameId": "nhl:401892785",
+   "match": "St. Louis Blues @ New York Islanders",
+   "league": "NHL",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
    "gameId": "nhl:401892786",
    "match": "Calgary Flames @ Pittsburgh Penguins",
    "league": "NHL",
@@ -337,15 +324,23 @@
    ]
   },
   {
+   "gameId": "nba:401909320",
+   "match": "Minnesota Timberwolves @ Oklahoma City Thunder",
+   "league": "NBA",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
    "gameId": "nhl:401892789",
    "match": "Vancouver Canucks @ Detroit Red Wings",
    "league": "NHL",
-   "severity": 2,
-   "signal": "high_risk_alert",
+   "severity": 1,
+   "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 2 books quoting",
-    "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.45 \u2192 1.01 (+44%) \u2014 market confirming"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
@@ -355,7 +350,7 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 2 books quoting"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
@@ -365,8 +360,18 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "nfl:401873079",
+   "match": "Green Bay Packers @ Los Angeles Rams",
+   "league": "NFL",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.91 \u2192 1.12 (+70%) \u2014 market confirming"
+    "Steam: favourite shortened 1.72 \u2192 1.21 (+42%) \u2014 market confirming"
    ]
   },
   {
@@ -377,7 +382,7 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.61 \u2192 1.35 (+19%) \u2014 market confirming"
+    "Steam: favourite shortened 1.61 \u2192 1.30 (+24%) \u2014 market confirming"
    ]
   },
   {
@@ -388,7 +393,7 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.71 \u2192 1.13 (+51%) \u2014 market confirming"
+    "Steam: favourite shortened 1.71 \u2192 1.07 (+60%) \u2014 market confirming"
    ]
   },
   {
@@ -399,7 +404,7 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.27 \u2192 1.11 (+14%) \u2014 market confirming"
+    "Steam: favourite shortened 1.27 \u2192 1.04 (+22%) \u2014 market confirming"
    ]
   },
   {
@@ -409,7 +414,7 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Steam: favourite shortened 1.87 \u2192 1.43 (+31%) \u2014 market confirming"
+    "Steam: favourite shortened 1.87 \u2192 1.41 (+33%) \u2014 market confirming"
    ]
   },
   {
@@ -419,7 +424,18 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Heavy favourite: a short price leaves little margin"
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 1.32 \u2192 1.14 (+16%) \u2014 market confirming"
+   ]
+  },
+  {
+   "gameId": "nba:401909325",
+   "match": "San Antonio Spurs @ Portland Trail Blazers",
+   "league": "NBA",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Drift against the favourite: 1.64 \u2192 1.80 (-9%) \u2014 money moving the other way"
    ]
   },
   {
@@ -993,6 +1009,16 @@
    "gameId": "mls:401933726",
    "match": "St. Louis CITY SC @ LAFC",
    "league": "MLS",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "ligamx:401931996",
+   "match": "Monterrey @ Am\u00e9rica",
+   "league": "Liga MX",
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
