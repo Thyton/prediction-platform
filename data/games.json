@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T10:44:23.788112+00:00",
+ "generatedAt": "2026-11-26T11:14:40.928430+00:00",
  "games": [
   {
    "id": "ncaab:401920428",
@@ -1071,6 +1071,78 @@
    "drawPossible": false
   },
   {
+   "id": "esports:134393",
+   "sport": "esports",
+   "league": "Esports",
+   "match": "Parivision vs Lynn Vision",
+   "home": "Lynn Vision",
+   "away": "Parivision",
+   "startsAt": "2026-11-26T09:00:00.000+00:00",
+   "state": "finished",
+   "markets": {
+    "h2h": {
+     "outcome": "Parivision",
+     "bestOdds": 1.02,
+     "otherOdds": 10.0,
+     "bookCount": "1",
+     "favSide": "away",
+     "source": "bo3"
+    }
+   },
+   "tier": "s",
+   "boType": 3,
+   "mapScore": [
+    0,
+    2
+   ],
+   "drawPossible": false
+  },
+  {
+   "id": "esports:134866",
+   "sport": "esports",
+   "league": "Esports",
+   "match": "Tulpar vs Kamui",
+   "home": "Kamui",
+   "away": "Tulpar",
+   "startsAt": "2026-11-26T09:00:00.000+00:00",
+   "state": "finished",
+   "markets": {
+    "h2h": {
+     "outcome": "Tulpar",
+     "bestOdds": 1.04,
+     "otherOdds": 11.0,
+     "bookCount": "1",
+     "favSide": "away",
+     "source": "bo3"
+    }
+   },
+   "tier": "c",
+   "boType": 3,
+   "mapScore": [
+    0,
+    2
+   ],
+   "drawPossible": false
+  },
+  {
+   "id": "esports:134644",
+   "sport": "esports",
+   "league": "Esports",
+   "match": "Illyrians vs Ex Inox Division",
+   "home": "Ex Inox Division",
+   "away": "Illyrians",
+   "startsAt": "2026-11-26T09:20:00.000+00:00",
+   "state": "finished",
+   "markets": {},
+   "tier": "c",
+   "boType": 3,
+   "mapScore": [
+    2,
+    0
+   ],
+   "drawPossible": false
+  },
+  {
    "id": "uel:401915506",
    "sport": "uel",
    "league": "Europa League",
@@ -1121,8 +1193,8 @@
    "markets": {
     "h2h": {
      "outcome": "AFC Bournemouth",
-     "bestOdds": 2.05,
-     "otherOdds": 3.75,
+     "bestOdds": 2.0,
+     "otherOdds": 3.9,
      "bookCount": "10",
      "favSide": "away",
      "source": "oddsapi"
@@ -1304,7 +1376,7 @@
     "h2h": {
      "outcome": "Benfica",
      "bestOdds": 1.48,
-     "otherOdds": 6.2,
+     "otherOdds": 6.1,
      "bookCount": "10",
      "favSide": "away",
      "source": "oddsapi"
@@ -1335,7 +1407,7 @@
     "h2h": {
      "outcome": "Chicago Bears",
      "bestOdds": 1.86,
-     "otherOdds": 2.04,
+     "otherOdds": 2.12,
      "bookCount": "10",
      "favSide": "away",
      "source": "oddsapi"
@@ -1806,7 +1878,7 @@
     "h2h": {
      "outcome": "Miami Hurricanes",
      "bestOdds": 1.73,
-     "otherOdds": 2.23,
+     "otherOdds": 2.21,
      "bookCount": "9",
      "favSide": "away",
      "source": "oddsapi"
@@ -1890,7 +1962,7 @@
    "markets": {
     "h2h": {
      "outcome": "USC Trojans",
-     "bestOdds": 1.69,
+     "bestOdds": 1.71,
      "otherOdds": 2.35,
      "bookCount": "9",
      "favSide": "home",
@@ -1983,7 +2055,7 @@
    "markets": {
     "h2h": {
      "outcome": "São Paulo",
-     "bestOdds": 1.36,
+     "bestOdds": 1.37,
      "otherOdds": 9.22,
      "bookCount": "10",
      "favSide": "home",
@@ -3591,8 +3663,8 @@
     "h2h": {
      "outcome": "Philadelphia 76ers",
      "bestOdds": 1.57,
-     "otherOdds": 2.52,
-     "bookCount": "6",
+     "otherOdds": 2.6,
+     "bookCount": "7",
      "favSide": "away",
      "source": "oddsapi"
     }
@@ -3758,9 +3830,9 @@
    "markets": {
     "h2h": {
      "outcome": "Boston Celtics",
-     "bestOdds": 1.29,
-     "otherOdds": 3.95,
-     "bookCount": "6",
+     "bestOdds": 1.28,
+     "otherOdds": 4.15,
+     "bookCount": "7",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -3989,8 +4061,8 @@
     "h2h": {
      "outcome": "Denver Nuggets",
      "bestOdds": 1.29,
-     "otherOdds": 3.9,
-     "bookCount": "6",
+     "otherOdds": 4.0,
+     "bookCount": "7",
      "favSide": "away",
      "source": "oddsapi"
     }
@@ -5088,6 +5160,36 @@
    "drawPossible": true
   },
   {
+   "id": "ligaprof:401936353",
+   "sport": "ligaprof",
+   "league": "Argentina Liga Profesional",
+   "match": "Independiente @ Vélez Sarsfield",
+   "home": "Vélez Sarsfield",
+   "away": "Independiente",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/21.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/11.png",
+   "homeAbbr": "VEL",
+   "awayAbbr": "IND",
+   "homeId": "21",
+   "awayId": "11",
+   "startsAt": "2026-11-28T23:00Z",
+   "state": "pre",
+   "_path": "soccer/arg.1",
+   "_eid": "401936353",
+   "_cid": "401936353",
+   "markets": {
+    "h2h": {
+     "outcome": "Vélez Sarsfield",
+     "bestOdds": 2.0,
+     "otherOdds": 4.0,
+     "bookCount": "1",
+     "favSide": "home"
+    }
+   },
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401936353/independiente-velez-sarsfield",
+   "drawPossible": true
+  },
+  {
    "id": "mls:401933722",
    "sport": "mls",
    "league": "MLS",
@@ -5147,6 +5249,28 @@
     }
    },
    "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401841336/bahia-botafogo",
+   "drawPossible": true
+  },
+  {
+   "id": "ligaprof:401936413",
+   "sport": "ligaprof",
+   "league": "Argentina Liga Profesional",
+   "match": "River Plate @ Instituto (Córdoba)",
+   "home": "Instituto (Córdoba)",
+   "away": "River Plate",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2975.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/16.png",
+   "homeAbbr": "IACC",
+   "awayAbbr": "RIV",
+   "homeId": "2975",
+   "awayId": "16",
+   "startsAt": "2026-11-29T01:00Z",
+   "state": "pre",
+   "_path": "soccer/arg.1",
+   "_eid": "401936413",
+   "_cid": "401936413",
+   "markets": {},
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401936413/river-plate-instituto-cordoba",
    "drawPossible": true
   },
   {
@@ -5222,9 +5346,9 @@
    "markets": {
     "h2h": {
      "outcome": "América",
-     "bestOdds": 2.5,
-     "otherOdds": 3.35,
-     "bookCount": "4",
+     "bestOdds": 2.55,
+     "otherOdds": 3.4,
+     "bookCount": "6",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -6130,7 +6254,7 @@
    "markets": {
     "h2h": {
      "outcome": "Santos",
-     "bestOdds": 2.28,
+     "bestOdds": 2.25,
      "otherOdds": 3.35,
      "bookCount": "9",
      "favSide": "away",
@@ -6192,7 +6316,7 @@
     "h2h": {
      "outcome": "Como",
      "bestOdds": 2.1,
-     "otherOdds": 3.7,
+     "otherOdds": 3.6,
      "bookCount": "11",
      "favSide": "home",
      "source": "oddsapi"
@@ -6264,28 +6388,6 @@
    "drawPossible": true
   },
   {
-   "id": "ligaprof:401936413",
-   "sport": "ligaprof",
-   "league": "Argentina Liga Profesional",
-   "match": "River Plate @ Instituto (Córdoba)",
-   "home": "Instituto (Córdoba)",
-   "away": "River Plate",
-   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2975.png",
-   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/16.png",
-   "homeAbbr": "IACC",
-   "awayAbbr": "RIV",
-   "homeId": "2975",
-   "awayId": "16",
-   "startsAt": "2026-11-29T20:00Z",
-   "state": "pre",
-   "_path": "soccer/arg.1",
-   "_eid": "401936413",
-   "_cid": "401936413",
-   "markets": {},
-   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401936413/river-plate-instituto-cordoba",
-   "drawPossible": true
-  },
-  {
    "id": "ligaprof:401936373",
    "sport": "ligaprof",
    "league": "Argentina Liga Profesional",
@@ -6314,36 +6416,6 @@
     }
    },
    "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401936373/barracas-central-rosario-central",
-   "drawPossible": true
-  },
-  {
-   "id": "ligaprof:401936353",
-   "sport": "ligaprof",
-   "league": "Argentina Liga Profesional",
-   "match": "Independiente @ Vélez Sarsfield",
-   "home": "Vélez Sarsfield",
-   "away": "Independiente",
-   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/21.png",
-   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/11.png",
-   "homeAbbr": "VEL",
-   "awayAbbr": "IND",
-   "homeId": "21",
-   "awayId": "11",
-   "startsAt": "2026-11-29T20:00Z",
-   "state": "pre",
-   "_path": "soccer/arg.1",
-   "_eid": "401936353",
-   "_cid": "401936353",
-   "markets": {
-    "h2h": {
-     "outcome": "Vélez Sarsfield",
-     "bestOdds": 2.0,
-     "otherOdds": 4.0,
-     "bookCount": "1",
-     "favSide": "home"
-    }
-   },
-   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401936353/independiente-velez-sarsfield",
    "drawPossible": true
   },
   {

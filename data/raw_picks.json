@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T10:44:23.956761+00:00",
+ "generatedAt": "2026-11-26T11:14:41.085511+00:00",
  "picks": [
   {
    "gameId": "wta:186836",
@@ -437,6 +437,28 @@
   {
    "gameId": "esports:134390",
    "match": "Eternal Fire vs M80 Cs Go",
+   "league": "Esports",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
+   "gameId": "esports:134393",
+   "match": "Parivision vs Lynn Vision",
+   "league": "Esports",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
+   "gameId": "esports:134866",
+   "match": "Tulpar vs Kamui",
    "league": "Esports",
    "severity": 2,
    "signal": "high_risk_alert",
@@ -993,6 +1015,16 @@
    ]
   },
   {
+   "gameId": "ligaprof:401936353",
+   "match": "Independiente @ V\u00e9lez Sarsfield",
+   "league": "Argentina Liga Profesional",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
    "gameId": "mls:401933726",
    "match": "St. Louis CITY SC @ LAFC",
    "league": "MLS",
@@ -1107,16 +1139,6 @@
    "gameId": "eredivisie:401875533",
    "match": "FC Twente @ NEC Nijmegen",
    "league": "Dutch Eredivisie",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "ligaprof:401936353",
-   "match": "Independiente @ V\u00e9lez Sarsfield",
-   "league": "Argentina Liga Profesional",
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
