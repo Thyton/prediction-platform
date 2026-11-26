@@ -337,21 +337,6 @@ export default async function Home() {
         </p>
       </section>
 
-      <section id="arcade">
-        <div className="section-head">
-          <div><p className="eyebrow">ARCADE</p><h2>Free games, no install</h2></div>
-          <Link className="btn btn-ghost" href="/play">All games →</Link>
-        </div>
-        <Link href="/play/voxel-run" className="home-game">
-          <div className="hg-art" />
-          <div className="hg-body">
-            <h3>Voxel Run</h3>
-            <p>A new first-person parkour course every day. Three lives, one clock, and lava that does not forgive. Plays on phone and desktop.</p>
-            <span className="hg-play">▶ Play free</span>
-          </div>
-        </Link>
-      </section>
-
       <section id="method" className="cards">
         <article>
           <p className="eyebrow">METHOD</p>
