@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { getLive, getRecord, getGames, getIntegrity, getSignals, fmtTime, SPORT_LABEL } from "../lib/data";
+import { getLive, getRecord, getGames, getIntegrity, getSignals, getLedger, streakOf, fmtTime, SPORT_LABEL } from "../lib/data";
 import { getActivity, getActivityDays } from "../lib/activity";
 import { headers } from "next/headers";
 import { currentUser } from "../lib/session";
@@ -40,7 +40,7 @@ function TeamPill({ p, side }) {
   );
 }
 
-function PickCard({ p, trackable, following, isNew }) {
+function PickCard({ p, trackable, following, isNew, run }) {
   const picked = p.side === "home" ? p.home : p.away;
   const pickedLogo = p.side === "home" ? p.homeLogo : p.awayLogo;
   const graded = ["correct", "wrong", "push"].includes(p.result);
@@ -50,6 +50,11 @@ function PickCard({ p, trackable, following, isNew }) {
         <div className="pick-league">
           <span className="league">{SPORT_LABEL[p.sport] || p.league}</span>
           {isNew && <span className="newflag">NEW</span>}
+          {run && run.n >= 3 && (
+            <span className={"runflag " + (run.kind === "correct" ? "hot" : "cold")}>
+              {run.kind === "correct" ? `${run.n} wins in a row` : `${run.n} losses in a row`}
+            </span>
+          )}
           <span>{fmtTime(p.startsAt)}</span>
         </div>
         <div className="pick-teams">
@@ -123,6 +128,8 @@ export default async function Home() {
     return { min, label };
   })();
   const signals = getSignals();
+  // only advertise a run when there is one, and only from 3 up
+  const run = streakOf(getLedger());
   const user = await currentUser();
   // the previous visit arrives as a header; the cookie has already been stamped
   const hdrs = await headers();
@@ -216,7 +223,7 @@ export default async function Home() {
                   <p className="daygroup">{label} <span>{list.length}</span></p>
                   <div className="picklist">
                     {list.map((p) => (
-                      <PickCard key={p.gameId} p={p} isNew={isNew(p)} trackable={Boolean(user)} following={isFollowing(user, p.gameId)} />
+                      <PickCard key={p.gameId} p={p} isNew={isNew(p)} run={run} trackable={Boolean(user)} following={isFollowing(user, p.gameId)} />
                     ))}
                   </div>
                 </div>

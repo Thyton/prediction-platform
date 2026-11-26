@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { cookies } from "next/headers";
 import crypto from "node:crypto";
-import { read, write, hash } from "../../../../lib/store";
+import { read, write, scryptHash, newSalt } from "../../../../lib/store";
 import { consume } from "../../../../lib/reset";
 
 export async function POST(req) {
@@ -20,7 +20,8 @@ export async function POST(req) {
   const user = db.users.find((u) => u.email === email);
   if (!user) return NextResponse.json({ error: "Account missing." }, { status: 404 });
 
-  user.pw = hash(password);
+  const salt = newSalt();
+  user.pw = `${salt}:${scryptHash(password, salt)}`;
   user.sessions = []; // a reset signs out everywhere else
   const sid = crypto.randomBytes(24).toString("hex");
   user.sessions.push(sid);

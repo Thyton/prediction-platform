@@ -36,6 +36,18 @@ export async function POST(req) {
     body,
   });
   const d = await r.json();
-  if (!r.ok) return NextResponse.json({ error: d.error?.message || "Stripe error" }, { status: 502 });
+  if (!r.ok) {
+    // Stripe's raw JSON is for logs, not for members. Map the handful of real
+    // causes to one plain sentence each, and log the detail server-side.
+    const code = d.error?.code || "";
+    const msg = d.error?.message || "";
+    console.error("checkout failed:", code, msg.slice(0, 200));
+    let friendly = "Checkout is having a moment — try again in a minute.";
+    if (code === "resource_missing") friendly = "Payment setup is mid-update. Please try again shortly.";
+    else if (/no active customer portal|configuration/i.test(msg)) friendly = "Payment setup is mid-update. Please try again shortly.";
+    else if (/price|plan/i.test(msg) && /invalid|missing|expired/i.test(msg)) friendly = "Payment plan is being updated. Please try again shortly.";
+    else if (r.status === 401 || /api key/i.test(msg)) friendly = "Payment system is briefly unavailable.";
+    return NextResponse.json({ error: friendly }, { status: 502 });
+  }
   return NextResponse.json({ url: d.url });
 }

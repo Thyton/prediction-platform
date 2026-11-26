@@ -293,3 +293,23 @@ footer { margin-top: 70px; padding: 26px 0 44px; border-top: 1px solid var(--lin
 @media (max-width: 720px) {
   .col2 { grid-template-columns: 1fr; gap: 4px; }
 }
+
+/* sport hub pick rows: the row is a link, so give it card shape instead of a
+   run-on underlined line */
+.pick-row {
+  display: grid; grid-template-columns: auto 1fr auto; gap: 4px 12px;
+  align-items: baseline; text-decoration: none; padding: 11px 14px;
+  border: 1px solid var(--line); border-radius: 10px; background: var(--panel);
+  margin-bottom: 7px;
+}
+.pick-row:hover { border-color: var(--accent); }
+.pick-row-teams { font-weight: 600; }
+.pick-row-side { color: var(--accent); font-size: 14px; white-space: nowrap; }
+@media (max-width: 620px) {
+  .pick-row { grid-template-columns: 1fr auto; }
+  .pick-row-teams { grid-column: 1 / -1; }
+}
+
+.runflag { font-size: 11px; font-weight: 700; border-radius: 4px; padding: 1px 6px; margin-left: 6px; }
+.runflag.hot { color: #04231a; background: var(--accent); }
+.runflag.cold { color: #2a1010; background: var(--bad); }

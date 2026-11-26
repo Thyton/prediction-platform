@@ -56,11 +56,21 @@ export default function GamesExplore({ games }) {
         <button className={"chip" + (sport === "all" ? " on" : "")} onClick={() => setSport("all")}>
           All <span>{games.length}</span>
         </button>
-        {sports.map(([s, n]) => (
-          <button key={s} className={"chip" + (sport === s ? " on" : "")} onClick={() => setSport(s)}>
-            {SPORT_LABEL[s] || s} <span>{n}</span>
-          </button>
-        ))}
+        {sports.map(([s, n]) => {
+          // sports with a real league get a hub page; tennis/esports/ufc stay
+          // as plain filters because there is no standings table behind them
+          const hasHub = !["atp", "wta", "ufc", "esports"].includes(s);
+          const cls = "chip" + (sport === s ? " on" : "");
+          return hasHub ? (
+            <Link key={s} href={`/sport/${s}`} className={cls}>
+              {SPORT_LABEL[s] || s} <span>{n}</span>
+            </Link>
+          ) : (
+            <button key={s} className={cls} onClick={() => setSport(s)}>
+              {SPORT_LABEL[s] || s} <span>{n}</span>
+            </button>
+          );
+        })}
       </div>
       <p className="muted-note" style={{ marginTop: 10 }}>
         <label className="inline-check">

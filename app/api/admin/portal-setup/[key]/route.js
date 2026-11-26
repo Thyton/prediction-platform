@@ -28,13 +28,15 @@ export async function GET(req, ctx) {
       body: form ? new URLSearchParams(form) : undefined,
     });
     const text = await r.text();
-    return { ok: r.ok, status: r.status, body: text.slice(0, 400) };
+    let parsed = null;
+    try { parsed = JSON.parse(text); } catch { /* keep the raw text for the report */ }
+    return { ok: r.ok, status: r.status, parsed, raw: text.slice(0, 300) };
   };
 
   try {
     const list = await call("/billing_portal/configurations");
-    if (list.ok && JSON.parse(list.body).data?.length) {
-      return NextResponse.json({ portal: "already", count: JSON.parse(list.body).data.length });
+    if (list.ok && list.parsed?.data?.length) {
+      return NextResponse.json({ portal: "already", count: list.parsed.data.length });
     }
 
     const made = await call("/billing_portal/configurations", {
@@ -48,7 +50,7 @@ export async function GET(req, ctx) {
       "features[subscription_cancel][enabled]": "true",
       "features[subscription_cancel][mode]": "at_period_end",
     });
-    return NextResponse.json({ portal: made.ok ? "created" : "failed", detail: made.body });
+    return NextResponse.json({ portal: made.ok ? "created" : "failed", detail: made.parsed || made.raw });
   } catch (e) {
     return NextResponse.json({ portal: "threw", err: String(e.message || e).slice(0, 250) }, { status: 500 });
   }

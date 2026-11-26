@@ -38,7 +38,7 @@ export default async function TeamPage({ params }) {
 
   return (
     <section style={{ maxWidth: 760, margin: "0 auto" }}>
-      <p className="eyebrow">{SPORT_LABEL[sport] || sport}</p>
+      <p className="eyebrow"><Link href={`/sport/${sport}`}>{SPORT_LABEL[sport] || sport}</Link> &rsaquo; team</p>
       <div className="teamhead">
         {t.logo && <img src={t.logo} alt="" />}
         <div>

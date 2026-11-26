@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { cookies } from "next/headers";
 import crypto from "node:crypto";
-import { read, write, hash } from "../../../../lib/store";
+import { read, write, hash, scryptHash, newSalt } from "../../../../lib/store";
 
 // Sign-in only. Accounts are created at /api/auth/signup so a wrong password
 // can be told apart from a new address.
@@ -19,7 +19,21 @@ export async function POST(req) {
       { status: 404 }
     );
   }
-  if (user.pw !== hash(password)) {
+  // Two hash formats coexist: legacy bare SHA-256 and scrypt (salt:hash).
+  // On a successful legacy login, transparently re-hash so accounts drift to
+  // scrypt without a migration, per the handoff decision.
+  let ok = false;
+  if (user.pw && user.pw.includes(":")) {
+    const [salt, digest] = user.pw.split(":");
+    ok = scryptHash(password, salt) === digest;
+  } else {
+    ok = user.pw === hash(password);
+    if (ok) {
+      const salt = newSalt();
+      user.pw = `${salt}:${scryptHash(password, salt)}`;
+    }
+  }
+  if (!ok) {
     return NextResponse.json({ error: "Wrong password for that email.", code: "badpw" }, { status: 401 });
   }
   const token = crypto.randomBytes(24).toString("hex");

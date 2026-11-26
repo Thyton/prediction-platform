@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { cookies } from "next/headers";
 import crypto from "node:crypto";
-import { read, write, hash } from "../../../../lib/store";
+import { read, write, hash, scryptHash, newSalt } from "../../../../lib/store";
 import { send, configured, welcomeEmail } from "../../../../lib/email";
 
 function startSession(user) {
@@ -26,7 +26,11 @@ export async function POST(req) {
   const db = await read();
   const existing = db.users.find((u) => u.email === clean);
   // Refuse rather than bind the account to a typo — sign-in now means sign-in.
-  if (existing && existing.pw !== hash(password)) {
+  // same dual-format check as login: legacy SHA-256 or salted scrypt
+  const pwMatches = existing && (existing.pw.includes(":")
+    ? (() => { const [salt, digest] = existing.pw.split(":"); return scryptHash(password, salt) === digest; })()
+    : existing.pw === hash(password));
+  if (existing && !pwMatches) {
     return NextResponse.json(
       { error: "That email is already registered.", hint: "Sign in instead, or reset the password.", code: "exists" },
       { status: 409 }
@@ -35,8 +39,9 @@ export async function POST(req) {
   let user = existing;
   if (!user) {
     const raw = crypto.randomBytes(32).toString("hex");
+    const salt = newSalt();
     user = {
-      id: crypto.randomUUID(), email: clean, pw: hash(password), pro: false,
+      id: crypto.randomUUID(), email: clean, pw: `${salt}:${scryptHash(password, salt)}`, pro: false,
       created: new Date().toISOString(), verified: false, verifyToken: raw,
     };
     db.users.push(user);

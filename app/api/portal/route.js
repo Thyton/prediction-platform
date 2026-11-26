@@ -17,6 +17,10 @@ export async function GET(req) {
     const origin = new URL(req.url).origin;
     const body = new URLSearchParams({ return_url: `${origin}/dashboard` });
     if (me?.stripeCustomer) body.set("customer", me.stripeCustomer);
+    // Pin the portal to our configuration: it is the only one that has
+    // cancellation enabled, and Stripe refuses sessions without an active
+    // configuration when more than one exists.
+    if (process.env.STRIPE_PORTAL_CONFIG) body.set("configuration", process.env.STRIPE_PORTAL_CONFIG);
 
     const r = await fetch("https://api.stripe.com/v1/billing_portal/sessions", {
       method: "POST",

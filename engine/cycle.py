@@ -242,11 +242,14 @@ def notify_alerts():
 
 
 def send_digest():
-    """Once a day, around 07:00 UTC, mail members the board. Keyed by date so
-    repeat runs in the same day don't re-send."""
+    """Once a day, on the first full pass at or after 07:00 UTC, mail members
+    the board. Keyed by date so repeat runs the same day don't re-send. The
+    old `hour == 7` check could miss the day entirely: a fixture-heavy morning
+    makes the first full pass land later than 07:00-07:59."""
     stamp = os.path.join(DATA, ".digest_date")
-    today = datetime.datetime.now(datetime.UTC).strftime("%Y-%m-%d")
-    if datetime.datetime.now(datetime.UTC).hour != 7:
+    now = datetime.datetime.now(datetime.UTC)
+    today = now.strftime("%Y-%m-%d")
+    if now.hour < 7:
         return
     if os.path.exists(stamp) and open(stamp).read().strip() == today:
         return
