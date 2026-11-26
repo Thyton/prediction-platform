@@ -11,7 +11,7 @@
    "Memphis Grizzlies": 1617.0023368814725,
    "San Antonio Spurs": 1591.4090406538194,
    "New Orleans Pelicans": 1426.5419141285558,
-   "Sacramento Kings": 1264.271650067286,
+   "Sacramento Kings": 1260.008424375335,
    "Boston Celtics": 1667.8434359496532,
    "Atlanta Hawks": 1601.2586737376917,
    "Charlotte Hornets": 1371.610860408471,
@@ -29,7 +29,7 @@
    "Denver Nuggets": 1557.7938527788194,
    "Houston Rockets": 1648.8911796540797,
    "Los Angeles Lakers": 1597.1779499628676,
-   "Golden State Warriors": 1568.303307572316,
+   "Golden State Warriors": 1572.566533264267,
    "Miami Heat": 1530.99627156776,
    "London Lions": 1477.8276569752263
   },
@@ -1030,7 +1030,7 @@
    "Sol Ailin Larraya Guidi": 1487.2562292894802
   }
  },
- "played": 9057,
+ "played": 9058,
  "updated": "2026-11-23T01:08:49.499166+00:00",
  "trainedAt": "2026-11-23T01:08:49.499166+00:00",
  "counts": {
@@ -1078,7 +1078,7 @@
    "Memphis Grizzlies": 21,
    "San Antonio Spurs": 23,
    "New Orleans Pelicans": 22,
-   "Sacramento Kings": 22,
+   "Sacramento Kings": 23,
    "Boston Celtics": 20,
    "Charlotte Hornets": 19,
    "Brooklyn Nets": 19,
@@ -1094,7 +1094,7 @@
    "Denver Nuggets": 19,
    "Houston Rockets": 20,
    "Los Angeles Lakers": 22,
-   "Golden State Warriors": 22,
+   "Golden State Warriors": 23,
    "Miami Heat": 20,
    "London Lions": 1
   },

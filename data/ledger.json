@@ -518,9 +518,11 @@
    "homeAbbr": "GS",
    "awayAbbr": "SAC",
    "lockTs": "2026-11-25T15:59:55.888497+00:00",
-   "result": null,
-   "profitUnits": null,
-   "espnUrl": "https://www.espn.com/nba/game/_/gameId/401909324/kings-warriors"
+   "result": "correct",
+   "profitUnits": 0.43,
+   "espnUrl": "https://www.espn.com/nba/game/_/gameId/401909324/kings-warriors",
+   "final": "129-110",
+   "settledAt": "2026-11-26T05:40:18.482156+00:00"
   },
   {
    "gameId": "wta:186832",
