@@ -31,21 +31,25 @@ export async function GET(req, ctx) {
     return { ok: r.ok, status: r.status, body: text.slice(0, 400) };
   };
 
-  const list = await call("/billing_portal/configurations");
-  if (list.ok && JSON.parse(list.body).data?.length) {
-    return NextResponse.json({ portal: "already", count: JSON.parse(list.body).data.length });
-  }
+  try {
+    const list = await call("/billing_portal/configurations");
+    if (list.ok && JSON.parse(list.body).data?.length) {
+      return NextResponse.json({ portal: "already", count: JSON.parse(list.body).data.length });
+    }
 
-  const made = await call("/billing_portal/configurations", {
-    "business_profile[headline]": "TipLab",
-    "business_profile[privacy_policy_url]": `${new URL(req.url).origin}/privacy`,
-    "business_profile[terms_of_service_url]": `${new URL(req.url).origin}/terms`,
-    "features[customer_update][enabled]": "true",
-    "features[customer_update][allowed_updates][]": "email",
-    "features[invoice_history][enabled]": "true",
-    "features[payment_method_update][enabled]": "true",
-    "features[subscription_cancel][enabled]": "true",
-    "features[subscription_cancel][mode]": "at_period_end",
-  });
-  return NextResponse.json({ portal: made.ok ? "created" : "failed", detail: made.body });
+    const made = await call("/billing_portal/configurations", {
+      "business_profile[headline]": "TipLab",
+      "business_profile[privacy_policy_url]": `${new URL(req.url).origin}/privacy`,
+      "business_profile[terms_of_service_url]": `${new URL(req.url).origin}/terms`,
+      "features[customer_update][enabled]": "true",
+      "features[customer_update][allowed_updates][]": "email",
+      "features[invoice_history][enabled]": "true",
+      "features[payment_method_update][enabled]": "true",
+      "features[subscription_cancel][enabled]": "true",
+      "features[subscription_cancel][mode]": "at_period_end",
+    });
+    return NextResponse.json({ portal: made.ok ? "created" : "failed", detail: made.body });
+  } catch (e) {
+    return NextResponse.json({ portal: "threw", err: String(e.message || e).slice(0, 250) }, { status: 500 });
+  }
 }
