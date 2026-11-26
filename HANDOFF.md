@@ -31,11 +31,13 @@ is no longer code:
 
 - Forward record: **9 picks, 3–4, −3.49u**, all placed under rules that have
   since been replaced.
-- The gates were tightened today (70% conviction floor, prices 7% below the
-  model probability). The replay under those rules wins ~88% but only contains
-  2 picks, because the samples are small.
-- Practical consequence: **judge at roughly 50 forward picks.** Until then,
-  promotion copy should say "free during beta, judge the record."
+- The gates are now learned per sport rather than fixed (`learn.py` raises a
+  sport's floor and tightens its claims when that sport loses at the prices
+  taken, in 0.02 steps to 0.80). With 9 settled picks nothing is tuned yet —
+  below 20 per sport the tuner correctly stays silent.
+- The replay wins ~88% above 0.72 but only contains 2 picks, because the samples
+  are small. Practical consequence: **judge at roughly 50 forward picks.** Until
+  then, promotion copy should say "free during beta, judge the record."
 
 Do not inflate the record to look better. Splitting forward from replay, and
 grading draws as pushes, were both deliberate.
@@ -45,18 +47,66 @@ grading draws as pushes, were both deliberate.
 - Watch is **in-page**: cards expand a live score panel (`/api/score`, JS, polls
   every 20s). No outbound ESPN links remain. Keep it that way — leaking users
   off-site is the product's main sin.
-- Activity tab: entries and settles, newest first.
+- **Depth pages**, all fed by ESPN's free public endpoints and all inside our
+  site: `/team/<sport>/<teamId>` (record, form, fixture list, squad, plus our own
+  record on that team) and `/player/<sport>/<athleteId>`. Never replace them with
+  outbound ESPN links.
+- **`/p/<encodedGameId>`** is a public, sign-in-free page for one pick — the
+  landing target for every shared link. `app/share-button.js` uses the OS share
+  sheet with a clipboard fallback.
+- Activity tab is a **day strip + itemised desk log**. It was being fetched and
+  never rendered (empty panel) before; keep it mounted in `Tabs`.
+- All-games is a real browser: 300 grouped rows, per-sport filter chips, in-play
+  toggle, team links. Do not shrink it back to a slice.
+- The record page shows a per-competition W/L/units table and the current streak.
+  A negative sport is the point of it — it is what the tuner reacts to.
 - Every card has a `why` line generated from the model's own numbers. Do not
   replace it with free-form LLM prose — it must never contradict the record.
 - Auth: signup and sign-in are separate. Signup = create, 409 if taken; login =
   sign in only, 401 `badpw` / 404 `missing`. Password reset is a hashed,
   single-use, 30-minute token. Do not merge these back into one endpoint.
-- Draws grade as `push` at 0u. Conviction floor 70%. Model prices come from
+- Draws grade as `push` at 0u. Conviction floor is now **tuned per sport**
+  (`engine/learn.py` → `engine/tuned.json`, default 0.70). Model prices come from
   `1/(prob*0.93)`, never a markup.
+- Model learning loop: `learn.py` calibrates a per-sport confidence scale and
+  gate floor from settled picks (needs 20 per sport) and `model.py` applies them.
+  Line movement is tracked in `data/line_history.json` (`engine/lines.py`) and a
+  drift against the favourite raises an integrity alert. Live signals carry a
+  real live price; >15% against the lock upgrades HOLD/CAUTION to **PULL_OFF**.
 - `/pricing`, account settings with a billing portal link, contact identity,
   og:image, new-pick badges.
 
+### 3.1 Mobile rules (regression-prone, learned the hard way)
+
+- Base rules come **after** the mobile blocks in `globals.css` in places, so a
+  mobile override that must win goes in the trailing `@media` block at the
+  bottom, not the first one.
+- Scroll strips (`.tabs`, `.nav nav`, `.filters`, `.daystrip`) need
+  `min-width: 0` or they widen the page instead of scrolling.
+- Column hiding is by `.hide-sm` class. Do not reintroduce
+  `td:nth-child(n+4)` — it hid Result and Units, the two columns that matter.
+- Verify with a 390px viewport and check
+  `scrollWidth - clientWidth === 0`: `node /tmp/shot.cjs` (playwright, see 6.1).
+
 ## 4. THE tick list
+
+### 4.0 Growth surfaces still missing
+
+Roughly in value order. All are buildable from data already in `data/`.
+
+1. **Sport hubs** (`/sport/<sport>`): standings, our record in that competition,
+   the picks, the fixtures. Team pages exist but have no parent; the chips in the
+   games tab should point here instead of filtering in place.
+2. **Team following**: `follows` is game-keyed only. A team follow that survives
+   seasons is the bookmark loop — needs a `teams` key in the store and a digest
+   line ("2 picks on teams you follow today").
+3. **Streak / "on a run" badge** on the pick card when the desk is hot, sourced
+   from `streakOf()` in `lib/data.js`. Show it only when it is true.
+4. **Copy-the-desk**: one tap turns a pick into a stake-1u tracked entry
+   (today `FollowButton` exists but the record is per-user and empty).
+5. **og:image per team and per pick** — a shared `about:blank`-style 1200×630 for
+   `/p/[id]` with the result. `app/opengraph-image.js` is the template.
+
 
 ### 4.1 Email (biggest blocker)
 
@@ -144,3 +194,26 @@ the day entirely. Make it "first full pass at or after 07:00", not "hour == 7".
 - Never commit `engine/.env`.
 - Don't touch `MIN_EDGE`, `MODEL_MARGIN`, the floors, or the forward/backtest
   split without saying so.
+
+## 6. Verification
+
+### 6.1 Mobile verification
+
+```
+cd /tmp && npm i playwright@1.65.1 && npx playwright install chromium
+# shot.cjs: newPage({viewport:{width:390,height:844}}), goto each route,
+# assert (scrollWidth - clientWidth) === 0, screenshot
+node shot.cjs
+```
+
+Anything non-zero is a real bug. This found three on the depth pages before they
+shipped (nav overflow on every page, a never-collapsing two-column block, and
+scroll strips widening the page).
+
+### 6.2 Free data sources already in use
+
+All public, no key: `site.api.espn.com` scoreboard / teams / roster / schedule,
+`site.api.espn.com/apis/v2/.../standings`, plus the odds API for prices
+(`ODDS_API_KEY`, ~18.8k credits left). Team ids come from the collector
+(`homeId`/`awayId`). Tennis and esports have no team id — their links must stay
+plain text.
