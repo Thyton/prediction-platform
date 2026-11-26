@@ -2,11 +2,10 @@ name: cycle
 
 on:
   schedule:
-    # full pass: grade, learn, collect, model, publish
-    - cron: "6,36 * * * *"
-    # live signals only, every 5 min, so in-play get-in/get-out is usable.
-    # A no-op when nothing on the board is live.
-    - cron: "2,7,12,17,22,27,32,37,42,47,52,57 * * * *"
+    # Backstop only: the scheduler here is unreliable (hours of silence seen), so
+    # every run queues the next itself (see "Chain the next run"). This cron just
+    # restarts the heartbeat within the hour if the chain ever breaks.
+    - cron: "17 * * * *"
   workflow_dispatch:
     inputs:
       live_only:
