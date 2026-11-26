@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T10:14:04.429234+00:00",
+ "generatedAt": "2026-11-26T10:44:23.788112+00:00",
  "games": [
   {
    "id": "ncaab:401920428",
@@ -1091,7 +1091,7 @@
    "markets": {
     "h2h": {
      "outcome": "Besiktas",
-     "bestOdds": 1.263,
+     "bestOdds": 1.25,
      "otherOdds": 10.0,
      "bookCount": "1",
      "favSide": "home"
@@ -1121,8 +1121,8 @@
    "markets": {
     "h2h": {
      "outcome": "AFC Bournemouth",
-     "bestOdds": 2.0,
-     "otherOdds": 3.86,
+     "bestOdds": 2.05,
+     "otherOdds": 3.75,
      "bookCount": "10",
      "favSide": "away",
      "source": "oddsapi"
@@ -1152,7 +1152,7 @@
    "markets": {
     "h2h": {
      "outcome": "Bayer Leverkusen",
-     "bestOdds": 1.69,
+     "bestOdds": 1.67,
      "otherOdds": 4.8,
      "bookCount": "10",
      "favSide": "away",
@@ -1243,8 +1243,8 @@
    "markets": {
     "h2h": {
      "outcome": "RB Salzburg",
-     "bestOdds": 1.154,
-     "otherOdds": 15.0,
+     "bestOdds": 1.143,
+     "otherOdds": 16.0,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -1620,8 +1620,8 @@
    "markets": {
     "h2h": {
      "outcome": "Anderlecht",
-     "bestOdds": 1.85,
-     "otherOdds": 4.48,
+     "bestOdds": 1.8,
+     "otherOdds": 4.5,
      "bookCount": "10",
      "favSide": "away",
      "source": "oddsapi"
@@ -1890,7 +1890,7 @@
    "markets": {
     "h2h": {
      "outcome": "USC Trojans",
-     "bestOdds": 1.67,
+     "bestOdds": 1.69,
      "otherOdds": 2.35,
      "bookCount": "9",
      "favSide": "home",
@@ -2076,8 +2076,8 @@
    "markets": {
     "h2h": {
      "outcome": "Guadalajara",
-     "bestOdds": 2.7,
-     "otherOdds": 2.76,
+     "bestOdds": 2.67,
+     "otherOdds": 2.85,
      "bookCount": "8",
      "favSide": "away",
      "source": "oddsapi"
@@ -2199,7 +2199,7 @@
     "h2h": {
      "outcome": "Cruz Azul",
      "bestOdds": 2.2,
-     "otherOdds": 3.3,
+     "otherOdds": 3.28,
      "bookCount": "8",
      "favSide": "away",
      "source": "oddsapi"
@@ -3070,8 +3070,8 @@
    "markets": {
     "h2h": {
      "outcome": "Columbus Blue Jackets",
-     "bestOdds": 1.8,
-     "otherOdds": 2.07,
+     "bestOdds": 1.79,
+     "otherOdds": 2.1,
      "bookCount": "2",
      "favSide": "home",
      "source": "oddsapi"
@@ -3433,7 +3433,7 @@
      "outcome": "New York Rangers",
      "bestOdds": 1.59,
      "otherOdds": 2.55,
-     "bookCount": "2",
+     "bookCount": "3",
      "favSide": "away",
      "source": "oddsapi"
     }
@@ -3790,7 +3790,7 @@
     "h2h": {
      "outcome": "Buffalo Sabres",
      "bestOdds": 1.7,
-     "otherOdds": 2.2,
+     "otherOdds": 2.25,
      "bookCount": "2",
      "favSide": "home",
      "source": "oddsapi"
@@ -4584,7 +4584,7 @@
     "h2h": {
      "outcome": "Lazio",
      "bestOdds": 2.13,
-     "otherOdds": 3.59,
+     "otherOdds": 3.6,
      "bookCount": "11",
      "favSide": "away",
      "source": "oddsapi"
@@ -5222,8 +5222,8 @@
    "markets": {
     "h2h": {
      "outcome": "América",
-     "bestOdds": 2.55,
-     "otherOdds": 3.4,
+     "bestOdds": 2.5,
+     "otherOdds": 3.35,
      "bookCount": "4",
      "favSide": "home",
      "source": "oddsapi"
@@ -5456,8 +5456,8 @@
    "markets": {
     "h2h": {
      "outcome": "Valencia",
-     "bestOdds": 2.2,
-     "otherOdds": 3.5,
+     "bestOdds": 2.15,
+     "otherOdds": 3.55,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -5945,7 +5945,7 @@
     "h2h": {
      "outcome": "TSG Hoffenheim",
      "bestOdds": 1.74,
-     "otherOdds": 4.0,
+     "otherOdds": 4.1,
      "bookCount": "9",
      "favSide": "home",
      "source": "oddsapi"
@@ -5976,7 +5976,7 @@
     "h2h": {
      "outcome": "AS Roma",
      "bestOdds": 1.22,
-     "otherOdds": 12.0,
+     "otherOdds": 12.5,
      "bookCount": "11",
      "favSide": "home",
      "source": "oddsapi"
@@ -6337,8 +6337,8 @@
    "markets": {
     "h2h": {
      "outcome": "Vélez Sarsfield",
-     "bestOdds": 1.952,
-     "otherOdds": 4.1,
+     "bestOdds": 2.0,
+     "otherOdds": 4.0,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -6488,8 +6488,8 @@
    "markets": {
     "h2h": {
      "outcome": "Atlético-MG",
-     "bestOdds": 2.5,
-     "otherOdds": 2.65,
+     "bestOdds": 2.55,
+     "otherOdds": 2.55,
      "bookCount": "1",
      "favSide": "home"
     }
