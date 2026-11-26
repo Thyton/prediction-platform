@@ -1,5 +1,5 @@
 import { read } from "../../../lib/store";
-import { send, digestEmail } from "../../../lib/email";
+import { send, digestEmail, followedToday } from "../../../lib/email";
 import { getLive, getRecord } from "../../../lib/data";
 
 // Morning digest to members who haven't opted out. Called by the runner with
@@ -16,10 +16,21 @@ export async function POST(req) {
 
   const record = getRecord().forward;
   const db = await read();
-  const to = db.users.filter((u) => u.verified && u.digest !== false).map((u) => u.email).slice(0, 500);
+  const to = db.users.filter((u) => u.verified && u.digest !== false).slice(0, 500);
 
-  const mail = digestEmail(picks, record);
   let sent = 0;
-  for (const address of to) if ((await send({ to: address, ...mail })).sent) sent++;
+  for (const u of to) {
+    const mail = digestEmail(picks, record);
+    const mine = followedToday(picks, u.teams);
+    if (mine.length) {
+      // a member's own teams come first — this is the bookmark loop paying off
+      const line = mine.map((p) => `${p.match}`).join(", ");
+      mail.subject = `${mine.length} pick${mine.length === 1 ? "" : "s"} on teams you follow`;
+      mail.text = `You follow ${line}.
+
+` + mail.text;
+    }
+    if ((await send({ to: u.email, ...mail })).sent) sent++;
+  }
   return Response.json({ sent, of: to.length });
 }

@@ -1,4 +1,4 @@
-import json, os, subprocess, sys, urllib.request
+import json, os, subprocess, sys, time, urllib.request
 
 TOKEN = os.environ.get("VERCEL_TOKEN", "")
 PROJECT = "prj_mybaeapCVsT1BpmCyDoAp1l2wZbA"
@@ -6,6 +6,10 @@ TEAM = "team_I1jfujieN7ofXAqLMLU4iRvh"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data")
 BUDGET = int(os.environ.get("DEPLOY_BUDGET", "85"))   # Hobby allows 100/day; keep headroom
+# A live-only deploy is just a signal refresh. Cap how often those go out so a
+# fixture-packed day cannot drain the budget the full board needs. 4 minutes
+# keeps signals useful without one deploy per 5-minute cron.
+LIVE_MIN_GAP_S = int(os.environ.get("LIVE_DEPLOY_GAP_S", "240"))
 
 def api(path, method="GET", body=None):
     req = urllib.request.Request(
@@ -74,11 +78,26 @@ def main(argv):
     if fp and prev.get(key) == fp:
         print("unchanged, skip")
         return 0
+    # a full pass is never throttled; only live-only refreshes are
+    if live:
+        stamp = os.path.join(DATA, ".live_deploy_at")
+        try:
+            last = os.path.getmtime(stamp)
+            if time.time() - last < LIVE_MIN_GAP_S:
+                print("live deploy too soon, skip")
+                return 0
+        except OSError:
+            pass
     used = deploys_today()
     if used >= BUDGET:
         print(f"deploy budget reached ({used}/{BUDGET}), skip")
         return 0
     url = deploy({"data/live.json"} if live else None)
+    if live:
+        try:
+            open(os.path.join(DATA, ".live_deploy_at"), "w").write(str(int(time.time())))
+        except OSError:
+            pass
     prev[key] = fp
     try:
         json.dump(prev, open(state, "w"))

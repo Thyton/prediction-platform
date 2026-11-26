@@ -2,6 +2,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getTeam, teamPicks } from "../../../../lib/team";
 import { getLedger, fmtTime, SPORT_LABEL } from "../../../../lib/data";
+import FollowTeamButton from "../../../follow-team-button";
+import { currentUser } from "../../../../lib/session";
 
 // Team page: record, form, standing, fixtures, roster and — the part nobody
 // else has — what our model has done on this team. Depth is what earns a
@@ -31,6 +33,8 @@ export default async function TeamPage({ params }) {
   const t = await getTeam(sport, id);
   if (!t) notFound();
 
+  const me = await currentUser();
+  const followingTeam = Boolean(me?.teams?.some((f) => f.key === `${sport}:${t.name}`));
   const picks = teamPicks(getLedger(), t.name);
   const graded = picks.filter((p) => p.result);
   const won = graded.filter((p) => p.result === "correct").length;
@@ -48,6 +52,7 @@ export default async function TeamPage({ params }) {
             {t.standing ? ` · ${t.standing}` : ""}
             {t.run.n >= 2 ? ` · ${t.run.n}-game ${t.run.kind === "W" ? "win" : "losing"} run` : ""}
           </p>
+          {me && <div style={{ marginTop: 10 }}><FollowTeamButton sport={sport} team={t.name} initial={followingTeam} /></div>}
         </div>
       </div>
 
