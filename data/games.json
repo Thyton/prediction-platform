@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T05:07:01.424182+00:00",
+ "generatedAt": "2026-11-26T05:10:06.364584+00:00",
  "games": [
   {
    "id": "ncaab:401920428",
@@ -1053,8 +1053,8 @@
    "markets": {
     "h2h": {
      "outcome": "Chicago Blackhawks",
-     "bestOdds": 1.04,
-     "otherOdds": 17.0,
+     "bestOdds": 1.03,
+     "otherOdds": 18.0,
      "bookCount": "7",
      "favSide": "away",
      "source": "oddsapi"
@@ -1085,8 +1085,8 @@
     "h2h": {
      "outcome": "Golden State Warriors",
      "bestOdds": 1.01,
-     "otherOdds": 41.0,
-     "bookCount": "4",
+     "otherOdds": 34.0,
+     "bookCount": "3",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -1115,8 +1115,8 @@
    "markets": {
     "h2h": {
      "outcome": "Portland Trail Blazers",
-     "bestOdds": 1.74,
-     "otherOdds": 3.85,
+     "bestOdds": 1.54,
+     "otherOdds": 3.4,
      "bookCount": "8",
      "favSide": "home",
      "source": "oddsapi"
@@ -2911,7 +2911,7 @@
      "outcome": "Werder Bremen",
      "bestOdds": 1.76,
      "otherOdds": 4.33,
-     "bookCount": "10",
+     "bookCount": "9",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -3673,7 +3673,16 @@
    "_path": "basketball/nba",
    "_eid": "401909328",
    "_cid": "401909328",
-   "markets": {},
+   "markets": {
+    "h2h": {
+     "outcome": "Philadelphia 76ers",
+     "bestOdds": 1.56,
+     "otherOdds": 2.5,
+     "bookCount": "1",
+     "favSide": "away",
+     "source": "oddsapi"
+    }
+   },
    "espnUrl": "https://www.espn.com/nba/game/_/gameId/401909328/76ers-pacers",
    "drawPossible": false
   },
@@ -3832,7 +3841,16 @@
    "_path": "basketball/nba",
    "_eid": "401909330",
    "_cid": "401909330",
-   "markets": {},
+   "markets": {
+    "h2h": {
+     "outcome": "Boston Celtics",
+     "bestOdds": 1.28,
+     "otherOdds": 3.9,
+     "bookCount": "1",
+     "favSide": "home",
+     "source": "oddsapi"
+    }
+   },
    "espnUrl": "https://www.espn.com/nba/game/_/gameId/401909330/hawks-celtics",
    "drawPossible": false
   },
@@ -4255,7 +4273,7 @@
     "h2h": {
      "outcome": "Frosinone",
      "bestOdds": 1.51,
-     "otherOdds": 5.9,
+     "otherOdds": 5.8,
      "bookCount": "11",
      "favSide": "home",
      "source": "oddsapi"
@@ -4737,7 +4755,7 @@
      "outcome": "VfB Stuttgart",
      "bestOdds": 1.76,
      "otherOdds": 4.0,
-     "bookCount": "10",
+     "bookCount": "9",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -5822,7 +5840,7 @@
      "outcome": "RB Leipzig",
      "bestOdds": 2.4,
      "otherOdds": 2.77,
-     "bookCount": "10",
+     "bookCount": "9",
      "favSide": "away",
      "source": "oddsapi"
     }
@@ -6121,7 +6139,7 @@
      "outcome": "Borussia Dortmund",
      "bestOdds": 2.15,
      "otherOdds": 3.25,
-     "bookCount": "10",
+     "bookCount": "9",
      "favSide": "home",
      "source": "oddsapi"
     }
