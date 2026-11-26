@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T04:20:15.699679+00:00",
+ "generatedAt": "2026-11-26T04:34:38.838318+00:00",
  "games": [
   {
    "id": "esports:135035",
@@ -895,7 +895,7 @@
    "homeId": "14",
    "awayId": "9",
    "startsAt": "2026-11-26T01:00Z",
-   "state": "in",
+   "state": "post",
    "_path": "football/nfl",
    "_eid": "401873079",
    "_cid": "401873079",
@@ -903,13 +903,13 @@
     "h2h": {
      "outcome": "Los Angeles Rams",
      "bestOdds": 1.0,
-     "otherOdds": 81.0,
-     "bookCount": "3",
+     "otherOdds": 26.0,
+     "bookCount": "1",
      "favSide": "home",
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nfl/game/_/gameId/401873079/packers-rams",
    "drawPossible": false
   },
   {
@@ -1024,7 +1024,7 @@
     "h2h": {
      "outcome": "Colorado Avalanche",
      "bestOdds": 1.01,
-     "otherOdds": 61.0,
+     "otherOdds": 71.0,
      "bookCount": "3",
      "favSide": "home",
      "source": "oddsapi"
@@ -1054,8 +1054,8 @@
    "markets": {
     "h2h": {
      "outcome": "Seattle Kraken",
-     "bestOdds": 1.75,
-     "otherOdds": 2.2,
+     "bestOdds": 1.65,
+     "otherOdds": 2.34,
      "bookCount": "7",
      "favSide": "home",
      "source": "oddsapi"
@@ -1085,9 +1085,9 @@
    "markets": {
     "h2h": {
      "outcome": "Golden State Warriors",
-     "bestOdds": 1.02,
-     "otherOdds": 18.0,
-     "bookCount": "5",
+     "bestOdds": 1.15,
+     "otherOdds": 6.75,
+     "bookCount": "8",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -1116,8 +1116,8 @@
    "markets": {
     "h2h": {
      "outcome": "San Antonio Spurs",
-     "bestOdds": 1.9,
-     "otherOdds": 2.0,
+     "bestOdds": 1.87,
+     "otherOdds": 2.4,
      "bookCount": "8",
      "favSide": "away",
      "source": "oddsapi"
@@ -1147,9 +1147,9 @@
    "markets": {
     "h2h": {
      "outcome": "Anaheim Ducks",
-     "bestOdds": 1.04,
-     "otherOdds": 18.0,
-     "bookCount": "7",
+     "bestOdds": 1.01,
+     "otherOdds": 34.0,
+     "bookCount": "2",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -1738,7 +1738,7 @@
    "markets": {
     "h2h": {
      "outcome": "AZ Alkmaar",
-     "bestOdds": 2.3,
+     "bestOdds": 2.35,
      "otherOdds": 3.0,
      "bookCount": "10",
      "favSide": "away",
@@ -1861,7 +1861,7 @@
    "markets": {
     "h2h": {
      "outcome": "Iowa State Cyclones",
-     "bestOdds": 1.7,
+     "bestOdds": 1.68,
      "otherOdds": 2.3,
      "bookCount": "6",
      "favSide": "home",
@@ -2102,7 +2102,7 @@
     "h2h": {
      "outcome": "LSU Tigers",
      "bestOdds": 1.48,
-     "otherOdds": 2.86,
+     "otherOdds": 3.05,
      "bookCount": "8",
      "favSide": "home",
      "source": "oddsapi"
@@ -2194,7 +2194,7 @@
    "markets": {
     "h2h": {
      "outcome": "Buffalo Bills",
-     "bestOdds": 1.68,
+     "bestOdds": 1.67,
      "otherOdds": 2.34,
      "bookCount": "12",
      "favSide": "home",
@@ -2225,8 +2225,8 @@
    "markets": {
     "h2h": {
      "outcome": "St. John's Red Storm",
-     "bestOdds": 1.704,
-     "otherOdds": 2.2,
+     "bestOdds": 1.645,
+     "otherOdds": 2.3,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -2348,7 +2348,7 @@
     "h2h": {
      "outcome": "Gonzaga Bulldogs",
      "bestOdds": 1.57,
-     "otherOdds": 2.65,
+     "otherOdds": 2.6,
      "bookCount": "8",
      "favSide": "home",
      "source": "oddsapi"
@@ -3603,8 +3603,8 @@
     "h2h": {
      "outcome": "New York Knicks",
      "bestOdds": 1.61,
-     "otherOdds": 2.38,
-     "bookCount": "1",
+     "otherOdds": 2.43,
+     "bookCount": "4",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -4001,7 +4001,16 @@
    "_path": "basketball/nba",
    "_eid": "401909333",
    "_cid": "401909333",
-   "markets": {},
+   "markets": {
+    "h2h": {
+     "outcome": "San Antonio Spurs",
+     "bestOdds": 1.51,
+     "otherOdds": 2.64,
+     "bookCount": "2",
+     "favSide": "home",
+     "source": "oddsapi"
+    }
+   },
    "espnUrl": "https://www.espn.com/nba/game/_/gameId/401909333/lakers-spurs",
    "drawPossible": false
   },
