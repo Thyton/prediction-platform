@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T09:43:41.243763+00:00",
+ "generatedAt": "2026-11-26T10:14:04.555967+00:00",
  "picks": [
   {
    "gameId": "wta:186836",
@@ -460,11 +460,10 @@
    "gameId": "uel:401915507",
    "match": "Levski Sofia @ Marseille",
    "league": "Europa League",
-   "severity": 2,
-   "signal": "high_risk_alert",
+   "severity": 1,
+   "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: a short price leaves little margin"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
@@ -1014,16 +1013,6 @@
    ]
   },
   {
-   "gameId": "ligamx:401931996",
-   "match": "Monterrey @ Am\u00e9rica",
-   "league": "Liga MX",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Drift against the favourite: 2.35 \u2192 2.60 (-10%) \u2014 money moving the other way"
-   ]
-  },
-  {
    "gameId": "laliga:401882787",
    "match": "Osasuna @ Valencia",
    "league": "La Liga",
@@ -1102,6 +1091,16 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
+   "gameId": "ligue1:401876386",
+   "match": "Stade Rennais @ Toulouse",
+   "league": "Ligue 1",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
@@ -1277,6 +1276,26 @@
    ]
   },
   {
+   "gameId": "laliga:401882786",
+   "match": "Espanyol @ Alav\u00e9s",
+   "league": "La Liga",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "laliga:401882780",
+   "match": "Deportivo @ Racing Santander",
+   "league": "La Liga",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
    "gameId": "seriea:401874975",
    "match": "Como @ Monza",
    "league": "Serie A",
@@ -1328,6 +1347,16 @@
    ]
   },
   {
+   "gameId": "laliga:401882779",
+   "match": "Levante @ Rayo Vallecano",
+   "league": "La Liga",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
    "gameId": "ligue1:401876384",
    "match": "AJ Auxerre @ Lille",
    "league": "Ligue 1",
@@ -1341,6 +1370,16 @@
    "gameId": "seriea:401875023",
    "match": "Internazionale @ Frosinone",
    "league": "Serie A",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "laliga:401882777",
+   "match": "Real Sociedad @ Villarreal",
+   "league": "La Liga",
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
@@ -1410,9 +1449,30 @@
    ]
   },
   {
+   "gameId": "laliga:401882783",
+   "match": "Celta Vigo @ Barcelona",
+   "league": "La Liga",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
    "gameId": "seriea:401875017",
    "match": "Torino @ Genoa",
    "league": "Serie A",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "laliga:401882781",
+   "match": "Elche @ Osasuna",
+   "league": "La Liga",
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
@@ -1450,6 +1510,26 @@
    ]
   },
   {
+   "gameId": "laliga:401882785",
+   "match": "Real Madrid @ Athletic Club",
+   "league": "La Liga",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "ligue1:401876380",
+   "match": "Brest @ Stade Rennais",
+   "league": "Ligue 1",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
    "gameId": "bundesliga:401884710",
    "match": "VfB Stuttgart @ SV Elversberg",
    "league": "Bundesliga",
@@ -1471,6 +1551,16 @@
    ]
   },
   {
+   "gameId": "laliga:401882782",
+   "match": "Valencia @ Getafe",
+   "league": "La Liga",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
    "gameId": "seriea:401874995",
    "match": "Parma @ AC Milan",
    "league": "Serie A",
@@ -1485,6 +1575,16 @@
    "gameId": "ligue1:401876383",
    "match": "Nice @ Marseille",
    "league": "Ligue 1",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "laliga:401882784",
+   "match": "Real Betis @ Atl\u00e9tico Madrid",
+   "league": "La Liga",
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
