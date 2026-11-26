@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T13:16:13.950874+00:00",
+ "generatedAt": "2026-11-26T13:46:34.773225+00:00",
  "picks": [
   {
    "gameId": "epl:401879219",
@@ -571,17 +571,6 @@
    ]
   },
   {
-   "gameId": "esports:134742",
-   "match": "Team Villainous vs Elusive",
-   "league": "Esports",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
    "gameId": "nhl:401892792",
    "match": "Montreal Canadiens @ Colorado Avalanche",
    "league": "NHL",
@@ -644,17 +633,6 @@
    ]
   },
   {
-   "gameId": "esports:134390",
-   "match": "Eternal Fire vs M80 Cs Go",
-   "league": "Esports",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
    "gameId": "esports:134516",
    "match": "Drama Esports vs Forze Reload",
    "league": "Esports",
@@ -700,6 +678,17 @@
   {
    "gameId": "esports:134392",
    "match": "9z vs 100 Thieves",
+   "league": "Esports",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
+   "gameId": "esports:134395",
+   "match": "Liquid vs Imperial",
    "league": "Esports",
    "severity": 2,
    "signal": "high_risk_alert",
@@ -944,6 +933,16 @@
    ]
   },
   {
+   "gameId": "nhl:401892800",
+   "match": "Vancouver Canucks @ Philadelphia Flyers",
+   "league": "NHL",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Steam: favourite shortened 1.56 \u2192 1.44 (+8%) \u2014 market confirming"
+   ]
+  },
+  {
    "gameId": "laliga:401882791",
    "match": "Racing Santander @ Levante",
    "league": "La Liga",
@@ -1172,6 +1171,16 @@
    "signal": "integrity_watch",
    "flags": [
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "ligamx:401931996",
+   "match": "Monterrey @ Am\u00e9rica",
+   "league": "Liga MX",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Steam: favourite shortened 2.60 \u2192 2.40 (+8%) \u2014 market confirming"
    ]
   },
   {
