@@ -35,16 +35,29 @@ jobs:
       - name: Decide mode
         id: mode
         run: |
-          # manual dispatch with live_only=false forces a full pass; otherwise
-          # 5-min crons (minutes ending 2 or 7) are live-only and the 30-min
-          # crons (:06, :36) do the full grade+collect+model+publish pass.
-          MIN=$(date -u +%M); MIN=${MIN#0}
-          # manual dispatch with live_only=false forces a full pass; 30-min slots
-          # are :06/:36, everything else is the 5-minute live-signal cron
+          # GitHub's scheduler fires unreliably on this account (proven: hours of
+          # silence), so the mode is decided by data staleness, not by the clock.
+          # A board older than 25 minutes always gets a full pass; anything fresher
+          # is a live-signals-only run. Whatever fires, the right work happens.
           FULL=0
-          if [ "${{ inputs.live_only }}" = "false" ]; then FULL=1
-          elif [ "${{ inputs.live_only }}" = "true" ]; then FULL=0
-          elif [ $((MIN % 30)) -eq 6 ]; then FULL=1; fi
+          if [ "${{ inputs.live_only }}" = "true" ]; then
+            FULL=0
+          else
+            AGE=$(python - <<'PY'
+import json, datetime, sys
+try:
+    g = json.load(open("data/state.json")).get("generatedAt") or ""
+    t = datetime.datetime.fromisoformat(g)
+    if not t.tzinfo:
+        t = t.replace(tzinfo=datetime.UTC)
+    print(int((datetime.datetime.now(datetime.UTC) - t).total_seconds() // 60))
+except Exception:
+    print(999)
+PY
+)
+            echo "board age: ${AGE}m" >> "$GITHUB_STEP_SUMMARY"
+            if [ "$AGE" -ge 25 ]; then FULL=1; fi
+          fi
           if [ "$FULL" = "1" ]; then echo "live=" >> "$GITHUB_OUTPUT"
           else echo "live=--live" >> "$GITHUB_OUTPUT"; fi
 
@@ -53,7 +66,25 @@ jobs:
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python -X utf8 cycle.py ${{ steps.mode.outputs.live }}
+
+      - name: Chain the next run
+        # GitHub's scheduler regularly misses slots here. A run re-queuing the
+        # next one turns the pipeline into its own heartbeat: ~30 min after a
+        # full pass, ~5 min after a live pass. Manual dispatch does not chain.
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ "${{ steps.mode.outputs.live }}" = "" ]; then SLEEP=1800; else SLEEP=300; fi
+          echo "next run in ${SLEEP}s" >> "$GITHUB_STEP_SUMMARY"
+          sleep $SLEEP
+          curl -sS -X POST \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${{ github.repository }}/actions/workflows/cycle.yml/dispatches" \
+            -d '{"ref":"main"}'
 
       - name: Commit data
         if: always()
