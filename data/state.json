@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T09:13:19.989381+00:00",
+ "generatedAt": "2026-11-26T09:43:41.251866+00:00",
  "picks": [
   {
    "gameId": "epl:401879219",
@@ -324,17 +324,6 @@
    "signal": "integrity_watch",
    "flags": [
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "esports:135066",
-   "match": "Bangaranga vs Eternal Premium",
-   "league": "Esports",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: a short price leaves little margin"
    ]
   },
   {
