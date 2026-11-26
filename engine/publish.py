@@ -9,9 +9,9 @@ BUDGET = int(os.environ.get("DEPLOY_BUDGET", "85"))   # Hobby allows 100/day; ke
 # Live-only deploys stop here. They are a refresh, not the product; this leaves
 # the rest of the budget for full passes and for an operator ship.
 LIVE_BUDGET = int(os.environ.get("LIVE_DEPLOY_BUDGET", "55"))
-# A live-only deploy is just a signal refresh. Cap how often those go out so a
-# fixture-packed day cannot drain the budget the full board needs. 4 minutes
-# keeps signals useful without one deploy per 5-minute cron.
+# A live-only deploy is just a signal refresh. The chain already runs 20 min
+# apart for live passes (see cycle.yml), so this gap only matters if a chain or
+# a manual run fires early.
 LIVE_MIN_GAP_S = int(os.environ.get("LIVE_DEPLOY_GAP_S", "240"))
 
 class OutOfBudget(Exception):

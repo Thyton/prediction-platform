@@ -207,9 +207,12 @@ spends them by lunchtime. When the cap is hit, *code* cannot ship at all
 daily counter counts a rolling 24h so it recovers slowly.
 
 Mitigations now in the tree:
-- live-only deploys throttled to 4 min (`LIVE_DEPLOY_GAP_S`) and capped at 55
-  a day (`LIVE_DEPLOY_BUDGET`), so full passes and operator ships keep room.
-  Full passes are never throttled and use the whole 85 budget.
+- a spent quota raises `OutOfBudget` and the pass **skips cleanly** instead of
+  crashing (it used to lose the whole cycle's work on the 402).
+- the live chain runs every 20 min, not 5 (cycle.yml), which fits the cap.
+- live-only deploys are capped at 55 a day (`LIVE_DEPLOY_BUDGET`) and
+  rate-limited (`LIVE_DEPLOY_GAP_S`); full passes are never throttled and use the
+  whole 85 budget.
 - unchanged signal payloads already skip on content hash.
 - `publish.py --force` skips our guard for a deliberate ship.
 - `engine/publish_git.py`: commit + push instead of calling the API. A Git push
