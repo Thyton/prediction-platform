@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T14:47:26.186359+00:00",
+ "generatedAt": "2026-11-26T15:17:55.285852+00:00",
  "picks": [
   {
    "gameId": "epl:401879219",
@@ -644,16 +644,6 @@
    ]
   },
   {
-   "gameId": "esports:135032",
-   "match": "Saw Youngsters vs Quintessence",
-   "league": "Esports",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
    "gameId": "esports:134392",
    "match": "9z vs 100 Thieves",
    "league": "Esports",
@@ -678,6 +668,17 @@
   {
    "gameId": "esports:135037",
    "match": "Drama Esports vs Nordic Partners Gaming",
+   "league": "Esports",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
+   "gameId": "esports:134519",
+   "match": "Xmeta vs Hype Tech",
    "league": "Esports",
    "severity": 2,
    "signal": "high_risk_alert",
