@@ -51,8 +51,9 @@ The site is built, live and takes money (live Stripe, `cs_live_` checkout
 verified end to end). But it is **not ready for paid promotion** and the reason
 is no longer code:
 
-- Forward record: **9 picks, 3–4, −3.49u**, all placed under rules that have
-  since been replaced.
+- Forward record: **9 graded, 4–5, −3.49u**, all placed under rules that have
+  since been replaced. Nothing new has settled under the current gates, so the
+  number still says nothing about the model.
 - The gates are now learned per sport rather than fixed (`learn.py` raises a
   sport's floor and tightens its claims when that sport loses at the prices
   taken, in 0.02 steps to 0.80). With 9 settled picks nothing is tuned yet —
