@@ -61,6 +61,30 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python -X utf8 cycle.py ${{ steps.mode.outputs.live }}
 
+      - name: Commit data
+        if: always()
+        run: |
+          git config user.name  "tiplab-bot"
+          git config user.email "bot@tiplab.io"
+          git add data engine/model_state.json
+          if git diff --staged --quiet; then
+            echo "no change"; exit 0
+          fi
+          git commit -q -m "cycle: $(date -u +%FT%TZ)"
+          # Another push (a human, or a chained run) can land while this job is
+          # running. Rebase onto it and retry rather than losing the pass; the
+          # data files are regenerated wholesale each cycle so a rebase is safe.
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              echo "pushed on attempt $attempt"
+              exit 0
+            fi
+            sleep $((attempt * 5))
+            git pull --rebase --autostash origin main || true
+          done
+          echo "::warning::data push failed after 5 attempts — next run will redo the work"
+          exit 0
+
       - name: Chain the next run
         # GitHub's scheduler regularly misses slots here. A run re-queuing the
         # next one turns the pipeline into its own heartbeat: ~30 min after a
@@ -82,19 +106,6 @@ jobs:
           if [ "$CODE" != "204" ]; then
             cat /tmp/d.json >> "$GITHUB_STEP_SUMMARY"
             exit 1
-          fi
-
-      - name: Commit data
-        if: always()
-        run: |
-          git config user.name  "tiplab-bot"
-          git config user.email "bot@tiplab.io"
-          git add data engine/model_state.json
-          if git diff --staged --quiet; then
-            echo "no change"
-          else
-            git commit -m "cycle: $(date -u +%FT%TZ)"
-            git push
           fi
 
 # eof
