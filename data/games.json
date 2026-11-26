@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T05:40:34.642579+00:00",
+ "generatedAt": "2026-11-26T06:11:00.249105+00:00",
  "games": [
   {
    "id": "ncaab:401920428",
@@ -1105,21 +1105,20 @@
    "homeId": "22",
    "awayId": "24",
    "startsAt": "2026-11-26T03:00Z",
-   "state": "in",
+   "state": "post",
    "_path": "basketball/nba",
    "_eid": "401909325",
    "_cid": "401909325",
    "markets": {
     "h2h": {
-     "outcome": "Portland Trail Blazers",
-     "bestOdds": 1.7,
-     "otherOdds": 34.0,
-     "bookCount": "4",
-     "favSide": "home",
-     "source": "oddsapi"
+     "outcome": "San Antonio Spurs",
+     "bestOdds": 1.617,
+     "otherOdds": 2.36,
+     "bookCount": "1",
+     "favSide": "away"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nba/game/_/gameId/401909325/spurs-trail-blazers",
    "drawPossible": false
   },
   {
@@ -1143,11 +1142,10 @@
    "markets": {
     "h2h": {
      "outcome": "Anaheim Ducks",
-     "bestOdds": 1.01,
-     "otherOdds": 16.0,
+     "bestOdds": 1.741,
+     "otherOdds": 2.14,
      "bookCount": "1",
-     "favSide": "home",
-     "source": "oddsapi"
+     "favSide": "home"
     }
    },
    "espnUrl": "https://www.espn.com/nhl/game/_/gameId/401892793/sharks-ducks",
@@ -1204,8 +1202,8 @@
    "markets": {
     "h2h": {
      "outcome": "AFC Bournemouth",
-     "bestOdds": 2.05,
-     "otherOdds": 3.8,
+     "bestOdds": 2.0,
+     "otherOdds": 4.0,
      "bookCount": "10",
      "favSide": "away",
      "source": "oddsapi"
@@ -1296,8 +1294,8 @@
    "markets": {
     "h2h": {
      "outcome": "AC Milan",
-     "bestOdds": 2.4,
-     "otherOdds": 2.9,
+     "bestOdds": 2.45,
+     "otherOdds": 2.85,
      "bookCount": "1",
      "favSide": "away"
     }
@@ -1387,7 +1385,7 @@
     "h2h": {
      "outcome": "Benfica",
      "bestOdds": 1.53,
-     "otherOdds": 6.15,
+     "otherOdds": 6.05,
      "bookCount": "10",
      "favSide": "away",
      "source": "oddsapi"
@@ -1858,7 +1856,7 @@
     "h2h": {
      "outcome": "Iowa State Cyclones",
      "bestOdds": 1.68,
-     "otherOdds": 2.3,
+     "otherOdds": 2.36,
      "bookCount": "7",
      "favSide": "home",
      "source": "oddsapi"
@@ -2709,7 +2707,7 @@
      "outcome": "Boston Bruins",
      "bestOdds": 1.61,
      "otherOdds": 2.5,
-     "bookCount": "2",
+     "bookCount": "3",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -2740,7 +2738,7 @@
      "outcome": "New Jersey Devils",
      "bestOdds": 1.43,
      "otherOdds": 3.4,
-     "bookCount": "2",
+     "bookCount": "3",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -2771,7 +2769,7 @@
      "outcome": "Nashville Predators",
      "bestOdds": 1.89,
      "otherOdds": 1.95,
-     "bookCount": "2",
+     "bookCount": "3",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -3275,7 +3273,7 @@
    "markets": {
     "h2h": {
      "outcome": "Florida Gators",
-     "bestOdds": 1.44,
+     "bestOdds": 1.43,
      "otherOdds": 3.05,
      "bookCount": "12",
      "favSide": "away",
@@ -3622,7 +3620,7 @@
      "outcome": "New York Knicks",
      "bestOdds": 1.61,
      "otherOdds": 2.43,
-     "bookCount": "5",
+     "bookCount": "6",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -3673,9 +3671,9 @@
    "markets": {
     "h2h": {
      "outcome": "Philadelphia 76ers",
-     "bestOdds": 1.57,
+     "bestOdds": 1.56,
      "otherOdds": 2.55,
-     "bookCount": "5",
+     "bookCount": "6",
      "favSide": "away",
      "source": "oddsapi"
     }
@@ -3843,7 +3841,7 @@
      "outcome": "Boston Celtics",
      "bestOdds": 1.28,
      "otherOdds": 4.1,
-     "bookCount": "5",
+     "bookCount": "6",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -4042,7 +4040,7 @@
      "outcome": "San Antonio Spurs",
      "bestOdds": 1.51,
      "otherOdds": 2.75,
-     "bookCount": "5",
+     "bookCount": "6",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -4068,7 +4066,16 @@
    "_path": "basketball/nba",
    "_eid": "401909334",
    "_cid": "401909334",
-   "markets": {},
+   "markets": {
+    "h2h": {
+     "outcome": "Denver Nuggets",
+     "bestOdds": 1.28,
+     "otherOdds": 3.9,
+     "bookCount": "1",
+     "favSide": "away",
+     "source": "oddsapi"
+    }
+   },
    "espnUrl": "https://www.espn.com/nba/game/_/gameId/401909334/nuggets-jazz",
    "drawPossible": false
   },
@@ -4720,7 +4727,7 @@
     "h2h": {
      "outcome": "Atlético Madrid",
      "bestOdds": 1.5,
-     "otherOdds": 6.38,
+     "otherOdds": 6.5,
      "bookCount": "9",
      "favSide": "away",
      "source": "oddsapi"
@@ -6197,7 +6204,7 @@
     "h2h": {
      "outcome": "Santos",
      "bestOdds": 2.38,
-     "otherOdds": 3.06,
+     "otherOdds": 3.1,
      "bookCount": "9",
      "favSide": "away",
      "source": "oddsapi"
@@ -6465,7 +6472,7 @@
      "outcome": "Corinthians",
      "bestOdds": 1.69,
      "otherOdds": 5.25,
-     "bookCount": "5",
+     "bookCount": "6",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -6551,7 +6558,15 @@
    "_path": "soccer/bra.1",
    "_eid": "401841328",
    "_cid": "401841328",
-   "markets": {},
+   "markets": {
+    "h2h": {
+     "outcome": "Atlético-MG",
+     "bestOdds": 2.5,
+     "otherOdds": 2.65,
+     "bookCount": "1",
+     "favSide": "home"
+    }
+   },
    "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401841328/vasco-da-gama-atletico-mg",
    "drawPossible": true
   },

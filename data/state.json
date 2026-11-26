@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T05:40:34.792608+00:00",
+ "generatedAt": "2026-11-26T06:11:00.336173+00:00",
  "picks": [
   {
    "gameId": "epl:401879219",
@@ -645,15 +645,23 @@
    ]
   },
   {
+   "gameId": "nba:401909325",
+   "match": "San Antonio Spurs @ Portland Trail Blazers",
+   "league": "NBA",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
    "gameId": "nhl:401892793",
    "match": "San Jose Sharks @ Anaheim Ducks",
    "league": "NHL",
-   "severity": 2,
-   "signal": "high_risk_alert",
+   "severity": 1,
+   "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.80 \u2192 1.01 (+78%) \u2014 market confirming"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
@@ -882,36 +890,6 @@
    ]
   },
   {
-   "gameId": "nhl:401892795",
-   "match": "Toronto Maple Leafs @ Boston Bruins",
-   "league": "NHL",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 2 books quoting"
-   ]
-  },
-  {
-   "gameId": "nhl:401892796",
-   "match": "Calgary Flames @ New Jersey Devils",
-   "league": "NHL",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 2 books quoting"
-   ]
-  },
-  {
-   "gameId": "nhl:401892797",
-   "match": "Utah Mammoth @ Nashville Predators",
-   "league": "NHL",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 2 books quoting"
-   ]
-  },
-  {
    "gameId": "nhl:401892798",
    "match": "Dallas Stars @ St. Louis Blues",
    "league": "NHL",
@@ -1119,6 +1097,17 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
+    "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
+   "gameId": "nba:401909334",
+   "match": "Denver Nuggets @ Utah Jazz",
+   "league": "NBA",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
     "Heavy favourite: a short price leaves little margin"
    ]
   },
@@ -1377,6 +1366,16 @@
   {
    "gameId": "brasileirao:401841330",
    "match": "Athletico-PR @ Mirassol",
+   "league": "Brazil Serie A",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "brasileirao:401841328",
+   "match": "Vasco da Gama @ Atl\u00e9tico-MG",
    "league": "Brazil Serie A",
    "severity": 1,
    "signal": "integrity_watch",
