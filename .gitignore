@@ -14,3 +14,6 @@ __pycache__/
 .digest_date
 v.html
 w.html
+
+.diag_*.mjs
+tmp/

@@ -29,6 +29,7 @@ export default function RootLayout({ children }) {
           <header className="nav">
             <Link className="brand" href="/">TIP<span>LAB</span></Link>
             <nav>
+              <Link href="/play">Arcade</Link>
               <Link href="/#tips">The board</Link>
               <Link href="/record">Record</Link>
               <Link href="/method">Method</Link>
