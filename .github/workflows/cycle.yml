@@ -26,7 +26,10 @@ permissions:
 jobs:
   cycle:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    # The chain step sleeps up to 30 minutes before dispatching the next run,
+    # so the job needs to outlive that plus the work itself. 20 minutes was
+    # cancelling runs mid-sleep and breaking the heartbeat.
+    timeout-minutes: 50
     steps:
       - uses: actions/checkout@v4
 
