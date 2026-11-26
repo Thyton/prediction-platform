@@ -104,8 +104,9 @@ export default async function SportPage({ params }) {
               {standings.slice(0, 12).map((row) => (
                 <tr key={row.id}>
                   <td>
-                    {row.id && row.logo ? null : null}
-                    <span>{row.name}</span>
+                    {row.id
+                      ? <Link href={`/team/${sport}/${row.id}`}>{row.name}</Link>
+                      : <span>{row.name}</span>}
                   </td>
                   <td>{row.record}</td>
                   <td className="hide-sm"><Form form={row.form} /></td>
