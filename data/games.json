@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T23:24:46.470760+00:00",
+ "generatedAt": "2026-11-26T23:55:05.588599+00:00",
  "games": [
   {
    "id": "ncaab:401920428",
@@ -1821,36 +1821,6 @@
    "drawPossible": false
   },
   {
-   "id": "ncaab:401925757",
-   "sport": "ncaab",
-   "league": "NCAAB",
-   "match": "Arkansas Razorbacks @ Michigan State Spartans",
-   "home": "Michigan State Spartans",
-   "away": "Arkansas Razorbacks",
-   "homeLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/127.png",
-   "awayLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/8.png",
-   "homeAbbr": "MSU",
-   "awayAbbr": "ARK",
-   "homeId": "127",
-   "awayId": "8",
-   "startsAt": "2026-11-26T21:30Z",
-   "state": "in",
-   "_path": "basketball/mens-college-basketball",
-   "_eid": "401925757",
-   "_cid": "401925757",
-   "markets": {
-    "h2h": {
-     "outcome": "Michigan State Spartans",
-     "bestOdds": 1.444,
-     "otherOdds": 3.1,
-     "bookCount": "2",
-     "favSide": "home"
-    }
-   },
-   "espnUrl": null,
-   "drawPossible": false
-  },
-  {
    "id": "ncaab:401921673",
    "sport": "ncaab",
    "league": "NCAAB",
@@ -1870,14 +1840,44 @@
    "_cid": "401921673",
    "markets": {
     "h2h": {
-     "outcome": "Utah State Aggies",
-     "bestOdds": 2.02,
-     "otherOdds": 2.05,
-     "bookCount": "2",
-     "favSide": "home"
+     "outcome": "USC Trojans",
+     "bestOdds": 1.82,
+     "otherOdds": 2.02,
+     "bookCount": "1",
+     "favSide": "away"
     }
    },
    "espnUrl": null,
+   "drawPossible": false
+  },
+  {
+   "id": "ncaab:401925757",
+   "sport": "ncaab",
+   "league": "NCAAB",
+   "match": "Arkansas Razorbacks @ Michigan State Spartans",
+   "home": "Michigan State Spartans",
+   "away": "Arkansas Razorbacks",
+   "homeLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/127.png",
+   "awayLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/8.png",
+   "homeAbbr": "MSU",
+   "awayAbbr": "ARK",
+   "homeId": "127",
+   "awayId": "8",
+   "startsAt": "2026-11-26T21:30Z",
+   "state": "post",
+   "_path": "basketball/mens-college-basketball",
+   "_eid": "401925757",
+   "_cid": "401925757",
+   "markets": {
+    "h2h": {
+     "outcome": "Michigan State Spartans",
+     "bestOdds": 1.444,
+     "otherOdds": 2.85,
+     "bookCount": "1",
+     "favSide": "home"
+    }
+   },
+   "espnUrl": "https://www.espn.com/mens-college-basketball/game/_/gameId/401925757/arkansas-michigan-st",
    "drawPossible": false
   },
   {
@@ -1901,9 +1901,9 @@
    "markets": {
     "h2h": {
      "outcome": "Dallas Cowboys",
-     "bestOdds": 1.05,
-     "otherOdds": 36.0,
-     "bookCount": "6",
+     "bestOdds": 1.01,
+     "otherOdds": 41.0,
+     "bookCount": "4",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -1955,11 +1955,11 @@
    "_cid": "401917547",
    "markets": {
     "h2h": {
-     "outcome": "UCLA Bruins",
-     "bestOdds": 2.4,
-     "otherOdds": 4.2,
+     "outcome": "Saint Mary's Gaels",
+     "bestOdds": 4.2,
+     "otherOdds": 5.2,
      "bookCount": "2",
-     "favSide": "away"
+     "favSide": "home"
     }
    },
    "espnUrl": null,
@@ -1986,8 +1986,8 @@
    "markets": {
     "h2h": {
      "outcome": "São Paulo",
-     "bestOdds": 1.5,
-     "otherOdds": 9.5,
+     "bestOdds": 1.13,
+     "otherOdds": 36.0,
      "bookCount": "6",
      "favSide": "home",
      "source": "oddsapi"
@@ -2017,8 +2017,8 @@
    "markets": {
     "h2h": {
      "outcome": "LSU Tigers",
-     "bestOdds": 1.33,
-     "otherOdds": 3.6,
+     "bestOdds": 1.4,
+     "otherOdds": 3.4,
      "bookCount": "11",
      "favSide": "home",
      "source": "oddsapi"
@@ -2048,7 +2048,7 @@
    "markets": {
     "h2h": {
      "outcome": "Texas Tech Red Raiders",
-     "bestOdds": 1.17,
+     "bestOdds": 1.16,
      "otherOdds": 5.75,
      "bookCount": "12",
      "favSide": "home",
@@ -2141,8 +2141,8 @@
    "markets": {
     "h2h": {
      "outcome": "St. John's Red Storm",
-     "bestOdds": 1.8,
-     "otherOdds": 2.05,
+     "bestOdds": 1.833,
+     "otherOdds": 2.0,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -2541,7 +2541,7 @@
     "h2h": {
      "outcome": "Boston Bruins",
      "bestOdds": 1.67,
-     "otherOdds": 2.42,
+     "otherOdds": 2.41,
      "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
@@ -2602,7 +2602,7 @@
    "markets": {
     "h2h": {
      "outcome": "Utah Mammoth",
-     "bestOdds": 1.92,
+     "bestOdds": 1.93,
      "otherOdds": 2.0,
      "bookCount": "12",
      "favSide": "away",
@@ -2681,8 +2681,8 @@
    "markets": {
     "h2h": {
      "outcome": "Memphis Tigers",
-     "bestOdds": 1.704,
-     "otherOdds": 2.2,
+     "bestOdds": 1.741,
+     "otherOdds": 2.14,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -2913,7 +2913,7 @@
     "h2h": {
      "outcome": "Denver Broncos",
      "bestOdds": 1.43,
-     "otherOdds": 3.12,
+     "otherOdds": 3.11,
      "bookCount": "12",
      "favSide": "away",
      "source": "oddsapi"
@@ -3524,7 +3524,7 @@
      "outcome": "Indiana Hoosiers",
      "bestOdds": 1.01,
      "otherOdds": 29.0,
-     "bookCount": "5",
+     "bookCount": "4",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -3708,9 +3708,9 @@
    "markets": {
     "h2h": {
      "outcome": "Houston Cougars",
-     "bestOdds": 1.0,
+     "bestOdds": 1.01,
      "otherOdds": 251.0,
-     "bookCount": "1",
+     "bookCount": "2",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -3770,7 +3770,7 @@
    "markets": {
     "h2h": {
      "outcome": "Wisconsin Badgers",
-     "bestOdds": 1.33,
+     "bestOdds": 1.32,
      "otherOdds": 3.85,
      "bookCount": "12",
      "favSide": "home",
@@ -3988,7 +3988,7 @@
     "h2h": {
      "outcome": "Phoenix Suns",
      "bestOdds": 1.76,
-     "otherOdds": 2.25,
+     "otherOdds": 2.15,
      "bookCount": "6",
      "favSide": "home",
      "source": "oddsapi"
@@ -6084,7 +6084,7 @@
     "h2h": {
      "outcome": "Arsenal",
      "bestOdds": 2.0,
-     "otherOdds": 3.75,
+     "otherOdds": 3.8,
      "bookCount": "11",
      "favSide": "home",
      "source": "oddsapi"
@@ -6637,7 +6637,7 @@
     "h2h": {
      "outcome": "Boca Juniors",
      "bestOdds": 1.44,
-     "otherOdds": 8.0,
+     "otherOdds": 8.5,
      "bookCount": "6",
      "favSide": "home",
      "source": "oddsapi"
@@ -6993,7 +6993,7 @@
    "markets": {
     "h2h": {
      "outcome": "Real Madrid",
-     "bestOdds": 1.44,
+     "bestOdds": 1.42,
      "otherOdds": 6.75,
      "bookCount": "7",
      "favSide": "away",
