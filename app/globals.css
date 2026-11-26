@@ -106,7 +106,15 @@ footer { margin-top: 70px; padding: 26px 0 44px; border-top: 1px solid var(--lin
 @media (max-width: 720px) {
   .stats { grid-template-columns: repeat(2, 1fr); }
   .nav nav { gap: 14px; }
-  th:nth-child(4), td:nth-child(4) { display: none; }
+  /* the nav's five links plus the brand exceed a 390px screen; shrink the type
+     and the gaps rather than letting the whole shell scroll sideways */
+  .nav { gap: 12px; height: 62px; }
+  .nav nav { gap: 11px; overflow-x: auto; scrollbar-width: none; min-width: 0; }
+  .nav nav::-webkit-scrollbar { display: none; }
+  .nav nav a { font-size: 12.5px; white-space: nowrap; }
+  .nav .login { padding: 5px 10px; }
+  .brand { font-size: 15px; }
+  .hide-sm { display: none; }
 }
 
 /* ── pick cards: phone-first, scannable in two seconds ───────────────── */
@@ -141,6 +149,12 @@ footer { margin-top: 70px; padding: 26px 0 44px; border-top: 1px solid var(--lin
 }
 .follow:hover { color: var(--ink); border-color: var(--accent); }
 .follow.on { background: var(--accent); color: #04231a; border-color: var(--accent); }
+.share {
+  padding: 4px 11px; font-size: 11.5px; font-weight: 700; margin-left: 4px;
+  background: transparent; color: var(--muted); border: 1px solid var(--line); border-radius: 20px;
+}
+.share:hover { color: var(--ink); border-color: var(--blue); }
+.share.small { padding: 3px 9px; font-size: 11px; }
 .muted-note { color: var(--muted); font-size: 13.5px; margin: 4px 0 22px; }
 .muted-note a { color: var(--accent); }
 
@@ -181,20 +195,74 @@ footer { margin-top: 70px; padding: 26px 0 44px; border-top: 1px solid var(--lin
   h1 { font-size: 32px; }
   .stats { grid-template-columns: repeat(2, 1fr); }
   .stats strong { font-size: 160%; }
-  .tabs { overflow-x: auto; flex-wrap: nowrap; scrollbar-width: none; }
+  /* min-width:0 is what stops a nowrap scroller from widening its parent */
+  .tabs { overflow-x: auto; flex-wrap: nowrap; scrollbar-width: none; min-width: 0; max-width: 100%; }
+  .tabs::-webkit-scrollbar { display: none; }
   .tab { white-space: nowrap; }
   .section-head { margin: 34px 0 12px; flex-direction: column; align-items: flex-start; gap: 6px; }
   .status { white-space: normal; }
   table { font-size: 13px; }
   th, td { padding-left: 6px; padding-right: 6px; }
-  td:nth-child(n+4), th:nth-child(n+4) { display: none; }  /* keep match/pick/result */
+  /* per-table column classes beat a blind nth-child rule: hiding "everything
+     after the third cell" used to drop Result and Units, the two columns that
+     matter most. */
+  .hide-sm { display: none; }
   .pick { padding: 14px; }
   .pick-edge { font-size: 19px; }
+  .picklist { gap: 10px; }
+  .pick-teams a, .pick-teams span { font-size: 15px; }
+  .share, .follow { padding: 5px 10px; }
+  .scorepad { min-width: 180px; right: 0; left: auto; }
+  .squad { grid-template-columns: repeat(2, 1fr); }
 }
 .fresh { color: var(--dim); }
 .fresh.warn { color: var(--warn); }
 .fresh.bad { color: var(--bad); font-weight: 700; }
 .daygroup { margin: 20px 0 2px; font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); font-weight: 700; }
+.daygroup em { letter-spacing: 0; text-transform: none; font-style: normal; font-weight: 800; }
+.daygroup em.win { color: var(--accent); }
+.daygroup em.loss { color: var(--bad); }
+
+/* ── activity day strip: the week at a glance ───────────────────────── */
+.daystrip { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 6px; scrollbar-width: none; }
+.daystrip::-webkit-scrollbar { display: none; }
+.daystat { flex: none; display: grid; gap: 2px; background: var(--panel); border: 1px solid var(--line);
+  border-radius: 9px; padding: 9px 12px; min-width: 92px; }
+.daystat span { font-size: 10px; letter-spacing: .06em; text-transform: uppercase; color: var(--dim); }
+.daystat b { font-size: 13px; color: var(--muted); font-weight: 700; }
+.daystat em { font-style: normal; font-size: 12.5px; font-weight: 800; font-variant-numeric: tabular-nums; color: var(--dim); }
+.daystat em.win { color: var(--accent); }
+.daystat em.loss { color: var(--bad); }
+
+/* ── filter chips (all games) ───────────────────────────────────────── */
+.filters { display: flex; gap: 7px; overflow-x: auto; flex-wrap: nowrap; padding-bottom: 4px; scrollbar-width: none; }
+.filters::-webkit-scrollbar { display: none; }
+.chip { flex: none; font-size: 12px; font-weight: 700; padding: 5px 11px; border-radius: 20px;
+  border: 1px solid var(--line); background: transparent; color: var(--muted); }
+.chip span { color: var(--dim); font-weight: 600; }
+.chip:hover { color: var(--ink); border-color: var(--accent); }
+.chip.on { background: var(--accent); color: #04231a; border-color: var(--accent); }
+.chip.on span { color: #04231a; opacity: .7; }
+.inline-check { display: inline-flex; align-items: center; gap: 6px; cursor: pointer; }
+.inline-check input { accent-color: var(--accent); }
+
+/* ── team + player depth pages ──────────────────────────────────────── */
+.teamhead { display: flex; align-items: center; gap: 14px; margin-top: 10px; }
+.teamhead img { width: 62px; height: 62px; object-fit: contain; }
+.av { width: 34px; height: 34px; border-radius: 50%; background: var(--panel2); border: 1px solid var(--line); flex: none; }
+.av.big { width: 62px; height: 62px; }
+.form { display: inline-grid; place-items: center; width: 20px; height: 20px; border-radius: 5px;
+  font-size: 11px; font-weight: 850; margin-right: 3px; }
+.form.win { background: #0f3529; color: var(--accent); }
+.form.loss { background: #4a1d22; color: var(--bad); }
+.dim { color: var(--dim); }
+.col2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.squad { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 8px; margin-top: 10px; }
+.player { display: flex; align-items: center; gap: 9px; padding: 8px 10px; border-radius: 9px;
+  border: 1px solid var(--line); background: var(--panel); font-size: 13px; font-weight: 600; }
+.player:hover { border-color: var(--accent); }
+.player img { width: 26px; height: 26px; border-radius: 50%; object-fit: cover; flex: none; }
+.player small { display: block; color: var(--dim); font-weight: 500; font-size: 10.5px; }
 .daygroup span { color: var(--dim); }
 .watch { font-size: 11px; font-weight: 700; color: var(--blue); border: 1px solid var(--line); border-radius: 6px; padding: 2px 8px; text-decoration: none; }
 .watch:hover { border-color: var(--blue); }
@@ -220,3 +288,8 @@ footer { margin-top: 70px; padding: 26px 0 44px; border-top: 1px solid var(--lin
 .bar { height: 3px; background: var(--line); border-radius: 2px; margin-top: 8px; overflow: hidden; }
 .bar div { height: 100%; background: var(--accent); }
 .newflag { font-size: 9px; font-weight: 850; letter-spacing: .1em; color: var(--bg); background: var(--accent); border-radius: 4px; padding: 1px 5px; vertical-align: middle; }
+
+/* mobile overrides that must win on source order (after base rules) */
+@media (max-width: 720px) {
+  .col2 { grid-template-columns: 1fr; gap: 4px; }
+}

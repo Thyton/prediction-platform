@@ -1,17 +1,29 @@
 import Link from "next/link";
 import { getLive, getRecord, getGames, getIntegrity, getSignals, fmtTime, SPORT_LABEL } from "../lib/data";
-import { getActivity } from "../lib/activity";
+import { getActivity, getActivityDays } from "../lib/activity";
 import { headers } from "next/headers";
 import { currentUser } from "../lib/session";
 import { isFollowing } from "../lib/userstats";
 import Waitlist from "./waitlist";
 import Tabs from "./tabs";
 import FollowButton from "./follow-button";
+import ShareButton from "./share-button";
 import LiveBoard from "./live-board";
+import GamesExplore from "./games-explore";
+import ActivityFeed from "./activity-feed";
 import Watch from "./watch";
 
 export const dynamic = "force-dynamic";
 
+
+// Team names link to the team page when ESPN gave us an id; tennis and esports
+// have none, so those stay plain text rather than dead links.
+function TeamName({ p, side }) {
+  const name = side === "home" ? p.home : p.away;
+  const id = side === "home" ? p.homeId : p.awayId;
+  if (!id || !p.sport) return <span>{name}</span>;
+  return <Link href={`/team/${p.sport}/${id}`}>{name}</Link>;
+}
 
 function TeamPill({ p, side }) {
   const isHome = side === "home";
@@ -42,16 +54,21 @@ function PickCard({ p, trackable, following, isNew }) {
         </div>
         <div className="pick-teams">
           {p.awayLogo && <img src={p.awayLogo} alt="" />}
-          <span>{p.away}</span>
+          <TeamName p={p} side="away" />
           <span className="vs">at</span>
           {p.homeLogo && <img src={p.homeLogo} alt="" />}
-          <span>{p.home}</span>
+          <TeamName p={p} side="home" />
           <Watch gameId={p.gameId} start={p.startsAt} home={p.home} away={p.away} />
         </div>
         <div className="pick-choice">
           {pickedLogo && <img src={pickedLogo} alt="" />}
           <span>Pick: {picked}</span>
           {trackable && <FollowButton gameId={p.gameId} following={following} />}
+          <ShareButton
+            small
+            path={`/p/${encodeURIComponent(p.gameId)}`}
+            text={`${picked} @ ${Number(p.price).toFixed(2)} — ${p.match}`}
+          />
         </div>
         {p.why && !graded && <div className="why">{p.why}</div>}
         {graded ? (
@@ -96,6 +113,7 @@ export default async function Home() {
   const games = getGames();
   const alerts = getIntegrity();
   const activity = getActivity();
+  const days = getActivityDays();
   // surface how old the board is: a silent pipeline is how a stale site goes unnoticed
   const age = (() => {
     const gen = live.generatedAt ? new Date(live.generatedAt).getTime() : NaN;
@@ -115,6 +133,23 @@ export default async function Home() {
     ? Math.round((Date.now() - new Date(lastGraded.settledAt).getTime()) / 60000)
     : null;
   const picks = live.picks || [];
+  // The explore tab needs six fields, not the whole record. Dropping ESPN
+  // internals and logo URLs keeps the payload phone-sized (334 games went
+  // from 222 KB to ~40 KB).
+  const gameRows = games.map((g) => ({
+    id: g.id,
+    sport: g.sport,
+    league: g.league,
+    match: g.match,
+    startsAt: g.startsAt,
+    state: g.state,
+    home: g.home,
+    away: g.away,
+    homeId: g.homeId,
+    awayId: g.awayId,
+    price: g.markets?.h2h ? Number(g.markets.h2h.bestOdds) : null,
+    books: g.markets?.h2h ? String(g.markets.h2h.bookCount) : null,
+  }));
 
   // whole board, soonest first, grouped so today's action isn't buried under
   // fixtures two days out. Every card still prints its own date.
@@ -195,11 +230,12 @@ export default async function Home() {
           live={
             <LiveBoard signals={signals} pro={Boolean(user?.pro)} signedIn={Boolean(user)} />
           }
+          activity={<ActivityFeed days={days} events={activity} />}
           results={
             record.recent.length ? (
               <table>
                 <thead>
-                  <tr><th>Match</th><th>Play</th><th>Price</th><th>Result</th><th>Units</th></tr>
+                  <tr><th>Match</th><th>Play</th><th className="hide-sm">Price</th><th>Result</th><th>Units</th></tr>
                 </thead>
                 <tbody>
                   {record.recent.map((p) => (
@@ -211,7 +247,7 @@ export default async function Home() {
                         <small>{fmtTime(p.startsAt)} · graded {fmtTime(p.settledAt)}</small>
                       </td>
                       <td><TeamPill p={p} side={p.side} /></td>
-                      <td>{Number(p.price).toFixed(2)}</td>
+                      <td className="hide-sm">{Number(p.price).toFixed(2)}</td>
                       <td className={p.result === "correct" ? "win" : p.result === "push" ? "" : "loss"}>
                         {p.result === "correct" ? "Won" : p.result === "push" ? "Push" : "Lost"} <small>{p.final}</small>
                       </td>
@@ -268,21 +304,7 @@ export default async function Home() {
             )
           }
           games={
-            <table>
-              <thead>
-                <tr><th>Match</th><th>League</th><th>Starts</th><th>Market</th></tr>
-              </thead>
-              <tbody>
-                {games.slice(0, 80).map((g) => (
-                  <tr key={g.id}>
-                    <td>{g.match}</td>
-                    <td><span className="league">{SPORT_LABEL[g.sport] || g.league}</span></td>
-                    <td>{fmtTime(g.startsAt)}</td>
-                    <td>{g.markets?.h2h ? `${Number(g.markets.h2h.bestOdds).toFixed(2)} · ${g.markets.h2h.bookCount} book(s)` : "—"}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
+            <GamesExplore games={gameRows} />
           }
         />
       </section>

@@ -188,6 +188,10 @@ def parse_espn_event(event, sport, league, two_way):
     away_logo = (away.get("team") or {}).get("logo") or (away.get("athlete") or {}).get("headshot", {}).get("href")
     home_abbr = (home.get("team") or {}).get("abbreviation")
     away_abbr = (away.get("team") or {}).get("abbreviation")
+    # ESPN team ids unlock the team/player pages; athletes carry no team id, so
+    # tennis gets none and those links simply do not render.
+    home_id = (home.get("team") or {}).get("id")
+    away_id = (away.get("team") or {}).get("id")
     odds = parse_espn_odds(comp)
     markets = {}
     if len(odds) >= 2:
@@ -211,6 +215,8 @@ def parse_espn_event(event, sport, league, two_way):
         "awayLogo": away_logo,
         "homeAbbr": home_abbr,
         "awayAbbr": away_abbr,
+        "homeId": home_id,
+        "awayId": away_id,
         "startsAt": event_get(event, "date"),
         "state": st,
         "_path": None,

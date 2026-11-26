@@ -1,4 +1,4 @@
-import { getRecord, getLedger, readBacktest, backtestMeta, fmtTime, SPORT_LABEL } from "../../lib/data";
+import { getRecord, getLedger, readBacktest, backtestMeta, getBySport, streakOf, fmtTime, SPORT_LABEL } from "../../lib/data";
 
 export const dynamic = "force-dynamic";
 
@@ -21,11 +21,17 @@ export default function RecordPage() {
   // each table holds only its own source, so no pick is listed twice
   const all = readBacktest().filter((i) => i.result).reverse();
   const forward = getLedger().filter((i) => i.result).reverse();
+  const bySport = getBySport();
+  const streak = streakOf(getLedger());
+  // "last 100" strips: the record is public in full, these are just the
+  // windows people actually scan (this week, this month).
+  const strip = (n) => getLedger().filter((i) => i.result).slice(-n).reverse();
+  const week = strip(100);
 
   const table = (rows, withLock) => (
     <table>
       <thead>
-        <tr><th>Match</th><th>Play</th><th>Price</th><th>Score</th><th>Result</th><th>Units</th></tr>
+        <tr><th>Match</th><th>Play</th><th className="hide-sm">Price</th><th className="hide-sm">Score</th><th>Result</th><th>Units</th></tr>
       </thead>
       <tbody>
         {rows.map((p) => (
@@ -40,8 +46,8 @@ export default function RecordPage() {
               </small>
             </td>
             <td><TeamPill p={p} side={p.side} /></td>
-            <td>{Number(p.price).toFixed(2)}{p.modelPriced ? <small> model price</small> : null}</td>
-            <td>{p.final || "—"}</td>
+            <td className="hide-sm">{Number(p.price).toFixed(2)}{p.modelPriced ? <small> model price</small> : null}</td>
+            <td className="hide-sm">{p.final || "—"}</td>
             <td className={p.result === "correct" ? "win" : p.result === "push" ? "" : "loss"}>
               {p.result === "correct" ? "Won" : p.result === "push" ? "Push" : "Lost"}
             </td>
@@ -73,13 +79,59 @@ export default function RecordPage() {
           <div><strong>{r.forward.graded}</strong><span>graded forward picks</span></div>
           <div><strong>{r.forward.rolling != null ? (r.forward.rolling * 100).toFixed(0) + "%" : "—"}</strong><span>last-50 accuracy</span></div>
           <div><strong className={r.forward.units >= 0 ? "pos" : "neg"}>{r.forward.units >= 0 ? "+" : ""}{r.forward.units}</strong><span>forward units (1u flat)</span></div>
-          <div><strong>{r.forward.accuracy != null ? (r.forward.accuracy * 100).toFixed(1) + "%" : "—"}</strong><span>forward accuracy</span></div>
+          <div>
+            <strong className={streak.kind === "correct" ? "pos" : streak.kind === "wrong" ? "neg" : ""}>
+              {streak.n ? `${streak.n}${streak.kind === "correct" ? "W" : "L"}` : "—"}
+            </strong>
+            <span>current run</span>
+          </div>
         </div>
         {forward.length ? table(forward, true) : <div className="empty">No forward picks graded yet.</div>}
         <p className="muted-note">
           This is the honest sample: picks were published before kickoff and locked with a timestamp.
           {r.forward.graded < 30 && " It is still small — judge it after ~50 picks."}
         </p>
+      </section>
+
+      <section style={{ marginTop: 34 }}>
+        <div className="section-head">
+          <div><p className="eyebrow">BY COMPETITION</p><h2>Where it works, where it doesn&apos;t</h2></div>
+        </div>
+        <table>
+          <thead>
+            <tr><th>Competition</th><th>W</th><th>L</th><th>Push</th><th>Accuracy</th><th>Units</th></tr>
+          </thead>
+          <tbody>
+            {[...bySport].sort((a, b) => (b.units || 0) - (a.units || 0)).map((s) => (
+              <tr key={s.sport}>
+                <td><span className="league">{SPORT_LABEL[s.sport] || s.sport}</span></td>
+                <td className="win">{s.w}</td>
+                <td className="loss">{s.l}</td>
+                <td>{s.p}</td>
+                <td className={s.accuracy == null ? "" : s.accuracy >= 0.5 ? "win" : "loss"}>
+                  {s.accuracy != null ? (s.accuracy * 100).toFixed(0) + "%" : "—"}
+                </td>
+                <td className={s.units > 0 ? "win" : s.units < 0 ? "loss" : ""}>
+                  {s.units > 0 ? "+" : ""}{s.units}
+                </td>
+              </tr>
+            ))}
+            {!bySport.length && (
+              <tr><td colSpan={6} className="empty">Nothing graded yet.</td></tr>
+            )}
+          </tbody>
+        </table>
+        <p className="muted-note">
+          Splitting by competition is how you spot a sport the model is cold on. A sport running
+          negative here is exactly what raises its gate automatically in the next cycle.
+        </p>
+      </section>
+
+      <section style={{ marginTop: 34 }}>
+        <div className="section-head">
+          <div><p className="eyebrow">LAST 100</p><h2>The most recent results</h2></div>
+        </div>
+        {week.length ? table(week, true) : <div className="empty">No graded picks yet.</div>}
       </section>
 
       <section style={{ marginTop: 34 }}>
