@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T19:52:05.683512+00:00",
+ "generatedAt": "2026-11-26T20:22:32.410075+00:00",
  "picks": [
   {
    "gameId": "epl:401879219",
@@ -252,32 +252,6 @@
    "why": "Houston Dynamo FC rated 70% to win; with 1 book quoting; a slim but real gap to the market price."
   },
   {
-   "gameId": "wta:186836",
-   "match": "Nuria Brancaccio vs Guiomar Maristany Zuleta De Reales",
-   "league": "IEB+ Argentina Open",
-   "sport": "wta",
-   "side": "home",
-   "price": 1.27,
-   "modelProb": 0.7714,
-   "marketProb": null,
-   "edgePct": 0.5427,
-   "tier": "PREMIUM",
-   "bookCount": 0,
-   "startsAt": "2026-11-26T05:00Z",
-   "modelPriced": true,
-   "home": "Guiomar Maristany Zuleta De Reales",
-   "away": "Nuria Brancaccio",
-   "homeLogo": null,
-   "awayLogo": null,
-   "homeAbbr": null,
-   "awayAbbr": null,
-   "lockTs": "2026-11-24T20:40:50.143068+00:00",
-   "result": null,
-   "profitUnits": null,
-   "espnUrl": null,
-   "why": "Guiomar Maristany Zuleta De Reales rated 77% to win; a 54-point rating gap with no market price to lean on."
-  },
-  {
    "gameId": "wta:186832",
    "match": "Veronika Erjavec vs Carole Monnet",
    "league": "IEB+ Argentina Open",
@@ -301,6 +275,33 @@
    "awayAbbr": null,
    "espnUrl": null,
    "lockTs": "2026-11-26T00:11:00.725935+00:00",
+   "result": null,
+   "profitUnits": null
+  },
+  {
+   "gameId": "wta:186830",
+   "match": "TBD vs Guiomar Maristany Zuleta De Reales",
+   "league": "IEB+ Argentina Open",
+   "sport": "wta",
+   "side": "home",
+   "price": 1.53,
+   "modelProb": 0.7033,
+   "marketProb": null,
+   "edgePct": 0.4066,
+   "tier": "PREMIUM",
+   "bookCount": 0,
+   "startsAt": "2026-11-27T05:00Z",
+   "modelPriced": true,
+   "why": "Guiomar Maristany Zuleta De Reales rated 70% to win; a 41-point rating gap with no market price to lean on.",
+   "edgeKind": "model",
+   "home": "Guiomar Maristany Zuleta De Reales",
+   "away": "TBD",
+   "homeLogo": null,
+   "awayLogo": null,
+   "homeAbbr": null,
+   "awayAbbr": null,
+   "espnUrl": null,
+   "lockTs": "2026-11-26T20:22:32.408031+00:00",
    "result": null,
    "profitUnits": null
   }
@@ -622,28 +623,6 @@
    ]
   },
   {
-   "gameId": "esports:134867",
-   "match": "Abt Esports vs Young Tigeres",
-   "league": "Esports",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
-   "gameId": "esports:134394",
-   "match": "Chinggis Warriors vs Wildcard Gaming",
-   "league": "Esports",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
    "gameId": "esports:134520",
    "match": "Nordic Partners Gaming vs Baks Esports",
    "league": "Esports",
@@ -666,6 +645,16 @@
    ]
   },
   {
+   "gameId": "esports:135082",
+   "match": "Jumbo Team vs B8 Academy",
+   "league": "Esports",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
    "gameId": "esports:135092",
    "match": "99firepower 1utility vs Oldboys Pl",
    "league": "Esports",
@@ -683,8 +672,8 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Thin market: only 2 books quoting",
-    "Drift against the favourite: 1.25 \u2192 1.95 (-36%) \u2014 money moving the other way"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Drift against the favourite: 1.26 \u2192 1.40 (-10%) \u2014 money moving the other way"
    ]
   },
   {
@@ -766,8 +755,7 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.89 \u2192 1.35 (+40%) \u2014 market confirming"
+    "Steam: favourite shortened 1.89 \u2192 1.40 (+35%) \u2014 market confirming"
    ]
   },
   {
@@ -787,7 +775,7 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+    "Thin market: only 2 books quoting"
    ]
   },
   {
@@ -797,7 +785,7 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Thin market: only 2 books quoting",
     "Heavy favourite: a short price leaves little margin"
    ]
   },
@@ -815,20 +803,21 @@
    "gameId": "uel:401915505",
    "match": "Stade Rennais @ NEC Nijmegen",
    "league": "Europa League",
-   "severity": 1,
-   "signal": "integrity_watch",
+   "severity": 2,
+   "signal": "high_risk_alert",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+    "Thin market: only 2 books quoting",
+    "Drift against the favourite: 2.10 \u2192 2.30 (-9%) \u2014 money moving the other way"
    ]
   },
   {
    "gameId": "uel:401915514",
    "match": "AZ Alkmaar @ Sparta Prague",
    "league": "Europa League",
-   "severity": 2,
-   "signal": "high_risk_alert",
+   "severity": 1,
+   "signal": "integrity_watch",
    "flags": [
-    "Drift against the favourite: 2.32 \u2192 2.63 (-12%) \u2014 money moving the other way"
+    "Steam: favourite shortened 2.30 \u2192 1.69 (+36%) \u2014 market confirming"
    ]
   },
   {
@@ -838,17 +827,7 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
-   "gameId": "uel:401915515",
-   "match": "SK Sturm Graz @ TSG Hoffenheim",
-   "league": "Europa League",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
+    "Thin market: only 2 books quoting",
     "Heavy favourite: a short price leaves little margin"
    ]
   },
@@ -900,6 +879,16 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
+   "gameId": "ligamx:401931982",
+   "match": "Guadalajara @ Pachuca",
+   "league": "Liga MX",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Steam: favourite shortened 2.70 \u2192 2.50 (+8%) \u2014 market confirming"
    ]
   },
   {
@@ -1467,16 +1456,6 @@
    ]
   },
   {
-   "gameId": "epl:401878749",
-   "match": "Fulham @ Tottenham Hotspur",
-   "league": "EPL",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
    "gameId": "bundesliga:401884718",
    "match": "SC Paderborn 07 @ Bayern Munich",
    "league": "Bundesliga",
@@ -1825,12 +1804,12 @@
   }
  ],
  "record": {
-  "graded": 12,
-  "correct": 7,
+  "graded": 13,
+  "correct": 8,
   "wrong": 5,
-  "accuracy": 0.5833,
-  "units": -1.8,
-  "rolling": 0.5833,
+  "accuracy": 0.6154,
+  "units": -1.53,
+  "rolling": 0.6154,
   "recent": [
    {
     "gameId": "nba:401909324",
@@ -1961,6 +1940,33 @@
     "profitUnits": 0.49,
     "final": "0-1",
     "settledAt": "2026-11-25T22:03:38.886483+00:00"
+   },
+   {
+    "gameId": "wta:186836",
+    "match": "Nuria Brancaccio vs Guiomar Maristany Zuleta De Reales",
+    "league": "IEB+ Argentina Open",
+    "sport": "wta",
+    "side": "home",
+    "price": 1.27,
+    "modelProb": 0.7714,
+    "marketProb": null,
+    "edgePct": 0.5427,
+    "tier": "PREMIUM",
+    "bookCount": 0,
+    "startsAt": "2026-11-26T05:00Z",
+    "modelPriced": true,
+    "home": "Guiomar Maristany Zuleta De Reales",
+    "away": "Nuria Brancaccio",
+    "homeLogo": null,
+    "awayLogo": null,
+    "homeAbbr": null,
+    "awayAbbr": null,
+    "lockTs": "2026-11-24T20:40:50.143068+00:00",
+    "result": "correct",
+    "profitUnits": 0.27,
+    "espnUrl": null,
+    "final": "1-0",
+    "settledAt": "2026-11-26T20:22:19.053029+00:00"
    },
    {
     "gameId": "wta:186819",

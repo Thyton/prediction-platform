@@ -390,9 +390,11 @@
    "homeAbbr": null,
    "awayAbbr": null,
    "lockTs": "2026-11-24T20:40:50.143068+00:00",
-   "result": null,
-   "profitUnits": null,
-   "espnUrl": null
+   "result": "correct",
+   "profitUnits": 0.27,
+   "espnUrl": null,
+   "final": "1-0",
+   "settledAt": "2026-11-26T20:22:19.053029+00:00"
   },
   {
    "gameId": "wta:186837",
@@ -548,6 +550,33 @@
    "awayAbbr": null,
    "espnUrl": null,
    "lockTs": "2026-11-26T00:11:00.725935+00:00",
+   "result": null,
+   "profitUnits": null
+  },
+  {
+   "gameId": "wta:186830",
+   "match": "TBD vs Guiomar Maristany Zuleta De Reales",
+   "league": "IEB+ Argentina Open",
+   "sport": "wta",
+   "side": "home",
+   "price": 1.53,
+   "modelProb": 0.7033,
+   "marketProb": null,
+   "edgePct": 0.4066,
+   "tier": "PREMIUM",
+   "bookCount": 0,
+   "startsAt": "2026-11-27T05:00Z",
+   "modelPriced": true,
+   "why": "Guiomar Maristany Zuleta De Reales rated 70% to win; a 41-point rating gap with no market price to lean on.",
+   "edgeKind": "model",
+   "home": "Guiomar Maristany Zuleta De Reales",
+   "away": "TBD",
+   "homeLogo": null,
+   "awayLogo": null,
+   "homeAbbr": null,
+   "awayAbbr": null,
+   "espnUrl": null,
+   "lockTs": "2026-11-26T20:22:32.408031+00:00",
    "result": null,
    "profitUnits": null
   }
