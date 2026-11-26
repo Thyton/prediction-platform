@@ -1,33 +1,6 @@
 {
- "generatedAt": "2026-11-26T04:34:38.838318+00:00",
+ "generatedAt": "2026-11-26T04:49:51.031742+00:00",
  "games": [
-  {
-   "id": "esports:135035",
-   "sport": "esports",
-   "league": "Esports",
-   "match": "Donstu Esports vs Nordic Partners Gaming",
-   "home": "Nordic Partners Gaming",
-   "away": "Donstu Esports",
-   "startsAt": "2026-11-25T15:40:00.000+00:00",
-   "state": "finished",
-   "markets": {
-    "h2h": {
-     "outcome": "Donstu Esports",
-     "bestOdds": 1.22,
-     "otherOdds": 3.8,
-     "bookCount": "1",
-     "favSide": "away",
-     "source": "bo3"
-    }
-   },
-   "tier": "c",
-   "boType": 3,
-   "mapScore": [
-    0,
-    2
-   ],
-   "drawPossible": false
-  },
   {
    "id": "ncaab:401920428",
    "sport": "ncaab",
@@ -902,11 +875,10 @@
    "markets": {
     "h2h": {
      "outcome": "Los Angeles Rams",
-     "bestOdds": 1.0,
-     "otherOdds": 26.0,
+     "bestOdds": 1.704,
+     "otherOdds": 2.2,
      "bookCount": "1",
-     "favSide": "home",
-     "source": "oddsapi"
+     "favSide": "home"
     }
    },
    "espnUrl": "https://www.espn.com/nfl/game/_/gameId/401873079/packers-rams",
@@ -1003,6 +975,33 @@
    "drawPossible": false
   },
   {
+   "id": "esports:134742",
+   "sport": "esports",
+   "league": "Esports",
+   "match": "Team Villainous vs Elusive",
+   "home": "Elusive",
+   "away": "Team Villainous",
+   "startsAt": "2026-11-26T02:10:00.000+00:00",
+   "state": "finished",
+   "markets": {
+    "h2h": {
+     "outcome": "Elusive",
+     "bestOdds": 1.12,
+     "otherOdds": 5.2,
+     "bookCount": "1",
+     "favSide": "home",
+     "source": "bo3"
+    }
+   },
+   "tier": "c",
+   "boType": 3,
+   "mapScore": [
+    2,
+    1
+   ],
+   "drawPossible": false
+  },
+  {
    "id": "nhl:401892792",
    "sport": "nhl",
    "league": "NHL",
@@ -1024,8 +1023,8 @@
     "h2h": {
      "outcome": "Colorado Avalanche",
      "bestOdds": 1.01,
-     "otherOdds": 71.0,
-     "bookCount": "3",
+     "otherOdds": 34.0,
+     "bookCount": "2",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -1054,8 +1053,8 @@
    "markets": {
     "h2h": {
      "outcome": "Seattle Kraken",
-     "bestOdds": 1.65,
-     "otherOdds": 2.34,
+     "bestOdds": 1.77,
+     "otherOdds": 2.15,
      "bookCount": "7",
      "favSide": "home",
      "source": "oddsapi"
@@ -1085,8 +1084,8 @@
    "markets": {
     "h2h": {
      "outcome": "Golden State Warriors",
-     "bestOdds": 1.15,
-     "otherOdds": 6.75,
+     "bestOdds": 1.06,
+     "otherOdds": 14.0,
      "bookCount": "8",
      "favSide": "home",
      "source": "oddsapi"
@@ -1115,11 +1114,11 @@
    "_cid": "401909325",
    "markets": {
     "h2h": {
-     "outcome": "San Antonio Spurs",
-     "bestOdds": 1.87,
-     "otherOdds": 2.4,
+     "outcome": "Portland Trail Blazers",
+     "bestOdds": 2.15,
+     "otherOdds": 2.6,
      "bookCount": "8",
-     "favSide": "away",
+     "favSide": "home",
      "source": "oddsapi"
     }
    },
@@ -1863,7 +1862,7 @@
      "outcome": "Iowa State Cyclones",
      "bestOdds": 1.68,
      "otherOdds": 2.3,
-     "bookCount": "6",
+     "bookCount": "7",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -1892,7 +1891,7 @@
    "markets": {
     "h2h": {
      "outcome": "Miami Hurricanes",
-     "bestOdds": 1.75,
+     "bestOdds": 1.73,
      "otherOdds": 2.25,
      "bookCount": "8",
      "favSide": "away",
@@ -2981,7 +2980,7 @@
    "markets": {
     "h2h": {
      "outcome": "Denver Broncos",
-     "bestOdds": 1.51,
+     "bestOdds": 1.5,
      "otherOdds": 2.85,
      "bookCount": "12",
      "favSide": "away",
@@ -3604,7 +3603,7 @@
      "outcome": "New York Knicks",
      "bestOdds": 1.61,
      "otherOdds": 2.43,
-     "bookCount": "4",
+     "bookCount": "5",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -4005,8 +4004,8 @@
     "h2h": {
      "outcome": "San Antonio Spurs",
      "bestOdds": 1.51,
-     "otherOdds": 2.64,
-     "bookCount": "2",
+     "otherOdds": 2.75,
+     "bookCount": "5",
      "favSide": "home",
      "source": "oddsapi"
     }

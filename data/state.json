@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
- "generatedAt": "2026-11-26T04:20:15.780255+00:00",
-=======
- "generatedAt": "2026-11-26T04:34:39.035115+00:00",
->>>>>>> f41a494 (data: cycle 2026-11-26T04:34Z)
+ "generatedAt": "2026-11-26T04:49:51.146409+00:00",
  "picks": [
   {
    "gameId": "epl:401879219",
@@ -337,17 +333,6 @@
  ],
  "alerts": [
   {
-   "gameId": "esports:135035",
-   "match": "Donstu Esports vs Nordic Partners Gaming",
-   "league": "Esports",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
    "gameId": "ncaab:401920428",
    "match": "Virginia Cavaliers @ Marquette Golden Eagles",
    "league": "NCAAB",
@@ -606,14 +591,10 @@
    "gameId": "nfl:401873079",
    "match": "Green Bay Packers @ Los Angeles Rams",
    "league": "NFL",
-   "severity": 2,
-   "signal": "high_risk_alert",
+   "severity": 1,
+   "signal": "integrity_watch",
    "flags": [
-<<<<<<< HEAD
-=======
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
->>>>>>> f41a494 (data: cycle 2026-11-26T04:34Z)
-    "Heavy favourite: a short price leaves little margin"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
@@ -648,12 +629,24 @@
    ]
   },
   {
+   "gameId": "esports:134742",
+   "match": "Team Villainous vs Elusive",
+   "league": "Esports",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
    "gameId": "nhl:401892792",
    "match": "Montreal Canadiens @ Colorado Avalanche",
    "league": "NHL",
-   "severity": 1,
-   "signal": "integrity_watch",
+   "severity": 2,
+   "signal": "high_risk_alert",
    "flags": [
+    "Thin market: only 2 books quoting",
     "Heavy favourite: a short price leaves little margin",
     "Steam: favourite shortened 1.87 \u2192 1.01 (+85%) \u2014 market confirming"
    ]
@@ -666,11 +659,7 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin",
-<<<<<<< HEAD
-    "Steam: favourite shortened 1.32 \u2192 1.02 (+29%) \u2014 market confirming"
-=======
-    "Steam: favourite shortened 1.32 \u2192 1.15 (+15%) \u2014 market confirming"
->>>>>>> f41a494 (data: cycle 2026-11-26T04:34Z)
+    "Steam: favourite shortened 1.33 \u2192 1.06 (+26%) \u2014 market confirming"
    ]
   },
   {
@@ -680,31 +669,19 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-<<<<<<< HEAD
-    "Drift against the favourite: 1.67 \u2192 1.90 (-12%) \u2014 money moving the other way"
-=======
-    "Drift against the favourite: 1.67 \u2192 1.87 (-11%) \u2014 money moving the other way"
->>>>>>> f41a494 (data: cycle 2026-11-26T04:34Z)
+    "Drift against the favourite: 1.67 \u2192 2.15 (-22%) \u2014 money moving the other way"
    ]
   },
   {
    "gameId": "nhl:401892793",
    "match": "San Jose Sharks @ Anaheim Ducks",
    "league": "NHL",
-<<<<<<< HEAD
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.80 \u2192 1.04 (+73%) \u2014 market confirming"
-=======
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
     "Thin market: only 2 books quoting",
     "Heavy favourite: a short price leaves little margin",
     "Steam: favourite shortened 1.80 \u2192 1.01 (+78%) \u2014 market confirming"
->>>>>>> f41a494 (data: cycle 2026-11-26T04:34Z)
    ]
   },
   {
@@ -1103,16 +1080,6 @@
    ]
   },
   {
-   "gameId": "nba:401909326",
-   "match": "Miami Heat @ New York Knicks",
-   "league": "NBA",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
    "gameId": "ncaaf:401856756",
    "match": "Texas Longhorns @ Texas A&M Aggies",
    "league": "NCAAF",
@@ -1171,16 +1138,6 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
-   "gameId": "nba:401909333",
-   "match": "Los Angeles Lakers @ San Antonio Spurs",
-   "league": "NBA",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 2 books quoting"
    ]
   },
   {
