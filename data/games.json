@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T06:41:17.850815+00:00",
+ "generatedAt": "2026-11-26T07:11:41.793758+00:00",
  "games": [
   {
    "id": "ncaab:401920428",
@@ -1203,7 +1203,7 @@
     "h2h": {
      "outcome": "AFC Bournemouth",
      "bestOdds": 2.0,
-     "otherOdds": 4.0,
+     "otherOdds": 4.13,
      "bookCount": "10",
      "favSide": "away",
      "source": "oddsapi"
@@ -1264,7 +1264,7 @@
    "markets": {
     "h2h": {
      "outcome": "Marseille",
-     "bestOdds": 1.351,
+     "bestOdds": 1.333,
      "otherOdds": 8.5,
      "bookCount": "1",
      "favSide": "home"
@@ -1354,7 +1354,7 @@
    "markets": {
     "h2h": {
      "outcome": "Union St.-Gilloise",
-     "bestOdds": 1.357,
+     "bestOdds": 1.364,
      "otherOdds": 7.5,
      "bookCount": "1",
      "favSide": "home"
@@ -1384,7 +1384,7 @@
    "markets": {
     "h2h": {
      "outcome": "Benfica",
-     "bestOdds": 1.53,
+     "bestOdds": 1.48,
      "otherOdds": 6.05,
      "bookCount": "10",
      "favSide": "away",
@@ -1417,7 +1417,7 @@
      "outcome": "Chicago Bears",
      "bestOdds": 1.83,
      "otherOdds": 2.05,
-     "bookCount": "10",
+     "bookCount": "9",
      "favSide": "away",
      "source": "oddsapi"
     }
@@ -1549,8 +1549,8 @@
    "markets": {
     "h2h": {
      "outcome": "Crystal Palace",
-     "bestOdds": 2.08,
-     "otherOdds": 3.3,
+     "bestOdds": 2.1,
+     "otherOdds": 3.29,
      "bookCount": "10",
      "favSide": "home",
      "source": "oddsapi"
@@ -2004,7 +2004,7 @@
      "outcome": "Dallas Cowboys",
      "bestOdds": 1.23,
      "otherOdds": 4.75,
-     "bookCount": "12",
+     "bookCount": "11",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -2190,7 +2190,7 @@
      "outcome": "Buffalo Bills",
      "bestOdds": 1.67,
      "otherOdds": 2.34,
-     "bookCount": "12",
+     "bookCount": "11",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -2341,7 +2341,7 @@
    "markets": {
     "h2h": {
      "outcome": "Gonzaga Bulldogs",
-     "bestOdds": 1.57,
+     "bestOdds": 1.58,
      "otherOdds": 2.6,
      "bookCount": "8",
      "favSide": "home",
@@ -2844,7 +2844,7 @@
      "outcome": "Dallas Stars",
      "bestOdds": 1.8,
      "otherOdds": 2.17,
-     "bookCount": "2",
+     "bookCount": "3",
      "favSide": "away",
      "source": "oddsapi"
     }
@@ -2999,7 +2999,7 @@
      "outcome": "Denver Broncos",
      "bestOdds": 1.5,
      "otherOdds": 2.85,
-     "bookCount": "12",
+     "bookCount": "11",
      "favSide": "away",
      "source": "oddsapi"
     }
@@ -3618,8 +3618,8 @@
    "markets": {
     "h2h": {
      "outcome": "New York Knicks",
-     "bestOdds": 1.61,
-     "otherOdds": 2.43,
+     "bestOdds": 1.6,
+     "otherOdds": 2.45,
      "bookCount": "6",
      "favSide": "home",
      "source": "oddsapi"
@@ -3671,7 +3671,7 @@
    "markets": {
     "h2h": {
      "outcome": "Philadelphia 76ers",
-     "bestOdds": 1.56,
+     "bestOdds": 1.57,
      "otherOdds": 2.55,
      "bookCount": "6",
      "favSide": "away",
@@ -5303,9 +5303,9 @@
    "markets": {
     "h2h": {
      "outcome": "América",
-     "bestOdds": 2.55,
+     "bestOdds": 2.6,
      "otherOdds": 3.4,
-     "bookCount": "3",
+     "bookCount": "4",
      "favSide": "home",
      "source": "oddsapi"
     }
