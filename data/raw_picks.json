@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T17:50:12.034870+00:00",
+ "generatedAt": "2026-11-26T18:20:40.403877+00:00",
  "picks": [
   {
    "gameId": "wta:186836",
@@ -13,7 +13,7 @@
    "edgePct": 0.5553,
    "tier": "PREMIUM",
    "bookCount": 0,
-   "startsAt": "2026-11-26T18:00Z",
+   "startsAt": "2026-11-26T18:05Z",
    "modelPriced": true,
    "why": "Guiomar Maristany Zuleta De Reales rated 78% to win; across 8 tracked games per side; a 56-point rating gap with no market price to lean on.",
    "edgeKind": "model",
@@ -474,8 +474,30 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Thin market: only 2 books quoting",
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
     "Drift against the favourite: 1.24 \u2192 1.40 (-12%) \u2014 money moving the other way"
+   ]
+  },
+  {
+   "gameId": "uel:401915519",
+   "match": "AFC Bournemouth @ Celta Vigo",
+   "league": "Europa League",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 1.98 \u2192 1.20 (+65%) \u2014 market confirming"
+   ]
+  },
+  {
+   "gameId": "uel:401915517",
+   "match": "Bayer Leverkusen @ Dinamo Zagreb",
+   "league": "Europa League",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 1.69 \u2192 1.26 (+34%) \u2014 market confirming"
    ]
   },
   {
@@ -496,7 +518,7 @@
    "signal": "high_risk_alert",
    "flags": [
     "Thin market: only 2 books quoting",
-    "Drift against the favourite: 2.35 \u2192 2.60 (-10%) \u2014 money moving the other way"
+    "Drift against the favourite: 2.30 \u2192 2.85 (-19%) \u2014 money moving the other way"
    ]
   },
   {
@@ -518,7 +540,27 @@
    "signal": "high_risk_alert",
    "flags": [
     "Thin market: only 2 books quoting",
-    "Heavy favourite: a short price leaves little margin"
+    "Drift against the favourite: 1.36 \u2192 3.70 (-63%) \u2014 money moving the other way"
+   ]
+  },
+  {
+   "gameId": "uel:401915518",
+   "match": "Benfica @ Viktoria Plzen",
+   "league": "Europa League",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Drift against the favourite: 1.48 \u2192 2.35 (-37%) \u2014 money moving the other way"
+   ]
+  },
+  {
+   "gameId": "nfl:401873081",
+   "match": "Chicago Bears @ Detroit Lions",
+   "league": "NFL",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Drift against the favourite: 1.86 \u2192 2.05 (-9%) \u2014 money moving the other way"
    ]
   },
   {
@@ -591,16 +633,6 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
-   "gameId": "ncaab:401920529",
-   "match": "Tennessee Volunteers @ Iowa State Cyclones",
-   "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Steam: favourite shortened 1.66 \u2192 1.52 (+9%) \u2014 market confirming"
    ]
   },
   {
@@ -826,16 +858,6 @@
    ]
   },
   {
-   "gameId": "nba:401909331",
-   "match": "Memphis Grizzlies @ Minnesota Timberwolves",
-   "league": "NBA",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
    "gameId": "nba:401909332",
    "match": "Dallas Mavericks @ Phoenix Suns",
    "league": "NBA",
@@ -866,13 +888,22 @@
    ]
   },
   {
+   "gameId": "nba:401909335",
+   "match": "New Orleans Pelicans @ LA Clippers",
+   "league": "NBA",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
    "gameId": "nba:401909336",
    "match": "Golden State Warriors @ Portland Trail Blazers",
    "league": "NBA",
-   "severity": 2,
-   "signal": "high_risk_alert",
+   "severity": 1,
+   "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 2 books quoting",
     "Heavy favourite: a short price leaves little margin"
    ]
   },
@@ -1025,7 +1056,7 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Steam: favourite shortened 2.60 \u2192 2.40 (+8%) \u2014 market confirming"
+    "Steam: favourite shortened 2.60 \u2192 2.35 (+11%) \u2014 market confirming"
    ]
   },
   {
