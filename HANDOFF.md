@@ -18,10 +18,29 @@ Stack: Next.js on Vercel, engine is stdlib Python.
 Vercel API. Engine secrets live in `engine/.env` (template: `engine/.env.example`).
 Deploys are content-hash and budget guarded (Hobby allows 100/day).
 
-**Running the engine:** 30-minute Windows Scheduled Task `TipLabCycle`.
-GitHub Actions schedules **do not fire on this account at all** — proven with a
-throwaway repo. `workflow_dispatch` works, cron does not. Do not spend time on
-that; move the engine to a host instead (task 5).
+**Running the engine:** GitHub Actions, on a public repo — Actions minutes are
+unlimited and free there, so this costs nothing and does not need any server.
+`.github/workflows/cycle.yml` is the heartbeat: every run **queues the next one
+itself** (~30 min after a full pass, ~5 min after a live pass) because GitHub's
+own scheduler misses slots on this account. One hourly cron exists only as a
+backstop if the chain breaks. The run decides its own mode from the age of
+`data/state.json`: over 25 minutes stale means a full pass, fresher means
+live-signals-only.
+
+Two things that must stay true or the chain silently dies:
+
+- `permissions: actions: write` — without it the dispatch returns 422 and, worse,
+  `curl` still exits 0. The chain step now checks for HTTP 204 and fails loudly.
+- The YAML must parse. A heredoc whose lines start at column 0 breaks the whole
+  workflow and GitHub then reports "does not have workflow_dispatch trigger".
+  Validate with `python -c "import yaml;yaml.safe_load(open('.github/workflows/cycle.yml'))"`
+  before pushing.
+
+Secrets: `VERCEL_TOKEN` and `ODDS_API_KEY` are GitHub repo secrets. `GITHUB_TOKEN`
+is automatic and now has the write scope it needs.
+
+The Windows Scheduled Task `TipLabCycle` still exists as a local fallback. Do not
+look for GitHub *schedule* reliability — it is a known dead end here.
 
 ## 2. Where it actually stands
 
