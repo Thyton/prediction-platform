@@ -227,6 +227,10 @@ account first". Until it is connected the fallback prints
 Once Git-linked, also re-point the engine at `publish_git.py` for full passes
 and keep `publish.py` as the break-glass path.
 
+**Fastest unblock:** `bash engine/ship.sh` — it retries the deploy every 15
+minutes until the cap clears (resets ~03:44Z daily), then verifies the routes.
+Run it in the background and leave it. Do not hand-deploy before it.
+
 ## 5. Rules
 
 - `npm run build` must pass; then verify live with
