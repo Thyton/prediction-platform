@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T11:14:41.094853+00:00",
+ "generatedAt": "2026-11-26T11:44:58.254152+00:00",
  "picks": [
   {
    "gameId": "epl:401879219",
@@ -666,6 +666,16 @@
    ]
   },
   {
+   "gameId": "esports:135032",
+   "match": "Saw Youngsters vs Quintessence",
+   "league": "Esports",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
    "gameId": "esports:134866",
    "match": "Tulpar vs Kamui",
    "league": "Esports",
@@ -691,10 +701,11 @@
    "gameId": "uel:401915507",
    "match": "Levski Sofia @ Marseille",
    "league": "Europa League",
-   "severity": 1,
-   "signal": "integrity_watch",
+   "severity": 2,
+   "signal": "high_risk_alert",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: a short price leaves little margin"
    ]
   },
   {
@@ -902,26 +913,6 @@
    ]
   },
   {
-   "gameId": "nhl:401892795",
-   "match": "Toronto Maple Leafs @ Boston Bruins",
-   "league": "NHL",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 2 books quoting"
-   ]
-  },
-  {
-   "gameId": "nhl:401892796",
-   "match": "Calgary Flames @ New Jersey Devils",
-   "league": "NHL",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 2 books quoting"
-   ]
-  },
-  {
    "gameId": "nhl:401892797",
    "match": "Utah Mammoth @ Nashville Predators",
    "league": "NHL",
@@ -1079,17 +1070,6 @@
    "signal": "integrity_watch",
    "flags": [
     "Thin market: only 2 books quoting"
-   ]
-  },
-  {
-   "gameId": "nhl:401892809",
-   "match": "Seattle Kraken @ Edmonton Oilers",
-   "league": "NHL",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 2 books quoting",
-    "Drift against the favourite: 1.43 \u2192 1.56 (-8%) \u2014 money moving the other way"
    ]
   },
   {
