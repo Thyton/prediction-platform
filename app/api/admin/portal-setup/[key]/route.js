@@ -1,14 +1,22 @@
 import { NextResponse } from "next/server";
 
 // One-off admin: turns on the Stripe customer portal configuration so paying
-// members can cancel. Guarded by ALERT_SECRET. Safe to call more than once.
-// GET /api/admin/portal-setup?k=<ALERT_SECRET>
+// members can cancel. Guarded by ADMIN_KEY. Safe to call more than once.
+// GET /api/admin/portal-setup/<ADMIN_KEY>
 export const dynamic = "force-dynamic";
 
-export async function GET(req) {
-  const k = new URL(req.url).searchParams.get("k") || "";
+export async function GET(req, ctx) {
+  const { key: seg } = (await ctx?.params) || {};
+  const url = new URL(req.url);
+  const k = seg || url.searchParams.get("k") || "";
   if (!process.env.ADMIN_KEY || k !== process.env.ADMIN_KEY) {
-    return NextResponse.json({ error: "forbidden" }, { status: 403 });
+    return NextResponse.json({
+      error: "forbidden",
+      got: k.slice(0, 12),
+      expecting: (process.env.ADMIN_KEY || "").slice(0, 12),
+      hasKey: Boolean(process.env.ADMIN_KEY),
+      raw: url.href.slice(0, 120),
+    }, { status: 403 });
   }
   const key = process.env.STRIPE_SECRET_KEY;
   if (!key) return NextResponse.json({ error: "no stripe key" }, { status: 500 });
