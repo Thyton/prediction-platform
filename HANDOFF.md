@@ -1,9 +1,12 @@
-# TipLab — work brief for Codex
+# TipLab — state and handoff (updated 2026-11-26, evening)
 
-Read this whole file before touching anything, then work top to bottom.
-Repo: `https://github.com/Thyton/prediction-platform`, branch `main`.
+Read this before touching anything. Sections 1-3 are what the product is and
+where it stands; section 4 is the open work, top item first.
 
----
+**Everything below is committed and pushed on `main`. Nothing is half-saved.**
+The one thing not done is the *deploy*: Vercel's 100-API-deployments-per-day cap
+is spent (resets ~03:44Z), so the tree is ahead of the live site. `engine/ship.sh`
+retries automatically and `bash engine/ship.sh` is the way to land it.
 
 ## 1. What this product is
 
@@ -109,7 +112,32 @@ grading draws as pushes, were both deliberate.
 
 ## 4. THE tick list
 
-### 4.0 Growth surfaces still missing
+### 4.0 DONE today (2026-11-26 evening) — do not redo
+
+- **Sport hubs** `/sport/<sport>`: record in the sport, open picks, ESPN
+  standings, upcoming fixtures. 18 league chips link here; tennis/UFC/esports
+  stay as in-place filters because they have no table. Standings rows link to
+  team pages and team pages breadcrumb back. In the sitemap.
+- **Team follows**: `/api/follow-team` + button on team pages, and the digest
+  mails a member their followed teams first.
+- **Auth hardened**: scrypt, transparent rehash of legacy SHA-256 on login,
+  signup and reset write scrypt. A double-salt bug was caught by the contract
+  tests and fixed. All 8 contract cases pass, legacy migration verified.
+- **Stripe portal unblocked**: a live portal configuration now exists
+  (`bpc_1UftAaHIlSlzaM2CDrmgEz2w`) and `/api/portal` pins it via
+  `STRIPE_PORTAL_CONFIG`. Members can cancel again.
+- **Webhook**: the endpoint exists and is live but its event list is narrow —
+  `GET /api/admin/webhook-events/<ADMIN_KEY>` adds the subscription events the
+  handler already supports (idempotent).
+- **Digest** fires on the first full pass at/after 07:00Z, not only hour 07.
+- **Streak badge** on pick cards from 3 wins/losses, hidden otherwise.
+- **og:image** for `/record` and `/pricing`.
+- **Email reply-to** `support@pinzak.com` (tiplab.io has no inbound mailbox).
+- **Pick page** names what tracking does and links on to the sport hub.
+- Deploy quota: clean skip on 402, 20-min live chain, live capped at 55/day,
+  live rate-limit, `--force`, and a Git-deploy fallback (`publish_git.py`).
+
+### 4.0b Growth surfaces still missing
 
 Roughly in value order. All are buildable from data already in `data/`.
 
