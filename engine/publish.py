@@ -66,6 +66,7 @@ def deploys_today():
 
 def main(argv):
     live = "--live" in argv
+    force = "--force" in argv   # operator ship: ignore the daily budget
     state = os.path.join(DATA, ".deploy_state.json")
     prev = {}
     try:
@@ -89,7 +90,16 @@ def main(argv):
         except OSError:
             pass
     used = deploys_today()
-    if used >= BUDGET:
+    if used >= BUDGET and not force:
+        # out of API deployments: push instead, if the project is Git-linked.
+        # Vercel's own build does not count against the quota.
+        if os.environ.get("DEPLOY_VIA_GIT", "1") == "1":
+            r = subprocess.run([sys.executable, "-X", "utf8",
+                                os.path.join(os.path.dirname(os.path.abspath(__file__)), "publish_git.py")],
+                               capture_output=True, text=True, timeout=180)
+            out = (r.stdout or r.stderr).strip()
+            print(f"budget reached ({used}/{BUDGET}); git deploy: {out}")
+            return r.returncode
         print(f"deploy budget reached ({used}/{BUDGET}), skip")
         return 0
     url = deploy({"data/live.json"} if live else None)
