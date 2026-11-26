@@ -227,6 +227,26 @@ account first". Until it is connected the fallback prints
 Once Git-linked, also re-point the engine at `publish_git.py` for full passes
 and keep `publish.py` as the break-glass path.
 
+
+## 4b. Account steps only Marco can do (blockers, not code)
+
+1. **Vercel → GitHub login connection.** For the git deploy path to work,
+   connect GitHub on the Vercel account, then Project `web` → Settings → Git →
+   Connect Repository → `Thyton/prediction-platform`, production `main`.
+   Until then the site can only ship through the API quota (100/day).
+   Once done, set `DEPLOY_VIA_GIT=0` nowhere — leave it on so the engine pushes
+   instead of burning quota.
+2. **Consider upgrading the Vercel plan (Pro, $20/mo).** Hobby's 100
+   deployments a day is the same number every single day; the engine alone
+   wants ~120 and a code ship needs headroom. Pro removes the cap and the
+   10-second function limit the digest is fighting.
+3. **Confirm the webhook signing secret on the enabled endpoint.** The
+   TipLab endpoint exists and is live but its event list was narrow; run
+   `GET https://tiplab.io/api/admin/webhook-events/<ADMIN_KEY>` once deployed to
+   add the subscription events (`--` it is idempotent and reports `already`).
+4. Send one real test message from the dashboard contact form so a reply lands
+   in `support@pinzak.com` and confirm it arrives.
+
 **Fastest unblock:** `bash engine/ship.sh` — it retries the deploy every 15
 minutes until the cap clears (resets ~03:44Z daily), then verifies the routes.
 Run it in the background and leave it. Do not hand-deploy before it.
