@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T12:45:47.146530+00:00",
+ "generatedAt": "2026-11-26T13:16:13.950874+00:00",
  "picks": [
   {
    "gameId": "epl:401879219",
@@ -1148,6 +1148,16 @@
    "gameId": "ligaprof:401936353",
    "match": "Independiente @ V\u00e9lez Sarsfield",
    "league": "Argentina Liga Profesional",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "ligamx:401931997",
+   "match": "Toluca @ Atlas",
+   "league": "Liga MX",
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
