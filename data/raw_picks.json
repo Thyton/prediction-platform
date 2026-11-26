@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T11:44:58.243016+00:00",
+ "generatedAt": "2026-11-26T12:15:22.939087+00:00",
  "picks": [
   {
    "gameId": "wta:186836",
@@ -446,6 +446,17 @@
    ]
   },
   {
+   "gameId": "esports:134516",
+   "match": "Drama Esports vs Forze Reload",
+   "league": "Esports",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
    "gameId": "esports:134393",
    "match": "Parivision vs Lynn Vision",
    "league": "Esports",
@@ -469,6 +480,17 @@
   {
    "gameId": "esports:134866",
    "match": "Tulpar vs Kamui",
+   "league": "Esports",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
+   "gameId": "esports:134392",
+   "match": "9z vs 100 Thieves",
    "league": "Esports",
    "severity": 2,
    "signal": "high_risk_alert",
@@ -704,26 +726,6 @@
    ]
   },
   {
-   "gameId": "nhl:401892797",
-   "match": "Utah Mammoth @ Nashville Predators",
-   "league": "NHL",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 2 books quoting"
-   ]
-  },
-  {
-   "gameId": "nhl:401892798",
-   "match": "Dallas Stars @ St. Louis Blues",
-   "league": "NHL",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 2 books quoting"
-   ]
-  },
-  {
    "gameId": "ncaaf:401869930",
    "match": "App State Mountaineers @ South Alabama Jaguars",
    "league": "NCAAF",
@@ -731,46 +733,6 @@
    "signal": "integrity_watch",
    "flags": [
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "nhl:401892799",
-   "match": "Ottawa Senators @ Tampa Bay Lightning",
-   "league": "NHL",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 2 books quoting"
-   ]
-  },
-  {
-   "gameId": "nhl:401892800",
-   "match": "Vancouver Canucks @ Philadelphia Flyers",
-   "league": "NHL",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 2 books quoting"
-   ]
-  },
-  {
-   "gameId": "nhl:401892801",
-   "match": "Florida Panthers @ Washington Capitals",
-   "league": "NHL",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 2 books quoting"
-   ]
-  },
-  {
-   "gameId": "nhl:401892802",
-   "match": "Detroit Red Wings @ Columbus Blue Jackets",
-   "league": "NHL",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 2 books quoting"
    ]
   },
   {
@@ -834,16 +796,6 @@
    ]
   },
   {
-   "gameId": "nhl:401892807",
-   "match": "Winnipeg Jets @ New York Islanders",
-   "league": "NHL",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 2 books quoting"
-   ]
-  },
-  {
    "gameId": "nba:401909330",
    "match": "Atlanta Hawks @ Boston Celtics",
    "league": "NBA",
@@ -851,16 +803,6 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
-   "gameId": "nhl:401892808",
-   "match": "Pittsburgh Penguins @ Buffalo Sabres",
-   "league": "NHL",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 2 books quoting"
    ]
   },
   {
