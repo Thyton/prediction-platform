@@ -33,30 +33,21 @@ jobs:
 
       - name: Decide mode
         id: mode
+        # GitHub's scheduler fires unreliably on this account (hours of silence
+        # seen), so the mode is decided by how stale the board is, not by the
+        # clock: older than 25 minutes gets a full pass, fresher is live-only.
+        # Whatever fires, the right work happens.
         run: |
-          # GitHub's scheduler fires unreliably on this account (proven: hours of
-          # silence), so the mode is decided by data staleness, not by the clock.
-          # A board older than 25 minutes always gets a full pass; anything fresher
-          # is a live-signals-only run. Whatever fires, the right work happens.
           FULL=0
           if [ "${{ inputs.live_only }}" = "true" ]; then
             FULL=0
           else
-            AGE=$(python - <<'PY'
-import json, datetime, sys
-try:
-    g = json.load(open("data/state.json")).get("generatedAt") or ""
-    t = datetime.datetime.fromisoformat(g)
-    if not t.tzinfo:
-        t = t.replace(tzinfo=datetime.UTC)
-    print(int((datetime.datetime.now(datetime.UTC) - t).total_seconds() // 60))
-except Exception:
-    print(999)
-PY
-)
+            AGE=$(python -X utf8 -c "import json,datetime;t=json.load(open('data/state.json'))['generatedAt'];d=datetime.datetime.fromisoformat(t);d=(d if d.tzinfo else d.replace(tzinfo=datetime.UTC));print(int((datetime.datetime.now(datetime.UTC)-d).total_seconds()//60))" 2>/dev/null || echo 999)
             echo "board age: ${AGE}m" >> "$GITHUB_STEP_SUMMARY"
             if [ "$AGE" -ge 25 ]; then FULL=1; fi
           fi
+          if [ "$FULL" = "1" ]; then echo "live=" >> "$GITHUB_OUTPUT"
+          else echo "live=--live" >> "$GITHUB_OUTPUT"; fi
           if [ "$FULL" = "1" ]; then echo "live=" >> "$GITHUB_OUTPUT"
           else echo "live=--live" >> "$GITHUB_OUTPUT"; fi
 
