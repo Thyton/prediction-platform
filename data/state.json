@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T21:23:13.110133+00:00",
+ "generatedAt": "2026-11-26T21:53:44.256686+00:00",
  "picks": [
   {
    "gameId": "epl:401879219",
@@ -730,10 +730,22 @@
    "gameId": "nfl:401873081",
    "match": "Chicago Bears @ Detroit Lions",
    "league": "NFL",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Steam: favourite shortened 2.05 \u2192 1.78 (+15%) \u2014 market confirming"
+   ]
+  },
+  {
+   "gameId": "esports:134521",
+   "match": "Spirit Academy vs Lir",
+   "league": "Esports",
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Drift against the favourite: 1.89 \u2192 2.40 (-21%) \u2014 money moving the other way"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: a short price leaves little margin"
    ]
   },
   {
@@ -759,16 +771,6 @@
    ]
   },
   {
-   "gameId": "esports:135084",
-   "match": "Banger Gang vs Phantom Academy",
-   "league": "Esports",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
    "gameId": "ncaab:401906869",
    "match": "Georgetown Hoyas @ Texas Longhorns",
    "league": "NCAAB",
@@ -776,28 +778,28 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.31 \u2192 1.01 (+30%) \u2014 market confirming"
+    "Steam: favourite shortened 1.29 \u2192 1.02 (+26%) \u2014 market confirming"
    ]
   },
   {
    "gameId": "uel:401915504",
    "match": "Real Sociedad @ Crystal Palace",
    "league": "Europa League",
-   "severity": 2,
-   "signal": "high_risk_alert",
+   "severity": 1,
+   "signal": "integrity_watch",
    "flags": [
-    "Drift against the favourite: 2.20 \u2192 3.80 (-42%) \u2014 money moving the other way"
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 2.22 \u2192 1.08 (+106%) \u2014 market confirming"
    ]
   },
   {
    "gameId": "uel:401915516",
    "match": "NK Celje @ Ferencvaros",
    "league": "Europa League",
-   "severity": 2,
-   "signal": "high_risk_alert",
+   "severity": 1,
+   "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 2 books quoting",
-    "Drift against the favourite: 1.37 \u2192 1.71 (-20%) \u2014 money moving the other way"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
@@ -818,18 +820,18 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Drift against the favourite: 1.22 \u2192 1.69 (-28%) \u2014 money moving the other way"
+    "Big underdog priced: market implies low confidence",
+    "Drift against the favourite: 1.21 \u2192 351.00 (-100%) \u2014 money moving the other way"
    ]
   },
   {
    "gameId": "uel:401915505",
    "match": "Stade Rennais @ NEC Nijmegen",
    "league": "Europa League",
-   "severity": 2,
-   "signal": "high_risk_alert",
+   "severity": 1,
+   "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 2 books quoting",
-    "Drift against the favourite: 2.10 \u2192 2.70 (-22%) \u2014 money moving the other way"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
@@ -840,7 +842,7 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.85 \u2192 1.21 (+53%) \u2014 market confirming"
+    "Steam: favourite shortened 1.85 \u2192 1.11 (+67%) \u2014 market confirming"
    ]
   },
   {
@@ -850,7 +852,8 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Steam: favourite shortened 2.45 \u2192 1.44 (+70%) \u2014 market confirming"
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 2.45 \u2192 1.19 (+106%) \u2014 market confirming"
    ]
   },
   {
@@ -860,38 +863,52 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Thin market: only 2 books quoting",
-    "Drift against the favourite: 1.26 \u2192 2.00 (-37%) \u2014 money moving the other way"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: a short price leaves little margin"
    ]
   },
   {
    "gameId": "uel:401915512",
    "match": "Celtic @ Torreense",
    "league": "Europa League",
-   "severity": 2,
-   "signal": "high_risk_alert",
+   "severity": 1,
+   "signal": "integrity_watch",
    "flags": [
-    "Drift against the favourite: 1.69 \u2192 2.20 (-23%) \u2014 money moving the other way"
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 1.69 \u2192 1.05 (+61%) \u2014 market confirming"
    ]
   },
   {
    "gameId": "uel:401915515",
    "match": "SK Sturm Graz @ TSG Hoffenheim",
    "league": "Europa League",
-   "severity": 2,
-   "signal": "high_risk_alert",
+   "severity": 1,
+   "signal": "integrity_watch",
    "flags": [
-    "Drift against the favourite: 1.33 \u2192 2.30 (-42%) \u2014 money moving the other way"
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 1.33 \u2192 1.10 (+21%) \u2014 market confirming"
    ]
   },
   {
    "gameId": "ncaab:401920529",
    "match": "Tennessee Volunteers @ Iowa State Cyclones",
    "league": "NCAAB",
-   "severity": 2,
-   "signal": "high_risk_alert",
+   "severity": 1,
+   "signal": "integrity_watch",
    "flags": [
-    "Drift against the favourite: 1.52 \u2192 2.05 (-26%) \u2014 money moving the other way"
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 1.52 \u2192 1.29 (+18%) \u2014 market confirming"
+   ]
+  },
+  {
+   "gameId": "ncaab:401920537",
+   "match": "Miami Hurricanes @ Michigan Wolverines",
+   "league": "NCAAB",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 1.80 \u2192 1.17 (+54%) \u2014 market confirming"
    ]
   },
   {
@@ -1039,6 +1056,16 @@
    "gameId": "superlig:401888240",
    "match": "Kasimpasa @ Caykur Rizespor",
    "league": "Turkish Super Lig",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "ncaab:401929288",
+   "match": "Wake Forest Demon Deacons @ Memphis Tigers",
+   "league": "NCAAB",
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
