@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T08:42:58.718084+00:00",
+ "generatedAt": "2026-11-26T09:13:19.989381+00:00",
  "picks": [
   {
    "gameId": "epl:401879219",
@@ -310,16 +310,6 @@
    "gameId": "ncaab:401920428",
    "match": "Virginia Cavaliers @ Marquette Golden Eagles",
    "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "esports:134883",
-   "match": "Rush Gaming vs Gremio",
-   "league": "Esports",
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
@@ -651,6 +641,17 @@
    "signal": "integrity_watch",
    "flags": [
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "esports:134391",
+   "match": "Faze vs Heroic",
+   "league": "Esports",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: a short price leaves little margin"
    ]
   },
   {
@@ -1018,36 +1019,6 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
-   "gameId": "nhl:401892803",
-   "match": "Colorado Avalanche @ Minnesota Wild",
-   "league": "NHL",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 2 books quoting"
-   ]
-  },
-  {
-   "gameId": "nhl:401892804",
-   "match": "Los Angeles Kings @ Anaheim Ducks",
-   "league": "NHL",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 2 books quoting"
-   ]
-  },
-  {
-   "gameId": "nhl:401892805",
-   "match": "Vegas Golden Knights @ San Jose Sharks",
-   "league": "NHL",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 2 books quoting"
    ]
   },
   {
