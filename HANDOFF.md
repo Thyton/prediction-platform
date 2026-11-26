@@ -198,6 +198,35 @@ the day entirely. Make it "first full pass at or after 07:00", not "hour == 7".
 - `/games` tab renders 80 rows unordered. Sort by kickoff.
 - Add `og:image` to `/record` and `/pricing` (only `/` has one).
 
+
+### 4.6 Deploy quota — the real blocker on shipping (2026-11-26)
+
+Hobby allows **100 API deployments a day** and the 5-minute engine chain
+spends them by lunchtime. When the cap is hit, *code* cannot ship at all
+(Vercel returns `402 payment_required / api-deployments-free-per-day`), and the
+daily counter counts a rolling 24h so it recovers slowly.
+
+Mitigations now in the tree:
+- live-only deploys throttled to 4 min (`LIVE_DEPLOY_GAP_S`) and capped at 55
+  a day (`LIVE_DEPLOY_BUDGET`), so full passes and operator ships keep room.
+  Full passes are never throttled and use the whole 85 budget.
+- unchanged signal payloads already skip on content hash.
+- `publish.py --force` skips our guard for a deliberate ship.
+- `engine/publish_git.py`: commit + push instead of calling the API. A Git push
+  build does **not** count against the API quota. `publish.py` falls back to it
+  automatically when the cap is reached (`DEPLOY_VIA_GIT=1`, the default).
+
+**One dashboard step is still needed for the fallback to work:** Vercel →
+project `web` → Settings → Git → Connect Git Repository →
+`Thyton/prediction-platform`, production branch `main`. The API cannot do it —
+the Vercel account has no GitHub login connection, so
+`POST /v9/projects/<id>/link` returns "add a Login Connection to your GitHub
+account first". Until it is connected the fallback prints
+`git deploy: nothing to push` / pushes nothing that Vercel builds.
+
+Once Git-linked, also re-point the engine at `publish_git.py` for full passes
+and keep `publish.py` as the break-glass path.
+
 ## 5. Rules
 
 - `npm run build` must pass; then verify live with

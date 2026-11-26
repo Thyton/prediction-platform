@@ -6,6 +6,9 @@ TEAM = "team_I1jfujieN7ofXAqLMLU4iRvh"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data")
 BUDGET = int(os.environ.get("DEPLOY_BUDGET", "85"))   # Hobby allows 100/day; keep headroom
+# Live-only deploys stop here. They are a refresh, not the product; this leaves
+# the rest of the budget for full passes and for an operator ship.
+LIVE_BUDGET = int(os.environ.get("LIVE_DEPLOY_BUDGET", "55"))
 # A live-only deploy is just a signal refresh. Cap how often those go out so a
 # fixture-packed day cannot drain the budget the full board needs. 4 minutes
 # keeps signals useful without one deploy per 5-minute cron.
@@ -90,7 +93,8 @@ def main(argv):
         except OSError:
             pass
     used = deploys_today()
-    if used >= BUDGET and not force:
+    cap = LIVE_BUDGET if live else BUDGET
+    if used >= cap and not force:
         # out of API deployments: push instead, if the project is Git-linked.
         # Vercel's own build does not count against the quota.
         if os.environ.get("DEPLOY_VIA_GIT", "1") == "1":
@@ -98,9 +102,9 @@ def main(argv):
                                 os.path.join(os.path.dirname(os.path.abspath(__file__)), "publish_git.py")],
                                capture_output=True, text=True, timeout=180)
             out = (r.stdout or r.stderr).strip()
-            print(f"budget reached ({used}/{BUDGET}); git deploy: {out}")
+            print(f"budget reached ({used}/{cap}); git deploy: {out}")
             return r.returncode
-        print(f"deploy budget reached ({used}/{BUDGET}), skip")
+        print(f"deploy budget reached ({used}/{cap}), skip")
         return 0
     url = deploy({"data/live.json"} if live else None)
     if live:
