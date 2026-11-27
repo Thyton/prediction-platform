@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-27T14:08:39.321102+00:00",
+ "generatedAt": "2026-11-27T14:39:06.463988+00:00",
  "picks": [
   {
    "gameId": "epl:401879219",
@@ -493,17 +493,6 @@
    ]
   },
   {
-   "gameId": "esports:134396",
-   "match": "Heroic vs Lynn Vision",
-   "league": "Esports",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
    "gameId": "esports:134397",
    "match": "Wildcard Gaming vs Imperial",
    "league": "Esports",
@@ -548,12 +537,13 @@
    ]
   },
   {
-   "gameId": "ncaab:401920429",
-   "match": "Virginia Cavaliers @ Xavier Musketeers",
-   "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
+   "gameId": "esports:135041",
+   "match": "Honved vs Azuolas",
+   "league": "Esports",
+   "severity": 2,
+   "signal": "high_risk_alert",
    "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
     "Heavy favourite: a short price leaves little margin"
    ]
   },
