@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-27T00:56:02.122771+00:00",
+ "generatedAt": "2026-11-27T01:26:28.568221+00:00",
  "games": [
   {
    "id": "nfl:401873081",
@@ -99,24 +99,6 @@
    "boType": 3,
    "mapScore": [
     1,
-    2
-   ],
-   "drawPossible": false
-  },
-  {
-   "id": "esports:134954",
-   "sport": "esports",
-   "league": "Esports",
-   "match": "Los Ninos vs Mira Br",
-   "home": "Mira Br",
-   "away": "Los Ninos",
-   "startsAt": "2026-11-26T19:00:00.000+00:00",
-   "state": "finished",
-   "markets": {},
-   "tier": "c",
-   "boType": 3,
-   "mapScore": [
-    0,
     2
    ],
    "drawPossible": false
@@ -311,6 +293,33 @@
    "drawPossible": false
   },
   {
+   "id": "esports:134953",
+   "sport": "esports",
+   "league": "Esports",
+   "match": "Red Canids Academy vs Gremio",
+   "home": "Gremio",
+   "away": "Red Canids Academy",
+   "startsAt": "2026-11-26T21:30:00.000+00:00",
+   "state": "finished",
+   "markets": {
+    "h2h": {
+     "outcome": "Red Canids Academy",
+     "bestOdds": 1.16,
+     "otherOdds": 4.63,
+     "bookCount": "1",
+     "favSide": "away",
+     "source": "bo3"
+    }
+   },
+   "tier": "c",
+   "boType": 3,
+   "mapScore": [
+    1,
+    2
+   ],
+   "drawPossible": false
+  },
+  {
    "id": "ncaab:401925757",
    "sport": "ncaab",
    "league": "NCAAB",
@@ -391,8 +400,8 @@
    "markets": {
     "h2h": {
      "outcome": "Dallas Cowboys",
-     "bestOdds": 1.14,
-     "otherOdds": 23.0,
+     "bestOdds": 3.1,
+     "otherOdds": 10.5,
      "bookCount": "7",
      "favSide": "home",
      "source": "oddsapi"
@@ -470,7 +479,7 @@
    "markets": {
     "h2h": {
      "outcome": "LSU Tigers",
-     "bestOdds": 2.24,
+     "bestOdds": 2.8,
      "otherOdds": 3.45,
      "bookCount": "2",
      "favSide": "away"
@@ -493,21 +502,21 @@
    "homeId": "2641",
    "awayId": "2628",
    "startsAt": "2026-11-27T01:00Z",
-   "state": "pre",
+   "state": "in",
    "_path": "football/college-football",
    "_eid": "401856879",
    "_cid": "401856879",
    "markets": {
     "h2h": {
      "outcome": "Texas Tech Red Raiders",
-     "bestOdds": 1.21,
-     "otherOdds": 5.75,
-     "bookCount": "12",
+     "bestOdds": 1.24,
+     "otherOdds": 6.75,
+     "bookCount": "8",
      "favSide": "home",
      "source": "oddsapi"
     }
    },
-   "espnUrl": "https://www.espn.com/college-football/game/_/gameId/401856879/tcu-texas-tech",
+   "espnUrl": null,
    "drawPossible": false
   },
   {
@@ -1312,7 +1321,7 @@
     "h2h": {
      "outcome": "Denver Broncos",
      "bestOdds": 1.45,
-     "otherOdds": 3.11,
+     "otherOdds": 3.1,
      "bookCount": "12",
      "favSide": "away",
      "source": "oddsapi"
@@ -1434,7 +1443,7 @@
    "markets": {
     "h2h": {
      "outcome": "Florida Panthers",
-     "bestOdds": 1.93,
+     "bestOdds": 1.91,
      "otherOdds": 2.03,
      "bookCount": "12",
      "favSide": "away",
@@ -1680,7 +1689,7 @@
    "markets": {
     "h2h": {
      "outcome": "Minnesota Wild",
-     "bestOdds": 1.81,
+     "bestOdds": 1.83,
      "otherOdds": 2.15,
      "bookCount": "12",
      "favSide": "home",
@@ -1983,8 +1992,8 @@
    "markets": {
     "h2h": {
      "outcome": "New York Knicks",
-     "bestOdds": 1.6,
-     "otherOdds": 2.46,
+     "bestOdds": 1.65,
+     "otherOdds": 2.4,
      "bookCount": "9",
      "favSide": "home",
      "source": "oddsapi"
@@ -2014,7 +2023,7 @@
    "markets": {
     "h2h": {
      "outcome": "Detroit Pistons",
-     "bestOdds": 1.26,
+     "bestOdds": 1.27,
      "otherOdds": 4.55,
      "bookCount": "9",
      "favSide": "home",
@@ -2233,7 +2242,7 @@
      "outcome": "Boston Celtics",
      "bestOdds": 1.25,
      "otherOdds": 4.75,
-     "bookCount": "8",
+     "bookCount": "9",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -2294,7 +2303,7 @@
     "h2h": {
      "outcome": "Edmonton Oilers",
      "bestOdds": 1.51,
-     "otherOdds": 2.88,
+     "otherOdds": 2.9,
      "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
@@ -2356,7 +2365,7 @@
     "h2h": {
      "outcome": "Minnesota Timberwolves",
      "bestOdds": 1.62,
-     "otherOdds": 2.48,
+     "otherOdds": 2.42,
      "bookCount": "8",
      "favSide": "home",
      "source": "oddsapi"
@@ -2386,7 +2395,7 @@
    "markets": {
     "h2h": {
      "outcome": "Phoenix Suns",
-     "bestOdds": 1.76,
+     "bestOdds": 1.75,
      "otherOdds": 2.15,
      "bookCount": "6",
      "favSide": "home",
@@ -2480,7 +2489,7 @@
     "h2h": {
      "outcome": "Denver Nuggets",
      "bestOdds": 1.26,
-     "otherOdds": 4.75,
+     "otherOdds": 4.85,
      "bookCount": "8",
      "favSide": "away",
      "source": "oddsapi"
@@ -2541,7 +2550,7 @@
     "h2h": {
      "outcome": "Portland Trail Blazers",
      "bestOdds": 1.29,
-     "otherOdds": 3.95,
+     "otherOdds": 4.1,
      "bookCount": "8",
      "favSide": "home",
      "source": "oddsapi"
@@ -2651,7 +2660,7 @@
     "h2h": {
      "outcome": "Real Betis",
      "bestOdds": 1.63,
-     "otherOdds": 5.4,
+     "otherOdds": 5.5,
      "bookCount": "9",
      "favSide": "home",
      "source": "oddsapi"
@@ -3282,8 +3291,8 @@
     "h2h": {
      "outcome": "North Carolina Tar Heels",
      "bestOdds": 1.46,
-     "otherOdds": 2.95,
-     "bookCount": "12",
+     "otherOdds": 2.9,
+     "bookCount": "9",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -7623,8 +7632,8 @@
    "markets": {
     "h2h": {
      "outcome": "AFC Bournemouth",
-     "bestOdds": 2.6,
-     "otherOdds": 2.8,
+     "bestOdds": 2.55,
+     "otherOdds": 2.85,
      "bookCount": "11",
      "favSide": "away",
      "source": "oddsapi"
