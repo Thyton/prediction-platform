@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-27T13:38:13.333412+00:00",
+ "generatedAt": "2026-11-27T14:08:39.321102+00:00",
  "picks": [
   {
    "gameId": "epl:401879219",
@@ -526,6 +526,28 @@
    ]
   },
   {
+   "gameId": "esports:134854",
+   "match": "Spirit Academy Green vs Bebop",
+   "league": "Esports",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
+   "gameId": "esports:134523",
+   "match": "Drama Esports vs Lir",
+   "league": "Esports",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
    "gameId": "ncaab:401920429",
    "match": "Virginia Cavaliers @ Xavier Musketeers",
    "league": "NCAAB",
@@ -603,8 +625,7 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.43 \u2192 1.29 (+11%) \u2014 market confirming"
+    "Heavy favourite: a short price leaves little margin"
    ]
   },
   {
@@ -615,16 +636,6 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
-   "gameId": "seriea:401875004",
-   "match": "Bologna @ Venezia",
-   "league": "Serie A",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Drift against the favourite: 2.28 \u2192 2.50 (-9%) \u2014 money moving the other way"
    ]
   },
   {
@@ -822,10 +833,11 @@
    "gameId": "ncaab:401920535",
    "match": "Texas Tech Red Raiders @ San Diego State Aztecs",
    "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
+   "severity": 2,
+   "signal": "high_risk_alert",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: a short price leaves little margin"
    ]
   },
   {
