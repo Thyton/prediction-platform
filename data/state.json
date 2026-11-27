@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-27T14:39:06.463988+00:00",
+ "generatedAt": "2026-11-27T15:09:28.462498+00:00",
  "picks": [
   {
    "gameId": "epl:401879219",
@@ -537,6 +537,17 @@
    ]
   },
   {
+   "gameId": "esports:134398",
+   "match": "100 Thieves vs M80 Cs Go",
+   "league": "Esports",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
    "gameId": "esports:135041",
    "match": "Honved vs Azuolas",
    "league": "Esports",
@@ -591,10 +602,11 @@
    "gameId": "ncaab:401929288",
    "match": "Wake Forest Demon Deacons @ Memphis Tigers",
    "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
+   "severity": 2,
+   "signal": "high_risk_alert",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Drift against the favourite: 1.70 \u2192 1.89 (-10%) \u2014 money moving the other way"
    ]
   },
   {
@@ -719,6 +731,16 @@
    ]
   },
   {
+   "gameId": "brasileirao:401841337",
+   "match": "Cruzeiro @ Fluminense",
+   "league": "Brazil Serie A",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Steam: favourite shortened 2.10 \u2192 1.94 (+8%) \u2014 market confirming"
+   ]
+  },
+  {
    "gameId": "nba:401909327",
    "match": "Milwaukee Bucks @ Detroit Pistons",
    "league": "NBA",
@@ -821,7 +843,7 @@
   },
   {
    "gameId": "ncaab:401920535",
-   "match": "Texas Tech Red Raiders @ San Diego State Aztecs",
+   "match": "San Diego State Aztecs @ Texas Tech Red Raiders",
    "league": "NCAAB",
    "severity": 2,
    "signal": "high_risk_alert",
@@ -1352,6 +1374,16 @@
    "signal": "integrity_watch",
    "flags": [
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "ligamx:401932000",
+   "match": "Le\u00f3n @ Cruz Azul",
+   "league": "Liga MX",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Steam: favourite shortened 1.91 \u2192 1.76 (+8%) \u2014 market confirming"
    ]
   },
   {
