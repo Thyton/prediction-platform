@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-27T21:14:44.500155+00:00",
+ "generatedAt": "2026-11-27T21:45:13.706339+00:00",
  "picks": [
   {
    "gameId": "epl:401879219",
@@ -100,31 +100,6 @@
    "profitUnits": null,
    "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401879231/newcastle-united-brighton-hove-albion",
    "why": "Brighton & Hove Albion rated 78% to win; with 1 book quoting; a slim but real gap to the market price."
-  },
-  {
-   "gameId": "bundesliga:401884720",
-   "match": "Borussia M\u00f6nchengladbach @ Werder Bremen",
-   "league": "Bundesliga",
-   "sport": "bundesliga",
-   "side": "home",
-   "price": 1.77,
-   "modelProb": 0.7747,
-   "marketProb": 0.6985,
-   "edgePct": 0.0762,
-   "tier": "PREMIUM",
-   "bookCount": 8,
-   "startsAt": "2026-11-27T19:30Z",
-   "home": "Werder Bremen",
-   "away": "Borussia M\u00f6nchengladbach",
-   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/137.png",
-   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/268.png",
-   "homeAbbr": "SVW",
-   "awayAbbr": "BMG",
-   "lockTs": "2026-11-23T20:59:06.229138+00:00",
-   "result": null,
-   "profitUnits": null,
-   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401884720/borussia-monchengladbach-werder-bremen",
-   "why": "Werder Bremen rated 77% to win; with 8 books quoting; a 7.6-point gap to the market price."
   },
   {
    "gameId": "epl:401879222",
@@ -466,17 +441,6 @@
    ]
   },
   {
-   "gameId": "esports:134398",
-   "match": "100 Thieves vs M80 Cs Go",
-   "league": "Esports",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
    "gameId": "esports:134524",
    "match": "Xmeta vs Nordic Partners Gaming",
    "league": "Esports",
@@ -583,6 +547,17 @@
    ]
   },
   {
+   "gameId": "esports:135046",
+   "match": "Megoshort vs Lunacy Team",
+   "league": "Esports",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
    "gameId": "ncaab:401920533",
    "match": "Iowa State Cyclones @ St. John's Red Storm",
    "league": "NCAAB",
@@ -640,8 +615,18 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "nhl:401892798",
+   "match": "Dallas Stars @ St. Louis Blues",
+   "league": "NHL",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.82 \u2192 1.06 (+72%) \u2014 market confirming"
+    "Steam: favourite shortened 1.80 \u2192 1.10 (+64%) \u2014 market confirming"
    ]
   },
   {
@@ -659,11 +644,11 @@
    "gameId": "ncaab:401921717",
    "match": "Georgetown Hoyas @ UCLA Bruins",
    "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
+   "severity": 2,
+   "signal": "high_risk_alert",
    "flags": [
-    "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.31 \u2192 1.04 (+26%) \u2014 market confirming"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: a short price leaves little margin"
    ]
   },
   {
@@ -673,7 +658,7 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Steam: favourite shortened 1.67 \u2192 1.40 (+19%) \u2014 market confirming"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
@@ -683,7 +668,8 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Drift against the favourite: 2.46 \u2192 4.20 (-41%) \u2014 money moving the other way"
+    "Big underdog priced: market implies low confidence",
+    "Drift against the favourite: 2.50 \u2192 41.00 (-94%) \u2014 money moving the other way"
    ]
   },
   {
@@ -693,7 +679,19 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Steam: favourite shortened 2.20 \u2192 1.53 (+44%) \u2014 market confirming"
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 2.20 \u2192 1.14 (+93%) \u2014 market confirming"
+   ]
+  },
+  {
+   "gameId": "nfl:401873083",
+   "match": "Denver Broncos @ Pittsburgh Steelers",
+   "league": "NFL",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 1.43 \u2192 1.11 (+29%) \u2014 market confirming"
    ]
   },
   {
@@ -714,7 +712,7 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.73 \u2192 1.20 (+44%) \u2014 market confirming"
+    "Steam: favourite shortened 1.72 \u2192 1.01 (+70%) \u2014 market confirming"
    ]
   },
   {
@@ -725,7 +723,7 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.44 \u2192 1.08 (+33%) \u2014 market confirming"
+    "Steam: favourite shortened 1.44 \u2192 1.04 (+38%) \u2014 market confirming"
    ]
   },
   {
@@ -735,7 +733,7 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Steam: favourite shortened 1.80 \u2192 1.56 (+15%) \u2014 market confirming"
+    "Steam: favourite shortened 1.81 \u2192 1.36 (+33%) \u2014 market confirming"
    ]
   },
   {
@@ -745,17 +743,19 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Steam: favourite shortened 2.44 \u2192 1.40 (+74%) \u2014 market confirming"
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 2.44 \u2192 1.01 (+142%) \u2014 market confirming"
    ]
   },
   {
    "gameId": "laliga:401882791",
    "match": "Racing Santander @ Levante",
    "league": "La Liga",
-   "severity": 1,
-   "signal": "integrity_watch",
+   "severity": 2,
+   "signal": "high_risk_alert",
    "flags": [
-    "Thin market: only 2 books quoting"
+    "Thin market: only 2 books quoting",
+    "Drift against the favourite: 2.00 \u2192 3.50 (-43%) \u2014 money moving the other way"
    ]
   },
   {
@@ -766,7 +766,7 @@
    "signal": "high_risk_alert",
    "flags": [
     "Thin market: only 2 books quoting",
-    "Drift against the favourite: 2.10 \u2192 3.65 (-42%) \u2014 money moving the other way"
+    "Drift against the favourite: 2.15 \u2192 3.65 (-41%) \u2014 money moving the other way"
    ]
   },
   {
@@ -777,7 +777,7 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.43 \u2192 1.30 (+10%) \u2014 market confirming"
+    "Steam: favourite shortened 1.44 \u2192 1.24 (+16%) \u2014 market confirming"
    ]
   },
   {
@@ -798,7 +798,39 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.30 \u2192 1.09 (+19%) \u2014 market confirming"
+    "Steam: favourite shortened 1.30 \u2192 1.03 (+26%) \u2014 market confirming"
+   ]
+  },
+  {
+   "gameId": "nhl:401892803",
+   "match": "Colorado Avalanche @ Minnesota Wild",
+   "league": "NHL",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 1.83 \u2192 1.16 (+58%) \u2014 market confirming"
+   ]
+  },
+  {
+   "gameId": "nhl:401892804",
+   "match": "Los Angeles Kings @ Anaheim Ducks",
+   "league": "NHL",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 1.92 \u2192 1.24 (+55%) \u2014 market confirming"
+   ]
+  },
+  {
+   "gameId": "ncaaf:401864546",
+   "match": "Air Force Falcons @ New Mexico Lobos",
+   "league": "NCAAF",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Drift against the favourite: 1.40 \u2192 1.56 (-10%) \u2014 money moving the other way"
    ]
   },
   {
@@ -839,16 +871,6 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
-   "gameId": "brasileirao:401841337",
-   "match": "Cruzeiro @ Fluminense",
-   "league": "Brazil Serie A",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Steam: favourite shortened 2.09 \u2192 1.93 (+8%) \u2014 market confirming"
    ]
   },
   {
@@ -910,16 +932,6 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
-   "gameId": "nhl:401892808",
-   "match": "Pittsburgh Penguins @ Buffalo Sabres",
-   "league": "NHL",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Drift against the favourite: 1.67 \u2192 1.82 (-8%) \u2014 money moving the other way"
    ]
   },
   {
@@ -1240,6 +1252,16 @@
    ]
   },
   {
+   "gameId": "ncaab:401928848",
+   "match": "Toledo Rockets @ Valparaiso Beacons",
+   "league": "NCAAB",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
    "gameId": "ncaab:401926796",
    "match": "Liberty Flames @ UNC Wilmington Seahawks",
    "league": "NCAAB",
@@ -1272,6 +1294,16 @@
   {
    "gameId": "ncaab:401924811",
    "match": "Merrimack Warriors @ Hofstra Pride",
+   "league": "NCAAB",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "ncaab:401911032",
+   "match": "Buffalo Bulls @ Towson Tigers",
    "league": "NCAAB",
    "severity": 1,
    "signal": "integrity_watch",
@@ -1323,6 +1355,16 @@
    "gameId": "ligapt:401885385",
    "match": "Estrela @ Vit\u00f3ria de Guimaraes",
    "league": "Portugal Primeira Liga",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "ncaab:401920906",
+   "match": "Delaware Blue Hens @ Stony Brook Seawolves",
+   "league": "NCAAB",
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
@@ -1630,16 +1672,6 @@
    "signal": "integrity_watch",
    "flags": [
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "ligamx:401932000",
-   "match": "Le\u00f3n @ Cruz Azul",
-   "league": "Liga MX",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Steam: favourite shortened 1.91 \u2192 1.71 (+12%) \u2014 market confirming"
    ]
   },
   {
@@ -2053,12 +2085,12 @@
   }
  ],
  "record": {
-  "graded": 14,
+  "graded": 15,
   "correct": 8,
-  "wrong": 6,
-  "accuracy": 0.5714,
-  "units": -2.53,
-  "rolling": 0.5714,
+  "wrong": 7,
+  "accuracy": 0.5333,
+  "units": -3.53,
+  "rolling": 0.5333,
   "recent": [
    {
     "gameId": "wta:186832",
@@ -2323,6 +2355,32 @@
     "profitUnits": 0.41,
     "final": "1-0",
     "settledAt": "2026-11-24T21:14:53.213003+00:00"
+   },
+   {
+    "gameId": "bundesliga:401884720",
+    "match": "Borussia M\u00f6nchengladbach @ Werder Bremen",
+    "league": "Bundesliga",
+    "sport": "bundesliga",
+    "side": "home",
+    "price": 1.77,
+    "modelProb": 0.7747,
+    "marketProb": 0.6985,
+    "edgePct": 0.0762,
+    "tier": "PREMIUM",
+    "bookCount": 8,
+    "startsAt": "2026-11-27T19:30Z",
+    "home": "Werder Bremen",
+    "away": "Borussia M\u00f6nchengladbach",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/137.png",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/268.png",
+    "homeAbbr": "SVW",
+    "awayAbbr": "BMG",
+    "lockTs": "2026-11-23T20:59:06.229138+00:00",
+    "result": "wrong",
+    "profitUnits": -1.0,
+    "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401884720/borussia-monchengladbach-werder-bremen",
+    "final": "3-3",
+    "settledAt": "2026-11-27T21:45:05.177383+00:00"
    },
    {
     "gameId": "wta:186827",

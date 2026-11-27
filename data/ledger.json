@@ -167,9 +167,11 @@
    "homeAbbr": "SVW",
    "awayAbbr": "BMG",
    "lockTs": "2026-11-23T20:59:06.229138+00:00",
-   "result": null,
-   "profitUnits": null,
-   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401884720/borussia-monchengladbach-werder-bremen"
+   "result": "wrong",
+   "profitUnits": -1.0,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401884720/borussia-monchengladbach-werder-bremen",
+   "final": "3-3",
+   "settledAt": "2026-11-27T21:45:05.177383+00:00"
   },
   {
    "gameId": "epl:401879222",

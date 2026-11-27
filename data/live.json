@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-27T21:14:31.796628+00:00",
+ "generatedAt": "2026-11-27T21:45:06.309334+00:00",
  "signals": [
   {
    "gameId": "wta:186830",
@@ -11,27 +11,11 @@
    "side": "home",
    "score": "1-1",
    "period": 3,
-   "clock": "0-0",
-   "progress": 0.68,
+   "clock": "3-3",
+   "progress": 0.77,
    "livePrice": null,
    "lockedPrice": 1.53,
-   "at": "2026-11-27T21:14:31.517794+00:00"
-  },
-  {
-   "gameId": "bundesliga:401884720",
-   "kind": "RISING",
-   "text": "Behind \u2014 the get-in window is still open at a better live price. Live price 151.00 vs 1.77 locked (+8431%) \u2014 the market still pays above your lock.",
-   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401884720/borussia-monchengladbach-werder-bremen",
-   "sport": "bundesliga",
-   "match": "Borussia M\u00f6nchengladbach @ Werder Bremen",
-   "side": "home",
-   "score": "1-3",
-   "period": 2,
-   "clock": "83'",
-   "progress": 0.0,
-   "livePrice": 151.0,
-   "lockedPrice": 1.77,
-   "at": "2026-11-27T21:14:31.192609+00:00"
+   "at": "2026-11-27T21:45:06.003342+00:00"
   }
  ]
 }
