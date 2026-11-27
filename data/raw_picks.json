@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-27T18:42:41.727628+00:00",
+ "generatedAt": "2026-11-27T19:13:07.080046+00:00",
  "picks": [
   {
    "gameId": "bundesliga:401884720",
@@ -7,10 +7,10 @@
    "league": "Bundesliga",
    "sport": "bundesliga",
    "side": "home",
-   "price": 1.75,
-   "modelProb": 0.7865,
-   "marketProb": 0.72,
-   "edgePct": 0.0665,
+   "price": 1.71,
+   "modelProb": 0.7914,
+   "marketProb": 0.729,
+   "edgePct": 0.0624,
    "tier": "PREMIUM",
    "bookCount": 10,
    "startsAt": "2026-11-27T19:30Z",
@@ -305,7 +305,8 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Drift against the favourite: 1.11 \u2192 1.48 (-25%) \u2014 money moving the other way"
+    "Heavy favourite: a short price leaves little margin",
+    "Drift against the favourite: 1.11 \u2192 1.21 (-8%) \u2014 money moving the other way"
    ]
   },
   {
@@ -316,7 +317,7 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.95 \u2192 1.09 (+79%) \u2014 market confirming"
+    "Steam: favourite shortened 1.93 \u2192 1.06 (+82%) \u2014 market confirming"
    ]
   },
   {
@@ -326,7 +327,7 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Drift against the favourite: 1.35 \u2192 1.53 (-12%) \u2014 money moving the other way"
+    "Drift against the favourite: 1.35 \u2192 1.91 (-29%) \u2014 money moving the other way"
    ]
   },
   {
@@ -337,30 +338,37 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.65 \u2192 1.22 (+35%) \u2014 market confirming"
+    "Steam: favourite shortened 1.65 \u2192 1.25 (+32%) \u2014 market confirming"
    ]
   },
   {
    "gameId": "superlig:401888241",
    "match": "Konyaspor @ Alanyaspor",
    "league": "Turkish Super Lig",
-   "severity": 2,
-   "signal": "high_risk_alert",
+   "severity": 1,
+   "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 2 books quoting",
-    "Big underdog priced: market implies low confidence",
-    "Drift against the favourite: 2.60 \u2192 7.50 (-65%) \u2014 money moving the other way"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
    "gameId": "superlig:401888240",
    "match": "Kasimpasa @ Caykur Rizespor",
    "league": "Turkish Super Lig",
-   "severity": 2,
-   "signal": "high_risk_alert",
+   "severity": 1,
+   "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 2 books quoting",
-    "Drift against the favourite: 1.95 \u2192 4.10 (-52%) \u2014 money moving the other way"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "ncaaf:401858536",
+   "match": "Nebraska Cornhuskers @ Iowa Hawkeyes",
+   "league": "NCAAF",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Steam: favourite shortened 1.56 \u2192 1.44 (+8%) \u2014 market confirming"
    ]
   },
   {
@@ -370,37 +378,18 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Drift against the favourite: 1.65 \u2192 1.91 (-14%) \u2014 money moving the other way"
-   ]
-  },
-  {
-   "gameId": "nhl:401892795",
-   "match": "Toronto Maple Leafs @ Boston Bruins",
-   "league": "NHL",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Steam: favourite shortened 1.67 \u2192 1.45 (+15%) \u2014 market confirming"
+    "Drift against the favourite: 1.70 \u2192 2.05 (-17%) \u2014 money moving the other way"
    ]
   },
   {
    "gameId": "nhl:401892796",
    "match": "Calgary Flames @ New Jersey Devils",
    "league": "NHL",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Drift against the favourite: 1.38 \u2192 1.85 (-25%) \u2014 money moving the other way"
-   ]
-  },
-  {
-   "gameId": "nhl:401892797",
-   "match": "Utah Mammoth @ Nashville Predators",
-   "league": "NHL",
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Steam: favourite shortened 1.92 \u2192 1.60 (+20%) \u2014 market confirming"
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 1.38 \u2192 1.19 (+16%) \u2014 market confirming"
    ]
   },
   {
@@ -410,7 +399,28 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Drift against the favourite: 1.70 \u2192 1.91 (-11%) \u2014 money moving the other way"
+    "Drift against the favourite: 1.74 \u2192 1.95 (-11%) \u2014 money moving the other way"
+   ]
+  },
+  {
+   "gameId": "ncaab:401921827",
+   "match": "Southern Jaguars @ Vanderbilt Commodores",
+   "league": "NCAAB",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
+   "gameId": "nhl:401892798",
+   "match": "Dallas Stars @ St. Louis Blues",
+   "league": "NHL",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Drift against the favourite: 1.75 \u2192 2.12 (-18%) \u2014 money moving the other way"
    ]
   },
   {
@@ -595,23 +605,13 @@
    ]
   },
   {
-   "gameId": "mls:401933727",
-   "match": "Inter Miami CF @ Columbus Crew",
-   "league": "MLS",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Steam: favourite shortened 2.50 \u2192 2.31 (+8%) \u2014 market confirming"
-   ]
-  },
-  {
    "gameId": "ncaab:401920534",
    "match": "Tennessee Volunteers @ Louisville Cardinals",
    "league": "NCAAB",
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Steam: favourite shortened 1.90 \u2192 1.67 (+14%) \u2014 market confirming"
+    "Steam: favourite shortened 1.88 \u2192 1.67 (+13%) \u2014 market confirming"
    ]
   },
   {
@@ -642,6 +642,16 @@
    "signal": "integrity_watch",
    "flags": [
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "nba:401909336",
+   "match": "Golden State Warriors @ Portland Trail Blazers",
+   "league": "NBA",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Heavy favourite: a short price leaves little margin"
    ]
   },
   {
