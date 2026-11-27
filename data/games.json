@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-27T23:16:28.627768+00:00",
+ "generatedAt": "2026-11-27T23:46:58.210222+00:00",
  "games": [
   {
    "id": "nfl:401873081",
@@ -1532,9 +1532,9 @@
    "markets": {
     "h2h": {
      "outcome": "Florida Gators",
-     "bestOdds": 1.12,
-     "otherOdds": 9.5,
-     "bookCount": "7",
+     "bestOdds": 1.01,
+     "otherOdds": 23.0,
+     "bookCount": "3",
      "favSide": "away",
      "source": "oddsapi"
     }
@@ -1563,9 +1563,9 @@
    "markets": {
     "h2h": {
      "outcome": "Memphis Tigers",
-     "bestOdds": 1.05,
-     "otherOdds": 11.5,
-     "bookCount": "7",
+     "bestOdds": 1.5,
+     "otherOdds": 5.5,
+     "bookCount": "6",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -1594,9 +1594,9 @@
    "markets": {
     "h2h": {
      "outcome": "North Dakota State Bison",
-     "bestOdds": 1.03,
-     "otherOdds": 20.0,
-     "bookCount": "4",
+     "bestOdds": 1.11,
+     "otherOdds": 7.5,
+     "bookCount": "6",
      "favSide": "away",
      "source": "oddsapi"
     }
@@ -1625,9 +1625,9 @@
    "markets": {
     "h2h": {
      "outcome": "Minnesota Wild",
-     "bestOdds": 1.02,
-     "otherOdds": 71.0,
-     "bookCount": "3",
+     "bestOdds": 1.9,
+     "otherOdds": 1.95,
+     "bookCount": "7",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -1649,21 +1649,21 @@
    "homeId": "25",
    "awayId": "8",
    "startsAt": "2026-11-27T21:00Z",
-   "state": "in",
+   "state": "post",
    "_path": "hockey/nhl",
    "_eid": "401892804",
    "_cid": "401892804",
    "markets": {
     "h2h": {
      "outcome": "Los Angeles Kings",
-     "bestOdds": 1.25,
-     "otherOdds": 4.5,
-     "bookCount": "7",
+     "bestOdds": 1.12,
+     "otherOdds": 34.0,
+     "bookCount": "6",
      "favSide": "away",
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nhl/game/_/gameId/401892804/kings-ducks",
    "drawPossible": false
   },
   {
@@ -1680,21 +1680,21 @@
    "homeId": "18",
    "awayId": "37",
    "startsAt": "2026-11-27T21:00Z",
-   "state": "in",
+   "state": "post",
    "_path": "hockey/nhl",
    "_eid": "401892805",
    "_cid": "401892805",
    "markets": {
     "h2h": {
      "outcome": "San Jose Sharks",
-     "bestOdds": 1.09,
-     "otherOdds": 8.75,
-     "bookCount": "7",
+     "bestOdds": 1.03,
+     "otherOdds": 34.0,
+     "bookCount": "4",
      "favSide": "home",
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nhl/game/_/gameId/401892805/golden-knights-sharks",
    "drawPossible": false
   },
   {
@@ -1718,8 +1718,8 @@
    "markets": {
     "h2h": {
      "outcome": "New Mexico Lobos",
-     "bestOdds": 1.13,
-     "otherOdds": 7.0,
+     "bestOdds": 1.38,
+     "otherOdds": 4.7,
      "bookCount": "7",
      "favSide": "home",
      "source": "oddsapi"
@@ -1749,8 +1749,8 @@
    "markets": {
     "h2h": {
      "outcome": "Saint Mary's Gaels",
-     "bestOdds": 1.78,
-     "otherOdds": 2.2,
+     "bestOdds": 1.77,
+     "otherOdds": 2.32,
      "bookCount": "7",
      "favSide": "home",
      "source": "oddsapi"
@@ -1780,8 +1780,8 @@
    "markets": {
     "h2h": {
      "outcome": "Kansas Jayhawks",
-     "bestOdds": 1.11,
-     "otherOdds": 7.7,
+     "bestOdds": 1.05,
+     "otherOdds": 19.0,
      "bookCount": "7",
      "favSide": "home",
      "source": "oddsapi"
@@ -1789,30 +1789,6 @@
    },
    "espnUrl": null,
    "drawPossible": false
-  },
-  {
-   "id": "wta:186831",
-   "sport": "wta",
-   "league": "IEB+ Argentina Open",
-   "match": "Julia Riera vs Alicia Herrero Linana",
-   "home": "Alicia Herrero Linana",
-   "away": "Julia Riera",
-   "homeLogo": null,
-   "awayLogo": null,
-   "homeAbbr": null,
-   "awayAbbr": null,
-   "homeId": null,
-   "awayId": null,
-   "startsAt": "2026-11-27T22:05Z",
-   "state": "in",
-   "_path": "tennis/wta",
-   "_eid": "186831",
-   "_cid": "186831",
-   "markets": {},
-   "espnUrl": null,
-   "drawPossible": false,
-   "tournament": "IEB+ Argentina Open",
-   "noMarketOk": true
   },
   {
    "id": "nhl:401892806",
@@ -1835,8 +1811,8 @@
    "markets": {
     "h2h": {
      "outcome": "Chicago Blackhawks",
-     "bestOdds": 2.35,
-     "otherOdds": 2.35,
+     "bestOdds": 1.67,
+     "otherOdds": 2.4,
      "bookCount": "7",
      "favSide": "home",
      "source": "oddsapi"
@@ -1867,8 +1843,8 @@
     "h2h": {
      "outcome": "Illinois Fighting Illini",
      "bestOdds": 1.01,
-     "otherOdds": 41.0,
-     "bookCount": "3",
+     "otherOdds": 51.0,
+     "bookCount": "4",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -1898,8 +1874,8 @@
     "h2h": {
      "outcome": "Indiana Hoosiers",
      "bestOdds": 1.01,
-     "otherOdds": 36.0,
-     "bookCount": "5",
+     "otherOdds": 301.0,
+     "bookCount": "2",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -1928,8 +1904,8 @@
    "markets": {
     "h2h": {
      "outcome": "Cruzeiro",
-     "bestOdds": 2.37,
-     "otherOdds": 3.25,
+     "bestOdds": 2.05,
+     "otherOdds": 4.4,
      "bookCount": "6",
      "favSide": "away",
      "source": "oddsapi"
@@ -1960,8 +1936,8 @@
     "h2h": {
      "outcome": "New York Knicks",
      "bestOdds": 1.69,
-     "otherOdds": 2.3,
-     "bookCount": "11",
+     "otherOdds": 2.5,
+     "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -1991,7 +1967,7 @@
     "h2h": {
      "outcome": "Detroit Pistons",
      "bestOdds": 1.24,
-     "otherOdds": 4.75,
+     "otherOdds": 4.7,
      "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
@@ -2052,7 +2028,7 @@
    "markets": {
     "h2h": {
      "outcome": "Toronto Raptors",
-     "bestOdds": 1.28,
+     "bestOdds": 1.29,
      "otherOdds": 4.1,
      "bookCount": "11",
      "favSide": "home",
@@ -2115,7 +2091,7 @@
     "h2h": {
      "outcome": "Texas Longhorns",
      "bestOdds": 1.22,
-     "otherOdds": 4.6,
+     "otherOdds": 4.75,
      "bookCount": "12",
      "favSide": "away",
      "source": "oddsapi"
@@ -2146,7 +2122,7 @@
     "h2h": {
      "outcome": "Wisconsin Badgers",
      "bestOdds": 1.3,
-     "otherOdds": 3.9,
+     "otherOdds": 3.8,
      "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
@@ -2238,7 +2214,7 @@
    "markets": {
     "h2h": {
      "outcome": "Buffalo Sabres",
-     "bestOdds": 1.8,
+     "bestOdds": 1.79,
      "otherOdds": 2.17,
      "bookCount": "12",
      "favSide": "home",
@@ -2300,8 +2276,8 @@
    "markets": {
     "h2h": {
      "outcome": "Inter Miami CF",
-     "bestOdds": 2.48,
-     "otherOdds": 2.6,
+     "bestOdds": 2.41,
+     "otherOdds": 2.69,
      "bookCount": "11",
      "favSide": "away",
      "source": "oddsapi"
@@ -2331,8 +2307,8 @@
    "markets": {
     "h2h": {
      "outcome": "Minnesota Timberwolves",
-     "bestOdds": 1.7,
-     "otherOdds": 2.3,
+     "bestOdds": 1.69,
+     "otherOdds": 2.38,
      "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
@@ -2363,7 +2339,7 @@
     "h2h": {
      "outcome": "Miami Hurricanes",
      "bestOdds": 1.78,
-     "otherOdds": 2.18,
+     "otherOdds": 2.15,
      "bookCount": "11",
      "favSide": "away",
      "source": "oddsapi"
@@ -2393,8 +2369,8 @@
    "markets": {
     "h2h": {
      "outcome": "Phoenix Suns",
-     "bestOdds": 1.69,
-     "otherOdds": 2.32,
+     "bestOdds": 1.68,
+     "otherOdds": 2.33,
      "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
@@ -2578,8 +2554,8 @@
    "markets": {
     "h2h": {
      "outcome": "Portland Trail Blazers",
-     "bestOdds": 1.33,
-     "otherOdds": 3.64,
+     "bestOdds": 1.34,
+     "otherOdds": 3.65,
      "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
@@ -2610,7 +2586,7 @@
     "h2h": {
      "outcome": "Vancouver Whitecaps",
      "bestOdds": 2.43,
-     "otherOdds": 2.93,
+     "otherOdds": 2.95,
      "bookCount": "11",
      "favSide": "away",
      "source": "oddsapi"
@@ -2929,7 +2905,7 @@
     "h2h": {
      "outcome": "Manchester United",
      "bestOdds": 2.3,
-     "otherOdds": 3.2,
+     "otherOdds": 3.15,
      "bookCount": "11",
      "favSide": "home",
      "source": "oddsapi"
@@ -3543,9 +3519,9 @@
    "id": "wta:186842",
    "sport": "wta",
    "league": "IEB+ Argentina Open",
-   "match": "TBD vs Veronika Erjavec",
+   "match": "Julia Riera vs Veronika Erjavec",
    "home": "Veronika Erjavec",
-   "away": "TBD",
+   "away": "Julia Riera",
    "homeLogo": null,
    "awayLogo": null,
    "homeAbbr": null,
@@ -5066,8 +5042,8 @@
    "markets": {
     "h2h": {
      "outcome": "UNC Wilmington Seahawks",
-     "bestOdds": 1.36,
-     "otherOdds": 3.2,
+     "bestOdds": 1.38,
+     "otherOdds": 3.1,
      "bookCount": "1",
      "favSide": "home",
      "source": "oddsapi"
@@ -5518,8 +5494,8 @@
     "h2h": {
      "outcome": "Georgia Bulldogs",
      "bestOdds": 1.01,
-     "otherOdds": 56.0,
-     "bookCount": "3",
+     "otherOdds": 23.0,
+     "bookCount": "2",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -6006,8 +5982,8 @@
    "markets": {
     "h2h": {
      "outcome": "Furman Paladins",
-     "bestOdds": 1.29,
-     "otherOdds": 3.75,
+     "bestOdds": 1.3,
+     "otherOdds": 3.6,
      "bookCount": "1",
      "favSide": "home",
      "source": "oddsapi"
@@ -6255,7 +6231,16 @@
    "_path": "basketball/nba",
    "_eid": "401910046",
    "_cid": "401910046",
-   "markets": {},
+   "markets": {
+    "h2h": {
+     "outcome": "Orlando Magic",
+     "bestOdds": 1.56,
+     "otherOdds": 2.52,
+     "bookCount": "2",
+     "favSide": "away",
+     "source": "oddsapi"
+    }
+   },
    "espnUrl": "https://www.espn.com/nba/game/_/gameId/401910046/magic-wizards",
    "drawPossible": false
   },
@@ -6387,7 +6372,16 @@
    "_path": "basketball/nba",
    "_eid": "401910047",
    "_cid": "401910047",
-   "markets": {},
+   "markets": {
+    "h2h": {
+     "outcome": "Charlotte Hornets",
+     "bestOdds": 1.41,
+     "otherOdds": 3.0,
+     "bookCount": "2",
+     "favSide": "home",
+     "source": "oddsapi"
+    }
+   },
    "espnUrl": "https://www.espn.com/nba/game/_/gameId/401910047/nets-hornets",
    "drawPossible": false
   },
@@ -6601,7 +6595,7 @@
    "markets": {
     "h2h": {
      "outcome": "Washington State Cougars",
-     "bestOdds": 1.71,
+     "bestOdds": 1.7,
      "otherOdds": 2.3,
      "bookCount": "12",
      "favSide": "home",
@@ -7035,8 +7029,8 @@
    "markets": {
     "h2h": {
      "outcome": "New York Islanders",
-     "bestOdds": 1.92,
-     "otherOdds": 2.04,
+     "bestOdds": 1.91,
+     "otherOdds": 2.02,
      "bookCount": "9",
      "favSide": "away",
      "source": "oddsapi"
@@ -7085,7 +7079,16 @@
    "_path": "basketball/nba",
    "_eid": "401910049",
    "_cid": "401910049",
-   "markets": {},
+   "markets": {
+    "h2h": {
+     "outcome": "Oklahoma City Thunder",
+     "bestOdds": 1.18,
+     "otherOdds": 5.2,
+     "bookCount": "2",
+     "favSide": "away",
+     "source": "oddsapi"
+    }
+   },
    "espnUrl": "https://www.espn.com/nba/game/_/gameId/401910049/thunder-bucks",
    "drawPossible": false
   },

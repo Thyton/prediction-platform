@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-27T23:16:28.866147+00:00",
+ "generatedAt": "2026-11-27T23:46:58.427376+00:00",
  "picks": [
   {
    "gameId": "epl:401879219",
@@ -752,17 +752,17 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.44 \u2192 1.12 (+29%) \u2014 market confirming"
+    "Steam: favourite shortened 1.43 \u2192 1.01 (+42%) \u2014 market confirming"
    ]
   },
   {
    "gameId": "ncaaf:401862838",
    "match": "Temple Owls @ Memphis Tigers",
    "league": "NCAAF",
-   "severity": 1,
-   "signal": "integrity_watch",
+   "severity": 2,
+   "signal": "high_risk_alert",
    "flags": [
-    "Heavy favourite: a short price leaves little margin"
+    "Drift against the favourite: 1.11 \u2192 1.50 (-26%) \u2014 money moving the other way"
    ]
   },
   {
@@ -773,18 +773,7 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 3.30 \u2192 1.03 (+220%) \u2014 market confirming"
-   ]
-  },
-  {
-   "gameId": "nhl:401892803",
-   "match": "Colorado Avalanche @ Minnesota Wild",
-   "league": "NHL",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.88 \u2192 1.02 (+84%) \u2014 market confirming"
+    "Steam: favourite shortened 1.28 \u2192 1.11 (+15%) \u2014 market confirming"
    ]
   },
   {
@@ -795,7 +784,7 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.88 \u2192 1.25 (+50%) \u2014 market confirming"
+    "Steam: favourite shortened 1.88 \u2192 1.12 (+68%) \u2014 market confirming"
    ]
   },
   {
@@ -806,18 +795,7 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.51 \u2192 1.09 (+38%) \u2014 market confirming"
-   ]
-  },
-  {
-   "gameId": "ncaaf:401864546",
-   "match": "Air Force Falcons @ New Mexico Lobos",
-   "league": "NCAAF",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.36 \u2192 1.13 (+20%) \u2014 market confirming"
+    "Steam: favourite shortened 1.50 \u2192 1.03 (+46%) \u2014 market confirming"
    ]
   },
   {
@@ -827,7 +805,7 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Drift against the favourite: 1.32 \u2192 1.78 (-26%) \u2014 money moving the other way"
+    "Drift against the favourite: 1.31 \u2192 1.77 (-26%) \u2014 money moving the other way"
    ]
   },
   {
@@ -838,16 +816,6 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
-   "gameId": "nhl:401892806",
-   "match": "New York Rangers @ Chicago Blackhawks",
-   "league": "NHL",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Drift against the favourite: 1.59 \u2192 2.35 (-32%) \u2014 money moving the other way"
    ]
   },
   {
@@ -864,20 +832,11 @@
    "gameId": "ncaab:401911030",
    "match": "Bowling Green Falcons @ Indiana Hoosiers",
    "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
-   "gameId": "brasileirao:401841337",
-   "match": "Cruzeiro @ Fluminense",
-   "league": "Brazil Serie A",
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Drift against the favourite: 1.94 \u2192 2.37 (-18%) \u2014 money moving the other way"
+    "Thin market: only 2 books quoting",
+    "Heavy favourite: a short price leaves little margin"
    ]
   },
   {
@@ -942,23 +901,13 @@
    ]
   },
   {
-   "gameId": "nba:401909331",
-   "match": "Memphis Grizzlies @ Minnesota Timberwolves",
-   "league": "NBA",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Drift against the favourite: 1.56 \u2192 1.70 (-8%) \u2014 money moving the other way"
-   ]
-  },
-  {
    "gameId": "nba:401909332",
    "match": "Dallas Mavericks @ Phoenix Suns",
    "league": "NBA",
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Steam: favourite shortened 1.83 \u2192 1.69 (+8%) \u2014 market confirming"
+    "Steam: favourite shortened 1.83 \u2192 1.68 (+9%) \u2014 market confirming"
    ]
   },
   {
@@ -1365,9 +1314,10 @@
    "gameId": "ncaaf:401856760",
    "match": "Georgia Tech Yellow Jackets @ Georgia Bulldogs",
    "league": "NCAAF",
-   "severity": 1,
-   "signal": "integrity_watch",
+   "severity": 2,
+   "signal": "high_risk_alert",
    "flags": [
+    "Thin market: only 2 books quoting",
     "Heavy favourite: a short price leaves little margin"
    ]
   },
@@ -1443,6 +1393,26 @@
    ]
   },
   {
+   "gameId": "nba:401910046",
+   "match": "Orlando Magic @ Washington Wizards",
+   "league": "NBA",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 2 books quoting"
+   ]
+  },
+  {
+   "gameId": "nba:401910047",
+   "match": "Brooklyn Nets @ Charlotte Hornets",
+   "league": "NBA",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 2 books quoting"
+   ]
+  },
+  {
    "gameId": "ncaaf:401860926",
    "match": "Boise State Broncos @ Colorado State Rams",
    "league": "NCAAF",
@@ -1509,6 +1479,17 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
+    "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
+   "gameId": "nba:401910049",
+   "match": "Oklahoma City Thunder @ Milwaukee Bucks",
+   "league": "NBA",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 2 books quoting",
     "Heavy favourite: a short price leaves little margin"
    ]
   },
