@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-27T08:33:28.577053+00:00",
+ "generatedAt": "2026-11-27T09:03:58.219704+00:00",
  "picks": [
   {
    "gameId": "epl:401879219",
@@ -342,17 +342,6 @@
    "flags": [
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
     "Steam: favourite shortened 2.05 \u2192 1.78 (+15%) \u2014 market confirming"
-   ]
-  },
-  {
-   "gameId": "esports:135038",
-   "match": "Sokerorg vs Donstu Esports",
-   "league": "Esports",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: a short price leaves little margin"
    ]
   },
   {
@@ -818,6 +807,16 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
+   "gameId": "nba:401909331",
+   "match": "Memphis Grizzlies @ Minnesota Timberwolves",
+   "league": "NBA",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Steam: favourite shortened 1.77 \u2192 1.63 (+9%) \u2014 market confirming"
    ]
   },
   {
