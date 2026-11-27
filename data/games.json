@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-27T08:03:01.358615+00:00",
+ "generatedAt": "2026-11-27T08:33:28.433901+00:00",
  "games": [
   {
    "id": "nfl:401873081",
@@ -648,7 +648,7 @@
    "home": "Lynn Vision",
    "away": "Heroic",
    "startsAt": "2026-11-27T06:00:00.000+00:00",
-   "state": "current",
+   "state": "finished",
    "markets": {
     "h2h": {
      "outcome": "Lynn Vision",
@@ -903,7 +903,7 @@
    "markets": {
     "h2h": {
      "outcome": "Iowa Hawkeyes",
-     "bestOdds": 1.56,
+     "bestOdds": 1.57,
      "otherOdds": 2.65,
      "bookCount": "12",
      "favSide": "home",
@@ -1197,8 +1197,8 @@
    "markets": {
     "h2h": {
      "outcome": "FC Groningen",
-     "bestOdds": 1.35,
-     "otherOdds": 8.3,
+     "bestOdds": 1.33,
+     "otherOdds": 8.75,
      "bookCount": "9",
      "favSide": "home",
      "source": "oddsapi"
@@ -1314,7 +1314,7 @@
    "markets": {
     "h2h": {
      "outcome": "Bologna",
-     "bestOdds": 2.5,
+     "bestOdds": 2.46,
      "otherOdds": 3.2,
      "bookCount": "11",
      "favSide": "away",
@@ -1499,8 +1499,8 @@
    "markets": {
     "h2h": {
      "outcome": "Florida Panthers",
-     "bestOdds": 1.87,
-     "otherOdds": 2.04,
+     "bestOdds": 1.88,
+     "otherOdds": 2.03,
      "bookCount": "12",
      "favSide": "away",
      "source": "oddsapi"
@@ -1562,7 +1562,7 @@
     "h2h": {
      "outcome": "Nottingham Forest",
      "bestOdds": 2.6,
-     "otherOdds": 2.83,
+     "otherOdds": 2.85,
      "bookCount": "11",
      "favSide": "home",
      "source": "oddsapi"
@@ -2079,7 +2079,7 @@
    "markets": {
     "h2h": {
      "outcome": "New York Knicks",
-     "bestOdds": 1.6,
+     "bestOdds": 1.61,
      "otherOdds": 2.55,
      "bookCount": "12",
      "favSide": "home",
@@ -2142,7 +2142,7 @@
     "h2h": {
      "outcome": "Philadelphia 76ers",
      "bestOdds": 1.67,
-     "otherOdds": 2.36,
+     "otherOdds": 2.34,
      "bookCount": "12",
      "favSide": "away",
      "source": "oddsapi"
@@ -2420,8 +2420,8 @@
    "markets": {
     "h2h": {
      "outcome": "Columbus Crew",
-     "bestOdds": 2.5,
-     "otherOdds": 2.63,
+     "bestOdds": 2.46,
+     "otherOdds": 2.67,
      "bookCount": "11",
      "favSide": "home",
      "source": "oddsapi"
@@ -2483,8 +2483,8 @@
     "h2h": {
      "outcome": "Miami Hurricanes",
      "bestOdds": 1.77,
-     "otherOdds": 2.13,
-     "bookCount": "4",
+     "otherOdds": 2.15,
+     "bookCount": "7",
      "favSide": "away",
      "source": "oddsapi"
     }
@@ -2544,9 +2544,9 @@
    "markets": {
     "h2h": {
      "outcome": "Tennessee Volunteers",
-     "bestOdds": 1.83,
+     "bestOdds": 1.82,
      "otherOdds": 2.1,
-     "bookCount": "3",
+     "bookCount": "4",
      "favSide": "away",
      "source": "oddsapi"
     }
@@ -3763,7 +3763,7 @@
     "h2h": {
      "outcome": "VfB Stuttgart",
      "bestOdds": 1.85,
-     "otherOdds": 3.95,
+     "otherOdds": 3.75,
      "bookCount": "10",
      "favSide": "home",
      "source": "oddsapi"
@@ -7023,7 +7023,7 @@
     "h2h": {
      "outcome": "Toluca",
      "bestOdds": 2.2,
-     "otherOdds": 3.0,
+     "otherOdds": 3.05,
      "bookCount": "4",
      "favSide": "away",
      "source": "oddsapi"
@@ -7327,7 +7327,7 @@
     "h2h": {
      "outcome": "América",
      "bestOdds": 2.36,
-     "otherOdds": 3.45,
+     "otherOdds": 3.5,
      "bookCount": "7",
      "favSide": "home",
      "source": "oddsapi"
@@ -7650,8 +7650,8 @@
    "markets": {
     "h2h": {
      "outcome": "Feyenoord Rotterdam",
-     "bestOdds": 2.15,
-     "otherOdds": 2.9,
+     "bestOdds": 2.2,
+     "otherOdds": 2.8,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -8295,8 +8295,8 @@
    "markets": {
     "h2h": {
      "outcome": "FC Twente",
-     "bestOdds": 1.833,
-     "otherOdds": 3.6,
+     "bestOdds": 1.8,
+     "otherOdds": 3.7,
      "bookCount": "1",
      "favSide": "away"
     }
@@ -8540,8 +8540,8 @@
    "markets": {
     "h2h": {
      "outcome": "Mirassol",
-     "bestOdds": 2.05,
-     "otherOdds": 3.4,
+     "bestOdds": 2.0,
+     "otherOdds": 3.5,
      "bookCount": "1",
      "favSide": "home"
     }
