@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-27T11:05:46.358746+00:00",
+ "generatedAt": "2026-11-27T11:36:14.547745+00:00",
  "picks": [
   {
    "gameId": "wta:186832",
@@ -31,10 +31,10 @@
    "league": "Bundesliga",
    "sport": "bundesliga",
    "side": "home",
-   "price": 1.71,
-   "modelProb": 0.7958,
-   "marketProb": 0.7369,
-   "edgePct": 0.0589,
+   "price": 1.69,
+   "modelProb": 0.7973,
+   "marketProb": 0.7396,
+   "edgePct": 0.0577,
    "tier": "PREMIUM",
    "bookCount": 10,
    "startsAt": "2026-11-27T19:30Z",
@@ -161,17 +161,6 @@
    "signal": "integrity_watch",
    "flags": [
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "esports:134953",
-   "match": "Red Canids Academy vs Gremio",
-   "league": "Esports",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: a short price leaves little margin"
    ]
   },
   {
@@ -410,7 +399,7 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Drift against the favourite: 2.25 \u2192 2.46 (-8%) \u2014 money moving the other way"
+    "Drift against the favourite: 2.28 \u2192 2.50 (-9%) \u2014 money moving the other way"
    ]
   },
   {
@@ -964,6 +953,16 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
+   "gameId": "ligamx:401931996",
+   "match": "Monterrey @ Am\u00e9rica",
+   "league": "Liga MX",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Steam: favourite shortened 2.55 \u2192 2.28 (+12%) \u2014 market confirming"
    ]
   },
   {
