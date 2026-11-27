@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-27T02:58:00.161713+00:00",
+ "generatedAt": "2026-11-27T03:28:35.580257+00:00",
  "picks": [
   {
    "gameId": "epl:401879219",
@@ -502,19 +502,19 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Thin market: only 2 books quoting",
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.17 \u2192 1.01 (+16%) \u2014 market confirming"
+    "Steam: favourite shortened 1.16 \u2192 1.01 (+15%) \u2014 market confirming"
    ]
   },
   {
    "gameId": "nfl:401873082",
    "match": "Kansas City Chiefs @ Buffalo Bills",
    "league": "NFL",
-   "severity": 1,
-   "signal": "integrity_watch",
+   "severity": 2,
+   "signal": "high_risk_alert",
    "flags": [
-    "Steam: favourite shortened 1.67 \u2192 1.51 (+11%) \u2014 market confirming"
+    "Drift against the favourite: 1.65 \u2192 1.88 (-12%) \u2014 money moving the other way"
    ]
   },
   {
@@ -525,7 +525,7 @@
    "signal": "high_risk_alert",
    "flags": [
     "Thin market: only 2 books quoting",
-    "Drift against the favourite: 1.65 \u2192 2.05 (-20%) \u2014 money moving the other way"
+    "Drift against the favourite: 1.70 \u2192 2.05 (-17%) \u2014 money moving the other way"
    ]
   },
   {
@@ -535,7 +535,7 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Thin market: only 2 books quoting",
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
     "Heavy favourite: a short price leaves little margin"
    ]
   },
@@ -624,10 +624,9 @@
    "gameId": "ncaab:401921717",
    "match": "Georgetown Hoyas @ UCLA Bruins",
    "league": "NCAAB",
-   "severity": 2,
-   "signal": "high_risk_alert",
+   "severity": 1,
+   "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 2 books quoting",
     "Heavy favourite: a short price leaves little margin"
    ]
   },
@@ -1162,7 +1161,7 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Steam: favourite shortened 2.60 \u2192 2.35 (+11%) \u2014 market confirming"
+    "Steam: favourite shortened 2.55 \u2192 2.36 (+8%) \u2014 market confirming"
    ]
   },
   {
