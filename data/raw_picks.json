@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-27T07:32:26.239251+00:00",
+ "generatedAt": "2026-11-27T08:03:01.575911+00:00",
  "picks": [
   {
    "gameId": "wta:186832",
@@ -32,14 +32,14 @@
    "sport": "bundesliga",
    "side": "home",
    "price": 1.71,
-   "modelProb": 0.7938,
-   "marketProb": 0.7332,
-   "edgePct": 0.0605,
+   "modelProb": 0.796,
+   "marketProb": 0.7373,
+   "edgePct": 0.0587,
    "tier": "PREMIUM",
    "bookCount": 10,
    "startsAt": "2026-11-27T19:30Z",
    "edgeKind": "market",
-   "why": "Werder Bremen rated 79% to win; across 10 tracked games per side; with 10 books quoting; a slim but real gap to the market price.",
+   "why": "Werder Bremen rated 80% to win; across 10 tracked games per side; with 10 books quoting; a slim but real gap to the market price.",
    "home": "Werder Bremen",
    "away": "Borussia M\u00f6nchengladbach",
    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/137.png",
@@ -134,17 +134,6 @@
   {
    "gameId": "esports:135038",
    "match": "Sokerorg vs Donstu Esports",
-   "league": "Esports",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
-   "gameId": "esports:134521",
-   "match": "Spirit Academy vs Lir",
    "league": "Esports",
    "severity": 2,
    "signal": "high_risk_alert",
@@ -346,6 +335,17 @@
    ]
   },
   {
+   "gameId": "esports:134396",
+   "match": "Heroic vs Lynn Vision",
+   "league": "Esports",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
    "gameId": "ncaab:401920429",
    "match": "Virginia Cavaliers @ Xavier Musketeers",
    "league": "NCAAB",
@@ -396,6 +396,16 @@
    ]
   },
   {
+   "gameId": "ncaab:401920533",
+   "match": "St. John's Red Storm @ Iowa State Cyclones",
+   "league": "NCAAB",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
    "gameId": "ncaab:401929288",
    "match": "Wake Forest Demon Deacons @ Memphis Tigers",
    "league": "NCAAB",
@@ -413,6 +423,16 @@
    "signal": "high_risk_alert",
    "flags": [
     "Thin market: only 2 books quoting",
+    "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
+   "gameId": "eredivisie:401875536",
+   "match": "Willem II @ FC Groningen",
+   "league": "Dutch Eredivisie",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
     "Heavy favourite: a short price leaves little margin"
    ]
   },
@@ -956,7 +976,7 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Drift against the favourite: 1.81 \u2192 2.25 (-20%) \u2014 money moving the other way"
+    "Drift against the favourite: 1.81 \u2192 2.20 (-18%) \u2014 money moving the other way"
    ]
   },
   {
@@ -1149,16 +1169,6 @@
    "signal": "integrity_watch",
    "flags": [
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "ligamx:401932000",
-   "match": "Le\u00f3n @ Cruz Azul",
-   "league": "Liga MX",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 2 books quoting"
    ]
   },
   {

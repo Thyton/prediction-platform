@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-27T07:32:26.097296+00:00",
+ "generatedAt": "2026-11-27T08:03:01.358615+00:00",
  "games": [
   {
    "id": "nfl:401873081",
@@ -69,33 +69,6 @@
    "state": "finished",
    "markets": {},
    "tier": "c",
-   "boType": 3,
-   "mapScore": [
-    1,
-    2
-   ],
-   "drawPossible": false
-  },
-  {
-   "id": "esports:134521",
-   "sport": "esports",
-   "league": "Esports",
-   "match": "Spirit Academy vs Lir",
-   "home": "Lir",
-   "away": "Spirit Academy",
-   "startsAt": "2026-11-26T19:00:00.000+00:00",
-   "state": "finished",
-   "markets": {
-    "h2h": {
-     "outcome": "Spirit Academy",
-     "bestOdds": 1.001,
-     "otherOdds": 12.0,
-     "bookCount": "1",
-     "favSide": "away",
-     "source": "bo3"
-    }
-   },
-   "tier": "b",
    "boType": 3,
    "mapScore": [
     1,
@@ -668,6 +641,33 @@
    "drawPossible": false
   },
   {
+   "id": "esports:134396",
+   "sport": "esports",
+   "league": "Esports",
+   "match": "Heroic vs Lynn Vision",
+   "home": "Lynn Vision",
+   "away": "Heroic",
+   "startsAt": "2026-11-27T06:00:00.000+00:00",
+   "state": "current",
+   "markets": {
+    "h2h": {
+     "outcome": "Lynn Vision",
+     "bestOdds": 1.003,
+     "otherOdds": 12.0,
+     "bookCount": "1",
+     "favSide": "home",
+     "source": "bo3"
+    }
+   },
+   "tier": "s",
+   "boType": 3,
+   "mapScore": [
+    2,
+    0
+   ],
+   "drawPossible": false
+  },
+  {
    "id": "ncaab:401920429",
    "sport": "ncaab",
    "league": "NCAAB",
@@ -931,7 +931,15 @@
    "_path": "basketball/mens-college-basketball",
    "_eid": "401920533",
    "_cid": "401920533",
-   "markets": {},
+   "markets": {
+    "h2h": {
+     "outcome": "St. John's Red Storm",
+     "bestOdds": 1.676,
+     "otherOdds": 2.24,
+     "bookCount": "1",
+     "favSide": "away"
+    }
+   },
    "espnUrl": "https://www.espn.com/mens-college-basketball/game/_/gameId/401920533/st-johns-iowa-state",
    "drawPossible": false
   },
@@ -1189,8 +1197,8 @@
    "markets": {
     "h2h": {
      "outcome": "FC Groningen",
-     "bestOdds": 1.37,
-     "otherOdds": 7.55,
+     "bestOdds": 1.35,
+     "otherOdds": 8.3,
      "bookCount": "9",
      "favSide": "home",
      "source": "oddsapi"
@@ -1221,7 +1229,7 @@
     "h2h": {
      "outcome": "UCLA Bruins",
      "bestOdds": 1.29,
-     "otherOdds": 3.9,
+     "otherOdds": 4.2,
      "bookCount": "7",
      "favSide": "home",
      "source": "oddsapi"
@@ -1252,7 +1260,7 @@
     "h2h": {
      "outcome": "Werder Bremen",
      "bestOdds": 1.71,
-     "otherOdds": 4.7,
+     "otherOdds": 4.8,
      "bookCount": "10",
      "favSide": "home",
      "source": "oddsapi"
@@ -1886,7 +1894,7 @@
     "h2h": {
      "outcome": "Texas Longhorns",
      "bestOdds": 1.29,
-     "otherOdds": 3.8,
+     "otherOdds": 3.85,
      "bookCount": "7",
      "favSide": "away",
      "source": "oddsapi"
@@ -2536,8 +2544,8 @@
    "markets": {
     "h2h": {
      "outcome": "Tennessee Volunteers",
-     "bestOdds": 1.77,
-     "otherOdds": 2.15,
+     "bestOdds": 1.83,
+     "otherOdds": 2.1,
      "bookCount": "3",
      "favSide": "away",
      "source": "oddsapi"
@@ -4615,7 +4623,7 @@
      "outcome": "Iowa State Cyclones",
      "bestOdds": 1.56,
      "otherOdds": 2.61,
-     "bookCount": "12",
+     "bookCount": "11",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -6456,7 +6464,7 @@
     "h2h": {
      "outcome": "Vélez Sarsfield",
      "bestOdds": 2.0,
-     "otherOdds": 4.1,
+     "otherOdds": 3.95,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -7014,7 +7022,7 @@
    "markets": {
     "h2h": {
      "outcome": "Toluca",
-     "bestOdds": 2.25,
+     "bestOdds": 2.2,
      "otherOdds": 3.0,
      "bookCount": "4",
      "favSide": "away",
@@ -8625,7 +8633,7 @@
      "outcome": "Guadalajara",
      "bestOdds": 1.67,
      "otherOdds": 4.7,
-     "bookCount": "3",
+     "bookCount": "4",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -8655,8 +8663,8 @@
     "h2h": {
      "outcome": "Cruz Azul",
      "bestOdds": 1.91,
-     "otherOdds": 3.6,
-     "bookCount": "2",
+     "otherOdds": 5.0,
+     "bookCount": "3",
      "favSide": "home",
      "source": "oddsapi"
     }

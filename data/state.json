@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-27T07:32:26.248795+00:00",
+ "generatedAt": "2026-11-27T08:03:01.587516+00:00",
  "picks": [
   {
    "gameId": "epl:401879219",
@@ -356,17 +356,6 @@
    ]
   },
   {
-   "gameId": "esports:134521",
-   "match": "Spirit Academy vs Lir",
-   "league": "Esports",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
    "gameId": "esports:135093",
    "match": "Oldboys French Team vs Roundsgg",
    "league": "Esports",
@@ -559,6 +548,17 @@
    ]
   },
   {
+   "gameId": "esports:134396",
+   "match": "Heroic vs Lynn Vision",
+   "league": "Esports",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
    "gameId": "ncaab:401920429",
    "match": "Virginia Cavaliers @ Xavier Musketeers",
    "league": "NCAAB",
@@ -609,6 +609,16 @@
    ]
   },
   {
+   "gameId": "ncaab:401920533",
+   "match": "St. John's Red Storm @ Iowa State Cyclones",
+   "league": "NCAAB",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
    "gameId": "ncaab:401929288",
    "match": "Wake Forest Demon Deacons @ Memphis Tigers",
    "league": "NCAAB",
@@ -626,6 +636,16 @@
    "signal": "high_risk_alert",
    "flags": [
     "Thin market: only 2 books quoting",
+    "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
+   "gameId": "eredivisie:401875536",
+   "match": "Willem II @ FC Groningen",
+   "league": "Dutch Eredivisie",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
     "Heavy favourite: a short price leaves little margin"
    ]
   },
@@ -1169,7 +1189,7 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Drift against the favourite: 1.81 \u2192 2.25 (-20%) \u2014 money moving the other way"
+    "Drift against the favourite: 1.81 \u2192 2.20 (-18%) \u2014 money moving the other way"
    ]
   },
   {
@@ -1362,16 +1382,6 @@
    "signal": "integrity_watch",
    "flags": [
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "ligamx:401932000",
-   "match": "Le\u00f3n @ Cruz Azul",
-   "league": "Liga MX",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 2 books quoting"
    ]
   },
   {
