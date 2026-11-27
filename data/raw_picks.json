@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-27T22:15:38.831477+00:00",
+ "generatedAt": "2026-11-27T22:46:05.292854+00:00",
  "picks": [
   {
    "gameId": "seriea:401875029",
@@ -429,44 +429,46 @@
    "gameId": "nfl:401873083",
    "match": "Denver Broncos @ Pittsburgh Steelers",
    "league": "NFL",
-   "severity": 1,
-   "signal": "integrity_watch",
+   "severity": 2,
+   "signal": "high_risk_alert",
    "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.45 \u2192 1.03 (+41%) \u2014 market confirming"
+    "Steam: favourite shortened 1.45 \u2192 1.01 (+44%) \u2014 market confirming"
    ]
   },
   {
    "gameId": "ncaaf:401869930",
    "match": "App State Mountaineers @ South Alabama Jaguars",
    "league": "NCAAF",
-   "severity": 2,
-   "signal": "high_risk_alert",
+   "severity": 1,
+   "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 2 books quoting",
-    "Drift against the favourite: 1.60 \u2192 2.13 (-25%) \u2014 money moving the other way"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
    "gameId": "nhl:401892799",
    "match": "Ottawa Senators @ Tampa Bay Lightning",
    "league": "NHL",
-   "severity": 1,
-   "signal": "integrity_watch",
+   "severity": 2,
+   "signal": "high_risk_alert",
    "flags": [
+    "Thin market: only 2 books quoting",
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.72 \u2192 1.01 (+70%) \u2014 market confirming"
+    "Steam: favourite shortened 1.75 \u2192 1.01 (+73%) \u2014 market confirming"
    ]
   },
   {
    "gameId": "nhl:401892800",
    "match": "Vancouver Canucks @ Philadelphia Flyers",
    "league": "NHL",
-   "severity": 1,
-   "signal": "integrity_watch",
+   "severity": 2,
+   "signal": "high_risk_alert",
    "flags": [
+    "Thin market: only 2 books quoting",
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.43 \u2192 1.15 (+24%) \u2014 market confirming"
+    "Steam: favourite shortened 1.46 \u2192 1.01 (+45%) \u2014 market confirming"
    ]
   },
   {
@@ -476,8 +478,8 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.81 \u2192 1.05 (+72%) \u2014 market confirming"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Steam: favourite shortened 1.80 \u2192 1.65 (+9%) \u2014 market confirming"
    ]
   },
   {
@@ -518,7 +520,7 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.43 \u2192 1.14 (+25%) \u2014 market confirming"
+    "Steam: favourite shortened 1.43 \u2192 1.07 (+34%) \u2014 market confirming"
    ]
   },
   {
@@ -539,7 +541,7 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.30 \u2192 1.03 (+26%) \u2014 market confirming"
+    "Steam: favourite shortened 1.30 \u2192 1.06 (+23%) \u2014 market confirming"
    ]
   },
   {
@@ -550,27 +552,38 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.83 \u2192 1.15 (+59%) \u2014 market confirming"
+    "Steam: favourite shortened 1.88 \u2192 1.07 (+76%) \u2014 market confirming"
+   ]
+  },
+  {
+   "gameId": "nhl:401892805",
+   "match": "Vegas Golden Knights @ San Jose Sharks",
+   "league": "NHL",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Drift against the favourite: 1.51 \u2192 1.65 (-8%) \u2014 money moving the other way"
    ]
   },
   {
    "gameId": "ncaaf:401864546",
    "match": "Air Force Falcons @ New Mexico Lobos",
    "league": "NCAAF",
-   "severity": 2,
-   "signal": "high_risk_alert",
+   "severity": 1,
+   "signal": "integrity_watch",
    "flags": [
-    "Drift against the favourite: 1.40 \u2192 1.65 (-15%) \u2014 money moving the other way"
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 1.38 \u2192 1.20 (+15%) \u2014 market confirming"
    ]
   },
   {
    "gameId": "ncaab:401921718",
    "match": "Texas Longhorns @ Saint Mary's Gaels",
    "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
+   "severity": 2,
+   "signal": "high_risk_alert",
    "flags": [
-    "Heavy favourite: a short price leaves little margin"
+    "Drift against the favourite: 1.30 \u2192 1.93 (-33%) \u2014 money moving the other way"
    ]
   },
   {
@@ -982,6 +995,17 @@
    ]
   },
   {
+   "gameId": "ncaab:401929048",
+   "match": "Western Illinois Leathernecks @ Coastal Carolina Chanticleers",
+   "league": "NCAAB",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
    "gameId": "ncaab:401928848",
    "match": "Toledo Rockets @ Valparaiso Beacons",
    "league": "NCAAB",
@@ -994,6 +1018,27 @@
   {
    "gameId": "ncaab:401926796",
    "match": "Liberty Flames @ UNC Wilmington Seahawks",
+   "league": "NCAAB",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "ncaab:401920917",
+   "match": "Northern Illinois Huskies @ Eastern Illinois Panthers",
+   "league": "NCAAB",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
+   "gameId": "ncaab:401911312",
+   "match": "Brown Bears @ Air Force Falcons",
    "league": "NCAAB",
    "severity": 1,
    "signal": "integrity_watch",
@@ -1085,6 +1130,16 @@
    "gameId": "ligapt:401885385",
    "match": "Estrela @ Vit\u00f3ria de Guimaraes",
    "league": "Portugal Primeira Liga",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "ncaab:401926218",
+   "match": "Tennessee Tech Golden Eagles @ Eastern Kentucky Colonels",
+   "league": "NCAAB",
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
@@ -1239,7 +1294,7 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Steam: favourite shortened 2.50 \u2192 2.28 (+10%) \u2014 market confirming"
+    "Steam: favourite shortened 2.45 \u2192 2.23 (+10%) \u2014 market confirming"
    ]
   },
   {
