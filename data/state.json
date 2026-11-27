@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-27T02:27:29.625190+00:00",
+ "generatedAt": "2026-11-27T02:58:00.161713+00:00",
  "picks": [
   {
    "gameId": "epl:401879219",
@@ -491,7 +491,7 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Thin market: only 2 books quoting",
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
     "Heavy favourite: a short price leaves little margin"
    ]
   },
@@ -502,7 +502,9 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Drift against the favourite: 1.16 \u2192 1.49 (-22%) \u2014 money moving the other way"
+    "Thin market: only 2 books quoting",
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 1.17 \u2192 1.01 (+16%) \u2014 market confirming"
    ]
   },
   {
@@ -512,8 +514,7 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.67 \u2192 1.33 (+26%) \u2014 market confirming"
+    "Steam: favourite shortened 1.67 \u2192 1.51 (+11%) \u2014 market confirming"
    ]
   },
   {
@@ -524,7 +525,7 @@
    "signal": "high_risk_alert",
    "flags": [
     "Thin market: only 2 books quoting",
-    "Drift against the favourite: 1.70 \u2192 2.05 (-17%) \u2014 money moving the other way"
+    "Drift against the favourite: 1.65 \u2192 2.05 (-20%) \u2014 money moving the other way"
    ]
   },
   {
@@ -729,16 +730,6 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
-   "gameId": "nba:401909328",
-   "match": "Philadelphia 76ers @ Indiana Pacers",
-   "league": "NBA",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Drift against the favourite: 1.57 \u2192 1.71 (-8%) \u2014 money moving the other way"
    ]
   },
   {

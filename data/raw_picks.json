@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-27T02:27:29.614089+00:00",
+ "generatedAt": "2026-11-27T02:58:00.152228+00:00",
  "picks": [
   {
    "gameId": "wta:186832",
@@ -78,15 +78,15 @@
    "league": "NBA",
    "sport": "nba",
    "side": "home",
-   "price": 1.27,
-   "modelProb": 0.8302,
-   "marketProb": 0.7818,
-   "edgePct": 0.0484,
+   "price": 1.26,
+   "modelProb": 0.8278,
+   "marketProb": 0.7774,
+   "edgePct": 0.0504,
    "tier": "PREMIUM",
-   "bookCount": 9,
+   "bookCount": 10,
    "startsAt": "2026-11-28T00:30Z",
    "edgeKind": "market",
-   "why": "Detroit Pistons rated 83% to win; across 20 tracked games per side; with 9 books quoting; a slim but real gap to the market price.",
+   "why": "Detroit Pistons rated 83% to win; across 20 tracked games per side; with 10 books quoting; a slim but real gap to the market price.",
    "home": "Detroit Pistons",
    "away": "Milwaukee Bucks",
    "homeLogo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
@@ -278,7 +278,7 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Thin market: only 2 books quoting",
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
     "Heavy favourite: a short price leaves little margin"
    ]
   },
@@ -289,7 +289,9 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Drift against the favourite: 1.16 \u2192 1.49 (-22%) \u2014 money moving the other way"
+    "Thin market: only 2 books quoting",
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 1.17 \u2192 1.01 (+16%) \u2014 market confirming"
    ]
   },
   {
@@ -299,8 +301,7 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.67 \u2192 1.33 (+26%) \u2014 market confirming"
+    "Steam: favourite shortened 1.67 \u2192 1.51 (+11%) \u2014 market confirming"
    ]
   },
   {
@@ -311,7 +312,7 @@
    "signal": "high_risk_alert",
    "flags": [
     "Thin market: only 2 books quoting",
-    "Drift against the favourite: 1.70 \u2192 2.05 (-17%) \u2014 money moving the other way"
+    "Drift against the favourite: 1.65 \u2192 2.05 (-20%) \u2014 money moving the other way"
    ]
   },
   {
@@ -516,16 +517,6 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
-   "gameId": "nba:401909328",
-   "match": "Philadelphia 76ers @ Indiana Pacers",
-   "league": "NBA",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Drift against the favourite: 1.57 \u2192 1.71 (-8%) \u2014 money moving the other way"
    ]
   },
   {
