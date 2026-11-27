@@ -848,7 +848,7 @@
    "Rebeka Masarova": 1644.8940735395556,
    "Sofia Costoulas": 1495.4142658615178,
    "Nuria Brancaccio": 1423.4974113239643,
-   "Guiomar Maristany Zuleta De Reales": 1649.9084564149089,
+   "Guiomar Maristany Zuleta De Reales": 1655.8429554524569,
    "Leyre Romero Gormaz": 1768.807812432301,
    "Ipek Oz": 1438.606352654775,
    "Victoria Jimenez Kasintseva": 1427.9071162774312,
@@ -1027,10 +1027,11 @@
    "Renata Zarazua": 1524.467074274416,
    "Luna Maria Cinalli": 1496.4482318953394,
    "Victoria Bosio": 1496.0736496411516,
-   "Sol Ailin Larraya Guidi": 1487.2562292894802
+   "Sol Ailin Larraya Guidi": 1487.2562292894802,
+   "TBD": 1494.065500962452
   }
  },
- "played": 9061,
+ "played": 9062,
  "updated": "2026-11-23T01:08:49.499166+00:00",
  "trainedAt": "2026-11-23T01:08:49.499166+00:00",
  "counts": {
@@ -1706,7 +1707,7 @@
    "Rebeka Masarova": 52,
    "Sofia Costoulas": 37,
    "Nuria Brancaccio": 9,
-   "Guiomar Maristany Zuleta De Reales": 35,
+   "Guiomar Maristany Zuleta De Reales": 36,
    "Leyre Romero Gormaz": 74,
    "Ipek Oz": 9,
    "Victoria Jimenez Kasintseva": 8,
@@ -1885,7 +1886,8 @@
    "Renata Zarazua": 15,
    "Luna Maria Cinalli": 2,
    "Victoria Bosio": 2,
-   "Sol Ailin Larraya Guidi": 1
+   "Sol Ailin Larraya Guidi": 1,
+   "TBD": 1
   }
  }
 }

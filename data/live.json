@@ -1,21 +1,4 @@
 {
- "generatedAt": "2026-11-27T21:45:06.309334+00:00",
- "signals": [
-  {
-   "gameId": "wta:186830",
-   "kind": "CAUTION",
-   "text": "Level late \u2014 no momentum edge; consider a partial exit.",
-   "espnUrl": null,
-   "sport": "wta",
-   "match": "TBD vs Guiomar Maristany Zuleta De Reales",
-   "side": "home",
-   "score": "1-1",
-   "period": 3,
-   "clock": "3-3",
-   "progress": 0.77,
-   "livePrice": null,
-   "lockedPrice": 1.53,
-   "at": "2026-11-27T21:45:06.003342+00:00"
-  }
- ]
+ "generatedAt": "2026-11-27T22:15:28.347182+00:00",
+ "signals": []
 }

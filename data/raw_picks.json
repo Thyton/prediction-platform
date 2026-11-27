@@ -1,30 +1,6 @@
 {
- "generatedAt": "2026-11-27T21:45:13.697012+00:00",
+ "generatedAt": "2026-11-27T22:15:38.831477+00:00",
  "picks": [
-  {
-   "gameId": "wta:186830",
-   "match": "Maria Lourdes Carle vs Guiomar Maristany Zuleta De Reales",
-   "league": "IEB+ Argentina Open",
-   "sport": "wta",
-   "side": "home",
-   "price": 1.35,
-   "modelProb": 0.7946,
-   "marketProb": null,
-   "edgePct": 0.5892,
-   "tier": "PREMIUM",
-   "bookCount": 0,
-   "startsAt": "2026-11-27T19:35Z",
-   "modelPriced": true,
-   "why": "Guiomar Maristany Zuleta De Reales rated 79% to win; across 28 tracked games per side; a 59-point rating gap with no market price to lean on.",
-   "edgeKind": "model",
-   "home": "Guiomar Maristany Zuleta De Reales",
-   "away": "Maria Lourdes Carle",
-   "homeLogo": null,
-   "awayLogo": null,
-   "homeAbbr": null,
-   "awayAbbr": null,
-   "espnUrl": null
-  },
   {
    "gameId": "seriea:401875029",
    "match": "Atalanta @ Lazio",
@@ -394,8 +370,7 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.80 \u2192 1.10 (+64%) \u2014 market confirming"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
@@ -434,11 +409,10 @@
    "gameId": "seriea:401875004",
    "match": "Bologna @ Venezia",
    "league": "Serie A",
-   "severity": 2,
-   "signal": "high_risk_alert",
+   "severity": 1,
+   "signal": "integrity_watch",
    "flags": [
-    "Big underdog priced: market implies low confidence",
-    "Drift against the favourite: 2.50 \u2192 41.00 (-94%) \u2014 money moving the other way"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
@@ -448,8 +422,7 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 2.20 \u2192 1.14 (+93%) \u2014 market confirming"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
@@ -460,17 +433,18 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.43 \u2192 1.11 (+29%) \u2014 market confirming"
+    "Steam: favourite shortened 1.45 \u2192 1.03 (+41%) \u2014 market confirming"
    ]
   },
   {
    "gameId": "ncaaf:401869930",
    "match": "App State Mountaineers @ South Alabama Jaguars",
    "league": "NCAAF",
-   "severity": 1,
-   "signal": "integrity_watch",
+   "severity": 2,
+   "signal": "high_risk_alert",
    "flags": [
-    "Thin market: only 2 books quoting"
+    "Thin market: only 2 books quoting",
+    "Drift against the favourite: 1.60 \u2192 2.13 (-25%) \u2014 money moving the other way"
    ]
   },
   {
@@ -492,7 +466,7 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.44 \u2192 1.04 (+38%) \u2014 market confirming"
+    "Steam: favourite shortened 1.43 \u2192 1.15 (+24%) \u2014 market confirming"
    ]
   },
   {
@@ -502,7 +476,8 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Steam: favourite shortened 1.81 \u2192 1.36 (+33%) \u2014 market confirming"
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 1.81 \u2192 1.05 (+72%) \u2014 market confirming"
    ]
   },
   {
@@ -512,30 +487,27 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 2.44 \u2192 1.01 (+142%) \u2014 market confirming"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
    "gameId": "laliga:401882791",
    "match": "Racing Santander @ Levante",
    "league": "La Liga",
-   "severity": 2,
-   "signal": "high_risk_alert",
+   "severity": 1,
+   "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 2 books quoting",
-    "Drift against the favourite: 2.00 \u2192 3.50 (-43%) \u2014 money moving the other way"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
    "gameId": "ligapt:401885389",
    "match": "C.D. Nacional @ Maritimo",
    "league": "Portugal Primeira Liga",
-   "severity": 2,
-   "signal": "high_risk_alert",
+   "severity": 1,
+   "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 2 books quoting",
-    "Drift against the favourite: 2.15 \u2192 3.65 (-41%) \u2014 money moving the other way"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
@@ -546,7 +518,7 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.44 \u2192 1.24 (+16%) \u2014 market confirming"
+    "Steam: favourite shortened 1.43 \u2192 1.14 (+25%) \u2014 market confirming"
    ]
   },
   {
@@ -578,18 +550,7 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.83 \u2192 1.16 (+58%) \u2014 market confirming"
-   ]
-  },
-  {
-   "gameId": "nhl:401892804",
-   "match": "Los Angeles Kings @ Anaheim Ducks",
-   "league": "NHL",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.92 \u2192 1.24 (+55%) \u2014 market confirming"
+    "Steam: favourite shortened 1.83 \u2192 1.15 (+59%) \u2014 market confirming"
    ]
   },
   {
@@ -599,7 +560,7 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Drift against the favourite: 1.40 \u2192 1.56 (-10%) \u2014 money moving the other way"
+    "Drift against the favourite: 1.40 \u2192 1.65 (-15%) \u2014 money moving the other way"
    ]
   },
   {
@@ -1278,7 +1239,7 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Steam: favourite shortened 2.55 \u2192 2.28 (+12%) \u2014 market confirming"
+    "Steam: favourite shortened 2.50 \u2192 2.28 (+10%) \u2014 market confirming"
    ]
   },
   {
@@ -1441,6 +1402,16 @@
    "signal": "integrity_watch",
    "flags": [
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "ligamx:401932000",
+   "match": "Le\u00f3n @ Cruz Azul",
+   "league": "Liga MX",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Steam: favourite shortened 1.91 \u2192 1.71 (+12%) \u2014 market confirming"
    ]
   },
   {
