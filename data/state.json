@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-27T01:26:28.725776+00:00",
+ "generatedAt": "2026-11-27T01:57:00.195414+00:00",
  "picks": [
   {
    "gameId": "epl:401879219",
@@ -469,7 +469,8 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Drift against the favourite: 1.22 \u2192 3.10 (-61%) \u2014 money moving the other way"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: a short price leaves little margin"
    ]
   },
   {
@@ -491,28 +492,27 @@
    "signal": "high_risk_alert",
    "flags": [
     "Thin market: only 2 books quoting",
-    "Drift against the favourite: 1.34 \u2192 2.80 (-52%) \u2014 money moving the other way"
+    "Heavy favourite: a short price leaves little margin"
    ]
   },
   {
    "gameId": "ncaaf:401856879",
    "match": "TCU Horned Frogs @ Texas Tech Red Raiders",
    "league": "NCAAF",
-   "severity": 1,
-   "signal": "integrity_watch",
+   "severity": 2,
+   "signal": "high_risk_alert",
    "flags": [
-    "Heavy favourite: a short price leaves little margin"
+    "Drift against the favourite: 1.17 \u2192 1.71 (-32%) \u2014 money moving the other way"
    ]
   },
   {
    "gameId": "ncaab:401920530",
    "match": "Louisville Cardinals @ St. John's Red Storm",
    "league": "NCAAB",
-   "severity": 2,
-   "signal": "high_risk_alert",
+   "severity": 1,
+   "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Drift against the favourite: 1.68 \u2192 1.83 (-9%) \u2014 money moving the other way"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
