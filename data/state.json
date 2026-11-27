@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-27T15:09:28.462498+00:00",
+ "generatedAt": "2026-11-27T15:39:52.106249+00:00",
  "picks": [
   {
    "gameId": "epl:401879219",
@@ -493,17 +493,6 @@
    ]
   },
   {
-   "gameId": "esports:134397",
-   "match": "Wildcard Gaming vs Imperial",
-   "league": "Esports",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
    "gameId": "esports:135040",
    "match": "Masonic vs Mouz Nxt",
    "league": "Esports",
@@ -607,17 +596,6 @@
    "flags": [
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
     "Drift against the favourite: 1.70 \u2192 1.89 (-10%) \u2014 money moving the other way"
-   ]
-  },
-  {
-   "gameId": "ncaab:401921827",
-   "match": "Southern Jaguars @ Vanderbilt Commodores",
-   "league": "NCAAB",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: a short price leaves little margin"
    ]
   },
   {
@@ -728,16 +706,6 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
-   "gameId": "brasileirao:401841337",
-   "match": "Cruzeiro @ Fluminense",
-   "league": "Brazil Serie A",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Steam: favourite shortened 2.10 \u2192 1.94 (+8%) \u2014 market confirming"
    ]
   },
   {
