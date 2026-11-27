@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-27T06:31:26.097399+00:00",
+ "generatedAt": "2026-11-27T07:01:55.782724+00:00",
  "games": [
   {
    "id": "nfl:401873081",
@@ -621,21 +621,20 @@
    "homeId": "2250",
    "awayId": "239",
    "startsAt": "2026-11-27T04:53Z",
-   "state": "in",
+   "state": "post",
    "_path": "basketball/mens-college-basketball",
    "_eid": "401920540",
    "_cid": "401920540",
    "markets": {
     "h2h": {
      "outcome": "Gonzaga Bulldogs",
-     "bestOdds": 1.02,
-     "otherOdds": 34.0,
-     "bookCount": "2",
-     "favSide": "home",
-     "source": "oddsapi"
+     "bestOdds": 1.704,
+     "otherOdds": 2.2,
+     "bookCount": "1",
+     "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/mens-college-basketball/game/_/gameId/401920540/baylor-gonzaga",
    "drawPossible": false
   },
   {
@@ -652,21 +651,21 @@
    "homeId": "2483",
    "awayId": "2641",
    "startsAt": "2026-11-27T04:57Z",
-   "state": "in",
+   "state": "post",
    "_path": "basketball/mens-college-basketball",
    "_eid": "401920531",
    "_cid": "401920531",
    "markets": {
     "h2h": {
      "outcome": "Texas Tech Red Raiders",
-     "bestOdds": 1.17,
-     "otherOdds": 6.0,
-     "bookCount": "7",
+     "bestOdds": 1.1,
+     "otherOdds": 13.0,
+     "bookCount": "5",
      "favSide": "away",
      "source": "oddsapi"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/mens-college-basketball/game/_/gameId/401920531/texas-tech-oregon",
    "drawPossible": false
   },
   {
@@ -844,11 +843,11 @@
    "_cid": "401888241",
    "markets": {
     "h2h": {
-     "outcome": "Konyaspor",
-     "bestOdds": 2.7,
+     "outcome": "Alanyaspor",
+     "bestOdds": 2.75,
      "otherOdds": 2.75,
      "bookCount": "1",
-     "favSide": "away"
+     "favSide": "home"
     }
    },
    "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401888241/konyaspor-alanyaspor",
@@ -905,8 +904,8 @@
    "markets": {
     "h2h": {
      "outcome": "Iowa Hawkeyes",
-     "bestOdds": 1.56,
-     "otherOdds": 2.64,
+     "bestOdds": 1.55,
+     "otherOdds": 2.65,
      "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
@@ -1169,8 +1168,8 @@
    "markets": {
     "h2h": {
      "outcome": "FC Groningen",
-     "bestOdds": 1.38,
-     "otherOdds": 7.5,
+     "bestOdds": 1.37,
+     "otherOdds": 7.55,
      "bookCount": "9",
      "favSide": "home",
      "source": "oddsapi"
@@ -1232,7 +1231,7 @@
     "h2h": {
      "outcome": "Werder Bremen",
      "bestOdds": 1.71,
-     "otherOdds": 4.6,
+     "otherOdds": 4.7,
      "bookCount": "10",
      "favSide": "home",
      "source": "oddsapi"
@@ -1318,7 +1317,7 @@
     "h2h": {
      "outcome": "Paris FC",
      "bestOdds": 2.2,
-     "otherOdds": 3.54,
+     "otherOdds": 3.52,
      "bookCount": "9",
      "favSide": "away",
      "source": "oddsapi"
@@ -1350,7 +1349,7 @@
      "outcome": "Denver Broncos",
      "bestOdds": 1.45,
      "otherOdds": 3.1,
-     "bookCount": "11",
+     "bookCount": "12",
      "favSide": "away",
      "source": "oddsapi"
     }
@@ -2269,7 +2268,7 @@
     "h2h": {
      "outcome": "New York Islanders",
      "bestOdds": 1.8,
-     "otherOdds": 2.17,
+     "otherOdds": 2.16,
      "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
@@ -3037,7 +3036,7 @@
    "markets": {
     "h2h": {
      "outcome": "Santa Clara",
-     "bestOdds": 2.48,
+     "bestOdds": 2.52,
      "otherOdds": 3.2,
      "bookCount": "9",
      "favSide": "away",
@@ -4703,7 +4702,7 @@
    "markets": {
     "h2h": {
      "outcome": "Houston Dynamo FC",
-     "bestOdds": 2.02,
+     "bestOdds": 2.0,
      "otherOdds": 3.65,
      "bookCount": "10",
      "favSide": "home",
@@ -5086,7 +5085,7 @@
    "markets": {
     "h2h": {
      "outcome": "South Carolina Gamecocks",
-     "bestOdds": 1.45,
+     "bestOdds": 1.47,
      "otherOdds": 3.1,
      "bookCount": "12",
      "favSide": "away",
@@ -5972,8 +5971,8 @@
    "markets": {
     "h2h": {
      "outcome": "Michigan State Spartans",
-     "bestOdds": 1.72,
-     "otherOdds": 2.23,
+     "bestOdds": 1.74,
+     "otherOdds": 2.21,
      "bookCount": "12",
      "favSide": "away",
      "source": "oddsapi"
@@ -6329,8 +6328,8 @@
    "markets": {
     "h2h": {
      "outcome": "Vélez Sarsfield",
-     "bestOdds": 2.05,
-     "otherOdds": 3.95,
+     "bestOdds": 2.0,
+     "otherOdds": 4.1,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -6855,7 +6854,15 @@
    "_path": "soccer/arg.1",
    "_eid": "401936413",
    "_cid": "401936413",
-   "markets": {},
+   "markets": {
+    "h2h": {
+     "outcome": "River Plate",
+     "bestOdds": 2.2,
+     "otherOdds": 3.65,
+     "bookCount": "1",
+     "favSide": "away"
+    }
+   },
    "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401936413/river-plate-instituto-cordoba",
    "drawPossible": true
   },
@@ -7478,7 +7485,7 @@
    "markets": {
     "h2h": {
      "outcome": "Istanbul Basaksehir",
-     "bestOdds": 1.455,
+     "bestOdds": 1.435,
      "otherOdds": 6.0,
      "bookCount": "1",
      "favSide": "away"
@@ -8489,9 +8496,9 @@
    "markets": {
     "h2h": {
      "outcome": "Guadalajara",
-     "bestOdds": 1.71,
-     "otherOdds": 4.4,
-     "bookCount": "2",
+     "bestOdds": 1.67,
+     "otherOdds": 4.7,
+     "bookCount": "3",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -10281,7 +10288,7 @@
    "markets": {
     "h2h": {
      "outcome": "Aston Villa",
-     "bestOdds": 2.01,
+     "bestOdds": 2.0,
      "otherOdds": 3.65,
      "bookCount": "8",
      "favSide": "home",
