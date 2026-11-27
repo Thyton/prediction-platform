@@ -550,8 +550,10 @@
    "awayAbbr": null,
    "espnUrl": null,
    "lockTs": "2026-11-26T00:11:00.725935+00:00",
-   "result": null,
-   "profitUnits": null
+   "result": "wrong",
+   "profitUnits": -1.0,
+   "final": "0-1",
+   "settledAt": "2026-11-27T18:42:21.444748+00:00"
   },
   {
    "gameId": "wta:186830",
