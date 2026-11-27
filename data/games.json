@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-27T09:03:57.989215+00:00",
+ "generatedAt": "2026-11-27T09:34:25.718700+00:00",
  "games": [
   {
    "id": "nfl:401873081",
@@ -29,105 +29,6 @@
     }
    },
    "espnUrl": "https://www.espn.com/nfl/game/_/gameId/401873081/bears-lions",
-   "drawPossible": false
-  },
-  {
-   "id": "esports:135093",
-   "sport": "esports",
-   "league": "Esports",
-   "match": "Oldboys French Team vs Roundsgg",
-   "home": "Roundsgg",
-   "away": "Oldboys French Team",
-   "startsAt": "2026-11-26T19:10:00.000+00:00",
-   "state": "finished",
-   "markets": {
-    "h2h": {
-     "outcome": "Oldboys French Team",
-     "bestOdds": 1.14,
-     "otherOdds": 5.1,
-     "bookCount": "1",
-     "favSide": "away",
-     "source": "bo3"
-    }
-   },
-   "tier": "c",
-   "boType": 3,
-   "mapScore": [
-    1,
-    2
-   ],
-   "drawPossible": false
-  },
-  {
-   "id": "esports:135085",
-   "sport": "esports",
-   "league": "Esports",
-   "match": "Notime vs Fortress",
-   "home": "Fortress",
-   "away": "Notime",
-   "startsAt": "2026-11-26T19:10:00.000+00:00",
-   "state": "finished",
-   "markets": {
-    "h2h": {
-     "outcome": "Notime",
-     "bestOdds": 1.11,
-     "otherOdds": 5.5,
-     "bookCount": "1",
-     "favSide": "away",
-     "source": "bo3"
-    }
-   },
-   "tier": "c",
-   "boType": 3,
-   "mapScore": [
-    1,
-    2
-   ],
-   "drawPossible": false
-  },
-  {
-   "id": "esports:135087",
-   "sport": "esports",
-   "league": "Esports",
-   "match": "Y23 vs Banda Chuya",
-   "home": "Banda Chuya",
-   "away": "Y23",
-   "startsAt": "2026-11-26T19:15:00.000+00:00",
-   "state": "finished",
-   "markets": {},
-   "tier": "c",
-   "boType": 3,
-   "mapScore": [
-    2,
-    1
-   ],
-   "drawPossible": false
-  },
-  {
-   "id": "esports:135086",
-   "sport": "esports",
-   "league": "Esports",
-   "match": "Inner Circle Prospect vs Partizan Ru",
-   "home": "Partizan Ru",
-   "away": "Inner Circle Prospect",
-   "startsAt": "2026-11-26T19:25:00.000+00:00",
-   "state": "finished",
-   "markets": {
-    "h2h": {
-     "outcome": "Inner Circle Prospect",
-     "bestOdds": 1.04,
-     "otherOdds": 8.0,
-     "bookCount": "1",
-     "favSide": "away",
-     "source": "bo3"
-    }
-   },
-   "tier": "c",
-   "boType": 3,
-   "mapScore": [
-    1,
-    2
-   ],
    "drawPossible": false
   },
   {
@@ -798,7 +699,7 @@
    "markets": {
     "h2h": {
      "outcome": "Alanyaspor",
-     "bestOdds": 2.75,
+     "bestOdds": 2.7,
      "otherOdds": 2.75,
      "bookCount": "1",
      "favSide": "home"
@@ -920,7 +821,7 @@
     "h2h": {
      "outcome": "Boston Bruins",
      "bestOdds": 1.67,
-     "otherOdds": 2.35,
+     "otherOdds": 2.38,
      "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
@@ -1516,8 +1417,8 @@
    "markets": {
     "h2h": {
      "outcome": "Nottingham Forest",
-     "bestOdds": 2.6,
-     "otherOdds": 2.85,
+     "bestOdds": 2.5,
+     "otherOdds": 3.0,
      "bookCount": "11",
      "favSide": "home",
      "source": "oddsapi"
@@ -1731,7 +1632,7 @@
    "markets": {
     "h2h": {
      "outcome": "Los Angeles Kings",
-     "bestOdds": 1.93,
+     "bestOdds": 1.91,
      "otherOdds": 2.02,
      "bookCount": "12",
      "favSide": "away",
@@ -1818,7 +1719,7 @@
     "h2h": {
      "outcome": "New Mexico Lobos",
      "bestOdds": 1.4,
-     "otherOdds": 3.24,
+     "otherOdds": 3.28,
      "bookCount": "11",
      "favSide": "home",
      "source": "oddsapi"
@@ -2003,8 +1904,8 @@
    "markets": {
     "h2h": {
      "outcome": "Fluminense",
-     "bestOdds": 2.05,
-     "otherOdds": 3.71,
+     "bestOdds": 2.09,
+     "otherOdds": 3.65,
      "bookCount": "10",
      "favSide": "home",
      "source": "oddsapi"
@@ -2097,7 +1998,7 @@
     "h2h": {
      "outcome": "Philadelphia 76ers",
      "bestOdds": 1.67,
-     "otherOdds": 2.38,
+     "otherOdds": 2.32,
      "bookCount": "12",
      "favSide": "away",
      "source": "oddsapi"
@@ -2159,7 +2060,7 @@
     "h2h": {
      "outcome": "Houston Cougars",
      "bestOdds": 1.01,
-     "otherOdds": 121.0,
+     "otherOdds": 101.0,
      "bookCount": "2",
      "favSide": "home",
      "source": "oddsapi"
@@ -2282,8 +2183,8 @@
    "markets": {
     "h2h": {
      "outcome": "Boston Celtics",
-     "bestOdds": 1.27,
-     "otherOdds": 4.31,
+     "bestOdds": 1.28,
+     "otherOdds": 4.12,
      "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
@@ -2406,8 +2307,8 @@
    "markets": {
     "h2h": {
      "outcome": "Minnesota Timberwolves",
-     "bestOdds": 1.63,
-     "otherOdds": 2.46,
+     "bestOdds": 1.62,
+     "otherOdds": 2.44,
      "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
@@ -2438,8 +2339,8 @@
     "h2h": {
      "outcome": "Miami Hurricanes",
      "bestOdds": 1.75,
-     "otherOdds": 2.15,
-     "bookCount": "6",
+     "otherOdds": 2.16,
+     "bookCount": "7",
      "favSide": "away",
      "source": "oddsapi"
     }
@@ -2469,7 +2370,7 @@
     "h2h": {
      "outcome": "Phoenix Suns",
      "bestOdds": 1.8,
-     "otherOdds": 2.16,
+     "otherOdds": 2.14,
      "bookCount": "11",
      "favSide": "home",
      "source": "oddsapi"
@@ -2500,7 +2401,7 @@
     "h2h": {
      "outcome": "Tennessee Volunteers",
      "bestOdds": 1.83,
-     "otherOdds": 2.1,
+     "otherOdds": 2.05,
      "bookCount": "4",
      "favSide": "away",
      "source": "oddsapi"
@@ -2654,7 +2555,7 @@
     "h2h": {
      "outcome": "Portland Trail Blazers",
      "bestOdds": 1.29,
-     "otherOdds": 4.15,
+     "otherOdds": 4.12,
      "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
@@ -2684,8 +2585,8 @@
    "markets": {
     "h2h": {
      "outcome": "Vancouver Whitecaps",
-     "bestOdds": 2.43,
-     "otherOdds": 2.8,
+     "bestOdds": 2.38,
+     "otherOdds": 2.86,
      "bookCount": "11",
      "favSide": "away",
      "source": "oddsapi"
@@ -2712,7 +2613,16 @@
    "_path": "basketball/mens-college-basketball",
    "_eid": "401920544",
    "_cid": "401920544",
-   "markets": {},
+   "markets": {
+    "h2h": {
+     "outcome": "Gonzaga Bulldogs",
+     "bestOdds": 1.45,
+     "otherOdds": 2.8,
+     "bookCount": "1",
+     "favSide": "home",
+     "source": "oddsapi"
+    }
+   },
    "espnUrl": "https://www.espn.com/mens-college-basketball/game/_/gameId/401920544/creighton-gonzaga",
    "drawPossible": false
   },
@@ -5574,7 +5484,7 @@
     "h2h": {
      "outcome": "Penn State Nittany Lions",
      "bestOdds": 1.38,
-     "otherOdds": 3.35,
+     "otherOdds": 3.36,
      "bookCount": "12",
      "favSide": "away",
      "source": "oddsapi"
@@ -8033,7 +7943,7 @@
    "markets": {
     "h2h": {
      "outcome": "TSG Hoffenheim",
-     "bestOdds": 1.74,
+     "bestOdds": 1.75,
      "otherOdds": 4.1,
      "bookCount": "9",
      "favSide": "home",
@@ -8188,7 +8098,7 @@
    "markets": {
     "h2h": {
      "outcome": "Flamengo",
-     "bestOdds": 1.74,
+     "bestOdds": 1.73,
      "otherOdds": 4.4,
      "bookCount": "10",
      "favSide": "away",
@@ -8374,7 +8284,7 @@
     "h2h": {
      "outcome": "Rosario Central",
      "bestOdds": 1.53,
-     "otherOdds": 7.5,
+     "otherOdds": 7.0,
      "bookCount": "6",
      "favSide": "home",
      "source": "oddsapi"
