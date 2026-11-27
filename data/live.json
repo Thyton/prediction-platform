@@ -1,4 +1,37 @@
 {
- "generatedAt": "2026-11-27T20:13:40.388250+00:00",
- "signals": []
+ "generatedAt": "2026-11-27T20:44:10.217675+00:00",
+ "signals": [
+  {
+   "gameId": "wta:186830",
+   "kind": "HOLD",
+   "text": "Ahead by a set/break \u2014 hold; the price is thin now.",
+   "espnUrl": null,
+   "sport": "wta",
+   "match": "TBD vs Guiomar Maristany Zuleta De Reales",
+   "side": "home",
+   "score": "1-0",
+   "period": 2,
+   "clock": "1-3",
+   "progress": 0.47,
+   "livePrice": null,
+   "lockedPrice": 1.53,
+   "at": "2026-11-27T20:44:10.004179+00:00"
+  },
+  {
+   "gameId": "bundesliga:401884720",
+   "kind": "RISING",
+   "text": "Behind \u2014 the get-in window is still open at a better live price. Live price 5.60 vs 1.77 locked (+216%) \u2014 the market still pays above your lock.",
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401884720/borussia-monchengladbach-werder-bremen",
+   "sport": "bundesliga",
+   "match": "Borussia M\u00f6nchengladbach @ Werder Bremen",
+   "side": "home",
+   "score": "1-2",
+   "period": 2,
+   "clock": "53'",
+   "progress": 0.0,
+   "livePrice": 5.6,
+   "lockedPrice": 1.77,
+   "at": "2026-11-27T20:44:09.747741+00:00"
+  }
+ ]
 }
