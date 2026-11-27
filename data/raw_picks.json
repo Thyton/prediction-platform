@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-27T10:35:21.052310+00:00",
+ "generatedAt": "2026-11-27T11:05:46.358746+00:00",
  "picks": [
   {
    "gameId": "wta:186832",
@@ -32,9 +32,9 @@
    "sport": "bundesliga",
    "side": "home",
    "price": 1.71,
-   "modelProb": 0.7982,
-   "marketProb": 0.7413,
-   "edgePct": 0.0569,
+   "modelProb": 0.7958,
+   "marketProb": 0.7369,
+   "edgePct": 0.0589,
    "tier": "PREMIUM",
    "bookCount": 10,
    "startsAt": "2026-11-27T19:30Z",
@@ -389,7 +389,8 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Heavy favourite: a short price leaves little margin"
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 1.43 \u2192 1.31 (+9%) \u2014 market confirming"
    ]
   },
   {
@@ -611,16 +612,6 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
-   "gameId": "ncaab:401920544",
-   "match": "Creighton Bluejays @ Gonzaga Bulldogs",
-   "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {

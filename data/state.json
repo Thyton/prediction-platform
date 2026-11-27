@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-27T10:35:21.060019+00:00",
+ "generatedAt": "2026-11-27T11:05:46.367464+00:00",
  "picks": [
   {
    "gameId": "epl:401879219",
@@ -602,7 +602,8 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Heavy favourite: a short price leaves little margin"
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 1.43 \u2192 1.31 (+9%) \u2014 market confirming"
    ]
   },
   {
@@ -824,16 +825,6 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
-   "gameId": "ncaab:401920544",
-   "match": "Creighton Bluejays @ Gonzaga Bulldogs",
-   "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
