@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-27T17:41:38.757808+00:00",
+ "generatedAt": "2026-11-27T18:12:07.486750+00:00",
  "picks": [
   {
    "gameId": "wta:186832",
@@ -13,7 +13,7 @@
    "edgePct": 0.4043,
    "tier": "PREMIUM",
    "bookCount": 0,
-   "startsAt": "2026-11-27T18:00Z",
+   "startsAt": "2026-11-27T18:15Z",
    "modelPriced": true,
    "why": "Carole Monnet rated 70% to win; across 23 tracked games per side; a 40-point rating gap with no market price to lean on.",
    "edgeKind": "model",
@@ -32,9 +32,9 @@
    "sport": "bundesliga",
    "side": "home",
    "price": 1.67,
-   "modelProb": 0.7996,
-   "marketProb": 0.7439,
-   "edgePct": 0.0558,
+   "modelProb": 0.8017,
+   "marketProb": 0.7477,
+   "edgePct": 0.054,
    "tier": "PREMIUM",
    "bookCount": 10,
    "startsAt": "2026-11-27T19:30Z",
@@ -301,24 +301,36 @@
    ]
   },
   {
+   "gameId": "esports:134524",
+   "match": "Xmeta vs Nordic Partners Gaming",
+   "league": "Esports",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
    "gameId": "ncaab:401920429",
    "match": "Virginia Cavaliers @ Xavier Musketeers",
    "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
+   "severity": 2,
+   "signal": "high_risk_alert",
    "flags": [
-    "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.35 \u2192 1.05 (+29%) \u2014 market confirming"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: a short price leaves little margin"
    ]
   },
   {
    "gameId": "ncaaf:401856762",
    "match": "Mississippi State Bulldogs @ Ole Miss Rebels",
    "league": "NCAAF",
-   "severity": 1,
-   "signal": "integrity_watch",
+   "severity": 2,
+   "signal": "high_risk_alert",
    "flags": [
-    "Heavy favourite: a short price leaves little margin"
+    "Heavy favourite: a short price leaves little margin",
+    "Drift against the favourite: 1.11 \u2192 1.27 (-13%) \u2014 money moving the other way"
    ]
   },
   {
@@ -328,17 +340,7 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Steam: favourite shortened 1.93 \u2192 1.74 (+11%) \u2014 market confirming"
-   ]
-  },
-  {
-   "gameId": "ncaaf:401866472",
-   "match": "Buffalo Bulls @ Akron Zips",
-   "league": "NCAAF",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Heavy favourite: a short price leaves little margin"
+    "Steam: favourite shortened 1.93 \u2192 1.45 (+33%) \u2014 market confirming"
    ]
   },
   {
@@ -349,7 +351,7 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.67 \u2192 1.08 (+55%) \u2014 market confirming"
+    "Steam: favourite shortened 1.67 \u2192 1.06 (+57%) \u2014 market confirming"
    ]
   },
   {
@@ -360,7 +362,7 @@
    "signal": "high_risk_alert",
    "flags": [
     "Thin market: only 2 books quoting",
-    "Drift against the favourite: 2.55 \u2192 2.95 (-14%) \u2014 money moving the other way"
+    "Drift against the favourite: 2.55 \u2192 3.35 (-24%) \u2014 money moving the other way"
    ]
   },
   {
@@ -371,18 +373,7 @@
    "signal": "high_risk_alert",
    "flags": [
     "Thin market: only 2 books quoting",
-    "Drift against the favourite: 1.87 \u2192 2.25 (-17%) \u2014 money moving the other way"
-   ]
-  },
-  {
-   "gameId": "ncaaf:401858536",
-   "match": "Nebraska Cornhuskers @ Iowa Hawkeyes",
-   "league": "NCAAF",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.56 \u2192 1.33 (+17%) \u2014 market confirming"
+    "Drift against the favourite: 1.87 \u2192 3.55 (-47%) \u2014 money moving the other way"
    ]
   },
   {
@@ -392,7 +383,7 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Drift against the favourite: 1.56 \u2192 1.89 (-18%) \u2014 money moving the other way"
+    "Drift against the favourite: 1.57 \u2192 1.95 (-19%) \u2014 money moving the other way"
    ]
   },
   {
@@ -469,10 +460,10 @@
    "gameId": "ncaaf:401864549",
    "match": "North Dakota State Bison @ San Jos\u00e9 State Spartans",
    "league": "NCAAF",
-   "severity": 1,
-   "signal": "integrity_watch",
+   "severity": 2,
+   "signal": "high_risk_alert",
    "flags": [
-    "Heavy favourite: a short price leaves little margin"
+    "Drift against the favourite: 1.30 \u2192 3.30 (-61%) \u2014 money moving the other way"
    ]
   },
   {
@@ -584,6 +575,16 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
+   "gameId": "mls:401933727",
+   "match": "Inter Miami CF @ Columbus Crew",
+   "league": "MLS",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Steam: favourite shortened 2.50 \u2192 2.31 (+8%) \u2014 market confirming"
    ]
   },
   {
@@ -1188,7 +1189,7 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Steam: favourite shortened 1.95 \u2192 1.77 (+10%) \u2014 market confirming"
+    "Steam: favourite shortened 1.91 \u2192 1.71 (+12%) \u2014 market confirming"
    ]
   },
   {
