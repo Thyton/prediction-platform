@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-27T12:06:48.098205+00:00",
+ "generatedAt": "2026-11-27T12:37:19.021109+00:00",
  "picks": [
   {
    "gameId": "wta:186832",
@@ -31,10 +31,10 @@
    "league": "Bundesliga",
    "sport": "bundesliga",
    "side": "home",
-   "price": 1.67,
-   "modelProb": 0.7996,
-   "marketProb": 0.7439,
-   "edgePct": 0.0558,
+   "price": 1.7,
+   "modelProb": 0.7964,
+   "marketProb": 0.7381,
+   "edgePct": 0.0584,
    "tier": "PREMIUM",
    "bookCount": 10,
    "startsAt": "2026-11-27T19:30Z",
@@ -293,6 +293,17 @@
   {
    "gameId": "esports:134397",
    "match": "Wildcard Gaming vs Imperial",
+   "league": "Esports",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
+   "gameId": "esports:135040",
+   "match": "Masonic vs Mouz Nxt",
    "league": "Esports",
    "severity": 2,
    "signal": "high_risk_alert",
