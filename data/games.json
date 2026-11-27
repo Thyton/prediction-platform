@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-27T11:36:14.372940+00:00",
+ "generatedAt": "2026-11-27T12:06:47.964294+00:00",
  "games": [
   {
    "id": "nfl:401873081",
@@ -497,6 +497,51 @@
    "drawPossible": false
   },
   {
+   "id": "esports:134397",
+   "sport": "esports",
+   "league": "Esports",
+   "match": "Wildcard Gaming vs Imperial",
+   "home": "Imperial",
+   "away": "Wildcard Gaming",
+   "startsAt": "2026-11-27T08:30:00.000+00:00",
+   "state": "finished",
+   "markets": {
+    "h2h": {
+     "outcome": "Imperial",
+     "bestOdds": 1.001,
+     "otherOdds": 12.0,
+     "bookCount": "1",
+     "favSide": "home",
+     "source": "bo3"
+    }
+   },
+   "tier": "s",
+   "boType": 3,
+   "mapScore": [
+    2,
+    1
+   ],
+   "drawPossible": false
+  },
+  {
+   "id": "esports:134522",
+   "sport": "esports",
+   "league": "Esports",
+   "match": "Noir Verse vs Ex Ence",
+   "home": "Ex Ence",
+   "away": "Noir Verse",
+   "startsAt": "2026-11-27T09:00:00.000+00:00",
+   "state": "defwin",
+   "markets": {},
+   "tier": "b",
+   "boType": 1,
+   "mapScore": [
+    0,
+    1
+   ],
+   "drawPossible": false
+  },
+  {
    "id": "esports:134902",
    "sport": "esports",
    "league": "Esports",
@@ -843,7 +888,7 @@
     "h2h": {
      "outcome": "New Jersey Devils",
      "bestOdds": 1.36,
-     "otherOdds": 3.44,
+     "otherOdds": 3.48,
      "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
@@ -983,7 +1028,7 @@
     "h2h": {
      "outcome": "Vanderbilt Commodores",
      "bestOdds": 1.01,
-     "otherOdds": 81.0,
+     "otherOdds": 101.0,
      "bookCount": "2",
      "favSide": "home",
      "source": "oddsapi"
@@ -1014,7 +1059,7 @@
     "h2h": {
      "outcome": "Dallas Stars",
      "bestOdds": 1.75,
-     "otherOdds": 2.24,
+     "otherOdds": 2.25,
      "bookCount": "12",
      "favSide": "away",
      "source": "oddsapi"
@@ -1044,8 +1089,8 @@
    "markets": {
     "h2h": {
      "outcome": "FC Groningen",
-     "bestOdds": 1.31,
-     "otherOdds": 9.25,
+     "bestOdds": 1.29,
+     "otherOdds": 10.0,
      "bookCount": "9",
      "favSide": "home",
      "source": "oddsapi"
@@ -1106,8 +1151,8 @@
    "markets": {
     "h2h": {
      "outcome": "Werder Bremen",
-     "bestOdds": 1.69,
-     "otherOdds": 4.8,
+     "bestOdds": 1.67,
+     "otherOdds": 4.85,
      "bookCount": "10",
      "favSide": "home",
      "source": "oddsapi"
@@ -1346,7 +1391,7 @@
    "markets": {
     "h2h": {
      "outcome": "Florida Panthers",
-     "bestOdds": 1.89,
+     "bestOdds": 1.91,
      "otherOdds": 2.03,
      "bookCount": "12",
      "favSide": "away",
@@ -1408,7 +1453,7 @@
    "markets": {
     "h2h": {
      "outcome": "Nottingham Forest",
-     "bestOdds": 2.41,
+     "bestOdds": 2.44,
      "otherOdds": 3.05,
      "bookCount": "11",
      "favSide": "home",
@@ -1439,8 +1484,8 @@
    "markets": {
     "h2h": {
      "outcome": "Levante",
-     "bestOdds": 2.0,
-     "otherOdds": 3.3,
+     "bestOdds": 2.05,
+     "otherOdds": 3.25,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -1592,7 +1637,7 @@
    "markets": {
     "h2h": {
      "outcome": "Minnesota Wild",
-     "bestOdds": 1.88,
+     "bestOdds": 1.83,
      "otherOdds": 2.15,
      "bookCount": "12",
      "favSide": "home",
@@ -6319,8 +6364,8 @@
    "markets": {
     "h2h": {
      "outcome": "Vélez Sarsfield",
-     "bestOdds": 2.0,
-     "otherOdds": 3.95,
+     "bestOdds": 2.05,
+     "otherOdds": 3.8,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -6879,7 +6924,7 @@
     "h2h": {
      "outcome": "Toluca",
      "bestOdds": 2.2,
-     "otherOdds": 3.05,
+     "otherOdds": 3.0,
      "bookCount": "5",
      "favSide": "away",
      "source": "oddsapi"
@@ -6931,8 +6976,8 @@
    "markets": {
     "h2h": {
      "outcome": "LAFC",
-     "bestOdds": 1.606,
-     "otherOdds": 4.6,
+     "bestOdds": 1.571,
+     "otherOdds": 4.7,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -8274,7 +8319,7 @@
    "markets": {
     "h2h": {
      "outcome": "Rosario Central",
-     "bestOdds": 1.53,
+     "bestOdds": 1.48,
      "otherOdds": 7.0,
      "bookCount": "6",
      "favSide": "home",
@@ -13204,7 +13249,7 @@
    "markets": {
     "h2h": {
      "outcome": "Sevilla",
-     "bestOdds": 1.465,
+     "bestOdds": 1.455,
      "otherOdds": 6.5,
      "bookCount": "1",
      "favSide": "home"

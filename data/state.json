@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-27T11:36:14.556327+00:00",
+ "generatedAt": "2026-11-27T12:06:48.106632+00:00",
  "picks": [
   {
    "gameId": "epl:401879219",
@@ -504,6 +504,17 @@
    ]
   },
   {
+   "gameId": "esports:134397",
+   "match": "Wildcard Gaming vs Imperial",
+   "league": "Esports",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
    "gameId": "ncaab:401920429",
    "match": "Virginia Cavaliers @ Xavier Musketeers",
    "league": "NCAAB",
@@ -592,7 +603,7 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.43 \u2192 1.31 (+9%) \u2014 market confirming"
+    "Steam: favourite shortened 1.43 \u2192 1.29 (+11%) \u2014 market confirming"
    ]
   },
   {
@@ -1145,7 +1156,7 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Drift against the favourite: 1.81 \u2192 2.20 (-18%) \u2014 money moving the other way"
+    "Drift against the favourite: 1.85 \u2192 2.20 (-16%) \u2014 money moving the other way"
    ]
   },
   {
