@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-27T22:46:05.292854+00:00",
+ "generatedAt": "2026-11-27T23:16:28.856219+00:00",
  "picks": [
   {
    "gameId": "seriea:401875029",
@@ -429,12 +429,10 @@
    "gameId": "nfl:401873083",
    "match": "Denver Broncos @ Pittsburgh Steelers",
    "league": "NFL",
-   "severity": 2,
-   "signal": "high_risk_alert",
+   "severity": 1,
+   "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.45 \u2192 1.01 (+44%) \u2014 market confirming"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
@@ -451,24 +449,30 @@
    "gameId": "nhl:401892799",
    "match": "Ottawa Senators @ Tampa Bay Lightning",
    "league": "NHL",
-   "severity": 2,
-   "signal": "high_risk_alert",
+   "severity": 1,
+   "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 2 books quoting",
-    "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.75 \u2192 1.01 (+73%) \u2014 market confirming"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
    "gameId": "nhl:401892800",
    "match": "Vancouver Canucks @ Philadelphia Flyers",
    "league": "NHL",
-   "severity": 2,
-   "signal": "high_risk_alert",
+   "severity": 1,
+   "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 2 books quoting",
-    "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.46 \u2192 1.01 (+45%) \u2014 market confirming"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "nhl:401892801",
+   "match": "Florida Panthers @ Washington Capitals",
+   "league": "NHL",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
@@ -520,7 +524,7 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.43 \u2192 1.07 (+34%) \u2014 market confirming"
+    "Steam: favourite shortened 1.44 \u2192 1.12 (+29%) \u2014 market confirming"
    ]
   },
   {
@@ -541,7 +545,7 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.30 \u2192 1.06 (+23%) \u2014 market confirming"
+    "Steam: favourite shortened 3.30 \u2192 1.03 (+220%) \u2014 market confirming"
    ]
   },
   {
@@ -552,17 +556,29 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.88 \u2192 1.07 (+76%) \u2014 market confirming"
+    "Steam: favourite shortened 1.88 \u2192 1.02 (+84%) \u2014 market confirming"
+   ]
+  },
+  {
+   "gameId": "nhl:401892804",
+   "match": "Los Angeles Kings @ Anaheim Ducks",
+   "league": "NHL",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 1.88 \u2192 1.25 (+50%) \u2014 market confirming"
    ]
   },
   {
    "gameId": "nhl:401892805",
    "match": "Vegas Golden Knights @ San Jose Sharks",
    "league": "NHL",
-   "severity": 2,
-   "signal": "high_risk_alert",
+   "severity": 1,
+   "signal": "integrity_watch",
    "flags": [
-    "Drift against the favourite: 1.51 \u2192 1.65 (-8%) \u2014 money moving the other way"
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 1.51 \u2192 1.09 (+38%) \u2014 market confirming"
    ]
   },
   {
@@ -573,7 +589,7 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.38 \u2192 1.20 (+15%) \u2014 market confirming"
+    "Steam: favourite shortened 1.36 \u2192 1.13 (+20%) \u2014 market confirming"
    ]
   },
   {
@@ -583,7 +599,7 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Drift against the favourite: 1.30 \u2192 1.93 (-33%) \u2014 money moving the other way"
+    "Drift against the favourite: 1.32 \u2192 1.78 (-26%) \u2014 money moving the other way"
    ]
   },
   {
@@ -594,6 +610,16 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
+   "gameId": "nhl:401892806",
+   "match": "New York Rangers @ Chicago Blackhawks",
+   "league": "NHL",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Drift against the favourite: 1.59 \u2192 2.35 (-32%) \u2014 money moving the other way"
    ]
   },
   {
@@ -614,6 +640,16 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
+   "gameId": "brasileirao:401841337",
+   "match": "Cruzeiro @ Fluminense",
+   "league": "Brazil Serie A",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Drift against the favourite: 1.94 \u2192 2.37 (-18%) \u2014 money moving the other way"
    ]
   },
   {
@@ -685,6 +721,16 @@
    "signal": "high_risk_alert",
    "flags": [
     "Drift against the favourite: 1.56 \u2192 1.70 (-8%) \u2014 money moving the other way"
+   ]
+  },
+  {
+   "gameId": "nba:401909332",
+   "match": "Dallas Mavericks @ Phoenix Suns",
+   "league": "NBA",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Steam: favourite shortened 1.83 \u2192 1.69 (+8%) \u2014 market confirming"
    ]
   },
   {
@@ -1070,10 +1116,11 @@
    "gameId": "ncaab:401924811",
    "match": "Merrimack Warriors @ Hofstra Pride",
    "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
+   "severity": 2,
+   "signal": "high_risk_alert",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Drift against the favourite: 1.47 \u2192 1.61 (-9%) \u2014 money moving the other way"
    ]
   },
   {
@@ -1251,10 +1298,10 @@
    "gameId": "ligamx:401931997",
    "match": "Toluca @ Atlas",
    "league": "Liga MX",
-   "severity": 2,
-   "signal": "high_risk_alert",
+   "severity": 1,
+   "signal": "integrity_watch",
    "flags": [
-    "Drift against the favourite: 1.97 \u2192 2.20 (-10%) \u2014 money moving the other way"
+    "Steam: favourite shortened 2.38 \u2192 2.20 (+8%) \u2014 market confirming"
    ]
   },
   {
@@ -1285,16 +1332,6 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
-   "gameId": "ligamx:401931996",
-   "match": "Monterrey @ Am\u00e9rica",
-   "league": "Liga MX",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Steam: favourite shortened 2.45 \u2192 2.23 (+10%) \u2014 market confirming"
    ]
   },
   {
