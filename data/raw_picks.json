@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-27T13:07:48.480958+00:00",
+ "generatedAt": "2026-11-27T13:38:13.321683+00:00",
  "picks": [
   {
    "gameId": "wta:186832",
@@ -78,15 +78,15 @@
    "league": "NBA",
    "sport": "nba",
    "side": "home",
-   "price": 1.27,
-   "modelProb": 0.8237,
-   "marketProb": 0.7699,
-   "edgePct": 0.0537,
+   "price": 1.26,
+   "modelProb": 0.8339,
+   "marketProb": 0.7886,
+   "edgePct": 0.0453,
    "tier": "PREMIUM",
    "bookCount": 12,
    "startsAt": "2026-11-28T00:30Z",
    "edgeKind": "market",
-   "why": "Detroit Pistons rated 82% to win; across 20 tracked games per side; with 12 books quoting; a slim but real gap to the market price.",
+   "why": "Detroit Pistons rated 83% to win; across 20 tracked games per side; with 12 books quoting; a slim but real gap to the market price.",
    "home": "Detroit Pistons",
    "away": "Milwaukee Bucks",
    "homeLogo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
@@ -333,16 +333,6 @@
    ]
   },
   {
-   "gameId": "ncaaf:401866472",
-   "match": "Buffalo Bulls @ Akron Zips",
-   "league": "NCAAF",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
    "gameId": "superlig:401888241",
    "match": "Konyaspor @ Alanyaspor",
    "league": "Turkish Super Lig",
@@ -389,7 +379,7 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Thin market: only 2 books quoting",
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
     "Heavy favourite: a short price leaves little margin"
    ]
   },
@@ -541,7 +531,7 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Thin market: only 2 books quoting",
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
     "Heavy favourite: a short price leaves little margin"
    ]
   },
@@ -613,6 +603,16 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
+   "gameId": "ncaab:401920535",
+   "match": "Texas Tech Red Raiders @ San Diego State Aztecs",
+   "league": "NCAAB",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
