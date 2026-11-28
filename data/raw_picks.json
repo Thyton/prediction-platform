@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-28T13:59:13.903671+00:00",
+ "generatedAt": "2026-11-28T14:29:42.733264+00:00",
  "picks": [
   {
    "gameId": "seriea:401875029",
@@ -7,15 +7,15 @@
    "league": "Serie A",
    "sport": "seriea",
    "side": "home",
-   "price": 1.83,
-   "modelProb": 0.7534,
-   "marketProb": 0.653,
-   "edgePct": 0.1004,
+   "price": 1.87,
+   "modelProb": 0.7527,
+   "marketProb": 0.6518,
+   "edgePct": 0.101,
    "tier": "HIGH",
    "bookCount": 1,
    "startsAt": "2026-12-06T14:00Z",
    "edgeKind": "market",
-   "why": "Lazio rated 75% to win; across 12 tracked games per side; with 1 book quoting; a 10.0-point gap to the market price.",
+   "why": "Lazio rated 75% to win; across 12 tracked games per side; with 1 book quoting; a 10.1-point gap to the market price.",
    "home": "Lazio",
    "away": "Atalanta",
    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
@@ -649,7 +649,7 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Drift against the favourite: 1.65 \u2192 1.87 (-12%) \u2014 money moving the other way"
+    "Drift against the favourite: 1.62 \u2192 2.15 (-25%) \u2014 money moving the other way"
    ]
   },
   {
@@ -693,16 +693,6 @@
    ]
   },
   {
-   "gameId": "eredivisie:401875537",
-   "match": "Telstar @ Excelsior",
-   "league": "Dutch Eredivisie",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Drift against the favourite: 2.05 \u2192 2.25 (-9%) \u2014 money moving the other way"
-   ]
-  },
-  {
    "gameId": "superlig:401888368",
    "match": "Amed SFK @ Gaziantep FK",
    "league": "Turkish Super Lig",
@@ -710,7 +700,7 @@
    "signal": "high_risk_alert",
    "flags": [
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Drift against the favourite: 2.00 \u2192 2.25 (-11%) \u2014 money moving the other way"
+    "Drift against the favourite: 2.00 \u2192 2.20 (-9%) \u2014 money moving the other way"
    ]
   },
   {
@@ -841,7 +831,7 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Drift against the favourite: 2.00 \u2192 2.18 (-8%) \u2014 money moving the other way"
+    "Drift against the favourite: 2.02 \u2192 2.25 (-10%) \u2014 money moving the other way"
    ]
   },
   {
@@ -1344,16 +1334,6 @@
    "gameId": "laliga:401882780",
    "match": "Deportivo @ Racing Santander",
    "league": "La Liga",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "seriea:401874975",
-   "match": "Como @ Monza",
-   "league": "Serie A",
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
