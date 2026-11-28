@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-28T11:27:02.680415+00:00",
+ "generatedAt": "2026-11-28T11:57:33.572278+00:00",
  "picks": [
   {
    "gameId": "epl:401879219",
@@ -772,39 +772,6 @@
    ]
   },
   {
-   "gameId": "esports:134402",
-   "match": "Eternal Fire vs 1win",
-   "league": "Esports",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
-   "gameId": "esports:134401",
-   "match": "Liquid vs G2",
-   "league": "Esports",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
-   "gameId": "esports:134404",
-   "match": "Parivision vs Natus Vincere",
-   "league": "Esports",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
    "gameId": "esports:134406",
    "match": "100 Thieves vs Mibr",
    "league": "Esports",
@@ -850,6 +817,17 @@
   {
    "gameId": "esports:134407",
    "match": "Lynn Vision vs Nemiga",
+   "league": "Esports",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
+   "gameId": "esports:134409",
+   "match": "Eternal Fire vs Liquid",
    "league": "Esports",
    "severity": 2,
    "signal": "high_risk_alert",
