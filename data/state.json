@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-28T03:20:18.453476+00:00",
+ "generatedAt": "2026-11-28T03:50:47.057693+00:00",
  "picks": [
   {
    "gameId": "epl:401879219",
@@ -635,7 +635,7 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.22 \u2192 1.10 (+11%) \u2014 market confirming"
+    "Steam: favourite shortened 1.26 \u2192 1.02 (+24%) \u2014 market confirming"
    ]
   },
   {
@@ -661,6 +661,17 @@
    ]
   },
   {
+   "gameId": "nba:401909330",
+   "match": "Atlanta Hawks @ Boston Celtics",
+   "league": "NBA",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
    "gameId": "nhl:401892808",
    "match": "Pittsburgh Penguins @ Buffalo Sabres",
    "league": "NHL",
@@ -668,28 +679,39 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.79 \u2192 1.11 (+61%) \u2014 market confirming"
+    "Steam: favourite shortened 1.78 \u2192 1.02 (+74%) \u2014 market confirming"
    ]
   },
   {
    "gameId": "nhl:401892809",
    "match": "Seattle Kraken @ Edmonton Oilers",
    "league": "NHL",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Drift against the favourite: 1.49 \u2192 2.10 (-29%) \u2014 money moving the other way"
+   ]
+  },
+  {
+   "gameId": "nba:401909331",
+   "match": "Memphis Grizzlies @ Minnesota Timberwolves",
+   "league": "NBA",
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.50 \u2192 1.14 (+32%) \u2014 market confirming"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
    "gameId": "ncaab:401920543",
    "match": "Miami Hurricanes @ Alabama Crimson Tide",
    "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
+   "severity": 2,
+   "signal": "high_risk_alert",
    "flags": [
-    "Steam: favourite shortened 1.78 \u2192 1.56 (+14%) \u2014 market confirming"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 1.78 \u2192 1.02 (+74%) \u2014 market confirming"
    ]
   },
   {
@@ -700,7 +722,7 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.70 \u2192 1.22 (+39%) \u2014 market confirming"
+    "Steam: favourite shortened 1.69 \u2192 1.07 (+58%) \u2014 market confirming"
    ]
   },
   {
@@ -711,7 +733,7 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.62 \u2192 1.20 (+35%) \u2014 market confirming"
+    "Steam: favourite shortened 1.62 \u2192 1.04 (+56%) \u2014 market confirming"
    ]
   },
   {
@@ -729,20 +751,21 @@
    "gameId": "nba:401909333",
    "match": "Los Angeles Lakers @ San Antonio Spurs",
    "league": "NBA",
-   "severity": 2,
-   "signal": "high_risk_alert",
+   "severity": 1,
+   "signal": "integrity_watch",
    "flags": [
-    "Drift against the favourite: 1.50 \u2192 1.65 (-9%) \u2014 money moving the other way"
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 1.49 \u2192 1.31 (+14%) \u2014 market confirming"
    ]
   },
   {
    "gameId": "nba:401909334",
    "match": "Denver Nuggets @ Utah Jazz",
    "league": "NBA",
-   "severity": 1,
-   "signal": "integrity_watch",
+   "severity": 2,
+   "signal": "high_risk_alert",
    "flags": [
-    "Heavy favourite: a short price leaves little margin"
+    "Drift against the favourite: 1.24 \u2192 1.49 (-17%) \u2014 money moving the other way"
    ]
   },
   {
@@ -753,7 +776,7 @@
    "signal": "high_risk_alert",
    "flags": [
     "Thin market: only 2 books quoting",
-    "Drift against the favourite: 1.65 \u2192 1.80 (-9%) \u2014 money moving the other way"
+    "Drift against the favourite: 1.62 \u2192 2.05 (-21%) \u2014 money moving the other way"
    ]
   },
   {
@@ -764,7 +787,7 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.35 \u2192 1.03 (+31%) \u2014 market confirming"
+    "Steam: favourite shortened 1.33 \u2192 1.01 (+32%) \u2014 market confirming"
    ]
   },
   {
@@ -950,6 +973,17 @@
    ]
   },
   {
+   "gameId": "ncaab:401920310",
+   "match": "Alcorn State Braves @ Georgia Tech Yellow Jackets",
+   "league": "NCAAB",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
    "gameId": "ncaab:401911395",
    "match": "North Carolina Central Eagles @ Gardner-Webb Runnin' Bulldogs",
    "league": "NCAAB",
@@ -1010,6 +1044,17 @@
    ]
   },
   {
+   "gameId": "ncaab:401921158",
+   "match": "Delaware State Hornets @ North Carolina A&T Aggies",
+   "league": "NCAAB",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
    "gameId": "ncaab:401920859",
    "match": "East Texas A&M Lions @ Marshall Thundering Herd",
    "league": "NCAAB",
@@ -1023,10 +1068,9 @@
    "gameId": "ncaab:401920415",
    "match": "The Citadel Bulldogs @ High Point Panthers",
    "league": "NCAAB",
-   "severity": 2,
-   "signal": "high_risk_alert",
+   "severity": 1,
+   "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 2 books quoting",
     "Heavy favourite: a short price leaves little margin"
    ]
   },
@@ -1051,13 +1095,14 @@
    ]
   },
   {
-   "gameId": "ncaab:401911031",
-   "match": "Ball State Cardinals @ Southern Indiana Screaming Eagles",
+   "gameId": "ncaab:401919736",
+   "match": "Chicago State Cougars @ Bradley Braves",
    "league": "NCAAB",
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Drift against the favourite: 1.59 \u2192 1.73 (-8%) \u2014 money moving the other way"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: a short price leaves little margin"
    ]
   },
   {
@@ -1179,17 +1224,7 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Drift against the favourite: 1.47 \u2192 1.76 (-16%) \u2014 money moving the other way"
-   ]
-  },
-  {
-   "gameId": "ncaab:401911032",
-   "match": "Buffalo Bulls @ Towson Tigers",
-   "league": "NCAAB",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Drift against the favourite: 1.56 \u2192 1.71 (-9%) \u2014 money moving the other way"
+    "Drift against the favourite: 1.45 \u2192 1.88 (-23%) \u2014 money moving the other way"
    ]
   },
   {
