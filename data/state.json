@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-28T07:23:48.463783+00:00",
+ "generatedAt": "2026-11-28T07:54:12.201446+00:00",
  "picks": [
   {
    "gameId": "epl:401879219",
@@ -883,7 +883,7 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Drift against the favourite: 2.52 \u2192 2.80 (-10%) \u2014 money moving the other way"
+    "Drift against the favourite: 2.48 \u2192 2.80 (-11%) \u2014 money moving the other way"
    ]
   },
   {
