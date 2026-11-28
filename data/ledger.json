@@ -119,9 +119,11 @@
    "homeAbbr": "BET",
    "awayAbbr": "RAY",
    "lockTs": "2026-11-23T20:59:06.229138+00:00",
-   "result": null,
-   "profitUnits": null,
-   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401882796/rayo-vallecano-real-betis"
+   "result": "wrong",
+   "profitUnits": -1.0,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401882796/rayo-vallecano-real-betis",
+   "final": "0-1",
+   "settledAt": "2026-11-28T14:59:57.093001+00:00"
   },
   {
    "gameId": "epl:401879231",

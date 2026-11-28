@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-28T14:29:42.741816+00:00",
+ "generatedAt": "2026-11-28T15:00:04.067752+00:00",
  "picks": [
   {
    "gameId": "epl:401879219",
@@ -50,31 +50,6 @@
    "profitUnits": null,
    "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401875081/parma-frosinone",
    "why": "Frosinone rated 80% to win; with 10 books quoting; a slim but real gap to the market price."
-  },
-  {
-   "gameId": "laliga:401882796",
-   "match": "Rayo Vallecano @ Real Betis",
-   "league": "La Liga",
-   "sport": "laliga",
-   "side": "home",
-   "price": 1.57,
-   "modelProb": 0.7944,
-   "marketProb": 0.781,
-   "edgePct": 0.0134,
-   "tier": "PREMIUM",
-   "bookCount": 9,
-   "startsAt": "2026-11-28T13:00Z",
-   "home": "Real Betis",
-   "away": "Rayo Vallecano",
-   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
-   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
-   "homeAbbr": "BET",
-   "awayAbbr": "RAY",
-   "lockTs": "2026-11-23T20:59:06.229138+00:00",
-   "result": null,
-   "profitUnits": null,
-   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401882796/rayo-vallecano-real-betis",
-   "why": "Real Betis rated 79% to win; with 9 books quoting; a slim but real gap to the market price."
   },
   {
    "gameId": "epl:401879231",
@@ -848,15 +823,47 @@
    "gameId": "laliga:401882796",
    "match": "Rayo Vallecano @ Real Betis",
    "league": "La Liga",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 1.62 \u2192 1.17 (+38%) \u2014 market confirming"
+   ]
+  },
+  {
+   "gameId": "esports:134413",
+   "match": "Parivision vs Flyquest",
+   "league": "Esports",
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Drift against the favourite: 1.62 \u2192 2.15 (-25%) \u2014 money moving the other way"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
+   "gameId": "seriea:401875081",
+   "match": "Parma @ Frosinone",
+   "league": "Serie A",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Drift against the favourite: 1.44 \u2192 1.69 (-15%) \u2014 money moving the other way"
    ]
   },
   {
    "gameId": "bundesliga:401884721",
    "match": "SV Elversberg @ FC Cologne",
+   "league": "Bundesliga",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 2 books quoting"
+   ]
+  },
+  {
+   "gameId": "bundesliga:401884722",
+   "match": "Bayern Munich @ Hamburg SV",
    "league": "Bundesliga",
    "severity": 1,
    "signal": "integrity_watch",
@@ -868,20 +875,22 @@
    "gameId": "bundesliga:401884723",
    "match": "1. FC Union Berlin @ Mainz",
    "league": "Bundesliga",
-   "severity": 1,
-   "signal": "integrity_watch",
+   "severity": 2,
+   "signal": "high_risk_alert",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+    "Thin market: only 2 books quoting",
+    "Drift against the favourite: 1.48 \u2192 1.71 (-14%) \u2014 money moving the other way"
    ]
   },
   {
    "gameId": "bundesliga:401884719",
    "match": "Schalke 04 @ SC Paderborn 07",
    "league": "Bundesliga",
-   "severity": 1,
-   "signal": "integrity_watch",
+   "severity": 2,
+   "signal": "high_risk_alert",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+    "Thin market: only 2 books quoting",
+    "Drift against the favourite: 2.40 \u2192 2.70 (-11%) \u2014 money moving the other way"
    ]
   },
   {
@@ -902,7 +911,7 @@
    "signal": "high_risk_alert",
    "flags": [
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Drift against the favourite: 2.00 \u2192 2.20 (-9%) \u2014 money moving the other way"
+    "Drift against the favourite: 2.00 \u2192 2.30 (-13%) \u2014 money moving the other way"
    ]
   },
   {
@@ -1248,6 +1257,16 @@
    ]
   },
   {
+   "gameId": "ncaab:401920536",
+   "match": "Louisville Cardinals @ Creighton Bluejays",
+   "league": "NCAAB",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
    "gameId": "ncaaf:401864547",
    "match": "Sacramento State Hornets @ Hawai'i Rainbow Warriors",
    "league": "NCAAF",
@@ -1546,10 +1565,9 @@
    "gameId": "bundesliga:401884716",
    "match": "Borussia M\u00f6nchengladbach @ Bayer Leverkusen",
    "league": "Bundesliga",
-   "severity": 2,
-   "signal": "high_risk_alert",
+   "severity": 1,
+   "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
     "Heavy favourite: a short price leaves little margin"
    ]
   },
@@ -1566,16 +1584,6 @@
   {
    "gameId": "bundesliga:401884717",
    "match": "Mainz @ RB Leipzig",
-   "league": "Bundesliga",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "bundesliga:401884715",
-   "match": "TSG Hoffenheim @ SC Freiburg",
    "league": "Bundesliga",
    "severity": 1,
    "signal": "integrity_watch",
@@ -1952,12 +1960,12 @@
   }
  ],
  "record": {
-  "graded": 17,
+  "graded": 18,
   "correct": 10,
-  "wrong": 7,
-  "accuracy": 0.5882,
-  "units": -2.73,
-  "rolling": 0.5882,
+  "wrong": 8,
+  "accuracy": 0.5556,
+  "units": -3.73,
+  "rolling": 0.5556,
   "recent": [
    {
     "gameId": "nba:401909327",
@@ -2305,6 +2313,32 @@
     "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401884720/borussia-monchengladbach-werder-bremen",
     "final": "3-3",
     "settledAt": "2026-11-27T21:45:05.177383+00:00"
+   },
+   {
+    "gameId": "laliga:401882796",
+    "match": "Rayo Vallecano @ Real Betis",
+    "league": "La Liga",
+    "sport": "laliga",
+    "side": "home",
+    "price": 1.57,
+    "modelProb": 0.7944,
+    "marketProb": 0.781,
+    "edgePct": 0.0134,
+    "tier": "PREMIUM",
+    "bookCount": 9,
+    "startsAt": "2026-11-28T13:00Z",
+    "home": "Real Betis",
+    "away": "Rayo Vallecano",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
+    "homeAbbr": "BET",
+    "awayAbbr": "RAY",
+    "lockTs": "2026-11-23T20:59:06.229138+00:00",
+    "result": "wrong",
+    "profitUnits": -1.0,
+    "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401882796/rayo-vallecano-real-betis",
+    "final": "0-1",
+    "settledAt": "2026-11-28T14:59:57.093001+00:00"
    },
    {
     "gameId": "wta:186827",
