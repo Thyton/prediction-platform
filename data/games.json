@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-28T09:55:53.022548+00:00",
+ "generatedAt": "2026-11-28T10:26:16.947761+00:00",
  "games": [
   {
    "id": "ncaab:401920429",
@@ -1546,51 +1546,6 @@
    "drawPossible": false
   },
   {
-   "id": "esports:134399",
-   "sport": "esports",
-   "league": "Esports",
-   "match": "Flyquest vs Fut CS2",
-   "home": "Fut CS2",
-   "away": "Flyquest",
-   "startsAt": "2026-11-28T04:00:00.000+00:00",
-   "state": "finished",
-   "markets": {
-    "h2h": {
-     "outcome": "Fut CS2",
-     "bestOdds": 1.003,
-     "otherOdds": 10.0,
-     "bookCount": "1",
-     "favSide": "home",
-     "source": "bo3"
-    }
-   },
-   "tier": "s",
-   "boType": 1,
-   "mapScore": [
-    1,
-    0
-   ],
-   "drawPossible": false
-  },
-  {
-   "id": "esports:134405",
-   "sport": "esports",
-   "league": "Esports",
-   "match": "Lynn Vision vs The Mongolz",
-   "home": "The Mongolz",
-   "away": "Lynn Vision",
-   "startsAt": "2026-11-28T04:00:00.000+00:00",
-   "state": "finished",
-   "markets": {},
-   "tier": "s",
-   "boType": 1,
-   "mapScore": [
-    1,
-    0
-   ],
-   "drawPossible": false
-  },
-  {
    "id": "ncaab:401920544",
    "sport": "ncaab",
    "league": "NCAAB",
@@ -1813,6 +1768,60 @@
    "drawPossible": false
   },
   {
+   "id": "esports:135042",
+   "sport": "esports",
+   "league": "Esports",
+   "match": "Azuolas vs Masonic",
+   "home": "Masonic",
+   "away": "Azuolas",
+   "startsAt": "2026-11-28T09:00:00.000+00:00",
+   "state": "defwin",
+   "markets": {
+    "h2h": {
+     "outcome": "Masonic",
+     "bestOdds": 1.58,
+     "otherOdds": 2.2,
+     "bookCount": "1",
+     "favSide": "home",
+     "source": "bo3"
+    }
+   },
+   "tier": "c",
+   "boType": 1,
+   "mapScore": [
+    0,
+    1
+   ],
+   "drawPossible": false
+  },
+  {
+   "id": "esports:134408",
+   "sport": "esports",
+   "league": "Esports",
+   "match": "Nip vs G2",
+   "home": "G2",
+   "away": "Nip",
+   "startsAt": "2026-11-28T09:20:00.000+00:00",
+   "state": "finished",
+   "markets": {
+    "h2h": {
+     "outcome": "G2",
+     "bestOdds": 1.22,
+     "otherOdds": 3.8,
+     "bookCount": "1",
+     "favSide": "home",
+     "source": "bo3"
+    }
+   },
+   "tier": "s",
+   "boType": 1,
+   "mapScore": [
+    1,
+    0
+   ],
+   "drawPossible": false
+  },
+  {
    "id": "esports:134407",
    "sport": "esports",
    "league": "Esports",
@@ -1820,7 +1829,7 @@
    "home": "Nemiga",
    "away": "Lynn Vision",
    "startsAt": "2026-11-28T09:20:00.000+00:00",
-   "state": "current",
+   "state": "finished",
    "markets": {
     "h2h": {
      "outcome": "Nemiga",
@@ -2056,8 +2065,8 @@
    "markets": {
     "h2h": {
      "outcome": "Leeds United",
-     "bestOdds": 1.49,
-     "otherOdds": 6.95,
+     "bestOdds": 1.5,
+     "otherOdds": 6.85,
      "bookCount": "11",
      "favSide": "home",
      "source": "oddsapi"
@@ -2204,7 +2213,7 @@
     "h2h": {
      "outcome": "Moreirense",
      "bestOdds": 2.7,
-     "otherOdds": 3.0,
+     "otherOdds": 3.05,
      "bookCount": "9",
      "favSide": "home",
      "source": "oddsapi"
@@ -2235,7 +2244,7 @@
     "h2h": {
      "outcome": "Excelsior",
      "bestOdds": 2.2,
-     "otherOdds": 3.42,
+     "otherOdds": 3.35,
      "bookCount": "9",
      "favSide": "home",
      "source": "oddsapi"
@@ -2573,7 +2582,7 @@
    "markets": {
     "h2h": {
      "outcome": "Georgia Southern Eagles",
-     "bestOdds": 1.86,
+     "bestOdds": 1.85,
      "otherOdds": 2.1,
      "bookCount": "12",
      "favSide": "home",
@@ -2721,7 +2730,7 @@
    "markets": {
     "h2h": {
      "outcome": "Atlético Madrid",
-     "bestOdds": 1.51,
+     "bestOdds": 1.5,
      "otherOdds": 6.75,
      "bookCount": "9",
      "favSide": "away",
@@ -3000,7 +3009,7 @@
     "h2h": {
      "outcome": "Académico de Viseu",
      "bestOdds": 2.76,
-     "otherOdds": 2.82,
+     "otherOdds": 2.76,
      "bookCount": "9",
      "favSide": "home",
      "source": "oddsapi"
@@ -3277,8 +3286,8 @@
    "markets": {
     "h2h": {
      "outcome": "Houston Dynamo FC",
-     "bestOdds": 2.04,
-     "otherOdds": 3.7,
+     "bestOdds": 2.14,
+     "otherOdds": 3.65,
      "bookCount": "11",
      "favSide": "home",
      "source": "oddsapi"
@@ -3432,7 +3441,7 @@
     "h2h": {
      "outcome": "Paris Saint-Germain",
      "bestOdds": 1.2,
-     "otherOdds": 13.75,
+     "otherOdds": 14.0,
      "bookCount": "10",
      "favSide": "home",
      "source": "oddsapi"
@@ -4080,7 +4089,7 @@
    "markets": {
     "h2h": {
      "outcome": "Philadelphia Union",
-     "bestOdds": 1.6,
+     "bestOdds": 1.57,
      "otherOdds": 5.6,
      "bookCount": "11",
      "favSide": "home",
@@ -4419,11 +4428,11 @@
    "_cid": "401892812",
    "markets": {
     "h2h": {
-     "outcome": "Nashville Predators",
-     "bestOdds": 1.95,
-     "otherOdds": 1.97,
+     "outcome": "Detroit Red Wings",
+     "bestOdds": 1.93,
+     "otherOdds": 1.95,
      "bookCount": "12",
-     "favSide": "away",
+     "favSide": "home",
      "source": "oddsapi"
     }
    },
@@ -4575,7 +4584,7 @@
    "markets": {
     "h2h": {
      "outcome": "Washington Capitals",
-     "bestOdds": 1.97,
+     "bestOdds": 1.94,
      "otherOdds": 2.0,
      "bookCount": "12",
      "favSide": "away",
@@ -5286,7 +5295,7 @@
    "markets": {
     "h2h": {
      "outcome": "Portland Timbers",
-     "bestOdds": 2.19,
+     "bestOdds": 2.2,
      "otherOdds": 3.15,
      "bookCount": "11",
      "favSide": "home",
@@ -6098,7 +6107,7 @@
    "markets": {
     "h2h": {
      "outcome": "Cincinnati Bengals",
-     "bestOdds": 1.18,
+     "bestOdds": 1.2,
      "otherOdds": 5.6,
      "bookCount": "12",
      "favSide": "home",
@@ -6223,7 +6232,7 @@
     "h2h": {
      "outcome": "Jacksonville Jaguars",
      "bestOdds": 1.11,
-     "otherOdds": 8.5,
+     "otherOdds": 8.0,
      "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
@@ -6523,7 +6532,7 @@
     "h2h": {
      "outcome": "Real Sociedad",
      "bestOdds": 2.16,
-     "otherOdds": 3.3,
+     "otherOdds": 3.33,
      "bookCount": "9",
      "favSide": "home",
      "source": "oddsapi"

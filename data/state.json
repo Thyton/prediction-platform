@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-28T09:55:53.226981+00:00",
+ "generatedAt": "2026-11-28T10:26:17.250920+00:00",
  "picks": [
   {
    "gameId": "epl:401879219",
@@ -751,17 +751,6 @@
    ]
   },
   {
-   "gameId": "esports:134399",
-   "match": "Flyquest vs Fut CS2",
-   "league": "Esports",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
    "gameId": "ncaab:401920544",
    "match": "Creighton Bluejays @ Gonzaga Bulldogs",
    "league": "NCAAB",
@@ -840,6 +829,27 @@
   {
    "gameId": "esports:134406",
    "match": "100 Thieves vs Mibr",
+   "league": "Esports",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
+   "gameId": "esports:135042",
+   "match": "Azuolas vs Masonic",
+   "league": "Esports",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "esports:134408",
+   "match": "Nip vs G2",
    "league": "Esports",
    "severity": 2,
    "signal": "high_risk_alert",
