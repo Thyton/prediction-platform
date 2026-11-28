@@ -617,6 +617,33 @@
    "profitUnits": 0.27,
    "final": "113-98",
    "settledAt": "2026-11-28T03:20:09.026753+00:00"
+  },
+  {
+   "gameId": "wta:186843",
+   "match": "Guiomar Maristany Zuleta De Reales vs TBD",
+   "league": "IEB+ Argentina Open",
+   "sport": "wta",
+   "side": "away",
+   "price": 1.5,
+   "modelProb": 0.7173,
+   "marketProb": null,
+   "edgePct": 0.4347,
+   "tier": "PREMIUM",
+   "bookCount": 0,
+   "startsAt": "2026-11-29T05:00Z",
+   "modelPriced": true,
+   "why": "Guiomar Maristany Zuleta De Reales rated 72% to win; across 1 tracked games per side; a 43-point rating gap with no market price to lean on.",
+   "edgeKind": "model",
+   "home": "TBD",
+   "away": "Guiomar Maristany Zuleta De Reales",
+   "homeLogo": null,
+   "awayLogo": null,
+   "homeAbbr": null,
+   "awayAbbr": null,
+   "espnUrl": null,
+   "lockTs": "2026-11-28T16:31:20.114602+00:00",
+   "result": null,
+   "profitUnits": null
   }
  ]
 }
