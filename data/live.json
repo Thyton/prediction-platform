@@ -1,21 +1,21 @@
 {
- "generatedAt": "2026-11-28T02:19:07.646733+00:00",
+ "generatedAt": "2026-11-28T02:49:36.447215+00:00",
  "signals": [
   {
    "gameId": "nba:401909327",
-   "kind": "HOLD",
-   "text": "Comfortable lead \u2014 hold to the finish.",
+   "kind": "PULL_OFF",
+   "text": "Comfortable lead \u2014 hold to the finish. Live price 1.01 vs 1.27 locked (-20%) \u2014 the market has turned on this pick.",
    "espnUrl": "https://www.espn.com/nba/game/_/gameId/401909327/bucks-pistons",
    "sport": "nba",
    "match": "Milwaukee Bucks @ Detroit Pistons",
    "side": "home",
-   "score": "86-73",
-   "period": 3,
-   "clock": "24.8",
-   "progress": 0.5,
-   "livePrice": 1.25,
+   "score": "108-92",
+   "period": 4,
+   "clock": "2:52",
+   "progress": 0.94,
+   "livePrice": 1.01,
    "lockedPrice": 1.27,
-   "at": "2026-11-28T02:19:07.172602+00:00"
+   "at": "2026-11-28T02:49:36.052774+00:00"
   }
  ]
 }
