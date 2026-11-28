@@ -609,8 +609,10 @@
    "awayAbbr": "MIL",
    "espnUrl": "https://www.espn.com/nba/game/_/gameId/401909327/bucks-pistons",
    "lockTs": "2026-11-26T22:24:05.617895+00:00",
-   "result": null,
-   "profitUnits": null
+   "result": "correct",
+   "profitUnits": 0.27,
+   "final": "113-98",
+   "settledAt": "2026-11-28T03:20:09.026753+00:00"
   }
  ]
 }

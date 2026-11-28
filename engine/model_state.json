@@ -2,7 +2,7 @@
  "ratings": {
   "nba": {
    "Philadelphia 76ers": 1598.3707720655623,
-   "Milwaukee Bucks": 1272.2462899887369,
+   "Milwaukee Bucks": 1268.6286359722787,
    "New York Knicks": 1475.4101709367021,
    "Portland Trail Blazers": 1618.9153474619534,
    "Dallas Mavericks": 1513.4753274844695,
@@ -19,7 +19,7 @@
    "Orlando Magic": 1510.9267172263008,
    "Cleveland Cavaliers": 1497.7649799477083,
    "Indiana Pacers": 1397.0302914235622,
-   "Detroit Pistons": 1609.313952713607,
+   "Detroit Pistons": 1612.9316067300651,
    "Toronto Raptors": 1453.9161410009556,
    "Chicago Bulls": 1426.312689097201,
    "Washington Wizards": 1419.090770276231,
@@ -1031,7 +1031,7 @@
    "TBD": 1494.065500962452
   }
  },
- "played": 9062,
+ "played": 9063,
  "updated": "2026-11-23T01:08:49.499166+00:00",
  "trainedAt": "2026-11-23T01:08:49.499166+00:00",
  "counts": {
@@ -1068,9 +1068,9 @@
   },
   "nba": {
    "Atlanta Hawks": 22,
-   "Detroit Pistons": 20,
+   "Detroit Pistons": 21,
    "Philadelphia 76ers": 21,
-   "Milwaukee Bucks": 22,
+   "Milwaukee Bucks": 23,
    "New York Knicks": 21,
    "Portland Trail Blazers": 20,
    "Dallas Mavericks": 20,

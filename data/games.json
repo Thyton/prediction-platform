@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-28T02:49:54.840118+00:00",
+ "generatedAt": "2026-11-28T03:20:18.194157+00:00",
  "games": [
   {
    "id": "esports:132991",
@@ -1162,12 +1162,11 @@
    "_cid": "401909326",
    "markets": {
     "h2h": {
-     "outcome": "Miami Heat",
-     "bestOdds": 1.47,
-     "otherOdds": 5.75,
-     "bookCount": "6",
-     "favSide": "away",
-     "source": "oddsapi"
+     "outcome": "New York Knicks",
+     "bestOdds": 1.676,
+     "otherOdds": 2.24,
+     "bookCount": "1",
+     "favSide": "home"
     }
    },
    "espnUrl": "https://www.espn.com/nba/game/_/gameId/401909326/heat-knicks",
@@ -1187,21 +1186,20 @@
    "homeId": "8",
    "awayId": "15",
    "startsAt": "2026-11-28T00:30Z",
-   "state": "in",
+   "state": "post",
    "_path": "basketball/nba",
    "_eid": "401909327",
    "_cid": "401909327",
    "markets": {
     "h2h": {
      "outcome": "Detroit Pistons",
-     "bestOdds": 1.01,
-     "otherOdds": 34.0,
+     "bestOdds": 1.236,
+     "otherOdds": 4.31,
      "bookCount": "1",
-     "favSide": "home",
-     "source": "oddsapi"
+     "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nba/game/_/gameId/401909327/bucks-pistons",
    "drawPossible": false
   },
   {
@@ -1218,7 +1216,7 @@
    "homeId": "11",
    "awayId": "20",
    "startsAt": "2026-11-28T00:30Z",
-   "state": "in",
+   "state": "post",
    "_path": "basketball/nba",
    "_eid": "401909328",
    "_cid": "401909328",
@@ -1231,7 +1229,7 @@
      "favSide": "away"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nba/game/_/gameId/401909328/76ers-pacers",
    "drawPossible": false
   },
   {
@@ -1248,7 +1246,7 @@
    "homeId": "28",
    "awayId": "17",
    "startsAt": "2026-11-28T00:30Z",
-   "state": "in",
+   "state": "post",
    "_path": "basketball/nba",
    "_eid": "401909329",
    "_cid": "401909329",
@@ -1261,7 +1259,7 @@
      "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nba/game/_/gameId/401909329/nets-raptors",
    "drawPossible": false
   },
   {
@@ -1307,8 +1305,8 @@
    "markets": {
     "h2h": {
      "outcome": "Texas Longhorns",
-     "bestOdds": 1.07,
-     "otherOdds": 13.5,
+     "bestOdds": 1.1,
+     "otherOdds": 11.0,
      "bookCount": "7",
      "favSide": "away",
      "source": "oddsapi"
@@ -1339,8 +1337,8 @@
     "h2h": {
      "outcome": "Wisconsin Badgers",
      "bestOdds": 1.01,
-     "otherOdds": 26.0,
-     "bookCount": "3",
+     "otherOdds": 15.0,
+     "bookCount": "1",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -1362,21 +1360,20 @@
    "homeId": "12",
    "awayId": "28",
    "startsAt": "2026-11-28T00:30Z",
-   "state": "in",
+   "state": "post",
    "_path": "hockey/nhl",
    "_eid": "401892807",
    "_cid": "401892807",
    "markets": {
     "h2h": {
-     "outcome": "Winnipeg Jets",
-     "bestOdds": 1.04,
-     "otherOdds": 16.0,
-     "bookCount": "7",
-     "favSide": "away",
-     "source": "oddsapi"
+     "outcome": "New York Islanders",
+     "bestOdds": 1.847,
+     "otherOdds": 1.98,
+     "bookCount": "1",
+     "favSide": "home"
     }
    },
-   "espnUrl": null,
+   "espnUrl": "https://www.espn.com/nhl/game/_/gameId/401892807/jets-islanders",
    "drawPossible": false
   },
   {
@@ -1399,11 +1396,11 @@
    "_cid": "401909330",
    "markets": {
     "h2h": {
-     "outcome": "Boston Celtics",
-     "bestOdds": 1.87,
-     "otherOdds": 2.6,
+     "outcome": "Atlanta Hawks",
+     "bestOdds": 1.4,
+     "otherOdds": 15.0,
      "bookCount": "8",
-     "favSide": "home",
+     "favSide": "away",
      "source": "oddsapi"
     }
    },
@@ -1431,8 +1428,8 @@
    "markets": {
     "h2h": {
      "outcome": "Pittsburgh Penguins",
-     "bestOdds": 1.45,
-     "otherOdds": 2.96,
+     "bestOdds": 1.11,
+     "otherOdds": 8.5,
      "bookCount": "7",
      "favSide": "away",
      "source": "oddsapi"
@@ -1462,8 +1459,8 @@
    "markets": {
     "h2h": {
      "outcome": "Edmonton Oilers",
-     "bestOdds": 1.25,
-     "otherOdds": 4.25,
+     "bestOdds": 1.14,
+     "otherOdds": 6.5,
      "bookCount": "7",
      "favSide": "home",
      "source": "oddsapi"
@@ -1493,8 +1490,8 @@
    "markets": {
     "h2h": {
      "outcome": "Memphis Grizzlies",
-     "bestOdds": 1.34,
-     "otherOdds": 3.7,
+     "bestOdds": 1.7,
+     "otherOdds": 3.8,
      "bookCount": "8",
      "favSide": "away",
      "source": "oddsapi"
@@ -1524,8 +1521,8 @@
    "markets": {
     "h2h": {
      "outcome": "Miami Hurricanes",
-     "bestOdds": 1.38,
-     "otherOdds": 3.55,
+     "bestOdds": 1.56,
+     "otherOdds": 3.65,
      "bookCount": "7",
      "favSide": "away",
      "source": "oddsapi"
@@ -1555,8 +1552,8 @@
    "markets": {
     "h2h": {
      "outcome": "Phoenix Suns",
-     "bestOdds": 1.35,
-     "otherOdds": 4.2,
+     "bestOdds": 1.22,
+     "otherOdds": 4.8,
      "bookCount": "8",
      "favSide": "home",
      "source": "oddsapi"
@@ -1586,8 +1583,8 @@
    "markets": {
     "h2h": {
      "outcome": "Louisville Cardinals",
-     "bestOdds": 1.38,
-     "otherOdds": 3.4,
+     "bestOdds": 1.2,
+     "otherOdds": 6.0,
      "bookCount": "7",
      "favSide": "home",
      "source": "oddsapi"
@@ -1618,8 +1615,8 @@
     "h2h": {
      "outcome": "Utah Utes",
      "bestOdds": 1.01,
-     "otherOdds": 36.0,
-     "bookCount": "4",
+     "otherOdds": 51.0,
+     "bookCount": "1",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -1647,11 +1644,11 @@
    "_cid": "401909333",
    "markets": {
     "h2h": {
-     "outcome": "San Antonio Spurs",
-     "bestOdds": 1.62,
-     "otherOdds": 3.15,
-     "bookCount": "12",
-     "favSide": "home",
+     "outcome": "Los Angeles Lakers",
+     "bestOdds": 1.65,
+     "otherOdds": 3.3,
+     "bookCount": "8",
+     "favSide": "away",
      "source": "oddsapi"
     }
    },
@@ -1679,9 +1676,9 @@
    "markets": {
     "h2h": {
      "outcome": "Denver Nuggets",
-     "bestOdds": 1.25,
-     "otherOdds": 6.0,
-     "bookCount": "12",
+     "bestOdds": 1.3,
+     "otherOdds": 4.0,
+     "bookCount": "8",
      "favSide": "away",
      "source": "oddsapi"
     }
@@ -1740,9 +1737,9 @@
    "markets": {
     "h2h": {
      "outcome": "Portland Trail Blazers",
-     "bestOdds": 1.31,
-     "otherOdds": 6.0,
-     "bookCount": "12",
+     "bestOdds": 1.03,
+     "otherOdds": 46.0,
+     "bookCount": "3",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -1998,8 +1995,8 @@
    "markets": {
     "h2h": {
      "outcome": "SC Paderborn 07",
-     "bestOdds": 2.45,
-     "otherOdds": 2.65,
+     "bestOdds": 2.55,
+     "otherOdds": 2.6,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -2206,7 +2203,7 @@
    "markets": {
     "h2h": {
      "outcome": "Excelsior",
-     "bestOdds": 2.06,
+     "bestOdds": 2.03,
      "otherOdds": 3.7,
      "bookCount": "9",
      "favSide": "home",
@@ -2297,8 +2294,8 @@
    "markets": {
     "h2h": {
      "outcome": "Seton Hall Pirates",
-     "bestOdds": 1.05,
-     "otherOdds": 13.0,
+     "bestOdds": 1.04,
+     "otherOdds": 14.0,
      "bookCount": "4",
      "favSide": "home",
      "source": "oddsapi"
@@ -2390,7 +2387,7 @@
     "h2h": {
      "outcome": "Notre Dame Fighting Irish",
      "bestOdds": 1.04,
-     "otherOdds": 16.0,
+     "otherOdds": 15.5,
      "bookCount": "12",
      "favSide": "away",
      "source": "oddsapi"
@@ -2451,7 +2448,7 @@
    "markets": {
     "h2h": {
      "outcome": "Louisville Cardinals",
-     "bestOdds": 1.74,
+     "bestOdds": 1.71,
      "otherOdds": 2.25,
      "bookCount": "12",
      "favSide": "away",
@@ -2724,7 +2721,7 @@
     "h2h": {
      "outcome": "Northwestern Wildcats",
      "bestOdds": 1.65,
-     "otherOdds": 2.5,
+     "otherOdds": 2.49,
      "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
@@ -3106,8 +3103,8 @@
    "markets": {
     "h2h": {
      "outcome": "Gardner-Webb Runnin' Bulldogs",
-     "bestOdds": 1.741,
-     "otherOdds": 2.14,
+     "bestOdds": 1.704,
+     "otherOdds": 2.2,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -3292,7 +3289,7 @@
      "outcome": "Pepperdine Waves",
      "bestOdds": 1.21,
      "otherOdds": 4.75,
-     "bookCount": "4",
+     "bookCount": "5",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -3396,8 +3393,8 @@
     "h2h": {
      "outcome": "Columbia Lions",
      "bestOdds": 1.08,
-     "otherOdds": 9.0,
-     "bookCount": "2",
+     "otherOdds": 10.2,
+     "bookCount": "4",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -3478,9 +3475,9 @@
    "markets": {
     "h2h": {
      "outcome": "Georgia Southern Eagles",
-     "bestOdds": 1.87,
+     "bestOdds": 1.83,
      "otherOdds": 2.05,
-     "bookCount": "3",
+     "bookCount": "4",
      "favSide": "away",
      "source": "oddsapi"
     }
@@ -3509,8 +3506,8 @@
    "markets": {
     "h2h": {
      "outcome": "Chattanooga Mocs",
-     "bestOdds": 1.72,
-     "otherOdds": 2.45,
+     "bestOdds": 1.67,
+     "otherOdds": 2.55,
      "bookCount": "5",
      "favSide": "home",
      "source": "oddsapi"
@@ -3540,9 +3537,9 @@
    "markets": {
     "h2h": {
      "outcome": "Marshall Thundering Herd",
-     "bestOdds": 1.31,
+     "bestOdds": 1.29,
      "otherOdds": 3.85,
-     "bookCount": "4",
+     "bookCount": "5",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -3594,7 +3591,7 @@
     "h2h": {
      "outcome": "High Point Panthers",
      "bestOdds": 1.01,
-     "otherOdds": 41.0,
+     "otherOdds": 46.0,
      "bookCount": "2",
      "favSide": "home",
      "source": "oddsapi"
@@ -3624,8 +3621,8 @@
    "markets": {
     "h2h": {
      "outcome": "Presbyterian Blue Hose",
-     "bestOdds": 1.8,
-     "otherOdds": 2.05,
+     "bestOdds": 1.769,
+     "otherOdds": 2.1,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -3687,7 +3684,7 @@
      "outcome": "Le Moyne Dolphins",
      "bestOdds": 1.83,
      "otherOdds": 2.02,
-     "bookCount": "3",
+     "bookCount": "4",
      "favSide": "away",
      "source": "oddsapi"
     }
@@ -3853,8 +3850,8 @@
    "markets": {
     "h2h": {
      "outcome": "Iowa State Cyclones",
-     "bestOdds": 1.57,
-     "otherOdds": 2.61,
+     "bestOdds": 1.55,
+     "otherOdds": 2.7,
      "bookCount": "12",
      "favSide": "home",
      "source": "oddsapi"
@@ -4317,8 +4314,8 @@
     "h2h": {
      "outcome": "UNC Wilmington Seahawks",
      "bestOdds": 1.41,
-     "otherOdds": 3.05,
-     "bookCount": "5",
+     "otherOdds": 3.1,
+     "bookCount": "6",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -4399,9 +4396,9 @@
    "markets": {
     "h2h": {
      "outcome": "UNLV Rebels",
-     "bestOdds": 1.19,
-     "otherOdds": 5.3,
-     "bookCount": "4",
+     "bestOdds": 1.17,
+     "otherOdds": 5.75,
+     "bookCount": "5",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -4460,7 +4457,7 @@
    "markets": {
     "h2h": {
      "outcome": "Northern Illinois Huskies",
-     "bestOdds": 1.16,
+     "bestOdds": 1.15,
      "otherOdds": 5.8,
      "bookCount": "4",
      "favSide": "away",
@@ -4553,7 +4550,7 @@
    "markets": {
     "h2h": {
      "outcome": "Virginia Tech Hokies",
-     "bestOdds": 1.69,
+     "bestOdds": 1.68,
      "otherOdds": 2.31,
      "bookCount": "12",
      "favSide": "home",
@@ -4730,9 +4727,9 @@
    "markets": {
     "h2h": {
      "outcome": "Hofstra Pride",
-     "bestOdds": 1.73,
+     "bestOdds": 1.76,
      "otherOdds": 2.2,
-     "bookCount": "3",
+     "bookCount": "4",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -4762,8 +4759,8 @@
     "h2h": {
      "outcome": "Towson Tigers",
      "bestOdds": 1.71,
-     "otherOdds": 2.3,
-     "bookCount": "5",
+     "otherOdds": 2.33,
+     "bookCount": "6",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -5040,8 +5037,8 @@
    "markets": {
     "h2h": {
      "outcome": "Bowling Green Falcons",
-     "bestOdds": 1.645,
-     "otherOdds": 2.3,
+     "bestOdds": 1.617,
+     "otherOdds": 2.36,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -5132,8 +5129,8 @@
     "h2h": {
      "outcome": "Tennessee Tech Golden Eagles",
      "bestOdds": 1.59,
-     "otherOdds": 2.46,
-     "bookCount": "5",
+     "otherOdds": 2.48,
+     "bookCount": "6",
      "favSide": "away",
      "source": "oddsapi"
     }
@@ -5162,9 +5159,9 @@
    "markets": {
     "h2h": {
      "outcome": "McNeese Cowboys",
-     "bestOdds": 1.25,
+     "bestOdds": 1.29,
      "otherOdds": 4.1,
-     "bookCount": "2",
+     "bookCount": "4",
      "favSide": "away",
      "source": "oddsapi"
     }
@@ -5246,7 +5243,7 @@
     "h2h": {
      "outcome": "Stony Brook Seawolves",
      "bestOdds": 1.51,
-     "otherOdds": 2.7,
+     "otherOdds": 2.84,
      "bookCount": "5",
      "favSide": "home",
      "source": "oddsapi"
@@ -5359,8 +5356,8 @@
    "markets": {
     "h2h": {
      "outcome": "American University Eagles",
-     "bestOdds": 1.308,
-     "otherOdds": 3.6,
+     "bestOdds": 1.328,
+     "otherOdds": 3.45,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -5513,9 +5510,9 @@
    "markets": {
     "h2h": {
      "outcome": "Lafayette Leopards",
-     "bestOdds": 1.38,
-     "otherOdds": 3.2,
-     "bookCount": "2",
+     "bestOdds": 1.4,
+     "otherOdds": 3.1,
+     "bookCount": "3",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -5575,9 +5572,9 @@
    "markets": {
     "h2h": {
      "outcome": "Orlando Magic",
-     "bestOdds": 1.59,
+     "bestOdds": 1.62,
      "otherOdds": 2.52,
-     "bookCount": "6",
+     "bookCount": "10",
      "favSide": "away",
      "source": "oddsapi"
     }
@@ -5771,8 +5768,8 @@
    "markets": {
     "h2h": {
      "outcome": "South Dakota State Jackrabbits",
-     "bestOdds": 1.833,
-     "otherOdds": 2.0,
+     "bestOdds": 1.87,
+     "otherOdds": 1.952,
      "bookCount": "1",
      "favSide": "home"
     }
@@ -5831,9 +5828,9 @@
    "markets": {
     "h2h": {
      "outcome": "Pennsylvania Quakers",
-     "bestOdds": 1.08,
-     "otherOdds": 9.25,
-     "bookCount": "2",
+     "bestOdds": 1.07,
+     "otherOdds": 11.6,
+     "bookCount": "3",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -6389,7 +6386,7 @@
     "h2h": {
      "outcome": "Pittsburgh Panthers",
      "bestOdds": 1.29,
-     "otherOdds": 3.95,
+     "otherOdds": 4.0,
      "bookCount": "12",
      "favSide": "away",
      "source": "oddsapi"
@@ -6451,7 +6448,7 @@
     "h2h": {
      "outcome": "Chicago Bulls",
      "bestOdds": 1.71,
-     "otherOdds": 2.26,
+     "otherOdds": 2.25,
      "bookCount": "6",
      "favSide": "home",
      "source": "oddsapi"
@@ -6656,7 +6653,7 @@
    "markets": {
     "h2h": {
      "outcome": "Arizona Wildcats",
-     "bestOdds": 1.33,
+     "bestOdds": 1.32,
      "otherOdds": 3.72,
      "bookCount": "12",
      "favSide": "home",
@@ -6780,9 +6777,9 @@
    "markets": {
     "h2h": {
      "outcome": "Houston Cougars",
-     "bestOdds": 1.6,
-     "otherOdds": 2.52,
-     "bookCount": "12",
+     "bestOdds": 1.62,
+     "otherOdds": 2.5,
+     "bookCount": "11",
      "favSide": "home",
      "source": "oddsapi"
     }
@@ -6873,9 +6870,9 @@
    "markets": {
     "h2h": {
      "outcome": "Edmonton Oilers",
-     "bestOdds": 1.61,
-     "otherOdds": 2.45,
-     "bookCount": "10",
+     "bestOdds": 1.62,
+     "otherOdds": 2.46,
+     "bookCount": "11",
      "favSide": "away",
      "source": "oddsapi"
     }
@@ -10954,7 +10951,7 @@
    "homeId": "20232",
    "awayId": "183",
    "startsAt": "2026-12-03T00:30Z",
-   "state": "pre",
+   "state": "post",
    "_path": "soccer/usa.1",
    "_eid": "401933720",
    "_cid": "401933720",
