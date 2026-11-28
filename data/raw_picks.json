@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-28T17:32:10.150021+00:00",
+ "generatedAt": "2026-11-28T18:02:30.851796+00:00",
  "picks": [
   {
    "gameId": "wta:186843",
@@ -594,16 +594,6 @@
    ]
   },
   {
-   "gameId": "esports:134526",
-   "match": "L G vs Forze Reload",
-   "league": "Esports",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
    "gameId": "esports:134412",
    "match": "100 Thieves vs Fut CS2",
    "league": "Esports",
@@ -627,16 +617,6 @@
   {
    "gameId": "esports:134411",
    "match": "Imperial vs Mibr",
-   "league": "Esports",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "esports:135047",
-   "match": "Megoshort vs Walczaki",
    "league": "Esports",
    "severity": 1,
    "signal": "integrity_watch",
@@ -727,6 +707,16 @@
    ]
   },
   {
+   "gameId": "esports:134528",
+   "match": "Baks Esports vs Hype Tech",
+   "league": "Esports",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
    "gameId": "epl:401879227",
    "match": "Coventry City @ Leeds United",
    "league": "EPL",
@@ -757,14 +747,24 @@
    ]
   },
   {
-   "gameId": "ligapt:401885392",
-   "match": "Rio Ave @ Arouca",
-   "league": "Portugal Primeira Liga",
+   "gameId": "esports:132993",
+   "match": "Bojong vs Sinqu",
+   "league": "Esports",
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Big underdog priced: market implies low confidence",
-    "Drift against the favourite: 1.74 \u2192 23.00 (-92%) \u2014 money moving the other way"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
+   "gameId": "ligapt:401885392",
+   "match": "Rio Ave @ Arouca",
+   "league": "Portugal Primeira Liga",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
@@ -784,8 +784,7 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 2.25 \u2192 1.04 (+116%) \u2014 market confirming"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
@@ -795,27 +794,27 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 2 books quoting"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
    "gameId": "ligue1:401876394",
    "match": "Lens @ Angers",
    "league": "Ligue 1",
-   "severity": 2,
-   "signal": "high_risk_alert",
+   "severity": 1,
+   "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 2 books quoting",
-    "Drift against the favourite: 1.67 \u2192 4.80 (-65%) \u2014 money moving the other way"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
    "gameId": "ncaaf:401858314",
    "match": "Notre Dame Fighting Irish @ Syracuse Orange",
    "league": "NCAAF",
-   "severity": 1,
-   "signal": "integrity_watch",
+   "severity": 2,
+   "signal": "high_risk_alert",
    "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
     "Heavy favourite: a short price leaves little margin"
    ]
   },
@@ -830,13 +829,25 @@
    ]
   },
   {
+   "gameId": "ncaaf:401856761",
+   "match": "Louisville Cardinals @ Kentucky Wildcats",
+   "league": "NCAAF",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 1.71 \u2192 1.35 (+27%) \u2014 market confirming"
+   ]
+  },
+  {
    "gameId": "ncaaf:401858540",
    "match": "Michigan Wolverines @ Ohio State Buckeyes",
    "league": "NCAAF",
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Heavy favourite: a short price leaves little margin"
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 1.25 \u2192 1.07 (+17%) \u2014 market confirming"
    ]
   },
   {
@@ -847,7 +858,7 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.46 \u2192 1.07 (+36%) \u2014 market confirming"
+    "Steam: favourite shortened 1.46 \u2192 1.08 (+35%) \u2014 market confirming"
    ]
   },
   {
@@ -857,17 +868,18 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Drift against the favourite: 1.65 \u2192 1.87 (-12%) \u2014 money moving the other way"
+    "Drift against the favourite: 1.65 \u2192 2.00 (-18%) \u2014 money moving the other way"
    ]
   },
   {
    "gameId": "ncaaf:401862842",
    "match": "Navy Midshipmen @ Charlotte 49ers",
    "league": "NCAAF",
-   "severity": 1,
-   "signal": "integrity_watch",
+   "severity": 2,
+   "signal": "high_risk_alert",
    "flags": [
-    "Heavy favourite: a short price leaves little margin"
+    "Heavy favourite: a short price leaves little margin",
+    "Drift against the favourite: 1.12 \u2192 1.31 (-14%) \u2014 money moving the other way"
    ]
   },
   {
@@ -877,7 +889,7 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Drift against the favourite: 1.59 \u2192 1.91 (-17%) \u2014 money moving the other way"
+    "Drift against the favourite: 1.58 \u2192 1.93 (-18%) \u2014 money moving the other way"
    ]
   },
   {
@@ -887,7 +899,69 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Steam: favourite shortened 1.85 \u2192 1.71 (+8%) \u2014 market confirming"
+    "Steam: favourite shortened 1.84 \u2192 1.40 (+31%) \u2014 market confirming"
+   ]
+  },
+  {
+   "gameId": "seriea:401874826",
+   "match": "Lazio @ Torino",
+   "league": "Serie A",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 2.25 \u2192 1.09 (+106%) \u2014 market confirming"
+   ]
+  },
+  {
+   "gameId": "ncaaf:401858537",
+   "match": "Illinois Fighting Illini @ Northwestern Wildcats",
+   "league": "NCAAF",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Drift against the favourite: 1.65 \u2192 1.80 (-8%) \u2014 money moving the other way"
+   ]
+  },
+  {
+   "gameId": "epl:401878752",
+   "match": "Aston Villa @ Ipswich Town",
+   "league": "EPL",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Steam: favourite shortened 2.05 \u2192 1.44 (+42%) \u2014 market confirming"
+   ]
+  },
+  {
+   "gameId": "laliga:401882793",
+   "match": "Atl\u00e9tico Madrid @ Elche",
+   "league": "La Liga",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 1.51 \u2192 1.18 (+28%) \u2014 market confirming"
+   ]
+  },
+  {
+   "gameId": "bundesliga:401884726",
+   "match": "Eintracht Frankfurt @ VfB Stuttgart",
+   "league": "Bundesliga",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Drift against the favourite: 1.85 \u2192 2.15 (-14%) \u2014 money moving the other way"
+   ]
+  },
+  {
+   "gameId": "mls:401933737",
+   "match": "Chicago Fire FC @ Charlotte FC",
+   "league": "MLS",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Steam: favourite shortened 2.38 \u2192 1.92 (+24%) \u2014 market confirming"
    ]
   },
   {
@@ -962,6 +1036,16 @@
    ]
   },
   {
+   "gameId": "mls:401933724",
+   "match": "San Jose Earthquakes @ Houston Dynamo FC",
+   "league": "MLS",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Drift against the favourite: 2.06 \u2192 2.25 (-8%) \u2014 money moving the other way"
+   ]
+  },
+  {
    "gameId": "seriea:401874977",
    "match": "Genoa @ Internazionale",
    "league": "Serie A",
@@ -993,16 +1077,6 @@
    ]
   },
   {
-   "gameId": "eredivisie:401875530",
-   "match": "Sparta Rotterdam @ SC Cambuur",
-   "league": "Dutch Eredivisie",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Steam: favourite shortened 2.12 \u2192 1.91 (+11%) \u2014 market confirming"
-   ]
-  },
-  {
    "gameId": "ncaaf:401856760",
    "match": "Georgia Tech Yellow Jackets @ Georgia Bulldogs",
    "league": "NCAAF",
@@ -1025,6 +1099,16 @@
   {
    "gameId": "ncaaf:401856876",
    "match": "Cincinnati Bearcats @ BYU Cougars",
+   "league": "NCAAF",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
+   "gameId": "ncaaf:401858539",
+   "match": "Penn State Nittany Lions @ Maryland Terrapins",
    "league": "NCAAF",
    "severity": 1,
    "signal": "integrity_watch",
