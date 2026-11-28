@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-28T00:47:53.172530+00:00",
+ "generatedAt": "2026-11-28T01:18:20.722145+00:00",
  "picks": [
   {
    "gameId": "epl:401879219",
@@ -550,12 +550,11 @@
    "gameId": "ncaaf:401864546",
    "match": "Air Force Falcons @ New Mexico Lobos",
    "league": "NCAAF",
-   "severity": 2,
-   "signal": "high_risk_alert",
+   "severity": 1,
+   "signal": "integrity_watch",
    "flags": [
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.36 \u2192 1.01 (+35%) \u2014 market confirming"
+    "Steam: favourite shortened 1.56 \u2192 1.36 (+15%) \u2014 market confirming"
    ]
   },
   {
@@ -588,7 +587,7 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.59 \u2192 1.35 (+18%) \u2014 market confirming"
+    "Steam: favourite shortened 1.59 \u2192 1.09 (+46%) \u2014 market confirming"
    ]
   },
   {
@@ -614,13 +613,35 @@
    ]
   },
   {
+   "gameId": "nba:401909326",
+   "match": "Miami Heat @ New York Knicks",
+   "league": "NBA",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 1.69 \u2192 1.22 (+38%) \u2014 market confirming"
+   ]
+  },
+  {
    "gameId": "nba:401909327",
    "match": "Milwaukee Bucks @ Detroit Pistons",
    "league": "NBA",
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Drift against the favourite: 1.23 \u2192 1.42 (-13%) \u2014 money moving the other way"
+    "Heavy favourite: a short price leaves little margin",
+    "Drift against the favourite: 1.23 \u2192 1.35 (-9%) \u2014 money moving the other way"
+   ]
+  },
+  {
+   "gameId": "nba:401909328",
+   "match": "Philadelphia 76ers @ Indiana Pacers",
+   "league": "NBA",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Steam: favourite shortened 1.64 \u2192 1.43 (+15%) \u2014 market confirming"
    ]
   },
   {
@@ -645,16 +666,6 @@
    ]
   },
   {
-   "gameId": "ncaaf:401858544",
-   "match": "Minnesota Golden Gophers @ Wisconsin Badgers",
-   "league": "NCAAF",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Drift against the favourite: 1.31 \u2192 1.45 (-10%) \u2014 money moving the other way"
-   ]
-  },
-  {
    "gameId": "ncaaf:401856756",
    "match": "Texas Longhorns @ Texas A&M Aggies",
    "league": "NCAAF",
@@ -662,6 +673,16 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
+   "gameId": "nhl:401892807",
+   "match": "Winnipeg Jets @ New York Islanders",
+   "league": "NHL",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Steam: favourite shortened 1.80 \u2192 1.48 (+22%) \u2014 market confirming"
    ]
   },
   {
@@ -681,7 +702,7 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Steam: favourite shortened 1.85 \u2192 1.62 (+14%) \u2014 market confirming"
+    "Steam: favourite shortened 1.83 \u2192 1.61 (+14%) \u2014 market confirming"
    ]
   },
   {
@@ -732,7 +753,8 @@
    "signal": "high_risk_alert",
    "flags": [
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: a short price leaves little margin"
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 1.36 \u2192 1.25 (+8%) \u2014 market confirming"
    ]
   },
   {
@@ -806,6 +828,16 @@
    ]
   },
   {
+   "gameId": "ncaab:401920849",
+   "match": "Princeton Tigers @ St. Thomas Tommies",
+   "league": "NCAAB",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
    "gameId": "ncaab:401918961",
    "match": "Elon Phoenix @ NC State Wolfpack",
    "league": "NCAAB",
@@ -876,8 +908,8 @@
    ]
   },
   {
-   "gameId": "ncaab:401920775",
-   "match": "Vermont Catamounts @ Colgate Raiders",
+   "gameId": "ncaab:401921414",
+   "match": "Hampton Pirates @ Radford Highlanders",
    "league": "NCAAB",
    "severity": 1,
    "signal": "integrity_watch",
@@ -902,7 +934,7 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Thin market: only 2 books quoting",
     "Heavy favourite: a short price leaves little margin"
    ]
   },
@@ -913,7 +945,7 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Thin market: only 2 books quoting",
     "Heavy favourite: a short price leaves little margin"
    ]
   },
@@ -924,7 +956,7 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+    "Thin market: only 2 books quoting"
    ]
   },
   {
@@ -934,7 +966,7 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Thin market: only 2 books quoting",
     "Heavy favourite: a short price leaves little margin"
    ]
   },
@@ -966,7 +998,7 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+    "Thin market: only 2 books quoting"
    ]
   },
   {
@@ -1048,18 +1080,7 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Thin market: only 2 books quoting",
     "Drift against the favourite: 1.51 \u2192 1.67 (-10%) \u2014 money moving the other way"
-   ]
-  },
-  {
-   "gameId": "ncaab:401926796",
-   "match": "Liberty Flames @ UNC Wilmington Seahawks",
-   "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 2 books quoting"
    ]
   },
   {
@@ -1077,21 +1098,10 @@
    "gameId": "ncaab:401920917",
    "match": "Northern Illinois Huskies @ Eastern Illinois Panthers",
    "league": "NCAAB",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 2 books quoting",
-    "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
-   "gameId": "ncaab:401911312",
-   "match": "Brown Bears @ Air Force Falcons",
-   "league": "NCAAB",
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 2 books quoting"
+    "Heavy favourite: a short price leaves little margin"
    ]
   },
   {
@@ -1121,7 +1131,6 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Thin market: only 2 books quoting",
     "Drift against the favourite: 1.47 \u2192 1.73 (-15%) \u2014 money moving the other way"
    ]
   },
@@ -1188,16 +1197,6 @@
    ]
   },
   {
-   "gameId": "ncaab:401926218",
-   "match": "Tennessee Tech Golden Eagles @ Eastern Kentucky Colonels",
-   "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 2 books quoting"
-   ]
-  },
-  {
    "gameId": "ncaab:401925033",
    "match": "McNeese Cowboys @ Louisiana Ragin' Cajuns",
    "league": "NCAAB",
@@ -1209,24 +1208,12 @@
    ]
   },
   {
-   "gameId": "ncaab:401920906",
-   "match": "Delaware Blue Hens @ Stony Brook Seawolves",
-   "league": "NCAAB",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 2 books quoting",
-    "Drift against the favourite: 1.44 \u2192 1.57 (-8%) \u2014 money moving the other way"
-   ]
-  },
-  {
    "gameId": "ncaab:401917954",
    "match": "Austin Peay Governors @ Furman Paladins",
    "league": "NCAAB",
-   "severity": 2,
-   "signal": "high_risk_alert",
+   "severity": 1,
+   "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 2 books quoting",
     "Heavy favourite: a short price leaves little margin"
    ]
   },
@@ -1322,13 +1309,23 @@
    ]
   },
   {
+   "gameId": "nba:401910048",
+   "match": "Indiana Pacers @ Chicago Bulls",
+   "league": "NBA",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 2 books quoting"
+   ]
+  },
+  {
    "gameId": "nba:401910049",
    "match": "Oklahoma City Thunder @ Milwaukee Bucks",
    "league": "NBA",
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Thin market: only 2 books quoting",
     "Heavy favourite: a short price leaves little margin"
    ]
   },
