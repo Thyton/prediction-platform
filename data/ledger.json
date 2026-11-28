@@ -95,9 +95,11 @@
    "homeAbbr": "FRO",
    "awayAbbr": "PAR",
    "lockTs": "2026-11-23T20:59:06.229138+00:00",
-   "result": null,
-   "profitUnits": null,
-   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401875081/parma-frosinone"
+   "result": "correct",
+   "profitUnits": 0.55,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401875081/parma-frosinone",
+   "final": "3-0",
+   "settledAt": "2026-11-28T16:00:37.700159+00:00"
   },
   {
    "gameId": "laliga:401882796",

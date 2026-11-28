@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-28T15:30:25.673878+00:00",
+ "generatedAt": "2026-11-28T16:00:54.405873+00:00",
  "picks": [
   {
    "gameId": "seriea:401875029",
@@ -666,11 +666,12 @@
    "gameId": "seriea:401875081",
    "match": "Parma @ Frosinone",
    "league": "Serie A",
-   "severity": 1,
-   "signal": "integrity_watch",
+   "severity": 2,
+   "signal": "high_risk_alert",
    "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.43 \u2192 1.02 (+40%) \u2014 market confirming"
+    "Steam: favourite shortened 1.44 \u2192 1.01 (+43%) \u2014 market confirming"
    ]
   },
   {
@@ -680,7 +681,7 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 2 books quoting"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
@@ -691,7 +692,7 @@
    "signal": "high_risk_alert",
    "flags": [
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Drift against the favourite: 1.49 \u2192 2.90 (-49%) \u2014 money moving the other way"
+    "Drift against the favourite: 1.49 \u2192 3.95 (-62%) \u2014 money moving the other way"
    ]
   },
   {
@@ -702,7 +703,8 @@
    "signal": "high_risk_alert",
    "flags": [
     "Thin market: only 2 books quoting",
-    "Drift against the favourite: 1.48 \u2192 3.50 (-58%) \u2014 money moving the other way"
+    "Big underdog priced: market implies low confidence",
+    "Drift against the favourite: 1.48 \u2192 6.50 (-77%) \u2014 money moving the other way"
    ]
   },
   {
@@ -712,7 +714,18 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 2 books quoting"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "epl:401879227",
+   "match": "Coventry City @ Leeds United",
+   "league": "EPL",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 1.50 \u2192 1.02 (+47%) \u2014 market confirming"
    ]
   },
   {
@@ -722,7 +735,8 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Steam: favourite shortened 2.35 \u2192 2.01 (+17%) \u2014 market confirming"
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 2.35 \u2192 1.29 (+82%) \u2014 market confirming"
    ]
   },
   {
@@ -732,7 +746,17 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 2 books quoting"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "ligapt:401885392",
+   "match": "Rio Ave @ Arouca",
+   "league": "Portugal Primeira Liga",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Drift against the favourite: 1.70 \u2192 2.03 (-16%) \u2014 money moving the other way"
    ]
   },
   {
@@ -803,7 +827,7 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Steam: favourite shortened 1.72 \u2192 1.54 (+12%) \u2014 market confirming"
+    "Steam: favourite shortened 1.71 \u2192 1.54 (+11%) \u2014 market confirming"
    ]
   },
   {
@@ -1089,6 +1113,16 @@
    ]
   },
   {
+   "gameId": "ligamx:401931996",
+   "match": "Monterrey @ Am\u00e9rica",
+   "league": "Liga MX",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Steam: favourite shortened 2.36 \u2192 2.06 (+15%) \u2014 market confirming"
+   ]
+  },
+  {
    "gameId": "ncaab:401920536",
    "match": "Louisville Cardinals @ Creighton Bluejays",
    "league": "NCAAB",
@@ -1299,6 +1333,16 @@
    "signal": "integrity_watch",
    "flags": [
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "nhl:401892824",
+   "match": "Vancouver Canucks @ Boston Bruins",
+   "league": "NHL",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 2 books quoting"
    ]
   },
   {

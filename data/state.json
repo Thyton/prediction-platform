@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-28T15:30:25.683624+00:00",
+ "generatedAt": "2026-11-28T16:00:54.415312+00:00",
  "picks": [
   {
    "gameId": "epl:401879219",
@@ -25,31 +25,6 @@
    "profitUnits": null,
    "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401879219/sunderland-liverpool",
    "why": "Liverpool rated 81% to win; with 1 book quoting; a slim but real gap to the market price."
-  },
-  {
-   "gameId": "seriea:401875081",
-   "match": "Parma @ Frosinone",
-   "league": "Serie A",
-   "sport": "seriea",
-   "side": "home",
-   "price": 1.55,
-   "modelProb": 0.8012,
-   "marketProb": 0.7891,
-   "edgePct": 0.0121,
-   "tier": "PREMIUM",
-   "bookCount": 10,
-   "startsAt": "2026-11-28T14:00Z",
-   "home": "Frosinone",
-   "away": "Parma",
-   "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4057.png",
-   "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
-   "homeAbbr": "FRO",
-   "awayAbbr": "PAR",
-   "lockTs": "2026-11-23T20:59:06.229138+00:00",
-   "result": null,
-   "profitUnits": null,
-   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401875081/parma-frosinone",
-   "why": "Frosinone rated 80% to win; with 10 books quoting; a slim but real gap to the market price."
   },
   {
    "gameId": "epl:401879231",
@@ -843,11 +818,12 @@
    "gameId": "seriea:401875081",
    "match": "Parma @ Frosinone",
    "league": "Serie A",
-   "severity": 1,
-   "signal": "integrity_watch",
+   "severity": 2,
+   "signal": "high_risk_alert",
    "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.43 \u2192 1.02 (+40%) \u2014 market confirming"
+    "Steam: favourite shortened 1.44 \u2192 1.01 (+43%) \u2014 market confirming"
    ]
   },
   {
@@ -857,7 +833,7 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 2 books quoting"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
@@ -868,7 +844,7 @@
    "signal": "high_risk_alert",
    "flags": [
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Drift against the favourite: 1.49 \u2192 2.90 (-49%) \u2014 money moving the other way"
+    "Drift against the favourite: 1.49 \u2192 3.95 (-62%) \u2014 money moving the other way"
    ]
   },
   {
@@ -879,7 +855,8 @@
    "signal": "high_risk_alert",
    "flags": [
     "Thin market: only 2 books quoting",
-    "Drift against the favourite: 1.48 \u2192 3.50 (-58%) \u2014 money moving the other way"
+    "Big underdog priced: market implies low confidence",
+    "Drift against the favourite: 1.48 \u2192 6.50 (-77%) \u2014 money moving the other way"
    ]
   },
   {
@@ -889,7 +866,18 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 2 books quoting"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "epl:401879227",
+   "match": "Coventry City @ Leeds United",
+   "league": "EPL",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 1.50 \u2192 1.02 (+47%) \u2014 market confirming"
    ]
   },
   {
@@ -899,7 +887,8 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Steam: favourite shortened 2.35 \u2192 2.01 (+17%) \u2014 market confirming"
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 2.35 \u2192 1.29 (+82%) \u2014 market confirming"
    ]
   },
   {
@@ -909,7 +898,17 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 2 books quoting"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "ligapt:401885392",
+   "match": "Rio Ave @ Arouca",
+   "league": "Portugal Primeira Liga",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Drift against the favourite: 1.70 \u2192 2.03 (-16%) \u2014 money moving the other way"
    ]
   },
   {
@@ -980,7 +979,7 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Steam: favourite shortened 1.72 \u2192 1.54 (+12%) \u2014 market confirming"
+    "Steam: favourite shortened 1.71 \u2192 1.54 (+11%) \u2014 market confirming"
    ]
   },
   {
@@ -1266,6 +1265,16 @@
    ]
   },
   {
+   "gameId": "ligamx:401931996",
+   "match": "Monterrey @ Am\u00e9rica",
+   "league": "Liga MX",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Steam: favourite shortened 2.36 \u2192 2.06 (+15%) \u2014 market confirming"
+   ]
+  },
+  {
    "gameId": "ncaab:401920536",
    "match": "Louisville Cardinals @ Creighton Bluejays",
    "league": "NCAAB",
@@ -1476,6 +1485,16 @@
    "signal": "integrity_watch",
    "flags": [
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "nhl:401892824",
+   "match": "Vancouver Canucks @ Boston Bruins",
+   "league": "NHL",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 2 books quoting"
    ]
   },
   {
@@ -1960,12 +1979,12 @@
   }
  ],
  "record": {
-  "graded": 18,
-  "correct": 10,
+  "graded": 19,
+  "correct": 11,
   "wrong": 8,
-  "accuracy": 0.5556,
-  "units": -3.73,
-  "rolling": 0.5556,
+  "accuracy": 0.5789,
+  "units": -3.18,
+  "rolling": 0.5789,
   "recent": [
    {
     "gameId": "nba:401909327",
@@ -2339,6 +2358,32 @@
     "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401882796/rayo-vallecano-real-betis",
     "final": "0-1",
     "settledAt": "2026-11-28T14:59:57.093001+00:00"
+   },
+   {
+    "gameId": "seriea:401875081",
+    "match": "Parma @ Frosinone",
+    "league": "Serie A",
+    "sport": "seriea",
+    "side": "home",
+    "price": 1.55,
+    "modelProb": 0.8012,
+    "marketProb": 0.7891,
+    "edgePct": 0.0121,
+    "tier": "PREMIUM",
+    "bookCount": 10,
+    "startsAt": "2026-11-28T14:00Z",
+    "home": "Frosinone",
+    "away": "Parma",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4057.png",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
+    "homeAbbr": "FRO",
+    "awayAbbr": "PAR",
+    "lockTs": "2026-11-23T20:59:06.229138+00:00",
+    "result": "correct",
+    "profitUnits": 0.55,
+    "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401875081/parma-frosinone",
+    "final": "3-0",
+    "settledAt": "2026-11-28T16:00:37.700159+00:00"
    },
    {
     "gameId": "wta:186827",
