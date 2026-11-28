@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-28T09:25:27.229988+00:00",
+ "generatedAt": "2026-11-28T09:55:53.226981+00:00",
  "picks": [
   {
    "gameId": "epl:401879219",
@@ -840,6 +840,17 @@
   {
    "gameId": "esports:134406",
    "match": "100 Thieves vs Mibr",
+   "league": "Esports",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
+   "gameId": "esports:134407",
+   "match": "Lynn Vision vs Nemiga",
    "league": "Esports",
    "severity": 2,
    "signal": "high_risk_alert",
