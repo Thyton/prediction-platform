@@ -271,9 +271,11 @@
    "homeAbbr": "TOR",
    "awayAbbr": "LAZ",
    "lockTs": "2026-11-23T20:59:06.229138+00:00",
-   "result": null,
-   "profitUnits": null,
-   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401874826/lazio-torino"
+   "result": "correct",
+   "profitUnits": 1.1,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401874826/lazio-torino",
+   "final": "1-2",
+   "settledAt": "2026-11-28T19:03:12.690539+00:00"
   },
   {
    "gameId": "mls:401933724",
@@ -644,6 +646,33 @@
    "awayAbbr": null,
    "espnUrl": null,
    "lockTs": "2026-11-28T16:31:20.114602+00:00",
+   "result": null,
+   "profitUnits": null
+  },
+  {
+   "gameId": "wta:186872",
+   "match": "Oceane Dodin vs Alice Tubello",
+   "league": "Open Angers Loire Tr\u00e9laz\u00e9",
+   "sport": "wta",
+   "side": "home",
+   "price": 1.47,
+   "modelProb": 0.7307,
+   "marketProb": null,
+   "edgePct": 0.4614,
+   "tier": "PREMIUM",
+   "bookCount": 0,
+   "startsAt": "2026-11-30T05:00Z",
+   "modelPriced": true,
+   "why": "Alice Tubello rated 73% to win; a 46-point rating gap with no market price to lean on.",
+   "edgeKind": "model",
+   "home": "Alice Tubello",
+   "away": "Oceane Dodin",
+   "homeLogo": null,
+   "awayLogo": null,
+   "homeAbbr": null,
+   "awayAbbr": null,
+   "espnUrl": null,
+   "lockTs": "2026-11-28T19:03:19.981890+00:00",
    "result": null,
    "profitUnits": null
   }
