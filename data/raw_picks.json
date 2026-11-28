@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-28T08:55:03.700590+00:00",
+ "generatedAt": "2026-11-28T09:25:27.217459+00:00",
  "picks": [
   {
    "gameId": "seriea:401875029",
@@ -677,16 +677,6 @@
    ]
   },
   {
-   "gameId": "epl:401879226",
-   "match": "Brentford @ Manchester United",
-   "league": "EPL",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Drift against the favourite: 2.15 \u2192 2.35 (-8%) \u2014 money moving the other way"
-   ]
-  },
-  {
    "gameId": "laliga:401882790",
    "match": "Athletic Club @ M\u00e1laga",
    "league": "La Liga",
@@ -694,16 +684,6 @@
    "signal": "integrity_watch",
    "flags": [
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "ligapt:401885388",
-   "match": "Santa Clara @ Moreirense",
-   "league": "Portugal Primeira Liga",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Drift against the favourite: 2.50 \u2192 2.78 (-10%) \u2014 money moving the other way"
    ]
   },
   {
@@ -725,36 +705,6 @@
    "signal": "integrity_watch",
    "flags": [
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "ncaab:401920890",
-   "match": "Siena Saints @ Seton Hall Pirates",
-   "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
-   "gameId": "ncaab:401920849",
-   "match": "Princeton Tigers @ St. Thomas Tommies",
-   "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "ncaab:401918961",
-   "match": "Elon Phoenix @ NC State Wolfpack",
-   "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Heavy favourite: a short price leaves little margin"
    ]
   },
   {
@@ -818,47 +768,6 @@
    ]
   },
   {
-   "gameId": "ncaab:401926212",
-   "match": "Wofford Terriers @ Purdue Fort Wayne Mastodons",
-   "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "ncaab:401921414",
-   "match": "Hampton Pirates @ Radford Highlanders",
-   "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "ncaab:401920310",
-   "match": "Alcorn State Braves @ Georgia Tech Yellow Jackets",
-   "league": "NCAAB",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
-   "gameId": "ncaab:401911395",
-   "match": "North Carolina Central Eagles @ Gardner-Webb Runnin' Bulldogs",
-   "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
    "gameId": "ncaaf:401871103",
    "match": "Southern Miss Golden Eagles @ Old Dominion Monarchs",
    "league": "NCAAF",
@@ -866,108 +775,6 @@
    "signal": "integrity_watch",
    "flags": [
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "ncaab:401926757",
-   "match": "Lehigh Mountain Hawks @ Pepperdine Waves",
-   "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
-   "gameId": "ncaab:401924779",
-   "match": "Manhattan Jaspers @ Morgan State Bears",
-   "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "ncaab:401922224",
-   "match": "North Florida Ospreys @ Columbia Lions",
-   "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
-   "gameId": "ncaab:401921245",
-   "match": "Central Connecticut Blue Devils @ Navy Midshipmen",
-   "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "ncaab:401921158",
-   "match": "Delaware State Hornets @ North Carolina A&T Aggies",
-   "league": "NCAAB",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
-   "gameId": "ncaab:401920859",
-   "match": "East Texas A&M Lions @ Marshall Thundering Herd",
-   "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
-   "gameId": "ncaab:401920415",
-   "match": "The Citadel Bulldogs @ High Point Panthers",
-   "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
-   "gameId": "ncaab:401920350",
-   "match": "Sacramento State Hornets @ Presbyterian Blue Hose",
-   "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "ncaab:401920077",
-   "match": "Marist Red Foxes @ George Mason Patriots",
-   "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
-   "gameId": "ncaab:401919736",
-   "match": "Chicago State Cougars @ Bradley Braves",
-   "league": "NCAAB",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: a short price leaves little margin"
    ]
   },
   {
@@ -1023,56 +830,6 @@
    ]
   },
   {
-   "gameId": "ncaab:401929048",
-   "match": "Western Illinois Leathernecks @ Coastal Carolina Chanticleers",
-   "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
-   "gameId": "ncaab:401926229",
-   "match": "Denver Pioneers @ New Mexico State Aggies",
-   "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "ncaab:401924913",
-   "match": "UT Rio Grande Valley Vaqueros @ UNLV Rebels",
-   "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
-   "gameId": "ncaab:401921009",
-   "match": "Southeast Missouri State Redhawks @ Kansas City Roos",
-   "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "ncaab:401920917",
-   "match": "Northern Illinois Huskies @ Eastern Illinois Panthers",
-   "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
    "gameId": "laliga:401882789",
    "match": "Alav\u00e9s @ Real Madrid",
    "league": "La Liga",
@@ -1090,16 +847,6 @@
    "signal": "integrity_watch",
    "flags": [
     "Steam: favourite shortened 2.20 \u2192 1.93 (+14%) \u2014 market confirming"
-   ]
-  },
-  {
-   "gameId": "ncaab:401924811",
-   "match": "Merrimack Warriors @ Hofstra Pride",
-   "league": "NCAAB",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Drift against the favourite: 1.61 \u2192 1.80 (-11%) \u2014 money moving the other way"
    ]
   },
   {
@@ -1150,129 +897,6 @@
    "signal": "integrity_watch",
    "flags": [
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "ncaab:401925033",
-   "match": "McNeese Cowboys @ Louisiana Ragin' Cajuns",
-   "league": "NCAAB",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Heavy favourite: a short price leaves little margin",
-    "Drift against the favourite: 1.17 \u2192 1.29 (-9%) \u2014 money moving the other way"
-   ]
-  },
-  {
-   "gameId": "ncaab:401920924",
-   "match": "Drexel Dragons @ Mount St. Mary's Mountaineers",
-   "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "ncaab:401920436",
-   "match": "San Jos\u00e9 State Spartans @ Utah Valley Wolverines",
-   "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "ncaab:401917954",
-   "match": "Austin Peay Governors @ Furman Paladins",
-   "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
-   "gameId": "ncaab:401917549",
-   "match": "Northern Colorado Bears @ San Diego Toreros",
-   "league": "NCAAB",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
-   "gameId": "ncaab:401912214",
-   "match": "UMass Lowell River Hawks @ American University Eagles",
-   "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "ncaab:401920160",
-   "match": "Weber State Wildcats @ Cal State Fullerton Titans",
-   "league": "NCAAB",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
-   "gameId": "ncaab:401920139",
-   "match": "Northern Arizona Lumberjacks @ Cal State Bakersfield Roadrunners",
-   "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "ncaab:401917548",
-   "match": "UC Irvine Anteaters @ Seattle U Redhawks",
-   "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "ncaab:401929413",
-   "match": "South Alabama Jaguars @ South Dakota State Jackrabbits",
-   "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "ncaab:401927367",
-   "match": "Drake Bulldogs @ North Dakota State Bison",
-   "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "ncaab:401921186",
-   "match": "Bucknell Bison @ Pennsylvania Quakers",
-   "league": "NCAAB",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Heavy favourite: a short price leaves little margin"
    ]
   },
   {
