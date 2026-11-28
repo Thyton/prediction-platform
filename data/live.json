@@ -1,4 +1,21 @@
 {
- "generatedAt": "2026-11-28T01:18:08.236845+00:00",
- "signals": []
+ "generatedAt": "2026-11-28T01:48:35.324205+00:00",
+ "signals": [
+  {
+   "gameId": "nba:401909327",
+   "kind": "RISING",
+   "text": "Down early \u2014 the get-in window is still open.",
+   "espnUrl": "https://www.espn.com/nba/game/_/gameId/401909327/bucks-pistons",
+   "sport": "nba",
+   "match": "Milwaukee Bucks @ Detroit Pistons",
+   "side": "home",
+   "score": "48-50",
+   "period": 2,
+   "clock": "0.0",
+   "progress": 0.25,
+   "livePrice": 1.45,
+   "lockedPrice": 1.27,
+   "at": "2026-11-28T01:48:34.919093+00:00"
+  }
+ ]
 }
