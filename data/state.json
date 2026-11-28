@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-28T07:54:12.201446+00:00",
+ "generatedAt": "2026-11-28T08:24:37.578599+00:00",
  "picks": [
   {
    "gameId": "epl:401879219",
@@ -827,6 +827,17 @@
    ]
   },
   {
+   "gameId": "esports:134404",
+   "match": "Parivision vs Natus Vincere",
+   "league": "Esports",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
    "gameId": "bundesliga:401884721",
    "match": "SV Elversberg @ FC Cologne",
    "league": "Bundesliga",
@@ -1340,7 +1351,7 @@
    "signal": "high_risk_alert",
    "flags": [
     "Heavy favourite: a short price leaves little margin",
-    "Drift against the favourite: 1.17 \u2192 1.30 (-10%) \u2014 money moving the other way"
+    "Drift against the favourite: 1.17 \u2192 1.29 (-9%) \u2014 money moving the other way"
    ]
   },
   {
