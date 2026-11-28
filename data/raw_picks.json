@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-28T12:27:59.380469+00:00",
+ "generatedAt": "2026-11-28T12:58:28.881726+00:00",
  "picks": [
   {
    "gameId": "seriea:401875029",
@@ -602,8 +602,8 @@
    ]
   },
   {
-   "gameId": "esports:134407",
-   "match": "Lynn Vision vs Nemiga",
+   "gameId": "esports:134409",
+   "match": "Eternal Fire vs Liquid",
    "league": "Esports",
    "severity": 2,
    "signal": "high_risk_alert",
@@ -613,8 +613,8 @@
    ]
   },
   {
-   "gameId": "esports:134409",
-   "match": "Eternal Fire vs Liquid",
+   "gameId": "esports:134412",
+   "match": "100 Thieves vs Fut CS2",
    "league": "Esports",
    "severity": 2,
    "signal": "high_risk_alert",
@@ -680,7 +680,7 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Drift against the favourite: 2.03 \u2192 2.21 (-8%) \u2014 money moving the other way"
+    "Drift against the favourite: 2.05 \u2192 2.25 (-9%) \u2014 money moving the other way"
    ]
   },
   {
