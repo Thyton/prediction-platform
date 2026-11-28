@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-28T20:34:24.849637+00:00",
+ "generatedAt": "2026-11-28T21:04:45.890790+00:00",
  "picks": [
   {
    "gameId": "epl:401879219",
@@ -746,17 +746,6 @@
    ]
   },
   {
-   "gameId": "esports:134413",
-   "match": "Parivision vs Flyquest",
-   "league": "Esports",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
    "gameId": "seriea:401875081",
    "match": "Parma @ Frosinone",
    "league": "Serie A",
@@ -919,17 +908,6 @@
    ]
   },
   {
-   "gameId": "ncaaf:401858540",
-   "match": "Michigan Wolverines @ Ohio State Buckeyes",
-   "league": "NCAAF",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
    "gameId": "ncaaf:401858314",
    "match": "Notre Dame Fighting Irish @ Syracuse Orange",
    "league": "NCAAF",
@@ -958,8 +936,18 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.71 \u2192 1.31 (+30%) \u2014 market confirming"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "ncaaf:401858540",
+   "match": "Michigan Wolverines @ Ohio State Buckeyes",
+   "league": "NCAAF",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: a short price leaves little margin"
    ]
   },
   {
@@ -1027,12 +1015,10 @@
    "gameId": "ncaaf:401858537",
    "match": "Illinois Fighting Illini @ Northwestern Wildcats",
    "league": "NCAAF",
-   "severity": 2,
-   "signal": "high_risk_alert",
+   "severity": 1,
+   "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 2 books quoting",
-    "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.54 \u2192 1.02 (+51%) \u2014 market confirming"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
@@ -1080,11 +1066,12 @@
    "gameId": "ncaaf:401856758",
    "match": "LSU Tigers @ Arkansas Razorbacks",
    "league": "NCAAF",
-   "severity": 1,
-   "signal": "integrity_watch",
+   "severity": 2,
+   "signal": "high_risk_alert",
    "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.17 \u2192 1.01 (+16%) \u2014 market confirming"
+    "Steam: favourite shortened 1.16 \u2192 1.01 (+15%) \u2014 market confirming"
    ]
   },
   {
@@ -1105,7 +1092,7 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Thin market: only 2 books quoting",
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
     "Heavy favourite: a short price leaves little margin",
     "Steam: favourite shortened 1.73 \u2192 1.01 (+71%) \u2014 market confirming"
    ]
@@ -1114,21 +1101,23 @@
    "gameId": "ncaaf:401870804",
    "match": "Kennesaw State Owls @ Western Kentucky Hilltoppers",
    "league": "NCAAF",
-   "severity": 2,
-   "signal": "high_risk_alert",
+   "severity": 1,
+   "signal": "integrity_watch",
    "flags": [
-    "Drift against the favourite: 1.62 \u2192 1.95 (-17%) \u2014 money moving the other way"
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 1.62 \u2192 1.26 (+29%) \u2014 market confirming"
    ]
   },
   {
    "gameId": "ncaaf:401871102",
    "match": "Marshall Thundering Herd @ UL Monroe Warhawks",
    "league": "NCAAF",
-   "severity": 1,
-   "signal": "integrity_watch",
+   "severity": 2,
+   "signal": "high_risk_alert",
    "flags": [
+    "Thin market: only 2 books quoting",
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.42 \u2192 1.05 (+35%) \u2014 market confirming"
+    "Steam: favourite shortened 1.42 \u2192 1.02 (+39%) \u2014 market confirming"
    ]
   },
   {
@@ -1139,7 +1128,7 @@
    "signal": "high_risk_alert",
    "flags": [
     "Thin market: only 2 books quoting",
-    "Drift against the favourite: 1.44 \u2192 2.50 (-43%) \u2014 money moving the other way"
+    "Drift against the favourite: 1.46 \u2192 2.50 (-42%) \u2014 money moving the other way"
    ]
   },
   {
@@ -1153,14 +1142,26 @@
    ]
   },
   {
+   "gameId": "esports:132994",
+   "match": "Havu vs Prestige",
+   "league": "Esports",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
    "gameId": "ncaaf:401856875",
    "match": "UCF Knights @ Colorado Buffaloes",
    "league": "NCAAF",
-   "severity": 1,
-   "signal": "integrity_watch",
+   "severity": 2,
+   "signal": "high_risk_alert",
    "flags": [
+    "Thin market: only 2 books quoting",
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.83 \u2192 1.03 (+78%) \u2014 market confirming"
+    "Steam: favourite shortened 1.83 \u2192 1.01 (+81%) \u2014 market confirming"
    ]
   },
   {
@@ -1171,7 +1172,7 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.50 \u2192 1.13 (+33%) \u2014 market confirming"
+    "Steam: favourite shortened 1.49 \u2192 1.09 (+37%) \u2014 market confirming"
    ]
   },
   {
@@ -1182,16 +1183,17 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.54 \u2192 1.12 (+38%) \u2014 market confirming"
+    "Steam: favourite shortened 1.54 \u2192 1.03 (+50%) \u2014 market confirming"
    ]
   },
   {
    "gameId": "ncaaf:401869947",
    "match": "Coastal Carolina Chanticleers @ James Madison Dukes",
    "league": "NCAAF",
-   "severity": 1,
-   "signal": "integrity_watch",
+   "severity": 2,
+   "signal": "high_risk_alert",
    "flags": [
+    "Thin market: only 2 books quoting",
     "Heavy favourite: a short price leaves little margin",
     "Steam: favourite shortened 1.12 \u2192 1.01 (+11%) \u2014 market confirming"
    ]
@@ -1204,7 +1206,7 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.54 \u2192 1.20 (+28%) \u2014 market confirming"
+    "Steam: favourite shortened 1.53 \u2192 1.30 (+18%) \u2014 market confirming"
    ]
   },
   {
@@ -1214,7 +1216,8 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Heavy favourite: a short price leaves little margin"
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 1.12 \u2192 1.02 (+10%) \u2014 market confirming"
    ]
   },
   {
@@ -1236,7 +1239,7 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.62 \u2192 1.01 (+60%) \u2014 market confirming"
+    "Steam: favourite shortened 1.67 \u2192 1.01 (+65%) \u2014 market confirming"
    ]
   },
   {
@@ -1247,7 +1250,7 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 2.18 \u2192 1.08 (+102%) \u2014 market confirming"
+    "Steam: favourite shortened 2.25 \u2192 1.31 (+72%) \u2014 market confirming"
    ]
   },
   {
@@ -1257,7 +1260,7 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Thin market: only 2 books quoting",
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
     "Heavy favourite: a short price leaves little margin"
    ]
   },
@@ -1268,7 +1271,8 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Steam: favourite shortened 2.26 \u2192 1.36 (+66%) \u2014 market confirming"
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 2.26 \u2192 1.34 (+69%) \u2014 market confirming"
    ]
   },
   {
@@ -1278,7 +1282,7 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Drift against the favourite: 2.02 \u2192 3.80 (-47%) \u2014 money moving the other way"
+    "Drift against the favourite: 1.97 \u2192 5.00 (-61%) \u2014 money moving the other way"
    ]
   },
   {
@@ -1289,7 +1293,7 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.77 \u2192 1.29 (+37%) \u2014 market confirming"
+    "Steam: favourite shortened 1.75 \u2192 1.29 (+36%) \u2014 market confirming"
    ]
   },
   {
@@ -1300,7 +1304,17 @@
    "signal": "integrity_watch",
    "flags": [
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.22 \u2192 1.07 (+14%) \u2014 market confirming"
+    "Steam: favourite shortened 1.21 \u2192 1.06 (+14%) \u2014 market confirming"
+   ]
+  },
+  {
+   "gameId": "ncaaf:401869939",
+   "match": "Troy Trojans @ Arkansas State Red Wolves",
+   "league": "NCAAF",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Drift against the favourite: 1.57 \u2192 1.89 (-17%) \u2014 money moving the other way"
    ]
   },
   {
@@ -1310,7 +1324,7 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Drift against the favourite: 1.16 \u2192 1.50 (-23%) \u2014 money moving the other way"
+    "Drift against the favourite: 1.16 \u2192 1.59 (-27%) \u2014 money moving the other way"
    ]
   },
   {
@@ -1320,7 +1334,18 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Steam: favourite shortened 1.91 \u2192 1.38 (+38%) \u2014 market confirming"
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 1.91 \u2192 1.34 (+42%) \u2014 market confirming"
+   ]
+  },
+  {
+   "gameId": "ncaaf:401856764",
+   "match": "South Carolina Gamecocks @ Clemson Tigers",
+   "league": "NCAAF",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Drift against the favourite: 1.43 \u2192 1.75 (-18%) \u2014 money moving the other way"
    ]
   },
   {
@@ -1345,6 +1370,17 @@
    ]
   },
   {
+   "gameId": "ncaaf:401858543",
+   "match": "USC Trojans @ UCLA Bruins",
+   "league": "NCAAF",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 1.53 \u2192 1.22 (+25%) \u2014 market confirming"
+   ]
+  },
+  {
    "gameId": "ncaaf:401856876",
    "match": "Cincinnati Bearcats @ BYU Cougars",
    "league": "NCAAF",
@@ -1358,10 +1394,32 @@
    "gameId": "ncaaf:401858539",
    "match": "Penn State Nittany Lions @ Maryland Terrapins",
    "league": "NCAAF",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Drift against the favourite: 1.36 \u2192 1.88 (-28%) \u2014 money moving the other way"
+   ]
+  },
+  {
+   "gameId": "ncaaf:401862839",
+   "match": "Tulane Green Wave @ South Florida Bulls",
+   "league": "NCAAF",
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Heavy favourite: a short price leaves little margin"
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 1.43 \u2192 1.30 (+10%) \u2014 market confirming"
+   ]
+  },
+  {
+   "gameId": "ncaaf:401864550",
+   "match": "UTEP Miners @ Northern Illinois Huskies",
+   "league": "NCAAF",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 1.56 \u2192 1.20 (+30%) \u2014 market confirming"
    ]
   },
   {
@@ -1381,8 +1439,8 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Drift against the favourite: 1.71 \u2192 1.95 (-12%) \u2014 money moving the other way"
+    "Thin market: only 2 books quoting",
+    "Drift against the favourite: 1.74 \u2192 1.95 (-11%) \u2014 money moving the other way"
    ]
   },
   {
