@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-28T15:00:04.067752+00:00",
+ "generatedAt": "2026-11-28T15:30:25.683624+00:00",
  "picks": [
   {
    "gameId": "epl:401879219",
@@ -757,8 +757,8 @@
    ]
   },
   {
-   "gameId": "esports:134409",
-   "match": "Eternal Fire vs Liquid",
+   "gameId": "esports:134412",
+   "match": "100 Thieves vs Fut CS2",
    "league": "Esports",
    "severity": 2,
    "signal": "high_risk_alert",
@@ -768,14 +768,13 @@
    ]
   },
   {
-   "gameId": "esports:134412",
-   "match": "100 Thieves vs Fut CS2",
+   "gameId": "esports:134653",
+   "match": "Ex Inox Division vs Rune Eaters Esports",
    "league": "Esports",
-   "severity": 2,
-   "signal": "high_risk_alert",
+   "severity": 1,
+   "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: a short price leaves little margin"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
@@ -826,8 +825,7 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.62 \u2192 1.17 (+38%) \u2014 market confirming"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
@@ -845,10 +843,11 @@
    "gameId": "seriea:401875081",
    "match": "Parma @ Frosinone",
    "league": "Serie A",
-   "severity": 2,
-   "signal": "high_risk_alert",
+   "severity": 1,
+   "signal": "integrity_watch",
    "flags": [
-    "Drift against the favourite: 1.44 \u2192 1.69 (-15%) \u2014 money moving the other way"
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 1.43 \u2192 1.02 (+40%) \u2014 market confirming"
    ]
   },
   {
@@ -865,10 +864,11 @@
    "gameId": "bundesliga:401884722",
    "match": "Bayern Munich @ Hamburg SV",
    "league": "Bundesliga",
-   "severity": 1,
-   "signal": "integrity_watch",
+   "severity": 2,
+   "signal": "high_risk_alert",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Drift against the favourite: 1.49 \u2192 2.90 (-49%) \u2014 money moving the other way"
    ]
   },
   {
@@ -879,18 +879,27 @@
    "signal": "high_risk_alert",
    "flags": [
     "Thin market: only 2 books quoting",
-    "Drift against the favourite: 1.48 \u2192 1.71 (-14%) \u2014 money moving the other way"
+    "Drift against the favourite: 1.48 \u2192 3.50 (-58%) \u2014 money moving the other way"
    ]
   },
   {
    "gameId": "bundesliga:401884719",
    "match": "Schalke 04 @ SC Paderborn 07",
    "league": "Bundesliga",
-   "severity": 2,
-   "signal": "high_risk_alert",
+   "severity": 1,
+   "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 2 books quoting",
-    "Drift against the favourite: 2.40 \u2192 2.70 (-11%) \u2014 money moving the other way"
+    "Thin market: only 2 books quoting"
+   ]
+  },
+  {
+   "gameId": "epl:401879226",
+   "match": "Brentford @ Manchester United",
+   "league": "EPL",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Steam: favourite shortened 2.35 \u2192 2.01 (+17%) \u2014 market confirming"
    ]
   },
   {
@@ -900,7 +909,7 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+    "Thin market: only 2 books quoting"
    ]
   },
   {
@@ -1365,7 +1374,8 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Steam: favourite shortened 2.55 \u2192 2.35 (+8%) \u2014 market confirming"
    ]
   },
   {
@@ -1585,16 +1595,6 @@
    "gameId": "bundesliga:401884717",
    "match": "Mainz @ RB Leipzig",
    "league": "Bundesliga",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
-   ]
-  },
-  {
-   "gameId": "laliga:401882779",
-   "match": "Levante @ Rayo Vallecano",
-   "league": "La Liga",
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
