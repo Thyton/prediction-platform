@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-28T10:26:17.238937+00:00",
+ "generatedAt": "2026-11-28T10:56:41.752922+00:00",
  "picks": [
   {
    "gameId": "seriea:401875029",
@@ -570,28 +570,6 @@
    ]
   },
   {
-   "gameId": "esports:134403",
-   "match": "Imperial vs Astralis",
-   "league": "Esports",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
-   "gameId": "esports:134400",
-   "match": "Nip vs Nemiga",
-   "league": "Esports",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
    "gameId": "esports:134402",
    "match": "Eternal Fire vs 1win",
    "league": "Esports",
@@ -627,6 +605,17 @@
   {
    "gameId": "esports:134406",
    "match": "100 Thieves vs Mibr",
+   "league": "Esports",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
+    "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
+   "gameId": "esports:134858",
+   "match": "Fortress vs Ex Sashi Academy",
    "league": "Esports",
    "severity": 2,
    "signal": "high_risk_alert",
@@ -715,7 +704,7 @@
    "signal": "high_risk_alert",
    "flags": [
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Drift against the favourite: 2.00 \u2192 2.20 (-9%) \u2014 money moving the other way"
+    "Drift against the favourite: 2.00 \u2192 2.25 (-11%) \u2014 money moving the other way"
    ]
   },
   {
