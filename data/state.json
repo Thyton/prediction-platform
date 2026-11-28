@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-28T06:22:58.026546+00:00",
+ "generatedAt": "2026-11-28T06:53:22.739322+00:00",
  "picks": [
   {
    "gameId": "epl:401879219",
@@ -779,7 +779,9 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Drift against the favourite: 1.41 \u2192 2.05 (-31%) \u2014 money moving the other way"
+    "Thin market: only 2 books quoting",
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 1.41 \u2192 1.01 (+40%) \u2014 market confirming"
    ]
   },
   {
@@ -853,6 +855,16 @@
    "signal": "integrity_watch",
    "flags": [
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
+   ]
+  },
+  {
+   "gameId": "ligapt:401885388",
+   "match": "Santa Clara @ Moreirense",
+   "league": "Portugal Primeira Liga",
+   "severity": 2,
+   "signal": "high_risk_alert",
+   "flags": [
+    "Drift against the favourite: 2.48 \u2192 2.70 (-8%) \u2014 money moving the other way"
    ]
   },
   {
