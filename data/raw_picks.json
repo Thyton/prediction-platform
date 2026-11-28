@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-28T12:58:28.881726+00:00",
+ "generatedAt": "2026-11-28T13:28:51.592973+00:00",
  "picks": [
   {
    "gameId": "seriea:401875029",
@@ -591,17 +591,6 @@
    ]
   },
   {
-   "gameId": "esports:134408",
-   "match": "Nip vs G2",
-   "league": "Esports",
-   "severity": 2,
-   "signal": "high_risk_alert",
-   "flags": [
-    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: a short price leaves little margin"
-   ]
-  },
-  {
    "gameId": "esports:134409",
    "match": "Eternal Fire vs Liquid",
    "league": "Esports",
@@ -621,6 +610,16 @@
    "flags": [
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
     "Heavy favourite: a short price leaves little margin"
+   ]
+  },
+  {
+   "gameId": "esports:134411",
+   "match": "Imperial vs Mibr",
+   "league": "Esports",
+   "severity": 1,
+   "signal": "integrity_watch",
+   "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
@@ -853,7 +852,7 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Steam: favourite shortened 2.20 \u2192 1.93 (+14%) \u2014 market confirming"
+    "Steam: favourite shortened 2.20 \u2192 1.91 (+15%) \u2014 market confirming"
    ]
   },
   {
