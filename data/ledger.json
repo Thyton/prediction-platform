@@ -245,9 +245,11 @@
    "homeAbbr": "MCF",
    "awayAbbr": "ATH",
    "lockTs": "2026-11-23T20:59:06.229138+00:00",
-   "result": null,
-   "profitUnits": null,
-   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401882790/athletic-club-malaga"
+   "result": "correct",
+   "profitUnits": 0.77,
+   "espnUrl": "https://www.espn.com/soccer/match/_/gameId/401882790/athletic-club-malaga",
+   "final": "3-4",
+   "settledAt": "2026-11-28T17:31:57.594117+00:00"
   },
   {
    "gameId": "seriea:401874826",
