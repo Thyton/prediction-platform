@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-28T16:31:20.108611+00:00",
+ "generatedAt": "2026-11-28T17:01:43.594581+00:00",
  "picks": [
   {
    "gameId": "wta:186843",
@@ -730,11 +730,12 @@
    "gameId": "epl:401879227",
    "match": "Coventry City @ Leeds United",
    "league": "EPL",
-   "severity": 1,
-   "signal": "integrity_watch",
+   "severity": 2,
+   "signal": "high_risk_alert",
    "flags": [
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
     "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 1.49 \u2192 1.01 (+48%) \u2014 market confirming"
+    "Steam: favourite shortened 1.50 \u2192 1.01 (+48%) \u2014 market confirming"
    ]
   },
   {
@@ -744,8 +745,7 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Heavy favourite: a short price leaves little margin",
-    "Steam: favourite shortened 2.35 \u2192 1.12 (+110%) \u2014 market confirming"
+    "Thin market: only 1 book quoting (low liquidity, less scrutiny)"
    ]
   },
   {
@@ -765,7 +765,7 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Drift against the favourite: 1.69 \u2192 2.30 (-26%) \u2014 money moving the other way"
+    "Drift against the favourite: 1.74 \u2192 2.95 (-41%) \u2014 money moving the other way"
    ]
   },
   {
@@ -775,7 +775,8 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Steam: favourite shortened 2.70 \u2192 1.43 (+89%) \u2014 market confirming"
+    "Heavy favourite: a short price leaves little margin",
+    "Steam: favourite shortened 2.70 \u2192 1.04 (+160%) \u2014 market confirming"
    ]
   },
   {
@@ -785,7 +786,7 @@
    "severity": 2,
    "signal": "high_risk_alert",
    "flags": [
-    "Drift against the favourite: 2.20 \u2192 2.40 (-8%) \u2014 money moving the other way"
+    "Drift against the favourite: 2.21 \u2192 3.40 (-35%) \u2014 money moving the other way"
    ]
   },
   {
@@ -796,17 +797,18 @@
    "signal": "high_risk_alert",
    "flags": [
     "Thin market: only 2 books quoting",
-    "Drift against the favourite: 2.05 \u2192 2.60 (-21%) \u2014 money moving the other way"
+    "Drift against the favourite: 2.15 \u2192 3.05 (-30%) \u2014 money moving the other way"
    ]
   },
   {
    "gameId": "ligue1:401876394",
    "match": "Lens @ Angers",
    "league": "Ligue 1",
-   "severity": 1,
-   "signal": "integrity_watch",
+   "severity": 2,
+   "signal": "high_risk_alert",
    "flags": [
-    "Thin market: only 2 books quoting"
+    "Thin market: only 2 books quoting",
+    "Drift against the favourite: 1.67 \u2192 1.91 (-13%) \u2014 money moving the other way"
    ]
   },
   {
@@ -850,16 +852,6 @@
    ]
   },
   {
-   "gameId": "ncaaf:401858537",
-   "match": "Illinois Fighting Illini @ Northwestern Wildcats",
-   "league": "NCAAF",
-   "severity": 1,
-   "signal": "integrity_watch",
-   "flags": [
-    "Steam: favourite shortened 1.71 \u2192 1.54 (+11%) \u2014 market confirming"
-   ]
-  },
-  {
    "gameId": "ncaaf:401856758",
    "match": "LSU Tigers @ Arkansas Razorbacks",
    "league": "NCAAF",
@@ -886,7 +878,7 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Steam: favourite shortened 1.88 \u2192 1.73 (+9%) \u2014 market confirming"
+    "Steam: favourite shortened 1.87 \u2192 1.73 (+8%) \u2014 market confirming"
    ]
   },
   {
@@ -968,7 +960,7 @@
    "severity": 1,
    "signal": "integrity_watch",
    "flags": [
-    "Steam: favourite shortened 2.20 \u2192 1.91 (+15%) \u2014 market confirming"
+    "Steam: favourite shortened 2.15 \u2192 1.91 (+13%) \u2014 market confirming"
    ]
   },
   {
@@ -1454,7 +1446,8 @@
    "signal": "high_risk_alert",
    "flags": [
     "Thin market: only 1 book quoting (low liquidity, less scrutiny)",
-    "Heavy favourite: a short price leaves little margin"
+    "Heavy favourite: a short price leaves little margin",
+    "Drift against the favourite: 1.04 \u2192 1.15 (-10%) \u2014 money moving the other way"
    ]
   },
   {
